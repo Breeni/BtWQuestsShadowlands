@@ -1,0 +1,21 @@
+## Interface: 80300
+## Title: BtWQuests: Shadowlands
+## Version: 46
+## Notes: Shadowlands quest data for BtWQuests
+## Author: Breen
+## Dependencies: BtWQuests
+## LoadOnDemand: 1
+## X-BtWQuests: Shadowlands
+## X-BtWQuests-Expansion: 8
+## X-BtWQuests-AutoLoad: 1
+## X-Part-Of: BtWQuests
+
+Defines.lua
+
+Localization.lua
+
+Quests.lua
+
+NPCs.lua
+
+Objects.lua
