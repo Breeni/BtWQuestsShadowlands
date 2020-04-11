@@ -5,8 +5,8 @@ BtWQuests.Constant.Chain.Shadowlands = BtWQuests.Constant.Chain.Shadowlands or {
 local Category = BtWQuests.Constant.Category.Shadowlands;
 local Chain = BtWQuests.Constant.Chain.Shadowlands;
 
-Category.Basion = 901
-Chain.Basion = {}
+Category.Bastion = 901
+Chain.Bastion = {}
 
 BtWQuests.Database:AddExpansion(BtWQuests.Constant.Expansions.Shadowlands, {
 })
