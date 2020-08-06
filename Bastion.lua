@@ -18,11 +18,11 @@ local LEVEL_PREREQUISITES = {
 }
 
 Chain.EternitysCall = 90101
-Chain.ChasingAMemory = 90102
-Chain.ByTheArchonsWill = 90103
-Chain.TheTempleOfCourage = 90104
-Chain.TheTempleOfPurity = 90105
-Chain.TheAspirantsCrucible = 90106
+Chain.TheAspirantsCrucible = 90102
+Chain.TheTempleOfPurity = 90103
+Chain.ChasingAMemory = 90104
+Chain.ByTheArchonsWill = 90105
+Chain.TheTempleOfCourage = 90106
 Chain.TempChain01 = 90111
 Chain.TempChain02 = 90112
 Chain.TempChain03 = 90113
@@ -54,152 +54,549 @@ Database:AddChain(Chain.EternitysCall, {
     },
     items = {
         {
+            type = "npc",
+            id = 166227,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
             id = 59774,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 57102,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 57584,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 60735,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 57261,
             x = 0,
             connections = {
-                1
-            }
+                1, 2, 
+            },
         },
         {
             type = "quest",
             id = 57676,
-            x = 0,
-            connections = {
-                1
-            }
+            aside = true,
+            x = -1,
         },
         {
             type = "quest",
             id = 57677,
+        },
+    },
+})
+Database:AddChain(Chain.TheAspirantsCrucible, {
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
+    questline = 1055,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    major = true,
+    prerequisites = {
+        {
+            type = "level",
+            level = 50,
+        },
+        {
+            type = "chain",
+            id = 90101,
+        },
+        {
+            type = "chain",
+            id = 90101,
+            upto = 57676,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 58174,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 165107,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.482014,
+                        y = 0.726004,
+                    },
+                },
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57709,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57710,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57711,
+            x = 0,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57263,
+            x = -2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57267,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57265,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59920,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57713,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57908,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57909,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57288,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57714,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57291,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57266,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 57715,
+                },
+                {
+                    type = "quest",
+                    id = 60217,
+                },
+                {
+                    type = "quest",
+                    id = 60218,
+                },
+                {
+                    type = "quest",
+                    id = 60219,
+                },
+                {
+                    type = "quest",
+                    id = 60220,
+                },
+                {
+                    type = "quest",
+                    id = 60221,
+                },
+                {
+                    type = "quest",
+                    id = 60222,
+                },
+                {
+                    type = "quest",
+                    id = 60223,
+                },
+                {
+                    type = "quest",
+                    id = 60224,
+                },
+                {
+                    type = "quest",
+                    id = 60225,
+                },
+                {
+                    type = "quest",
+                    id = 60226,
+                },
+                {
+                    type = "quest",
+                    id = 60229,
+                },
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58174,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TheTempleOfPurity, {
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 3),
+    questline = 1056,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    major = true,
+    prerequisites = {
+        {
+            type = "level",
+            level = 50,
+        },
+        {
+            type = "chain",
+            id = 90101,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = 90101,
+            upto = 57676,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = 90102,
+            x = 0,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 57447,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 157673,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57270,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57977,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57264,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57716,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57717,
+            x = 0,
+            connections = {
+                1, 2, 3, 4, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57037,
+            x = -3,
+            connections = {
+                4, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59147,
+            connections = {
+                3, 
+            },
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 57719,
+                },
+                {
+                    type = "quest",
+                    id = 60292,
+                },
+            },
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57444,
+            aside = true,
+        },
+        {
+            type = "quest",
+            id = 57446,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57269,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57447,
             x = 0,
         },
     },
 })
 Database:AddChain(Chain.ChasingAMemory, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
     questline = 1109,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 50,
+        },
+        {
+            type = "chain",
+            id = 90101,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = 90101,
+            upto = 57676,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = 90102,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = 90103,
+        },
+    },
     completed = {
         type = "quest",
         id = 60013,
     },
     items = {
         {
+            type = "npc",
+            id = 156238,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
             id = 58976,
             x = 0,
             connections = {
-                1
-            }
+                1, 2, 
+            },
         },
         {
             type = "quest",
             id = 58771,
-            x = 0,
+            x = -1,
             connections = {
-                1
-            }
+                2, 
+            },
         },
         {
             type = "quest",
             id = 58799,
-            x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58800,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58977,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58978,
             x = 0,
             connections = {
-                1
-            }
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59015,
+            aside = true,
         },
         {
             type = "quest",
             id = 58979,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58980,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58843,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 60180,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
@@ -209,49 +606,95 @@ Database:AddChain(Chain.ChasingAMemory, {
     },
 })
 Database:AddChain(Chain.ByTheArchonsWill, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 3),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 5),
     questline = 1068,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 50,
+        },
+        {
+            type = "chain",
+            id = 90101,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = 90101,
+            upto = 57676,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = 90102,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = 90103,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = 90104,
+        },
+    },
     completed = {
         type = "quest",
         id = 59200,
     },
     items = {
         {
+            type = "npc",
+            id = 167038,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
             id = 59196,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59426,
+            x = 0,
+            connections = {
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59197,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59198,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59199,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
@@ -261,422 +704,167 @@ Database:AddChain(Chain.ByTheArchonsWill, {
     },
 })
 Database:AddChain(Chain.TheTempleOfCourage, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 6),
     questline = 1066,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 50,
+        },
+        {
+            type = "chain",
+            id = 90101,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = 90101,
+            upto = 57676,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = 90102,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = 90103,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = 90104,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = 90105,
+        },
+    },
     completed = {
         type = "quest",
         id = 60055,
     },
     items = {
         {
+            type = "npc",
+            id = 160037,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
             id = 60005,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 60006,
             x = 0,
             connections = {
-                1
-            }
+                1, 2, 3, 
+            },
         },
         {
             type = "quest",
             id = 60007,
-            x = 0,
+            x = -2,
             connections = {
-                1
-            }
+                3, 4, 
+            },
         },
         {
             type = "quest",
             id = 60008,
-            x = 0,
             connections = {
-                1
-            }
+                2, 3, 
+            },
         },
         {
             type = "quest",
             id = 60009,
-            x = 0,
             connections = {
-                1
-            }
+                1, 2, 
+            },
         },
         {
             type = "quest",
             id = 60052,
-            x = 0,
+            x = -1,
             connections = {
-                1
-            }
+                2, 
+            },
         },
         {
             type = "quest",
             id = 60053,
-            x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 60054,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 60055,
             x = 0,
-        },
-    },
-})
-Database:AddChain(Chain.TheTempleOfPurity, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 5),
-    questline = 1056,
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    major = true,
-    prerequisites = LEVEL_PREREQUISITES,
-    completed = {
-        type = "quest",
-        id = 57447,
-    },
-    items = {
-        {
-            type = "quest",
-            id = 57270,
-            x = 0,
             connections = {
-                1
-            }
+                1, 2, 
+            },
         },
         {
             type = "quest",
-            id = 57977,
-            x = 0,
+            id = 60056,
+            aside = true,
+            x = -1,
             connections = {
-                1
-            }
+                2, 
+            },
         },
         {
             type = "quest",
-            id = 57264,
-            x = 0,
+            id = 60057,
+            aside = true,
+        },
+        {
+            type = "quest",
+            id = 61096,
+            aside = true,
+            x = -1,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
-            id = 57716,
-            x = 0,
+            id = 61107,
+            aside = true,
+            x = -1,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
-            id = 57717,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57037,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 59147,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57719,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 60292,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57446,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57269,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57447,
-            x = 0,
-        },
-    },
-})
-Database:AddChain(Chain.TheAspirantsCrucible, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 6),
-    questline = 1055,
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    major = true,
-    prerequisites = LEVEL_PREREQUISITES,
-    completed = {
-        type = "quest",
-        id = 58174,
-    },
-    items = {
-        {
-            type = "quest",
-            id = 57709,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57710,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57711,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57263,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57267,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57265,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 59920,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57713,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57908,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57909,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57288,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57714,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57291,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57266,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57715,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 60217,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 60218,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 60219,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 60220,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 60221,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 60222,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 60223,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 60224,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 60225,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 60226,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 60229,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 58174,
-            x = 0,
+            id = 57386,
+            aside = true,
+            x = -1,
         },
     },
 })
@@ -955,19 +1143,6 @@ Database:AddChain(Chain.TempChain10, {
         id = 61096,
     },
     items = {
-        {
-            type = "quest",
-            id = 60056,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 61096,
-            x = 0,
-        },
     },
 })
 Database:AddChain(Chain.TempChain11, {
@@ -1102,10 +1277,6 @@ Database:AddChain(Chain.OtherBoth, {
         { -- Lysonia's Plan
             type = "quest",
             id = 57207,
-        },
-        { -- An Inspired Moral Inventory
-            type = "quest",
-            id = 57444,
         },
         { -- Disturbing the Peace
             type = "quest",
@@ -1327,10 +1498,6 @@ Database:AddChain(Chain.OtherBoth, {
             type = "quest",
             id = 59015,
         },
-        { -- Your Personal Assistant
-            type = "quest",
-            id = 59426,
-        },
         { -- A Fine Journey
             type = "quest",
             id = 59554,
@@ -1346,10 +1513,6 @@ Database:AddChain(Chain.OtherBoth, {
         { -- Seek the Ascended
             type = "quest",
             id = 59773,
-        },
-        { -- Necrotic Wake: A Paragon's Plight
-            type = "quest",
-            id = 60057,
         },
         { -- Stranger in an Even Stranger Land
             type = "quest",
@@ -1444,6 +1607,14 @@ Database:AddCategory(CATEGORY_ID, {
         },
         {
             type = "chain",
+            id = Chain.TheAspirantsCrucible,
+        },
+        {
+            type = "chain",
+            id = Chain.TheTempleOfPurity,
+        },
+        {
+            type = "chain",
             id = Chain.ChasingAMemory,
         },
         {
@@ -1453,14 +1624,6 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.TheTempleOfCourage,
-        },
-        {
-            type = "chain",
-            id = Chain.TheTempleOfPurity,
-        },
-        {
-            type = "chain",
-            id = Chain.TheAspirantsCrucible,
         },
         {
             type = "chain",
