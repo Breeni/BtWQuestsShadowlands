@@ -42,6 +42,7 @@ Chain.OtherBoth = 90199
 
 Database:AddChain(Chain.EternitysCall, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 1),
+    questline = 1001,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -109,6 +110,7 @@ Database:AddChain(Chain.EternitysCall, {
 })
 Database:AddChain(Chain.ChasingAMemory, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
+    questline = 1109,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -208,6 +210,7 @@ Database:AddChain(Chain.ChasingAMemory, {
 })
 Database:AddChain(Chain.ByTheArchonsWill, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 3),
+    questline = 1068,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -259,6 +262,7 @@ Database:AddChain(Chain.ByTheArchonsWill, {
 })
 Database:AddChain(Chain.TheTempleOfCourage, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
+    questline = 1066,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -342,6 +346,7 @@ Database:AddChain(Chain.TheTempleOfCourage, {
 })
 Database:AddChain(Chain.TheTempleOfPurity, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 5),
+    questline = 1056,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -449,6 +454,7 @@ Database:AddChain(Chain.TheTempleOfPurity, {
 })
 Database:AddChain(Chain.TheAspirantsCrucible, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 6),
+    questline = 1055,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1077,10 +1083,6 @@ Database:AddChain(Chain.OtherBoth, {
             type = "quest",
             id = 57118,
         },
-        {
-            type = "quest",
-            id = 57119,
-        },
         { -- Compassion, Blade of Humility
             type = "quest",
             id = 57120,
@@ -1341,9 +1343,45 @@ Database:AddChain(Chain.OtherBoth, {
             type = "quest",
             id = 59771,
         },
+        { -- Seek the Ascended
+            type = "quest",
+            id = 59773,
+        },
         { -- Necrotic Wake: A Paragon's Plight
             type = "quest",
             id = 60057,
+        },
+        { -- Stranger in an Even Stranger Land
+            type = "quest",
+            id = 60129,
+        },
+        { -- No Place for the Living
+            type = "quest",
+            id = 60148,
+        },
+        { -- Audience with the Arbiter
+            type = "quest",
+            id = 60149,
+        },
+        { -- Tether to Home
+            type = "quest",
+            id = 60150,
+        },
+        { -- A Doorway Through the Veil
+            type = "quest",
+            id = 60151,
+        },
+        { -- The Eternal City
+            type = "quest",
+            id = 60152,
+        },
+        { -- Understanding the Shadowlands
+            type = "quest",
+            id = 60154,
+        },
+        { -- The Path to Bastion
+            type = "quest",
+            id = 60156,
         },
         { -- Newfound Power
             type = "quest",
@@ -1631,6 +1669,10 @@ Database:AddQuestsTable({
         name = "Step Back From That Ledge, My Friend",
         contentTuningID = 743,
     },
+    [59773] = {
+        name = "Seek the Ascended",
+        contentTuningID = 807,
+    },
     [60052] = {
         name = "Double Tap",
         contentTuningID = 1324,
@@ -1658,6 +1700,14 @@ Database:AddQuestsTable({
     [58857] = {
         name = "Seeds Away!",
         contentTuningID = 837,
+    },
+    [60148] = {
+        name = "No Place for the Living",
+        contentTuningID = 807,
+    },
+    [60156] = {
+        name = "The Path to Bastion",
+        contentTuningID = 807,
     },
     [60929] = {
         name = "Air Supremacy",
@@ -1727,6 +1777,10 @@ Database:AddQuestsTable({
         name = "Agthia's Path",
         contentTuningID = 743,
     },
+    [60149] = {
+        name = "Audience with the Arbiter",
+        contentTuningID = 807,
+    },
     [57113] = {
         name = "On Lysonia's Trail",
         contentTuningID = 1388,
@@ -1794,6 +1848,10 @@ Database:AddQuestsTable({
     [57584] = {
         name = "A Fate Most Noble",
         contentTuningID = 743,
+    },
+    [60150] = {
+        name = "Tether to Home",
+        contentTuningID = 807,
     },
     [57114] = {
         name = "Aerial Reconnaissance",
@@ -1863,6 +1921,10 @@ Database:AddQuestsTable({
         name = "Pride or Unit",
         contentTuningID = 743,
     },
+    [60151] = {
+        name = "A Doorway Through the Veil",
+        contentTuningID = 807,
+    },
     [59147] = {
         name = "The Hand of Purification",
         contentTuningID = 743,
@@ -1879,6 +1941,14 @@ Database:AddQuestsTable({
         name = "Your Personal Assistant",
         contentTuningID = 743,
     },
+    [57386] = {
+        name = "If You Want Peace...",
+        contentTuningID = 1325,
+    },
+    [58843] = {
+        name = "The Vault of the Archon",
+        contentTuningID = 743,
+    },
     [58175] = {
         name = "The Eternal Forge",
         contentTuningID = 1388,
@@ -1891,9 +1961,13 @@ Database:AddQuestsTable({
         name = "Superior Programming",
         contentTuningID = 743,
     },
-    [57386] = {
-        name = "If You Want Peace...",
-        contentTuningID = 1325,
+    [58182] = {
+        name = "Dismantling the Opposition",
+        contentTuningID = 1388,
+    },
+    [60220] = {
+        name = "The Archon's Answer",
+        contentTuningID = 743,
     },
     [58980] = {
         name = "Mnemis, At Your Service",
@@ -1971,9 +2045,9 @@ Database:AddQuestsTable({
         name = "The Blue Seed",
         contentTuningID = 837,
     },
-    [58182] = {
-        name = "Dismantling the Opposition",
-        contentTuningID = 1388,
+    [60152] = {
+        name = "The Eternal City",
+        contentTuningID = 807,
     },
     [58796] = {
         name = "The Forsworn Onslaught",
@@ -2087,9 +2161,9 @@ Database:AddQuestsTable({
         name = "Stewards of a Feather",
         contentTuningID = 1388,
     },
-    [60220] = {
-        name = "The Archon's Answer",
-        contentTuningID = 743,
+    [60129] = {
+        name = "Stranger in an Even Stranger Land",
+        contentTuningID = 807,
     },
     [57207] = {
         name = "Lysonia's Plan",
@@ -2227,9 +2301,9 @@ Database:AddQuestsTable({
         name = "Her Will, Inflicted",
         contentTuningID = 1388,
     },
-    [58843] = {
-        name = "The Vault of the Archon",
-        contentTuningID = 743,
+    [60154] = {
+        name = "Understanding the Shadowlands",
+        contentTuningID = 807,
     },
     [57102] = {
         name = "Pardon Our Dust",
