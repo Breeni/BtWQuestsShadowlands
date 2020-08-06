@@ -47,7 +47,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             },
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -55,7 +55,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59751,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -63,7 +63,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59752,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -71,7 +71,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59907,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -79,7 +79,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59753,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -87,7 +87,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59914,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -95,7 +95,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59754,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -103,7 +103,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59755,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -111,7 +111,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59756,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -119,7 +119,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59757,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -127,7 +127,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59758,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -135,7 +135,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59915,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -143,7 +143,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59759,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -151,14 +151,14 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59760,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 59761,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -166,7 +166,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59776,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -174,7 +174,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59762,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -182,14 +182,14 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59765,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 59766,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -197,7 +197,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 60644,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -205,7 +205,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59767,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -213,7 +213,7 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59770,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -254,7 +254,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlands, {
             id = 90001,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -262,7 +262,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlands, {
             id = 60129,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -270,7 +270,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlands, {
             id = 60148,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -278,7 +278,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlands, {
             id = 60149,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -286,7 +286,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlands, {
             id = 60150,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -294,7 +294,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlands, {
             id = 60151,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -302,7 +302,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlands, {
             id = 60152,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -310,7 +310,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlands, {
             id = 60154,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -318,7 +318,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlands, {
             id = 60156,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
