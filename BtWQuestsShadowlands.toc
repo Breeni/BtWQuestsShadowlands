@@ -19,3 +19,5 @@ Quests.lua
 NPCs.lua
 
 Objects.lua
+
+Ardenweald.lua
