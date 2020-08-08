@@ -297,6 +297,30 @@ BtWQuestsDatabase:AddQuestsTable({
             id = 158542,
         },
     },
+    [57471] = {
+        name = "It's a Dirty Job",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 157846,
+        },
+    },
+    [57474] = {
+        name = "Dredger Duty",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 157846,
+        },
+    },
+    [57481] = {
+        name = "Running a Muck",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 158001,
+        },
+    },
     [57689] = {
         name = "Prince Renathal",
         contentTuningID = 746,
@@ -345,6 +369,30 @@ BtWQuestsDatabase:AddQuestsTable({
             id = 169105,
         },
     },
+    [57876] = {
+        name = "The End of the Beginning",
+        contentTuningID = 746,
+        source = {
+            type = "npc",
+            id = 165557,
+        },
+    },
+    [57877] = {
+        name = "The Looming Dark",
+        contentTuningID = 807,
+        source = {
+            type = "npc",
+            id = 159478,
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.389027,
+                        y = 0.699924,
+                    },
+                },
+            },
+        },
+    },
     [58084] = {
         name = "Soul Snares",
         contentTuningID = 837,
@@ -355,6 +403,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172673,
+        },
+    },
+    [58272] = {
+        name = "Words Have Power",
+        contentTuningID = 0,
+        source = {
+            type = "object",
+            id = 352490,
         },
     },
     [58433] = {
@@ -485,6 +541,110 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [59710] = {
+        name = "A Curious Invitation",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 165859,
+        },
+    },
+    [59712] = {
+        name = "The Lay of the Land",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 169238,
+        },
+    },
+    [59713] = {
+        name = "Active Ingredients",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 165864,
+        },
+    },
+    [59714] = {
+        name = "A Fine Vintage",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 165864,
+        },
+    },
+    [59715] = {
+        name = "Message for Matyas",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 165864,
+        },
+    },
+    [59716] = {
+        name = "Comfortably Numb",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 166081,
+        },
+    },
+    [59724] = {
+        name = "The Field of Honor",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 165864,
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.602049,
+                        y = 0.693184,
+                    },
+                },
+            },
+        },
+    },
+    [59726] = {
+        name = "It's a Trap",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 166616,
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.60211,
+                        y = 0.786317,
+                    },
+                },
+            },
+        },
+    },
+    [59846] = {
+        name = "Finders-Keepers, Sinners-Weepers",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 165864,
+        },
+    },
+    [59868] = {
+        name = "Offer of Freedom",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 165864,
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.602049,
+                        y = 0.693184,
+                    },
+                },
+            },
+        },
+    },
     [59902] = {
         name = "A Curious Cache",
         contentTuningID = 837,
@@ -497,6 +657,30 @@ BtWQuestsDatabase:AddQuestsTable({
             id = 156822,
         },
     },
+    [60177] = {
+        name = "Reason for the Treason",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 167489,
+        },
+    },
+    [60178] = {
+        name = "And Then There Were None",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 167489,
+        },
+    },
+    [60277] = {
+        name = "WANTED: Aggregate of Doom",
+        contentTuningID = 0,
+        source = {
+            type = "object",
+            id = 351885,
+        },
+    },
     [60313] = {
         name = "Dredhollow",
         contentTuningID = 746,
@@ -505,12 +689,36 @@ BtWQuestsDatabase:AddQuestsTable({
             id = 156554,
         },
     },
+    [60480] = {
+        name = "The Endmire",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 168618,
+        },
+    },
+    [60487] = {
+        name = "It Used to Be Quiet Here",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 168698,
+        },
+    },
     [60506] = {
         name = "The Accuser",
         contentTuningID = 746,
         source = {
             type = "npc",
             id = 156499,
+        },
+    },
+    [60509] = {
+        name = "Not My Job",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 158057,
         },
     },
     [60566] = {

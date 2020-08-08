@@ -232,6 +232,39 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [157846] = {
+        name = "Rendle",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.725668,
+                    y = 0.732089,
+                },
+            },
+        },
+    },
+    [158001] = {
+        name = "Bootus",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.728382,
+                    y = 0.739123,
+                },
+            },
+        },
+    },
+    [158057] = {
+        name = "Rendle",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.675421,
+                    y = 0.685292,
+                },
+            },
+        },
+    },
     [158542] = {
         name = "Theotar",
         locations = {
@@ -364,6 +397,72 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [165557] = {
+        name = "Prince Renathal",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.502866,
+                    y = 0.282843,
+                },
+            },
+        },
+    },
+    [165859] = {
+        name = "Dimwiddle",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.607108,
+                    y = 0.625047,
+                },
+            },
+        },
+    },
+    [165864] = {
+        name = "Nadjia the Mistblade",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.598913,
+                    y = 0.688947,
+                },
+            },
+        },
+    },
+    [166081] = {
+        name = "Taskmaster Matyas",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.601709,
+                    y = 0.694482,
+                },
+            },
+        },
+    },
+    [166616] = {
+        name = "Nadjia the Mistblade",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.602029,
+                    y = 0.786296,
+                },
+            },
+        },
+    },
+    [167489] = {
+        name = "Lajos",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.622171,
+                    y = 0.613586,
+                },
+            },
+        },
+    },
     [168217] = {
         name = "The Accuser",
         locations = {
@@ -386,6 +485,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [168618] = {
+        name = "Tessle the Snitch",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.651153,
+                    y = 0.635225,
+                },
+            },
+        },
+    },
     [168664] = {
         name = "The Fearstalker",
         locations = {
@@ -393,6 +503,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.478697,
                     y = 0.701277,
+                },
+            },
+        },
+    },
+    [168698] = {
+        name = "Chiselgrump",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.695288,
+                    y = 0.533707,
                 },
             },
         },
@@ -415,6 +536,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.304184,
                     y = 0.45608,
+                },
+            },
+        },
+    },
+    [169238] = {
+        name = "Courier Araak",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.59492,
+                    y = 0.667429,
                 },
             },
         },
