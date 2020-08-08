@@ -24,6 +24,17 @@ Chain.TheRebellion = 90404
 Chain.SecuringSinfall = 90405
 Chain.ThePrinceAndTheTower = 90406
 Chain.MenagerieOfTheMaster = 90407
+
+Chain.Chain01 = 90411
+Chain.Chain02 = 90412
+Chain.Chain03 = 90413
+Chain.Chain04 = 90414
+Chain.Chain05 = 90415
+Chain.Chain06 = 90416
+Chain.Chain07 = 90417
+Chain.Chain08 = 90418
+Chain.Chain09 = 90419
+
 Chain.OtherAlliance = 90497
 Chain.OtherHorde = 90498
 Chain.OtherBoth = 90499
@@ -62,8 +73,14 @@ Database:AddChain(Chain.WelcomeToRevendreth, {
             id = 57026,
             x = 0,
             connections = {
-                1, 
+                2, 
             },
+        },
+        {
+            type = "chain",
+            id = 90411,
+            embed = true,
+            x = -3,
         },
         {
             type = "quest",
@@ -78,28 +95,41 @@ Database:AddChain(Chain.WelcomeToRevendreth, {
             id = 56829,
             x = -1,
             connections = {
-                2, 
+                3, 
             },
         },
         {
             type = "quest",
             id = 57381,
             connections = {
-                1, 
+                2, 
             },
+        },
+        {
+            type = "quest",
+            id = 60509,
+            x = -3,
+            comment = "breadcrumb",
         },
         {
             type = "quest",
             id = 56942,
             x = 0,
             connections = {
-                1, 2, 
+                2, 3, 
             },
+        },
+        {
+            type = "chain",
+            id = 90413,
+            embed = true,
+            x = 3,
         },
         {
             type = "quest",
             id = 56955,
             x = -1,
+            y = 6,
             connections = {
                 2, 
             },
@@ -217,13 +247,21 @@ Database:AddChain(Chain.TheAccusersSecret, {
             id = 57173,
             x = 0,
             connections = {
-                1, 2, 
+                2, 3, 
             },
+        },
+        {
+            type = "chain",
+            id = 90417,
+            aside = true,
+            embed = true,
+            x = 3,
         },
         {
             type = "quest",
             id = 58931,
             x = -1,
+            y = 4,
             connections = {
                 2, 
             },
@@ -675,6 +713,289 @@ Database:AddChain(Chain.MenagerieOfTheMaster, {
         },
     },
 })
+Database:AddChain(Chain.Chain01, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "npc",
+            id = 168618,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60480,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain02, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 60509,
+                    restrictions = {
+                        type = "quest",
+                        id = 60509,
+                        status = {
+                            "active",
+                            "completed",
+                        },
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 157846,
+                },
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57471,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57474,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57481,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain03, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "object",
+            id = 352490,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58272,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain04, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "The Stoneborn?",
+            type = "quest",
+            id = 57174,
+        },
+        {
+            type = "npc",
+            id = 165859,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59710,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59712,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59846,
+            x = 0,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "chain",
+            id = 90416,
+            aside = true,
+            embed = true,
+            x = 3,
+        },
+        {
+            type = "quest",
+            id = 59713,
+            x = -1,
+            y = 5,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59714,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59715,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59716,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59724,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59868,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59726,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain05, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "The Stoneborn?",
+            type = "quest",
+            id = 57174,
+        },
+        {
+            type = "npc",
+            id = 167489,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60177,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60178,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain06, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "object",
+            id = 351885,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60277,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain07, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "npc",
+            id = 168698,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60487,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain08, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+    },
+})
+Database:AddChain(Chain.Chain09, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+    },
+})
+
 Database:AddChain(Chain.OtherAlliance, {
     name = "Other Alliance",
     category = CATEGORY_ID,
