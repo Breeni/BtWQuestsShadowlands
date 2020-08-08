@@ -654,6 +654,24 @@ Database:AddChain(Chain.MenagerieOfTheMaster, {
             type = "quest",
             id = 58086,
             x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57876,
+            aside = true,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57877,
+            aside = true,
+            x = 0,
         },
     },
 })
