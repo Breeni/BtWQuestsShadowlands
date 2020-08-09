@@ -506,13 +506,10 @@ Database:AddChain(Chain.Torghast, {
     },
     completed = {
         type = "quest",
-        id = 60134,
+        ids = {60272, 61730},
+        count = 2,
     },
     items = {
-        {
-            type = "quest",
-            id = 60134,
-        },
         {
             type = "npc",
             id = 164079,
@@ -526,7 +523,7 @@ Database:AddChain(Chain.Torghast, {
             id = 60136,
             x = 0,
             connections = {
-                1, 
+                1, 2, 
             },
         },
         {
@@ -534,7 +531,14 @@ Database:AddChain(Chain.Torghast, {
             id = 61099,
             x = -1,
             connections = {
-                1, 
+                2, 
+            },
+        },
+        {
+            type = "kill",
+            id = 151329,
+            connections = {
+                2, 
             },
         },
         {
@@ -623,9 +627,11 @@ Database:AddChain(Chain.Torghast, {
         {
             type = "quest",
             id = 60272,
-            connections = {
-                2, 
-            },
+        },
+        {
+            type = "quest",
+            id = 61730,
+            x = -1,
         },
     },
 })
