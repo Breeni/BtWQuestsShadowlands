@@ -47,7 +47,16 @@ Database:AddChain(Chain.EternitysCall, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 50,
+        },
+        {
+            type = "chain",
+            ids = {90002, 900003}
+        },
+    },
     completed = {
         type = "quest",
         id = 57677,
@@ -55,7 +64,15 @@ Database:AddChain(Chain.EternitysCall, {
     items = {
         {
             type = "npc",
-            id = 166227,
+            id = 164579,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59773,
             x = 0,
             connections = {
                 1, 
