@@ -496,15 +496,6 @@ Database:AddChain(Chain.AwakenTheDreamer, {
             id = 58724,
             aside = true,
             x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57025,
-            aside = true,
-            x = 0,
         },
     },
 })
