@@ -57,7 +57,20 @@ Database:AddChain(Chain.TheImpossiblePlan, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 4,
+        },
+        {
+            type = "renown",
+            level = 4,
+        },
+    },
     completed = {
         type = "quest",
         id = 57648,
