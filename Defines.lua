@@ -43,7 +43,7 @@ do
             return ItemMixin.GetName(self, database, item, character);
         end
 
-        return C_Covenants.GetCovenantData(self.id).name;
+        return C_Covenants.GetCovenantData(item.id).name;
     end
     function CovenantItem:IsActive(database, item, character)
         if self:IsCompleted(database, item, character) then
