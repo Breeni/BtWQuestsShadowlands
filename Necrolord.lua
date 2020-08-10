@@ -13,6 +13,10 @@ local LEVEL_PREREQUISITES = {
         type = "level",
         level = 60,
     },
+    {
+        type = "covenant",
+        id = 4,
+    },
 }
 
 Chain.ChampionOfPain = 90701
