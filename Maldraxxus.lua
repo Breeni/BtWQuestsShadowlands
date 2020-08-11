@@ -861,15 +861,6 @@ Database:AddChain(Chain.TheEmptyThrone, {
             id = 61716,
             aside = true,
             x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60338,
-            aside = true,
-            x = 0,
         },
     },
 })
