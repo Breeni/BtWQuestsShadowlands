@@ -614,14 +614,26 @@ BtWQuestsDatabase:AddQuestsTable({
     [57538] = {
         name = "Disturbing the Peace",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158004,
+        },
     },
     [57545] = {
-        name = "Kala's Playthings",
+        name = "Distractions for Kala",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158004,
+        },
     },
     [57547] = {
-        name = "Fetch the Staff",
+        name = "A Test of Courage",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158004,
+        },
     },
     [57549] = {
         name = "In Agthia's Memory",
@@ -634,26 +646,58 @@ BtWQuestsDatabase:AddQuestsTable({
     [57551] = {
         name = "Agthia's Path",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158078,
+        },
     },
     [57552] = {
         name = "Warriors of the Void",
-        contentTuningID = 743,
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 158181,
+        },
     },
     [57553] = {
         name = "On Wounded Wings",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158178,
+        },
     },
     [57554] = {
         name = "Wicked Gateways",
-        contentTuningID = 743,
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 158181,
+        },
     },
     [57555] = {
         name = "Shadow's Fall",
-        contentTuningID = 743,
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 158181,
+        },
     },
     [57568] = {
         name = "Tough Love",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158004,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.512062,
+                        y = 0.568011,
+                    },
+                },
+            },
+        },
     },
     [57584] = {
         name = "A Fate Most Noble",
@@ -778,6 +822,10 @@ BtWQuestsDatabase:AddQuestsTable({
     [57712] = {
         name = "Suggested Reading",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 166738,
+        },
     },
     [57713] = {
         name = "The Work of One's Hands",
@@ -981,22 +1029,42 @@ BtWQuestsDatabase:AddQuestsTable({
     [57933] = {
         name = "We Can Rebuild Him",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158765,
+        },
     },
     [57934] = {
         name = "Combat Drills",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158765,
+        },
     },
     [57935] = {
         name = "Laser Location",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158765,
+        },
     },
     [57936] = {
         name = "Superior Programming",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 159609,
+        },
     },
     [57937] = {
         name = "Tactical Formation",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158765,
+        },
     },
     [57947] = {
         name = "Spirits of the Glen",
@@ -1205,18 +1273,34 @@ BtWQuestsDatabase:AddQuestsTable({
     [58038] = {
         name = "All Natural Chews",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 157696,
+        },
     },
     [58039] = {
         name = "Larion at Large",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 157696,
+        },
     },
     [58040] = {
         name = "With Lance and Larion",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 157696,
+        },
     },
     [58041] = {
         name = "Providing for the Pack",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 157696,
+        },
     },
     [58042] = {
         name = "On Larion Wings",
@@ -1265,42 +1349,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-    },
-    [58175] = {
-        name = "The Eternal Forge",
-        contentTuningID = 1388,
-    },
-    [58176] = {
-        name = "Stewards of a Feather",
-        contentTuningID = 1388,
-    },
-    [58177] = {
-        name = "Refining Ego",
-        contentTuningID = 1388,
-    },
-    [58178] = {
-        name = "A Partner for Eternity",
-        contentTuningID = 1388,
-    },
-    [58179] = {
-        name = "Instruments of Perfection",
-        contentTuningID = 1388,
-    },
-    [58180] = {
-        name = "Phaestus, Genesis of Aeons",
-        contentTuningID = 1388,
-    },
-    [58181] = {
-        name = "Building the Base",
-        contentTuningID = 1388,
-    },
-    [58182] = {
-        name = "Dismantling the Opposition",
-        contentTuningID = 1388,
-    },
-    [58183] = {
-        name = "Friend to the Forgelite",
-        contentTuningID = 1388,
     },
     [58184] = {
         name = "Antiquated Methodology",
@@ -1637,54 +1685,6 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 167034,
         },
-    },
-    [58775] = {
-        name = "Meet the Queen",
-        contentTuningID = 837,
-    },
-    [58787] = {
-        name = "Trial of Ascension",
-        contentTuningID = 837,
-    },
-    [58788] = {
-        name = "Censers of Guidance",
-        contentTuningID = 837,
-    },
-    [58789] = {
-        name = "Misguiding Mentors",
-        contentTuningID = 837,
-    },
-    [58790] = {
-        name = "To Cross the Veil",
-        contentTuningID = 837,
-    },
-    [58791] = {
-        name = "A Day in the Life",
-        contentTuningID = 837,
-    },
-    [58792] = {
-        name = "Where a Soul Belongs",
-        contentTuningID = 837,
-    },
-    [58793] = {
-        name = "Faith Through the Darkness",
-        contentTuningID = 837,
-    },
-    [58795] = {
-        name = "Ascended",
-        contentTuningID = 837,
-    },
-    [58796] = {
-        name = "The Forsworn Onslaught",
-        contentTuningID = 837,
-    },
-    [58797] = {
-        name = "Forged by Trial",
-        contentTuningID = 837,
-    },
-    [58798] = {
-        name = "The Spires of Ascension",
-        contentTuningID = 837,
     },
     [58799] = {
         name = "The Prime's Directive",
@@ -3291,6 +3291,10 @@ BtWQuestsDatabase:AddQuestsTable({
     [60366] = {
         name = "WANTED: Darkwing",
         contentTuningID = 1323,
+        source = {
+            type = "object",
+            id = 352027,
+        },
     },
     [60428] = {
         name = "The Blade of the Primus",
@@ -3657,7 +3661,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 743,
         source = {
             type = "npc",
-            id = 165107,
+            id = 160598,
         },
     },
     [60737] = {
@@ -3829,7 +3833,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 1324,
         source = {
             type = "npc",
-            id = 171338,
+            id = 165107,
         },
     },
     [61135] = {
