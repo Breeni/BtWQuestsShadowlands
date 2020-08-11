@@ -57,6 +57,11 @@ Database:AddChain(Chain.EternitysCall, {
             ids = {90002, 900003}
         },
     },
+    active = {
+        type = "quest",
+        id = 59773,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 57677,
