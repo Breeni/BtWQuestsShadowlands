@@ -57,6 +57,11 @@ Database:AddChain(Chain.EternitysCall, {
             ids = {90002, 900003}
         },
     },
+    active = {
+        type = "quest",
+        id = 59773,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 57677,
@@ -392,21 +397,20 @@ Database:AddChain(Chain.TheTempleOfPurity, {
             id = 57270,
             x = 0,
             connections = {
-                1, 
+                1, 2
             },
         },
         {
             type = "quest",
             id = 57977,
-            x = 0,
+            x = -1,
             connections = {
-                1, 
+                2, 
             },
         },
         {
             type = "quest",
             id = 57264,
-            x = 0,
             connections = {
                 1, 
             },
