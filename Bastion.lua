@@ -875,19 +875,6 @@ Database:AddChain(Chain.TempChain01, {
         id = 58793,
     },
     items = {
-        {
-            type = "quest",
-            id = 58792,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 58793,
-            x = 0,
-        },
     },
 })
 Database:AddChain(Chain.TempChain02, {
@@ -900,35 +887,6 @@ Database:AddChain(Chain.TempChain02, {
         id = 58798,
     },
     items = {
-        {
-            type = "quest",
-            id = 58795,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 58796,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 58797,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 58798,
-            x = 0,
-        },
     },
 })
 Database:AddChain(Chain.TempChain03, {
@@ -941,19 +899,6 @@ Database:AddChain(Chain.TempChain03, {
         id = 57125,
     },
     items = {
-        {
-            type = "quest",
-            id = 57124,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57125,
-            x = 0,
-        },
     },
 })
 Database:AddChain(Chain.TempChain04, {
@@ -966,35 +911,6 @@ Database:AddChain(Chain.TempChain04, {
         id = 58183,
     },
     items = {
-        {
-            type = "quest",
-            id = 58180,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 58178,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 58182,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 58183,
-            x = 0,
-        },
     },
 })
 Database:AddChain(Chain.TempChain05, {
@@ -1004,20 +920,74 @@ Database:AddChain(Chain.TempChain05, {
     range = LEVEL_RANGE,
     completed = {
         type = "quest",
-        id = 58037,
+        id = 58042,
     },
     items = {
         {
-            type = "quest",
-            id = 58184,
+            variations = {
+                {
+                    type = "quest",
+                    id = 58184,
+                    restrictions = {
+                        type = "quest",
+                        id = 58184,
+                        status = {
+                            "active",
+                            "completed",
+                        },
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 157696,
+                },
+            },
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58037,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58038,
+            x = -1,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58039,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58040,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58041,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58042,
             x = 0,
         },
     },
@@ -1029,28 +999,96 @@ Database:AddChain(Chain.TempChain06, {
     range = LEVEL_RANGE,
     completed = {
         type = "quest",
-        id = 58571,
+        id = 57937,
     },
     items = {
         {
             type = "quest",
-            id = 58569,
+            id = 58185,
             x = 0,
+            visible = {
+                type = "quest",
+                id = 58185,
+                status = {'active', 'completed'}
+            },
             connections = {
-                1
-            }
+                3, 4
+            },
+        },
+        {
+            type = "npc",
+            id = 158765,
+            x = -1,
+            y = 0,
+            visible = {
+                type = "quest",
+                id = 58185,
+                status = {'pending'}
+            },
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "npc",
+            id = 159609,
+            visible = {
+                type = "quest",
+                id = 58185,
+                status = {'pending'}
+            },
+            connections = {
+                2, 
+            },
         },
         {
             type = "quest",
-            id = 58570,
-            x = 0,
+            id = 57931,
+            x = -1,
             connections = {
-                1
-            }
+                2, 
+            },
         },
         {
             type = "quest",
-            id = 58571,
+            id = 57932,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57933,
+            x = 0,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57934,
+            x = -2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57935,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57936,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57937,
             x = 0,
         },
     },
@@ -1060,22 +1098,38 @@ Database:AddChain(Chain.TempChain07, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "chain",
+            id = 90115,
+        },
+        {
+            type = "chain",
+            id = 90116,
+        },
+    },
     completed = {
         type = "quest",
-        id = 61135,
+        ids = {
+            60296, 58103, 
+        },
     },
     items = {
         {
-            type = "quest",
-            id = 58997,
+            type = "npc",
+            ids = {
+                157696, 158765, 
+            },
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
-            id = 61135,
+            ids = {
+                60296, 58103, 
+            },
             x = 0,
         },
     },
@@ -1090,19 +1144,6 @@ Database:AddChain(Chain.TempChain08, {
         id = 58788,
     },
     items = {
-        {
-            type = "quest",
-            id = 58787,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 58788,
-            x = 0,
-        },
     },
 })
 Database:AddChain(Chain.TempChain09, {
@@ -1115,31 +1156,36 @@ Database:AddChain(Chain.TempChain09, {
         id = 57386,
     },
     items = {
-        {
-            type = "quest",
-            id = 61107,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57386,
-            x = 0,
-        },
     },
 })
 Database:AddChain(Chain.TempChain10, {
-    name = "The Arbiter's Will",
+    name = "Hero's Rest Wanted",
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     completed = {
         type = "quest",
-        id = 61096,
+        ids = {60315, 60366},
+        count = 2,
     },
     items = {
+        {
+            type = "object",
+            id = 352027,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60315,
+            x = -1,
+        },
+        {
+            type = "quest",
+            id = 60366,
+        },
     },
 })
 Database:AddChain(Chain.TempChain11, {
@@ -1152,42 +1198,88 @@ Database:AddChain(Chain.TempChain11, {
         id = 57114,
     },
     items = {
-        {
-            type = "quest",
-            id = 57113,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57114,
-            x = 0,
-        },
     },
 })
 Database:AddChain(Chain.TempChain12, {
-    name = "Agthia's Path",
+    name = { -- In Agthia's Memory
+        type = "quest",
+        id = 57549,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    active = {
+        type = "quest",
+        ids = {59554, 57549},
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
-        id = 57551,
+        id = 57555,
     },
     items = {
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 59554,
+                    restrictions = {
+                        type = "quest",
+                        id = 59554,
+                        status = {'active', 'completed'}
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 158078,
+                },
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 57549,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 57551,
+            x = 0,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57552,
+            x = -2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57554,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57553,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57555,
             x = 0,
         },
     },
@@ -1202,19 +1294,6 @@ Database:AddChain(Chain.TempChain13, {
         id = 58791,
     },
     items = {
-        {
-            type = "quest",
-            id = 58790,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 58791,
-            x = 0,
-        },
     },
 })
 Database:AddChain(Chain.OtherAlliance, {
@@ -1239,42 +1318,6 @@ Database:AddChain(Chain.OtherBoth, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
-        { -- Sacred Scrolls of Humility
-            type = "quest",
-            id = 57115,
-        },
-        { -- Succumbing to Pride
-            type = "quest",
-            id = 57116,
-        },
-        { -- Fallen to Their Vices
-            type = "quest",
-            id = 57117,
-        },
-        { -- Distorted by the Maw
-            type = "quest",
-            id = 57118,
-        },
-        { -- Compassion, Blade of Humility
-            type = "quest",
-            id = 57120,
-        },
-        { -- The Power of the Maw
-            type = "quest",
-            id = 57121,
-        },
-        { -- A Step Too Far
-            type = "quest",
-            id = 57122,
-        },
-        { -- Kyrian No More
-            type = "quest",
-            id = 57123,
-        },
-        { -- Lysonia's Plan
-            type = "quest",
-            id = 57207,
-        },
         { -- Disturbing the Peace
             type = "quest",
             id = 57538,
@@ -1287,22 +1330,6 @@ Database:AddChain(Chain.OtherBoth, {
             type = "quest",
             id = 57547,
         },
-        { -- Warriors of the Void
-            type = "quest",
-            id = 57552,
-        },
-        { -- On Wounded Wings
-            type = "quest",
-            id = 57553,
-        },
-        { -- Wicked Gateways
-            type = "quest",
-            id = 57554,
-        },
-        { -- Shadow's Fall
-            type = "quest",
-            id = 57555,
-        },
         { -- Tough Love
             type = "quest",
             id = 57568,
@@ -1311,257 +1338,27 @@ Database:AddChain(Chain.OtherBoth, {
             type = "quest",
             id = 57712,
         },
-        { -- Phalynx Malfunction
-            type = "quest",
-            id = 57931,
-        },
-        { -- Resource Drain
-            type = "quest",
-            id = 57932,
-        },
-        { -- We Can Rebuild Him
-            type = "quest",
-            id = 57933,
-        },
-        { -- Combat Drills
-            type = "quest",
-            id = 57934,
-        },
-        { -- Laser Location
-            type = "quest",
-            id = 57935,
-        },
-        { -- Superior Programming
-            type = "quest",
-            id = 57936,
-        },
-        { -- Tactical Formation
-            type = "quest",
-            id = 57937,
-        },
-        { -- All Natural Chews
-            type = "quest",
-            id = 58038,
-        },
-        { -- Larion at Large
-            type = "quest",
-            id = 58039,
-        },
-        { -- With Lance and Larion
-            type = "quest",
-            id = 58040,
-        },
-        { -- Providing for the Pack
-            type = "quest",
-            id = 58041,
-        },
-        { -- On Larion Wings
-            type = "quest",
-            id = 58042,
-        },
-        { -- Pride or Unit
-            type = "quest",
-            id = 58103,
-        },
-        { -- The Eternal Forge
-            type = "quest",
-            id = 58175,
-        },
-        { -- Stewards of a Feather
-            type = "quest",
-            id = 58176,
-        },
-        { -- Refining Ego
-            type = "quest",
-            id = 58177,
-        },
-        { -- Instruments of Perfection
-            type = "quest",
-            id = 58179,
-        },
-        { -- Building the Base
-            type = "quest",
-            id = 58181,
-        },
-        { -- Assistance from Sinfall
-            type = "quest",
-            id = 58557,
-        },
-        { -- Overhead Intelligence
-            type = "quest",
-            id = 58558,
-        },
-        { -- Eyes of the Master
-            type = "quest",
-            id = 58559,
-        },
-        { -- Gothic Fashion
-            type = "quest",
-            id = 58560,
-        },
-        { -- Shards of the Countess
-            type = "quest",
-            id = 58561,
-        },
-        { -- Collecting Dust
-            type = "quest",
-            id = 58562,
-        },
-        { -- Through Glass
-            type = "quest",
-            id = 58563,
-        },
-        { -- Sins of the Past
-            type = "quest",
-            id = 58564,
-        },
-        { -- Land of Light
-            type = "quest",
-            id = 58565,
-        },
-        { -- Actions Speak Louder than Words
-            type = "quest",
-            id = 58566,
-        },
-        { -- Skulking in the Darkness
-            type = "quest",
-            id = 58567,
-        },
-        { -- Light Respite
-            type = "quest",
-            id = 58568,
-        },
-        { -- Meet the Queen
-            type = "quest",
-            id = 58775,
-        },
-        { -- Misguiding Mentors
-            type = "quest",
-            id = 58789,
-        },
-        { -- Getting Backstage
-            type = "quest",
-            id = 58816,
-        },
-        { -- Trinkle Trinkle Little Twerp
-            type = "quest",
-            id = 58832,
-        },
-        { -- Who Are You Fooling?
-            type = "quest",
-            id = 58856,
-        },
-        { -- Seeds Away!
-            type = "quest",
-            id = 58857,
-        },
-        { -- Picking Up Pelagos
-            type = "quest",
-            id = 58905,
-        },
-        { -- Evil Grubbies
-            type = "quest",
-            id = 58937,
-        },
-        { -- Gorm Ruin Everything
-            type = "quest",
-            id = 58938,
-        },
-        { -- The Blue Seed
-            type = "quest",
-            id = 58939,
-        },
-        { -- Food on the Table
-            type = "quest",
-            id = 58948,
-        },
-        { -- Millie's Garden
-            type = "quest",
-            id = 58949,
-        },
-        { -- Lumber for Lakeshire
-            type = "quest",
-            id = 58950,
-        },
-        { -- Lakeshire's Last Stand
-            type = "quest",
-            id = 58951,
-        },
-        { -- I Dreamed A Dream
-            type = "quest",
-            id = 58995,
-        },
         { -- Hostile Recollection
             type = "quest",
             id = 59015,
-        },
-        { -- A Fine Journey
-            type = "quest",
-            id = 59554,
         },
         { -- A Friendly Rivalry
             type = "quest",
             id = 59674,
         },
+
+        
         { -- History of Corruption
             type = "quest",
             id = 59771,
-        },
-        { -- Seek the Ascended
-            type = "quest",
-            id = 59773,
-        },
-        { -- Stranger in an Even Stranger Land
-            type = "quest",
-            id = 60129,
-        },
-        { -- No Place for the Living
-            type = "quest",
-            id = 60148,
-        },
-        { -- Audience with the Arbiter
-            type = "quest",
-            id = 60149,
-        },
-        { -- Tether to Home
-            type = "quest",
-            id = 60150,
-        },
-        { -- A Doorway Through the Veil
-            type = "quest",
-            id = 60151,
-        },
-        { -- The Eternal City
-            type = "quest",
-            id = 60152,
-        },
-        { -- Understanding the Shadowlands
-            type = "quest",
-            id = 60154,
-        },
-        { -- The Path to Bastion
-            type = "quest",
-            id = 60156,
         },
         { -- Newfound Power
             type = "quest",
             id = 60235,
         },
-        { -- Pride or Unit
-            type = "quest",
-            id = 60296,
-        },
-        { -- WANTED: Gorgebeak
-            type = "quest",
-            id = 60315,
-        },
         { -- WANTED: Altered Sentinel
             type = "quest",
             id = 60316,
-        },
-        { -- WANTED: Darkwing
-            type = "quest",
-            id = 60366,
         },
         { -- An Act of Service
             type = "quest",
@@ -1578,10 +1375,6 @@ Database:AddChain(Chain.OtherBoth, {
         { -- A Crisis of Memory
             type = "quest",
             id = 61593,
-        },
-        {
-            type = "quest",
-            id = 61697,
         },
         { -- Cliffs of Bastion
             type = "quest",
