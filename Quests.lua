@@ -1,7 +1,7 @@
 BtWQuestsDatabase:AddQuestsTable({
     [57037] = {
         name = "A Once Sweet Sound",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 159762,
@@ -23,61 +23,9 @@ BtWQuestsDatabase:AddQuestsTable({
             id = 165107,
         },
     },
-    [57113] = {
-        name = "On Lysonia's Trail",
-        contentTuningID = 1388,
-    },
-    [57114] = {
-        name = "Aerial Reconnaissance",
-        contentTuningID = 1388,
-    },
-    [57115] = {
-        name = "Sacred Scrolls of Humility",
-        contentTuningID = 1388,
-    },
-    [57116] = {
-        name = "Succumbing to Pride",
-        contentTuningID = 1388,
-    },
-    [57117] = {
-        name = "Fallen to Their Vices",
-        contentTuningID = 1388,
-    },
-    [57118] = {
-        name = "Distorted by the Maw",
-        contentTuningID = 1388,
-    },
-    [57120] = {
-        name = "Compassion, Blade of Humility",
-        contentTuningID = 1388,
-    },
-    [57121] = {
-        name = "The Power of the Maw",
-        contentTuningID = 1388,
-    },
-    [57122] = {
-        name = "A Step Too Far",
-        contentTuningID = 1388,
-    },
-    [57123] = {
-        name = "Kyrian No More",
-        contentTuningID = 1388,
-    },
-    [57124] = {
-        name = "Her Will, Inflicted",
-        contentTuningID = 1388,
-    },
-    [57125] = {
-        name = "Time to Reflect",
-        contentTuningID = 743,
-    },
-    [57207] = {
-        name = "Lysonia's Plan",
-        contentTuningID = 1388,
-    },
     [57261] = {
         name = "Walk the Path, Aspirant",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 166306,
@@ -85,7 +33,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57263] = {
         name = "The Cycle of Anima: Etherwyrms",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 166577,
@@ -93,7 +41,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57264] = {
         name = "On The Edge of a Revelation",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 157673,
@@ -109,7 +57,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57265] = {
         name = "The Cycle of Anima: Drought Conditions",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158807,
@@ -125,7 +73,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57266] = {
         name = "The First Cleansing",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 159583,
@@ -133,7 +81,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57267] = {
         name = "The Cycle of Anima: Flower Power",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 166577,
@@ -141,7 +89,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57269] = {
         name = "The Hand of Doubt",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 157673,
@@ -157,7 +105,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57270] = {
         name = "The Temple of Purity",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 157673,
@@ -165,7 +113,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57288] = {
         name = "Assessing Your Strength",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -181,7 +129,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57291] = {
         name = "The Chamber of First Reflection",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158807,
@@ -195,17 +143,9 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
-    [57386] = {
-        name = "If You Want Peace...",
-        contentTuningID = 1325,
-        source = {
-            type = "npc",
-            id = 171338,
-        },
-    },
     [57444] = {
         name = "An Inspired Moral Inventory",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 160647,
@@ -213,7 +153,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57446] = {
         name = "The Enemy You Know",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 159762,
@@ -229,7 +169,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57447] = {
         name = "Purity's Prerogative",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 157687,
@@ -238,14 +178,26 @@ BtWQuestsDatabase:AddQuestsTable({
     [57538] = {
         name = "Disturbing the Peace",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158004,
+        },
     },
     [57545] = {
-        name = "Kala's Playthings",
+        name = "Distractions for Kala",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158004,
+        },
     },
     [57547] = {
-        name = "Fetch the Staff",
+        name = "A Test of Courage",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158004,
+        },
     },
     [57549] = {
         name = "In Agthia's Memory",
@@ -258,30 +210,62 @@ BtWQuestsDatabase:AddQuestsTable({
     [57551] = {
         name = "Agthia's Path",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158078,
+        },
     },
     [57552] = {
         name = "Warriors of the Void",
-        contentTuningID = 743,
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 158181,
+        },
     },
     [57553] = {
         name = "On Wounded Wings",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158178,
+        },
     },
     [57554] = {
         name = "Wicked Gateways",
-        contentTuningID = 743,
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 158181,
+        },
     },
     [57555] = {
         name = "Shadow's Fall",
-        contentTuningID = 743,
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 158181,
+        },
     },
     [57568] = {
         name = "Tough Love",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158004,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.512062,
+                        y = 0.568011,
+                    },
+                },
+            },
+        },
     },
     [57584] = {
         name = "A Fate Most Noble",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158281,
@@ -289,7 +273,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57676] = {
         name = "The Things That Haunt Us",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 165107,
@@ -321,7 +305,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57709] = {
         name = "The Aspirant's Crucible",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 165107,
@@ -337,7 +321,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57710] = {
         name = "A Life of Service",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158807,
@@ -345,7 +329,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57711] = {
         name = "A Forge Gone Cold",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158807,
@@ -362,10 +346,14 @@ BtWQuestsDatabase:AddQuestsTable({
     [57712] = {
         name = "Suggested Reading",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 166738,
+        },
     },
     [57713] = {
         name = "The Work of One's Hands",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158807,
@@ -381,7 +369,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57714] = {
         name = "Assessing Your Spirit",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -397,7 +385,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57715] = {
         name = "The Archon's Answer",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -413,7 +401,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57716] = {
         name = "A Wayward Disciple?",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 159762,
@@ -429,7 +417,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57717] = {
         name = "Step Back From That Ledge, My Friend",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 159762,
@@ -445,7 +433,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57719] = {
         name = "Dangerous Discourse",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "object",
             id = 344726,
@@ -453,7 +441,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57908] = {
         name = "The True Crucible Awaits",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158807,
@@ -469,7 +457,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57909] = {
         name = "Assessing Your Stamina",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158861,
@@ -494,26 +482,46 @@ BtWQuestsDatabase:AddQuestsTable({
     [57933] = {
         name = "We Can Rebuild Him",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158765,
+        },
     },
     [57934] = {
         name = "Combat Drills",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158765,
+        },
     },
     [57935] = {
         name = "Laser Location",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158765,
+        },
     },
     [57936] = {
         name = "Superior Programming",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 159609,
+        },
     },
     [57937] = {
         name = "Tactical Formation",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158765,
+        },
     },
     [57977] = {
         name = "A Temple in Need",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 159762,
@@ -530,30 +538,46 @@ BtWQuestsDatabase:AddQuestsTable({
     [58038] = {
         name = "All Natural Chews",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 157696,
+        },
     },
     [58039] = {
         name = "Larion at Large",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 157696,
+        },
     },
     [58040] = {
         name = "With Lance and Larion",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 157696,
+        },
     },
     [58041] = {
         name = "Providing for the Pack",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 157696,
+        },
     },
     [58042] = {
         name = "On Larion Wings",
         contentTuningID = 743,
-    },
-    [58103] = {
-        name = "Pride or Unit",
-        contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 157696,
+        },
     },
     [58174] = {
         name = "All An Aspirant Can Do",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -567,105 +591,17 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
-    [58175] = {
-        name = "The Eternal Forge",
-        contentTuningID = 1388,
-    },
-    [58176] = {
-        name = "Stewards of a Feather",
-        contentTuningID = 1388,
-    },
-    [58177] = {
-        name = "Refining Ego",
-        contentTuningID = 1388,
-    },
-    [58178] = {
-        name = "A Partner for Eternity",
-        contentTuningID = 1388,
-    },
-    [58179] = {
-        name = "Instruments of Perfection",
-        contentTuningID = 1388,
-    },
-    [58180] = {
-        name = "Phaestus, Genesis of Aeons",
-        contentTuningID = 1388,
-    },
-    [58181] = {
-        name = "Building the Base",
-        contentTuningID = 1388,
-    },
-    [58182] = {
-        name = "Dismantling the Opposition",
-        contentTuningID = 1388,
-    },
-    [58183] = {
-        name = "Friend to the Forgelite",
-        contentTuningID = 1388,
-    },
     [58184] = {
         name = "Antiquated Methodology",
         contentTuningID = 743,
     },
-    [58557] = {
-        name = "Assistance from Sinfall",
-        contentTuningID = 1388,
-    },
-    [58558] = {
-        name = "Overhead Intelligence",
-        contentTuningID = 1388,
-    },
-    [58559] = {
-        name = "Eyes of the Master",
-        contentTuningID = 1388,
-    },
-    [58560] = {
-        name = "Gothic Fashion",
-        contentTuningID = 1388,
-    },
-    [58561] = {
-        name = "Shards of the Countess",
-        contentTuningID = 1388,
-    },
-    [58562] = {
-        name = "Collecting Dust",
-        contentTuningID = 1388,
-    },
-    [58563] = {
-        name = "Through Glass",
-        contentTuningID = 1388,
-    },
-    [58564] = {
-        name = "Sins of the Past",
-        contentTuningID = 1388,
-    },
-    [58565] = {
-        name = "Land of Light",
-        contentTuningID = 1388,
-    },
-    [58566] = {
-        name = "Actions Speak Louder than Words",
-        contentTuningID = 1388,
-    },
-    [58567] = {
-        name = "Skulking in the Darkness",
-        contentTuningID = 1388,
-    },
-    [58568] = {
-        name = "Light Respite",
-        contentTuningID = 1388,
-    },
-    [58569] = {
-        name = "The Folly of Envy",
-        contentTuningID = 1388,
-    },
-    [58570] = {
-        name = "Parting Words",
-        contentTuningID = 1388,
-    },
-    [58571] = {
-        name = "The Seal of Contrition",
-        contentTuningID = 1388,
+    [58185] = {
+        name = "Success Without Soul",
+        contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 157696,
+        },
     },
     [58771] = {
         name = "Directions Not Included",
@@ -674,54 +610,6 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 167034,
         },
-    },
-    [58775] = {
-        name = "Meet the Queen",
-        contentTuningID = 837,
-    },
-    [58787] = {
-        name = "Trial of Ascension",
-        contentTuningID = 837,
-    },
-    [58788] = {
-        name = "Censers of Guidance",
-        contentTuningID = 837,
-    },
-    [58789] = {
-        name = "Misguiding Mentors",
-        contentTuningID = 837,
-    },
-    [58790] = {
-        name = "To Cross the Veil",
-        contentTuningID = 837,
-    },
-    [58791] = {
-        name = "A Day in the Life",
-        contentTuningID = 837,
-    },
-    [58792] = {
-        name = "Where a Soul Belongs",
-        contentTuningID = 837,
-    },
-    [58793] = {
-        name = "Faith Through the Darkness",
-        contentTuningID = 837,
-    },
-    [58795] = {
-        name = "Ascended",
-        contentTuningID = 837,
-    },
-    [58796] = {
-        name = "The Forsworn Onslaught",
-        contentTuningID = 837,
-    },
-    [58797] = {
-        name = "Forged by Trial",
-        contentTuningID = 837,
-    },
-    [58798] = {
-        name = "The Spires of Ascension",
-        contentTuningID = 837,
     },
     [58799] = {
         name = "The Prime's Directive",
@@ -747,14 +635,6 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
-    [58816] = {
-        name = "Getting Backstage",
-        contentTuningID = 837,
-    },
-    [58832] = {
-        name = "Trinkle Trinkle Little Twerp",
-        contentTuningID = 837,
-    },
     [58843] = {
         name = "The Vault of the Archon",
         contentTuningID = 743,
@@ -770,46 +650,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-    },
-    [58856] = {
-        name = "Who Are You Fooling?",
-        contentTuningID = 837,
-    },
-    [58857] = {
-        name = "Seeds Away!",
-        contentTuningID = 837,
-    },
-    [58905] = {
-        name = "Picking Up Pelagos",
-        contentTuningID = 837,
-    },
-    [58937] = {
-        name = "Evil Grubbies",
-        contentTuningID = 837,
-    },
-    [58938] = {
-        name = "Gorm Ruin Everything",
-        contentTuningID = 837,
-    },
-    [58939] = {
-        name = "The Blue Seed",
-        contentTuningID = 837,
-    },
-    [58948] = {
-        name = "Food on the Table",
-        contentTuningID = 837,
-    },
-    [58949] = {
-        name = "Millie's Garden",
-        contentTuningID = 837,
-    },
-    [58950] = {
-        name = "Lumber for Lakeshire",
-        contentTuningID = 837,
-    },
-    [58951] = {
-        name = "Lakeshire's Last Stand",
-        contentTuningID = 837,
     },
     [58976] = {
         name = "Chasing a Memory",
@@ -875,21 +715,13 @@ BtWQuestsDatabase:AddQuestsTable({
             id = 167035,
         },
     },
-    [58995] = {
-        name = "I Dreamed A Dream",
-        contentTuningID = 837,
-    },
-    [58997] = {
-        name = "A Bittersweet Prize",
-        contentTuningID = 837,
-    },
     [59015] = {
         name = "Hostile Recollection",
         contentTuningID = 743,
     },
     [59147] = {
         name = "The Hand of Purification",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 159762,
@@ -970,22 +802,30 @@ BtWQuestsDatabase:AddQuestsTable({
     [59674] = {
         name = "A Friendly Rivalry",
         contentTuningID = 743,
-    },
-    [59771] = {
-        name = "History of Corruption",
-        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 158765,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.574411,
+                        y = 0.542532,
+                    },
+                },
+            },
+        },
     },
     [59773] = {
         name = "Seek the Ascended",
         contentTuningID = 807,
         source = {
             type = "npc",
-            id = 172421,
+            id = 164579,
         },
     },
     [59774] = {
         name = "Welcome to Eternity",
-        contentTuningID = 743,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 166227,
@@ -993,7 +833,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [59920] = {
         name = "Light the Forge, Forgelite",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158807,
@@ -1111,74 +951,6 @@ BtWQuestsDatabase:AddQuestsTable({
             id = 167584,
         },
     },
-    [60129] = {
-        name = "Stranger in an Even Stranger Land",
-        contentTuningID = 807,
-    },
-    [60148] = {
-        name = "No Place for the Living",
-        contentTuningID = 807,
-        source = {
-            type = "npc",
-            id = 167425,
-        },
-    },
-    [60149] = {
-        name = "Audience with the Arbiter",
-        contentTuningID = 807,
-        source = {
-            type = "npc",
-            id = 167486,
-        },
-    },
-    [60150] = {
-        name = "Tether to Home",
-        contentTuningID = 807,
-        source = {
-            type = "npc",
-            id = 167425,
-        },
-    },
-    [60151] = {
-        name = "A Doorway Through the Veil",
-        contentTuningID = 807,
-        source = {
-            type = "npc",
-            id = 164079,
-        },
-    },
-    [60152] = {
-        name = "The Eternal City",
-        contentTuningID = 807,
-        source = {
-            type = "npc",
-            id = 167424,
-        },
-    },
-    [60154] = {
-        name = "Understanding the Shadowlands",
-        contentTuningID = 807,
-        source = {
-            type = "npc",
-            id = 164079,
-        },
-    },
-    [60156] = {
-        name = "The Path to Bastion",
-        contentTuningID = 807,
-        source = {
-            type = "npc",
-            id = 167424,
-            locations = {
-                [1671] = {
-                    {
-                        x = 0.506418,
-                        y = 0.622167,
-                    },
-                },
-            },
-        },
-    },
     [60180] = {
         name = "A Paragon's Reflection",
         contentTuningID = 743,
@@ -1197,7 +969,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60217] = {
         name = "The Archon's Answer",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -1213,7 +985,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60218] = {
         name = "The Archon's Answer",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -1229,7 +1001,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60219] = {
         name = "The Archon's Answer",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -1245,7 +1017,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60220] = {
         name = "The Archon's Answer",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -1261,7 +1033,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60221] = {
         name = "The Archon's Answer",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -1277,7 +1049,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60222] = {
         name = "The Archon's Answer",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -1293,7 +1065,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60223] = {
         name = "The Archon's Answer",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -1309,7 +1081,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60224] = {
         name = "The Archon's Answer",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -1325,7 +1097,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60225] = {
         name = "The Archon's Answer",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -1341,7 +1113,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60226] = {
         name = "The Archon's Answer",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -1357,7 +1129,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60229] = {
         name = "The Archon's Answer",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -1382,14 +1154,22 @@ BtWQuestsDatabase:AddQuestsTable({
     [60296] = {
         name = "Pride or Unit",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 157696,
+        },
     },
     [60315] = {
         name = "WANTED: Gorgebeak",
         contentTuningID = 1321,
+        source = {
+            type = "object",
+            id = 352027,
+        },
     },
     [60316] = {
         name = "WANTED: Altered Sentinel",
-        contentTuningID = 0,
+        contentTuningID = 1318,
         source = {
             type = "object",
             id = 352028,
@@ -1398,65 +1178,25 @@ BtWQuestsDatabase:AddQuestsTable({
     [60366] = {
         name = "WANTED: Darkwing",
         contentTuningID = 1323,
+        source = {
+            type = "object",
+            id = 352027,
+        },
     },
     [60466] = {
         name = "An Act of Service",
         contentTuningID = 1315,
-    },
-    [60623] = {
-        name = "AHHH! Real Monsters!",
-        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 160598,
+        },
     },
     [60735] = {
         name = "Trouble in Paradise",
-        contentTuningID = 0,
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 165107,
         },
-    },
-    [60929] = {
-        name = "Air Supremacy",
-        contentTuningID = 837,
-    },
-    [61096] = {
-        name = "The Arbiter's Will",
-        contentTuningID = 1324,
-        source = {
-            type = "npc",
-            id = 159478,
-            locations = {
-                [1670] = {
-                    {
-                        x = 0.389081,
-                        y = 0.699856,
-                    },
-                },
-            },
-        },
-    },
-    [61107] = {
-        name = "A Land of Strife",
-        contentTuningID = 1324,
-        source = {
-            type = "npc",
-            id = 171338,
-        },
-    },
-    [61135] = {
-        name = "Heart of the Crest",
-        contentTuningID = 837,
-    },
-    [61593] = {
-        name = "A Crisis of Memory",
-        contentTuningID = 1388,
-    },
-    [61784] = {
-        name = "Cliffs of Bastion",
-        contentTuningID = 837,
-    },
-    [61791] = {
-        name = "Thenia's Loyal Companions",
-        contentTuningID = 837,
     },
 })

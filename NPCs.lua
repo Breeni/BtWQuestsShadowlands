@@ -36,9 +36,58 @@ BtWQuestsDatabase:AddNPCsTable({
     },
     [157696] = {
         name = "Nemea",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.572689,
+                    y = 0.392098,
+                },
+            },
+        },
+    },
+    [158004] = {
+        name = "Zosime",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.513323,
+                    y = 0.595387,
+                },
+            },
+        },
     },
     [158078] = {
         name = "Keeper Mnemis",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.469828,
+                    y = 0.634414,
+                },
+            },
+        },
+    },
+    [158178] = {
+        name = "Agthian Defender",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.464135,
+                    y = 0.636248,
+                },
+            },
+        },
+    },
+    [158181] = {
+        name = "Agthia",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.465479,
+                    y = 0.634189,
+                },
+            },
+        },
     },
     [158281] = {
         name = "Greeter Mnemis",
@@ -53,6 +102,14 @@ BtWQuestsDatabase:AddNPCsTable({
     },
     [158765] = {
         name = "Pelodis",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.547808,
+                    y = 0.411644,
+                },
+            },
+        },
     },
     [158807] = {
         name = "Forgelite Sophone",
@@ -87,17 +144,6 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
-    [159478] = {
-        name = "Tal-Inara",
-        locations = {
-            [1670] = {
-                {
-                    x = 0.388685,
-                    y = 0.699083,
-                },
-            },
-        },
-    },
     [159583] = {
         name = "Kleia",
         locations = {
@@ -111,6 +157,14 @@ BtWQuestsDatabase:AddNPCsTable({
     },
     [159609] = {
         name = "Hopo",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.547904,
+                    y = 0.412447,
+                },
+            },
+        },
     },
     [159762] = {
         name = "Eridia",
@@ -134,6 +188,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [160598] = {
+        name = "Klystere",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.47883,
+                    y = 0.735022,
+                },
+            },
+        },
+    },
     [160647] = {
         name = "Acolyte Galistos",
         locations = {
@@ -145,13 +210,13 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
-    [164079] = {
-        name = "Highlord Bolvar Fordragon",
+    [164579] = {
+        name = "Overseer Kah-Sher",
         locations = {
             [1670] = {
                 {
-                    x = 0.402725,
-                    y = 0.647488,
+                    x = 0.389908,
+                    y = 0.704587,
                 },
             },
         },
@@ -194,8 +259,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1533] = {
                 {
-                    x = 0.375189,
-                    y = 0.764505,
+                    x = 0.375208,
+                    y = 0.764423,
                 },
             },
         },
@@ -218,6 +283,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.52651,
                     y = 0.826054,
+                },
+            },
+        },
+    },
+    [166738] = {
+        name = "Clora",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.553891,
+                    y = 0.834293,
                 },
             },
         },
@@ -310,28 +386,6 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
-    [167424] = {
-        name = "Overseer Kah-Sher",
-        locations = {
-            [1670] = {
-                {
-                    x = 0.403246,
-                    y = 0.665811,
-                },
-            },
-        },
-    },
-    [167425] = {
-        name = "Overseer Kah-Delen",
-        locations = {
-            [1670] = {
-                {
-                    x = 0.398939,
-                    y = 0.664437,
-                },
-            },
-        },
-    },
     [167460] = {
         name = "Thanikos",
         locations = {
@@ -339,17 +393,6 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.389153,
                     y = 0.552315,
-                },
-            },
-        },
-    },
-    [167486] = {
-        name = "Tal-Inara",
-        locations = {
-            [1670] = {
-                {
-                    x = 0.408061,
-                    y = 0.658356,
                 },
             },
         },
@@ -394,28 +437,6 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.417644,
                     y = 0.551865,
-                },
-            },
-        },
-    },
-    [171338] = {
-        name = "Overseer Kah-Sher",
-        locations = {
-            [1671] = {
-                {
-                    x = 0.612789,
-                    y = 0.369477,
-                },
-            },
-        },
-    },
-    [172421] = {
-        name = "Overseer Kah-Sher",
-        locations = {
-            [1671] = {
-                {
-                    x = 0.639133,
-                    y = 0.523256,
                 },
             },
         },
