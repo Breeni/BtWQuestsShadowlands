@@ -46,7 +46,23 @@ Database:AddChain(Chain.WelcomeToRevendreth, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 57,
+        },
+        {
+            type = "chain",
+            variations = {
+                {
+                    id = 90003,
+                },
+                {
+                    id = 90306
+                }
+            }
+        },
+    },
     completed = {
         type = "quest",
         id = 56978,
