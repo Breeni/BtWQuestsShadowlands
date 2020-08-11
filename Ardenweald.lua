@@ -10,11 +10,23 @@ local MAP_ID = 1565
 local CONTINENT_ID = 1550
 local ACHIEVEMENT_ID = 14164
 local LEVEL_RANGE = {55, 57}
-local LEVEL_PREREQUISITES = {
-    {
-        type = "level",
-        level = 55,
+local LEVEL_PREREQUISITE = {
+    variations = {
+        {
+            type = "level",
+            level = 50,
+            restrictions = {
+                
+            },
+        },
+        {
+            type = "level",
+            level = 55,
+        }
     },
+}
+local LEVEL_PREREQUISITES = {
+    LEVEL_PREREQUISITE,
 }
 
 Chain.WelcomeToArdenweald = 90301
@@ -39,7 +51,20 @@ Database:AddChain(Chain.WelcomeToArdenweald, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        LEVEL_PREREQUISITE,
+        {
+            type = "chain",
+            variations = {
+                {
+                    id = 80003,
+                },
+                {
+                    id = 90207,
+                }
+            }
+        }
+    },
     completed = {
         type = "quest",
         id = 57738,
