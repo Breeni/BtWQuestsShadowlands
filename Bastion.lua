@@ -859,30 +859,6 @@ Database:AddChain(Chain.TheTempleOfCourage, {
             id = 60057,
             aside = true,
         },
-        {
-            type = "quest",
-            id = 61096,
-            aside = true,
-            x = -1,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 61107,
-            aside = true,
-            x = -1,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57386,
-            aside = true,
-            x = -1,
-        },
     },
 })
 Database:AddChain(Chain.TempChain01, {
