@@ -56,7 +56,15 @@ Database:AddChain(Chain.ChampionOfPain, {
         {
             type = "quest",
             id = 61096,
-            x = 0,
+            x = -1,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61107,
+            x = -1,
             connections = {
                 1, 
             },
