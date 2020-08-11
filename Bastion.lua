@@ -866,51 +866,132 @@ Database:AddChain(Chain.TheTempleOfCourage, {
     },
 })
 Database:AddChain(Chain.TempChain01, {
-    name = "Faith Through the Darkness",
+    name = "Distractions for Kala",
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     completed = {
         type = "quest",
-        id = 58793,
+        id = 57568,
     },
     items = {
+        {
+            type = "npc",
+            id = 158004,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57538,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57545,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57547,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57568,
+            x = 0,
+        },
     },
 })
 Database:AddChain(Chain.TempChain02, {
-    name = "The Spires of Ascension",
+    name = "Suggested Reading",
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     completed = {
         type = "quest",
-        id = 58798,
+        id = 57712,
     },
     items = {
+        {
+            name = "check requirements",
+        },
+        {
+            type = "npc",
+            id = 166738,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57712,
+            x = 0,
+        },
     },
 })
 Database:AddChain(Chain.TempChain03, {
-    name = "Time to Reflect",
+    name = "WANTED: Altered Sentinel",
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     completed = {
         type = "quest",
-        id = 57125,
+        id = 60316,
     },
     items = {
+        {
+            name = "check requirements",
+        },
+        {
+            type = "object",
+            id = 352028,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60316,
+            x = 0,
+        },
     },
 })
 Database:AddChain(Chain.TempChain04, {
-    name = "Friend to the Forgelite",
+    name = "An Act of Service",
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     completed = {
         type = "quest",
-        id = 58183,
+        id = 60466,
     },
     items = {
+        {
+            type = "npc",
+            id = 160598,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60466,
+            x = 0,
+        },
     },
 })
 Database:AddChain(Chain.TempChain05, {
@@ -1318,71 +1399,13 @@ Database:AddChain(Chain.OtherBoth, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
-        { -- Disturbing the Peace
-            type = "quest",
-            id = 57538,
-        },
-        { -- Kala's Playthings
-            type = "quest",
-            id = 57545,
-        },
-        { -- Fetch the Staff
-            type = "quest",
-            id = 57547,
-        },
-        { -- Tough Love
-            type = "quest",
-            id = 57568,
-        },
-        { -- Suggested Reading
-            type = "quest",
-            id = 57712,
-        },
-        { -- Hostile Recollection
-            type = "quest",
-            id = 59015,
-        },
-        { -- A Friendly Rivalry
+        { -- A Friendly Rivalry, not sure how best to handle this
             type = "quest",
             id = 59674,
         },
-
-        
-        { -- History of Corruption
-            type = "quest",
-            id = 59771,
-        },
-        { -- Newfound Power
+        { -- Newfound Power, maybe removed?
             type = "quest",
             id = 60235,
-        },
-        { -- WANTED: Altered Sentinel
-            type = "quest",
-            id = 60316,
-        },
-        { -- An Act of Service
-            type = "quest",
-            id = 60466,
-        },
-        { -- AHHH! Real Monsters!
-            type = "quest",
-            id = 60623,
-        },
-        { -- Air Supremacy
-            type = "quest",
-            id = 60929,
-        },
-        { -- A Crisis of Memory
-            type = "quest",
-            id = 61593,
-        },
-        { -- Cliffs of Bastion
-            type = "quest",
-            id = 61784,
-        },
-        { -- Thenia's Loyal Companions
-            type = "quest",
-            id = 61791,
         },
     },
 })
