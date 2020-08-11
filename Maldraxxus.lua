@@ -40,6 +40,11 @@ Database:AddChain(Chain.ChampionOfPain, {
     range = LEVEL_RANGE,
     major = true,
     prerequisites = LEVEL_PREREQUISITES,
+    active = {
+        type = "quest",
+        id = 61096,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 57515,
@@ -56,7 +61,7 @@ Database:AddChain(Chain.ChampionOfPain, {
         {
             type = "quest",
             id = 61096,
-            x = -1,
+            x = 0,
             connections = {
                 1, 
             },
@@ -64,7 +69,7 @@ Database:AddChain(Chain.ChampionOfPain, {
         {
             type = "quest",
             id = 61107,
-            x = -1,
+            x = 0,
             connections = {
                 1, 
             },
