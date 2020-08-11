@@ -22,3 +22,4 @@ Objects.lua
 
 Introduction.lua
 Bastion.lua
+Maldraxxus.lua
