@@ -270,6 +270,14 @@ BtWQuestsDatabase:AddNPCsTable({
     },
     [157696] = {
         name = "Nemea",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.572689,
+                    y = 0.392098,
+                },
+            },
+        },
     },
     [157788] = {
         name = "Lady Moonberry",
@@ -326,6 +334,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [158004] = {
+        name = "Zosime",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.513323,
+                    y = 0.595387,
+                },
+            },
+        },
+    },
     [158007] = {
         name = "Margrave Krexus",
         locations = {
@@ -350,6 +369,36 @@ BtWQuestsDatabase:AddNPCsTable({
     },
     [158078] = {
         name = "Keeper Mnemis",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.469828,
+                    y = 0.634414,
+                },
+            },
+        },
+    },
+    [158178] = {
+        name = "Agthian Defender",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.464135,
+                    y = 0.636248,
+                },
+            },
+        },
+    },
+    [158181] = {
+        name = "Agthia",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.465479,
+                    y = 0.634189,
+                },
+            },
+        },
     },
     [158281] = {
         name = "Greeter Mnemis",
@@ -441,6 +490,14 @@ BtWQuestsDatabase:AddNPCsTable({
     },
     [158765] = {
         name = "Pelodis",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.547808,
+                    y = 0.411644,
+                },
+            },
+        },
     },
     [158807] = {
         name = "Forgelite Sophone",
@@ -510,6 +567,14 @@ BtWQuestsDatabase:AddNPCsTable({
     },
     [159609] = {
         name = "Hopo",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.547904,
+                    y = 0.412447,
+                },
+            },
+        },
     },
     [159638] = {
         name = "Choofa",
@@ -584,6 +649,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.338908,
                     y = 0.310474,
+                },
+            },
+        },
+    },
+    [160598] = {
+        name = "Klystere",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.47883,
+                    y = 0.735022,
                 },
             },
         },
@@ -835,8 +911,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1536] = {
                 {
-                    x = 0.50216,
-                    y = 0.416489,
+                    x = 0.503664,
+                    y = 0.417301,
                 },
             },
         },
@@ -1082,6 +1158,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.193067,
                     y = 0.572212,
+                },
+            },
+        },
+    },
+    [166738] = {
+        name = "Clora",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.553891,
+                    y = 0.834293,
                 },
             },
         },

@@ -429,7 +429,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57386] = {
         name = "If You Want Peace...",
-        contentTuningID = 0,
+        contentTuningID = 1325,
         source = {
             type = "npc",
             id = 171338,
@@ -441,6 +441,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164244,
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.50216,
+                        y = 0.416489,
+                    },
+                },
+            },
         },
     },
     [57405] = {
@@ -1305,6 +1313,10 @@ BtWQuestsDatabase:AddQuestsTable({
     [58042] = {
         name = "On Larion Wings",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 157696,
+        },
     },
     [58045] = {
         name = "Plague is Thicker Than Water",
@@ -1333,6 +1345,10 @@ BtWQuestsDatabase:AddQuestsTable({
     [58103] = {
         name = "Pride or Unit",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158765,
+        },
     },
     [58174] = {
         name = "All An Aspirant Can Do",
@@ -1349,6 +1365,42 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+    },
+    [58175] = {
+        name = "The Eternal Forge",
+        contentTuningID = 1388,
+    },
+    [58176] = {
+        name = "Stewards of a Feather",
+        contentTuningID = 1388,
+    },
+    [58177] = {
+        name = "Refining Ego",
+        contentTuningID = 1388,
+    },
+    [58178] = {
+        name = "A Partner for Eternity",
+        contentTuningID = 1388,
+    },
+    [58179] = {
+        name = "Instruments of Perfection",
+        contentTuningID = 1388,
+    },
+    [58180] = {
+        name = "Phaestus, Genesis of Aeons",
+        contentTuningID = 1388,
+    },
+    [58181] = {
+        name = "Building the Base",
+        contentTuningID = 1388,
+    },
+    [58182] = {
+        name = "Dismantling the Opposition",
+        contentTuningID = 1388,
+    },
+    [58183] = {
+        name = "Friend to the Forgelite",
+        contentTuningID = 1388,
     },
     [58184] = {
         name = "Antiquated Methodology",
@@ -1685,6 +1737,54 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 167034,
         },
+    },
+    [58775] = {
+        name = "Meet the Queen",
+        contentTuningID = 837,
+    },
+    [58787] = {
+        name = "Trial of Ascension",
+        contentTuningID = 837,
+    },
+    [58788] = {
+        name = "Censers of Guidance",
+        contentTuningID = 837,
+    },
+    [58789] = {
+        name = "Misguiding Mentors",
+        contentTuningID = 837,
+    },
+    [58790] = {
+        name = "To Cross the Veil",
+        contentTuningID = 837,
+    },
+    [58791] = {
+        name = "A Day in the Life",
+        contentTuningID = 837,
+    },
+    [58792] = {
+        name = "Where a Soul Belongs",
+        contentTuningID = 837,
+    },
+    [58793] = {
+        name = "Faith Through the Darkness",
+        contentTuningID = 837,
+    },
+    [58795] = {
+        name = "Ascended",
+        contentTuningID = 837,
+    },
+    [58796] = {
+        name = "The Forsworn Onslaught",
+        contentTuningID = 837,
+    },
+    [58797] = {
+        name = "Forged by Trial",
+        contentTuningID = 837,
+    },
+    [58798] = {
+        name = "The Spires of Ascension",
+        contentTuningID = 837,
     },
     [58799] = {
         name = "The Prime's Directive",
@@ -2193,6 +2293,18 @@ BtWQuestsDatabase:AddQuestsTable({
     [59674] = {
         name = "A Friendly Rivalry",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158765,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.574411,
+                        y = 0.542532,
+                    },
+                },
+            },
+        },
     },
     [59710] = {
         name = "A Curious Invitation",
@@ -2284,7 +2396,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [59751] = {
         name = "Through the Shattered Sky",
-        contentTuningID = 1400,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 169076,
@@ -2488,7 +2600,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [59774] = {
         name = "Welcome to Eternity",
-        contentTuningID = 743,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 166227,
@@ -2842,7 +2954,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60141] = {
         name = "Coldheart Interstitia",
-        contentTuningID = 837,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 170153,
@@ -3190,7 +3302,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60270] = {
         name = "A Damned Pact",
-        contentTuningID = 709,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 164937,
@@ -3198,7 +3310,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60271] = {
         name = "A Grave Chance",
-        contentTuningID = 709,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 162804,
@@ -3206,7 +3318,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60272] = {
         name = "The Weak Link",
-        contentTuningID = 709,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 162804,
@@ -3243,6 +3355,10 @@ BtWQuestsDatabase:AddQuestsTable({
     [60296] = {
         name = "Pride or Unit",
         contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 157696,
+        },
     },
     [60313] = {
         name = "Dredhollow",
@@ -3255,10 +3371,14 @@ BtWQuestsDatabase:AddQuestsTable({
     [60315] = {
         name = "WANTED: Gorgebeak",
         contentTuningID = 1321,
+        source = {
+            type = "object",
+            id = 352027,
+        },
     },
     [60316] = {
         name = "WANTED: Altered Sentinel",
-        contentTuningID = 0,
+        contentTuningID = 1318,
         source = {
             type = "object",
             id = 352028,
@@ -3331,6 +3451,10 @@ BtWQuestsDatabase:AddQuestsTable({
     [60466] = {
         name = "An Act of Service",
         contentTuningID = 1315,
+        source = {
+            type = "npc",
+            id = 160598,
+        },
     },
     [60476] = {
         name = "Seize the Means of Production",
@@ -3661,7 +3785,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 743,
         source = {
             type = "npc",
-            id = 160598,
+            id = 165107,
         },
     },
     [60737] = {
@@ -3833,7 +3957,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 1324,
         source = {
             type = "npc",
-            id = 165107,
+            id = 171338,
         },
     },
     [61135] = {
@@ -3858,7 +3982,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [61391] = {
         name = "The Eye of the Jailer",
-        contentTuningID = 1936,
+        contentTuningID = 0,
         source = {
             type = "kill",
             id = 171783,

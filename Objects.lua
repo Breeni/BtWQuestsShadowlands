@@ -23,17 +23,6 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
-    [352027] = {
-        name = "Wanted Scroll",
-        locations = {
-            [1533] = {
-                {
-                    x = 0.532746,
-                    y = 0.464217,
-                },
-            },
-        },
-    },
     [351467] = {
         name = "Faded Epitaph",
         locations = {
@@ -52,6 +41,17 @@ BtWQuestsDatabase:AddObjectsTable({
                 {
                     x = 0.590793,
                     y = 0.692048,
+                },
+            },
+        },
+    },
+    [352027] = {
+        name = "Wanted Scroll",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.532746,
+                    y = 0.464217,
                 },
             },
         },
