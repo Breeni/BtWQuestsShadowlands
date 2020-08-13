@@ -27,6 +27,10 @@ Chain.JusticeIsBlind = 90705
 Chain.TheScentOfDeath = 90706
 Chain.RedistributeAsmorde = 90707
 Chain.TheThirdFallOfKelthuzad = 90708
+
+Chain.Chain01 = 90711
+Chain.Chain02 = 90712
+
 Chain.OtherAlliance = 90797
 Chain.OtherHorde = 90798
 Chain.OtherBoth = 90799
@@ -37,15 +41,120 @@ Database:AddChain(Chain.ChampionOfPain, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 4,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+        },
+    },
     completed = {
         type = "quest",
-        id = 59608,
+        id = 61513,
     },
     items = {
         {
+            type = "npc",
+            id = 171821,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
-            id = 59608,
+            id = 58609,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59556,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 61359,
+                },
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59596,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59597,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61388,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59598,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59603,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61397,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60130,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61513,
             x = 0,
         },
     },
@@ -67,6 +176,10 @@ Database:AddChain(Chain.TheImpossiblePlan, {
             id = 4,
         },
         {
+            type = "chain",
+            id = Chain.ChampionOfPain,
+        },
+        {
             type = "renown",
             level = 4,
         },
@@ -77,108 +190,95 @@ Database:AddChain(Chain.TheImpossiblePlan, {
     },
     items = {
         {
+            type = "npc",
+            id = 161907,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
             id = 59555,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58007,
             x = 0,
             connections = {
-                1
-            }
+                1, 2, 
+            },
         },
         {
             type = "quest",
             id = 57649,
-            x = 0,
+            x = -1,
             connections = {
-                1
-            }
+                2, 3, 4, 
+            },
         },
         {
             type = "quest",
             id = 59265,
-            x = 0,
             connections = {
-                1
-            }
+                1, 2, 3, 
+            },
         },
         {
             type = "quest",
             id = 61230,
-            x = 0,
+            x = -2,
             connections = {
-                1
-            }
+                3, 
+            },
         },
         {
             type = "quest",
             id = 61227,
-            x = 0,
             connections = {
-                1
-            }
+                3, 
+            },
         },
         {
             type = "quest",
             id = 61226,
-            x = 0,
             connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57644,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 61335,
-            x = 0,
-            connections = {
-                1
-            }
+                3, 
+            },
         },
         {
             type = "quest",
             id = 61252,
-            x = 0,
+            x = -2,
             connections = {
-                1
-            }
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61335,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57644,
+            connections = {
+                1, 
+            },
         },
         {
             type = "quest",
             id = 61323,
             x = 0,
             connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 58211,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 57790,
-            x = 0,
-            connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
@@ -194,7 +294,29 @@ Database:AddChain(Chain.GrandTheftNecropolis, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 4,
+        },
+        {
+            type = "chain",
+            id = Chain.ChampionOfPain,
+            lowProriy = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheImpossiblePlan,
+        },
+        {
+            type = "renown",
+            level = 7,
+        },
+    },
     completed = {
         type = "quest",
         id = 59722,
@@ -259,14 +381,6 @@ Database:AddChain(Chain.GrandTheftNecropolis, {
         {
             type = "quest",
             id = 61569,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 61566,
             x = 0,
             connections = {
                 1
@@ -395,7 +509,6 @@ Database:AddChain(Chain.TheScentOfDeath, {
 })
 Database:AddChain(Chain.RedistributeAsmorde, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 7),
-    questline = 1115,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -406,62 +519,6 @@ Database:AddChain(Chain.RedistributeAsmorde, {
         id = 60211,
     },
     items = {
-        {
-            type = "quest",
-            id = 60207,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 60208,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 60209,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 60210,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 58573,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 58683,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 58687,
-            x = 0,
-            connections = {
-                1
-            }
-        },
         {
             type = "quest",
             id = 60211,
@@ -484,6 +541,14 @@ Database:AddChain(Chain.TheThirdFallOfKelthuzad, {
     items = {
         {
             type = "quest",
+            id = 62391,
+            x = 0,
+            connections = {
+                1
+            }
+        },
+        {
+            type = "quest",
             id = 58833,
             x = 0,
             connections = {
@@ -497,6 +562,148 @@ Database:AddChain(Chain.TheThirdFallOfKelthuzad, {
         },
     },
 })
+
+Database:AddChain(Chain.Chain01, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "quest",
+            id = 59603,
+            x = -1,
+            comment = "This or the next one, not sure",
+        },
+        {
+            type = "quest",
+            id = 61397,
+        },
+        {
+            type = "npc",
+            id = 162222,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58665,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58668,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58680,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58677,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58686,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59042,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58670,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58671,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58727,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60048,
+            x = -1,
+        },
+        {
+            type = "quest",
+            id = 60049,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60110,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain02, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "renown",
+            level = 3,
+            x = 0,
+        },
+        {
+            type = "npc",
+            id = 165321,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62309,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+    },
+})
+
 Database:AddChain(Chain.OtherAlliance, {
     name = "Other Alliance",
     category = CATEGORY_ID,
@@ -538,6 +745,10 @@ Database:AddChain(Chain.OtherBoth, {
         {
             type = "quest",
             id = 57636,
+        },
+        {
+            type = "quest",
+            id = 57644,
         },
         {
             type = "quest",
@@ -583,9 +794,21 @@ Database:AddChain(Chain.OtherBoth, {
             type = "quest",
             id = 61180,
         },
+        { -- Extra Limbs
+            type = "quest",
+            id = 61226,
+        },
+        { -- The Other Foot
+            type = "quest",
+            id = 61227,
+        },
         {
             type = "quest",
             id = 61246,
+        },
+        {
+            type = "quest",
+            id = 61335,
         },
         {
             type = "quest",
@@ -602,6 +825,10 @@ Database:AddChain(Chain.OtherBoth, {
         {
             type = "quest",
             id = 61869,
+        },
+        {
+            type = "quest",
+            id = 62406,
         },
     },
 })
@@ -644,6 +871,14 @@ Database:AddCategory(CATEGORY_ID, {
         },
         {
             type = "chain",
+            id = Chain.Chain01,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain02,
+        },
+        {
+            type = "chain",
             id = Chain.OtherAlliance,
         },
         {
@@ -667,15 +902,15 @@ Database:AddExpansionItem(EXPANSION_ID, {
 Database:AddQuestsTable({
     [61252] = {
         name = "Call In a Favor",
-        contentTuningID = 837,
+        contentTuningID = 0,
     },
     [59265] = {
         name = "Prying Eyes",
-        contentTuningID = 837,
+        contentTuningID = 0,
     },
     [58007] = {
         name = "Eyes on the Problem",
-        contentTuningID = 837,
+        contentTuningID = 0,
     },
     [59020] = {
         name = "The Third Fall of Kel'thuzad",
@@ -683,22 +918,22 @@ Database:AddQuestsTable({
     },
     [61226] = {
         name = "Extra Limbs",
-        contentTuningID = 837,
+        contentTuningID = 0,
     },
     [57649] = {
         name = "Whisper of Hope",
-        contentTuningID = 837,
+        contentTuningID = 0,
     },
     [61227] = {
         name = "The Other Foot",
-        contentTuningID = 837,
+        contentTuningID = 0,
     },
     [59555] = {
         name = "Enemy at the Door",
-        contentTuningID = 837,
+        contentTuningID = 0,
     },
     [61230] = {
         name = "Outside Influence",
-        contentTuningID = 837,
+        contentTuningID = 0,
     },
 })
