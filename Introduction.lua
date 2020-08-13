@@ -389,8 +389,62 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
             id = 62159,
             x = 0,
             connections = {
-                1, 
+                1, 2, 3, 4, 
             },
+        },
+        {
+            type = "quest",
+            id = 62275,
+            aside = true,
+            x = -3,
+            connections = {
+                4, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62278,
+            aside = true,
+            connections = {
+                4, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62277,
+            aside = true,
+            connections = {
+                4, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62279,
+            aside = true,
+            connections = {
+                4, 
+            },
+        },
+        {
+            type = "chain",
+            id = 90101,
+            aside = true,
+            x = -3,
+        },
+        {
+            type = "chain",
+            id = 90201,
+            aside = true,
+        },
+        {
+            type = "chain",
+            id = 90301,
+            aside = true,
+        },
+        {
+            type = "chain",
+            id = 90401,
+            aside = true,
         },
     },
 })
