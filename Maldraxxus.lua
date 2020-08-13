@@ -28,6 +28,11 @@ Chain.TempChain01 = 90211
 Chain.TempChain02 = 90212
 Chain.TempChain03 = 90213
 Chain.TempChain04 = 90214
+Chain.TempChain05 = 90215
+Chain.TempChain06 = 90216
+Chain.TempChain07 = 90217
+Chain.TempChain08 = 90218
+Chain.TempChain09 = 90219
 Chain.OtherAlliance = 90297
 Chain.OtherHorde = 90298
 Chain.OtherBoth = 90299
@@ -878,7 +883,6 @@ Database:AddChain(Chain.TheEmptyThrone, {
     },
 })
 Database:AddChain(Chain.TempChain01, {
-    name = "Fight and Flight",
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -888,32 +892,16 @@ Database:AddChain(Chain.TempChain01, {
     },
     items = {
         {
-            type = "quest",
-            id = 61785,
+            type = "object",
+            id = 349612,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
-            id = 61767,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 61768,
-            x = 0,
-            connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 61769,
+            id = 59867,
             x = 0,
         },
     },
@@ -928,36 +916,51 @@ Database:AddChain(Chain.TempChain02, {
     },
     items = {
         {
-            type = "quest",
-            id = 61773,
-            x = -2,
+            type = "npc",
+            id = 161559,
+            x = 0,
             connections = {
-                3
-            }
+                1, 2, 
+            },
         },
         {
             type = "quest",
-            id = 61771,
+            id = 59750,
+            x = -1,
             connections = {
-                2
-            }
+                2, 
+            },
         },
         {
             type = "quest",
-            id = 61770,
+            id = 59781,
             connections = {
-                1
-            }
+                2, 
+            },
         },
         {
             type = "quest",
-            id = 60050,
+            id = 58575,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59800,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58947,
             x = 0,
         },
     },
 })
 Database:AddChain(Chain.TempChain03, {
-    name = "Crest of Greatness",
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -967,24 +970,32 @@ Database:AddChain(Chain.TempChain03, {
     },
     items = {
         {
-            type = "quest",
-            id = 61876,
+            type = "npc",
+            id = 159689,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
-            id = 61877,
+            id = 58068,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
-            id = 61878,
+            id = 58088,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58090,
             x = 0,
         },
     },
@@ -1000,17 +1011,214 @@ Database:AddChain(Chain.TempChain04, {
     items = {
         {
             type = "quest",
-            id = 61781,
+            id = 57425,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain03,
+            embed = true,
+            x = -3,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain02,
+            embed = true,
             x = 0,
             connections = {
-                1
-            }
+                2, 
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain01,
+            aside = true,
+            embed = true,
+            x = 3,
         },
         {
             type = "quest",
-            id = 60067,
+            id = 59879,
+            x = 0,
+            y = 5,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59203,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59837,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58900,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57316,
             x = 0,
         },
+    },
+})
+Database:AddChain(Chain.TempChain05, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 60067,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 162615,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58785,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain06, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 60067,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 162474,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58750,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain07, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 60067,
+    },
+    items = {
+        {
+            type = "quest",
+            id = 57425,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain05,
+            embed = true,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain06,
+            embed = true,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58794,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain08, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 60067,
+    },
+    items = {
+        {
+            type = "quest",
+            id = 57425,
+        },
+        {
+            type = "npc",
+            id = 165049,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59430,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58431,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            name = "Unlocks weeklies",
+            x = 0,
+        },
+        {
+            type = "quest",
+            id = 57301,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain09, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 60067,
+    },
+    items = {
     },
 })
 Database:AddChain(Chain.OtherAlliance, {
@@ -1035,86 +1243,6 @@ Database:AddChain(Chain.OtherBoth, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
-        { -- One Thing, Not Like The Others
-            type = "quest",
-            id = 57284,
-        },
-        { -- ...Even The Most Ridiculous Request!
-            type = "quest",
-            id = 58068,
-        },
-        { -- Buggin' Out
-            type = "quest",
-            id = 58207,
-        },
-        { -- Amateur Night
-            type = "quest",
-            id = 58605,
-        },
-        { -- Read Between the Lines
-            type = "quest",
-            id = 58619,
-        },
-        { -- Pulling Hairs
-            type = "quest",
-            id = 59642,
-        },
-        { -- The Spider on the Wall
-            type = "quest",
-            id = 59743,
-        },
-        { -- How To Get A Head
-            type = "quest",
-            id = 59750,
-        },
-        { -- The Last Guy
-            type = "quest",
-            id = 59781,
-        },
-        { -- Dark Developments
-            type = "quest",
-            id = 61772,
-        },
-        { -- Burn Before Reading
-            type = "quest",
-            id = 61774,
-        },
-        { -- An Early End
-            type = "quest",
-            id = 61775,
-        },
-        { -- Trouble on the Western Front
-            type = "quest",
-            id = 61776,
-        },
-        { -- Charging The Blade
-            type = "quest",
-            id = 61777,
-        },
-        { -- Aerial Advantage
-            type = "quest",
-            id = 61778,
-        },
-        { -- Grave Intent
-            type = "quest",
-            id = 61779,
-        },
-        { -- Power of the Chosen
-            type = "quest",
-            id = 61780,
-        },
-        { -- Pursuit of Justice
-            type = "quest",
-            id = 61782,
-        },
-        { -- Uncomfortably Undercover
-            type = "quest",
-            id = 61868,
-        },
-        { -- Failed Experiment
-            type = "quest",
-            id = 61870,
-        },
     },
 })
 
@@ -1165,6 +1293,26 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.TempChain04,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain05,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain06,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain07,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain08,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain09,
         },
         {
             type = "chain",
