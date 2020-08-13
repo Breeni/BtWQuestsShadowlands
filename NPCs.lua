@@ -12,13 +12,68 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [158345] = {
+        name = "Lady of the Falls",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.511059,
+                    y = 0.338766,
+                },
+            },
+        },
+    },
+    [158422] = {
+        name = "Foreman Thorodir",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.466647,
+                    y = 0.294092,
+                },
+            },
+        },
+    },
     [158487] = {
         name = "Droman Tashmur",
         locations = {
             [1565] = {
                 {
-                    x = 0.634953,
-                    y = 0.36282,
+                    x = 0.634876,
+                    y = 0.362924,
+                },
+            },
+        },
+    },
+    [158489] = {
+        name = "Fluttercatch",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.480672,
+                    y = 0.243418,
+                },
+            },
+        },
+    },
+    [158921] = {
+        name = "Guardian Kota",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.626112,
+                    y = 0.360826,
+                },
+            },
+        },
+    },
+    [158969] = {
+        name = "Master Sha'lor",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.648603,
+                    y = 0.389392,
                 },
             },
         },
@@ -39,8 +94,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.671111,
-                    y = 0.321924,
+                    x = 0.671153,
+                    y = 0.321961,
                 },
             },
         },
@@ -56,6 +111,50 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [160121] = {
+        name = "Master Sha'lor",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.629216,
+                    y = 0.362361,
+                },
+            },
+        },
+    },
+    [160155] = {
+        name = "Guardian Kota",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.595798,
+                    y = 0.334355,
+                },
+            },
+        },
+    },
+    [160439] = {
+        name = "Partik",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.703508,
+                    y = 0.325952,
+                },
+            },
+        },
+    },
+    [160440] = {
+        name = "Brigdin",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.643888,
+                    y = 0.351862,
+                },
+            },
+        },
+    },
     [160894] = {
         name = "Droman Aliothe",
         locations = {
@@ -67,13 +166,24 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [160929] = {
+        name = "Guardian Molan",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.60681,
+                    y = 0.513346,
+                },
+            },
+        },
+    },
     [160962] = {
         name = "Dreamweaver",
         locations = {
             [1565] = {
                 {
-                    x = 0.600543,
-                    y = 0.52965,
+                    x = 0.601821,
+                    y = 0.533917,
                 },
             },
         },
@@ -94,19 +204,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.684739,
+                    x = 0.684599,
                     y = 0.57446,
-                },
-            },
-        },
-    },
-    [161379] = {
-        name = "Niya",
-        locations = {
-            [1565] = {
-                {
-                    x = 0.684207,
-                    y = 0.574807,
                 },
             },
         },
@@ -118,6 +217,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.684739,
                     y = 0.57446,
+                },
+            },
+        },
+    },
+    [161447] = {
+        name = "Niya",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.684179,
+                    y = 0.57488,
                 },
             },
         },
@@ -169,10 +279,21 @@ BtWQuestsDatabase:AddNPCsTable({
     [162968] = {
         name = "Winter Queen",
         locations = {
-            [1701] = {
+            [1565] = {
                 {
-                    x = 0.489806,
-                    y = 0.336026,
+                    x = 0.452933,
+                    y = 0.630337,
+                },
+            },
+        },
+    },
+    [165382] = {
+        name = "Gormsmith Cavina",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.516662,
+                    y = 0.338976,
                 },
             },
         },
@@ -215,8 +336,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.652338,
-                    y = 0.366162,
+                    x = 0.652384,
+                    y = 0.366075,
                 },
             },
         },
@@ -226,8 +347,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.614042,
-                    y = 0.40974,
+                    x = 0.614007,
+                    y = 0.409768,
                 },
             },
         },
@@ -248,8 +369,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.598977,
-                    y = 0.531896,
+                    x = 0.598039,
+                    y = 0.530976,
                 },
             },
         },
@@ -259,8 +380,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.513147,
-                    y = 0.339898,
+                    x = 0.51316,
+                    y = 0.339817,
                 },
             },
         },
@@ -281,7 +402,7 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.684319,
+                    x = 0.684179,
                     y = 0.243607,
                 },
             },
@@ -380,8 +501,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.623253,
-                    y = 0.455511,
+                    x = 0.623251,
+                    y = 0.455563,
                 },
             },
         },
@@ -413,8 +534,30 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.678821,
-                    y = 0.241177,
+                    x = 0.656726,
+                    y = 0.279108,
+                },
+            },
+        },
+    },
+    [171099] = {
+        name = "Guardian Kota",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.628836,
+                    y = 0.321367,
+                },
+            },
+        },
+    },
+    [171195] = {
+        name = "Gorm Burrow",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.621725,
+                    y = 0.299914,
                 },
             },
         },
