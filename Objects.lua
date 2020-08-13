@@ -1,6 +1,17 @@
 ----- AUTO GENERATED - DO NOT EDIT
 
 BtWQuestsDatabase:AddObjectsTable({
+    [349612] = {
+        name = "Wanted: Appraiser Vix",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.541493,
+                    y = 0.47485,
+                },
+            },
+        },
+    },
     [351467] = {
         name = "Faded Epitaph",
         locations = {

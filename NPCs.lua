@@ -1,6 +1,17 @@
 ----- AUTO GENERATED - DO NOT EDIT
 
 BtWQuestsDatabase:AddNPCsTable({
+    [157313] = {
+        name = "Foul-Tongue Cyrlix",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.585272,
+                    y = 0.734533,
+                },
+            },
+        },
+    },
     [157676] = {
         name = "Bonesmith Heirmir",
         locations = {
@@ -23,6 +34,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [157945] = {
+        name = "Boil Master Yetch",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.590966,
+                    y = 0.73873,
+                },
+            },
+        },
+    },
     [158007] = {
         name = "Margrave Krexus",
         locations = {
@@ -41,6 +63,61 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.38896,
                     y = 0.651917,
+                },
+            },
+        },
+    },
+    [159478] = {
+        name = "Tal-Inara",
+        locations = {
+            [1670] = {
+                {
+                    x = 0.388685,
+                    y = 0.699083,
+                },
+            },
+        },
+    },
+    [159689] = {
+        name = "Overseer Kalvaros",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.540239,
+                    y = 0.508597,
+                },
+            },
+        },
+    },
+    [159827] = {
+        name = "Scrapper Minoire",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.537977,
+                    y = 0.505384,
+                },
+            },
+        },
+    },
+    [159830] = {
+        name = "Ad'narim",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.535886,
+                    y = 0.475159,
+                },
+            },
+        },
+    },
+    [159833] = {
+        name = "Y'narynar",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.536997,
+                    y = 0.479206,
                 },
             },
         },
@@ -89,13 +166,46 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [161559] = {
+        name = "Louison",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.544781,
+                    y = 0.485941,
+                },
+            },
+        },
+    },
+    [161733] = {
+        name = "Anzio The Infallible",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.505728,
+                    y = 0.516111,
+                },
+            },
+        },
+    },
     [162069] = {
         name = "Baroness Draka",
         locations = {
             [1536] = {
                 {
-                    x = 0.483858,
-                    y = 0.571655,
+                    x = 0.483823,
+                    y = 0.571587,
+                },
+            },
+        },
+    },
+    [162474] = {
+        name = "Dundae",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.468795,
+                    y = 0.485786,
                 },
             },
         },
@@ -107,6 +217,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.676741,
                     y = 0.459239,
+                },
+            },
+        },
+    },
+    [162615] = {
+        name = "Caleesy",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.469968,
+                    y = 0.490392,
                 },
             },
         },
@@ -127,8 +248,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1670] = {
                 {
-                    x = 0.399694,
-                    y = 0.686239,
+                    x = 0.399204,
+                    y = 0.685928,
                 },
             },
         },
@@ -138,8 +259,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1536] = {
                 {
-                    x = 0.50216,
-                    y = 0.416489,
+                    x = 0.503664,
+                    y = 0.417301,
                 },
             },
         },
@@ -184,6 +305,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.382077,
                     y = 0.66754,
+                },
+            },
+        },
+    },
+    [165049] = {
+        name = "Judas Sneap",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.580592,
+                    y = 0.721067,
                 },
             },
         },
@@ -303,8 +435,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1671] = {
                 {
-                    x = 0.612789,
-                    y = 0.369477,
+                    x = 0.6125,
+                    y = 0.367578,
                 },
             },
         },
