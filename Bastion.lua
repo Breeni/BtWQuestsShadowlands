@@ -1216,27 +1216,168 @@ Database:AddChain(Chain.TempChain07, {
     },
 })
 Database:AddChain(Chain.TempChain08, {
-    name = "Censers of Guidance",
+    name = { -- The Spear of Kalliope
+        type = "quest",
+        id = 57989,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     completed = {
         type = "quest",
-        id = 58788,
+        id = 60906,
     },
     items = {
+        {
+            name = "Unknown requirements",
+            aside = true,
+        },
+        {
+            type = "npc",
+            id = 159248,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57860,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59207,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57861,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57875,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57914,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57966,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57989,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60906,
+            x = 0,
+        },
     },
 })
 Database:AddChain(Chain.TempChain09, {
-    name = "If You Want Peace...",
+    name = { -- Feathers of Flight
+        type = "quest",
+        id = 59263,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     completed = {
         type = "quest",
-        id = 57386,
+        id = 59865,
     },
     items = {
+        {
+            name = "Unknown requirements",
+            aside = true,
+        },
+        {
+            type = "npc",
+            id = 164640,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59262,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59263,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60660,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59348,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59351,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59311,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59865,
+            x = 0,
+        },
     },
 })
 Database:AddChain(Chain.TempChain10, {
