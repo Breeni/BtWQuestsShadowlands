@@ -20,4 +20,5 @@ NPCs.lua
 
 Objects.lua
 
+Introduction.lua
 NightFae.lua
