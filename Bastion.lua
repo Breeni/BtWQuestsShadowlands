@@ -1229,10 +1229,6 @@ Database:AddChain(Chain.TempChain08, {
     },
     items = {
         {
-            name = "Unknown requirements",
-            aside = true,
-        },
-        {
             type = "npc",
             id = 159248,
             x = 0,
@@ -1314,10 +1310,6 @@ Database:AddChain(Chain.TempChain09, {
         id = 59865,
     },
     items = {
-        {
-            name = "Unknown requirements",
-            aside = true,
-        },
         {
             type = "npc",
             id = 164640,

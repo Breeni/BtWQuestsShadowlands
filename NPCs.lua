@@ -144,6 +144,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [159248] = {
+        name = "Haetio",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.366867,
+                    y = 0.375629,
+                },
+            },
+        },
+    },
+    [159272] = {
+        name = "Artificer Ligiea",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.427241,
+                    y = 0.394189,
+                },
+            },
+        },
+    },
     [159583] = {
         name = "Kleia",
         locations = {
@@ -182,8 +204,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1707] = {
                 {
-                    x = 0.556508,
-                    y = 0.419627,
+                    x = 0.556667,
+                    y = 0.42,
                 },
             },
         },
@@ -221,6 +243,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [164640] = {
+        name = "Kowalskos",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.42827,
+                    y = 0.427291,
+                },
+            },
+        },
+    },
     [165045] = {
         name = "Kalisthene",
         locations = {
@@ -237,8 +270,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1533] = {
                 {
-                    x = 0.528685,
-                    y = 0.456442,
+                    x = 0.52816,
+                    y = 0.456945,
                 },
             },
         },
@@ -347,8 +380,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1533] = {
                 {
-                    x = 0.407219,
-                    y = 0.554996,
+                    x = 0.407148,
+                    y = 0.555014,
                 },
             },
         },
@@ -369,8 +402,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1533] = {
                 {
-                    x = 0.412918,
-                    y = 0.542581,
+                    x = 0.412996,
+                    y = 0.542643,
                 },
             },
         },
