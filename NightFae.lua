@@ -203,8 +203,16 @@ Database:AddChain(Chain.TheMaw, {
             },
         },
         {
+            type = "quest",
+            id = 61508,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.TheMaw,
+            id = BtWQuests.Constant.Chain.Shadowlands.TheMawEmbed,
             embed = true,
             x = 0,
         },
@@ -798,6 +806,10 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.ForQueenAndGrove,
+        },
+        {
+            type = "chain",
+            id = Chain.TheMaw,
         },
         {
             type = "chain",
