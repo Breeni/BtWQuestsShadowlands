@@ -31,6 +31,11 @@ Chain.TheThirdFallOfKelthuzad = 90709
 
 Chain.Chain01 = 90711
 Chain.Chain02 = 90712
+Chain.Chain03 = 90713
+Chain.Chain04 = 90714
+Chain.Chain05 = 90715
+Chain.Chain06 = 90716
+Chain.Chain07 = 90717
 
 Chain.OtherAlliance = 90797
 Chain.OtherHorde = 90798
@@ -381,81 +386,103 @@ Database:AddChain(Chain.GrandTheftNecropolis, {
     },
     items = {
         {
+            type = "npc",
+            id = 161907,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
             id = 62169,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 57778,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 61485,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 61518,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 60112,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 61548,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 61551,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 61569,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 61594,
             x = 0,
             connections = {
-                1
-            }
+                1, 2, 
+            },
         },
         {
             type = "quest",
             id = 59722,
-            x = 0,
+            x = -1,
+        },
+        {
+            type = "quest",
+            id = 61869,
+            aside = true,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58820,
+            aside = true,
+            x = 1,
         },
     },
 })
@@ -761,6 +788,90 @@ Database:AddChain(Chain.Chain02, {
         },
     },
 })
+Database:AddChain(Chain.Chain03, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "quest",
+            id = 59722,
+            x = -1,
+            comment = "One of these 2",
+        },
+        {
+            type = "quest",
+            id = 61869,
+        },
+        {
+            type = "npc",
+            id = 165321,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62312,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain04, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "quest",
+            id = 59722,
+            x = -1,
+            comment = "One of these 2",
+        },
+        {
+            type = "quest",
+            id = 61869,
+        },
+        {
+            type = "npc",
+            id = 173306,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60184,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+    },
+})
+Database:AddChain(Chain.Chain05, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+    },
+})
+Database:AddChain(Chain.Chain06, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+    },
+})
+Database:AddChain(Chain.Chain07, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+    },
+})
 
 Database:AddChain(Chain.OtherAlliance, {
     name = "Other Alliance",
@@ -938,6 +1049,26 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.Chain02,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain03,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain04,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain05,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain06,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain07,
         },
         {
             type = "chain",
