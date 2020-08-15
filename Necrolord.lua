@@ -20,13 +20,14 @@ local LEVEL_PREREQUISITES = {
 }
 
 Chain.ChampionOfPain = 90701
-Chain.TheImpossiblePlan = 90702
-Chain.GrandTheftNecropolis = 90703
-Chain.MachinationsOfWar = 90704
-Chain.JusticeIsBlind = 90705
-Chain.TheScentOfDeath = 90706
-Chain.RedistributeAsmorde = 90707
-Chain.TheThirdFallOfKelthuzad = 90708
+Chain.TheMaw = 90702
+Chain.TheImpossiblePlan = 90703
+Chain.GrandTheftNecropolis = 90704
+Chain.MachinationsOfWar = 90705
+Chain.JusticeIsBlind = 90706
+Chain.TheScentOfDeath = 90707
+Chain.RedistributeAsmorde = 90708
+Chain.TheThirdFallOfKelthuzad = 90709
 
 Chain.Chain01 = 90711
 Chain.Chain02 = 90712
@@ -155,6 +156,63 @@ Database:AddChain(Chain.ChampionOfPain, {
         {
             type = "quest",
             id = 61513,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TheMaw, {
+    name = "The Maw",
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    major = true,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 4,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 61513,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 167748,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60130,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61513,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.TheMawEmbed,
+            embed = true,
             x = 0,
         },
     },
@@ -840,6 +898,10 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.ChampionOfPain,
+        },
+        {
+            type = "chain",
+            id = Chain.TheMaw,
         },
         {
             type = "chain",
