@@ -449,6 +449,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
     },
 })
 Database:AddChain(Chain.TheMawEmbed, {
+    name = "The Maw",
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
@@ -540,7 +541,7 @@ Database:AddChain(Chain.Torghast, {
         },
         {
             type = "chain",
-            id = Chain.TheMaw,
+            id = Chain.TheMawEmbed,
         },
     },
     active = {
