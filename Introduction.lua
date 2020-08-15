@@ -14,7 +14,7 @@ local LEVEL_PREREQUISITES = {
 Chain.IntoTheMaw = 90001
 Chain.ArrivalInTheShadowlandsMain = 90002
 Chain.ArrivalInTheShadowlandsAlt = 90003
-Chain.TheMaw = 90004
+Chain.TheMawEmbed = 90004
 Chain.Torghast = 90005
 
 Database:AddChain(Chain.IntoTheMaw, {
@@ -448,20 +448,10 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
         },
     },
 })
-Database:AddChain(Chain.TheMaw, {
-    name = "The Maw",
+Database:AddChain(Chain.TheMawEmbed, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = {
-        {
-            type = "level",
-            level = 50,
-        },
-        {
-            name = "Campaign Chapter 1"
-        },
-    },
     active = {
         type = "quest",
         id = 61496,
@@ -702,10 +692,6 @@ BtWQuestsDatabase:AddExpansionItems(EXPANSION_ID, {
     {
         type = "chain",
         id = Chain.ArrivalInTheShadowlandsAlt,
-    },
-    {
-        type = "chain",
-        id = Chain.TheMaw,
     },
     {
         type = "chain",
