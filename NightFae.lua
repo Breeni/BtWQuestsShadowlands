@@ -181,9 +181,14 @@ Database:AddChain(Chain.TheMaw, {
             id = Chain.ForQueenAndGrove,
         },
     },
+    active = {
+        type = "quest",
+        id = 60233,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
-        id = 59242,
+        id = 60134,
     },
     items = {
         {
@@ -225,7 +230,29 @@ Database:AddChain(Chain.DaughterOfTheNightWarrior, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 3,
+        },
+        {
+            type = "chain",
+            id = Chain.ForQueenAndGrove,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheMaw,
+        },
+        { -- Maybe?
+            type = "renown",
+            level = 4,
+        },
+    },
     completed = {
         type = "quest",
         id = 59242,
@@ -302,7 +329,34 @@ Database:AddChain(Chain.DeBoss, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 3,
+        },
+        {
+            type = "chain",
+            id = Chain.ForQueenAndGrove,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheMaw,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DaughterOfTheNightWarrior,
+        },
+        { -- Maybe?
+            type = "renown",
+            level = 7,
+        },
+    },
     completed = {
         type = "quest",
         id = 59821,
@@ -395,9 +449,38 @@ Database:AddChain(Chain.NightWarriorsCurse, {
     range = LEVEL_RANGE,
     major = true,
     prerequisites = LEVEL_PREREQUISITES,
-    completed = {
-        type = "quest",
-        id = 59071,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 3,
+        },
+        {
+            type = "chain",
+            id = Chain.ForQueenAndGrove,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheMaw,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DaughterOfTheNightWarrior,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DeBoss,
+        },
+        { -- Maybe?
+            type = "renown",
+            level = 7,
+        },
     },
     items = {
         {
