@@ -1,3 +1,18 @@
+--[[
+    Currently I'm not sure how best to determine which character completed
+    the Main Character version of the Oribos intro
+    When the alt experiance is enabled an achievement (14529) and quest (59880)
+    are flagged as completed. When an alt gets to oribos and relogs both of these
+    are marked as complete on that character too, the first 2 quests in the alt
+    chain appear to be flagged as completed on main, although they appear to have
+    been added later so maybe they wouldnt be under normal circumstances.
+    Orignally there was a different quest (62166) at the start of the alt version
+    not sure if it was changed or why its different now
+
+    When leaving The Maw quests for the main character oribos chain are flagged
+    as completed, along with quest 62537, this doesnt seem to be flagged as completed 
+    on the main though, so maybe it can be used to test for alts
+]]
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
@@ -227,18 +242,19 @@ Database:AddChain(Chain.IntoTheMaw, {
         },
     },
 })
+BtWQuests.Characters:AddAchievement(14529);
 Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
     name = "Arrival in the Shadowlands (Main)",
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
     restrictions = {
-        type = "quest",
-        id = 62166,
-        status = {'pending'},
+        type = "achievement",
+        id = 14529,
         restrictions = {
             type = "achievement",
             id = 14529,
+            anyone = true,
         },
     },
     prerequisites = {
@@ -338,16 +354,27 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
     range = LEVEL_RANGE,
     major = true,
     restrictions = {
-        {
-            type = "quest",
-            id = 62166,
-            status = {'active', 'completed'},
-        },
-        {
+        type = "achievement",
+        id = 14529,
+        completed = false,
+        restrictions = {
             type = "achievement",
             id = 14529,
+            anyone = true,
         },
     },
+    -- restrictions = {
+    --     {
+    --         type = "quest",
+    --         id = 62072,
+    --         status = {'active', 'completed'},
+    --     },
+    --     {
+    --         type = "achievement",
+    --         id = 14529,
+    --         anyone = true,
+    --     },
+    -- },
     prerequisites = {
         {
             type = "level",
@@ -360,7 +387,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
     },
     active = {
         type = "quest",
-        id = 62166,
+        id = 62072,
         status = {'active', 'completed'},
     },
     completed = {
@@ -370,12 +397,28 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
     items = {
         {
             type = "quest",
-            id = 62166,
+            id = 62072,
             x = 0,
             connections = {
                 1, 
             },
         },
+        {
+            type = "quest",
+            id = 62077,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        -- { -- Removed?
+        --     type = "quest",
+        --     id = 62166,
+        --     x = 0,
+        --     connections = {
+        --         1, 
+        --     },
+        -- },
         {
             type = "quest",
             id = 62000,
