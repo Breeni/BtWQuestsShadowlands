@@ -34,6 +34,17 @@ Chain.Chain06 = 90416
 Chain.Chain07 = 90417
 Chain.Chain08 = 90418
 Chain.Chain09 = 90419
+Chain.Chain10 = 90420
+Chain.Chain11 = 90421
+Chain.Chain12 = 90422
+Chain.Chain13 = 90423
+Chain.Chain14 = 90424
+Chain.Chain15 = 90425
+Chain.Chain16 = 90426
+Chain.Chain17 = 90427
+Chain.Chain18 = 90428
+Chain.Chain19 = 90429
+Chain.Chain20 = 90430
 
 Chain.OtherAlliance = 90497
 Chain.OtherHorde = 90498
@@ -1002,6 +1013,26 @@ Database:AddChain(Chain.Chain08, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
+        {
+            name = "Check Requirements",
+            aside = true,
+        },
+        {
+            type = "kill",
+            id = 165253,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60517,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
     },
 })
 Database:AddChain(Chain.Chain09, {
@@ -1009,6 +1040,377 @@ Database:AddChain(Chain.Chain09, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
+        {
+            name = "Check Requirements",
+            aside = true,
+        },
+        {
+            type = "object",
+            id = 351889,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60279,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+    },
+})
+Database:AddChain(Chain.Chain10, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "Check Requirements",
+            aside = true,
+        },
+        {
+            type = "npc",
+            id = 156384,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60514,
+            x = -1,
+        },
+        {
+            type = "quest",
+            id = 58996,
+        },
+    },
+})
+Database:AddChain(Chain.Chain11, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "Check Requirements",
+            aside = true,
+        },
+        {
+            type = "npc",
+            id = 160100,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58060,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58062,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+    },
+})
+Database:AddChain(Chain.Chain12, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "Check Requirements",
+            aside = true,
+        },
+        {
+            type = "object",
+            id = 355296,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58936,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+    },
+})
+Database:AddChain(Chain.Chain13, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "Check Requirements, maybe [A Very Special Guest]",
+            aside = true,
+        },
+        {
+            type = "kill",
+            id = 156395,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58079,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain14, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "Check Requirements",
+            aside = true,
+        },
+        {
+            type = "npc",
+            id = 158038,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57531,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57532,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57571,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57533,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57534,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57535,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59427,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57536,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain15, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "Check Requirements, maybe [A Very Special Guest]",
+            aside = true,
+        },
+        {
+            type = "kill",
+            id = 158420,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58077,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain16, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "Check Requirements",
+            aside = true,
+        },
+        {
+            type = "object",
+            id = 351874,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60275,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+    },
+})
+Database:AddChain(Chain.Chain17, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "Check Requirements",
+            aside = true,
+        },
+        {
+            type = "object",
+            id = 351888,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60276,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+    },
+})
+Database:AddChain(Chain.Chain18, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "Check Requirements",
+            aside = true,
+        },
+        {
+            type = "item",
+            id = 182738,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62189,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+    },
+})
+Database:AddChain(Chain.Chain19, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "Check Requirements",
+            aside = true,
+        },
+        {
+            type = "object",
+            id = 351887,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60280,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+    },
+})
+Database:AddChain(Chain.Chain20, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "Check Requirements",
+            aside = true,
+        },
+        {
+            type = "object",
+            id = 351886,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60278,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
     },
 })
 
@@ -1100,6 +1502,86 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.MenagerieOfTheMaster,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain01,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain02,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain03,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain04,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain05,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain06,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain07,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain08,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain09,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain10,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain11,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain12,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain13,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain14,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain15,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain16,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain17,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain18,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain19,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain20,
         },
         {
             type = "chain",
