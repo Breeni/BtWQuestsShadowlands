@@ -33,6 +33,7 @@ Chain.TempChain06 = 90216
 Chain.TempChain07 = 90217
 Chain.TempChain08 = 90218
 Chain.TempChain09 = 90219
+Chain.TempChain10 = 90220
 Chain.OtherAlliance = 90297
 Chain.OtherHorde = 90298
 Chain.OtherBoth = 90299
@@ -1219,6 +1220,96 @@ Database:AddChain(Chain.TempChain09, {
         id = 60067,
     },
     items = {
+        {
+            type = "npc",
+            id = 166657,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58619,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58621,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59917,
+            aside = true,
+        },
+        {
+            type = "quest",
+            id = 58620,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58622,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60900,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59994,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58623,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain10, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 60067,
+    },
+    items = {
+        {
+            type = "object",
+            id = 358382,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62462,
+            x = 0,
+        },
     },
 })
 Database:AddChain(Chain.OtherAlliance, {
@@ -1313,6 +1404,10 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.TempChain09,
+        },
+        {
+            type = "chain",
+            id = Chain.TempChain10,
         },
         {
             type = "chain",
