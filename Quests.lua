@@ -637,7 +637,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57547] = {
         name = "A Test of Courage",
-        contentTuningID = 743,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 158004,
@@ -653,7 +653,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57551] = {
         name = "Agthia's Path",
-        contentTuningID = 743,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 158078,
@@ -669,7 +669,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57553] = {
         name = "On Wounded Wings",
-        contentTuningID = 743,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 158178,
@@ -693,7 +693,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57568] = {
         name = "Tough Love",
-        contentTuningID = 743,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 158004,
@@ -1036,7 +1036,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57933] = {
         name = "We Can Rebuild Him",
-        contentTuningID = 743,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 158765,
@@ -1044,7 +1044,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57934] = {
         name = "Combat Drills",
-        contentTuningID = 743,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 158765,
@@ -1052,7 +1052,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57935] = {
         name = "Laser Location",
-        contentTuningID = 743,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 158765,
@@ -1060,7 +1060,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57936] = {
         name = "Superior Programming",
-        contentTuningID = 743,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 159609,
@@ -1068,7 +1068,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57937] = {
         name = "Tactical Formation",
-        contentTuningID = 743,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 158765,
