@@ -1071,226 +1071,6 @@ Database:AddChain(Chain.Chain02, {
         },
     },
 })
-Database:AddChain(Chain.EmbedChain04, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        id = 61769,
-    },
-    items = {
-        {
-            type = "object",
-            id = 349612,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 59867,
-            x = 0,
-        },
-    },
-})
-Database:AddChain(Chain.EmbedChain03, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        id = 60050,
-    },
-    items = {
-        {
-            type = "npc",
-            id = 161559,
-            x = 0,
-            connections = {
-                1, 2, 
-            },
-        },
-        {
-            type = "quest",
-            id = 59750,
-            x = -1,
-            connections = {
-                2, 
-            },
-        },
-        {
-            type = "quest",
-            id = 59781,
-            connections = {
-                2, 
-            },
-        },
-        {
-            type = "quest",
-            id = 58575,
-            x = -1,
-            connections = {
-                2, 
-            },
-        },
-        {
-            type = "quest",
-            id = 59800,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 58947,
-            x = 0,
-        },
-    },
-})
-Database:AddChain(Chain.EmbedChain02, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        id = 61878,
-    },
-    items = {
-        {
-            type = "npc",
-            id = 159689,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 58068,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 58088,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 58090,
-            x = 0,
-        },
-    },
-})
-Database:AddChain(Chain.EmbedChain06, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        id = 60067,
-    },
-    items = {
-        {
-            type = "npc",
-            id = 162615,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 58785,
-            x = 0,
-        },
-    },
-})
-Database:AddChain(Chain.EmbedChain07, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        id = 60067,
-    },
-    items = {
-        {
-            type = "npc",
-            id = 162474,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 58750,
-            x = 0,
-        },
-    },
-})
-Database:AddChain(Chain.EmbedChain01, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    prerequisites = {
-        {
-            type = "level",
-            level = 52,
-        },
-        {
-            type = "chain",
-            id = Chain.ChampionOfPain,
-            upto = 57425,
-        },
-    },
-    completed = {
-        type = "quest",
-        id = 60067,
-    },
-    items = {
-        {
-            type = "npc",
-            id = 165049,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 59430,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 58431,
-            x = 0,
-            -- connections = {
-            --     1, 
-            -- },
-        },
-        -- {
-        --     name = "Unlocks weeklies",
-        --     x = 0,
-        -- },
-        -- {
-        --     type = "quest",
-        --     id = 57301,
-        -- },
-    },
-})
 Database:AddChain(Chain.Chain03, {
     name = { -- Secrets Among the Shelves
         type = "quest",
@@ -1388,6 +1168,178 @@ Database:AddChain(Chain.Chain03, {
         },
     },
 })
+Database:AddChain(Chain.EmbedChain01, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 52,
+        },
+        {
+            type = "chain",
+            id = Chain.ChampionOfPain,
+            upto = 57425,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 60067,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 165049,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59430,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58431,
+            x = 0,
+            -- connections = {
+            --     1, 
+            -- },
+        },
+        -- {
+        --     name = "Unlocks weeklies",
+        --     x = 0,
+        -- },
+        -- {
+        --     type = "quest",
+        --     id = 57301,
+        -- },
+    },
+})
+Database:AddChain(Chain.EmbedChain02, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 61878,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 159689,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58068,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58088,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58090,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.EmbedChain03, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 60050,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 161559,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59750,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59781,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58575,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59800,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58947,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.EmbedChain04, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 61769,
+    },
+    items = {
+        {
+            type = "object",
+            id = 349612,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59867,
+            x = 0,
+        },
+    },
+})
 Database:AddChain(Chain.EmbedChain05, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1408,6 +1360,54 @@ Database:AddChain(Chain.EmbedChain05, {
         {
             type = "quest",
             id = 62462,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.EmbedChain06, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 60067,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 162615,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58785,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.EmbedChain07, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    completed = {
+        type = "quest",
+        id = 60067,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 162474,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58750,
             x = 0,
         },
     },
@@ -1497,163 +1497,14 @@ Database:AddMapRecursive(MAP_ID, {
 Database:AddContinentItems(CONTINENT_ID, {
     {
         type = "chain",
-        id = Chain.EmbedChain04,
-    },
-    {
-        type = "chain",
-        id = Chain.EmbedChain03,
-    },
-    {
-        type = "chain",
-        id = Chain.EmbedChain02,
-    },
-    {
-        type = "chain",
         id = Chain.Chain01,
     },
     {
         type = "chain",
-        id = Chain.OtherAlliance,
+        id = Chain.Chain02,
     },
     {
         type = "chain",
-        id = Chain.OtherHorde,
-    },
-    {
-        type = "chain",
-        id = Chain.OtherBoth,
-    },
-})
-
----- @TODO - DELETE
-
-Database:AddQuestsTable({
-    [61768] = {
-        name = "Stronger Together",
-        contentTuningID = 837,
-    },
-    [61769] = {
-        name = "Fight and Flight",
-        contentTuningID = 837,
-    },
-    [61770] = {
-        name = "The Butchers of Bastion",
-        contentTuningID = 837,
-    },
-    [61771] = {
-        name = "Justice from Above",
-        contentTuningID = 837,
-    },
-    [61772] = {
-        name = "Dark Developments",
-        contentTuningID = 837,
-    },
-    [61773] = {
-        name = "Descended",
-        contentTuningID = 837,
-    },
-    [61774] = {
-        name = "Burn Before Reading",
-        contentTuningID = 1930,
-    },
-    [61775] = {
-        name = "An Early End",
-        contentTuningID = 837,
-    },
-    [61776] = {
-        name = "Trouble on the Western Front",
-        contentTuningID = 837,
-    },
-    [61870] = {
-        name = "Failed Experiment",
-        contentTuningID = 837,
-    },
-    [61778] = {
-        name = "Aerial Advantage",
-        contentTuningID = 837,
-    },
-    [61779] = {
-        name = "Grave Intent",
-        contentTuningID = 837,
-    },
-    [61780] = {
-        name = "Power of the Chosen",
-        contentTuningID = 837,
-    },
-    [61781] = {
-        name = "The End is Now",
-        contentTuningID = 837,
-    },
-    [61782] = {
-        name = "Pursuit of Justice",
-        contentTuningID = 837,
-    },
-    [61876] = {
-        name = "Take Heart",
-        contentTuningID = 837,
-    },
-    [61877] = {
-        name = "Return to the Hold",
-        contentTuningID = 837,
-    },
-    [61785] = {
-        name = "An Expected Visitor",
-        contentTuningID = 837,
-    },
-    [61878] = {
-        name = "Crest of Greatness",
-        contentTuningID = 837,
-    },
-    [61767] = {
-        name = "A Perilous Journey",
-        contentTuningID = 837,
-    },
-    [58068] = {
-        name = "...Even The Most Ridiculous Request!",
-        contentTuningID = 1335,
-    },
-    [59743] = {
-        name = "The Spider on the Wall",
-        contentTuningID = 837,
-    },
-    [61868] = {
-        name = "Uncomfortably Undercover",
-        contentTuningID = 837,
-    },
-    [57284] = {
-        name = "One Thing, Not Like The Others",
-        contentTuningID = 837,
-    },
-    [57386] = {
-        name = "If You Want Peace...",
-        contentTuningID = 1325,
-    },
-    [58619] = {
-        name = "Read Between the Lines",
-        contentTuningID = 1331,
-    },
-    [61777] = {
-        name = "Charging The Blade",
-        contentTuningID = 837,
-    },
-    [59642] = {
-        name = "Pulling Hairs",
-        contentTuningID = 837,
-    },
-    [59750] = {
-        name = "How To Get A Head",
-        contentTuningID = 1335,
-    },
-    [59781] = {
-        name = "The Last Guy",
-        contentTuningID = 1335,
-    },
-    [58605] = {
-        name = "Amateur Night",
-        contentTuningID = 837,
-    },
-    [58207] = {
-        name = "Buggin' Out",
-        contentTuningID = 837,
+        id = Chain.Chain03,
     },
 })
