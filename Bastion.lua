@@ -716,6 +716,7 @@ Database:AddChain(Chain.ByTheArchonsWill, {
                     status = {'pending'}
                 },
             },
+            aside = true,
             x = -3,
             connections = {
                 3,
@@ -749,6 +750,7 @@ Database:AddChain(Chain.ByTheArchonsWill, {
                     status = {'pending'}
                 },
             },
+            aside = true,
             x = -3,
             y = 2,
         },
