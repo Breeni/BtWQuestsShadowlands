@@ -23,19 +23,19 @@ Chain.TheTempleOfPurity = 90103
 Chain.ChasingAMemory = 90104
 Chain.ByTheArchonsWill = 90105
 Chain.TheTempleOfCourage = 90106
-Chain.TempChain01 = 90111
-Chain.TempChain02 = 90112
-Chain.TempChain03 = 90113
-Chain.TempChain04 = 90114
-Chain.TempChain05 = 90115
-Chain.TempChain06 = 90116
-Chain.TempChain07 = 90117
-Chain.TempChain08 = 90118
-Chain.TempChain09 = 90119
-Chain.TempChain10 = 90120
-Chain.TempChain11 = 90121
-Chain.TempChain12 = 90122
-Chain.TempChain13 = 90123
+
+Chain.EmbedChain01 = 90111
+Chain.EmbedChain02 = 90112
+Chain.EmbedChain03 = 90113
+
+Chain.Chain01 = 90114
+Chain.Chain02 = 90115
+Chain.Chain03 = 90116
+Chain.Chain04 = 90117
+Chain.Chain05 = 90118
+Chain.Chain06 = 90119
+Chain.Chain07 = 90120
+
 Chain.OtherAlliance = 90197
 Chain.OtherHorde = 90198
 Chain.OtherBoth = 90199
@@ -72,7 +72,7 @@ Database:AddChain(Chain.EternitysCall, {
             id = 164579,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -80,7 +80,7 @@ Database:AddChain(Chain.EternitysCall, {
             id = 59773,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -88,7 +88,7 @@ Database:AddChain(Chain.EternitysCall, {
             id = 59774,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -96,7 +96,7 @@ Database:AddChain(Chain.EternitysCall, {
             id = 57102,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -104,7 +104,7 @@ Database:AddChain(Chain.EternitysCall, {
             id = 57584,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -112,22 +112,34 @@ Database:AddChain(Chain.EternitysCall, {
             id = 60735,
             x = 0,
             connections = {
-                1, 
+                2,
             },
+        },
+        {
+            visible = false,
+            x = -3,
         },
         {
             type = "quest",
             id = 57261,
             x = 0,
             connections = {
-                1, 2, 
+                2, 3,
             },
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain01,
+            aside = true,
+            embed = true,
+            x = 3,
         },
         {
             type = "quest",
             id = 57676,
             aside = true,
             x = -1,
+            y = 7,
         },
         {
             type = "quest",
@@ -149,11 +161,11 @@ Database:AddChain(Chain.TheAspirantsCrucible, {
         },
         {
             type = "chain",
-            id = 90101,
+            id = Chain.EternitysCall,
         },
         {
             type = "chain",
-            id = 90101,
+            id = Chain.EternitysCall,
             upto = 57676,
         },
     },
@@ -175,7 +187,7 @@ Database:AddChain(Chain.TheAspirantsCrucible, {
             },
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -183,7 +195,7 @@ Database:AddChain(Chain.TheAspirantsCrucible, {
             id = 57709,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -191,7 +203,7 @@ Database:AddChain(Chain.TheAspirantsCrucible, {
             id = 57710,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -199,29 +211,37 @@ Database:AddChain(Chain.TheAspirantsCrucible, {
             id = 57711,
             x = 0,
             connections = {
-                1, 2, 3, 
+                1.2, 2, 3, 4
             },
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain02,
+            aside = true,
+            embed = true,
+            x = 3,
         },
         {
             type = "quest",
             id = 57263,
-            x = -2,
+            x = -3,
+            y = 4,
             connections = {
-                3, 
+                3,
             },
         },
         {
             type = "quest",
             id = 57267,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 57265,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -229,7 +249,7 @@ Database:AddChain(Chain.TheAspirantsCrucible, {
             id = 59920,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -237,7 +257,7 @@ Database:AddChain(Chain.TheAspirantsCrucible, {
             id = 57713,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -245,7 +265,7 @@ Database:AddChain(Chain.TheAspirantsCrucible, {
             id = 57908,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -253,14 +273,14 @@ Database:AddChain(Chain.TheAspirantsCrucible, {
             id = 57909,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 57288,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -268,7 +288,7 @@ Database:AddChain(Chain.TheAspirantsCrucible, {
             id = 57714,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -276,7 +296,7 @@ Database:AddChain(Chain.TheAspirantsCrucible, {
             id = 57291,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -284,7 +304,7 @@ Database:AddChain(Chain.TheAspirantsCrucible, {
             id = 57266,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -340,13 +360,18 @@ Database:AddChain(Chain.TheAspirantsCrucible, {
             },
             x = 0,
             connections = {
-                1, 
+                1, 2
             },
         },
         {
             type = "quest",
             id = 58174,
-            x = 0,
+            x = -1,
+        },
+        {
+            type = "quest",
+            id = 60316,
+            aside = true,
         },
     },
 })
@@ -364,18 +389,18 @@ Database:AddChain(Chain.TheTempleOfPurity, {
         },
         {
             type = "chain",
-            id = 90101,
+            id = Chain.EternitysCall,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90101,
+            id = Chain.EternitysCall,
             upto = 57676,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90102,
+            id = Chain.TheAspirantsCrucible,
             x = 0,
         },
     },
@@ -389,7 +414,7 @@ Database:AddChain(Chain.TheTempleOfPurity, {
             id = 157673,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -405,14 +430,14 @@ Database:AddChain(Chain.TheTempleOfPurity, {
             id = 57977,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 57264,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -420,7 +445,7 @@ Database:AddChain(Chain.TheTempleOfPurity, {
             id = 57716,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -428,7 +453,7 @@ Database:AddChain(Chain.TheTempleOfPurity, {
             id = 57717,
             x = 0,
             connections = {
-                1, 2, 3, 4, 
+                1, 2, 3, 4,
             },
         },
         {
@@ -436,14 +461,14 @@ Database:AddChain(Chain.TheTempleOfPurity, {
             id = 57037,
             x = -3,
             connections = {
-                4, 
+                4,
             },
         },
         {
             type = "quest",
             id = 59147,
             connections = {
-                3, 
+                3,
             },
         },
         {
@@ -458,7 +483,7 @@ Database:AddChain(Chain.TheTempleOfPurity, {
                 },
             },
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -471,7 +496,7 @@ Database:AddChain(Chain.TheTempleOfPurity, {
             id = 57446,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -479,7 +504,7 @@ Database:AddChain(Chain.TheTempleOfPurity, {
             id = 57269,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -503,23 +528,23 @@ Database:AddChain(Chain.ChasingAMemory, {
         },
         {
             type = "chain",
-            id = 90101,
+            id = Chain.EternitysCall,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90101,
+            id = Chain.EternitysCall,
             upto = 57676,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90102,
+            id = Chain.TheAspirantsCrucible,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90103,
+            id = Chain.TheTempleOfPurity,
         },
     },
     completed = {
@@ -532,7 +557,7 @@ Database:AddChain(Chain.ChasingAMemory, {
             id = 156238,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -540,7 +565,7 @@ Database:AddChain(Chain.ChasingAMemory, {
             id = 58976,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -548,14 +573,14 @@ Database:AddChain(Chain.ChasingAMemory, {
             id = 58771,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 58799,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -563,7 +588,7 @@ Database:AddChain(Chain.ChasingAMemory, {
             id = 58800,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -571,15 +596,15 @@ Database:AddChain(Chain.ChasingAMemory, {
             id = 58977,
             x = 0,
             connections = {
-                1, 
+                1, 2,
             },
         },
         {
             type = "quest",
             id = 58978,
-            x = 0,
+            x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -592,7 +617,7 @@ Database:AddChain(Chain.ChasingAMemory, {
             id = 58979,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -600,7 +625,7 @@ Database:AddChain(Chain.ChasingAMemory, {
             id = 58980,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -608,7 +633,7 @@ Database:AddChain(Chain.ChasingAMemory, {
             id = 58843,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -616,7 +641,7 @@ Database:AddChain(Chain.ChasingAMemory, {
             id = 60180,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -640,28 +665,28 @@ Database:AddChain(Chain.ByTheArchonsWill, {
         },
         {
             type = "chain",
-            id = 90101,
+            id = Chain.EternitysCall,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90101,
+            id = Chain.EternitysCall,
             upto = 57676,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90102,
+            id = Chain.TheAspirantsCrucible,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90103,
+            id = Chain.TheTempleOfPurity,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90104,
+            id = Chain.ChasingAMemory,
         },
     },
     completed = {
@@ -673,32 +698,75 @@ Database:AddChain(Chain.ByTheArchonsWill, {
             type = "npc",
             id = 167038,
             x = 0,
+            y = 0,
             connections = {
-                1, 
+                2,
+            },
+        },
+        {
+            type = "object",
+            id = 348558,
+            visible = {
+                type = "quest",
+                id = 57549,
+                status = {'pending'},
+                restrictions = {
+                    type = "quest",
+                    id = 59554,
+                    status = {'pending'}
+                },
+            },
+            x = -3,
+            connections = {
+                3,
             },
         },
         {
             type = "quest",
             id = 59196,
             x = 0,
+            y = 1,
             connections = {
-                1, 
+                3,
             },
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain03,
+            embed = true,
+            aside = true,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain02,
+            visible = {
+                type = "quest",
+                id = 57549,
+                status = {'pending'},
+                restrictions = {
+                    type = "quest",
+                    id = 59554,
+                    status = {'pending'}
+                },
+            },
+            x = -3,
+            y = 2,
         },
         {
             type = "quest",
             id = 59426,
-            x = 0,
+            x = -1,
             connections = {
-                1, 
+                1,
             },
         },
         {
             type = "quest",
             id = 59197,
             x = 0,
+            y = 3,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -706,7 +774,7 @@ Database:AddChain(Chain.ByTheArchonsWill, {
             id = 59198,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -714,7 +782,7 @@ Database:AddChain(Chain.ByTheArchonsWill, {
             id = 59199,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -738,33 +806,33 @@ Database:AddChain(Chain.TheTempleOfCourage, {
         },
         {
             type = "chain",
-            id = 90101,
+            id = Chain.EternitysCall,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90101,
+            id = Chain.EternitysCall,
             upto = 57676,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90102,
+            id = Chain.TheAspirantsCrucible,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90103,
+            id = Chain.TheTempleOfPurity,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90104,
+            id = Chain.ChasingAMemory,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90105,
+            id = Chain.ByTheArchonsWill,
         },
     },
     completed = {
@@ -777,7 +845,7 @@ Database:AddChain(Chain.TheTempleOfCourage, {
             id = 160037,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -785,7 +853,7 @@ Database:AddChain(Chain.TheTempleOfCourage, {
             id = 60005,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -793,7 +861,7 @@ Database:AddChain(Chain.TheTempleOfCourage, {
             id = 60006,
             x = 0,
             connections = {
-                1, 2, 3, 
+                1, 2, 3,
             },
         },
         {
@@ -801,21 +869,21 @@ Database:AddChain(Chain.TheTempleOfCourage, {
             id = 60007,
             x = -2,
             connections = {
-                3, 4, 
+                3, 4,
             },
         },
         {
             type = "quest",
             id = 60008,
             connections = {
-                2, 3, 
+                2, 3,
             },
         },
         {
             type = "quest",
             id = 60009,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -823,14 +891,14 @@ Database:AddChain(Chain.TheTempleOfCourage, {
             id = 60052,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 60053,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -838,7 +906,7 @@ Database:AddChain(Chain.TheTempleOfCourage, {
             id = 60054,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -846,7 +914,7 @@ Database:AddChain(Chain.TheTempleOfCourage, {
             id = 60055,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -855,7 +923,7 @@ Database:AddChain(Chain.TheTempleOfCourage, {
             aside = true,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -865,115 +933,17 @@ Database:AddChain(Chain.TheTempleOfCourage, {
         },
     },
 })
-Database:AddChain(Chain.TempChain01, {
-    name = "Distractions for Kala",
+
+Database:AddChain(Chain.EmbedChain01, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        id = 57568,
-    },
-    items = {
+    prerequisites = {
         {
-            type = "npc",
-            id = 158004,
-            x = 0,
-            connections = {
-                1, 2, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57538,
-            x = -1,
-            connections = {
-                2, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57545,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57547,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57568,
-            x = 0,
+            type = "level",
+            level = 50,
         },
     },
-})
-Database:AddChain(Chain.TempChain02, {
-    name = "Suggested Reading",
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        id = 57712,
-    },
-    items = {
-        {
-            name = "check requirements",
-        },
-        {
-            type = "npc",
-            id = 166738,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57712,
-            x = 0,
-        },
-    },
-})
-Database:AddChain(Chain.TempChain03, {
-    name = "WANTED: Altered Sentinel",
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        id = 60316,
-    },
-    items = {
-        {
-            name = "check requirements",
-        },
-        {
-            type = "object",
-            id = 352028,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60316,
-            x = 0,
-        },
-    },
-})
-Database:AddChain(Chain.TempChain04, {
-    name = "An Act of Service",
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
     completed = {
         type = "quest",
         id = 60466,
@@ -984,7 +954,7 @@ Database:AddChain(Chain.TempChain04, {
             id = 160598,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -994,11 +964,247 @@ Database:AddChain(Chain.TempChain04, {
         },
     },
 })
-Database:AddChain(Chain.TempChain05, {
-    name = "Part of the Pride",
+Database:AddChain(Chain.EmbedChain02, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 50,
+        },
+    },
+    completed = {
+        type = "quest",
+        id = 57712,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 166738,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 57712,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.EmbedChain03, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 50,
+        },
+    },
+    completed = {
+        type = "quest",
+        ids = {60315, 60366},
+        count = 2,
+    },
+    items = {
+        {
+            type = "object",
+            id = 352027,
+            x = 0,
+            connections = {
+                1, 2,
+            },
+        },
+        {
+            type = "quest",
+            id = 60315,
+            x = -1,
+        },
+        {
+            type = "quest",
+            id = 60366,
+        },
+    },
+})
+
+Database:AddChain(Chain.Chain01, {
+    name = { -- Distractions for Kala
+        type = "quest",
+        id = 57545,
+    },
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 50,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {
+            57538, 57545,
+        },
+        status = {
+            'active', 'completed',
+        }
+    },
+    completed = {
+        type = "quest",
+        id = 57568,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 158004,
+            x = 0,
+            connections = {
+                1, 2,
+            },
+        },
+        {
+            type = "quest",
+            id = 57538,
+            x = -1,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 57545,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 57547,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 57568,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain02, {
+    name = { -- In Agthia's Memory
+        type = "quest",
+        id = 57549,
+    },
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 50,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {59554, 57549},
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 57555,
+    },
+    items = {
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 59554,
+                    restrictions = {
+                        type = "quest",
+                        id = 59554,
+                        status = {'active', 'completed'}
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 158078,
+                },
+            },
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 57549,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 57551,
+            x = 0,
+            connections = {
+                1, 2, 3,
+            },
+        },
+        {
+            type = "quest",
+            id = 57552,
+            x = -2,
+            connections = {
+                3,
+            },
+        },
+        {
+            type = "quest",
+            id = 57554,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 57553,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 57555,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain03, {
+    name = { -- Part of the Pride
+        type = "quest",
+        id = 58037,
+    },
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 50,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {58184, 58037},
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 58042,
@@ -1025,7 +1231,7 @@ Database:AddChain(Chain.TempChain05, {
             },
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1033,7 +1239,7 @@ Database:AddChain(Chain.TempChain05, {
             id = 58037,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -1041,14 +1247,14 @@ Database:AddChain(Chain.TempChain05, {
             id = 58038,
             x = -1,
             connections = {
-                2, 3, 
+                2, 3,
             },
         },
         {
             type = "quest",
             id = 58039,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -1056,14 +1262,14 @@ Database:AddChain(Chain.TempChain05, {
             id = 58040,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 58041,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1073,11 +1279,25 @@ Database:AddChain(Chain.TempChain05, {
         },
     },
 })
-Database:AddChain(Chain.TempChain06, {
-    name = "The Seal of Contrition",
+Database:AddChain(Chain.Chain04, {
+    name = { -- We Can Rebuild Him
+        type = "quest",
+        id = 57933,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 50,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {58185, 57931, 57932},
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 57937,
@@ -1107,7 +1327,7 @@ Database:AddChain(Chain.TempChain06, {
                 status = {'pending'}
             },
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -1119,7 +1339,7 @@ Database:AddChain(Chain.TempChain06, {
                 status = {'pending'}
             },
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -1127,14 +1347,14 @@ Database:AddChain(Chain.TempChain06, {
             id = 57931,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 57932,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1142,7 +1362,7 @@ Database:AddChain(Chain.TempChain06, {
             id = 57933,
             x = 0,
             connections = {
-                1, 2, 3, 
+                1, 2, 3,
             },
         },
         {
@@ -1150,21 +1370,21 @@ Database:AddChain(Chain.TempChain06, {
             id = 57934,
             x = -2,
             connections = {
-                3, 
+                3,
             },
         },
         {
             type = "quest",
             id = 57935,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 57936,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1174,48 +1394,80 @@ Database:AddChain(Chain.TempChain06, {
         },
     },
 })
-Database:AddChain(Chain.TempChain07, {
-    name = "Heart of the Crest",
+Database:AddChain(Chain.Chain05, {
+    name = { -- Pride or Unit
+        type = "quest",
+        id = 60296,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     prerequisites = {
         {
-            type = "chain",
-            id = 90115,
+            type = "level",
+            level = 50,
         },
         {
             type = "chain",
-            id = 90116,
+            id = Chain.Chain03,
         },
+        {
+            type = "chain",
+            id = Chain.Chain04,
+        },
+    },
+    active = {
+        type = "chain",
+        ids = {Chain.Chain03, Chain.Chain04},
+        status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
         ids = {
-            60296, 58103, 
+            60296, 58103,
         },
     },
     items = {
         {
             type = "npc",
-            ids = {
-                157696, 158765, 
-            },
-            x = 0,
+            id = 157696,
+            x = -1,
             connections = {
-                1, 
+                2,
+            },
+        },
+        {
+            type = "npc",
+            id = 158765,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.Chain03,
+            x = -1,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.Chain04,
+            connections = {
+                1,
             },
         },
         {
             type = "quest",
             ids = {
-                60296, 58103, 
+                60296, 58103,
             },
             x = 0,
         },
     },
 })
-Database:AddChain(Chain.TempChain08, {
+Database:AddChain(Chain.Chain06, {
     name = { -- The Spear of Kalliope
         type = "quest",
         id = 57989,
@@ -1223,6 +1475,17 @@ Database:AddChain(Chain.TempChain08, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 50,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {57860, 59207},
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 60906,
@@ -1233,7 +1496,7 @@ Database:AddChain(Chain.TempChain08, {
             id = 159248,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -1241,14 +1504,14 @@ Database:AddChain(Chain.TempChain08, {
             id = 57860,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 59207,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1256,7 +1519,7 @@ Database:AddChain(Chain.TempChain08, {
             id = 57861,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -1264,14 +1527,14 @@ Database:AddChain(Chain.TempChain08, {
             id = 57875,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 57914,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1279,7 +1542,7 @@ Database:AddChain(Chain.TempChain08, {
             id = 57966,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1287,7 +1550,7 @@ Database:AddChain(Chain.TempChain08, {
             id = 57989,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1297,7 +1560,7 @@ Database:AddChain(Chain.TempChain08, {
         },
     },
 })
-Database:AddChain(Chain.TempChain09, {
+Database:AddChain(Chain.Chain07, {
     name = { -- Feathers of Flight
         type = "quest",
         id = 59263,
@@ -1305,6 +1568,17 @@ Database:AddChain(Chain.TempChain09, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 50,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 59262,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 59865,
@@ -1315,7 +1589,7 @@ Database:AddChain(Chain.TempChain09, {
             id = 164640,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1323,7 +1597,7 @@ Database:AddChain(Chain.TempChain09, {
             id = 59262,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1331,7 +1605,7 @@ Database:AddChain(Chain.TempChain09, {
             id = 59263,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1339,7 +1613,7 @@ Database:AddChain(Chain.TempChain09, {
             id = 60660,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -1347,14 +1621,14 @@ Database:AddChain(Chain.TempChain09, {
             id = 59348,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 59351,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1362,7 +1636,7 @@ Database:AddChain(Chain.TempChain09, {
             id = 59311,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1370,144 +1644,6 @@ Database:AddChain(Chain.TempChain09, {
             id = 59865,
             x = 0,
         },
-    },
-})
-Database:AddChain(Chain.TempChain10, {
-    name = "Hero's Rest Wanted",
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        ids = {60315, 60366},
-        count = 2,
-    },
-    items = {
-        {
-            type = "object",
-            id = 352027,
-            x = 0,
-            connections = {
-                1, 2, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60315,
-            x = -1,
-        },
-        {
-            type = "quest",
-            id = 60366,
-        },
-    },
-})
-Database:AddChain(Chain.TempChain11, {
-    name = "Aerial Reconnaissance",
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        id = 57114,
-    },
-    items = {
-    },
-})
-Database:AddChain(Chain.TempChain12, {
-    name = { -- In Agthia's Memory
-        type = "quest",
-        id = 57549,
-    },
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    active = {
-        type = "quest",
-        ids = {59554, 57549},
-        status = {'active', 'completed'}
-    },
-    completed = {
-        type = "quest",
-        id = 57555,
-    },
-    items = {
-        {
-            variations = {
-                {
-                    type = "quest",
-                    id = 59554,
-                    restrictions = {
-                        type = "quest",
-                        id = 59554,
-                        status = {'active', 'completed'}
-                    },
-                },
-                {
-                    type = "npc",
-                    id = 158078,
-                },
-            },
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57549,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57551,
-            x = 0,
-            connections = {
-                1, 2, 3, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57552,
-            x = -2,
-            connections = {
-                3, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57554,
-            connections = {
-                2, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57553,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57555,
-            x = 0,
-        },
-    },
-})
-Database:AddChain(Chain.TempChain13, {
-    name = "A Day in the Life",
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        id = 58791,
-    },
-    items = {
     },
 })
 Database:AddChain(Chain.OtherAlliance, {
@@ -1573,67 +1709,31 @@ Database:AddCategory(CATEGORY_ID, {
         },
         {
             type = "chain",
-            id = Chain.TempChain01,
+            id = Chain.Chain01,
         },
         {
             type = "chain",
-            id = Chain.TempChain02,
+            id = Chain.Chain02,
         },
         {
             type = "chain",
-            id = Chain.TempChain03,
+            id = Chain.Chain03,
         },
         {
             type = "chain",
-            id = Chain.TempChain04,
+            id = Chain.Chain04,
         },
         {
             type = "chain",
-            id = Chain.TempChain05,
+            id = Chain.Chain05,
         },
         {
             type = "chain",
-            id = Chain.TempChain06,
+            id = Chain.Chain06,
         },
         {
             type = "chain",
-            id = Chain.TempChain07,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain08,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain09,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain10,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain11,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain12,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain13,
-        },
-        {
-            type = "chain",
-            id = Chain.OtherAlliance,
-        },
-        {
-            type = "chain",
-            id = Chain.OtherHorde,
-        },
-        {
-            type = "chain",
-            id = Chain.OtherBoth,
+            id = Chain.Chain07,
         },
     },
 })
@@ -1651,67 +1751,31 @@ Database:AddMapRecursive(MAP_ID, {
 Database:AddContinentItems(CONTINENT_ID, {
     {
         type = "chain",
-        id = Chain.TempChain01,
+        id = Chain.Chain01,
     },
     {
         type = "chain",
-        id = Chain.TempChain02,
+        id = Chain.Chain02,
     },
     {
         type = "chain",
-        id = Chain.TempChain03,
+        id = Chain.Chain03,
     },
     {
         type = "chain",
-        id = Chain.TempChain04,
+        id = Chain.Chain04,
     },
     {
         type = "chain",
-        id = Chain.TempChain05,
+        id = Chain.Chain05,
     },
     {
         type = "chain",
-        id = Chain.TempChain06,
+        id = Chain.Chain06,
     },
     {
         type = "chain",
-        id = Chain.TempChain07,
-    },
-    {
-        type = "chain",
-        id = Chain.TempChain08,
-    },
-    {
-        type = "chain",
-        id = Chain.TempChain09,
-    },
-    {
-        type = "chain",
-        id = Chain.TempChain10,
-    },
-    {
-        type = "chain",
-        id = Chain.TempChain11,
-    },
-    {
-        type = "chain",
-        id = Chain.TempChain12,
-    },
-    {
-        type = "chain",
-        id = Chain.TempChain13,
-    },
-    {
-        type = "chain",
-        id = Chain.OtherAlliance,
-    },
-    {
-        type = "chain",
-        id = Chain.OtherHorde,
-    },
-    {
-        type = "chain",
-        id = Chain.OtherBoth,
+        id = Chain.Chain07,
     },
 })
 
