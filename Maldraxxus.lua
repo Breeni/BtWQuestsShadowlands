@@ -24,16 +24,19 @@ Chain.HouseOfConstructs = 90204
 Chain.HouseOfPlagues = 90205
 Chain.RitualForTheDamned = 90206
 Chain.TheEmptyThrone = 90207
-Chain.TempChain01 = 90211
-Chain.TempChain02 = 90212
-Chain.TempChain03 = 90213
-Chain.TempChain04 = 90214
-Chain.TempChain05 = 90215
-Chain.TempChain06 = 90216
-Chain.TempChain07 = 90217
-Chain.TempChain08 = 90218
-Chain.TempChain09 = 90219
-Chain.TempChain10 = 90220
+
+Chain.Chain01 = 90211
+Chain.Chain02 = 90212
+Chain.Chain03 = 90213
+
+Chain.EmbedChain01 = 90221
+Chain.EmbedChain02 = 90222
+Chain.EmbedChain03 = 90223
+Chain.EmbedChain04 = 90224
+Chain.EmbedChain05 = 90225
+Chain.EmbedChain06 = 90226
+Chain.EmbedChain07 = 90227
+
 Chain.OtherAlliance = 90297
 Chain.OtherHorde = 90298
 Chain.OtherBoth = 90299
@@ -171,8 +174,13 @@ Database:AddChain(Chain.HouseOfTheChosen, {
         },
         {
             type = "chain",
-            id = 90201,
+            id = Chain.ChampionOfPain,
         },
+    },
+    active = {
+        type = "quest",
+        id = 57514,
+        status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
@@ -293,13 +301,18 @@ Database:AddChain(Chain.MatronOfSpies, {
         },
         {
             type = "chain",
-            id = 90201,
+            id = Chain.ChampionOfPain,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90202,
+            id = Chain.HouseOfTheChosen,
         },
+    },
+    active = {
+        type = "quest",
+        id = 58751,
+        status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
@@ -404,13 +417,18 @@ Database:AddChain(Chain.HouseOfConstructs, {
         },
         {
             type = "chain",
-            id = 90201,
+            id = Chain.ChampionOfPain,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90202,
+            id = Chain.HouseOfTheChosen,
         },
+    },
+    active = {
+        type = "quest",
+        id = 57912,
+        status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
@@ -554,13 +572,18 @@ Database:AddChain(Chain.HouseOfPlagues, {
         },
         {
             type = "chain",
-            id = 90201,
+            id = Chain.ChampionOfPain,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90202,
+            id = Chain.HouseOfTheChosen,
         },
+    },
+    active = {
+        type = "quest",
+        id = 59130,
+        status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
@@ -609,29 +632,37 @@ Database:AddChain(Chain.HouseOfPlagues, {
         {
             type = "quest",
             id = 58031,
-            x = -2,
+            x = -3,
             connections = {
-                3, 
+                4, 
             },
         },
         {
             type = "quest",
             id = 58036,
             connections = {
-                2, 
+                3, 
             },
         },
         {
             type = "quest",
             id = 58045,
             connections = {
-                1, 
+                2, 
             },
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain01,
+            embed = true,
+            aside = true,
+            x = 3,
         },
         {
             type = "quest",
             id = 59223,
             x = 0,
+            y = 5,
             connections = {
                 1, 
             },
@@ -665,26 +696,31 @@ Database:AddChain(Chain.RitualForTheDamned, {
         },
         {
             type = "chain",
-            id = 90201,
+            id = Chain.ChampionOfPain,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90202,
+            id = Chain.HouseOfTheChosen,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90203,
+            id = Chain.MatronOfSpies,
         },
         {
             type = "chain",
-            id = 90204,
+            id = Chain.HouseOfConstructs,
         },
         {
             type = "chain",
-            id = 90205,
+            id = Chain.HouseOfPlagues,
         },
+    },
+    active = {
+        type = "quest",
+        id = 59202,
+        status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
@@ -800,33 +836,38 @@ Database:AddChain(Chain.TheEmptyThrone, {
         },
         {
             type = "chain",
-            id = 90201,
+            id = Chain.ChampionOfPain,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90202,
+            id = Chain.HouseOfTheChosen,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90203,
+            id = Chain.MatronOfSpies,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90204,
+            id = Chain.HouseOfConstructs,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90205,
+            id = Chain.HouseOfPlagues,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = 90206,
+            id = Chain.RitualForTheDamned,
         },
+    },
+    active = {
+        type = "quest",
+        id = 59011,
+        status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
@@ -883,7 +924,154 @@ Database:AddChain(Chain.TheEmptyThrone, {
         },
     },
 })
-Database:AddChain(Chain.TempChain01, {
+Database:AddChain(Chain.Chain01, {
+    name = BtWQuests.GetAreaName(12810), -- Challenger's Promenade
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 52,
+        },
+        {
+            type = "chain",
+            id = Chain.ChampionOfPain,
+            upto = 57425,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {58068, 59750, 59781, 59867, 62462},
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 57316,
+    },
+    items = {
+        {
+            type = "chain",
+            id = Chain.EmbedChain02,
+            embed = true,
+            x = -3,
+            connections = {
+                4, 
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain03,
+            embed = true,
+            x = 0,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain04,
+            aside = true,
+            embed = true,
+            x = 3,
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain05,
+            aside = true,
+            embed = true,
+            x = 3,
+        },
+        {
+            type = "quest",
+            id = 59879,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59203,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59837,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58900,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57316,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain02, {
+    name = BtWQuests.GetAreaName(12906), -- Wrangler Pit
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 52,
+        },
+        {
+            type = "chain",
+            id = Chain.ChampionOfPain,
+            upto = 57425,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {58785, 58750},
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 58794,
+    },
+    items = {
+        {
+            type = "chain",
+            id = Chain.EmbedChain06,
+            embed = true,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain07,
+            embed = true,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58794,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.EmbedChain04, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -907,7 +1095,7 @@ Database:AddChain(Chain.TempChain01, {
         },
     },
 })
-Database:AddChain(Chain.TempChain02, {
+Database:AddChain(Chain.EmbedChain03, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -961,7 +1149,7 @@ Database:AddChain(Chain.TempChain02, {
         },
     },
 })
-Database:AddChain(Chain.TempChain03, {
+Database:AddChain(Chain.EmbedChain02, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1001,85 +1189,7 @@ Database:AddChain(Chain.TempChain03, {
         },
     },
 })
-Database:AddChain(Chain.TempChain04, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        id = 60067,
-    },
-    items = {
-        {
-            type = "quest",
-            id = 57425,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain03,
-            embed = true,
-            x = -3,
-            connections = {
-                3, 
-            },
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain02,
-            embed = true,
-            x = 0,
-            connections = {
-                2, 
-            },
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain01,
-            aside = true,
-            embed = true,
-            x = 3,
-        },
-        {
-            type = "quest",
-            id = 59879,
-            x = 0,
-            y = 5,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 59203,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 59837,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 58900,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57316,
-            x = 0,
-        },
-    },
-})
-Database:AddChain(Chain.TempChain05, {
+Database:AddChain(Chain.EmbedChain06, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1103,7 +1213,7 @@ Database:AddChain(Chain.TempChain05, {
         },
     },
 })
-Database:AddChain(Chain.TempChain06, {
+Database:AddChain(Chain.EmbedChain07, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1127,56 +1237,26 @@ Database:AddChain(Chain.TempChain06, {
         },
     },
 })
-Database:AddChain(Chain.TempChain07, {
+Database:AddChain(Chain.EmbedChain01, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 52,
+        },
+        {
+            type = "chain",
+            id = Chain.ChampionOfPain,
+            upto = 57425,
+        },
+    },
     completed = {
         type = "quest",
         id = 60067,
     },
     items = {
-        {
-            type = "quest",
-            id = 57425,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain05,
-            embed = true,
-            x = -1,
-            connections = {
-                2, 
-            },
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain06,
-            embed = true,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 58794,
-            x = 0,
-        },
-    },
-})
-Database:AddChain(Chain.TempChain08, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        id = 60067,
-    },
-    items = {
-        {
-            type = "quest",
-            id = 57425,
-        },
         {
             type = "npc",
             id = 165049,
@@ -1197,24 +1277,44 @@ Database:AddChain(Chain.TempChain08, {
             type = "quest",
             id = 58431,
             x = 0,
-            connections = {
-                1, 
-            },
+            -- connections = {
+            --     1, 
+            -- },
         },
-        {
-            name = "Unlocks weeklies",
-            x = 0,
-        },
-        {
-            type = "quest",
-            id = 57301,
-        },
+        -- {
+        --     name = "Unlocks weeklies",
+        --     x = 0,
+        -- },
+        -- {
+        --     type = "quest",
+        --     id = 57301,
+        -- },
     },
 })
-Database:AddChain(Chain.TempChain09, {
+Database:AddChain(Chain.Chain03, {
+    name = { -- Secrets Among the Shelves
+        type = "quest",
+        id = 58622,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 52,
+        },
+        {
+            type = "chain",
+            id = Chain.ChampionOfPain,
+            upto = 57425,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 58619,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 60067,
@@ -1288,7 +1388,7 @@ Database:AddChain(Chain.TempChain09, {
         },
     },
 })
-Database:AddChain(Chain.TempChain10, {
+Database:AddChain(Chain.EmbedChain05, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1371,55 +1471,15 @@ Database:AddCategory(CATEGORY_ID, {
         },
         {
             type = "chain",
-            id = Chain.TempChain01,
+            id = Chain.Chain01,
         },
         {
             type = "chain",
-            id = Chain.TempChain02,
+            id = Chain.Chain02,
         },
         {
             type = "chain",
-            id = Chain.TempChain03,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain04,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain05,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain06,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain07,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain08,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain09,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain10,
-        },
-        {
-            type = "chain",
-            id = Chain.OtherAlliance,
-        },
-        {
-            type = "chain",
-            id = Chain.OtherHorde,
-        },
-        {
-            type = "chain",
-            id = Chain.OtherBoth,
+            id = Chain.Chain03,
         },
     },
 })
@@ -1437,19 +1497,19 @@ Database:AddMapRecursive(MAP_ID, {
 Database:AddContinentItems(CONTINENT_ID, {
     {
         type = "chain",
-        id = Chain.TempChain01,
+        id = Chain.EmbedChain04,
     },
     {
         type = "chain",
-        id = Chain.TempChain02,
+        id = Chain.EmbedChain03,
     },
     {
         type = "chain",
-        id = Chain.TempChain03,
+        id = Chain.EmbedChain02,
     },
     {
         type = "chain",
-        id = Chain.TempChain04,
+        id = Chain.Chain01,
     },
     {
         type = "chain",
