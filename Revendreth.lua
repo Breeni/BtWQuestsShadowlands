@@ -28,23 +28,22 @@ Chain.MenagerieOfTheMaster = 90407
 Chain.Chain01 = 90411
 Chain.Chain02 = 90412
 Chain.Chain03 = 90413
-Chain.Chain04 = 90414
-Chain.Chain05 = 90415
-Chain.Chain06 = 90416
-Chain.Chain07 = 90417
-Chain.Chain08 = 90418
-Chain.Chain09 = 90419
-Chain.Chain10 = 90420
-Chain.Chain11 = 90421
-Chain.Chain12 = 90422
-Chain.Chain13 = 90423
-Chain.Chain14 = 90424
-Chain.Chain15 = 90425
-Chain.Chain16 = 90426
-Chain.Chain17 = 90427
-Chain.Chain18 = 90428
-Chain.Chain19 = 90429
-Chain.Chain20 = 90430
+Chain.Chain04 = 90417
+Chain.Chain05 = 90414
+Chain.Chain06 = 90415
+
+Chain.EmbedChain01 = 90421
+Chain.EmbedChain02 = 90422
+Chain.EmbedChain03 = 90423
+Chain.EmbedChain04 = 90424
+Chain.EmbedChain05 = 90425
+Chain.EmbedChain06 = 90426
+Chain.EmbedChain07 = 90428
+Chain.EmbedChain08 = 90429
+Chain.EmbedChain09 = 90430
+Chain.EmbedChain10 = 90431
+Chain.EmbedChain11 = 90432
+Chain.EmbedChain12 = 90433
 
 Chain.OtherAlliance = 90497
 Chain.OtherHorde = 90498
@@ -74,6 +73,11 @@ Database:AddChain(Chain.WelcomeToRevendreth, {
             }
         },
     },
+    active = {
+        type = "quest",
+        id = 57025,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
         id = 56978,
@@ -84,7 +88,7 @@ Database:AddChain(Chain.WelcomeToRevendreth, {
             id = 159478,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -92,7 +96,7 @@ Database:AddChain(Chain.WelcomeToRevendreth, {
             id = 57025,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -100,13 +104,14 @@ Database:AddChain(Chain.WelcomeToRevendreth, {
             id = 57026,
             x = 0,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "chain",
-            id = 90411,
+            id = Chain.EmbedChain01,
             embed = true,
+            aside = true,
             x = -3,
         },
         {
@@ -114,7 +119,7 @@ Database:AddChain(Chain.WelcomeToRevendreth, {
             id = 57007,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -122,35 +127,39 @@ Database:AddChain(Chain.WelcomeToRevendreth, {
             id = 56829,
             x = -1,
             connections = {
-                3, 
+                2,
             },
         },
         {
             type = "quest",
             id = 57381,
             connections = {
-                2, 
+                1,
             },
-        },
-        {
-            type = "quest",
-            id = 60509,
-            x = -3,
-            comment = "breadcrumb",
         },
         {
             type = "quest",
             id = 56942,
             x = 0,
+            y = 5,
             connections = {
-                2, 3, 
+                3, 4,
             },
         },
         {
             type = "chain",
-            id = 90413,
+            id = Chain.EmbedChain02,
             embed = true,
+            aside = true,
             x = 3,
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain03,
+            embed = true,
+            aside = true,
+            x = -3,
+            y = 6,
         },
         {
             type = "quest",
@@ -158,14 +167,14 @@ Database:AddChain(Chain.WelcomeToRevendreth, {
             x = -1,
             y = 6,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 58433,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -182,38 +191,64 @@ Database:AddChain(Chain.MeetTheMaster, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 57,
+        },
+        {
+            type = "chain",
+            id = Chain.WelcomeToRevendreth,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 57174,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
         id = 57179,
     },
     items = {
         {
-            type = "chain",
-            id = 90401,
-        },
-        {
             type = "npc",
             id = 156374,
             x = 0,
             connections = {
-                1, 
+                2,
             },
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain04,
+            embed = true,
+            aside = true,
+            x = -3,
         },
         {
             type = "quest",
             id = 57174,
             x = 0,
+            y = 1,
             connections = {
-                1, 2, 
+                2, 3,
             },
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain05,
+            embed = true,
+            aside = true,
+            x = 3,
         },
         {
             type = "quest",
             id = 58654,
             x = -1,
+            y = 2,
             connections = {
-                2, 
+                3,
             },
         },
         {
@@ -222,11 +257,14 @@ Database:AddChain(Chain.MeetTheMaster, {
             aside = true,
         },
         {
+            visible = false,
+        },
+        {
             type = "quest",
             id = 57178,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -243,22 +281,37 @@ Database:AddChain(Chain.TheAccusersSecret, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 57,
+        },
+        {
+            type = "chain",
+            id = Chain.WelcomeToRevendreth,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.MeetTheMaster,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 57161,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
         id = 57180,
     },
     items = {
         {
-            type = "chain",
-            id = 90402,
-        },
-        {
             type = "npc",
             id = 156605,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -266,38 +319,42 @@ Database:AddChain(Chain.TheAccusersSecret, {
             id = 57161,
             x = 0,
             connections = {
-                1, 
+                2,
             },
+        },
+        { -- Padding
+            visible = false,
+            x = -3,
         },
         {
             type = "quest",
             id = 57173,
             x = 0,
             connections = {
-                2, 3, 
+                2, 3,
             },
         },
         {
             type = "chain",
-            id = 90417,
-            aside = true,
+            id = Chain.EmbedChain06,
             embed = true,
+            aside = true,
             x = 3,
         },
         {
             type = "quest",
             id = 58931,
             x = -1,
-            y = 4,
+            y = 3,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 58932,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -305,7 +362,7 @@ Database:AddChain(Chain.TheAccusersSecret, {
             id = 59021,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -313,7 +370,7 @@ Database:AddChain(Chain.TheAccusersSecret, {
             id = 57175,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -326,7 +383,7 @@ Database:AddChain(Chain.TheAccusersSecret, {
             id = 59023,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -334,7 +391,7 @@ Database:AddChain(Chain.TheAccusersSecret, {
             id = 57176,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -342,7 +399,7 @@ Database:AddChain(Chain.TheAccusersSecret, {
             id = 57180,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -351,7 +408,7 @@ Database:AddChain(Chain.TheAccusersSecret, {
             aside = true,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -369,23 +426,43 @@ Database:AddChain(Chain.TheRebellion, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 57,
+        },
+        {
+            type = "chain",
+            id = Chain.WelcomeToRevendreth,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.MeetTheMaster,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheAccusersSecret,
+            upto = 59232,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 57098,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
         id = 59256,
     },
     items = {
         {
-            type = "chain",
-            id = 90403,
-            upto = 59232,
-        },
-        {
             type = "npc",
             id = 156381,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -393,7 +470,15 @@ Database:AddChain(Chain.TheRebellion, {
             id = 57098,
             x = 0,
             connections = {
-                1, 
+                2, 3,
+            },
+        },
+        {
+            type = "object",
+            id = 355296,
+            aside = true,
+            connections = {
+                2,
             },
         },
         {
@@ -401,15 +486,20 @@ Database:AddChain(Chain.TheRebellion, {
             id = 58916,
             x = 0,
             connections = {
-                1, 
+                2,
             },
+        },
+        {
+            type = "quest",
+            id = 58936,
+            aside = true,
         },
         {
             type = "quest",
             id = 58941,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -417,7 +507,15 @@ Database:AddChain(Chain.TheRebellion, {
             id = 59014,
             x = 0,
             connections = {
-                1, 
+                2, 3,
+            },
+        },
+        {
+            type = "npc",
+            id = 156384,
+            aside = true,
+            connections = {
+                2,
             },
         },
         {
@@ -425,22 +523,27 @@ Database:AddChain(Chain.TheRebellion, {
             id = 57131,
             x = 0,
             connections = {
-                1, 2, 
+                2, 3,
             },
+        },
+        {
+            type = "quest",
+            id = 60514,
+            aside = true,
         },
         {
             type = "quest",
             id = 57136,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 57164,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -448,7 +551,15 @@ Database:AddChain(Chain.TheRebellion, {
             id = 60506,
             x = 0,
             connections = {
-                1, 
+                2, 3,
+            },
+        },
+        {
+            type = "npc",
+            id = 156384,
+            aside = true,
+            connections = {
+                2,
             },
         },
         {
@@ -456,15 +567,20 @@ Database:AddChain(Chain.TheRebellion, {
             id = 57159,
             x = 0,
             connections = {
-                1, 
+                2,
             },
+        },
+        {
+            type = "quest",
+            id = 58996,
+            aside = true,
         },
         {
             type = "quest",
             id = 60313,
             x = 0,
             connections = {
-                1, 2, 3, 
+                1, 2, 3, 4
             },
         },
         {
@@ -472,21 +588,21 @@ Database:AddChain(Chain.TheRebellion, {
             id = 57189,
             x = -3,
             connections = {
-                4, 
+                4,
             },
         },
         {
             type = "quest",
             id = 59209,
             connections = {
-                3, 
+                3,
             },
         },
         {
             type = "quest",
             id = 57190,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -507,22 +623,48 @@ Database:AddChain(Chain.SecuringSinfall, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 57,
+        },
+        {
+            type = "chain",
+            id = Chain.WelcomeToRevendreth,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.MeetTheMaster,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheAccusersSecret,
+            upto = 59232,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheRebellion,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 57240,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
         id = 57724,
     },
     items = {
         {
-            type = "chain",
-            id = 90404,
-        },
-        {
             type = "npc",
             id = 168217,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -530,7 +672,7 @@ Database:AddChain(Chain.SecuringSinfall, {
             id = 57240,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -538,7 +680,7 @@ Database:AddChain(Chain.SecuringSinfall, {
             id = 57380,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -546,7 +688,7 @@ Database:AddChain(Chain.SecuringSinfall, {
             id = 57405,
             x = 0,
             connections = {
-                1, 2, 3, 
+                1, 2, 3,
             },
         },
         {
@@ -554,21 +696,21 @@ Database:AddChain(Chain.SecuringSinfall, {
             id = 57426,
             x = -2,
             connections = {
-                3, 
+                3,
             },
         },
         {
             type = "quest",
             id = 57427,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 57428,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -576,15 +718,30 @@ Database:AddChain(Chain.SecuringSinfall, {
             id = 57442,
             x = 0,
             connections = {
-                1, 
+                3,
             },
+        },
+        {
+            type = "chain",
+            id = Chain.Chain04,
+            embed = true,
+            aside = true,
+            x = 2,
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain07,
+            embed = true,
+            aside = true,
+            x = -2,
+            y = 6,
         },
         {
             type = "quest",
             id = 57460,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -592,21 +749,35 @@ Database:AddChain(Chain.SecuringSinfall, {
             id = 57461,
             x = 0,
             connections = {
-                1, 
+                2,
             },
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain08,
+            embed = true,
+            aside = true,
+            x = -2,
         },
         {
             type = "quest",
             id = 60566,
             x = 0,
             connections = {
-                1, 
+                2,
             },
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain09,
+            embed = true,
+            aside = true,
         },
         {
             type = "quest",
             id = 57724,
             x = 0,
+            y = 9,
         },
     },
 })
@@ -617,22 +788,53 @@ Database:AddChain(Chain.ThePrinceAndTheTower, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 57,
+        },
+        {
+            type = "chain",
+            id = Chain.WelcomeToRevendreth,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.MeetTheMaster,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheAccusersSecret,
+            upto = 59232,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheRebellion,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.SecuringSinfall,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 59327,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
         id = 57694,
     },
     items = {
         {
-            type = "chain",
-            id = 90405,
-        },
-        {
             type = "npc",
             id = 158716,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -640,7 +842,7 @@ Database:AddChain(Chain.ThePrinceAndTheTower, {
             id = 59327,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -648,7 +850,7 @@ Database:AddChain(Chain.ThePrinceAndTheTower, {
             id = 57689,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -656,7 +858,7 @@ Database:AddChain(Chain.ThePrinceAndTheTower, {
             id = 57690,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -664,7 +866,7 @@ Database:AddChain(Chain.ThePrinceAndTheTower, {
             id = 57691,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -672,7 +874,7 @@ Database:AddChain(Chain.ThePrinceAndTheTower, {
             id = 57693,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -689,22 +891,58 @@ Database:AddChain(Chain.MenagerieOfTheMaster, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 57,
+        },
+        {
+            type = "chain",
+            id = Chain.WelcomeToRevendreth,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.MeetTheMaster,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheAccusersSecret,
+            upto = 59232,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheRebellion,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.SecuringSinfall,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ThePrinceAndTheTower,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 59644,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
         id = 58086,
     },
     items = {
         {
-            type = "chain",
-            id = 90406,
-        },
-        {
             type = "npc",
             id = 162688,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -712,7 +950,7 @@ Database:AddChain(Chain.MenagerieOfTheMaster, {
             id = 59644,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -720,7 +958,7 @@ Database:AddChain(Chain.MenagerieOfTheMaster, {
             id = 58086,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -729,7 +967,7 @@ Database:AddChain(Chain.MenagerieOfTheMaster, {
             aside = true,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -740,30 +978,35 @@ Database:AddChain(Chain.MenagerieOfTheMaster, {
         },
     },
 })
+
 Database:AddChain(Chain.Chain01, {
+    name = { -- Dredger Duty
+        type = "quest",
+        id = 57474,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
-    items = {
+    prerequisites = {
         {
-            type = "npc",
-            id = 168618,
-            x = 0,
-            connections = {
-                1, 
-            },
+            type = "level",
+            level = 57,
         },
         {
-            type = "quest",
-            id = 60480,
-            x = 0,
+            type = "chain",
+            id = Chain.WelcomeToRevendreth,
+            upto = 56942,
         },
     },
-})
-Database:AddChain(Chain.Chain02, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
+    active = {
+        type = "quest",
+        ids = {60509, 57471},
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 57481,
+    },
     items = {
         {
             variations = {
@@ -786,7 +1029,7 @@ Database:AddChain(Chain.Chain02, {
             },
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -794,7 +1037,7 @@ Database:AddChain(Chain.Chain02, {
             id = 57471,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -802,7 +1045,7 @@ Database:AddChain(Chain.Chain02, {
             id = 57474,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -812,42 +1055,41 @@ Database:AddChain(Chain.Chain02, {
         },
     },
 })
-Database:AddChain(Chain.Chain03, {
+Database:AddChain(Chain.Chain02, {
+    name = { -- Message for Matyas
+        type = "quest",
+        id = 59715,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
-    items = {
+    prerequisites = {
         {
-            type = "object",
-            id = 352490,
-            x = 0,
-            connections = {
-                1, 
-            },
+            type = "level",
+            level = 57,
         },
         {
-            type = "quest",
-            id = 58272,
-            x = 0,
+            type = "chain",
+            id = Chain.MeetTheMaster,
+            upto = 57174,
         },
     },
-})
-Database:AddChain(Chain.Chain04, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
+    active = {
+        type = "quest",
+        id = 59710,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 59726,
+    },
     items = {
-        {
-            name = "The Stoneborn?",
-            type = "quest",
-            id = 57174,
-        },
         {
             type = "npc",
             id = 165859,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -855,7 +1097,7 @@ Database:AddChain(Chain.Chain04, {
             id = 59710,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -863,38 +1105,42 @@ Database:AddChain(Chain.Chain04, {
             id = 59712,
             x = 0,
             connections = {
-                1, 
+                2,
             },
+        },
+        {
+            visible = false,
+            x = -3,
         },
         {
             type = "quest",
             id = 59846,
             x = 0,
             connections = {
-                2, 3, 
+                2, 3,
             },
         },
         {
             type = "chain",
-            id = 90416,
-            aside = true,
+            id = Chain.EmbedChain10,
             embed = true,
+            aside = true,
             x = 3,
         },
         {
             type = "quest",
             id = 59713,
             x = -1,
-            y = 5,
+            y = 4,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 59714,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -902,7 +1148,7 @@ Database:AddChain(Chain.Chain04, {
             id = 59715,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -910,7 +1156,7 @@ Database:AddChain(Chain.Chain04, {
             id = 59716,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -918,14 +1164,14 @@ Database:AddChain(Chain.Chain04, {
             id = 59724,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 59868,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -935,176 +1181,41 @@ Database:AddChain(Chain.Chain04, {
         },
     },
 })
-Database:AddChain(Chain.Chain05, {
+Database:AddChain(Chain.Chain03, {
+    name = { -- The Night Market
+        type = "quest",
+        id = 58060,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
-    items = {
+    prerequisites = {
         {
-            name = "The Stoneborn?",
-            type = "quest",
-            id = 57174,
+            type = "level",
+            level = 57,
         },
         {
-            type = "npc",
-            id = 167489,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60177,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60178,
-            x = 0,
+            type = "chain",
+            id = Chain.TheRebellion,
+            upto = 60506,
         },
     },
-})
-Database:AddChain(Chain.Chain06, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    items = {
-        {
-            type = "object",
-            id = 351885,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60277,
-            x = 0,
-        },
+    active = {
+        type = "quest",
+        id = 58060,
+        status = {'active', 'completed'},
     },
-})
-Database:AddChain(Chain.Chain07, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    items = {
-        {
-            type = "npc",
-            id = 168698,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60487,
-            x = 0,
-        },
+    completed = {
+        type = "quest",
+        id = 58062,
     },
-})
-Database:AddChain(Chain.Chain08, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
     items = {
-        {
-            name = "Check Requirements",
-            aside = true,
-        },
-        {
-            type = "kill",
-            id = 165253,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60517,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-    },
-})
-Database:AddChain(Chain.Chain09, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    items = {
-        {
-            name = "Check Requirements",
-            aside = true,
-        },
-        {
-            type = "object",
-            id = 351889,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60279,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-    },
-})
-Database:AddChain(Chain.Chain10, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    items = {
-        {
-            name = "Check Requirements",
-            aside = true,
-        },
-        {
-            type = "npc",
-            id = 156384,
-            x = 0,
-            connections = {
-                1, 2, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60514,
-            x = -1,
-        },
-        {
-            type = "quest",
-            id = 58996,
-        },
-    },
-})
-Database:AddChain(Chain.Chain11, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    items = {
-        {
-            name = "Check Requirements",
-            aside = true,
-        },
         {
             type = "npc",
             id = 160100,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1112,61 +1223,21 @@ Database:AddChain(Chain.Chain11, {
             id = 58060,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
             type = "quest",
             id = 58062,
             x = 0,
-            connections = {
-                1, 
-            },
         },
-    },
-})
-Database:AddChain(Chain.Chain12, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    items = {
-        {
-            name = "Check Requirements",
-            aside = true,
-        },
-        {
-            type = "object",
-            id = 355296,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 58936,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-    },
-})
-Database:AddChain(Chain.Chain13, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    items = {
-        {
-            name = "Check Requirements, maybe [A Very Special Guest]",
-            aside = true,
-        },
+    --[[
         {
             type = "kill",
             id = 156395,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1174,20 +1245,50 @@ Database:AddChain(Chain.Chain13, {
             id = 58079,
             x = 0,
         },
+        
+        {
+            type = "kill",
+            id = 158420,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 58077,
+            x = 0,
+        },
+    ]]
     },
 })
-Database:AddChain(Chain.Chain14, {
+Database:AddChain(Chain.Chain04, {
+    name = { -- Setting Sabina Free
+        type = "quest",
+        id = 60470,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 57,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 60467,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 60470,
+    },
     items = {
         {
-            name = "Check Requirements",
-            aside = true,
-        },
-        {
             type = "npc",
-            id = 158038,
+            id = 168455,
             x = 0,
             connections = {
                 1, 
@@ -1195,23 +1296,7 @@ Database:AddChain(Chain.Chain14, {
         },
         {
             type = "quest",
-            id = 57531,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57532,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57571,
+            id = 60467,
             x = 0,
             connections = {
                 1, 2, 
@@ -1219,7 +1304,7 @@ Database:AddChain(Chain.Chain14, {
         },
         {
             type = "quest",
-            id = 57533,
+            id = 60469,
             x = -1,
             connections = {
                 2, 
@@ -1227,9 +1312,87 @@ Database:AddChain(Chain.Chain14, {
         },
         {
             type = "quest",
+            id = 60468,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60470,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain05, {
+    name = { -- Mirror Making, Not Breaking
+        type = "quest",
+        id = 57536,
+    },
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 57,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 57531,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 57536,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 158038,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 57531,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 57532,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 57571,
+            x = 0,
+            connections = {
+                1, 2,
+            },
+        },
+        {
+            type = "quest",
+            id = 57533,
+            x = -1,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
             id = 57534,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -1237,14 +1400,14 @@ Database:AddChain(Chain.Chain14, {
             id = 57535,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 59427,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1254,99 +1417,189 @@ Database:AddChain(Chain.Chain14, {
         },
     },
 })
-Database:AddChain(Chain.Chain15, {
+Database:AddChain(Chain.Chain06, {
+    name = BtWQuests.GetAreaName(11002),
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 57,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {60280, 60278},
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        ids = {60280, 60278},
+        count = 2,
+    },
+    items = {
+        {
+            type = "chain",
+            id = Chain.EmbedChain11,
+            embed = true,
+            x = -1,
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain12,
+            embed = true,
+        },
+    },
+})
+
+Database:AddChain(Chain.EmbedChain01, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
         {
-            name = "Check Requirements, maybe [A Very Special Guest]",
-            aside = true,
+            type = "npc",
+            id = 168618,
+            x = 0,
+            connections = {
+                1,
+            },
         },
+        {
+            type = "quest",
+            id = 60480,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.EmbedChain02, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "object",
+            id = 352490,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 58272,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.EmbedChain03, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
         {
             type = "kill",
-            id = 158420,
+            id = 165253,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
             type = "quest",
-            id = 58077,
+            id = 60517,
             x = 0,
         },
     },
 })
-Database:AddChain(Chain.Chain16, {
+Database:AddChain(Chain.EmbedChain04, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
-        {
-            name = "Check Requirements",
-            aside = true,
-        },
         {
             type = "object",
-            id = 351874,
+            id = 351889,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
             type = "quest",
-            id = 60275,
+            id = 60279,
             x = 0,
-            connections = {
-                1, 
-            },
         },
     },
 })
-Database:AddChain(Chain.Chain17, {
+Database:AddChain(Chain.EmbedChain05, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
         {
-            name = "Check Requirements",
-            aside = true,
-        },
-        {
-            type = "object",
-            id = 351888,
+            type = "npc",
+            id = 167489,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
             type = "quest",
-            id = 60276,
+            id = 60177,
             x = 0,
             connections = {
-                1, 
+                1,
             },
+        },
+        {
+            type = "quest",
+            id = 60178,
+            x = 0,
         },
     },
 })
-Database:AddChain(Chain.Chain18, {
+Database:AddChain(Chain.EmbedChain06, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
         {
-            name = "Check Requirements",
-            aside = true,
+            type = "npc",
+            id = 168698,
+            x = 0,
+            connections = {
+                1,
+            },
         },
+        {
+            type = "quest",
+            id = 60487,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.EmbedChain07, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
         {
             type = "item",
             id = 182738,
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.310485,
+                        y = 0.550631,
+                    },
+                },
+            },
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1354,53 +1607,102 @@ Database:AddChain(Chain.Chain18, {
             id = 62189,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
     },
 })
-Database:AddChain(Chain.Chain19, {
+Database:AddChain(Chain.EmbedChain08, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
         {
-            name = "Check Requirements",
-            aside = true,
+            type = "object",
+            id = 351874,
+            x = 0,
+            connections = {
+                1,
+            },
         },
+        {
+            type = "quest",
+            id = 60275,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.EmbedChain09, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "object",
+            id = 351888,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 60276,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.EmbedChain10, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "object",
+            id = 351885,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 60277,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.EmbedChain11, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
         {
             type = "object",
             id = 351887,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
             type = "quest",
             id = 60280,
             x = 0,
-            connections = {
-                1, 
-            },
         },
     },
 })
-Database:AddChain(Chain.Chain20, {
+Database:AddChain(Chain.EmbedChain12, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
         {
-            name = "Check Requirements",
-            aside = true,
-        },
-        {
             type = "object",
             id = 351886,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1408,7 +1710,7 @@ Database:AddChain(Chain.Chain20, {
             id = 60278,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
     },
@@ -1436,38 +1738,6 @@ Database:AddChain(Chain.OtherBoth, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
-        { -- Soul Snares
-            type = "quest",
-            id = 58084,
-        },
-        { -- Forgotten Village
-            type = "quest",
-            id = 59211,
-        },
-        { -- A Curious Cache
-            type = "quest",
-            id = 59902,
-        },
-        { -- An Endless Appetite
-            type = "quest",
-            id = 60658,
-        },
-        { -- Light Defense
-            type = "quest",
-            id = 60659,
-        },
-        { -- Ashes Will Fall
-            type = "quest",
-            id = 61879,
-        },
-        { -- Eyegor's Special Friends
-            type = "quest",
-            id = 61885,
-        },
-        { -- Major Mirror Disruptions
-            type = "quest",
-            id = 62203,
-        },
     },
 })
 
@@ -1527,74 +1797,6 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.Chain06,
         },
-        {
-            type = "chain",
-            id = Chain.Chain07,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain08,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain09,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain10,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain11,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain12,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain13,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain14,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain15,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain16,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain17,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain18,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain19,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain20,
-        },
-        {
-            type = "chain",
-            id = Chain.OtherAlliance,
-        },
-        {
-            type = "chain",
-            id = Chain.OtherHorde,
-        },
-        {
-            type = "chain",
-            id = Chain.OtherBoth,
-        },
     },
 })
 
@@ -1611,15 +1813,27 @@ Database:AddMapRecursive(MAP_ID, {
 Database:AddContinentItems(CONTINENT_ID, {
     {
         type = "chain",
-        id = Chain.OtherAlliance,
+        id = Chain.Chain01,
     },
     {
         type = "chain",
-        id = Chain.OtherHorde,
+        id = Chain.Chain02,
     },
     {
         type = "chain",
-        id = Chain.OtherBoth,
+        id = Chain.Chain03,
+    },
+    {
+        type = "chain",
+        id = Chain.Chain04,
+    },
+    {
+        type = "chain",
+        id = Chain.Chain05,
+    },
+    {
+        type = "chain",
+        id = Chain.Chain06,
     },
 })
 
