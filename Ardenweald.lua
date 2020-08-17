@@ -25,21 +25,31 @@ local LEVEL_PREREQUISITE = {
         }
     },
 }
-local LEVEL_PREREQUISITES = {
-    LEVEL_PREREQUISITE,
-}
 
 Chain.WelcomeToArdenweald = 90301
 Chain.TranquilPools = 90302
 Chain.SpiritGlen = 90303
-Chain.WhenAGormEatsAGod = 90304
-Chain.TheFallenTree = 90305
-Chain.AwakenTheDreamer = 90306
-Chain.TempChain01 = 90311
-Chain.TempChain02 = 90312
-Chain.TempChain03 = 90313
-Chain.TempChain04 = 90314
-Chain.TempChain05 = 90315
+Chain.WaningGrove = 90304
+Chain.WhenAGormEatsAGod = 90305
+Chain.GlitterfallHeights = 90306
+Chain.ThisIsTheWay = 90307
+Chain.TheFallenTree = 90308
+Chain.AwakenTheDreamer = 90309
+
+Chain.Chain01 = 90311
+Chain.Chain02 = 90312
+
+Chain.TempChain14 = 90313
+Chain.TempChain16 = 90314
+Chain.TempChain15 = 90315
+Chain.TempChain17 = 90316
+
+Chain.EmbedChain01 = 90321
+Chain.EmbedChain02 = 90322
+Chain.EmbedChain03 = 90323
+Chain.EmbedChain04 = 90324
+Chain.EmbedChain05 = 90325
+
 Chain.OtherAlliance = 90397
 Chain.OtherHorde = 90398
 Chain.OtherBoth = 90399
@@ -65,9 +75,14 @@ Database:AddChain(Chain.WelcomeToArdenweald, {
             }
         }
     },
+    active = {
+        type = "quest",
+        id = 60338,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
-        id = 57738,
+        id = 57787,
     },
     items = {
         {
@@ -132,6 +147,7 @@ Database:AddChain(Chain.WelcomeToArdenweald, {
             x = 0,
         },
         {
+            visible = false,
             type = "quest",
             id = 57738,
             x = 0,
@@ -146,16 +162,23 @@ Database:AddChain(Chain.TranquilPools, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
-    completed = {
-        type = "quest",
-        id = 57825,
-    },
-    items = {
+    prerequisites = {
+        LEVEL_PREREQUISITE,
         {
             type = "chain",
-            id = 90301,
+            id = Chain.WelcomeToArdenweald,
         },
+    },
+    active = {
+        type = "quest",
+        id = 57816,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 60594,
+    },
+    items = {
         {
             type = "npc",
             id = 158487,
@@ -208,6 +231,7 @@ Database:AddChain(Chain.TranquilPools, {
             x = 0,
         },
         {
+            visible = false,
             type = "quest",
             id = 57825,
             x = 0,
@@ -222,16 +246,23 @@ Database:AddChain(Chain.SpiritGlen, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        LEVEL_PREREQUISITE,
+        {
+            type = "chain",
+            id = Chain.WelcomeToArdenweald,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 57947,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
         id = 57951,
     },
     items = {
-        {
-            type = "chain",
-            id = 90301,
-        },
         {
             type = "npc",
             id = 158487,
@@ -278,21 +309,475 @@ Database:AddChain(Chain.SpiritGlen, {
         },
     },
 })
+Database:AddChain(Chain.WaningGrove, {
+    name = "Waning Grove",
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    major = true,
+    prerequisites = {
+        LEVEL_PREREQUISITE,
+        {
+            type = "chain",
+            id = Chain.WelcomeToArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TranquilPools,
+        },
+        {
+            type = "chain",
+            id = Chain.SpiritGlen,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 60600,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 60519,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 169031,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60600,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60624,
+            x = 0,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60637,
+            x = -2,
+            connections = {
+                3, 4, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60638,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60639,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60647,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60648,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60671,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60709,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60724,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60519,
+            x = 0,
+        },
+    },
+})
 Database:AddChain(Chain.WhenAGormEatsAGod, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        LEVEL_PREREQUISITE,
+        {
+            type = "chain",
+            id = Chain.WelcomeToArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TranquilPools,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.SpiritGlen,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.WaningGrove,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 57952,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
         id = 58026,
     },
     items = {
         {
+            type = "npc",
+            id = 158921,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57952,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57818,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57824,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57825,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61051,
+            x = 0,
+            connections = {
+                1.2, 2, 3, 
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain01,
+            embed = true,
+        },
+        {
+            type = "quest",
+            id = 58022,
+            x = -2,
+            y = 6,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58023,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58025,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
             id = 58026,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57660,
+            aside = true,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.GlitterfallHeights, {
+    name = BtWQuests.GetAreaName(12244), -- Glitterfall Heights
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    major = true,
+    prerequisites = {
+        LEVEL_PREREQUISITE,
+        {
+            type = "chain",
+            id = Chain.WelcomeToArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TranquilPools,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.SpiritGlen,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.WaningGrove,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 60521,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 60520,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 169031,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60521,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60628,
+            x = -1,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60629,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60631,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60630,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60632,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60522,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60520,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.ThisIsTheWay, {
+    name = "This is the Way",
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    major = true,
+    prerequisites = {
+        LEVEL_PREREQUISITE,
+        {
+            type = "chain",
+            id = Chain.WelcomeToArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TranquilPools,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.SpiritGlen,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.WaningGrove,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.GlitterfallHeights,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 60738,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 60905,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 169142,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60738,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60764,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60839,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60840,
+            aside = true,
+        },
+        {
+            type = "quest",
+            id = 60856,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60881,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60901,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60905,
             x = 0,
         },
     },
@@ -304,16 +789,48 @@ Database:AddChain(Chain.TheFallenTree, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        LEVEL_PREREQUISITE,
+        {
+            type = "chain",
+            id = Chain.WelcomeToArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TranquilPools,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.SpiritGlen,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.WaningGrove,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.GlitterfallHeights,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ThisIsTheWay,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 58473,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
         id = 58524,
     },
     items = {
-        {
-            type = "chain",
-            id = 90311,
-        },
         {
             type = "npc",
             id = 160963,
@@ -372,6 +889,15 @@ Database:AddChain(Chain.TheFallenTree, {
             type = "quest",
             id = 58524,
             x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58265,
+            x = 0,
+            aside = true,
         },
     },
 })
@@ -382,16 +908,53 @@ Database:AddChain(Chain.AwakenTheDreamer, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        LEVEL_PREREQUISITE,
+        {
+            type = "chain",
+            id = Chain.WelcomeToArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TranquilPools,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.SpiritGlen,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.WaningGrove,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.GlitterfallHeights,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ThisIsTheWay,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheFallenTree,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 60572,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
         id = 58723,
     },
     items = {
-        {
-            type = "chain",
-            id = 90305,
-        },
         {
             type = "npc",
             id = 160894,
@@ -524,23 +1087,35 @@ Database:AddChain(Chain.AwakenTheDreamer, {
         },
     },
 })
-Database:AddChain(Chain.TempChain01, {
-    name = "This is the Way",
+
+Database:AddChain(Chain.Chain01, {
+    name = { -- The Crumbling Village
+        type = "quest",
+        id = 59802,
+    },
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = {
+        LEVEL_PREREQUISITE,
+        {
+            type = "chain",
+            id = Chain.WaningGrove,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 58161,
+        status = {'active','completed'}
+    },
     completed = {
         type = "quest",
-        id = 60520,
+        id = 58166,
     },
     items = {
         {
-            type = "chain",
-            id = 90314,
-        },
-        {
             type = "npc",
-            id = 169142,
+            id = 160440,
             x = 0,
             connections = {
                 1, 
@@ -548,98 +1123,108 @@ Database:AddChain(Chain.TempChain01, {
         },
         {
             type = "quest",
-            id = 60738,
+            id = 58161,
             x = 0,
             connections = {
-                1, 
+                2, 3, 4
+            },
+        },
+        {
+            type = "object",
+            id = 349515,
+            x = 2,
+            connections = {
+                3, 
             },
         },
         {
             type = "quest",
-            id = 60764,
-            x = 0,
+            id = 58164,
+            x = -2,
             connections = {
-                1, 
+                3, 
             },
         },
         {
             type = "quest",
-            id = 60839,
-            x = 0,
+            id = 58162,
             connections = {
                 2, 
             },
         },
         {
             type = "quest",
-            id = 60840,
+            id = 58163,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59802,
+            x = 0,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain02,
+            embed = true,
+        },
+        {
+            type = "quest",
+            id = 58165,
+            x = -2,
+            y = 4,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59801,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58166,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain02, {
+    name = BtWQuests.GetAreaName(12245), -- Glitterfall Basin
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        LEVEL_PREREQUISITE,
+        {
+            type = "chain",
+            id = Chain.GlitterfallHeights,
+            upto = 60632,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 57651,
+        status = {'active','completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 57653,
+    },
+    items = {
+        {
+            name = "Update Connections",
             aside = true,
         },
         {
-            type = "quest",
-            id = 60856,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60881,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60901,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60905,
-            x = 0,
-        },
-    },
-})
-Database:AddChain(Chain.TempChain02, {
-    name = "End of the Dream",
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        id = 58593,
-    },
-    items = {
-    },
-})
-Database:AddChain(Chain.TempChain03, {
-    name = "Waning Grove",
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        id = 57787,
-    },
-    items = {
-        {
-            type = "chain",
-            id = 90302,
-            x = -1,
-        },
-        {
-            type = "chain",
-            id = 90303,
-        },
-        {
             type = "npc",
-            id = 169031,
+            id = 158345,
             x = 0,
             connections = {
                 1, 
@@ -647,105 +1232,68 @@ Database:AddChain(Chain.TempChain03, {
         },
         {
             type = "quest",
-            id = 60600,
+            id = 57651,
             x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60624,
-            x = 0,
-            connections = {
-                1, 2, 3, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60637,
-            x = -2,
             connections = {
                 3, 4, 
             },
         },
         {
-            type = "quest",
-            id = 60638,
-            connections = {
-                2, 3, 
-            },
+            type = "chain",
+            id = Chain.EmbedChain03,
+            embed = true,
+            x = 3,
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain04,
+            embed = true,
+            x = -3,
+            y = 3,
         },
         {
             type = "quest",
-            id = 60639,
-            connections = {
-                1, 2, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60647,
+            id = 59621,
             x = -1,
+            y = 3,
             connections = {
                 2, 
             },
         },
         {
             type = "quest",
-            id = 60648,
+            id = 59622,
             connections = {
                 1, 
             },
         },
         {
             type = "quest",
-            id = 60671,
+            id = 57653,
             x = 0,
-            connections = {
-                1, 
-            },
         },
         {
-            type = "quest",
-            id = 60709,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60724,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60519,
-            x = 0,
+            type = "chain",
+            id = Chain.EmbedChain05,
+            embed = true,
+            x = 3,
+            y = 5,
         },
     },
 })
-Database:AddChain(Chain.TempChain04, {
-    name = "Glitterfall Heights",
+
+Database:AddChain(Chain.TempChain14, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        id = 60778,
-    },
     items = {
         {
-            type = "chain",
-            id = 90313,
+            name = "Check Requirements",
+            aside = true,
         },
         {
             type = "npc",
-            id = 169031,
+            id = 174341,
             x = 0,
             connections = {
                 1, 
@@ -753,76 +1301,196 @@ Database:AddChain(Chain.TempChain04, {
         },
         {
             type = "quest",
-            id = 60521,
-            x = 0,
-            connections = {
-                1, 2, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60628,
-            x = -1,
-            connections = {
-                2, 3, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60629,
-            connections = {
-                1, 2, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60631,
-            x = -1,
-            connections = {
-                2, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60630,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60632,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60522,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60520,
+            id = 62458,
             x = 0,
         },
     },
 })
-Database:AddChain(Chain.TempChain05, {
+Database:AddChain(Chain.TempChain15, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
-    completed = {
-        type = "quest",
-        id = 57025,
-    },
     items = {
+        {
+            name = "Check Requirements",
+            aside = true,
+        },
+        {
+            type = "npc",
+            id = 168032,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62371,
+            x = 0,
+        },
     },
 })
+Database:AddChain(Chain.TempChain16, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "embed?",
+            aside = true,
+        },
+        {
+            type = "item",
+            id = 183129,
+            breadcrumb = true,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62259,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.TempChain17, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "embed?",
+            aside = true,
+        },
+        {
+            type = "item",
+            id = 183091,
+            breadcrumb = true,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62246,
+            x = 0,
+        },
+    },
+})
+
+Database:AddChain(Chain.EmbedChain01, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "npc",
+            id = 171195,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58024,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.EmbedChain02, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "item",
+            id = 182730,
+            breadcrumb = true,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62186,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.EmbedChain03, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "object",
+            id = 348747,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57652,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59623,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.EmbedChain04, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "object",
+            id = 336415,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57655,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.EmbedChain05, {
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            type = "npc",
+            id = 158489,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57656,
+            x = 0,
+        },
+    },
+})
+
 Database:AddChain(Chain.OtherAlliance, {
     name = "Other Alliance",
     category = CATEGORY_ID,
@@ -845,25 +1513,225 @@ Database:AddChain(Chain.OtherBoth, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
+        { -- Dreamweaver
+            type = "quest",
+            id = 57816,
+        },
+        { -- The Sweat of Our Brow
+            type = "quest",
+            id = 57867,
+        },
+        { -- Blooming Villains
+            type = "quest",
+            id = 58265,
+        },
+        { -- The Restless Dreamer
+            type = "quest",
+            id = 58589,
+        },
+        { -- Despoilers
+            type = "quest",
+            id = 58591,
+        },
+        { -- Caring for the Caretakers
+            type = "quest",
+            id = 58592,
+        },
+        {
+            type = "quest",
+            id = 59179,
+        },
+        {
+            type = "quest",
+            id = 59181,
+        },
+        {
+            type = "quest",
+            id = 59189,
+        },
+        { -- Their New Home
+            type = "quest",
+            id = 59242,
+        },
+        { -- Daughter of the Night Warrior
+            type = "quest",
+            id = 59246,
+        },
+        { -- Rotbriar Trouble
+            type = "quest",
+            id = 59600,
+        },
+        { -- Seed Hunting
+            type = "quest",
+            id = 59825,
+        },
         { -- Seize the Means of Production
             type = "quest",
             id = 60476,
+        },
+        {
+            type = "quest",
+            id = 60508,
+        },
+        {
+            type = "quest",
+            id = 60530,
+        },
+        { -- Terrors in Tirna Scithe
+            type = "quest",
+            id = 60533,
+        },
+        { -- Tending to Wildseeds
+            type = "quest",
+            id = 60563,
+        },
+        { -- Shooing Wildlife
+            type = "quest",
+            id = 60567,
+        },
+        { -- For the Sake of Spirit
+            type = "quest",
+            id = 60572,
+        },
+        { -- Shaking 'Shrooms
+            type = "quest",
+            id = 60574,
+        },
+        { -- Belly Full of Fae
+            type = "quest",
+            id = 60575,
+        },
+        { -- Hungry for Animacones
+            type = "quest",
+            id = 60577,
+        },
+        { -- Spriggan Riot
+            type = "quest",
+            id = 60585,
+        },
+        { -- One Special Spirit
+            type = "quest",
+            id = 60594,
         },
         { -- Trouble at the Gormling Corral
             type = "quest",
             id = 60597,
         },
+        { -- Preparing for the Winter Queen
+            type = "quest",
+            id = 60600,
+        },
+        { -- Who Devours the Devourers?
+            type = "quest",
+            id = 60609,
+        },
+        { -- Ride to Heartwood Grove
+            type = "quest",
+            id = 60624,
+        },
+        { -- The Missing Hunters
+            type = "quest",
+            id = 60628,
+        },
+        { -- Extreme Recycling
+            type = "quest",
+            id = 60629,
+        },
+        { -- The End of Former Friends
+            type = "quest",
+            id = 60637,
+        },
+        { -- Recovering Wildseeds
+            type = "quest",
+            id = 60638,
+        },
+        { -- Heart of the Grove
+            type = "quest",
+            id = 60639,
+        },
+        { -- Recovering the Animacones
+            type = "quest",
+            id = 60647,
+        },
+        { -- Survivors of Heartwood Grove
+            type = "quest",
+            id = 60648,
+        },
         { -- A Thorn In Their Side
             type = "quest",
             id = 60649,
+        },
+        { -- The Sacrifices We Must Make
+            type = "quest",
+            id = 60671,
+        },
+        { -- Recovering the Heart
+            type = "quest",
+            id = 60709,
+        },
+        { -- Heartless
+            type = "quest",
+            id = 60724,
+        },
+        { -- The Way to Hibernal Hollow
+            type = "quest",
+            id = 60738,
         },
         { -- Tough Crowd
             type = "quest",
             id = 60739,
         },
+        { -- Soothing Song
+            type = "quest",
+            id = 60764,
+        },
+        { -- Remnants of the Wild Hunt
+            type = "quest",
+            id = 60839,
+        },
         { -- Gormageddon
             type = "quest",
             id = 60855,
+        },
+        { -- Toppling the Brute
+            type = "quest",
+            id = 60856,
+        },
+        { -- We Can't Save Them All
+            type = "quest",
+            id = 60857,
+        },
+        { -- Ride of the Wild Hunt
+            type = "quest",
+            id = 60881,
+        },
+        { -- A Night in the Woods
+            type = "quest",
+            id = 60899,
+        },
+        { -- Passage to Hibernal Hollow
+            type = "quest",
+            id = 60901,
+        },
+        { -- Infusing the Wildseed
+            type = "quest",
+            id = 60905,
+        },
+        { -- A Matter of Stealth
+            type = "quest",
+            id = 60950,
+        },
+        { -- It's Raining Sparkles
+            type = "quest",
+            id = 61303,
+        },
+        { -- Our Heart Will Go On
+            type = "quest",
+            id = 61411,
+        },
+        { -- Natural Defenders
+            type = "quest",
+            id = 61946,
         },
         { -- Lurking In The Shadows
             type = "quest",
@@ -872,6 +1740,18 @@ Database:AddChain(Chain.OtherBoth, {
         { -- Airborne Defense Force
             type = "quest",
             id = 61948,
+        },
+        { -- Ardenweald's Tricksters
+            type = "quest",
+            id = 61949,
+        },
+        { -- A Fallen Friend
+            type = "quest",
+            id = 62246,
+        },
+        { -- Tirna Scithe: A Warning Silence
+            type = "quest",
+            id = 62371,
         },
     },
 })
@@ -894,7 +1774,19 @@ Database:AddCategory(CATEGORY_ID, {
         },
         {
             type = "chain",
+            id = Chain.WaningGrove,
+        },
+        {
+            type = "chain",
             id = Chain.WhenAGormEatsAGod,
+        },
+        {
+            type = "chain",
+            id = Chain.GlitterfallHeights,
+        },
+        {
+            type = "chain",
+            id = Chain.ThisIsTheWay,
         },
         {
             type = "chain",
@@ -906,24 +1798,32 @@ Database:AddCategory(CATEGORY_ID, {
         },
         {
             type = "chain",
-            id = Chain.TempChain01,
+            id = Chain.Chain01,
         },
         {
             type = "chain",
-            id = Chain.TempChain02,
+            id = Chain.Chain02,
+        },
+
+
+        {
+            type = "chain",
+            id = Chain.TempChain14,
         },
         {
             type = "chain",
-            id = Chain.TempChain03,
+            id = Chain.TempChain15,
         },
         {
             type = "chain",
-            id = Chain.TempChain04,
+            id = Chain.TempChain16,
         },
         {
             type = "chain",
-            id = Chain.TempChain05,
+            id = Chain.TempChain17,
         },
+
+
         {
             type = "chain",
             id = Chain.OtherAlliance,
@@ -952,35 +1852,11 @@ Database:AddMapRecursive(MAP_ID, {
 Database:AddContinentItems(CONTINENT_ID, {
     {
         type = "chain",
-        id = Chain.TempChain01,
+        id = Chain.Chain01,
     },
     {
         type = "chain",
-        id = Chain.TempChain02,
-    },
-    {
-        type = "chain",
-        id = Chain.TempChain03,
-    },
-    {
-        type = "chain",
-        id = Chain.TempChain04,
-    },
-    {
-        type = "chain",
-        id = Chain.TempChain05,
-    },
-    {
-        type = "chain",
-        id = Chain.OtherAlliance,
-    },
-    {
-        type = "chain",
-        id = Chain.OtherHorde,
-    },
-    {
-        type = "chain",
-        id = Chain.OtherBoth,
+        id = Chain.Chain02,
     },
 })
 
@@ -990,6 +1866,10 @@ Database:AddQuestsTable({
     [60671] = {
         name = "The Sacrifices We Must Make",
         contentTuningID = 807,
+    },
+    [61949] = {
+        name = "Ardenweald's Tricksters",
+        contentTuningID = 837,
     },
     [58524] = {
         name = "Sparkles Rain from Above",
@@ -1035,6 +1915,22 @@ Database:AddQuestsTable({
         name = "Survivors of Heartwood Grove",
         contentTuningID = 807,
     },
+    [60533] = {
+        name = "Terrors in Tirna Scithe",
+        contentTuningID = 837,
+    },
+    [61303] = {
+        name = "It's Raining Sparkles",
+        contentTuningID = 837,
+    },
+    [61946] = {
+        name = "Natural Defenders",
+        contentTuningID = 837,
+    },
+    [60950] = {
+        name = "A Matter of Stealth",
+        contentTuningID = 837,
+    },
     [60577] = {
         name = "Hungry for Animacones",
         contentTuningID = 807,
@@ -1047,6 +1943,10 @@ Database:AddQuestsTable({
         name = "Remnants of the Wild Hunt",
         contentTuningID = 1931,
     },
+    [62371] = {
+        name = "Tirna Scithe: A Warning Silence",
+        contentTuningID = 1238,
+    },
     [60724] = {
         name = "Heartless",
         contentTuningID = 807,
@@ -1058,6 +1958,10 @@ Database:AddQuestsTable({
     [60859] = {
         name = "Souls of the Forest",
         contentTuningID = 807,
+    },
+    [60609] = {
+        name = "Who Devours the Devourers?",
+        contentTuningID = 837,
     },
     [57950] = {
         name = "Mizik the Haughty",
@@ -1087,13 +1991,53 @@ Database:AddQuestsTable({
         name = "Return to Tirna Vaal",
         contentTuningID = 807,
     },
+    [57025] = {
+        name = "A Plea to Revendreth",
+        contentTuningID = 746,
+    },
     [60661] = {
         name = "Dying Dreams",
         contentTuningID = 807,
     },
+    [59242] = {
+        name = "Their New Home",
+        contentTuningID = 837,
+    },
+    [57867] = {
+        name = "The Sweat of Our Brow",
+        contentTuningID = 807,
+    },
+    [60899] = {
+        name = "A Night in the Woods",
+        contentTuningID = 837,
+    },
     [61947] = {
         name = "Lurking In The Shadows",
         contentTuningID = 837,
+    },
+    [62246] = {
+        name = "A Fallen Friend",
+        contentTuningID = 744,
+    },
+    [59246] = {
+        name = "Daughter of the Night Warrior",
+        contentTuningID = 837,
+    },
+    [61411] = {
+        name = "Our Heart Will Go On",
+        contentTuningID = 837,
+    },
+    [58026] = {
+        name = "When a Gorm Eats a God",
+        contentTuningID = 807,
+    },
+    [58869] = {
+        name = "Battle for Hibernal Hollow",
+        contentTuningID = 807,
+    },
+    [58161] = {
+        name = "Forest Disappearances",
+        contentTuningID = 807,
     },
     [60578] = {
         name = "Visions of the Dreamer: The Betrayal",
@@ -1103,13 +2047,29 @@ Database:AddQuestsTable({
         name = "Recovering the Heart",
         contentTuningID = 807,
     },
+    [59600] = {
+        name = "Rotbriar Trouble",
+        contentTuningID = 837,
+    },
+    [60585] = {
+        name = "Spriggan Riot",
+        contentTuningID = 837,
+    },
     [60594] = {
         name = "One Special Spirit",
         contentTuningID = 807,
     },
+    [60574] = {
+        name = "Shaking 'Shrooms",
+        contentTuningID = 837,
+    },
     [60856] = {
         name = "Toppling the Brute",
         contentTuningID = 1931,
+    },
+    [58265] = {
+        name = "Blooming Villains",
+        contentTuningID = 807,
     },
     [57816] = {
         name = "Dreamweaver",
@@ -1135,6 +2095,10 @@ Database:AddQuestsTable({
         name = "Totem Eclipse",
         contentTuningID = 807,
     },
+    [57952] = {
+        name = "In Need of Gorm Gris",
+        contentTuningID = 807,
+    },
     [60638] = {
         name = "Recovering Wildseeds",
         contentTuningID = 807,
@@ -1145,6 +2109,14 @@ Database:AddQuestsTable({
     },
     [60519] = {
         name = "Audience with the Winter Queen",
+        contentTuningID = 807,
+    },
+    [57651] = {
+        name = "Trouble in the Banks",
+        contentTuningID = 807,
+    },
+    [57825] = {
+        name = "Delivery for Guardian Kota",
         contentTuningID = 807,
     },
     [58724] = {
@@ -1203,9 +2175,9 @@ Database:AddQuestsTable({
         name = "Infusing the Wildseed",
         contentTuningID = 1931,
     },
-    [58869] = {
-        name = "Battle for Hibernal Hollow",
-        contentTuningID = 807,
+    [59825] = {
+        name = "Seed Hunting",
+        contentTuningID = 837,
     },
     [60632] = {
         name = "I Know Your Face",
@@ -1284,3 +2256,4 @@ Database:AddQuestsTable({
         contentTuningID = 837,
     },
 })
+

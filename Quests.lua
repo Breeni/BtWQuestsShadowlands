@@ -3384,12 +3384,80 @@ BtWQuestsDatabase:AddQuestsTable({
             id = 352028,
         },
     },
+    [59179] = {
+        name = "Daughter of the Night Warrior",
+        contentTuningID = 837,
+    },
+    [59181] = {
+        name = "Into the Maw",
+        contentTuningID = 837,
+    },
+    [59189] = {
+        name = "The Recovery of Tyrande Whisperwind",
+        contentTuningID = 837,
+    },
+    [59242] = {
+        name = "Their New Home",
+        contentTuningID = 837,
+    },
+    [59246] = {
+        name = "Daughter of the Night Warrior",
+        contentTuningID = 837,
+    },
+    [59600] = {
+        name = "Rotbriar Trouble",
+        contentTuningID = 837,
+    },
+    [59621] = {
+        name = "Breaking A Few Eggs",
+        contentTuningID = 807,
+        source = {
+            type = "npc",
+            id = 158422,
+        },
+    },
+    [59622] = {
+        name = "Tending to the Tenders",
+        contentTuningID = 807,
+        source = {
+            type = "npc",
+            id = 158422,
+        },
+    },
+    [59623] = {
+        name = "What a Buzzkill",
+        contentTuningID = 807,
+        source = {
+            type = "npc",
+            id = 165382,
+        },
+    },
+    [59801] = {
+        name = "Take the Power",
+        contentTuningID = 807,
+        source = {
+            type = "npc",
+            id = 173383,
+        },
+    },
+    [59802] = {
+        name = "The Crumbling Village",
+        contentTuningID = 807,
+        source = {
+            type = "npc",
+            id = 160439,
+        },
+    },
+    [59825] = {
+        name = "Seed Hunting",
+        contentTuningID = 837,
+    },
     [60338] = {
         name = "Journey to Ardenweald",
         contentTuningID = 807,
         source = {
             type = "npc",
-            id = 173383,
+            id = 159478,
         },
     },
     [60341] = {
@@ -3514,6 +3582,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169142,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.652338,
+                        y = 0.366162,
+                    },
+                },
+            },
         },
     },
     [60521] = {
@@ -3576,12 +3652,24 @@ BtWQuestsDatabase:AddQuestsTable({
             id = 160894,
         },
     },
+    [60574] = {
+        name = "Shaking 'Shrooms",
+        contentTuningID = 837,
+    },
     [60575] = {
         name = "Belly Full of Fae",
         contentTuningID = 807,
         source = {
             type = "npc",
             id = 169202,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.614042,
+                        y = 0.40974,
+                    },
+                },
+            },
         },
     },
     [60577] = {
@@ -3590,6 +3678,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169202,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.614042,
+                        y = 0.40974,
+                    },
+                },
+            },
         },
     },
     [60578] = {
@@ -3598,7 +3694,19 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160962,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.600543,
+                        y = 0.52965,
+                    },
+                },
+            },
         },
+    },
+    [60585] = {
+        name = "Spriggan Riot",
+        contentTuningID = 837,
     },
     [60594] = {
         name = "One Special Spirit",
@@ -3620,6 +3728,10 @@ BtWQuestsDatabase:AddQuestsTable({
             id = 169031,
         },
     },
+    [60609] = {
+        name = "Who Devours the Devourers?",
+        contentTuningID = 837,
+    },
     [60621] = {
         name = "Enemies at the Gates",
         contentTuningID = 807,
@@ -3638,6 +3750,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158487,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.634953,
+                        y = 0.36282,
+                    },
+                },
+            },
         },
     },
     [60628] = {
@@ -3646,6 +3766,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169584,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.513147,
+                        y = 0.339898,
+                    },
+                },
+            },
         },
     },
     [60629] = {
@@ -3654,6 +3782,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169584,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.513147,
+                        y = 0.339898,
+                    },
+                },
+            },
         },
     },
     [60630] = {
@@ -3662,6 +3798,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169584,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.513147,
+                        y = 0.339898,
+                    },
+                },
+            },
         },
     },
     [60631] = {
@@ -3670,6 +3814,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169584,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.513147,
+                        y = 0.339898,
+                    },
+                },
+            },
         },
     },
     [60632] = {
@@ -3718,6 +3870,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169748,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.684319,
+                        y = 0.243607,
+                    },
+                },
+            },
         },
     },
     [60648] = {
@@ -3725,7 +3885,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 807,
         source = {
             type = "npc",
-            id = 169748,
+            id = 169868,
         },
     },
     [60649] = {
@@ -3810,6 +3970,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169142,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.652338,
+                        y = 0.366162,
+                    },
+                },
+            },
         },
     },
     [60739] = {
@@ -3866,6 +4034,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170290,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.623253,
+                        y = 0.455511,
+                    },
+                },
+            },
         },
     },
     [60840] = {
@@ -3898,6 +4074,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170533,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.678821,
+                        y = 0.241177,
+                    },
+                },
+            },
         },
     },
     [60881] = {
@@ -3922,6 +4106,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170290,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.623253,
+                        y = 0.455511,
+                    },
+                },
+            },
         },
     },
     [60905] = {

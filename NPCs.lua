@@ -1574,8 +1574,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.652338,
-                    y = 0.366162,
+                    x = 0.652384,
+                    y = 0.366075,
                 },
             },
         },
@@ -1585,8 +1585,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.614042,
-                    y = 0.40974,
+                    x = 0.614007,
+                    y = 0.409768,
                 },
             },
         },
@@ -1651,8 +1651,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.598977,
-                    y = 0.531896,
+                    x = 0.598039,
+                    y = 0.530976,
                 },
             },
         },
@@ -1662,8 +1662,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.513147,
-                    y = 0.339898,
+                    x = 0.51316,
+                    y = 0.339817,
                 },
             },
         },
@@ -1684,7 +1684,7 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.684319,
+                    x = 0.684179,
                     y = 0.243607,
                 },
             },
@@ -1805,8 +1805,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.623253,
-                    y = 0.455511,
+                    x = 0.623251,
+                    y = 0.455563,
                 },
             },
         },
@@ -1849,8 +1849,30 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.678821,
-                    y = 0.241177,
+                    x = 0.656726,
+                    y = 0.279108,
+                },
+            },
+        },
+    },
+    [171099] = {
+        name = "Guardian Kota",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.628836,
+                    y = 0.321367,
+                },
+            },
+        },
+    },
+    [171195] = {
+        name = "Gorm Burrow",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.621725,
+                    y = 0.299914,
                 },
             },
         },
