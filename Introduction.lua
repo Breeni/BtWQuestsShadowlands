@@ -580,7 +580,7 @@ Database:AddChain(Chain.Torghast, {
     prerequisites = {
         {
             type = "level",
-            level = 50,
+            level = 60,
         },
         {
             type = "chain",
