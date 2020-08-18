@@ -718,15 +718,8 @@ Database:AddChain(Chain.SecuringSinfall, {
             id = 57442,
             x = 0,
             connections = {
-                3,
+                2,
             },
-        },
-        {
-            type = "chain",
-            id = Chain.Chain04,
-            embed = true,
-            aside = true,
-            x = 2,
         },
         {
             type = "chain",
