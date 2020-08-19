@@ -1,6 +1,6 @@
 ## Interface: 90001
 ## Title: BtWQuests: Shadowlands
-## Version: 1.alpha1
+## Version: 1.alpha2
 ## Notes: Shadowlands quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests
