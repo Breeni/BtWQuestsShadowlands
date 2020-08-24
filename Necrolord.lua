@@ -20,7 +20,7 @@ local LEVEL_PREREQUISITES = {
 }
 
 Chain.ChampionOfPain = 90701
-Chain.TheMaw = 90702
+Chain.ReturnToTheMaw = 90702
 Chain.TheImpossiblePlan = 90703
 Chain.GrandTheftNecropolis = 90704
 Chain.MachinationsOfWar = 90705
@@ -165,8 +165,8 @@ Database:AddChain(Chain.ChampionOfPain, {
         },
     },
 })
-Database:AddChain(Chain.TheMaw, {
-    name = "The Maw",
+Database:AddChain(Chain.ReturnToTheMaw, {
+    name = "Return to The Maw",
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1012,7 +1012,7 @@ Database:AddCategory(CATEGORY_ID, {
         },
         {
             type = "chain",
-            id = Chain.TheMaw,
+            id = Chain.ReturnToTheMaw,
         },
         {
             type = "chain",
