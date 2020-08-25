@@ -4,6 +4,17 @@ BtWQuestsDatabase:AddNPCsTable({
     [151329] = {
         name = "Warden Skoldus",
     },
+    [154627] = {
+        name = "Xandria",
+        locations = {
+            [1707] = {
+                {
+                    x = 0.621976,
+                    y = 0.377551,
+                },
+            },
+        },
+    },
     [155533] = {
         name = "Lord Chamberlain",
         locations = {
@@ -59,6 +70,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [156327] = {
+        name = "Voitha",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.660463,
+                    y = 0.470952,
+                },
+            },
+        },
+    },
+    [156361] = {
+        name = "Kleia",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.618527,
+                    y = 0.436137,
+                },
+            },
+        },
+    },
     [156374] = {
         name = "Lord Chamberlain",
         locations = {
@@ -88,6 +121,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.485077,
                     y = 0.684418,
+                },
+            },
+        },
+    },
+    [156474] = {
+        name = "Chyrus",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.690934,
+                    y = 0.407121,
                 },
             },
         },
@@ -240,7 +284,7 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1525] = {
                 {
-                    x = 0.357675,
+                    x = 0.353054,
                     y = 0.575747,
                 },
             },
@@ -482,8 +526,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.466647,
-                    y = 0.294092,
+                    x = 0.466659,
+                    y = 0.294022,
                 },
             },
         },
@@ -801,8 +845,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1536] = {
                 {
-                    x = 0.564705,
-                    y = 0.572911,
+                    x = 0.565569,
+                    y = 0.573254,
                 },
             },
         },
@@ -812,8 +856,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1707] = {
                 {
-                    x = 0.556667,
-                    y = 0.42,
+                    x = 0.478889,
+                    y = 0.536667,
                 },
             },
         },
@@ -873,6 +917,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [160212] = {
+        name = "Soulguide Daelia",
+        locations = {
+            [1708] = {
+                {
+                    x = 0.594957,
+                    y = 0.342124,
+                },
+            },
+        },
+    },
     [160262] = {
         name = "Ysera",
         locations = {
@@ -880,6 +935,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.447788,
                     y = 0.389445,
+                },
+            },
+        },
+    },
+    [160280] = {
+        name = "Mikanikos",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.501447,
+                    y = 0.204677,
+                },
+            },
+        },
+    },
+    [160389] = {
+        name = "Koros",
+        locations = {
+            [1707] = {
+                {
+                    x = 0.438353,
+                    y = 0.40708,
                 },
             },
         },
@@ -924,6 +1001,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.579643,
                     y = 0.758767,
+                },
+            },
+        },
+    },
+    [160648] = {
+        name = "Sika",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.501082,
+                    y = 0.20596,
                 },
             },
         },
@@ -1038,6 +1126,39 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [161540] = {
+        name = "Kleia",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.602678,
+                    y = 0.60843,
+                },
+            },
+        },
+    },
+    [161544] = {
+        name = "The Curator",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.603451,
+                    y = 0.608795,
+                },
+            },
+        },
+    },
+    [161553] = {
+        name = "Mindscorched Alwin",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.319184,
+                    y = 0.475698,
+                },
+            },
+        },
+    },
     [161559] = {
         name = "Louison",
         locations = {
@@ -1082,6 +1203,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [162149] = {
+        name = "Mikanikos",
+        locations = {
+            [1707] = {
+                {
+                    x = 0.456344,
+                    y = 0.571343,
+                },
+            },
+        },
+    },
+    [162392] = {
+        name = "Willowblossom",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.440433,
+                    y = 0.517947,
+                },
+            },
+        },
+    },
     [162474] = {
         name = "Dundae",
         locations = {
@@ -1109,8 +1252,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1536] = {
                 {
-                    x = 0.676741,
-                    y = 0.459239,
+                    x = 0.67668,
+                    y = 0.459682,
                 },
             },
         },
@@ -1126,6 +1269,39 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [162542] = {
+        name = "Kleia",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.331848,
+                    y = 0.261401,
+                },
+            },
+        },
+    },
+    [162544] = {
+        name = "Achillon",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.33248,
+                    y = 0.26153,
+                },
+            },
+        },
+    },
+    [162558] = {
+        name = "Alithea",
+        locations = {
+            [49] = {
+                {
+                    x = 0.324349,
+                    y = 0.396854,
+                },
+            },
+        },
+    },
     [162615] = {
         name = "Caleesy",
         locations = {
@@ -1133,6 +1309,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.469968,
                     y = 0.490392,
+                },
+            },
+        },
+    },
+    [162679] = {
+        name = "Willowblossom",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.405871,
+                    y = 0.563746,
                 },
             },
         },
@@ -1170,6 +1357,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [162953] = {
+        name = "Sarah Howell",
+        locations = {
+            [49] = {
+                {
+                    x = 0.215912,
+                    y = 0.420324,
+                },
+            },
+        },
+    },
     [162968] = {
         name = "Winter Queen",
         locations = {
@@ -1177,6 +1375,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.452933,
                     y = 0.630337,
+                },
+            },
+        },
+    },
+    [163111] = {
+        name = "Magistrate Solomon",
+        locations = {
+            [49] = {
+                {
+                    x = 0.289096,
+                    y = 0.411114,
                 },
             },
         },
@@ -1192,6 +1401,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [163328] = {
+        name = "Pelagos",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.45231,
+                    y = 0.653536,
+                },
+            },
+        },
+    },
     [163576] = {
         name = "Echelon",
         locations = {
@@ -1199,6 +1419,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.674002,
                     y = 0.535769,
+                },
+            },
+        },
+    },
+    [163650] = {
+        name = "Kleia",
+        locations = {
+            [1707] = {
+                {
+                    x = 0.51551,
+                    y = 0.477185,
                 },
             },
         },
@@ -1252,8 +1483,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1536] = {
                 {
-                    x = 0.677069,
-                    y = 0.456137,
+                    x = 0.733823,
+                    y = 0.445159,
                 },
             },
         },
@@ -1276,6 +1507,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.433246,
                     y = 0.740918,
+                },
+            },
+        },
+    },
+    [164473] = {
+        name = "Polemarch Adrestes",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.313904,
+                    y = 0.234101,
                 },
             },
         },
@@ -1335,6 +1577,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [165011] = {
+        name = "Pelagos",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.50521,
+                    y = 0.531772,
+                },
+            },
+        },
+    },
     [165045] = {
         name = "Kalisthene",
         locations = {
@@ -1375,6 +1628,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.420943,
                     y = 0.783093,
+                },
+            },
+        },
+    },
+    [165110] = {
+        name = "Pelagos",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.531719,
+                    y = 0.745873,
                 },
             },
         },
@@ -1470,6 +1734,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [166211] = {
+        name = "Alexandros Mograine",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.288109,
+                    y = 0.382063,
+                },
+            },
+        },
+    },
     [166227] = {
         name = "Kleia",
         locations = {
@@ -1488,6 +1763,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.423343,
                     y = 0.783543,
+                },
+            },
+        },
+    },
+    [166333] = {
+        name = "Xandria",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.355728,
+                    y = 0.265397,
                 },
             },
         },
@@ -1532,6 +1818,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.430812,
                     y = 0.251039,
+                },
+            },
+        },
+    },
+    [166693] = {
+        name = "Polemarch Adrestes",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.674214,
+                    y = 0.15239,
                 },
             },
         },
@@ -1657,6 +1954,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [167173] = {
+        name = "Baroness Vashj",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.286932,
+                    y = 0.37614,
+                },
+            },
+        },
+    },
     [167269] = {
         name = "Disciple Apolon",
         locations = {
@@ -1667,6 +1975,9 @@ BtWQuestsDatabase:AddNPCsTable({
                 },
             },
         },
+    },
+    [167410] = {
+
     },
     [167423] = {
         name = "Thanikos",
@@ -1774,6 +2085,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.409368,
                     y = 0.553524,
+                },
+            },
+        },
+    },
+    [167810] = {
+        name = "Emeni",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.280869,
+                    y = 0.375167,
                 },
             },
         },
@@ -1932,6 +2254,39 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [168743] = {
+        name = "Apolon",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.353246,
+                    y = 0.259438,
+                },
+            },
+        },
+    },
+    [168744] = {
+        name = "Artemede",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.351601,
+                    y = 0.268968,
+                },
+            },
+        },
+    },
+    [168860] = {
+        name = "Kynthia",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.354521,
+                    y = 0.265025,
+                },
+            },
+        },
+    },
     [168929] = {
         name = "Shandris Feathermoon",
         locations = {
@@ -2008,6 +2363,9 @@ BtWQuestsDatabase:AddNPCsTable({
                 },
             },
         },
+    },
+    [169153] = {
+        name = "Brigdin",
     },
     [169202] = {
         name = "Dreamweaver",
@@ -2126,6 +2484,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.51316,
                     y = 0.339817,
+                },
+            },
+        },
+    },
+    [169850] = {
+        name = "Uther",
+        locations = {
+            [1543] = {
+                {
+                    x = 0.256493,
+                    y = 0.651744,
                 },
             },
         },
@@ -2262,6 +2631,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [170375] = {
+        name = "Kleia",
+        locations = {
+            [1543] = {
+                {
+                    x = 0.337928,
+                    y = 0.557345,
+                },
+            },
+        },
+    },
     [170485] = {
         name = "Ara'lon",
         locations = {
@@ -2350,6 +2730,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [171483] = {
+        name = "Baroness Draka",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.363188,
+                    y = 0.366276,
+                },
+            },
+        },
+    },
     [171770] = {
         name = "Ve'nari",
         locations = {
@@ -2372,6 +2763,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [172002] = {
+        name = "Xandria",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.317785,
+                    y = 0.303196,
+                },
+            },
+        },
+    },
     [172414] = {
         name = "Highlord Darion Mograine",
         locations = {
@@ -2386,10 +2788,10 @@ BtWQuestsDatabase:AddNPCsTable({
     [172543] = {
         name = "Rescued Soul",
         locations = {
-            [1701] = {
+            [1708] = {
                 {
-                    x = 0.339812,
-                    y = 0.426498,
+                    x = 0.601929,
+                    y = 0.334804,
                 },
             },
         },
@@ -2401,6 +2803,39 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.32112,
                     y = 0.414655,
+                },
+            },
+        },
+    },
+    [173193] = {
+        name = "Xandria",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.310419,
+                    y = 0.291663,
+                },
+            },
+        },
+    },
+    [173222] = {
+        name = "Xandria",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.377876,
+                    y = 0.294525,
+                },
+            },
+        },
+    },
+    [173313] = {
+        name = "Xandria",
+        locations = {
+            [1707] = {
+                {
+                    x = 0.389315,
+                    y = 0.597764,
                 },
             },
         },
@@ -2434,6 +2869,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.238055,
                     y = 0.503822,
+                },
+            },
+        },
+    },
+    [174177] = {
+        name = "Polemarch Adrestes",
+        locations = {
+            [1707] = {
+                {
+                    x = 0.436783,
+                    y = 0.665699,
                 },
             },
         },

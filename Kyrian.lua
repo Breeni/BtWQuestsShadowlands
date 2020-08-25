@@ -46,7 +46,7 @@ Database:AddChain(Chain.AmongTheKyrian, {
             id = 60491,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -54,7 +54,7 @@ Database:AddChain(Chain.AmongTheKyrian, {
             id = 60492,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -62,7 +62,7 @@ Database:AddChain(Chain.AmongTheKyrian, {
             id = 57895,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -70,7 +70,7 @@ Database:AddChain(Chain.AmongTheKyrian, {
             id = 57896,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -78,7 +78,7 @@ Database:AddChain(Chain.AmongTheKyrian, {
             id = 57897,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -86,7 +86,7 @@ Database:AddChain(Chain.AmongTheKyrian, {
             id = 57898,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -94,7 +94,7 @@ Database:AddChain(Chain.AmongTheKyrian, {
             id = 60504,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -102,7 +102,7 @@ Database:AddChain(Chain.AmongTheKyrian, {
             id = 57899,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -110,7 +110,7 @@ Database:AddChain(Chain.AmongTheKyrian, {
             id = 57900,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -158,7 +158,7 @@ Database:AddChain(Chain.ReturnToTheMaw, {
             },
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -166,7 +166,7 @@ Database:AddChain(Chain.ReturnToTheMaw, {
             id = 60232,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -174,7 +174,7 @@ Database:AddChain(Chain.ReturnToTheMaw, {
             id = 61495,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -194,7 +194,7 @@ Database:AddChain(Chain.ReturnToTheMaw, {
             },
             x = -1,
             connections = {
-                1.2, 1.3, 
+                1.2, 1.3,
             },
         },
         {
@@ -227,7 +227,7 @@ Database:AddChain(Chain.TrialOfAscension, {
             id = 160037,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -235,7 +235,7 @@ Database:AddChain(Chain.TrialOfAscension, {
             id = 58787,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -243,14 +243,14 @@ Database:AddChain(Chain.TrialOfAscension, {
             id = 58788,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 58789,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -258,7 +258,7 @@ Database:AddChain(Chain.TrialOfAscension, {
             id = 58790,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -266,7 +266,7 @@ Database:AddChain(Chain.TrialOfAscension, {
             id = 58791,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -274,14 +274,14 @@ Database:AddChain(Chain.TrialOfAscension, {
             id = 58948,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 58949,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -289,7 +289,7 @@ Database:AddChain(Chain.TrialOfAscension, {
             id = 58950,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -297,7 +297,7 @@ Database:AddChain(Chain.TrialOfAscension, {
             id = 58951,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -305,7 +305,7 @@ Database:AddChain(Chain.TrialOfAscension, {
             id = 58792,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -313,7 +313,7 @@ Database:AddChain(Chain.TrialOfAscension, {
             id = 58793,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -321,7 +321,7 @@ Database:AddChain(Chain.TrialOfAscension, {
             id = 58795,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -329,7 +329,7 @@ Database:AddChain(Chain.TrialOfAscension, {
             id = 58796,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -337,7 +337,7 @@ Database:AddChain(Chain.TrialOfAscension, {
             id = 58797,
             x = -1,
             connections = {
-                2, 3, 
+                2, 3,
             },
         },
         {
@@ -345,7 +345,7 @@ Database:AddChain(Chain.TrialOfAscension, {
             id = 167410,
             aside = true,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -382,7 +382,7 @@ Database:AddChain(Chain.PhaestusGenesisOfAeons, {
             id = 160037,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -390,7 +390,7 @@ Database:AddChain(Chain.PhaestusGenesisOfAeons, {
             id = 58175,
             x = 0,
             connections = {
-                1, 2, 3, 
+                1, 2, 3,
             },
         },
         {
@@ -398,21 +398,21 @@ Database:AddChain(Chain.PhaestusGenesisOfAeons, {
             id = 58176,
             x = -2,
             connections = {
-                3, 
+                3,
             },
         },
         {
             type = "quest",
             id = 58177,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 58179,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -420,7 +420,7 @@ Database:AddChain(Chain.PhaestusGenesisOfAeons, {
             id = 58180,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -428,7 +428,7 @@ Database:AddChain(Chain.PhaestusGenesisOfAeons, {
             id = 58178,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -436,7 +436,7 @@ Database:AddChain(Chain.PhaestusGenesisOfAeons, {
             id = 58182,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -444,7 +444,7 @@ Database:AddChain(Chain.PhaestusGenesisOfAeons, {
             id = 58183,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -476,7 +476,7 @@ Database:AddChain(Chain.RighteousRetribution, {
             id = 160037,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -484,7 +484,7 @@ Database:AddChain(Chain.RighteousRetribution, {
             id = 61785,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -492,7 +492,7 @@ Database:AddChain(Chain.RighteousRetribution, {
             id = 61767,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -500,7 +500,7 @@ Database:AddChain(Chain.RighteousRetribution, {
             id = 61768,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -508,7 +508,7 @@ Database:AddChain(Chain.RighteousRetribution, {
             id = 61769,
             x = 0,
             connections = {
-                1, 2, 3, 
+                1, 2, 3,
             },
         },
         {
@@ -516,21 +516,21 @@ Database:AddChain(Chain.RighteousRetribution, {
             id = 61770,
             x = -2,
             connections = {
-                3, 4, 5, 
+                3, 4, 5,
             },
         },
         {
             type = "quest",
             id = 61771,
             connections = {
-                2, 3, 4, 
+                2, 3, 4,
             },
         },
         {
             type = "quest",
             id = 61772,
             connections = {
-                1, 2, 3, 
+                1, 2, 3,
             },
         },
         {
@@ -538,21 +538,21 @@ Database:AddChain(Chain.RighteousRetribution, {
             id = 61773,
             x = -2,
             connections = {
-                3, 
+                3,
             },
         },
         {
             type = "quest",
             id = 61774,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 61775,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -560,7 +560,7 @@ Database:AddChain(Chain.RighteousRetribution, {
             id = 61776,
             x = 0,
             connections = {
-                1, 2, 3, 
+                1, 2, 3,
             },
         },
         {
@@ -568,21 +568,21 @@ Database:AddChain(Chain.RighteousRetribution, {
             id = 61777,
             x = -2,
             connections = {
-                3, 
+                3,
             },
         },
         {
             type = "quest",
             id = 61778,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 61779,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -590,7 +590,7 @@ Database:AddChain(Chain.RighteousRetribution, {
             id = 61780,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -598,7 +598,7 @@ Database:AddChain(Chain.RighteousRetribution, {
             id = 61781,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -606,7 +606,7 @@ Database:AddChain(Chain.RighteousRetribution, {
             id = 61782,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -614,7 +614,7 @@ Database:AddChain(Chain.RighteousRetribution, {
             id = 61876,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -622,7 +622,7 @@ Database:AddChain(Chain.RighteousRetribution, {
             id = 61877,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -654,7 +654,7 @@ Database:AddChain(Chain.TheSealOfContrition, {
             id = 160037,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -662,7 +662,7 @@ Database:AddChain(Chain.TheSealOfContrition, {
             id = 58557,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2, 3
             },
         },
         {
@@ -670,21 +670,21 @@ Database:AddChain(Chain.TheSealOfContrition, {
             id = 58558,
             x = -2,
             connections = {
-                3, 4, 
+                3, 4,
             },
         },
         {
             type = "quest",
             id = 58559,
             connections = {
-                2, 3, 
+                2, 3,
             },
         },
         {
             type = "quest",
             id = 58560,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -692,14 +692,14 @@ Database:AddChain(Chain.TheSealOfContrition, {
             id = 58561,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 58562,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -707,7 +707,7 @@ Database:AddChain(Chain.TheSealOfContrition, {
             id = 58563,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -715,7 +715,7 @@ Database:AddChain(Chain.TheSealOfContrition, {
             id = 58564,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -723,7 +723,7 @@ Database:AddChain(Chain.TheSealOfContrition, {
             id = 58565,
             x = 0,
             connections = {
-                1, 2, 3, 
+                1, 2, 3,
             },
         },
         {
@@ -731,21 +731,21 @@ Database:AddChain(Chain.TheSealOfContrition, {
             id = 58566,
             x = -2,
             connections = {
-                3, 
+                3,
             },
         },
         {
             type = "quest",
             id = 58567,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 58568,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -753,7 +753,7 @@ Database:AddChain(Chain.TheSealOfContrition, {
             id = 58569,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -761,7 +761,7 @@ Database:AddChain(Chain.TheSealOfContrition, {
             id = 58570,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -789,7 +789,7 @@ Database:AddChain(Chain.AVesselOfArdenweald, {
             id = 160037,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -797,7 +797,7 @@ Database:AddChain(Chain.AVesselOfArdenweald, {
             id = 58775,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -805,7 +805,7 @@ Database:AddChain(Chain.AVesselOfArdenweald, {
             id = 58856,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -813,7 +813,7 @@ Database:AddChain(Chain.AVesselOfArdenweald, {
             id = 58832,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -821,7 +821,7 @@ Database:AddChain(Chain.AVesselOfArdenweald, {
             id = 58816,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -829,7 +829,7 @@ Database:AddChain(Chain.AVesselOfArdenweald, {
             id = 58905,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -837,14 +837,14 @@ Database:AddChain(Chain.AVesselOfArdenweald, {
             id = 58937,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 58938,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -852,7 +852,7 @@ Database:AddChain(Chain.AVesselOfArdenweald, {
             id = 58939,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -860,7 +860,7 @@ Database:AddChain(Chain.AVesselOfArdenweald, {
             id = 58857,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -868,7 +868,7 @@ Database:AddChain(Chain.AVesselOfArdenweald, {
             id = 58995,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -876,7 +876,7 @@ Database:AddChain(Chain.AVesselOfArdenweald, {
             id = 58997,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -884,7 +884,7 @@ Database:AddChain(Chain.AVesselOfArdenweald, {
             id = 61135,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -912,7 +912,7 @@ Database:AddChain(Chain.ClosingIn, {
             id = 160037,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -920,7 +920,7 @@ Database:AddChain(Chain.ClosingIn, {
             id = 57113,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -928,7 +928,7 @@ Database:AddChain(Chain.ClosingIn, {
             id = 57114,
             x = 0,
             connections = {
-                1, 2, 3, 
+                1, 2, 3,
             },
         },
         {
@@ -936,21 +936,21 @@ Database:AddChain(Chain.ClosingIn, {
             id = 57115,
             x = -2,
             connections = {
-                3, 4, 
+                3, 4,
             },
         },
         {
             type = "quest",
             id = 57116,
             connections = {
-                2, 3, 
+                2, 3,
             },
         },
         {
             type = "quest",
             id = 57120,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -958,14 +958,14 @@ Database:AddChain(Chain.ClosingIn, {
             id = 57118,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 57117,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -973,7 +973,7 @@ Database:AddChain(Chain.ClosingIn, {
             id = 57207,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -981,7 +981,7 @@ Database:AddChain(Chain.ClosingIn, {
             id = 57121,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -989,14 +989,14 @@ Database:AddChain(Chain.ClosingIn, {
             id = 57122,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 57123,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1004,7 +1004,7 @@ Database:AddChain(Chain.ClosingIn, {
             id = 57124,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1012,7 +1012,7 @@ Database:AddChain(Chain.ClosingIn, {
             id = 57125,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1045,7 +1045,7 @@ Database:AddChain(Chain.TheBellTolls, {
             id = 160037,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1053,7 +1053,7 @@ Database:AddChain(Chain.TheBellTolls, {
             id = 58854,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1061,7 +1061,7 @@ Database:AddChain(Chain.TheBellTolls, {
             id = 58844,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1069,7 +1069,7 @@ Database:AddChain(Chain.TheBellTolls, {
             id = 58846,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1077,7 +1077,7 @@ Database:AddChain(Chain.TheBellTolls, {
             id = 58847,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1085,7 +1085,7 @@ Database:AddChain(Chain.TheBellTolls, {
             id = 59919,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
