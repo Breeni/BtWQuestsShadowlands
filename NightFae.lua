@@ -216,8 +216,28 @@ Database:AddChain(Chain.TheMaw, {
             },
         },
         {
+            type = "quest",
+            id = 61496,
+            source = {
+                type = "npc",
+                id = 172543,
+                locations = {
+                    [1701] = {
+                        {
+                            x = 0.339654,
+                            y = 0.426709,
+                        },
+                    },
+                },
+            },
+            x = -1,
+            connections = {
+                1.2, 1.3, 
+            },
+        },
+        {
             type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.TheMawEmbed,
+            id = 90004,
             embed = true,
             x = 0,
         },
@@ -363,76 +383,75 @@ Database:AddChain(Chain.DeBoss, {
     },
     items = {
         {
+            type = "npc",
+            id = 166265,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
             id = 59809,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59811,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59812,
             x = 0,
             connections = {
-                1
-            }
+                1, 2, 
+            },
         },
         {
             type = "quest",
             id = 59813,
-            x = 0,
+            x = -1,
             connections = {
-                1
-            }
+                2, 
+            },
         },
         {
             type = "quest",
             id = 59815,
-            x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59817,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59818,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59819,
             x = 0,
             connections = {
-                1
-            }
-        },
-        {
-            type = "quest",
-            id = 59820,
-            x = 0,
-            connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
@@ -448,7 +467,6 @@ Database:AddChain(Chain.NightWarriorsCurse, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
     prerequisites = {
         {
             type = "level",
@@ -484,96 +502,109 @@ Database:AddChain(Chain.NightWarriorsCurse, {
     },
     items = {
         {
+            type = "npc",
+            id = 160262,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
             id = 58610,
             x = 0,
             connections = {
-                1
-            }
+                1, 2, 3, 
+            },
         },
         {
             type = "quest",
             id = 58647,
-            x = 0,
+            x = -2,
             connections = {
-                1
-            }
+                3, 
+            },
         },
         {
             type = "quest",
             id = 58669,
-            x = 0,
             connections = {
-                1
-            }
+                2, 
+            },
         },
         {
             type = "quest",
             id = 59008,
-            x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58704,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58871,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59725,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59063,
             x = 0,
             connections = {
-                1
-            }
+                1, 2, 3, 
+            },
         },
         {
             type = "quest",
             id = 59068,
-            x = 0,
+            x = -2,
             connections = {
-                1
-            }
+                3, 
+            },
         },
         {
             type = "quest",
             id = 59069,
-            x = 0,
             connections = {
-                1
-            }
+                2, 
+            },
         },
         {
             type = "quest",
             id = 59070,
-            x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59071,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62428,
+            aside = true,
             x = 0,
         },
     },
@@ -590,6 +621,176 @@ Database:AddChain(Chain.DrustToDrust, {
         id = 61138,
     },
     items = {
+        {
+            type = "chain",
+            id = 90805,
+        },
+        {
+            type = "npc",
+            id = 161509,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60885,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60888,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60898,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60910,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60928,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60934,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61061,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61076,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61102,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61113,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61701,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58773,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61702,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61143,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61703,
+            x = -1,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "object",
+            id = 357726,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61709,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61710,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61711,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61171,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 61138,
