@@ -1,16 +1,38 @@
 ----- AUTO GENERATED - DO NOT EDIT
 
 BtWQuestsDatabase:AddNPCsTable({
+    [141159] = {
+        name = "Ulfar",
+        locations = {
+            [896] = {
+                {
+                    x = 0.452142,
+                    y = 0.458453,
+                },
+            },
+        },
+    },
     [151329] = {
         name = "Warden Skoldus",
+    },
+    [156634] = {
+        name = "Winter Queen",
+        locations = {
+            [1703] = {
+                {
+                    x = 0.512571,
+                    y = 0.277408,
+                },
+            },
+        },
     },
     [158553] = {
         name = "Flutterby",
         locations = {
             [1701] = {
                 {
-                    x = 0.339132,
-                    y = 0.434737,
+                    x = 0.339962,
+                    y = 0.434659,
                 },
             },
         },
@@ -70,6 +92,39 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [161785] = {
+        name = "Thiernax",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.390884,
+                    y = 0.594206,
+                },
+            },
+        },
+    },
+    [161786] = {
+        name = "Qadarin",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.402417,
+                    y = 0.511609,
+                },
+            },
+        },
+    },
+    [161934] = {
+        name = "Qadarin",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.389624,
+                    y = 0.593996,
+                },
+            },
+        },
+    },
     [162804] = {
         name = "Ve'nari",
         locations = {
@@ -77,6 +132,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.469532,
                     y = 0.417087,
+                },
+            },
+        },
+    },
+    [163385] = {
+        name = "Cirrik",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.390718,
+                    y = 0.52529,
                 },
             },
         },
@@ -108,8 +174,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1670] = {
                 {
-                    x = 0.390502,
-                    y = 0.669623,
+                    x = 0.388685,
+                    y = 0.682569,
                 },
             },
         },
@@ -136,6 +202,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [165867] = {
+        name = "Archivist Dreyden",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.636417,
+                    y = 0.227011,
+                },
+            },
+        },
+    },
     [165918] = {
         name = "Highlord Darion Mograine",
         locations = {
@@ -143,6 +220,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.193176,
                     y = 0.572136,
+                },
+            },
+        },
+    },
+    [166265] = {
+        name = "Mask of Bwonsamdi",
+        locations = {
+            [1701] = {
+                {
+                    x = 0.475088,
+                    y = 0.366628,
+                },
+            },
+        },
+    },
+    [166281] = {
+        name = "Bwonsamdi",
+        locations = {
+            [1550] = {
+                {
+                    x = 0.544446,
+                    y = 0.864947,
                 },
             },
         },
@@ -213,6 +312,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [167823] = {
+        name = "Lady Moonberry",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.66663,
+                    y = 0.555996,
+                },
+            },
+        },
+    },
     [167826] = {
         name = "Lady Jaina Proudmoore",
         locations = {
@@ -251,8 +361,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1543] = {
                 {
-                    x = 0.301074,
-                    y = 0.364305,
+                    x = 0.301157,
+                    y = 0.364196,
                 },
             },
         },
@@ -290,13 +400,68 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [170636] = {
+        name = "Winter Queen",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.451112,
+                    y = 0.650714,
+                },
+            },
+        },
+    },
+    [170705] = {
+        name = "Ara'lon",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.432598,
+                    y = 0.400526,
+                },
+            },
+        },
+    },
+    [170848] = {
+        name = "Lord Herne",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.451568,
+                    y = 0.651532,
+                },
+            },
+        },
+    },
     [171028] = {
         name = "Shandris Feathermoon",
         locations = {
             [1543] = {
                 {
-                    x = 0.468594,
-                    y = 0.41701,
+                    x = 0.468566,
+                    y = 0.417087,
+                },
+            },
+        },
+    },
+    [171138] = {
+        name = "Ysera",
+        locations = {
+            [1701] = {
+                {
+                    x = 0.532362,
+                    y = 0.788448,
+                },
+            },
+        },
+    },
+    [171413] = {
+        name = "Kivarr",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.465959,
+                    y = 0.731169,
                 },
             },
         },
@@ -352,6 +517,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.334621,
                     y = 0.452728,
+                },
+            },
+        },
+    },
+    [173612] = {
+        name = "Nika",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.465959,
+                    y = 0.731169,
                 },
             },
         },
