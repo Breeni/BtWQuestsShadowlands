@@ -1,5 +1,224 @@
 ----- AUTO GENERATED - DO NOT EDIT
 
 BtWQuestsDatabase:AddObjectsTable({
-
+    [336415] = {
+        name = "Discarded Scroll",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.475105,
+                    y = 0.263659,
+                },
+            },
+        },
+    },
+    [344726] = {
+        name = "Dark Sermon",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.572313,
+                    y = 0.717962,
+                },
+            },
+        },
+    },
+    [348558] = {
+        name = "Notice",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.515325,
+                    y = 0.471975,
+                },
+            },
+        },
+    },
+    [348747] = {
+        name = "Muddy Scroll",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.469215,
+                    y = 0.276609,
+                },
+            },
+        },
+    },
+    [349515] = {
+        name = "Battered Journal",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.721953,
+                    y = 0.338543,
+                },
+            },
+        },
+    },
+    [349612] = {
+        name = "Wanted: Appraiser Vix",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.541493,
+                    y = 0.47485,
+                },
+            },
+        },
+    },
+    [351467] = {
+        name = "Faded Epitaph",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.483272,
+                    y = 0.577776,
+                },
+            },
+        },
+    },
+    [351874] = {
+        name = "Wanted: Enforcer Kristof",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.306797,
+                    y = 0.489919,
+                },
+            },
+        },
+    },
+    [351885] = {
+        name = "Wanted: Aggregate of Doom",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.590793,
+                    y = 0.692048,
+                },
+            },
+        },
+    },
+    [351886] = {
+        name = "Wanted: Duke Anton",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.606984,
+                    y = 0.401708,
+                },
+            },
+        },
+    },
+    [351887] = {
+        name = "Wanted: Lord Darion",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.608753,
+                    y = 0.400555,
+                },
+            },
+        },
+    },
+    [351888] = {
+        name = "Wanted: Summoner Marcelis",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.308697,
+                    y = 0.490498,
+                },
+            },
+        },
+    },
+    [351889] = {
+        name = "Wanted: The Pale Doom",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.62193,
+                    y = 0.635452,
+                },
+            },
+        },
+    },
+    [352027] = {
+        name = "Wanted Scroll",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.532746,
+                    y = 0.464217,
+                },
+            },
+        },
+    },
+    [352028] = {
+        name = "Wanted Scroll",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.491363,
+                    y = 0.72821,
+                },
+            },
+        },
+    },
+    [352490] = {
+        name = "Join the Rebellion!",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.677427,
+                    y = 0.676637,
+                },
+            },
+        },
+    },
+    [353645] = {
+        name = "Marileth's Journal",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.565349,
+                    y = 0.572116,
+                },
+            },
+        },
+    },
+    [355296] = {
+        name = "Bounty: Beast Control",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.496113,
+                    y = 0.759573,
+                },
+            },
+        },
+    },
+    [355798] = {
+        name = "Cage",
+        locations = {
+            [1543] = {
+                {
+                    x = 0.384258,
+                    y = 0.48483,
+                },
+            },
+        },
+    },
+    [358382] = {
+        name = "Wanted: Chelicera",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.530728,
+                    y = 0.414114,
+                },
+            },
+        },
+    },
 })
