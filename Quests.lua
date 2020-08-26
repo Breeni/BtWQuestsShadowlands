@@ -15,11 +15,20 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 0,
     },
     [57644] = {
-        name = "Many Tiny Eyes",
+        name = "No Friend Left Behind",
         contentTuningID = 837,
         source = {
             type = "npc",
             id = 158604,
+            name = "Navigator Xennir",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.520154,
+                        y = 0.169581,
+                    },
+                },
+            },
         },
     },
     [57648] = {
@@ -28,6 +37,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160518,
+            name = "Whisperer Vyn",
             locations = {
                 [1536] = {
                     {
@@ -44,6 +54,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164619,
+            name = "Baroness Vashj",
             locations = {
                 [1536] = {
                     {
@@ -60,6 +71,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161907,
+            name = "Baroness Draka",
             locations = {
                 [1698] = {
                     {
@@ -76,14 +88,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159478,
-            locations = {
-                [1670] = {
-                    {
-                        x = 0.389027,
-                        y = 0.699924,
-                    },
-                },
-            },
+            name = "Tal-Inara",
         },
     },
     [58007] = {
@@ -92,6 +97,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161907,
+            name = "Baroness Draka",
             locations = {
                 [1698] = {
                     {
@@ -123,7 +129,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171821,
-            name = "Draka",
+            name = "Baroness Draka",
         },
     },
     [58624] = {
@@ -135,6 +141,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162222,
+            name = "Rathan",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.479564,
+                        y = 0.504587,
+                    },
+                },
+            },
         },
     },
     [58668] = {
@@ -143,6 +158,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162108,
+            name = "Rathan",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.259545,
+                        y = 0.42542,
+                    },
+                },
+            },
         },
     },
     [58670] = {
@@ -151,6 +175,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162174,
+            name = "Emeni",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.237868,
+                        y = 0.391479,
+                    },
+                },
+            },
         },
     },
     [58671] = {
@@ -159,6 +192,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162174,
+            name = "Emeni",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.237868,
+                        y = 0.391479,
+                    },
+                },
+            },
         },
     },
     [58677] = {
@@ -167,6 +209,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161285,
+            name = "Emeni",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.241542,
+                        y = 0.386505,
+                    },
+                },
+            },
         },
     },
     [58680] = {
@@ -175,6 +226,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162227,
+            name = "Rathan",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.241759,
+                        y = 0.387301,
+                    },
+                },
+            },
         },
     },
     [58686] = {
@@ -183,6 +243,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162227,
+            name = "Rathan",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.241759,
+                        y = 0.387301,
+                    },
+                },
+            },
         },
     },
     [58727] = {
@@ -191,6 +260,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162174,
+            name = "Emeni",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.237868,
+                        y = 0.391479,
+                    },
+                },
+            },
         },
     },
     [58820] = {
@@ -199,6 +277,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161907,
+            name = "Baroness Draka",
             locations = {
                 [1698] = {
                     {
@@ -222,6 +301,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162227,
+            name = "Rathan",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.241759,
+                        y = 0.387301,
+                    },
+                },
+            },
         },
     },
     [59265] = {
@@ -230,6 +318,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164619,
+            name = "Baroness Vashj",
             locations = {
                 [1536] = {
                     {
@@ -246,6 +335,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161907,
+            name = "Baroness Draka",
             locations = {
                 [1698] = {
                     {
@@ -262,6 +352,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158453,
+            name = "Baroness Draka",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.495071,
+                        y = 0.217976,
+                    },
+                },
+            },
         },
     },
     [59596] = {
@@ -270,6 +369,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165182,
+            name = "Baroness Draka",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.496989,
+                        y = 0.43796,
+                    },
+                },
+            },
         },
     },
     [59597] = {
@@ -278,6 +386,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161904,
+            name = "Plague Deviser Marileth",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.389031,
+                        y = 0.32274,
+                    },
+                },
+            },
         },
     },
     [59598] = {
@@ -286,6 +403,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161904,
+            name = "Plague Deviser Marileth",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.389031,
+                        y = 0.32274,
+                    },
+                },
+            },
         },
     },
     [59603] = {
@@ -294,6 +420,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165321,
+            name = "Merick Feldscar",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.387943,
+                        y = 0.485106,
+                    },
+                },
+            },
         },
     },
     [59722] = {
@@ -302,6 +437,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164679,
+            name = "Whisperer Vyn",
             locations = {
                 [1536] = {
                     {
@@ -314,18 +450,20 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [59751] = {
         name = "Through the Shattered Sky",
-        contentTuningID = 0,
+        contentTuningID = 1400,
         source = {
             type = "npc",
             id = 169076,
+            name = "Highlord Bolvar Fordragon",
         },
     },
     [59752] = {
         name = "A Fractured Blade",
-        contentTuningID = 0,
+        contentTuningID = 1400,
         source = {
             type = "npc",
             id = 165918,
+            name = "Highlord Darion Mograine",
         },
     },
     [59753] = {
@@ -334,6 +472,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170624,
+            name = "Wilona Thorne",
+            locations = {
+                [1648] = {
+                    {
+                        x = 0.229584,
+                        y = 0.519004,
+                    },
+                },
+            },
         },
     },
     [59754] = {
@@ -342,6 +489,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166980,
+            name = "Lady Jaina Proudmoore",
+            locations = {
+                [1648] = {
+                    {
+                        x = 0.223019,
+                        y = 0.329421,
+                    },
+                },
+            },
         },
     },
     [59755] = {
@@ -350,6 +506,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166980,
+            name = "Lady Jaina Proudmoore",
             locations = {
                 [1648] = {
                     {
@@ -366,6 +523,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166980,
+            name = "Lady Jaina Proudmoore",
             locations = {
                 [1648] = {
                     {
@@ -382,6 +540,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165918,
+            name = "Highlord Darion Mograine",
             locations = {
                 [1648] = {
                     {
@@ -394,10 +553,11 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [59758] = {
         name = "Speaking to the Dead",
-        contentTuningID = 1400,
+        contentTuningID = 0,
         source = {
             type = "npc",
-            id = 165918,
+            id = 166723,
+            name = "Highlord Darion Mograine",
             locations = {
                 [1648] = {
                     {
@@ -414,6 +574,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166980,
+            name = "Lady Jaina Proudmoore",
             locations = {
                 [1648] = {
                     {
@@ -430,6 +591,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167833,
+            name = "Anduin Wrynn",
+            locations = {
+                [1648] = {
+                    {
+                        x = 0.250428,
+                        y = 0.134158,
+                    },
+                },
+            },
         },
     },
     [59761] = {
@@ -438,6 +608,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167833,
+            name = "Anduin Wrynn",
+            locations = {
+                [1648] = {
+                    {
+                        x = 0.250428,
+                        y = 0.134158,
+                    },
+                },
+            },
         },
     },
     [59762] = {
@@ -446,6 +625,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166980,
+            name = "Lady Jaina Proudmoore",
             locations = {
                 [1648] = {
                     {
@@ -462,14 +642,24 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166981,
+            name = "Thrall",
+            locations = {
+                [1648] = {
+                    {
+                        x = 0.295012,
+                        y = 0.437975,
+                    },
+                },
+            },
         },
     },
     [59766] = {
         name = "A Good Axe",
-        contentTuningID = 1400,
+        contentTuningID = 0,
         source = {
             type = "npc",
-            id = 166981,
+            id = 167827,
+            name = "Thrall",
         },
     },
     [59767] = {
@@ -478,6 +668,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166980,
+            name = "Lady Jaina Proudmoore",
             locations = {
                 [1648] = {
                     {
@@ -494,6 +685,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167833,
+            name = "Anduin Wrynn",
             locations = {
                 [1648] = {
                     {
@@ -506,10 +698,11 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [59773] = {
         name = "Seek the Ascended",
-        contentTuningID = 0,
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 164579,
+            name = "Overseer Kah-Sher",
         },
     },
     [59776] = {
@@ -518,14 +711,24 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167826,
+            name = "Lady Jaina Proudmoore",
+            locations = {
+                [1648] = {
+                    {
+                        x = 0.250859,
+                        y = 0.134688,
+                    },
+                },
+            },
         },
     },
     [59907] = {
         name = "Mawsworn Menace",
-        contentTuningID = 0,
+        contentTuningID = 1400,
         source = {
             type = "npc",
             id = 166723,
+            name = "Highlord Darion Mograine",
         },
     },
     [59910] = {
@@ -537,6 +740,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165918,
+            name = "Highlord Darion Mograine",
             locations = {
                 [1648] = {
                     {
@@ -549,10 +753,11 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [59915] = {
         name = "Soul in Hand",
-        contentTuningID = 1400,
+        contentTuningID = 0,
         source = {
             type = "npc",
-            id = 165918,
+            id = 166723,
+            name = "Highlord Darion Mograine",
             locations = {
                 [1648] = {
                     {
@@ -578,6 +783,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167150,
+            name = "Rathan",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.550966,
+                        y = 0.687778,
+                    },
+                },
+            },
         },
     },
     [60049] = {
@@ -586,6 +800,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167044,
+            name = "Emeni",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.551511,
+                        y = 0.687025,
+                    },
+                },
+            },
         },
     },
     [60050] = {
@@ -603,6 +826,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161906,
+            name = "Emeni",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.3831,
+                        y = 0.367669,
+                    },
+                },
+            },
         },
     },
     [60112] = {
@@ -611,6 +843,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172574,
+            name = "Navigator Xennir",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.318424,
+                        y = 0.402162,
+                    },
+                },
+            },
         },
     },
     [60114] = {
@@ -626,6 +867,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167748,
+            name = "Osbourne Black",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.466306,
+                        y = 0.423772,
+                    },
+                },
+            },
         },
     },
     [60134] = {
@@ -634,6 +884,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162804,
+            name = "Ve'nari",
         },
     },
     [60136] = {
@@ -642,6 +893,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164079,
+            name = "Highlord Bolvar Fordragon",
         },
     },
     [60137] = {
@@ -662,6 +914,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170153,
+            name = "Lady Jaina Proudmoore",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.397784,
+                        y = 0.681636,
+                    },
+                },
+            },
         },
     },
     [60146] = {
@@ -674,6 +935,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167425,
+            name = "Overseer Kah-Delen",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.398939,
+                        y = 0.664437,
+                    },
+                },
+            },
         },
     },
     [60149] = {
@@ -682,6 +952,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167486,
+            name = "Tal-Inara",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.408061,
+                        y = 0.658356,
+                    },
+                },
+            },
         },
     },
     [60150] = {
@@ -690,6 +969,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167425,
+            name = "Overseer Kah-Delen",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.398939,
+                        y = 0.664437,
+                    },
+                },
+            },
         },
     },
     [60151] = {
@@ -698,6 +986,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164079,
+            name = "Highlord Bolvar Fordragon",
             locations = {
                 [1670] = {
                     {
@@ -714,6 +1003,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167424,
+            name = "Overseer Kah-Sher",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.403246,
+                        y = 0.665811,
+                    },
+                },
+            },
         },
     },
     [60154] = {
@@ -722,6 +1020,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164079,
+            name = "Highlord Bolvar Fordragon",
             locations = {
                 [1670] = {
                     {
@@ -738,6 +1037,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167424,
+            name = "Overseer Kah-Sher",
             locations = {
                 [1671] = {
                     {
@@ -754,6 +1054,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173306,
+            name = "Khaliiq",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.612889,
+                        y = 0.329041,
+                    },
+                },
+            },
         },
     },
     [60211] = {
@@ -769,6 +1078,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164937,
+            name = "Runecarver",
+            locations = {
+                [1728] = {
+                    {
+                        x = 0.503347,
+                        y = 0.532354,
+                    },
+                },
+            },
         },
     },
     [60269] = {
@@ -777,6 +1095,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164937,
+            name = "Runecarver",
+            locations = {
+                [1728] = {
+                    {
+                        x = 0.503347,
+                        y = 0.532354,
+                    },
+                },
+            },
         },
     },
     [60270] = {
@@ -785,6 +1112,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164937,
+            name = "Runecarver",
+            locations = {
+                [1728] = {
+                    {
+                        x = 0.503347,
+                        y = 0.532354,
+                    },
+                },
+            },
         },
     },
     [60271] = {
@@ -793,6 +1129,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162804,
+            name = "Ve'nari",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.469532,
+                        y = 0.417087,
+                    },
+                },
+            },
         },
     },
     [60272] = {
@@ -801,6 +1146,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162804,
+            name = "Ve'nari",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.469532,
+                        y = 0.417087,
+                    },
+                },
+            },
         },
     },
     [60287] = {
@@ -809,6 +1163,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162804,
+            name = "Ve'nari",
         },
     },
     [60289] = {
@@ -817,6 +1172,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162804,
+            name = "Ve'nari",
         },
     },
     [60510] = {
@@ -832,6 +1188,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167827,
+            name = "Thrall",
+            locations = {
+                [1648] = {
+                    {
+                        x = 0.295491,
+                        y = 0.439253,
+                    },
+                },
+            },
         },
     },
     [60757] = {
@@ -854,6 +1219,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158529,
+            name = "Whisperer Vyn",
             locations = {
                 [1536] = {
                     {
@@ -870,6 +1236,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164646,
+            name = "Baroness Vashj",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.49905,
+                        y = 0.178642,
+                    },
+                },
+            },
         },
     },
     [61230] = {
@@ -878,6 +1253,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171875,
+            name = "Khaliiq",
             locations = {
                 [1536] = {
                     {
@@ -897,6 +1273,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171875,
+            name = "Khaliiq",
             locations = {
                 [1536] = {
                     {
@@ -913,6 +1290,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158529,
+            name = "Whisperer Vyn",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.497339,
+                        y = 0.178494,
+                    },
+                },
+            },
         },
     },
     [61335] = {
@@ -921,6 +1307,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159814,
+            name = "Ansid the Mechanic",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.486204,
+                        y = 0.185397,
+                    },
+                },
+            },
         },
     },
     [61355] = {
@@ -929,6 +1324,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162804,
+            name = "Ve'nari",
         },
     },
     [61359] = {
@@ -937,6 +1333,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165182,
+            name = "Baroness Draka",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.496989,
+                        y = 0.43796,
+                    },
+                },
+            },
         },
     },
     [61388] = {
@@ -945,6 +1350,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161904,
+            name = "Plague Deviser Marileth",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.389031,
+                        y = 0.32274,
+                    },
+                },
+            },
         },
     },
     [61391] = {
@@ -972,6 +1386,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165321,
+            name = "Merick Feldscar",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.387943,
+                        y = 0.485106,
+                    },
+                },
+            },
         },
     },
     [61412] = {
@@ -983,6 +1406,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160518,
+            name = "Whisperer Vyn",
             locations = {
                 [1536] = {
                     {
@@ -999,6 +1423,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172543,
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.339654,
+                        y = 0.426709,
+                    },
+                },
+            },
         },
     },
     [61513] = {
@@ -1007,6 +1439,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167748,
+            name = "Osbourne Black",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.466306,
+                        y = 0.423772,
+                    },
+                },
+            },
         },
     },
     [61518] = {
@@ -1015,6 +1456,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172574,
+            name = "Navigator Xennir",
             locations = {
                 [1536] = {
                     {
@@ -1031,6 +1473,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172573,
+            name = "Khaliiq",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.272394,
+                        y = 0.452063,
+                    },
+                },
+            },
         },
     },
     [61551] = {
@@ -1039,6 +1490,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172573,
+            name = "Khaliiq",
             locations = {
                 [1536] = {
                     {
@@ -1058,6 +1510,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172805,
+            name = "Whisperer Vyn",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.301657,
+                        y = 0.436424,
+                    },
+                },
+            },
         },
     },
     [61586] = {
@@ -1069,6 +1530,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172573,
+            name = "Khaliiq",
             locations = {
                 [1536] = {
                     {
@@ -1089,6 +1551,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164679,
+            name = "Whisperer Vyn",
             locations = {
                 [1536] = {
                     {
@@ -1109,11 +1572,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159478,
+            name = "Tal-Inara",
             locations = {
                 [1670] = {
                     {
-                        x = 0.388685,
-                        y = 0.699083,
+                        x = 0.388914,
+                        y = 0.700078,
                     },
                 },
             },
@@ -1121,18 +1585,11 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [62159] = {
         name = "Aiding the Shadowlands",
-        contentTuningID = 807,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 159478,
-            locations = {
-                [1670] = {
-                    {
-                        x = 0.388685,
-                        y = 0.699083,
-                    },
-                },
-            },
+            name = "Tal-Inara",
         },
     },
     [62161] = {
@@ -1148,6 +1605,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161907,
+            name = "Baroness Draka",
             locations = {
                 [1698] = {
                     {
@@ -1176,6 +1634,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159478,
+            name = "Tal-Inara",
         },
     },
     [62309] = {

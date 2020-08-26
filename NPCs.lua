@@ -42,8 +42,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1670] = {
                 {
-                    x = 0.517125,
-                    y = 0.568807,
+                    x = 0.388914,
+                    y = 0.700078,
                 },
             },
         },
@@ -109,7 +109,7 @@ BtWQuestsDatabase:AddNPCsTable({
             [1698] = {
                 {
                     x = 0.495745,
-                    y = 0.502128,
+                    y = 0.504255,
                 },
             },
         },
@@ -273,8 +273,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1648] = {
                 {
-                    x = 0.193067,
-                    y = 0.572212,
+                    x = 0.242698,
+                    y = 0.356588,
                 },
             },
         },
@@ -284,8 +284,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1648] = {
                 {
-                    x = 0.223019,
-                    y = 0.329421,
+                    x = 0.223131,
+                    y = 0.329418,
                 },
             },
         },
@@ -383,8 +383,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1648] = {
                 {
-                    x = 0.295491,
-                    y = 0.439253,
+                    x = 0.29536,
+                    y = 0.43846,
                 },
             },
         },
@@ -469,10 +469,10 @@ BtWQuestsDatabase:AddNPCsTable({
     [172543] = {
         name = "Rescued Soul",
         locations = {
-            [1701] = {
+            [1708] = {
                 {
-                    x = 0.339812,
-                    y = 0.426498,
+                    x = 0.601929,
+                    y = 0.334804,
                 },
             },
         },
