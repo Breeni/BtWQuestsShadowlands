@@ -43,6 +43,7 @@ Chain.OtherBoth = 90799
 
 Database:AddChain(Chain.CovenantHallIntro, {
     name = "Covenant Hall Intro",
+    questline = 1087,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -91,12 +92,8 @@ Database:AddChain(Chain.CovenantHallIntro, {
             },
         },
         {
-            variations = {
-                {
-                    type = "quest",
-                    id = 61359,
-                },
-            },
+            type = "quest",
+            id = 61359,
             x = 0,
             connections = {
                 1, 
@@ -145,22 +142,6 @@ Database:AddChain(Chain.CovenantHallIntro, {
         {
             type = "quest",
             id = 61397,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60130,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 61513,
             x = 0,
         },
     },
@@ -217,6 +198,26 @@ Database:AddChain(Chain.ReturnToTheMaw, {
             x = 0,
             connections = {
                 1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61496,
+            source = {
+                type = "npc",
+                id = 172543,
+                locations = {
+                    [1698] = {
+                        {
+                            x = 0.469269,
+                            y = 0.430799,
+                        },
+                    },
+                },
+            },
+            x = -1,
+            connections = {
+                1.2, 1.3, 
             },
         },
         {
