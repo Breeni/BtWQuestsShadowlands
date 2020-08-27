@@ -10228,23 +10228,6 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
-    [61586] = {
-        name = "Machinations of War",
-        contentTuningID = 837,
-        source = {
-            type = "npc",
-            id = 166535,
-            name = "Baroness Draka",
-            locations = {
-                [1536] = {
-                    {
-                        x = 0.50395,
-                        y = 0.705609,
-                    },
-                },
-            },
-        },
-    },
     [61594] = {
         name = "This Way Out",
         contentTuningID = 837,
@@ -11106,40 +11089,6 @@ BtWQuestsDatabase:AddQuestsTable({
             name = "Tal-Inara",
         },
     },
-    [62161] = {
-        name = "Blood from a Bone",
-        contentTuningID = 837,
-        source = {
-            type = "npc",
-            id = 161907,
-            name = "Baroness Draka",
-            locations = {
-                [1698] = {
-                    {
-                        x = 0.497533,
-                        y = 0.50646,
-                    },
-                },
-            },
-        },
-    },
-    [62169] = {
-        name = "Eyes to the Sky",
-        contentTuningID = 837,
-        source = {
-            type = "npc",
-            id = 161907,
-            name = "Baroness Draka",
-            locations = {
-                [1698] = {
-                    {
-                        x = 0.497577,
-                        y = 0.50699,
-                    },
-                },
-            },
-        },
-    },
     [62186] = {
         name = "Swollen Anima Seed",
         contentTuningID = 744,
@@ -11274,40 +11223,6 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
-    [62388] = {
-        name = "House of Rituals",
-        contentTuningID = 837,
-        source = {
-            type = "npc",
-            id = 161907,
-            name = "Baroness Draka",
-            locations = {
-                [1698] = {
-                    {
-                        x = 0.497533,
-                        y = 0.50646,
-                    },
-                },
-            },
-        },
-    },
-    [62391] = {
-        name = "Mobilize Maldraxxus",
-        contentTuningID = 837,
-        source = {
-            type = "npc",
-            id = 161907,
-            name = "Baroness Draka",
-            locations = {
-                [1698] = {
-                    {
-                        x = 0.497533,
-                        y = 0.50646,
-                    },
-                },
-            },
-        },
-    },
     [62406] = {
         name = "Staff of the Primus",
         contentTuningID = 2060,
@@ -11340,15 +11255,6 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                 },
             },
-        },
-    },
-    [62448] = {
-        name = "Securing the House",
-        contentTuningID = 837,
-        source = {
-            type = "npc",
-            id = 171483,
-            name = "Baroness Draka",
         },
     },
     [62458] = {
