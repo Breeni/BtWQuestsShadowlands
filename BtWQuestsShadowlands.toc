@@ -1,12 +1,14 @@
-## Interface: 80300
+## Interface: 90001
 ## Title: BtWQuests: Shadowlands
-## Version: 46
+## Version: 1.alpha3
 ## Notes: Shadowlands quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests
+## OptionalDeps: BtWQuestsShadowlandsPrologue
 ## LoadOnDemand: 1
 ## X-BtWQuests: Shadowlands
 ## X-BtWQuests-Expansion: 8
+## X-BtWQuests-Expansion-Movie-ID: 936
 ## X-BtWQuests-AutoLoad: 1
 ## X-Part-Of: BtWQuests
 
@@ -21,4 +23,11 @@ NPCs.lua
 Objects.lua
 
 Introduction.lua
+Bastion.lua
+Maldraxxus.lua
+Ardenweald.lua
+Revendreth.lua
+Kyrian.lua
+Necrolord.lua
 NightFae.lua
+Venthyr.lua
