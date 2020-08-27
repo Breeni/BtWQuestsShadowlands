@@ -27,3 +27,4 @@ Bastion.lua
 Maldraxxus.lua
 Ardenweald.lua
 Revendreth.lua
+Necrolord.lua

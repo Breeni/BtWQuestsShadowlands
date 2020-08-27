@@ -11,10 +11,12 @@ Category.Bastion = 901
 Category.Maldraxxus = 902
 Category.Ardenweald = 903
 Category.Revendreth = 904
+Category.Necrolord = 907
 Chain.Bastion = {}
 Chain.Maldraxxus = {}
 Chain.Ardenweald = {}
 Chain.Revendreth = {}
+Chain.Necrolord = {}
 
 do
     local ItemMixin = BtWQuests.Database.ItemMixin

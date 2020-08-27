@@ -210,6 +210,28 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [355825] = {
+        name = "Tattered Scroll",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.33494,
+                    y = 0.24111,
+                },
+            },
+        },
+    },
+    [358319] = {
+        name = "Sorcerer's Note",
+        locations = {
+            [1652] = {
+                {
+                    x = 0.468584,
+                    y = 0.314394,
+                },
+            },
+        },
+    },
     [358382] = {
         name = "Wanted: Chelicera",
         locations = {

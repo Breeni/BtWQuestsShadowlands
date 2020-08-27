@@ -240,7 +240,7 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1525] = {
                 {
-                    x = 0.357675,
+                    x = 0.353054,
                     y = 0.575747,
                 },
             },
@@ -482,8 +482,19 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.466647,
-                    y = 0.294092,
+                    x = 0.466659,
+                    y = 0.294022,
+                },
+            },
+        },
+    },
+    [158453] = {
+        name = "Baroness Draka",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.495071,
+                    y = 0.217976,
                 },
             },
         },
@@ -510,6 +521,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [158529] = {
+        name = "Whisperer Vyn",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.497315,
+                    y = 0.178492,
+                },
+            },
+        },
+    },
     [158542] = {
         name = "Theotar",
         locations = {
@@ -517,6 +539,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.311718,
                     y = 0.575284,
+                },
+            },
+        },
+    },
+    [158604] = {
+        name = "Navigator Xennir",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.520172,
+                    y = 0.169682,
                 },
             },
         },
@@ -752,6 +785,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [159814] = {
+        name = "Ansid the Mechanic",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.486204,
+                    y = 0.185397,
+                },
+            },
+        },
+    },
     [159827] = {
         name = "Scrapper Minoire",
         locations = {
@@ -801,8 +845,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1536] = {
                 {
-                    x = 0.564705,
-                    y = 0.572911,
+                    x = 0.565569,
+                    y = 0.573254,
                 },
             },
         },
@@ -812,8 +856,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1707] = {
                 {
-                    x = 0.556667,
-                    y = 0.42,
+                    x = 0.478889,
+                    y = 0.536667,
                 },
             },
         },
@@ -906,6 +950,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [160518] = {
+        name = "Whisperer Vyn",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.497315,
+                    y = 0.178492,
+                },
+            },
+        },
+    },
     [160598] = {
         name = "Klystere",
         locations = {
@@ -983,6 +1038,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [161285] = {
+        name = "Emeni",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.241601,
+                    y = 0.386587,
+                },
+            },
+        },
+    },
     [161378] = {
         name = "Ara'lon",
         locations = {
@@ -1012,6 +1078,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.684179,
                     y = 0.57488,
+                },
+            },
+        },
+    },
+    [161461] = {
+        name = "The Accuser",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.720718,
+                    y = 0.411525,
+                },
+            },
+        },
+    },
+    [161474] = {
+        name = "Baroness Draka",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.737822,
+                    y = 0.573816,
                 },
             },
         },
@@ -1049,6 +1137,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [161694] = {
+        name = "The Accuser",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.737848,
+                    y = 0.573854,
+                },
+            },
+        },
+    },
     [161733] = {
         name = "Anzio The Infallible",
         locations = {
@@ -1071,6 +1170,61 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [161865] = {
+        name = "Baroness Draka",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.781186,
+                    y = 0.621867,
+                },
+            },
+        },
+    },
+    [161904] = {
+        name = "Plague Deviser Marileth",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.389031,
+                    y = 0.32274,
+                },
+            },
+        },
+    },
+    [161906] = {
+        name = "Emeni",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.3831,
+                    y = 0.367669,
+                },
+            },
+        },
+    },
+    [161907] = {
+        name = "Baroness Draka",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.498582,
+                    y = 0.508511,
+                },
+            },
+        },
+    },
+    [161988] = {
+        name = "Alexandros Mograine",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.490014,
+                    y = 0.516334,
+                },
+            },
+        },
+    },
     [162069] = {
         name = "Baroness Draka",
         locations = {
@@ -1078,6 +1232,50 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.483823,
                     y = 0.571587,
+                },
+            },
+        },
+    },
+    [162108] = {
+        name = "Rathan",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.259696,
+                    y = 0.428492,
+                },
+            },
+        },
+    },
+    [162174] = {
+        name = "Emeni",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.251283,
+                    y = 0.318492,
+                },
+            },
+        },
+    },
+    [162222] = {
+        name = "Rathan",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.479564,
+                    y = 0.504587,
+                },
+            },
+        },
+    },
+    [162227] = {
+        name = "Rathan",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.241759,
+                    y = 0.387301,
                 },
             },
         },
@@ -1109,8 +1307,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1536] = {
                 {
-                    x = 0.676741,
-                    y = 0.459239,
+                    x = 0.67668,
+                    y = 0.459682,
                 },
             },
         },
@@ -1241,8 +1439,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1670] = {
                 {
-                    x = 0.390502,
-                    y = 0.669623,
+                    x = 0.388685,
+                    y = 0.682569,
                 },
             },
         },
@@ -1252,8 +1450,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1536] = {
                 {
-                    x = 0.677069,
-                    y = 0.456137,
+                    x = 0.733823,
+                    y = 0.445159,
                 },
             },
         },
@@ -1302,6 +1500,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [164619] = {
+        name = "Baroness Vashj",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.508267,
+                    y = 0.24492,
+                },
+            },
+        },
+    },
     [164640] = {
         name = "Kowalskos",
         locations = {
@@ -1309,6 +1518,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.42827,
                     y = 0.427291,
+                },
+            },
+        },
+    },
+    [164646] = {
+        name = "Baroness Vashj",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.49905,
+                    y = 0.178642,
+                },
+            },
+        },
+    },
+    [164679] = {
+        name = "Whisperer Vyn",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.541588,
+                    y = 0.299566,
                 },
             },
         },
@@ -1379,8 +1610,30 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [165182] = {
+        name = "Baroness Draka",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.496989,
+                    y = 0.43796,
+                },
+            },
+        },
+    },
     [165253] = {
         name = "Tollkeeper Varaboss",
+    },
+    [165321] = {
+        name = "Merick Feldscar",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.387943,
+                    y = 0.485106,
+                },
+            },
+        },
     },
     [165382] = {
         name = "Gormsmith Cavina",
@@ -1404,6 +1657,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [165412] = {
+        name = "Xandria",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.406848,
+                    y = 0.55029,
+                },
+            },
+        },
+    },
     [165557] = {
         name = "Prince Renathal",
         locations = {
@@ -1422,6 +1686,39 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.288902,
                     y = 0.221587,
+                },
+            },
+        },
+    },
+    [165591] = {
+        name = "Alexandros Mograine",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.402349,
+                    y = 0.55299,
+                },
+            },
+        },
+    },
+    [165794] = {
+        name = "Xandria",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.464758,
+                    y = 0.629372,
+                },
+            },
+        },
+    },
+    [165795] = {
+        name = "Alexandros Mograine",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.416306,
+                    y = 0.551,
                 },
             },
         },
@@ -1470,6 +1767,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [166211] = {
+        name = "Alexandros Mograine",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.288109,
+                    y = 0.382063,
+                },
+            },
+        },
+    },
     [166227] = {
         name = "Kleia",
         locations = {
@@ -1488,6 +1796,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.423343,
                     y = 0.783543,
+                },
+            },
+        },
+    },
+    [166333] = {
+        name = "Xandria",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.356187,
+                    y = 0.264993,
+                },
+            },
+        },
+    },
+    [166535] = {
+        name = "Baroness Draka",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.50395,
+                    y = 0.705609,
                 },
             },
         },
@@ -1624,6 +1954,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [167044] = {
+        name = "Emeni",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.551511,
+                    y = 0.687025,
+                },
+            },
+        },
+    },
     [167134] = {
         name = "Thanikos",
         locations = {
@@ -1646,6 +1987,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [167150] = {
+        name = "Rathan",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.550966,
+                    y = 0.687778,
+                },
+            },
+        },
+    },
     [167164] = {
         name = "Thanikos",
         locations = {
@@ -1653,6 +2005,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.405948,
                     y = 0.55209,
+                },
+            },
+        },
+    },
+    [167173] = {
+        name = "Baroness Vashj",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.286972,
+                    y = 0.376118,
+                },
+            },
+        },
+    },
+    [167205] = {
+        name = "Yondare Hex",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.491142,
+                    y = 0.359721,
                 },
             },
         },
@@ -1774,6 +2148,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.409368,
                     y = 0.553524,
+                },
+            },
+        },
+    },
+    [167748] = {
+        name = "Osbourne Black",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.466306,
+                    y = 0.423772,
+                },
+            },
+        },
+    },
+    [167810] = {
+        name = "Emeni",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.280856,
+                    y = 0.375191,
                 },
             },
         },
@@ -1932,13 +2328,46 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [168743] = {
+        name = "Apolon",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.353283,
+                    y = 0.259456,
+                },
+            },
+        },
+    },
+    [168744] = {
+        name = "Artemede",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.351601,
+                    y = 0.268968,
+                },
+            },
+        },
+    },
+    [168860] = {
+        name = "Kynthia",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.354532,
+                    y = 0.265042,
+                },
+            },
+        },
+    },
     [168929] = {
         name = "Shandris Feathermoon",
         locations = {
             [1543] = {
                 {
-                    x = 0.301074,
-                    y = 0.364305,
+                    x = 0.301157,
+                    y = 0.364196,
                 },
             },
         },
@@ -2008,6 +2437,9 @@ BtWQuestsDatabase:AddNPCsTable({
                 },
             },
         },
+    },
+    [169153] = {
+        name = "Brigdin",
     },
     [169202] = {
         name = "Dreamweaver",
@@ -2311,8 +2743,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1543] = {
                 {
-                    x = 0.468594,
-                    y = 0.41701,
+                    x = 0.468566,
+                    y = 0.417087,
                 },
             },
         },
@@ -2350,6 +2782,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [171483] = {
+        name = "Baroness Draka",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.363195,
+                    y = 0.366262,
+                },
+            },
+        },
+    },
     [171770] = {
         name = "Ve'nari",
         locations = {
@@ -2372,6 +2815,39 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [171821] = {
+        name = "Baroness Draka",
+        locations = {
+            [1670] = {
+                {
+                    x = 0.429622,
+                    y = 0.742122,
+                },
+            },
+        },
+    },
+    [171875] = {
+        name = "Khaliiq",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.500013,
+                    y = 0.179206,
+                },
+            },
+        },
+    },
+    [172002] = {
+        name = "Xandria",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.317791,
+                    y = 0.303254,
+                },
+            },
+        },
+    },
     [172414] = {
         name = "Highlord Darion Mograine",
         locations = {
@@ -2386,10 +2862,32 @@ BtWQuestsDatabase:AddNPCsTable({
     [172543] = {
         name = "Rescued Soul",
         locations = {
-            [1701] = {
+            [1708] = {
                 {
-                    x = 0.339812,
-                    y = 0.426498,
+                    x = 0.601929,
+                    y = 0.334804,
+                },
+            },
+        },
+    },
+    [172573] = {
+        name = "Khaliiq",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.28541,
+                    y = 0.477063,
+                },
+            },
+        },
+    },
+    [172574] = {
+        name = "Navigator Xennir",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.311759,
+                    y = 0.493968,
                 },
             },
         },
@@ -2401,6 +2899,94 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.32112,
                     y = 0.414655,
+                },
+            },
+        },
+    },
+    [172805] = {
+        name = "Whisperer Vyn",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.301657,
+                    y = 0.436424,
+                },
+            },
+        },
+    },
+    [172813] = {
+        name = "Ton'hamil",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.679667,
+                    y = 0.306714,
+                },
+            },
+        },
+    },
+    [172923] = {
+        name = "Kel'thuzad",
+        locations = {
+            [1652] = {
+                {
+                    x = 0.501964,
+                    y = 0.517611,
+                },
+            },
+        },
+    },
+    [172924] = {
+        name = "Baroness Ninadar",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.663152,
+                    y = 0.263906,
+                },
+            },
+        },
+    },
+    [173172] = {
+        name = "Balmedar",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.497973,
+                    y = 0.496976,
+                },
+            },
+        },
+    },
+    [173194] = {
+        name = "Alexandros Mograine",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.27668,
+                    y = 0.242778,
+                },
+            },
+        },
+    },
+    [173306] = {
+        name = "Khaliiq",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.612889,
+                    y = 0.329041,
+                },
+            },
+        },
+    },
+    [173308] = {
+        name = "Baroness Draka",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.31027,
+                    y = 0.294278,
                 },
             },
         },
@@ -2427,6 +3013,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [173422] = {
+        name = "Balmedar's Oculus",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.593478,
+                    y = 0.329917,
+                },
+            },
+        },
+    },
+    [173492] = {
+        name = "Jor'dan the Powerful",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.699696,
+                    y = 0.327063,
+                },
+            },
+        },
+    },
     [173565] = {
         name = "Overseer Kah-Delen",
         locations = {
@@ -2434,6 +3042,50 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.238055,
                     y = 0.503822,
+                },
+            },
+        },
+    },
+    [173831] = {
+        name = "Balmedar",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.700063,
+                    y = 0.269056,
+                },
+            },
+        },
+    },
+    [174020] = {
+        name = "Captain Prateq",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.704139,
+                    y = 0.277475,
+                },
+            },
+        },
+    },
+    [174120] = {
+        name = "Moret the Vogue",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.716864,
+                    y = 0.328947,
+                },
+            },
+        },
+    },
+    [174179] = {
+        name = "Baroness Draka",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.621656,
+                    y = 0.410408,
                 },
             },
         },
@@ -2448,5 +3100,8 @@ BtWQuestsDatabase:AddNPCsTable({
                 },
             },
         },
+    },
+    [174343] = {
+        name = "Khaliiq",
     },
 })
