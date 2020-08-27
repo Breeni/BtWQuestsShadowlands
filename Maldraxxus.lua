@@ -817,6 +817,14 @@ Database:AddChain(Chain.RitualForTheDamned, {
         },
         {
             type = "quest",
+            id = 62654,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
             id = 59974,
             x = 0,
         },
