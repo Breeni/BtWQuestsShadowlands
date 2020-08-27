@@ -5,13 +5,11 @@ local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
 local CATEGORY_ID = BtWQuests.Constant.Category.Shadowlands.Kyrian
 local Chain = BtWQuests.Constant.Chain.Shadowlands.Kyrian
-local ALLIANCE_RESTRICTIONS, HORDE_RESTRICTIONS = BtWQuests.Constant.Restrictions.Alliance, BtWQuests.Constant.Restrictions.Horde
-local ACHIEVEMENT_ID = 14234
-local LEVEL_RANGE = {1, 60}
+local LEVEL_RANGE = {60, 60}
 local LEVEL_PREREQUISITES = {
     {
         type = "level",
-        level = 1,
+        level = 60,
     },
 }
 
@@ -29,18 +27,44 @@ Chain.OtherHorde = 90698
 Chain.OtherBoth = 90699
 
 Database:AddChain(Chain.AmongTheKyrian, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 1),
+    name = "Among The Kyrian",
     questline = 1014,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 1,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+        },
+    },
+    active = {
+        type = "quest",
+        id = 60491,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 57904,
     },
     items = {
+        {
+            type = "npc",
+            id = 171787,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 60491,
@@ -127,16 +151,35 @@ Database:AddChain(Chain.ReturnToTheMaw, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 1,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AmongTheKyrian,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {57905, 60232},
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 60134,
     },
     items = {
-        {
-            type = "chain",
-            id = 90601,
-        },
         {
             variations = {
                 {
@@ -206,22 +249,46 @@ Database:AddChain(Chain.ReturnToTheMaw, {
     },
 })
 Database:AddChain(Chain.TrialOfAscension, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
+    name = "Trial of Ascension",
     questline = 1090,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 1,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AmongTheKyrian,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 58787,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 58798,
     },
     items = {
-        {
-            type = "chain",
-            id = 90602,
-        },
         {
             type = "npc",
             id = 160037,
@@ -361,22 +428,51 @@ Database:AddChain(Chain.TrialOfAscension, {
     },
 })
 Database:AddChain(Chain.PhaestusGenesisOfAeons, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 3),
+    name = "Phaestus, Genesis of Aeons",
     questline = 1091,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 1,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AmongTheKyrian,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TrialOfAscension,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 58175,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 58181,
     },
     items = {
-        {
-            type = "chain",
-            id = 90603,
-        },
         {
             type = "npc",
             id = 160037,
@@ -455,22 +551,56 @@ Database:AddChain(Chain.PhaestusGenesisOfAeons, {
     },
 })
 Database:AddChain(Chain.RighteousRetribution, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
+    name = "Righteous Retribution",
     questline = 1096,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 1,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AmongTheKyrian,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TrialOfAscension,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.PhaestusGenesisOfAeons,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 61785,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 61878,
     },
     items = {
-        {
-            type = "chain",
-            id = 90604,
-        },
         {
             type = "npc",
             id = 160037,
@@ -633,22 +763,61 @@ Database:AddChain(Chain.RighteousRetribution, {
     },
 })
 Database:AddChain(Chain.TheSealOfContrition, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 5),
+    name = "The Seal of Contrition",
     questline = 1092,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 1,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AmongTheKyrian,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TrialOfAscension,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.PhaestusGenesisOfAeons,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.RighteousRetribution,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 58557,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 58571,
     },
     items = {
-        {
-            type = "chain",
-            id = 90605,
-        },
         {
             type = "npc",
             id = 160037,
@@ -772,13 +941,61 @@ Database:AddChain(Chain.TheSealOfContrition, {
     },
 })
 Database:AddChain(Chain.AVesselOfArdenweald, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 6),
+    name = "A Vessel of Ardenweald",
     questline = 1093,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 1,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AmongTheKyrian,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TrialOfAscension,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.PhaestusGenesisOfAeons,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.RighteousRetribution,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheSealOfContrition,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 58775,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 61697,
@@ -895,13 +1112,66 @@ Database:AddChain(Chain.AVesselOfArdenweald, {
     },
 })
 Database:AddChain(Chain.ClosingIn, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 7),
+    name = "Closing In",
     questline = 1094,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 1,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AmongTheKyrian,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TrialOfAscension,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.PhaestusGenesisOfAeons,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.RighteousRetribution,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheSealOfContrition,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AVesselOfArdenweald,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 57113,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 62555,
@@ -1023,23 +1293,77 @@ Database:AddChain(Chain.ClosingIn, {
     },
 })
 Database:AddChain(Chain.TheBellTolls, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 8),
+    name = "The Bell Tolls",
     questline = 1036,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
-    completed = {
-        type = "quest",
-        id = 62557,
-    },
-    items = {
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 1,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AmongTheKyrian,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TrialOfAscension,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.PhaestusGenesisOfAeons,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.RighteousRetribution,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheSealOfContrition,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AVesselOfArdenweald,
+            lowPriority = true,
+        },
         {
             type = "chain",
             id = Chain.ClosingIn,
             upto = 57125,
         },
+    },
+    active = {
+        type = "quest",
+        id = 58854,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 62557,
+    },
+    items = {
         {
             type = "npc",
             id = 160037,
@@ -1121,7 +1445,7 @@ Database:AddChain(Chain.OtherBoth, {
 })
 
 Database:AddCategory(CATEGORY_ID, {
-    name = BtWQuests_GetAchievementNameDelayed(14234),
+    name = "Kyrian Campaign",
     expansion = EXPANSION_ID,
     items = {
         {
@@ -1159,18 +1483,6 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.TheBellTolls,
-        },
-        {
-            type = "chain",
-            id = Chain.OtherAlliance,
-        },
-        {
-            type = "chain",
-            id = Chain.OtherHorde,
-        },
-        {
-            type = "chain",
-            id = Chain.OtherBoth,
         },
     },
 })
