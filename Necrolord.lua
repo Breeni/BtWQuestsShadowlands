@@ -1,4 +1,4 @@
--- AUTO GENERATED - NEEDS UPDATING
+-- Needs rewards and translations
 
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
