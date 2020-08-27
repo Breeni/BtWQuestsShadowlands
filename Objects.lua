@@ -177,6 +177,17 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [353472] = {
+        name = "Radiant Sword",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.647419,
+                    y = 0.456728,
+                },
+            },
+        },
+    },
     [353645] = {
         name = "Marileth's Journal",
         locations = {
@@ -228,6 +239,39 @@ BtWQuestsDatabase:AddObjectsTable({
                 {
                     x = 0.384258,
                     y = 0.48483,
+                },
+            },
+        },
+    },
+    [355825] = {
+        name = "Tattered Scroll",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.33494,
+                    y = 0.24111,
+                },
+            },
+        },
+    },
+    [357246] = {
+        name = "Tattered Scroll",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.334947,
+                    y = 0.241082,
+                },
+            },
+        },
+    },
+    [358319] = {
+        name = "Sorcerer's Note",
+        locations = {
+            [1652] = {
+                {
+                    x = 0.468584,
+                    y = 0.314394,
                 },
             },
         },
