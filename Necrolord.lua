@@ -55,7 +55,7 @@ Database:AddChain(Chain.CovenantHallIntro, {
     },
     completed = {
         type = "quest",
-        id = 61513,
+        id = 61397,
     },
     items = {
         {
