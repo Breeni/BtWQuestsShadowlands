@@ -569,7 +569,7 @@ Database:AddChain(Chain.DoNotForget, {
         },
         {
             type = "renown",
-            level = 7,
+            level = 10,
         },
     },
     active = {
