@@ -34,8 +34,6 @@ Chain.Chain02 = 90712
 Chain.Chain03 = 90713
 Chain.Chain04 = 90714
 Chain.Chain05 = 90715
-Chain.Chain06 = 90716
-Chain.Chain07 = 90717
 
 Chain.OtherAlliance = 90797
 Chain.OtherHorde = 90798
@@ -1149,16 +1147,21 @@ Database:AddChain(Chain.TheHouseOfRituals, {
             id = 61742,
             x = 0,
             connections = {
-                1, 
+                1, 2
             },
         },
         {
             type = "quest",
             id = 61743,
-            x = 0,
+            x = -1,
             connections = {
-                1, 
+                2, 
             },
+        },
+        {
+            type = "quest",
+            id = 62297,
+            aside = true,
         },
         {
             type = "quest",
@@ -1204,7 +1207,7 @@ Database:AddChain(Chain.TheHouseOfRituals, {
             id = 61749,
             x = -1,
             connections = {
-                2, 3, 
+                2, 3, 4
             },
         },
         {
@@ -1215,17 +1218,22 @@ Database:AddChain(Chain.TheHouseOfRituals, {
         {
             type = "quest",
             id = 61750,
-            x = -1,
+            x = -2,
             connections = {
-                2, 
+                3, 
             },
         },
         {
             type = "quest",
             id = 61751,
             connections = {
-                1, 
+                2, 
             },
+        },
+        {
+            type = "quest",
+            id = 62320,
+            aside = true,
         },
         {
             type = "quest",
@@ -1306,6 +1314,15 @@ Database:AddChain(Chain.TheHouseOfRituals, {
         {
             type = "quest",
             id = 61761,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60111,
+            aside = true,
             x = 0,
         },
     },
@@ -1426,7 +1443,25 @@ Database:AddChain(Chain.Chain01, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 4,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.CovenantHallIntro,
+        },
+    },
     items = {
         {
             type = "quest",
@@ -1632,52 +1667,6 @@ Database:AddChain(Chain.Chain05, {
     range = LEVEL_RANGE,
     items = {
         {
-            type = "npc",
-            id = 174020,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 62297,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-    },
-})
-Database:AddChain(Chain.Chain06, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    items = {
-        {
-            type = "npc",
-            id = 174120,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 62320,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-    },
-})
-Database:AddChain(Chain.Chain07, {
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    items = {
-        {
             name = "Research Anima Conduit thingy",
             aside = true,
         },
@@ -1768,42 +1757,6 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.Chain01,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain02,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain03,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain04,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain05,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain06,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain07,
-        },
-        {
-            type = "chain",
-            id = Chain.OtherAlliance,
-        },
-        {
-            type = "chain",
-            id = Chain.OtherHorde,
-        },
-        {
-            type = "chain",
-            id = Chain.OtherBoth,
         },
     },
 })
