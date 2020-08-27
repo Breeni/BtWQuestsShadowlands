@@ -42,7 +42,7 @@ Chain.OtherHorde = 90798
 Chain.OtherBoth = 90799
 
 Database:AddChain(Chain.CovenantHallIntro, {
-    name = "Covenant Hall Intro", --BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 1),
+    name = "Covenant Hall Intro",
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -183,6 +183,11 @@ Database:AddChain(Chain.ReturnToTheMaw, {
         {
             type = "quest",
             ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.CovenantHallIntro,
         },
     },
     completed = {
@@ -223,7 +228,7 @@ Database:AddChain(Chain.ReturnToTheMaw, {
     },
 })
 Database:AddChain(Chain.TheHouseOfEyes, {
-    name = "The House Of Eyes", --BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
+    name = "The House Of Eyes",
     questline = 1088,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -239,8 +244,18 @@ Database:AddChain(Chain.TheHouseOfEyes, {
             id = 4,
         },
         {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
             type = "chain",
             id = Chain.CovenantHallIntro,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
         },
         {
             type = "renown",
@@ -359,7 +374,7 @@ Database:AddChain(Chain.TheHouseOfEyes, {
     },
 })
 Database:AddChain(Chain.GrandTheftNecropolis, {
-    name = "GrandTheftNecropolis", --BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 3),
+    name = "Grand Theft Necropolis",
     questline = 1134,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -375,9 +390,19 @@ Database:AddChain(Chain.GrandTheftNecropolis, {
             id = 4,
         },
         {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
             type = "chain",
             id = Chain.CovenantHallIntro,
-            lowProriy = true,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            lowPriority = true,
         },
         {
             type = "chain",
@@ -495,7 +520,6 @@ Database:AddChain(Chain.GrandTheftNecropolis, {
         },
     },
 })
-
 Database:AddChain(Chain.DoNotForget, {
     name = "Do Not Forget",
     questline = 1119,
@@ -503,16 +527,49 @@ Database:AddChain(Chain.DoNotForget, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 4,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.CovenantHallIntro,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheHouseOfEyes,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.GrandTheftNecropolis,
+        },
+        {
+            type = "renown",
+            level = 7,
+        },
+    },
     completed = {
         type = "quest",
         id = 59894,
     },
     items = {
-        {
-            type = "chain",
-            id = 90704,
-        },
         {
             type = "npc",
             id = 161988,
@@ -636,21 +693,54 @@ Database:AddChain(Chain.AGoldenDawn, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
-    completed = {
-        type = "quest",
-        id = 57636,
-    },
-    items = {
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 4,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
         {
             type = "chain",
-            id = 90705,
-            x = -1,
+            id = Chain.CovenantHallIntro,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheHouseOfEyes,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.GrandTheftNecropolis,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DoNotForget,
         },
         {
             type = "renown",
             level = 13,
         },
+    },
+    completed = {
+        type = "quest",
+        id = 57636,
+    },
+    items = {
         {
             type = "npc",
             id = 166535,
@@ -827,21 +917,59 @@ Database:AddChain(Chain.TheWagesOfSin, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
-    completed = {
-        type = "quest",
-        id = 58624,
-    },
-    items = {
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 4,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
         {
             type = "chain",
-            id = 90706,
-            x = -1,
+            id = Chain.CovenantHallIntro,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheHouseOfEyes,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.GrandTheftNecropolis,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DoNotForget,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AGoldenDawn,
         },
         {
             type = "renown",
             level = 17,
         },
+    },
+    completed = {
+        type = "quest",
+        id = 58624,
+    },
+    items = {
         {
             type = "npc",
             id = 161907,
@@ -911,21 +1039,64 @@ Database:AddChain(Chain.TheHouseOfRituals, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
-    completed = {
-        type = "quest",
-        id = 61761,
-    },
-    items = {
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 4,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
         {
             type = "chain",
-            id = 90707,
-            x = -1,
+            id = Chain.CovenantHallIntro,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheHouseOfEyes,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.GrandTheftNecropolis,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DoNotForget,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AGoldenDawn,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheWagesOfSin,
         },
         {
             type = "renown",
             level = 21,
         },
+    },
+    completed = {
+        type = "quest",
+        id = 61761,
+    },
+    items = {
         {
             type = "npc",
             id = 161907,
@@ -1145,21 +1316,69 @@ Database:AddChain(Chain.AssaultOnTheHouseOfRituals, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
-    completed = {
-        type = "quest",
-        id = 62406,
-    },
-    items = {
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 4,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
         {
             type = "chain",
-            id = 90708,
-            x = -1,
+            id = Chain.CovenantHallIntro,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheHouseOfEyes,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.GrandTheftNecropolis,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DoNotForget,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AGoldenDawn,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheWagesOfSin,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheHouseOfRituals,
         },
         {
             type = "renown",
             level = 22,
         },
+    },
+    completed = {
+        type = "quest",
+        id = 62406,
+    },
+    items = {
         {
             type = "npc",
             id = 161907,
@@ -1201,9 +1420,12 @@ Database:AddChain(Chain.AssaultOnTheHouseOfRituals, {
 })
 
 Database:AddChain(Chain.Chain01, {
+    name = "Soul Survivors",
+    questline = 1089,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    prerequisites = LEVEL_PREREQUISITES,
     items = {
         {
             type = "quest",
