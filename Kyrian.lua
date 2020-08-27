@@ -6,12 +6,6 @@ local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
 local CATEGORY_ID = BtWQuests.Constant.Category.Shadowlands.Kyrian
 local Chain = BtWQuests.Constant.Chain.Shadowlands.Kyrian
 local LEVEL_RANGE = {60, 60}
-local LEVEL_PREREQUISITES = {
-    {
-        type = "level",
-        level = 60,
-    },
-}
 
 Chain.AmongTheKyrian = 90601
 Chain.ReturnToTheMaw = 90602
@@ -62,7 +56,7 @@ Database:AddChain(Chain.AmongTheKyrian, {
             id = 171787,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
