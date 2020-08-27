@@ -19,15 +19,15 @@ local LEVEL_PREREQUISITES = {
     },
 }
 
-Chain.ChampionOfPain = 90701
+Chain.CovenantHallIntro = 90701
 Chain.ReturnToTheMaw = 90702
-Chain.TheImpossiblePlan = 90703
+Chain.TheHouseOfEyes = 90703
 Chain.GrandTheftNecropolis = 90704
-Chain.MachinationsOfWar = 90705
-Chain.JusticeIsBlind = 90706
-Chain.TheScentOfDeath = 90707
-Chain.RedistributeAsmorde = 90708
-Chain.TheThirdFallOfKelthuzad = 90709
+Chain.DoNotForget = 90705
+Chain.AGoldenDawn = 90706
+Chain.TheWagesOfSin = 90707
+Chain.TheHouseOfRituals = 90708
+Chain.AssaultOnTheHouseOfRituals = 90709
 
 Chain.Chain01 = 90711
 Chain.Chain02 = 90712
@@ -41,8 +41,8 @@ Chain.OtherAlliance = 90797
 Chain.OtherHorde = 90798
 Chain.OtherBoth = 90799
 
-Database:AddChain(Chain.ChampionOfPain, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 1),
+Database:AddChain(Chain.CovenantHallIntro, {
+    name = "Covenant Hall Intro", --BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 1),
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -222,8 +222,8 @@ Database:AddChain(Chain.ReturnToTheMaw, {
         },
     },
 })
-Database:AddChain(Chain.TheImpossiblePlan, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
+Database:AddChain(Chain.TheHouseOfEyes, {
+    name = "The House Of Eyes", --BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
     questline = 1088,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -240,7 +240,7 @@ Database:AddChain(Chain.TheImpossiblePlan, {
         },
         {
             type = "chain",
-            id = Chain.ChampionOfPain,
+            id = Chain.CovenantHallIntro,
         },
         {
             type = "renown",
@@ -255,6 +255,14 @@ Database:AddChain(Chain.TheImpossiblePlan, {
         {
             type = "npc",
             id = 161907,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62448,
             x = 0,
             connections = {
                 1, 
@@ -351,7 +359,7 @@ Database:AddChain(Chain.TheImpossiblePlan, {
     },
 })
 Database:AddChain(Chain.GrandTheftNecropolis, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 3),
+    name = "GrandTheftNecropolis", --BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 3),
     questline = 1134,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -368,12 +376,12 @@ Database:AddChain(Chain.GrandTheftNecropolis, {
         },
         {
             type = "chain",
-            id = Chain.ChampionOfPain,
+            id = Chain.CovenantHallIntro,
             lowProriy = true,
         },
         {
             type = "chain",
-            id = Chain.TheImpossiblePlan,
+            id = Chain.TheHouseOfEyes,
         },
         {
             type = "renown",
@@ -382,7 +390,8 @@ Database:AddChain(Chain.GrandTheftNecropolis, {
     },
     completed = {
         type = "quest",
-        id = 59722,
+        ids = {59722, 58820},
+        count = 2,
     },
     items = {
         {
@@ -486,8 +495,10 @@ Database:AddChain(Chain.GrandTheftNecropolis, {
         },
     },
 })
-Database:AddChain(Chain.MachinationsOfWar, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
+
+Database:AddChain(Chain.DoNotForget, {
+    name = "Do Not Forget",
+    questline = 1119,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -495,37 +506,322 @@ Database:AddChain(Chain.MachinationsOfWar, {
     prerequisites = LEVEL_PREREQUISITES,
     completed = {
         type = "quest",
-        id = 61586,
+        id = 59894,
     },
     items = {
+        {
+            type = "chain",
+            id = 90704,
+        },
+        {
+            type = "npc",
+            id = 161988,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59625,
+            x = 0,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59645,
+            x = -2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59648,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59650,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59653,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59659,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59678,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59698,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59700,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59709,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59748,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59921,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59922,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59894,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.AGoldenDawn, {
+    name = "A Golden Dawn",
+    questline = 1120,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    major = true,
+    prerequisites = LEVEL_PREREQUISITES,
+    completed = {
+        type = "quest",
+        id = 57636,
+    },
+    items = {
+        {
+            type = "chain",
+            id = 90705,
+            x = -1,
+        },
+        {
+            type = "renown",
+            level = 13,
+        },
+        {
+            type = "npc",
+            id = 166535,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 61586,
             x = 0,
+            connections = {
+                1, 
+            },
         },
-    },
-})
-Database:AddChain(Chain.JusticeIsBlind, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 5),
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    major = true,
-    prerequisites = LEVEL_PREREQUISITES,
-    completed = {
-        type = "quest",
-        id = 60067,
-    },
-    items = {
+        {
+            type = "quest",
+            id = 61145,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59910,
+            x = 0,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59916,
+            x = -2,
+            connections = {
+                3, 4, 5, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60043,
+            connections = {
+                2, 3, 4, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61396,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60510,
+            x = -2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61180,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61412,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60050,
+            x = 0,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60044,
+            x = -2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60114,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61567,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61246,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60098,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 60067,
             x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57470,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57530,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57473,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57475,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57636,
+            x = 0,
         },
     },
 })
-Database:AddChain(Chain.TheScentOfDeath, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 6),
+Database:AddChain(Chain.TheWagesOfSin, {
+    name = "The Wages of Sin",
     questline = 1121,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -538,52 +834,68 @@ Database:AddChain(Chain.TheScentOfDeath, {
     },
     items = {
         {
+            type = "chain",
+            id = 90706,
+            x = -1,
+        },
+        {
+            type = "renown",
+            level = 17,
+        },
+        {
+            type = "npc",
+            id = 161907,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
             id = 62161,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58504,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58523,
             x = 0,
             connections = {
-                1
-            }
+                1, 2, 
+            },
         },
         {
             type = "quest",
             id = 58599,
-            x = 0,
+            x = -1,
             connections = {
-                1
-            }
+                2, 
+            },
         },
         {
             type = "quest",
             id = 58472,
-            x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58608,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
@@ -592,8 +904,9 @@ Database:AddChain(Chain.TheScentOfDeath, {
         },
     },
 })
-Database:AddChain(Chain.RedistributeAsmorde, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 7),
+Database:AddChain(Chain.TheHouseOfRituals, {
+    name = "The House of Rituals",
+    questline = 1115,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -601,18 +914,232 @@ Database:AddChain(Chain.RedistributeAsmorde, {
     prerequisites = LEVEL_PREREQUISITES,
     completed = {
         type = "quest",
-        id = 60211,
+        id = 61761,
     },
     items = {
         {
+            type = "chain",
+            id = 90707,
+            x = -1,
+        },
+        {
+            type = "renown",
+            level = 21,
+        },
+        {
+            type = "npc",
+            id = 161907,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
-            id = 60211,
+            id = 62388,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61739,
+            x = 0,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61740,
+            x = -2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61741,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62414,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61742,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61743,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61744,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61745,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61746,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61747,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61748,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61749,
+            x = -1,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62317,
+            aside = true,
+        },
+        {
+            type = "quest",
+            id = 61750,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61751,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61752,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61753,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61754,
+            x = -1,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61755,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61756,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62308,
+            aside = true,
+        },
+        {
+            type = "quest",
+            id = 61757,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61758,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61759,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61760,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61761,
             x = 0,
         },
     },
 })
-Database:AddChain(Chain.TheThirdFallOfKelthuzad, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 8),
+Database:AddChain(Chain.AssaultOnTheHouseOfRituals, {
+    name = "Assault on the House of Rituals",
     questline = 1118,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -621,28 +1148,53 @@ Database:AddChain(Chain.TheThirdFallOfKelthuzad, {
     prerequisites = LEVEL_PREREQUISITES,
     completed = {
         type = "quest",
-        id = 59020,
+        id = 62406,
     },
     items = {
+        {
+            type = "chain",
+            id = 90708,
+            x = -1,
+        },
+        {
+            type = "renown",
+            level = 22,
+        },
+        {
+            type = "npc",
+            id = 161907,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 62391,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58833,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59020,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62406,
             x = 0,
         },
     },
@@ -856,6 +1408,22 @@ Database:AddChain(Chain.Chain05, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
+        {
+            type = "npc",
+            id = 174020,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62297,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
     },
 })
 Database:AddChain(Chain.Chain06, {
@@ -863,6 +1431,22 @@ Database:AddChain(Chain.Chain06, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
+        {
+            type = "npc",
+            id = 174120,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62320,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
     },
 })
 Database:AddChain(Chain.Chain07, {
@@ -870,6 +1454,26 @@ Database:AddChain(Chain.Chain07, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
+        {
+            name = "Research Anima Conduit thingy",
+            aside = true,
+        },
+        {
+            type = "npc",
+            id = 167205,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60722,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
     },
 })
 
@@ -1003,12 +1607,12 @@ Database:AddChain(Chain.OtherBoth, {
 })
 
 Database:AddCategory(CATEGORY_ID, {
-    name = BtWQuests_GetAchievementNameDelayed(14279),
+    name = "Necrolord Campaign",
     expansion = EXPANSION_ID,
     items = {
         {
             type = "chain",
-            id = Chain.ChampionOfPain,
+            id = Chain.CovenantHallIntro,
         },
         {
             type = "chain",
@@ -1016,7 +1620,7 @@ Database:AddCategory(CATEGORY_ID, {
         },
         {
             type = "chain",
-            id = Chain.TheImpossiblePlan,
+            id = Chain.TheHouseOfEyes,
         },
         {
             type = "chain",
@@ -1024,23 +1628,23 @@ Database:AddCategory(CATEGORY_ID, {
         },
         {
             type = "chain",
-            id = Chain.MachinationsOfWar,
+            id = Chain.DoNotForget,
         },
         {
             type = "chain",
-            id = Chain.JusticeIsBlind,
+            id = Chain.AGoldenDawn,
         },
         {
             type = "chain",
-            id = Chain.TheScentOfDeath,
+            id = Chain.TheWagesOfSin,
         },
         {
             type = "chain",
-            id = Chain.RedistributeAsmorde,
+            id = Chain.TheHouseOfRituals,
         },
         {
             type = "chain",
-            id = Chain.TheThirdFallOfKelthuzad,
+            id = Chain.AssaultOnTheHouseOfRituals,
         },
         {
             type = "chain",
