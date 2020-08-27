@@ -624,7 +624,21 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [57470] = {
-        contentTuningID = 0,
+        name = "An Abominable Discovery",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173308,
+            name = "Baroness Draka",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.31027,
+                        y = 0.294278,
+                    },
+                },
+            },
+        },
     },
     [57471] = {
         name = "It's a Dirty Job",
@@ -644,7 +658,21 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [57473] = {
-        contentTuningID = 0,
+        name = "Prized Possession",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173194,
+            name = "Alexandros Mograine",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.27319,
+                        y = 0.237976,
+                    },
+                },
+            },
+        },
     },
     [57474] = {
         name = "Dredger Duty",
@@ -664,7 +692,21 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [57475] = {
-        contentTuningID = 0,
+        name = "The Mantle Returned",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173194,
+            name = "Alexandros Mograine",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.27319,
+                        y = 0.237976,
+                    },
+                },
+            },
+        },
     },
     [57481] = {
         name = "Running a Muck",
@@ -769,7 +811,21 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [57530] = {
-        contentTuningID = 0,
+        name = "Gharmal's Tower",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173194,
+            name = "Alexandros Mograine",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.275001,
+                        y = 0.238669,
+                    },
+                },
+            },
+        },
     },
     [57531] = {
         name = "An Unfortunate Situation",
@@ -1077,7 +1133,21 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [57636] = {
-        contentTuningID = 0,
+        name = "Pride of Place",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161907,
+            name = "Baroness Draka",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.497533,
+                        y = 0.50646,
+                    },
+                },
+            },
+        },
     },
     [57644] = {
         name = "No Friend Left Behind",
@@ -2803,7 +2873,21 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [58472] = {
-        contentTuningID = 0,
+        name = "A Farewell to Arms",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161694,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.737848,
+                        y = 0.573854,
+                    },
+                },
+            },
+        },
     },
     [58473] = {
         name = "Echoes of Tirna Noch",
@@ -2900,10 +2984,38 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [58504] = {
-        contentTuningID = 0,
+        name = "Accusatory Missive",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161907,
+            name = "Baroness Draka",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.497533,
+                        y = 0.50646,
+                    },
+                },
+            },
+        },
     },
     [58523] = {
-        contentTuningID = 0,
+        name = "You're Dead To Me",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161461,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.720718,
+                        y = 0.411525,
+                    },
+                },
+            },
+        },
     },
     [58524] = {
         name = "Sparkles Rain from Above",
@@ -3025,10 +3137,38 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [58599] = {
-        contentTuningID = 0,
+        name = "Drive A Dredge Between Them",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161474,
+            name = "Baroness Draka",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.737822,
+                        y = 0.573816,
+                    },
+                },
+            },
+        },
     },
     [58608] = {
-        contentTuningID = 0,
+        name = "It's Treason, Then",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161474,
+            name = "Baroness Draka",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.737822,
+                        y = 0.573816,
+                    },
+                },
+            },
+        },
     },
     [58609] = {
         name = "Taking The Seat",
@@ -3092,7 +3232,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [58619] = {
         name = "Read Between the Lines",
-        contentTuningID = 0,
+        contentTuningID = 1331,
         source = {
             type = "npc",
             id = 166657,
@@ -3176,7 +3316,21 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [58624] = {
-        contentTuningID = 0,
+        name = "Pauldrons of Imperium",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161865,
+            name = "Baroness Draka",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.781186,
+                        y = 0.621867,
+                    },
+                },
+            },
+        },
     },
     [58654] = {
         name = "A Plea to the Harvesters",
@@ -3596,7 +3750,21 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [58833] = {
-        contentTuningID = 0,
+        name = "Calling in All Favors",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161907,
+            name = "Baroness Draka",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.497533,
+                        y = 0.50646,
+                    },
+                },
+            },
+        },
     },
     [58843] = {
         name = "The Vault of the Archon",
@@ -3866,6 +4034,19 @@ BtWQuestsDatabase:AddQuestsTable({
     [59020] = {
         name = "The Third Fall of Kel'thuzad",
         contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 174179,
+            name = "Baroness Draka",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.621656,
+                        y = 0.410408,
+                    },
+                },
+            },
+        },
     },
     [59021] = {
         name = "Herald Their Demise",
@@ -4673,6 +4854,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [59625] = {
+        name = "The Only Cure",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161988,
+            name = "Alexandros Mograine",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.490014,
+                        y = 0.516334,
+                    },
+                },
+            },
+        },
+    },
     [59644] = {
         name = "Blinded By The Light",
         contentTuningID = 746,
@@ -4680,6 +4878,91 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 162688,
             name = "Prince Renathal",
+        },
+    },
+    [59645] = {
+        name = "Death Rains",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165591,
+            name = "Alexandros Mograine",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.402349,
+                        y = 0.55299,
+                    },
+                },
+            },
+        },
+    },
+    [59648] = {
+        name = "Peace by Piece",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165412,
+            name = "Xandria",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.406848,
+                        y = 0.55029,
+                    },
+                },
+            },
+        },
+    },
+    [59650] = {
+        name = "No Hesitation, No Surrender",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165412,
+            name = "Xandria",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.406848,
+                        y = 0.55029,
+                    },
+                },
+            },
+        },
+    },
+    [59653] = {
+        name = "Don't Cross Courage",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165412,
+            name = "Xandria",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.388649,
+                        y = 0.552223,
+                    },
+                },
+            },
+        },
+    },
+    [59659] = {
+        name = "Aerial Absolution",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165412,
+            name = "Xandria",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.359633,
+                        y = 0.553264,
+                    },
+                },
+            },
         },
     },
     [59674] = {
@@ -4694,6 +4977,74 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.574411,
                         y = 0.542532,
+                    },
+                },
+            },
+        },
+    },
+    [59678] = {
+        name = "Sustain, In Vain",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165591,
+            name = "Alexandros Mograine",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.359633,
+                        y = 0.553264,
+                    },
+                },
+            },
+        },
+    },
+    [59698] = {
+        name = "Wipe the Slate Clean",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165412,
+            name = "Xandria",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.299767,
+                        y = 0.552035,
+                    },
+                },
+            },
+        },
+    },
+    [59700] = {
+        name = "The Last Labor",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165412,
+            name = "Xandria",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.299767,
+                        y = 0.552035,
+                    },
+                },
+            },
+        },
+    },
+    [59709] = {
+        name = "Afterlife Goes On",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165412,
+            name = "Xandria",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.29692,
+                        y = 0.531423,
                     },
                 },
             },
@@ -4839,6 +5190,23 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.60211,
                         y = 0.786317,
+                    },
+                },
+            },
+        },
+    },
+    [59748] = {
+        name = "No Peace In Death",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165795,
+            name = "Alexandros Mograine",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.416306,
+                        y = 0.551,
                     },
                 },
             },
@@ -5335,6 +5703,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [59894] = {
+        name = "The Golden Dawn",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161988,
+            name = "Alexandros Mograine",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.490014,
+                        y = 0.516334,
+                    },
+                },
+            },
+        },
+    },
     [59897] = {
         name = "Seeking the Baron",
         contentTuningID = 0,
@@ -5362,7 +5747,21 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [59910] = {
-        contentTuningID = 0,
+        name = "Fight and Flight",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 171483,
+            name = "Baroness Draka",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.363195,
+                        y = 0.366262,
+                    },
+                },
+            },
+        },
     },
     [59914] = {
         name = "Fear to Tread",
@@ -5399,7 +5798,21 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [59916] = {
-        contentTuningID = 0,
+        name = "The Butchers of Bastion",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 168743,
+            name = "Apolon",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.353283,
+                        y = 0.259456,
+                    },
+                },
+            },
+        },
     },
     [59917] = {
         name = "Kill Them Of Course",
@@ -5430,6 +5843,40 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.526753,
                         y = 0.827799,
+                    },
+                },
+            },
+        },
+    },
+    [59921] = {
+        name = "All I Ever Will Be",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165794,
+            name = "Xandria",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.464758,
+                        y = 0.629372,
+                    },
+                },
+            },
+        },
+    },
+    [59922] = {
+        name = "Do Not Forget",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165794,
+            name = "Xandria",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.464758,
+                        y = 0.629372,
                     },
                 },
             },
@@ -5670,10 +6117,38 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [60043] = {
-        contentTuningID = 0,
+        name = "Justice from Above",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166333,
+            name = "Xandria",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.356187,
+                        y = 0.264993,
+                    },
+                },
+            },
+        },
     },
     [60044] = {
-        contentTuningID = 0,
+        name = "Charging The Blade",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166211,
+            name = "Alexandros Mograine",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.288109,
+                        y = 0.382063,
+                    },
+                },
+            },
+        },
     },
     [60048] = {
         name = "Stitching Time",
@@ -5710,7 +6185,21 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [60050] = {
-        contentTuningID = 0,
+        name = "Trouble on the Western Front",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 168860,
+            name = "Kynthia",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.354532,
+                        y = 0.265042,
+                    },
+                },
+            },
+        },
     },
     [60052] = {
         name = "Double Tap",
@@ -5815,10 +6304,38 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [60067] = {
-        contentTuningID = 0,
+        name = "Pursuit of Justice",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 172002,
+            name = "Xandria",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.317791,
+                        y = 0.303254,
+                    },
+                },
+            },
+        },
     },
     [60098] = {
-        contentTuningID = 0,
+        name = "The End is Now",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166211,
+            name = "Alexandros Mograine",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.288109,
+                        y = 0.382063,
+                    },
+                },
+            },
+        },
     },
     [60110] = {
         name = "Never Had A Friend Like Me",
@@ -5855,7 +6372,21 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [60114] = {
-        contentTuningID = 0,
+        name = "Aerial Advantage",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 167810,
+            name = "Emeni",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.280856,
+                        y = 0.375191,
+                    },
+                },
+            },
+        },
     },
     [60129] = {
         name = "Stranger in an Even Stranger Land",
@@ -6142,9 +6673,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-    },
-    [60211] = {
-        contentTuningID = 0,
     },
     [60217] = {
         name = "The Archon's Answer",
@@ -6869,7 +7397,21 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [60510] = {
-        contentTuningID = 0,
+        name = "Descended",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166333,
+            name = "Xandria",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.356187,
+                        y = 0.264993,
+                    },
+                },
+            },
+        },
     },
     [60514] = {
         name = "Hunting Trophies",
@@ -7448,6 +7990,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [60722] = {
+        name = "Tower Power",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 167205,
+            name = "Yondare Hex",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.491142,
+                        y = 0.359721,
+                    },
+                },
+            },
+        },
+    },
     [60724] = {
         name = "Heartless",
         contentTuningID = 807,
@@ -7847,10 +8406,38 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [61145] = {
-        contentTuningID = 0,
+        name = "Take The Fight To Them",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161907,
+            name = "Baroness Draka",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.497533,
+                        y = 0.50646,
+                    },
+                },
+            },
+        },
     },
     [61180] = {
-        contentTuningID = 0,
+        name = "Burn Before Reading",
+        contentTuningID = 2060,
+        source = {
+            type = "npc",
+            id = 168744,
+            name = "Artemede",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.351601,
+                        y = 0.268968,
+                    },
+                },
+            },
+        },
     },
     [61190] = {
         name = "Wake of Ashes",
@@ -7921,14 +8508,28 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [61246] = {
-        contentTuningID = 0,
-    },
-    [61252] = {
-        name = "Call In a Favor",
+        name = "Power of the Chosen",
         contentTuningID = 837,
         source = {
             type = "npc",
-            id = 171875,
+            id = 166211,
+            name = "Alexandros Mograine",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.288109,
+                        y = 0.382063,
+                    },
+                },
+            },
+        },
+    },
+    [61252] = {
+        name = "Call In a Favor",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 174343,
             name = "Khaliiq",
             locations = {
                 [1536] = {
@@ -8038,7 +8639,21 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [61396] = {
-        contentTuningID = 0,
+        name = "Dark Developments",
+        contentTuningID = 837,
+        source = {
+            type = "object",
+            id = 355825,
+            name = "Tattered Scroll",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.33494,
+                        y = 0.24111,
+                    },
+                },
+            },
+        },
     },
     [61397] = {
         name = "Opportunity Strikes",
@@ -8062,7 +8677,21 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 837,
     },
     [61412] = {
-        contentTuningID = 0,
+        name = "An Early End",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 168743,
+            name = "Apolon",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.353283,
+                        y = 0.259456,
+                    },
+                },
+            },
+        },
     },
     [61485] = {
         name = "I'll Only Say This Once",
@@ -8166,7 +8795,21 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [61567] = {
-        contentTuningID = 0,
+        name = "Grave Intent",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 167173,
+            name = "Baroness Vashj",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.286972,
+                        y = 0.376118,
+                    },
+                },
+            },
+        },
     },
     [61569] = {
         name = "Keys the Ruin",
@@ -8186,7 +8829,21 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [61586] = {
-        contentTuningID = 0,
+        name = "Machinations of War",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166535,
+            name = "Baroness Draka",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.50395,
+                        y = 0.705609,
+                    },
+                },
+            },
+        },
     },
     [61594] = {
         name = "This Way Out",
@@ -8242,6 +8899,371 @@ BtWQuestsDatabase:AddQuestsTable({
     [61730] = {
         name = "The Captive King",
         contentTuningID = 837,
+    },
+    [61739] = {
+        name = "The Wayward Baron",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173172,
+            name = "Balmedar",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.497973,
+                        y = 0.496976,
+                    },
+                },
+            },
+        },
+    },
+    [61740] = {
+        name = "Playing Favorites",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173422,
+            name = "Balmedar's Oculus",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.593478,
+                        y = 0.329917,
+                    },
+                },
+            },
+        },
+    },
+    [61741] = {
+        name = "Pilfered Power",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173422,
+            name = "Balmedar's Oculus",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.593478,
+                        y = 0.329917,
+                    },
+                },
+            },
+        },
+    },
+    [61742] = {
+        name = "A Fitting Guise",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173422,
+            name = "Balmedar's Oculus",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.593478,
+                        y = 0.329917,
+                    },
+                },
+            },
+        },
+    },
+    [61743] = {
+        name = "The Pupil Returns",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173172,
+            name = "Balmedar",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.662074,
+                        y = 0.321437,
+                    },
+                },
+            },
+        },
+    },
+    [61744] = {
+        name = "The Baron's Plan",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 172923,
+            name = "Kel'thuzad",
+            locations = {
+                [1652] = {
+                    {
+                        x = 0.501964,
+                        y = 0.517611,
+                    },
+                },
+            },
+        },
+    },
+    [61745] = {
+        name = "Mistress of Tomes",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 172923,
+            name = "Kel'thuzad",
+            locations = {
+                [1652] = {
+                    {
+                        x = 0.439843,
+                        y = 0.270503,
+                    },
+                },
+            },
+        },
+    },
+    [61746] = {
+        name = "Cantrip Collections",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 172924,
+            name = "Baroness Ninadar",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.663152,
+                        y = 0.263906,
+                    },
+                },
+            },
+        },
+    },
+    [61747] = {
+        name = "Errant Enchantments",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 172924,
+            name = "Baroness Ninadar",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.663152,
+                        y = 0.263906,
+                    },
+                },
+            },
+        },
+    },
+    [61748] = {
+        name = "The Hall of Tomes",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 172924,
+            name = "Baroness Ninadar",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.663152,
+                        y = 0.263906,
+                    },
+                },
+            },
+        },
+    },
+    [61749] = {
+        name = "Necessary Ingredients",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 172923,
+            name = "Kel'thuzad",
+            locations = {
+                [1652] = {
+                    {
+                        x = 0.439352,
+                        y = 0.2698,
+                    },
+                },
+            },
+        },
+    },
+    [61750] = {
+        name = "Heart of the Forest",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173492,
+            name = "Jor'dan the Powerful",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.699696,
+                        y = 0.327063,
+                    },
+                },
+            },
+        },
+    },
+    [61751] = {
+        name = "Cage Free Spores",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173492,
+            name = "Jor'dan the Powerful",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.699696,
+                        y = 0.327063,
+                    },
+                },
+            },
+        },
+    },
+    [61752] = {
+        name = "The Final Reagent",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173492,
+            name = "Jor'dan the Powerful",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.699696,
+                        y = 0.327063,
+                    },
+                },
+            },
+        },
+    },
+    [61753] = {
+        name = "Explosive Schemes",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173172,
+            name = "Balmedar",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.662074,
+                        y = 0.321437,
+                    },
+                },
+            },
+        },
+    },
+    [61754] = {
+        name = "No Crate Unturned",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173422,
+            name = "Balmedar's Oculus",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.581753,
+                        y = 0.312196,
+                    },
+                },
+            },
+        },
+    },
+    [61755] = {
+        name = "Blinding the Brokers",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173422,
+            name = "Balmedar's Oculus",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.581753,
+                        y = 0.312196,
+                    },
+                },
+            },
+        },
+    },
+    [61756] = {
+        name = "Designed to Fail",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173172,
+            name = "Balmedar",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.662074,
+                        y = 0.321437,
+                    },
+                },
+            },
+        },
+    },
+    [61757] = {
+        name = "Caught in the Act",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 172923,
+            name = "Kel'thuzad",
+            locations = {
+                [1652] = {
+                    {
+                        x = 0.439352,
+                        y = 0.2698,
+                    },
+                },
+            },
+        },
+    },
+    [61758] = {
+        name = "Improvised Implements",
+        contentTuningID = 837,
+    },
+    [61759] = {
+        name = "A Helpful Hand",
+        contentTuningID = 837,
+    },
+    [61760] = {
+        name = "The Traitor Unmasked",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173172,
+            name = "Balmedar",
+            locations = {
+                [1652] = {
+                    {
+                        x = 0.526502,
+                        y = 0.637252,
+                    },
+                },
+            },
+        },
+    },
+    [61761] = {
+        name = "The Better Part of Valor",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173831,
+            name = "Balmedar",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.700063,
+                        y = 0.269056,
+                    },
+                },
+            },
+        },
     },
     [61869] = {
         name = "Search the Place",
@@ -8328,7 +9350,21 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [62161] = {
-        contentTuningID = 0,
+        name = "Blood from a Bone",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161907,
+            name = "Baroness Draka",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.497533,
+                        y = 0.50646,
+                    },
+                },
+            },
+        },
     },
     [62169] = {
         name = "Eyes to the Sky",
@@ -8384,6 +9420,40 @@ BtWQuestsDatabase:AddQuestsTable({
             name = "Tal-Inara",
         },
     },
+    [62297] = {
+        name = "A Fatal Failure",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 174020,
+            name = "Captain Prateq",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.704139,
+                        y = 0.277475,
+                    },
+                },
+            },
+        },
+    },
+    [62308] = {
+        name = "Mantle of Mastery",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 172813,
+            name = "Ton'hamil",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.679667,
+                        y = 0.306714,
+                    },
+                },
+            },
+        },
+    },
     [62309] = {
         name = "Adventurer: Secutor Mevix",
         contentTuningID = 837,
@@ -8391,6 +9461,40 @@ BtWQuestsDatabase:AddQuestsTable({
     [62312] = {
         name = "Adventurer: Gunn Gorgebone",
         contentTuningID = 837,
+    },
+    [62317] = {
+        name = "Casting Doubt",
+        contentTuningID = 837,
+        source = {
+            type = "object",
+            id = 358319,
+            name = "Sorcerer's Note",
+            locations = {
+                [1652] = {
+                    {
+                        x = 0.468584,
+                        y = 0.314394,
+                    },
+                },
+            },
+        },
+    },
+    [62320] = {
+        name = "Regalia de Rigueur",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 174120,
+            name = "Moret the Vogue",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.716864,
+                        y = 0.328947,
+                    },
+                },
+            },
+        },
     },
     [62371] = {
         name = "Tirna Scithe: A Warning Silence",
@@ -8409,11 +9513,82 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [62388] = {
+        name = "House of Rituals",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161907,
+            name = "Baroness Draka",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.497533,
+                        y = 0.50646,
+                    },
+                },
+            },
+        },
+    },
     [62391] = {
-        contentTuningID = 0,
+        name = "Mobilize Maldraxxus",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161907,
+            name = "Baroness Draka",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.497533,
+                        y = 0.50646,
+                    },
+                },
+            },
+        },
     },
     [62406] = {
-        contentTuningID = 0,
+        name = "Staff of the Primus",
+        contentTuningID = 2060,
+        source = {
+            type = "npc",
+            id = 161907,
+            name = "Baroness Draka",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.497533,
+                        y = 0.50646,
+                    },
+                },
+            },
+        },
+    },
+    [62414] = {
+        name = "Burying Suspicion",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173422,
+            name = "Balmedar's Oculus",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.593478,
+                        y = 0.329917,
+                    },
+                },
+            },
+        },
+    },
+    [62448] = {
+        name = "Securing the House",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 171483,
+            name = "Baroness Draka",
+        },
     },
     [62458] = {
         name = "De Other Side",
