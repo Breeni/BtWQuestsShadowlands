@@ -1278,13 +1278,9 @@ Database:AddChain(Chain.Chain03, {
     },
     items = {
         {
-            name = "Update Connections",
-            aside = true,
-        },
-        {
             type = "npc",
             id = 158345,
-            x = 0,
+            x = -1,
             connections = {
                 1, 
             },
@@ -1292,51 +1288,45 @@ Database:AddChain(Chain.Chain03, {
         {
             type = "quest",
             id = 57651,
-            x = 0,
+            x = -1,
             connections = {
-                3, 4, 
+                2, 3, 
             },
         },
         {
             type = "chain",
-            id = Chain.EmbedChain03,
+            id = 90323,
             embed = true,
             x = 3,
         },
         {
-            type = "chain",
-            id = Chain.EmbedChain04,
-            embed = true,
-            x = -3,
-            y = 3,
-        },
-        {
             type = "quest",
             id = 59621,
-            x = -1,
-            y = 3,
+            x = -2,
+            y = 2,
             connections = {
-                2, 
+                2, 3, 4, 
             },
         },
         {
             type = "quest",
             id = 59622,
             connections = {
-                1, 
+                1, 2, 3, 
             },
         },
         {
             type = "quest",
-            id = 57653,
-            x = 0,
+            id = 57655,
+            x = -3,
         },
         {
-            type = "chain",
-            id = Chain.EmbedChain05,
-            embed = true,
-            x = 3,
-            y = 5,
+            type = "quest",
+            id = 57653,
+        },
+        {
+            type = "quest",
+            id = 57656,
         },
     },
 })
