@@ -188,6 +188,28 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [353948] = {
+        name = "Medallion of Desire",
+        locations = {
+            [1699] = {
+                {
+                    x = 0.535786,
+                    y = 0.329878,
+                },
+            },
+        },
+    },
+    [353949] = {
+        name = "Medallion of Avarice",
+        locations = {
+            [1699] = {
+                {
+                    x = 0.548857,
+                    y = 0.310307,
+                },
+            },
+        },
+    },
     [355296] = {
         name = "Bounty: Beast Control",
         locations = {
