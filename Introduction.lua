@@ -492,7 +492,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
     },
 })
 Database:AddChain(Chain.TheMawEmbed, {
-    name = "The Maw",
+    name = "Return to The Maw",
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
@@ -507,24 +507,9 @@ Database:AddChain(Chain.TheMawEmbed, {
     },
     items = {
         {
-            type = "npc",
-            id = 172543,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 61496,
-            x = -1,
-            connections = {
-                2, 3, 
-            },
-        },
-        {
             type = "kill",
             id = 171783,
+            x = 1,
             connections = {
                 2, 
             },
