@@ -261,7 +261,7 @@ Database:AddChain(Chain.TheHouseOfEyes, {
     },
     active = {
         type = "quest",
-        id = 62448,
+        id = 59555,
         status = {'active', 'completed'}
     },
     completed = {
@@ -277,14 +277,14 @@ Database:AddChain(Chain.TheHouseOfEyes, {
                 1, 
             },
         },
-        {
-            type = "quest",
-            id = 62448,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
+        -- { -- Renown requirement
+        --     type = "quest",
+        --     id = 62448,
+        --     x = 0,
+        --     connections = {
+        --         1, 
+        --     },
+        -- },
         {
             type = "quest",
             id = 59555,
@@ -417,7 +417,7 @@ Database:AddChain(Chain.GrandTheftNecropolis, {
     },
     active = {
         type = "quest",
-        id = 62169,
+        id = 57778,
         status = {'active', 'completed'}
     },
     completed = {
@@ -434,14 +434,14 @@ Database:AddChain(Chain.GrandTheftNecropolis, {
                 1, 
             },
         },
-        {
-            type = "quest",
-            id = 62169,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
+        -- { -- Renown requirement
+        --     type = "quest",
+        --     id = 62169,
+        --     x = 0,
+        --     connections = {
+        --         1, 
+        --     },
+        -- },
         {
             type = "quest",
             id = 57778,
@@ -750,7 +750,7 @@ Database:AddChain(Chain.AGoldenDawn, {
     },
     active = {
         type = "quest",
-        id = 61586,
+        id = 61145,
         status = {'active', 'completed'}
     },
     completed = {
@@ -766,14 +766,14 @@ Database:AddChain(Chain.AGoldenDawn, {
                 1, 
             },
         },
-        {
-            type = "quest",
-            id = 61586,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
+        -- { -- Renown requirement
+        --     type = "quest",
+        --     id = 61586,
+        --     x = 0,
+        --     connections = {
+        --         1, 
+        --     },
+        -- },
         {
             type = "quest",
             id = 61145,
@@ -984,7 +984,7 @@ Database:AddChain(Chain.TheWagesOfSin, {
     },
     active = {
         type = "quest",
-        id = 62161,
+        id = 58504,
         status = {'active', 'completed'}
     },
     completed = {
@@ -1000,14 +1000,14 @@ Database:AddChain(Chain.TheWagesOfSin, {
                 1, 
             },
         },
-        {
-            type = "quest",
-            id = 62161,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
+        -- { -- Renown requirement
+        --     type = "quest",
+        --     id = 62161,
+        --     x = 0,
+        --     connections = {
+        --         1, 
+        --     },
+        -- },
         {
             type = "quest",
             id = 58504,
@@ -1116,7 +1116,7 @@ Database:AddChain(Chain.TheHouseOfRituals, {
     },
     active = {
         type = "quest",
-        id = 62388,
+        id = 61739,
         status = {'active', 'completed'}
     },
     completed = {
@@ -1126,20 +1126,20 @@ Database:AddChain(Chain.TheHouseOfRituals, {
     items = {
         {
             type = "npc",
-            id = 161907,
+            id = 173172,
             x = 0,
             connections = {
                 1, 
             },
         },
-        {
-            type = "quest",
-            id = 62388,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
+        -- { -- Renown requirement
+        --     type = "quest",
+        --     id = 62388,
+        --     x = 0,
+        --     connections = {
+        --         1, 
+        --     },
+        -- },
         {
             type = "quest",
             id = 61739,
@@ -1422,7 +1422,7 @@ Database:AddChain(Chain.AssaultOnTheHouseOfRituals, {
     },
     active = {
         type = "quest",
-        id = 62391,
+        id = 58833,
         status = {'active', 'completed'}
     },
     completed = {
@@ -1438,14 +1438,14 @@ Database:AddChain(Chain.AssaultOnTheHouseOfRituals, {
                 1, 
             },
         },
-        {
-            type = "quest",
-            id = 62391,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
+        -- {
+        --     type = "quest",
+        --     id = 62391,
+        --     x = 0,
+        --     connections = {
+        --         1, 
+        --     },
+        -- },
         {
             type = "quest",
             id = 58833,
