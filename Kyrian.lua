@@ -1,4 +1,4 @@
--- AUTO GENERATED - NEEDS UPDATING
+-- Missing Rewards and Translated names
 
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
