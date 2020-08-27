@@ -105,6 +105,210 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [57113] = {
+        name = "On Lysonia's Trail",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 160037,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.556667,
+                        y = 0.42,
+                    },
+                },
+            },
+        },
+    },
+    [57114] = {
+        name = "Aerial Reconnaissance",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 156361,
+            name = "Kleia",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.618527,
+                        y = 0.436137,
+                    },
+                },
+            },
+        },
+    },
+    [57115] = {
+        name = "Sacred Scrolls of Humility",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 156327,
+            name = "Voitha",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.660463,
+                        y = 0.470952,
+                    },
+                },
+            },
+        },
+    },
+    [57116] = {
+        name = "Succumbing to Pride",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 156361,
+            name = "Kleia",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.658821,
+                        y = 0.469108,
+                    },
+                },
+            },
+        },
+    },
+    [57117] = {
+        name = "Fallen to Their Vices",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 156327,
+            name = "Voitha",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.660463,
+                        y = 0.470952,
+                    },
+                },
+            },
+        },
+    },
+    [57118] = {
+        name = "Distorted by the Maw",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 156327,
+            name = "Voitha",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.660463,
+                        y = 0.470952,
+                    },
+                },
+            },
+        },
+    },
+    [57120] = {
+        name = "Compassion, Blade of Humility",
+        contentTuningID = 0,
+        source = {
+            type = "object",
+            id = 353472,
+            name = "Radiant Sword",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.647419,
+                        y = 0.456728,
+                    },
+                },
+            },
+        },
+    },
+    [57121] = {
+        name = "The Power of the Maw",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 156474,
+            name = "Chyrus",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.690934,
+                        y = 0.407121,
+                    },
+                },
+            },
+        },
+    },
+    [57122] = {
+        name = "A Step Too Far",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 170375,
+            name = "Kleia",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.337928,
+                        y = 0.557345,
+                    },
+                },
+            },
+        },
+    },
+    [57123] = {
+        name = "Kyrian No More",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 170375,
+            name = "Kleia",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.337928,
+                        y = 0.557345,
+                    },
+                },
+            },
+        },
+    },
+    [57124] = {
+        name = "Her Will, Inflicted",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 170375,
+            name = "Kleia",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.337928,
+                        y = 0.557345,
+                    },
+                },
+            },
+        },
+    },
+    [57125] = {
+        name = "Time to Reflect",
+        contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 169850,
+            name = "Uther",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.256493,
+                        y = 0.651744,
+                    },
+                },
+            },
+        },
+    },
     [57131] = {
         name = "Let the Hunt Begin",
         contentTuningID = 746,
@@ -242,6 +446,23 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 168217,
             name = "The Accuser",
+        },
+    },
+    [57207] = {
+        name = "Lysonia's Plan",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 156361,
+            name = "Kleia",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.683788,
+                        y = 0.416399,
+                    },
+                },
+            },
         },
     },
     [57240] = {
@@ -1752,6 +1973,134 @@ BtWQuestsDatabase:AddQuestsTable({
             name = "Tal-Inara",
         },
     },
+    [57895] = {
+        name = "Elysian Hold",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 168906,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.584392,
+                        y = 0.289147,
+                    },
+                },
+            },
+        },
+    },
+    [57896] = {
+        name = "The Archon's Will",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 160037,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.556667,
+                        y = 0.42,
+                    },
+                },
+            },
+        },
+    },
+    [57897] = {
+        name = "Dangerous to Go Alone",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 169045,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.628792,
+                        y = 0.287332,
+                    },
+                },
+            },
+        },
+    },
+    [57898] = {
+        name = "Soul Meets Body",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 160212,
+            name = "Soulguide Daelia",
+            locations = {
+                [1708] = {
+                    {
+                        x = 0.594957,
+                        y = 0.342124,
+                    },
+                },
+            },
+        },
+    },
+    [57899] = {
+        name = "More Work?",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 160212,
+            name = "Soulguide Daelia",
+            locations = {
+                [1708] = {
+                    {
+                        x = 0.594957,
+                        y = 0.342124,
+                    },
+                },
+            },
+        },
+    },
+    [57900] = {
+        name = "Our Eternal Charge",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160389,
+            name = "Koros",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.438353,
+                        y = 0.40708,
+                    },
+                },
+            },
+        },
+    },
+    [57904] = {
+        name = "Return to Adrestes",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160389,
+            name = "Koros",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.438353,
+                        y = 0.40708,
+                    },
+                },
+            },
+        },
+    },
+    [57905] = {
+        name = "A Unique Opportunity",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160037,
+            name = "Polemarch Adrestes",
+        },
+    },
     [57908] = {
         name = "The True Crucible Awaits",
         contentTuningID = 743,
@@ -2664,8 +3013,15 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 807,
         source = {
             type = "npc",
-            id = 169153,
-            name = "Brigdin",
+            id = 160440,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.643888,
+                        y = 0.351862,
+                    },
+                },
+            },
         },
     },
     [58162] = {
@@ -2765,6 +3121,159 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.53506,
                         y = 0.872724,
+                    },
+                },
+            },
+        },
+    },
+    [58175] = {
+        name = "The Eternal Forge",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 160037,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.556667,
+                        y = 0.42,
+                    },
+                },
+            },
+        },
+    },
+    [58176] = {
+        name = "Stewards of a Feather",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 160648,
+            name = "Sika",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501082,
+                        y = 0.20596,
+                    },
+                },
+            },
+        },
+    },
+    [58177] = {
+        name = "Refining Ego",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501447,
+                        y = 0.204677,
+                    },
+                },
+            },
+        },
+    },
+    [58178] = {
+        name = "A Partner for Eternity",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501447,
+                        y = 0.204677,
+                    },
+                },
+            },
+        },
+    },
+    [58179] = {
+        name = "Instruments of Perfection",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 160648,
+            name = "Sika",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501082,
+                        y = 0.20596,
+                    },
+                },
+            },
+        },
+    },
+    [58180] = {
+        name = "Phaestus, Genesis of Aeons",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501447,
+                        y = 0.204677,
+                    },
+                },
+            },
+        },
+    },
+    [58181] = {
+        name = "Building the Base",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.452753,
+                        y = 0.566166,
+                    },
+                },
+            },
+        },
+    },
+    [58182] = {
+        name = "Dismantling the Opposition",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501447,
+                        y = 0.204677,
+                    },
+                },
+            },
+        },
+    },
+    [58183] = {
+        name = "Friend to the Forgelite",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501447,
+                        y = 0.204677,
                     },
                 },
             },
@@ -3026,6 +3535,261 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.71505,
                         y = 0.546863,
+                    },
+                },
+            },
+        },
+    },
+    [58557] = {
+        name = "Assistance from Sinfall",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 160037,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.556667,
+                        y = 0.42,
+                    },
+                },
+            },
+        },
+    },
+    [58558] = {
+        name = "Overhead Intelligence",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 161544,
+            name = "The Curator",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.603451,
+                        y = 0.608795,
+                    },
+                },
+            },
+        },
+    },
+    [58559] = {
+        name = "Eyes of the Master",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 161540,
+            name = "Kleia",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.602678,
+                        y = 0.60843,
+                    },
+                },
+            },
+        },
+    },
+    [58560] = {
+        name = "Gothic Fashion",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 165011,
+            name = "Pelagos",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.50521,
+                        y = 0.531772,
+                    },
+                },
+            },
+        },
+    },
+    [58561] = {
+        name = "Shards of the Countess",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 161540,
+            name = "Kleia",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.564077,
+                        y = 0.414768,
+                    },
+                },
+            },
+        },
+    },
+    [58562] = {
+        name = "Collecting Dust",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 161544,
+            name = "The Curator",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.564194,
+                        y = 0.41383,
+                    },
+                },
+            },
+        },
+    },
+    [58563] = {
+        name = "Through Glass",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 161544,
+            name = "The Curator",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.552284,
+                        y = 0.347799,
+                    },
+                },
+            },
+        },
+    },
+    [58564] = {
+        name = "Sins of the Past",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 161544,
+            name = "The Curator",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.779576,
+                        y = 0.396369,
+                    },
+                },
+            },
+        },
+    },
+    [58565] = {
+        name = "Land of Light",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 161544,
+            name = "The Curator",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.581632,
+                        y = 0.27602,
+                    },
+                },
+            },
+        },
+    },
+    [58566] = {
+        name = "Actions Speak Louder than Words",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 161553,
+            name = "Mindscorched Alwin",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.319184,
+                        y = 0.475698,
+                    },
+                },
+            },
+        },
+    },
+    [58567] = {
+        name = "Skulking in the Darkness",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 161540,
+            name = "Kleia",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.319572,
+                        y = 0.477056,
+                    },
+                },
+            },
+        },
+    },
+    [58568] = {
+        name = "Light Respite",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 161540,
+            name = "Kleia",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.319572,
+                        y = 0.477056,
+                    },
+                },
+            },
+        },
+    },
+    [58569] = {
+        name = "The Folly of Envy",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 161553,
+            name = "Mindscorched Alwin",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.399928,
+                        y = 0.590565,
+                    },
+                },
+            },
+        },
+    },
+    [58570] = {
+        name = "Parting Words",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 161540,
+            name = "Kleia",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.399383,
+                        y = 0.590361,
+                    },
+                },
+            },
+        },
+    },
+    [58571] = {
+        name = "The Seal of Contrition",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 162149,
+            name = "Mikanikos",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.456344,
+                        y = 0.571343,
                     },
                 },
             },
@@ -3651,6 +4415,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [58775] = {
+        name = "Meet the Queen",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160037,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.556667,
+                        y = 0.42,
+                    },
+                },
+            },
+        },
+    },
     [58785] = {
         name = "Smack And Grab",
         contentTuningID = 745,
@@ -3668,6 +4449,125 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [58787] = {
+        name = "Trial of Ascension",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160037,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.556667,
+                        y = 0.42,
+                    },
+                },
+            },
+        },
+    },
+    [58788] = {
+        name = "Censers of Guidance",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 162542,
+            name = "Kleia",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.331848,
+                        y = 0.261401,
+                    },
+                },
+            },
+        },
+    },
+    [58789] = {
+        name = "Misguiding Mentors",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 162544,
+            name = "Achillon",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.33248,
+                        y = 0.26153,
+                    },
+                },
+            },
+        },
+    },
+    [58790] = {
+        name = "To Cross the Veil",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 162542,
+            name = "Kleia",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.321247,
+                        y = 0.212617,
+                    },
+                },
+            },
+        },
+    },
+    [58791] = {
+        name = "A Day in the Life",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 162558,
+            name = "Alithea",
+            locations = {
+                [49] = {
+                    {
+                        x = 0.324349,
+                        y = 0.396854,
+                    },
+                },
+            },
+        },
+    },
+    [58792] = {
+        name = "Where a Soul Belongs",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 162558,
+            name = "Alithea",
+            locations = {
+                [49] = {
+                    {
+                        x = 0.324349,
+                        y = 0.396854,
+                    },
+                },
+            },
+        },
+    },
+    [58793] = {
+        name = "Faith Through the Darkness",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 162542,
+            name = "Kleia",
+            locations = {
+                [1671] = {
+                    {
+                        x = 0.495049,
+                        y = 0.613827,
+                    },
+                },
+            },
+        },
+    },
     [58794] = {
         name = "Stabbing Wasteward",
         contentTuningID = 745,
@@ -3680,6 +4580,74 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.468795,
                         y = 0.485786,
+                    },
+                },
+            },
+        },
+    },
+    [58795] = {
+        name = "Ascended",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160037,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.478862,
+                        y = 0.536782,
+                    },
+                },
+            },
+        },
+    },
+    [58796] = {
+        name = "The Forsworn Onslaught",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 163650,
+            name = "Kleia",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.51551,
+                        y = 0.477185,
+                    },
+                },
+            },
+        },
+    },
+    [58797] = {
+        name = "Forged by Trial",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 163650,
+            name = "Kleia",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.51551,
+                        y = 0.477185,
+                    },
+                },
+            },
+        },
+    },
+    [58798] = {
+        name = "The Spires of Ascension",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 163650,
+            name = "Kleia",
+            locations = {
+                [1708] = {
+                    {
+                        x = 0.6024,
+                        y = 0.341092,
                     },
                 },
             },
@@ -3719,6 +4687,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [58816] = {
+        name = "Getting Backstage",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 162679,
+            name = "Willowblossom",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.405871,
+                        y = 0.563746,
+                    },
+                },
+            },
+        },
+    },
     [58820] = {
         name = "Bindings of Fleshcrafting",
         contentTuningID = 1930,
@@ -3752,6 +4737,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+    },
+    [58832] = {
+        name = "Trinkle Trinkle Little Twerp",
+        contentTuningID = 837,
     },
     [58833] = {
         name = "Calling in All Favors",
@@ -3787,6 +4776,108 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [58844] = {
+        name = "Before the Dawn",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160037,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.556667,
+                        y = 0.42,
+                    },
+                },
+            },
+        },
+    },
+    [58846] = {
+        name = "The Greater Good",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 164473,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.313904,
+                        y = 0.234101,
+                    },
+                },
+            },
+        },
+    },
+    [58847] = {
+        name = "Kyrestia's Grace",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166693,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.674214,
+                        y = 0.15239,
+                    },
+                },
+            },
+        },
+    },
+    [58854] = {
+        name = "Convene the Paragons",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160037,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.556667,
+                        y = 0.42,
+                    },
+                },
+            },
+        },
+    },
+    [58856] = {
+        name = "Who Are You Fooling?",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 162392,
+            name = "Willowblossom",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.440433,
+                        y = 0.517947,
+                    },
+                },
+            },
+        },
+    },
+    [58857] = {
+        name = "Seeds Away!",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 162392,
+            name = "Willowblossom",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.505342,
+                        y = 0.689187,
+                    },
+                },
+            },
+        },
+    },
     [58869] = {
         name = "Battle for Hibernal Hollow",
         contentTuningID = 807,
@@ -3816,6 +4907,23 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.544781,
                         y = 0.485941,
+                    },
+                },
+            },
+        },
+    },
+    [58905] = {
+        name = "Picking Up Pelagos",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 162679,
+            name = "Willowblossom",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.405871,
+                        y = 0.563746,
                     },
                 },
             },
@@ -3860,6 +4968,57 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [58937] = {
+        name = "Evil Grubbies",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 162392,
+            name = "Willowblossom",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.505342,
+                        y = 0.689187,
+                    },
+                },
+            },
+        },
+    },
+    [58938] = {
+        name = "Gorm Ruin Everything",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 162392,
+            name = "Willowblossom",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.505342,
+                        y = 0.689187,
+                    },
+                },
+            },
+        },
+    },
+    [58939] = {
+        name = "The Blue Seed",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165110,
+            name = "Pelagos",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.531719,
+                        y = 0.745873,
+                    },
+                },
+            },
+        },
+    },
     [58941] = {
         name = "Alpha Bat",
         contentTuningID = 746,
@@ -3881,6 +5040,74 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.544781,
                         y = 0.485941,
+                    },
+                },
+            },
+        },
+    },
+    [58948] = {
+        name = "Food on the Table",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 162953,
+            name = "Sarah Howell",
+            locations = {
+                [49] = {
+                    {
+                        x = 0.215912,
+                        y = 0.420324,
+                    },
+                },
+            },
+        },
+    },
+    [58949] = {
+        name = "Millie's Garden",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 162953,
+            name = "Sarah Howell",
+            locations = {
+                [49] = {
+                    {
+                        x = 0.215912,
+                        y = 0.420324,
+                    },
+                },
+            },
+        },
+    },
+    [58950] = {
+        name = "Lumber for Lakeshire",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 162953,
+            name = "Sarah Howell",
+            locations = {
+                [49] = {
+                    {
+                        x = 0.215912,
+                        y = 0.420324,
+                    },
+                },
+            },
+        },
+    },
+    [58951] = {
+        name = "Lakeshire's Last Stand",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 163111,
+            name = "Magistrate Solomon",
+            locations = {
+                [49] = {
+                    {
+                        x = 0.289096,
+                        y = 0.411114,
                     },
                 },
             },
@@ -3971,6 +5198,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [58995] = {
+        name = "I Dreamed A Dream",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 163328,
+            name = "Pelagos",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.45231,
+                        y = 0.653536,
+                    },
+                },
+            },
+        },
+    },
     [58996] = {
         name = "Abel's Fate",
         contentTuningID = 746,
@@ -3983,6 +5227,23 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.485077,
                         y = 0.684418,
+                    },
+                },
+            },
+        },
+    },
+    [58997] = {
+        name = "A Bittersweet Prize",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 163328,
+            name = "Pelagos",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.45231,
+                        y = 0.653536,
                     },
                 },
             },
@@ -5834,6 +7095,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [59919] = {
+        name = "An Earned Bond",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160037,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.478889,
+                        y = 0.536667,
+                    },
+                },
+            },
+        },
+    },
     [59920] = {
         name = "Light the Forge, Forgelite",
         contentTuningID = 743,
@@ -6881,6 +8159,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [60232] = {
+        name = "Souls of the Damned",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160212,
+            name = "Soulguide Daelia",
+            locations = {
+                [1708] = {
+                    {
+                        x = 0.594957,
+                        y = 0.342124,
+                    },
+                },
+            },
+        },
+    },
     [60235] = {
         name = "Newfound Power",
         contentTuningID = 743,
@@ -7373,6 +8668,57 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 168698,
             name = "Chiselgrump",
+        },
+    },
+    [60491] = {
+        name = "Among the Kyrian",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 171787,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.361598,
+                        y = 0.641775,
+                    },
+                },
+            },
+        },
+    },
+    [60492] = {
+        name = "A Proper Reception",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 168742,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.567598,
+                        y = 0.314339,
+                    },
+                },
+            },
+        },
+    },
+    [60504] = {
+        name = "Strengthen the Bond",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 160212,
+            name = "Soulguide Daelia",
+            locations = {
+                [1708] = {
+                    {
+                        x = 0.594957,
+                        y = 0.342124,
+                    },
+                },
+            },
         },
     },
     [60506] = {
@@ -8425,6 +9771,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [61135] = {
+        name = "Heart of the Crest",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160037,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.556667,
+                        y = 0.42,
+                    },
+                },
+            },
+        },
+    },
     [61145] = {
         name = "Take The Fight To Them",
         contentTuningID = 837,
@@ -8730,6 +10093,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [61495] = {
+        name = "Soul Salvation",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160212,
+            name = "Soulguide Daelia",
+            locations = {
+                [1708] = {
+                    {
+                        x = 0.594957,
+                        y = 0.342124,
+                    },
+                },
+            },
+        },
+    },
     [61496] = {
         name = "A Familiar Energy",
         contentTuningID = 0,
@@ -8877,6 +10257,23 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.296254,
                         y = 0.439432,
+                    },
+                },
+            },
+        },
+    },
+    [61697] = {
+        name = "A New Age",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 174177,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.436783,
+                        y = 0.665699,
                     },
                 },
             },
@@ -9285,6 +10682,295 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [61767] = {
+        name = "A Perilous Journey",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 154627,
+            name = "Xandria",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.621976,
+                        y = 0.377551,
+                    },
+                },
+            },
+        },
+    },
+    [61768] = {
+        name = "Stronger Together",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173222,
+            name = "Xandria",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.377876,
+                        y = 0.294525,
+                    },
+                },
+            },
+        },
+    },
+    [61769] = {
+        name = "Fight and Flight",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 171483,
+            name = "Baroness Draka",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.363188,
+                        y = 0.366276,
+                    },
+                },
+            },
+        },
+    },
+    [61770] = {
+        name = "The Butchers of Bastion",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 168743,
+            name = "Apolon",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.353246,
+                        y = 0.259438,
+                    },
+                },
+            },
+        },
+    },
+    [61771] = {
+        name = "Justice from Above",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166333,
+            name = "Xandria",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.356191,
+                        y = 0.264959,
+                    },
+                },
+            },
+        },
+    },
+    [61772] = {
+        name = "Dark Developments",
+        contentTuningID = 837,
+        source = {
+            type = "object",
+            id = 357246,
+            name = "Tattered Scroll",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.334947,
+                        y = 0.241082,
+                    },
+                },
+            },
+        },
+    },
+    [61773] = {
+        name = "Descended",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166333,
+            name = "Xandria",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.356191,
+                        y = 0.264959,
+                    },
+                },
+            },
+        },
+    },
+    [61774] = {
+        name = "Burn Before Reading",
+        contentTuningID = 1930,
+        source = {
+            type = "npc",
+            id = 168744,
+            name = "Artemede",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.351601,
+                        y = 0.268968,
+                    },
+                },
+            },
+        },
+    },
+    [61775] = {
+        name = "An Early End",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 168743,
+            name = "Apolon",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.353246,
+                        y = 0.259438,
+                    },
+                },
+            },
+        },
+    },
+    [61776] = {
+        name = "Trouble on the Western Front",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 168860,
+            name = "Kynthia",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.354521,
+                        y = 0.265025,
+                    },
+                },
+            },
+        },
+    },
+    [61777] = {
+        name = "Charging The Blade",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166211,
+            name = "Alexandros Mograine",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.288109,
+                        y = 0.382063,
+                    },
+                },
+            },
+        },
+    },
+    [61778] = {
+        name = "Aerial Advantage",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 167810,
+            name = "Emeni",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.280869,
+                        y = 0.375167,
+                    },
+                },
+            },
+        },
+    },
+    [61779] = {
+        name = "Grave Intent",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 167173,
+            name = "Baroness Vashj",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.286932,
+                        y = 0.37614,
+                    },
+                },
+            },
+        },
+    },
+    [61780] = {
+        name = "Power of the Chosen",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166211,
+            name = "Alexandros Mograine",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.288109,
+                        y = 0.382063,
+                    },
+                },
+            },
+        },
+    },
+    [61781] = {
+        name = "The End is Now",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166211,
+            name = "Alexandros Mograine",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.288109,
+                        y = 0.382063,
+                    },
+                },
+            },
+        },
+    },
+    [61782] = {
+        name = "Pursuit of Justice",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 172002,
+            name = "Xandria",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.317785,
+                        y = 0.303196,
+                    },
+                },
+            },
+        },
+    },
+    [61785] = {
+        name = "An Expected Visitor",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160037,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.556667,
+                        y = 0.42,
+                    },
+                },
+            },
+        },
+    },
     [61869] = {
         name = "Search the Place",
         contentTuningID = 837,
@@ -9305,6 +10991,57 @@ BtWQuestsDatabase:AddQuestsTable({
     [61874] = {
         name = "A Chilling Summons",
         contentTuningID = 1400,
+    },
+    [61876] = {
+        name = "Take Heart",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173193,
+            name = "Xandria",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.310419,
+                        y = 0.291663,
+                    },
+                },
+            },
+        },
+    },
+    [61877] = {
+        name = "Return to the Hold",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173193,
+            name = "Xandria",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.310419,
+                        y = 0.291663,
+                    },
+                },
+            },
+        },
+    },
+    [61878] = {
+        name = "Crest of Greatness",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173313,
+            name = "Xandria",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.389315,
+                        y = 0.597764,
+                    },
+                },
+            },
+        },
     },
     [61946] = {
         name = "Natural Defenders",
@@ -9410,6 +11147,10 @@ BtWQuestsDatabase:AddQuestsTable({
     [62189] = {
         name = "Parasol Components",
         contentTuningID = 746,
+    },
+    [62237] = {
+        name = "Mysterious Soul Mirror",
+        contentTuningID = 2060,
     },
     [62246] = {
         name = "A Fallen Friend",
@@ -9642,6 +11383,32 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                 },
             },
+        },
+    },
+    [62555] = {
+        name = "A Touch of Humility",
+        contentTuningID = 1388,
+        source = {
+            type = "npc",
+            id = 160037,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.556667,
+                        y = 0.42,
+                    },
+                },
+            },
+        },
+    },
+    [62557] = {
+        name = "Our Realm Reclaimed",
+        contentTuningID = 2060,
+        source = {
+            type = "npc",
+            id = 160037,
+            name = "Polemarch Adrestes",
         },
     },
     [62654] = {

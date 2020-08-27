@@ -11,11 +11,13 @@ Category.Bastion = 901
 Category.Maldraxxus = 902
 Category.Ardenweald = 903
 Category.Revendreth = 904
+Category.Kyrian = 906
 Category.Necrolord = 907
 Chain.Bastion = {}
 Chain.Maldraxxus = {}
 Chain.Ardenweald = {}
 Chain.Revendreth = {}
+Chain.Kyrian = {}
 Chain.Necrolord = {}
 
 do
