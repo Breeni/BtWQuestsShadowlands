@@ -1552,9 +1552,6 @@ BtWQuestsDatabase:AddQuestsTable({
             name = "Breakfist",
         },
     },
-    [57738] = {
-        contentTuningID = 0,
-    },
     [57778] = {
         name = "The Maldraxxian Job",
         contentTuningID = 837,
@@ -3176,7 +3173,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171821,
-            name = "Baroness Draka",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.429622,
+                        y = 0.742122,
+                    },
+                },
+            },
         },
     },
     [58616] = {
@@ -4703,12 +4707,11 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158453,
-            name = "Baroness Draka",
             locations = {
                 [1698] = {
                     {
-                        x = 0.495071,
-                        y = 0.217976,
+                        x = 0.495066,
+                        y = 0.218072,
                     },
                 },
             },
@@ -6349,6 +6352,23 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.3831,
                         y = 0.367669,
+                    },
+                },
+            },
+        },
+    },
+    [60111] = {
+        name = "Forging A Friendship",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161905,
+            name = "Bonesmith Heirmir",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.428368,
+                        y = 0.319905,
                     },
                 },
             },
@@ -8712,15 +8732,15 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [61496] = {
         name = "A Familiar Energy",
-        contentTuningID = 837,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 172543,
             locations = {
-                [1701] = {
+                [1698] = {
                     {
-                        x = 0.339654,
-                        y = 0.426709,
+                        x = 0.469269,
+                        y = 0.430799,
                     },
                 },
             },
@@ -9619,6 +9639,23 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.530728,
                         y = 0.414114,
+                    },
+                },
+            },
+        },
+    },
+    [62654] = {
+        name = "Maw Walker",
+        contentTuningID = 1337,
+        source = {
+            type = "npc",
+            id = 162804,
+            name = "Ve'nari",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.469532,
+                        y = 0.417087,
                     },
                 },
             },

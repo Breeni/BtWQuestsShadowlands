@@ -493,8 +493,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1698] = {
                 {
-                    x = 0.495071,
-                    y = 0.217976,
+                    x = 0.494326,
+                    y = 0.219149,
                 },
             },
         },
@@ -1186,8 +1186,19 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1698] = {
                 {
-                    x = 0.389031,
-                    y = 0.32274,
+                    x = 0.389362,
+                    y = 0.323404,
+                },
+            },
+        },
+    },
+    [161905] = {
+        name = "Bonesmith Heirmir",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.428368,
+                    y = 0.319905,
                 },
             },
         },
@@ -1615,8 +1626,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1698] = {
                 {
-                    x = 0.496989,
-                    y = 0.43796,
+                    x = 0.495745,
+                    y = 0.440426,
                 },
             },
         },
@@ -2157,8 +2168,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1698] = {
                 {
-                    x = 0.466306,
-                    y = 0.423772,
+                    x = 0.465957,
+                    y = 0.425532,
                 },
             },
         },
@@ -3062,8 +3073,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1536] = {
                 {
-                    x = 0.704139,
-                    y = 0.277475,
+                    x = 0.70414,
+                    y = 0.27754,
                 },
             },
         },
