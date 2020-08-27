@@ -17,7 +17,7 @@ local LEVEL_PREREQUISITES = {
 
 Chain.Sinfall = 90901
 Chain.ReturnToTheMaw = 90902
-Chain.TheCourt = 90903
+Chain.TheCourtOfHarvesters = 90903
 Chain.Desire = 90904
 Chain.Avarice = 90905
 Chain.TheCrownedPrince = 90906
@@ -29,7 +29,7 @@ Chain.OtherHorde = 90998
 Chain.OtherBoth = 90999
 
 Database:AddChain(Chain.Sinfall, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 1),
+    name = "Sinfall",
     questline = 1065,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -187,8 +187,8 @@ Database:AddChain(Chain.ReturnToTheMaw, {
         },
     },
 })
-Database:AddChain(Chain.TheCourt, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
+Database:AddChain(Chain.TheCourtOfHarvesters, {
+    name = "The Court of Harvesters",
     questline = 1069,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -303,7 +303,7 @@ Database:AddChain(Chain.TheCourt, {
     },
 })
 Database:AddChain(Chain.Desire, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 3),
+    name = "Desire",
     questline = 1039,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -437,7 +437,7 @@ Database:AddChain(Chain.Desire, {
     },
 })
 Database:AddChain(Chain.Avarice, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
+    name = "Avarice",
     questline = 1024,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -553,7 +553,7 @@ Database:AddChain(Chain.Avarice, {
     },
 })
 Database:AddChain(Chain.TheCrownedPrince, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 5),
+    name = "The Crowned Prince",
     questline = 1026,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -693,7 +693,7 @@ Database:AddChain(Chain.TheCrownedPrince, {
     },
 })
 Database:AddChain(Chain.ConfrontingSin, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 6),
+    name = "Confronting Sin",
     questline = 1017,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -855,7 +855,7 @@ Database:AddChain(Chain.ConfrontingSin, {
     },
 })
 Database:AddChain(Chain.Envy, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 7),
+    name = "Envy",
     questline = 1041,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -940,7 +940,7 @@ Database:AddChain(Chain.Envy, {
     },
 })
 Database:AddChain(Chain.Dominion, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 8),
+    name = "Dominion",
     questline = 1018,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1030,7 +1030,7 @@ Database:AddCategory(CATEGORY_ID, {
         },
         {
             type = "chain",
-            id = Chain.TheCourt,
+            id = Chain.TheCourtOfHarvesters,
         },
         {
             type = "chain",
