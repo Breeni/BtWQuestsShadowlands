@@ -5,18 +5,10 @@ local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
 local CATEGORY_ID = BtWQuests.Constant.Category.Shadowlands.NightFae
 local Chain = BtWQuests.Constant.Chain.Shadowlands.NightFae
-local ALLIANCE_RESTRICTIONS, HORDE_RESTRICTIONS = BtWQuests.Constant.Restrictions.Alliance, BtWQuests.Constant.Restrictions.Horde
-local ACHIEVEMENT_ID = 14282
-local LEVEL_RANGE = {1, 60}
-local LEVEL_PREREQUISITES = {
-    {
-        type = "level",
-        level = 1,
-    },
-}
+local LEVEL_RANGE = {60, 60}
 
 Chain.ForQueenAndGrove = 90801
-Chain.TheMaw = 90802
+Chain.ReturnToTheMaw = 90802
 Chain.DaughterOfTheNightWarrior = 90803
 Chain.DeBoss = 90804
 Chain.NightWarriorsCurse = 90805
@@ -29,7 +21,7 @@ Chain.OtherHorde = 90898
 Chain.OtherBoth = 90899
 
 Database:AddChain(Chain.ForQueenAndGrove, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 1),
+    name = "For Queen And Grove",
     questline = 1098,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -43,6 +35,10 @@ Database:AddChain(Chain.ForQueenAndGrove, {
         {
             type = "covenant",
             id = 3,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
         },
     },
     completed = {
@@ -161,8 +157,8 @@ Database:AddChain(Chain.ForQueenAndGrove, {
         },
     },
 })
-Database:AddChain(Chain.TheMaw, {
-    name = "The Maw",
+Database:AddChain(Chain.ReturnToTheMaw, {
+    name = "Return to the Maw",
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -175,6 +171,11 @@ Database:AddChain(Chain.TheMaw, {
         {
             type = "covenant",
             id = 3,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
         },
         {
             type = "chain",
@@ -244,7 +245,7 @@ Database:AddChain(Chain.TheMaw, {
     },
 })
 Database:AddChain(Chain.DaughterOfTheNightWarrior, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
+    name = "Daughter of the Night Warrior",
     questline = 1064,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -260,15 +261,20 @@ Database:AddChain(Chain.DaughterOfTheNightWarrior, {
             id = 3,
         },
         {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
             type = "chain",
             id = Chain.ForQueenAndGrove,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = Chain.TheMaw,
+            id = Chain.ReturnToTheMaw,
         },
-        { -- Maybe?
+        {
             type = "renown",
             level = 4,
         },
@@ -343,7 +349,7 @@ Database:AddChain(Chain.DaughterOfTheNightWarrior, {
     },
 })
 Database:AddChain(Chain.DeBoss, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 3),
+    name = "De Boss",
     questline = 1101,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -359,20 +365,25 @@ Database:AddChain(Chain.DeBoss, {
             id = 3,
         },
         {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
             type = "chain",
             id = Chain.ForQueenAndGrove,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = Chain.TheMaw,
+            id = Chain.ReturnToTheMaw,
             lowPriority = true,
         },
         {
             type = "chain",
             id = Chain.DaughterOfTheNightWarrior,
         },
-        { -- Maybe?
+        {
             type = "renown",
             level = 7,
         },
@@ -461,7 +472,7 @@ Database:AddChain(Chain.DeBoss, {
     },
 })
 Database:AddChain(Chain.NightWarriorsCurse, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
+    name = "Night Warriors Curse",
     questline = 1099,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -477,13 +488,18 @@ Database:AddChain(Chain.NightWarriorsCurse, {
             id = 3,
         },
         {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
             type = "chain",
             id = Chain.ForQueenAndGrove,
             lowPriority = true,
         },
         {
             type = "chain",
-            id = Chain.TheMaw,
+            id = Chain.ReturnToTheMaw,
             lowPriority = true,
         },
         {
@@ -495,9 +511,9 @@ Database:AddChain(Chain.NightWarriorsCurse, {
             type = "chain",
             id = Chain.DeBoss,
         },
-        { -- Maybe?
+        {
             type = "renown",
-            level = 7,
+            level = 10,
         },
     },
     items = {
@@ -610,12 +626,55 @@ Database:AddChain(Chain.NightWarriorsCurse, {
     },
 })
 Database:AddChain(Chain.DrustToDrust, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 5),
+    name = "Drust to Drust",
+    questline = 1104,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 3,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ForQueenAndGrove,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DaughterOfTheNightWarrior,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DeBoss,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.NightWarriorsCurse,
+        },
+        {
+            type = "renown",
+            level = 13,
+        },
+    },
     completed = {
         type = "quest",
         id = 61138,
@@ -799,13 +858,60 @@ Database:AddChain(Chain.DrustToDrust, {
     },
 })
 Database:AddChain(Chain.TheHornedHunter, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 6),
+    name = "The Horned Hunter",
     questline = 1100,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 3,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ForQueenAndGrove,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DaughterOfTheNightWarrior,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DeBoss,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.NightWarriorsCurse,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DrustToDrust,
+        },
+        {
+            type = "renown",
+            level = 17,
+        },
+    },
     completed = {
         type = "quest",
         id = 58452,
@@ -891,13 +997,65 @@ Database:AddChain(Chain.TheHornedHunter, {
     },
 })
 Database:AddChain(Chain.DealForALoa, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 7),
+    name = "Deal for a Loa",
     questline = 1102,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 3,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ForQueenAndGrove,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DaughterOfTheNightWarrior,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DeBoss,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.NightWarriorsCurse,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DrustToDrust,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheHornedHunter,
+        },
+        {
+            type = "renown",
+            level = 21,
+        },
+    },
     completed = {
         type = "quest",
         id = 59866,
@@ -991,13 +1149,70 @@ Database:AddChain(Chain.DealForALoa, {
     },
 })
 Database:AddChain(Chain.DrustAndAshes, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 8),
+    name = "Drust and Ashes",
     questline = 1103,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 3,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ForQueenAndGrove,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DaughterOfTheNightWarrior,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DeBoss,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.NightWarriorsCurse,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DrustToDrust,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheHornedHunter,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.DealForALoa,
+        },
+        {
+            type = "renown",
+            level = 22,
+        },
+    },
     completed = {
         type = "quest",
         id = 60108,
@@ -1084,7 +1299,7 @@ Database:AddChain(Chain.OtherBoth, {
 })
 
 Database:AddCategory(CATEGORY_ID, {
-    name = BtWQuests_GetAchievementNameDelayed(14282),
+    name = "Night Fae Campaign",
     expansion = EXPANSION_ID,
     items = {
         {
@@ -1093,7 +1308,7 @@ Database:AddCategory(CATEGORY_ID, {
         },
         {
             type = "chain",
-            id = Chain.TheMaw,
+            id = Chain.ReturnToTheMaw,
         },
         {
             type = "chain",

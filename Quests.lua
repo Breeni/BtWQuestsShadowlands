@@ -3314,6 +3314,91 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [58104] = {
+        name = "Show, Don't Tell",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161509,
+            name = "Lady Moonberry",
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.44992,
+                        y = 0.357097,
+                    },
+                },
+            },
+        },
+    },
+    [58157] = {
+        name = "Break a Leg",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160484,
+            name = "Featherlight",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.407132,
+                        y = 0.427834,
+                    },
+                },
+            },
+        },
+    },
+    [58158] = {
+        name = "The Fourth Wall, er, War",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160484,
+            name = "Featherlight",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.407132,
+                        y = 0.427834,
+                    },
+                },
+            },
+        },
+    },
+    [58159] = {
+        name = "What's My Motivation?",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160484,
+            name = "Featherlight",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.407132,
+                        y = 0.427834,
+                    },
+                },
+            },
+        },
+    },
+    [58160] = {
+        name = "For Queen and Grove!",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160500,
+            name = "Ysera",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.424994,
+                        y = 0.452881,
+                    },
+                },
+            },
+        },
+    },
     [58161] = {
         name = "Forest Disappearances",
         contentTuningID = 807,
@@ -4087,6 +4172,34 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [58445] = {
+        name = "Containing the Night",
+        contentTuningID = 837,
+    },
+    [58446] = {
+        name = "Tracker Tracking",
+        contentTuningID = 837,
+    },
+    [58447] = {
+        name = "Monster Hunting",
+        contentTuningID = 837,
+    },
+    [58449] = {
+        name = "Acid Reflux",
+        contentTuningID = 837,
+    },
+    [58450] = {
+        name = "Anima Instincts",
+        contentTuningID = 837,
+    },
+    [58451] = {
+        name = "Voras, The Realm Eater",
+        contentTuningID = 837,
+    },
+    [58452] = {
+        name = "Tracking the Shadows",
+        contentTuningID = 837,
+    },
     [58472] = {
         name = "A Farewell to Arms",
         contentTuningID = 837,
@@ -4792,6 +4905,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [58610] = {
+        name = "The Speaker of Elune",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160262,
+            name = "Ysera",
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.447788,
+                        y = 0.389445,
+                    },
+                },
+            },
+        },
+    },
     [58616] = {
         name = "Forging a Champion",
         contentTuningID = 1326,
@@ -4962,6 +5092,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [58647] = {
+        name = "Broken Webs",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161786,
+            name = "Qadarin",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.402417,
+                        y = 0.511609,
+                    },
+                },
+            },
+        },
+    },
     [58654] = {
         name = "A Plea to the Harvesters",
         contentTuningID = 746,
@@ -5017,6 +5164,23 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.259545,
                         y = 0.42542,
+                    },
+                },
+            },
+        },
+    },
+    [58669] = {
+        name = "A Little Pruning",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161786,
+            name = "Qadarin",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.402417,
+                        y = 0.511609,
                     },
                 },
             },
@@ -5106,6 +5270,27 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+    },
+    [58704] = {
+        name = "The Garden of Night",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161934,
+            name = "Qadarin",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.389624,
+                        y = 0.593996,
+                    },
+                },
+            },
+        },
+    },
+    [58706] = {
+        name = "Dressing the Kill",
+        contentTuningID = 837,
     },
     [58714] = {
         name = "The Forest Has Eyes",
@@ -5289,6 +5474,23 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.547354,
                         y = 0.641162,
+                    },
+                },
+            },
+        },
+    },
+    [58773] = {
+        name = "The Thornspeaker Captive",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 171413,
+            name = "Kivarr",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.465959,
+                        y = 0.731169,
                     },
                 },
             },
@@ -5791,6 +5993,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [58871] = {
+        name = "Broken Harts",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161785,
+            name = "Thiernax",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.390884,
+                        y = 0.594206,
+                    },
+                },
+            },
+        },
+    },
     [58900] = {
         name = "A Sure Bet",
         contentTuningID = 1335,
@@ -6145,6 +6364,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [59008] = {
+        name = "Spriggan Snares",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 163385,
+            name = "Cirrik",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.390718,
+                        y = 0.52529,
+                    },
+                },
+            },
+        },
+    },
     [59009] = {
         name = "Her Rightful Place",
         contentTuningID = 0,
@@ -6256,6 +6492,91 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.241759,
                         y = 0.387301,
+                    },
+                },
+            },
+        },
+    },
+    [59063] = {
+        name = "Curses!",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165867,
+            name = "Archivist Dreyden",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.636417,
+                        y = 0.227011,
+                    },
+                },
+            },
+        },
+    },
+    [59068] = {
+        name = "A Secret Never Spoken",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161509,
+            name = "Lady Moonberry",
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.44106,
+                        y = 0.371202,
+                    },
+                },
+            },
+        },
+    },
+    [59069] = {
+        name = "A Token of Lost Love",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160262,
+            name = "Ysera",
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.447788,
+                        y = 0.389445,
+                    },
+                },
+            },
+        },
+    },
+    [59070] = {
+        name = "A Sacrifice of Anima",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161509,
+            name = "Lady Moonberry",
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.44106,
+                        y = 0.371202,
+                    },
+                },
+            },
+        },
+    },
+    [59071] = {
+        name = "Mending a Broken Hart",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161509,
+            name = "Lady Moonberry",
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.44106,
+                        y = 0.371202,
                     },
                 },
             },
@@ -6679,6 +7000,10 @@ BtWQuestsDatabase:AddQuestsTable({
             id = 168468,
             name = "The Accuser",
         },
+    },
+    [59258] = {
+        name = "Home of the Tirnenn",
+        contentTuningID = 837,
     },
     [59262] = {
         name = "Broken Wings",
@@ -7657,6 +7982,10 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [59721] = {
+        name = "Becoming the Hunt",
+        contentTuningID = 837,
+    },
     [59722] = {
         name = "Grand Theft Necropolis",
         contentTuningID = 837,
@@ -7691,6 +8020,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [59725] = {
+        name = "Archivist on the Edge",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161509,
+            name = "Lady Moonberry",
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.44106,
+                        y = 0.371202,
+                    },
+                },
+            },
+        },
+    },
     [59726] = {
         name = "It's a Trap",
         contentTuningID = 746,
@@ -7708,6 +8054,26 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [59731] = {
+        name = "An Expected Guest",
+        contentTuningID = 807,
+    },
+    [59732] = {
+        name = "Something Extra for the Winter Queen",
+        contentTuningID = 837,
+    },
+    [59739] = {
+        name = "The Problem with Containing a Death Loa",
+        contentTuningID = 837,
+    },
+    [59741] = {
+        name = "Dark Mojo for a Dark Loa",
+        contentTuningID = 837,
+    },
+    [59742] = {
+        name = "Delaying the Other Side",
+        contentTuningID = 837,
+    },
     [59748] = {
         name = "No Peace In Death",
         contentTuningID = 837,
@@ -7724,6 +8090,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+    },
+    [59749] = {
+        name = "One Little Whisper",
+        contentTuningID = 837,
     },
     [59750] = {
         name = "How To Get A Head",
@@ -8093,6 +8463,171 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [59805] = {
+        name = "Maw Manifested",
+        contentTuningID = 837,
+    },
+    [59809] = {
+        name = "On De Other Side",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166265,
+            name = "Mask of Bwonsamdi",
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.475088,
+                        y = 0.366628,
+                    },
+                },
+            },
+        },
+    },
+    [59811] = {
+        name = "Taking Inventory",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166281,
+            name = "Bwonsamdi",
+            locations = {
+                [1550] = {
+                    {
+                        x = 0.544446,
+                        y = 0.864947,
+                    },
+                },
+            },
+        },
+    },
+    [59812] = {
+        name = "Following the Trail",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166265,
+            name = "Mask of Bwonsamdi",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.627033,
+                        y = 0.397585,
+                    },
+                },
+            },
+        },
+    },
+    [59813] = {
+        name = "Minions of Mueh'zala",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166265,
+            name = "Mask of Bwonsamdi",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.670957,
+                        y = 0.35133,
+                    },
+                },
+            },
+        },
+    },
+    [59815] = {
+        name = "Stolen Loa",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166265,
+            name = "Mask of Bwonsamdi",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.670957,
+                        y = 0.35133,
+                    },
+                },
+            },
+        },
+    },
+    [59817] = {
+        name = "Winter Be Comin'",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166265,
+            name = "Mask of Bwonsamdi",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.670957,
+                        y = 0.35133,
+                    },
+                },
+            },
+        },
+    },
+    [59818] = {
+        name = "Gathering The Hunt",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 156634,
+            name = "Winter Queen",
+            locations = {
+                [1703] = {
+                    {
+                        x = 0.512571,
+                        y = 0.277408,
+                    },
+                },
+            },
+        },
+    },
+    [59819] = {
+        name = "Cleansing the Forest",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 167823,
+            name = "Lady Moonberry",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.66663,
+                        y = 0.555996,
+                    },
+                },
+            },
+        },
+    },
+    [59821] = {
+        name = "Report to the Queen",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 167823,
+            name = "Lady Moonberry",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.684249,
+                        y = 0.652544,
+                    },
+                },
+            },
+        },
+    },
+    [59822] = {
+        name = "Tracking a Wild God",
+        contentTuningID = 837,
+    },
+    [59824] = {
+        name = "Loa Rescue",
+        contentTuningID = 837,
+    },
     [59825] = {
         name = "Seed Hunting",
         contentTuningID = 837,
@@ -8131,6 +8666,10 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [59856] = {
+        name = "Rezan, Loa of Kings",
+        contentTuningID = 837,
+    },
     [59865] = {
         name = "Glimmerflight",
         contentTuningID = 837,
@@ -8147,6 +8686,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+    },
+    [59866] = {
+        name = "Parting Ways",
+        contentTuningID = 837,
     },
     [59867] = {
         name = "WANTED: Appraiser Vix",
@@ -8867,6 +9410,10 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [60108] = {
+        name = "Drust and Ashes",
+        contentTuningID = 1929,
+    },
     [60110] = {
         name = "Never Had A Friend Like Me",
         contentTuningID = 837,
@@ -9255,6 +9802,30 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [60189] = {
+        name = "We Strike Now",
+        contentTuningID = 807,
+    },
+    [60190] = {
+        name = "Assault on Darkreach",
+        contentTuningID = 807,
+    },
+    [60191] = {
+        name = "Ingra Drif",
+        contentTuningID = 807,
+    },
+    [60192] = {
+        name = "Their Last Line of Defense",
+        contentTuningID = 807,
+    },
+    [60193] = {
+        name = "Unmasked",
+        contentTuningID = 807,
+    },
+    [60194] = {
+        name = "The Call of the Hunt",
+        contentTuningID = 807,
+    },
     [60217] = {
         name = "The Archon's Answer",
         contentTuningID = 743,
@@ -9454,6 +10025,23 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.594957,
                         y = 0.342124,
+                    },
+                },
+            },
+        },
+    },
+    [60233] = {
+        name = "Souls of the Damned",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 158553,
+            name = "Flutterby",
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.339132,
+                        y = 0.434737,
                     },
                 },
             },
@@ -10965,6 +11553,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [60885] = {
+        name = "Grove of Awakening",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161509,
+            name = "Lady Moonberry",
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.475195,
+                        y = 0.364913,
+                    },
+                },
+            },
+        },
+    },
     [60886] = {
         name = "The Seat of the Primus",
         contentTuningID = 1326,
@@ -10977,6 +11582,40 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.369296,
                         y = 0.684296,
+                    },
+                },
+            },
+        },
+    },
+    [60888] = {
+        name = "Ceremony of Awakening",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 170636,
+            name = "Winter Queen",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.451112,
+                        y = 0.650714,
+                    },
+                },
+            },
+        },
+    },
+    [60898] = {
+        name = "The Fate of Ara'lon",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 170848,
+            name = "Lord Herne",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.451568,
+                        y = 0.651532,
                     },
                 },
             },
@@ -11066,6 +11705,57 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.432407,
                         y = 0.384556,
+                    },
+                },
+            },
+        },
+    },
+    [60910] = {
+        name = "Masks of Deception",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 170705,
+            name = "Ara'lon",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.432598,
+                        y = 0.400526,
+                    },
+                },
+            },
+        },
+    },
+    [60928] = {
+        name = "Blackthorn Captives",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 170705,
+            name = "Ara'lon",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.432598,
+                        y = 0.400526,
+                    },
+                },
+            },
+        },
+    },
+    [60934] = {
+        name = "Report to Lord Herne",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 170705,
+            name = "Ara'lon",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.432598,
+                        y = 0.400526,
                     },
                 },
             },
@@ -11198,6 +11888,40 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [61061] = {
+        name = "Ulfar's Guidance",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 171138,
+            name = "Ysera",
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.532362,
+                        y = 0.788448,
+                    },
+                },
+            },
+        },
+    },
+    [61076] = {
+        name = "Into the Flame",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 141159,
+            name = "Ulfar",
+            locations = {
+                [896] = {
+                    {
+                        x = 0.452142,
+                        y = 0.458453,
+                    },
+                },
+            },
+        },
+    },
     [61077] = {
         name = "Confronting Sin",
         contentTuningID = 837,
@@ -11228,6 +11952,23 @@ BtWQuestsDatabase:AddQuestsTable({
         name = "Skoldus Hall",
         contentTuningID = 837,
     },
+    [61102] = {
+        name = "Kivarr the Thornspeaker",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 141159,
+            name = "Ulfar",
+            locations = {
+                [896] = {
+                    {
+                        x = 0.452142,
+                        y = 0.458453,
+                    },
+                },
+            },
+        },
+    },
     [61107] = {
         name = "A Land of Strife",
         contentTuningID = 1324,
@@ -11240,6 +11981,23 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.612789,
                         y = 0.369477,
+                    },
+                },
+            },
+        },
+    },
+    [61113] = {
+        name = "Kivarr's Den",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 170848,
+            name = "Lord Herne",
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.512462,
+                        y = 0.812435,
                     },
                 },
             },
@@ -11262,6 +12020,26 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [61138] = {
+        contentTuningID = 0,
+    },
+    [61143] = {
+        name = "Return to the Den",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 171413,
+            name = "Kivarr",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.412895,
+                        y = 0.743338,
+                    },
+                },
+            },
+        },
+    },
     [61145] = {
         name = "Take The Fight To Them",
         contentTuningID = 837,
@@ -11278,6 +12056,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+    },
+    [61171] = {
+        name = "Unbroken Bonds",
+        contentTuningID = 837,
     },
     [61180] = {
         name = "Burn Before Reading",
@@ -11550,6 +12332,24 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [61475] = {
+        name = "The Heart of the Forest",
+        contentTuningID = 2060,
+        source = {
+            type = "npc",
+            id = 171795,
+            name = "Lady Moonberry",
+        },
+    },
+    [61479] = {
+        name = "The Boon of Shapes",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 172431,
+            name = "Lady Moonberry",
+        },
+    },
     [61485] = {
         name = "I'll Only Say This Once",
         contentTuningID = 837,
@@ -11617,6 +12417,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [61508] = {
+        name = "Soul Salvation",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 158553,
+            name = "Flutterby",
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.339185,
+                        y = 0.435056,
+                    },
+                },
+            },
+        },
+    },
     [61513] = {
         name = "Soul Salvation",
         contentTuningID = 837,
@@ -11668,6 +12485,32 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [61541] = {
+        name = "The Forge of Bonds",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 172431,
+            name = "Lady Moonberry",
+        },
+    },
+    [61542] = {
+        name = "The Boon of Binding",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 158553,
+            name = "Flutterby",
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.339185,
+                        y = 0.435056,
+                    },
+                },
+            },
+        },
+    },
     [61548] = {
         name = "Set Me Free",
         contentTuningID = 837,
@@ -11685,6 +12528,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [61550] = {
+        name = "Strengthening the Bond",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 172677,
+            name = "Niya",
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.334621,
+                        y = 0.452728,
+                    },
+                },
+            },
+        },
+    },
     [61551] = {
         name = "Crush 'Em All",
         contentTuningID = 837,
@@ -11697,6 +12557,57 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.28541,
                         y = 0.477063,
+                    },
+                },
+            },
+        },
+    },
+    [61552] = {
+        name = "The Hunt Watches",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 172677,
+            name = "Niya",
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.334621,
+                        y = 0.452728,
+                    },
+                },
+            },
+        },
+    },
+    [61553] = {
+        name = "Know Where to Strike",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 164023,
+            name = "Watcher Vesperbloom",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.446677,
+                        y = 0.562786,
+                    },
+                },
+            },
+        },
+    },
+    [61554] = {
+        name = "The Play's The Thing",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 164023,
+            name = "Watcher Vesperbloom",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.446677,
+                        y = 0.562786,
                     },
                 },
             },
@@ -11765,6 +12676,108 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.436783,
                         y = 0.665699,
+                    },
+                },
+            },
+        },
+    },
+    [61701] = {
+        name = "Searching the Grove",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 170705,
+            name = "Ara'lon",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.436523,
+                        y = 0.690698,
+                    },
+                },
+            },
+        },
+    },
+    [61702] = {
+        name = "A Swift Intervention",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 173612,
+            name = "Nika",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.465959,
+                        y = 0.731169,
+                    },
+                },
+            },
+        },
+    },
+    [61703] = {
+        name = "Nox Root",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 171413,
+            name = "Kivarr",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.436842,
+                        y = 0.690387,
+                    },
+                },
+            },
+        },
+    },
+    [61709] = {
+        name = "Witch's Satchel",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 171413,
+            name = "Kivarr",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.461591,
+                        y = 0.564352,
+                    },
+                },
+            },
+        },
+    },
+    [61710] = {
+        name = "The Broken Spear",
+        contentTuningID = 837,
+        source = {
+            type = "object",
+            id = 357726,
+            name = "Broken Spear",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.33841,
+                        y = 0.545242,
+                    },
+                },
+            },
+        },
+    },
+    [61711] = {
+        name = "Ritual of Purification",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 171413,
+            name = "Kivarr",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.461591,
+                        y = 0.564352,
                     },
                 },
             },
@@ -12765,6 +13778,10 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [62428] = {
+        name = "Equine Soul",
+        contentTuningID = 837,
+    },
     [62458] = {
         name = "De Other Side",
         contentTuningID = 0,
@@ -12841,60 +13858,5 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-    },
-    [62000] = {
-        name = "Choosing Your Purpose",
-        contentTuningID = 807,
-        source = {
-            type = "npc",
-            id = 159478,
-            name = "Tal-Inara",
-            locations = {
-                [1670] = {
-                    {
-                        x = 0.388914,
-                        y = 0.700078,
-                    },
-                },
-            },
-        },
-    },
-    [62159] = {
-        name = "Aiding the Shadowlands",
-        contentTuningID = 0,
-        source = {
-            type = "npc",
-            id = 159478,
-            name = "Tal-Inara",
-        },
-    },
-    [62166] = {
-        name = "Tal-Inara's Call",
-        contentTuningID = 807,
-    },
-    [62275] = {
-        name = "Bastion",
-        contentTuningID = 807,
-    },
-    [62277] = {
-        name = "Ardenweald",
-        contentTuningID = 807,
-    },
-    [62278] = {
-        name = "Maldraxxus",
-        contentTuningID = 807,
-    },
-    [62279] = {
-        name = "Revendreth",
-        contentTuningID = 807,
-        source = {
-            type = "npc",
-            id = 159478,
-            name = "Tal-Inara",
-        },
-    },
-    [62428] = {
-        name = "Equine Soul",
-        contentTuningID = 837,
     },
 })
