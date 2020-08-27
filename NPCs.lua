@@ -554,6 +554,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [158529] = {
+        name = "Whisperer Vyn",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.497315,
+                    y = 0.178492,
+                },
+            },
+        },
+    },
     [158542] = {
         name = "Theotar",
         locations = {
@@ -561,6 +572,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.311718,
                     y = 0.575284,
+                },
+            },
+        },
+    },
+    [158604] = {
+        name = "Navigator Xennir",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.520172,
+                    y = 0.169682,
                 },
             },
         },
@@ -796,6 +818,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [159814] = {
+        name = "Ansid the Mechanic",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.486204,
+                    y = 0.185397,
+                },
+            },
+        },
+    },
     [159827] = {
         name = "Scrapper Minoire",
         locations = {
@@ -983,6 +1016,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [160518] = {
+        name = "Whisperer Vyn",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.497315,
+                    y = 0.178492,
+                },
+            },
+        },
+    },
     [160598] = {
         name = "Klystere",
         locations = {
@@ -1071,6 +1115,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [161285] = {
+        name = "Emeni",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.241601,
+                    y = 0.386587,
+                },
+            },
+        },
+    },
     [161378] = {
         name = "Ara'lon",
         locations = {
@@ -1100,6 +1155,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.684179,
                     y = 0.57488,
+                },
+            },
+        },
+    },
+    [161461] = {
+        name = "The Accuser",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.720718,
+                    y = 0.411525,
+                },
+            },
+        },
+    },
+    [161474] = {
+        name = "Baroness Draka",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.737822,
+                    y = 0.573816,
                 },
             },
         },
@@ -1170,6 +1247,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [161694] = {
+        name = "The Accuser",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.737848,
+                    y = 0.573854,
+                },
+            },
+        },
+    },
     [161733] = {
         name = "Anzio The Infallible",
         locations = {
@@ -1188,6 +1276,72 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.599992,
                     y = 0.53019,
+                },
+            },
+        },
+    },
+    [161865] = {
+        name = "Baroness Draka",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.781186,
+                    y = 0.621867,
+                },
+            },
+        },
+    },
+    [161904] = {
+        name = "Plague Deviser Marileth",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.389362,
+                    y = 0.323404,
+                },
+            },
+        },
+    },
+    [161905] = {
+        name = "Bonesmith Heirmir",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.428368,
+                    y = 0.319905,
+                },
+            },
+        },
+    },
+    [161906] = {
+        name = "Emeni",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.3831,
+                    y = 0.367669,
+                },
+            },
+        },
+    },
+    [161907] = {
+        name = "Baroness Draka",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.498582,
+                    y = 0.508511,
+                },
+            },
+        },
+    },
+    [161988] = {
+        name = "Alexandros Mograine",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.490014,
+                    y = 0.516334,
                 },
             },
         },
@@ -1472,8 +1626,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1670] = {
                 {
-                    x = 0.390502,
-                    y = 0.669623,
+                    x = 0.388685,
+                    y = 0.682569,
                 },
             },
         },
@@ -1544,6 +1698,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [164619] = {
+        name = "Baroness Vashj",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.508267,
+                    y = 0.24492,
+                },
+            },
+        },
+    },
     [164640] = {
         name = "Kowalskos",
         locations = {
@@ -1551,6 +1716,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.42827,
                     y = 0.427291,
+                },
+            },
+        },
+    },
+    [164646] = {
+        name = "Baroness Vashj",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.49905,
+                    y = 0.178642,
+                },
+            },
+        },
+    },
+    [164679] = {
+        name = "Whisperer Vyn",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.541588,
+                    y = 0.299566,
                 },
             },
         },
@@ -1646,6 +1833,17 @@ BtWQuestsDatabase:AddNPCsTable({
     [165253] = {
         name = "Tollkeeper Varaboss",
     },
+    [165321] = {
+        name = "Merick Feldscar",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.387943,
+                    y = 0.485106,
+                },
+            },
+        },
+    },
     [165382] = {
         name = "Gormsmith Cavina",
         locations = {
@@ -1668,6 +1866,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [165412] = {
+        name = "Xandria",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.406848,
+                    y = 0.55029,
+                },
+            },
+        },
+    },
     [165557] = {
         name = "Prince Renathal",
         locations = {
@@ -1686,6 +1895,39 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.288902,
                     y = 0.221587,
+                },
+            },
+        },
+    },
+    [165591] = {
+        name = "Alexandros Mograine",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.402349,
+                    y = 0.55299,
+                },
+            },
+        },
+    },
+    [165794] = {
+        name = "Xandria",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.464758,
+                    y = 0.629372,
+                },
+            },
+        },
+    },
+    [165795] = {
+        name = "Alexandros Mograine",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.416306,
+                    y = 0.551,
                 },
             },
         },
@@ -1921,6 +2163,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [167044] = {
+        name = "Emeni",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.551511,
+                    y = 0.687025,
+                },
+            },
+        },
+    },
     [167134] = {
         name = "Thanikos",
         locations = {
@@ -1939,6 +2192,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.407148,
                     y = 0.555014,
+                },
+            },
+        },
+    },
+    [167150] = {
+        name = "Rathan",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.550966,
+                    y = 0.687778,
                 },
             },
         },
@@ -2292,8 +2556,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1543] = {
                 {
-                    x = 0.301074,
-                    y = 0.364305,
+                    x = 0.301157,
+                    y = 0.364196,
                 },
             },
         },
@@ -2691,8 +2955,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1543] = {
                 {
-                    x = 0.468594,
-                    y = 0.41701,
+                    x = 0.468566,
+                    y = 0.417087,
                 },
             },
         },
@@ -2862,6 +3126,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [173422] = {
+        name = "Balmedar's Oculus",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.593478,
+                    y = 0.329917,
+                },
+            },
+        },
+    },
+    [173492] = {
+        name = "Jor'dan the Powerful",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.699696,
+                    y = 0.327063,
+                },
+            },
+        },
+    },
     [173565] = {
         name = "Overseer Kah-Delen",
         locations = {
@@ -2894,5 +3180,8 @@ BtWQuestsDatabase:AddNPCsTable({
                 },
             },
         },
+    },
+    [174343] = {
+        name = "Khaliiq",
     },
 })

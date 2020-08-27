@@ -977,6 +977,7 @@ Database:AddChain(Chain.Chain01, {
         type = "quest",
         id = 57474,
     },
+    questline = 1141,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1056,6 +1057,7 @@ Database:AddChain(Chain.Chain02, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    questline = 1142,
     prerequisites = {
         {
             type = "level",
@@ -1450,6 +1452,7 @@ Database:AddChain(Chain.EmbedChain01, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
+    questline = 1143,
     items = {
         {
             type = "npc",
