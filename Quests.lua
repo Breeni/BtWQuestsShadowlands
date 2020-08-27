@@ -1387,6 +1387,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [57646] = {
+        name = "The Tithelord",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 167689,
+            name = "Prince Renathal",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.719319,
+                        y = 0.688484,
+                    },
+                },
+            },
+        },
+    },
     [57648] = {
         name = "The Impossible Plan",
         contentTuningID = 837,
@@ -1773,6 +1790,74 @@ BtWQuestsDatabase:AddQuestsTable({
             name = "Breakfist",
         },
     },
+    [57727] = {
+        name = "Stonevigil Unrest",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 158653,
+            name = "Prince Renathal",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.517884,
+                        y = 0.375757,
+                    },
+                },
+            },
+        },
+    },
+    [57729] = {
+        name = "To the Estate",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 167620,
+            name = "Prince Renathal",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.615995,
+                        y = 0.696459,
+                    },
+                },
+            },
+        },
+    },
+    [57771] = {
+        name = "An Unwelcome Incursion",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 167381,
+            name = "Baroness Draka",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.56339,
+                        y = 0.665939,
+                    },
+                },
+            },
+        },
+    },
+    [57772] = {
+        name = "Fangs and Minds",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 167380,
+            name = "Prince Renathal",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.563197,
+                        y = 0.667243,
+                    },
+                },
+            },
+        },
+    },
     [57778] = {
         name = "The Maldraxxian Job",
         contentTuningID = 837,
@@ -1966,11 +2051,232 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57878] = {
         name = "Choosing Your Purpose",
-        contentTuningID = 1927,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 159478,
             name = "Tal-Inara",
+        },
+    },
+    [57880] = {
+        name = "An Estate Within the Old Gate",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161979,
+            name = "Theotar",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.502347,
+                        y = 0.181354,
+                    },
+                },
+            },
+        },
+    },
+    [57881] = {
+        name = "The Key to Rebuilding",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 159513,
+            name = "Bogdan",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.604694,
+                        y = 0.401444,
+                    },
+                },
+            },
+        },
+    },
+    [57882] = {
+        name = "Reestablishing the Household",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 159513,
+            name = "Bogdan",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.604694,
+                        y = 0.401444,
+                    },
+                },
+            },
+        },
+    },
+    [57884] = {
+        name = "Reclaiming Thornhill Manor",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 159513,
+            name = "Bogdan",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.604694,
+                        y = 0.401444,
+                    },
+                },
+            },
+        },
+    },
+    [57885] = {
+        name = "A Discreet Entrance",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 159513,
+            name = "Bogdan",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.588362,
+                        y = 0.298851,
+                    },
+                },
+            },
+        },
+    },
+    [57886] = {
+        name = "A Meal and A Deal",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 159694,
+            name = "The Countess",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.580526,
+                        y = 0.27538,
+                    },
+                },
+            },
+        },
+    },
+    [57887] = {
+        name = "Killing the Messenger",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 159694,
+            name = "The Countess",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.580526,
+                        y = 0.27538,
+                    },
+                },
+            },
+        },
+    },
+    [57888] = {
+        name = "An Invitation to Treachery",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 159694,
+            name = "The Countess",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.580526,
+                        y = 0.27538,
+                    },
+                },
+            },
+        },
+    },
+    [57889] = {
+        name = "\"Accidental\" Arson",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 159694,
+            name = "The Countess",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.580526,
+                        y = 0.27538,
+                    },
+                },
+            },
+        },
+    },
+    [57890] = {
+        name = "Beautiful, But Deadly",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 159694,
+            name = "The Countess",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.580526,
+                        y = 0.27538,
+                    },
+                },
+            },
+        },
+    },
+    [57891] = {
+        name = "Mix, Mingle, and Meddle",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 159694,
+            name = "The Countess",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.580526,
+                        y = 0.27538,
+                    },
+                },
+            },
+        },
+    },
+    [57892] = {
+        name = "Enacting Immediate Justice",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 159946,
+            name = "The Countess",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.569232,
+                        y = 0.286422,
+                    },
+                },
+            },
+        },
+    },
+    [57893] = {
+        name = "Neither Enemy nor Ally",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 159946,
+            name = "The Countess",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.569232,
+                        y = 0.286422,
+                    },
+                },
+            },
         },
     },
     [57895] = {
@@ -3335,6 +3641,57 @@ BtWQuestsDatabase:AddQuestsTable({
             name = "Join the Rebellion!",
         },
     },
+    [58325] = {
+        name = "Watcher Emil",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160941,
+            name = "The Curator",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.727316,
+                        y = 0.376391,
+                    },
+                },
+            },
+        },
+    },
+    [58326] = {
+        name = "Combing the Catacombs",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161056,
+            name = "Guard Captain Elizabeta",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.659252,
+                        y = 0.322811,
+                    },
+                },
+            },
+        },
+    },
+    [58337] = {
+        name = "Break Out",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161056,
+            name = "Guard Captain Elizabeta",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.659252,
+                        y = 0.322811,
+                    },
+                },
+            },
+        },
+    },
     [58351] = {
         name = "The Hills Have Eyes",
         contentTuningID = 1326,
@@ -3347,6 +3704,307 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.363353,
                         y = 0.601983,
+                    },
+                },
+            },
+        },
+    },
+    [58372] = {
+        name = "Lead the Way",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160956,
+            name = "Watcher Emil",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.659252,
+                        y = 0.28844,
+                    },
+                },
+            },
+        },
+    },
+    [58382] = {
+        name = "Someone Worth Saving",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165291,
+            name = "The Accuser",
+            locations = {
+                [1700] = {
+                    {
+                        x = 0.560221,
+                        y = 0.785572,
+                    },
+                },
+            },
+        },
+    },
+    [58383] = {
+        name = "The Many Sins of Kael'thas Sunstrider",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161158,
+            name = "The Accuser",
+            locations = {
+                [1700] = {
+                    {
+                        x = 0.464103,
+                        y = 0.321207,
+                    },
+                },
+            },
+        },
+    },
+    [58384] = {
+        name = "Dredgers Left Behind",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161208,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.422989,
+                        y = 0.475632,
+                    },
+                },
+            },
+        },
+    },
+    [58385] = {
+        name = "Learning to Sacrifice",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161208,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.422989,
+                        y = 0.475632,
+                    },
+                },
+            },
+        },
+    },
+    [58386] = {
+        name = "Use My Strengths",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161261,
+            name = "Kael'thas Sunstrider",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.422989,
+                        y = 0.475632,
+                    },
+                },
+            },
+        },
+    },
+    [58387] = {
+        name = "We Each Must Carry Our Own Sins",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161278,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.438712,
+                        y = 0.514181,
+                    },
+                },
+            },
+        },
+    },
+    [58388] = {
+        name = "Blackbale Betrayers",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161421,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.46448,
+                        y = 0.51498,
+                    },
+                },
+            },
+        },
+    },
+    [58389] = {
+        name = "Maldraxxian Weapons",
+        contentTuningID = 837,
+    },
+    [58391] = {
+        name = "Reconnaissance... for my, uh, Recovery",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161431,
+            name = "Kael'thas Sunstrider",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.464505,
+                        y = 0.514993,
+                    },
+                },
+            },
+        },
+    },
+    [58392] = {
+        name = "Death's End Destruction",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161572,
+            name = "Kael'thas Sunstrider",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.698882,
+                        y = 0.599733,
+                    },
+                },
+            },
+        },
+    },
+    [58393] = {
+        name = "Strategic Executions",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161572,
+            name = "Kael'thas Sunstrider",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.698882,
+                        y = 0.599733,
+                    },
+                },
+            },
+        },
+    },
+    [58394] = {
+        name = "Lady Ouix'Ara",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161436,
+            name = "Kael'thas Sunstrider",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.777253,
+                        y = 0.604797,
+                    },
+                },
+            },
+        },
+    },
+    [58395] = {
+        name = "Enough Vengeance For One Day",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161436,
+            name = "Kael'thas Sunstrider",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.777253,
+                        y = 0.604797,
+                    },
+                },
+            },
+        },
+    },
+    [58406] = {
+        name = "Mirror to Maldraxxus",
+        contentTuningID = 837,
+    },
+    [58407] = {
+        name = "The Medallion of Dominion",
+        contentTuningID = 837,
+    },
+    [58421] = {
+        name = "Special Access",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160941,
+            name = "The Curator",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.727316,
+                        y = 0.376391,
+                    },
+                },
+            },
+        },
+    },
+    [58424] = {
+        name = "An Eye for an Amulet",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160956,
+            name = "Watcher Emil",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.726025,
+                        y = 0.37542,
+                    },
+                },
+            },
+        },
+    },
+    [58426] = {
+        name = "In the Shadow of our Failures",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161158,
+            name = "The Accuser",
+            locations = {
+                [1700] = {
+                    {
+                        x = 0.464103,
+                        y = 0.321207,
+                    },
+                },
+            },
+        },
+    },
+    [58428] = {
+        name = "Crypt Crashers",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160941,
+            name = "The Curator",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.727316,
+                        y = 0.376391,
                     },
                 },
             },
@@ -3376,6 +4034,57 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 155533,
             name = "Lord Chamberlain",
+        },
+    },
+    [58440] = {
+        name = "Mirror, Mirror...",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160941,
+            name = "The Curator",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.727316,
+                        y = 0.376391,
+                    },
+                },
+            },
+        },
+    },
+    [58443] = {
+        name = "Continued Care of Kael'thas",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161278,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.438712,
+                        y = 0.514181,
+                    },
+                },
+            },
+        },
+    },
+    [58444] = {
+        name = "Return to Sinfall",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160941,
+            name = "The Curator",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.727316,
+                        y = 0.376391,
+                    },
+                },
+            },
         },
     },
     [58472] = {
@@ -3506,6 +4215,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [58518] = {
+        name = "There's Always a Paper Trail",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161427,
+            name = "Kael'thas Sunstrider",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.486753,
+                        y = 0.541951,
+                    },
+                },
+            },
+        },
+    },
     [58523] = {
         name = "You're Dead To Me",
         contentTuningID = 837,
@@ -3535,6 +4261,40 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.71505,
                         y = 0.546863,
+                    },
+                },
+            },
+        },
+    },
+    [58530] = {
+        name = "Hidden Mirror",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161514,
+            name = "General Draven",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.444977,
+                        y = 0.464243,
+                    },
+                },
+            },
+        },
+    },
+    [58555] = {
+        name = "A Tense Reunion",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 162213,
+            name = "General Draven",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.496575,
+                        y = 0.301606,
                     },
                 },
             },
@@ -3812,6 +4572,57 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [58584] = {
+        name = "Right our Wrongs",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161526,
+            name = "General Draven",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.500868,
+                        y = 0.207048,
+                    },
+                },
+            },
+        },
+    },
+    [58585] = {
+        name = "No Friend of Mine",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501129,
+                        y = 0.205391,
+                    },
+                },
+            },
+        },
+    },
+    [58586] = {
+        name = "The Right Stuff",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501129,
+                        y = 0.205391,
+                    },
+                },
+            },
+        },
+    },
     [58589] = {
         name = "The Restless Dreamer",
         contentTuningID = 807,
@@ -3909,6 +4720,40 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.737822,
                         y = 0.573816,
+                    },
+                },
+            },
+        },
+    },
+    [58600] = {
+        name = "A Perfect Circle",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501129,
+                        y = 0.205391,
+                    },
+                },
+            },
+        },
+    },
+    [58603] = {
+        name = "Phaestus, Genesis of Aeons",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501129,
+                        y = 0.205391,
                     },
                 },
             },
@@ -4100,6 +4945,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [58630] = {
+        name = "Crown of the Harvesters",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501129,
+                        y = 0.205391,
+                    },
+                },
+            },
+        },
+    },
     [58654] = {
         name = "A Plea to the Harvesters",
         contentTuningID = 746,
@@ -4107,6 +4969,23 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 156822,
             name = "Mistress Mihaela",
+        },
+    },
+    [58656] = {
+        name = "Heavy is the Head...",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 174587,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.514297,
+                        y = 0.184475,
+                    },
+                },
+            },
         },
     },
     [58665] = {
@@ -4754,6 +5633,23 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.497533,
                         y = 0.50646,
+                    },
+                },
+            },
+        },
+    },
+    [58842] = {
+        name = "The Curator",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 158653,
+            name = "Prince Renathal",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.517884,
+                        y = 0.375757,
                     },
                 },
             },
@@ -5724,6 +6620,23 @@ BtWQuestsDatabase:AddQuestsTable({
             name = "Sire Denathrius",
         },
     },
+    [59233] = {
+        name = "The Prince's New Crown",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 171175,
+            name = "General Draven",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.211159,
+                        y = 0.228641,
+                    },
+                },
+            },
+        },
+    },
     [59242] = {
         name = "Their New Home",
         contentTuningID = 837,
@@ -5835,6 +6748,189 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [59314] = {
+        name = "Sinfall",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 171589,
+            name = "General Draven",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.448689,
+                        y = 0.688605,
+                    },
+                },
+            },
+        },
+    },
+    [59315] = {
+        name = "The Court of Harvesters",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 164742,
+            name = "Prince Renathal",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.25941,
+                        y = 0.557288,
+                    },
+                },
+            },
+        },
+    },
+    [59316] = {
+        name = "Binding Power",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 171950,
+            name = "The Accuser",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.454173,
+                        y = 0.208887,
+                    },
+                },
+            },
+        },
+    },
+    [59317] = {
+        name = "Strengthening the Bond",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 171979,
+            name = "Nadjia the Mistblade",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.436619,
+                        y = 0.1745,
+                    },
+                },
+            },
+        },
+    },
+    [59318] = {
+        name = "Work Not Wasted",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 171979,
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.436619,
+                        y = 0.1745,
+                    },
+                },
+            },
+        },
+    },
+    [59319] = {
+        name = "Advancing Our Efforts",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 164741,
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.595572,
+                        y = 0.583689,
+                    },
+                },
+            },
+        },
+    },
+    [59320] = {
+        name = "Souls to Save",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 164741,
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.595328,
+                        y = 0.583139,
+                    },
+                },
+            },
+        },
+    },
+    [59321] = {
+        name = "Sacred Covenant",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 164796,
+            name = "Prince Renathal",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.522706,
+                        y = 0.371842,
+                    },
+                },
+            },
+        },
+    },
+    [59322] = {
+        name = "Shared Souls",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 171934,
+            name = "Prince Renathal",
+            locations = {
+                [1700] = {
+                    {
+                        x = 0.453759,
+                        y = 0.293207,
+                    },
+                },
+            },
+        },
+    },
+    [59323] = {
+        name = "Anima Awakening",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 171934,
+            name = "Prince Renathal",
+            locations = {
+                [1700] = {
+                    {
+                        x = 0.453759,
+                        y = 0.293207,
+                    },
+                },
+            },
+        },
+    },
+    [59324] = {
+        name = "Our True Purpose",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 164741,
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.595328,
+                        y = 0.583139,
+                    },
+                },
+            },
+        },
+    },
     [59327] = {
         name = "In the Ruin of Rebellion",
         contentTuningID = 746,
@@ -5842,6 +6938,23 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 158716,
             name = "Theotar",
+        },
+    },
+    [59343] = {
+        name = "Kindred Spirits",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161979,
+            name = "Theotar",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.502347,
+                        y = 0.181354,
+                    },
+                },
+            },
         },
     },
     [59348] = {
@@ -6246,6 +7359,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [59676] = {
+        name = "Harvester of Desire",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165658,
+            name = "Cudgelface",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.524396,
+                        y = 0.353288,
+                    },
+                },
+            },
+        },
+    },
     [59678] = {
         name = "Sustain, In Vain",
         contentTuningID = 837,
@@ -6297,6 +7427,74 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [59701] = {
+        name = "Common Ground",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 158653,
+            name = "Prince Renathal",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.517884,
+                        y = 0.375757,
+                    },
+                },
+            },
+        },
+    },
+    [59706] = {
+        name = "Invitation for the Countess",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165661,
+            name = "Prince Renathal",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.41015,
+                        y = 0.548107,
+                    },
+                },
+            },
+        },
+    },
+    [59707] = {
+        name = "Invitation for the Tithelord",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165661,
+            name = "Prince Renathal",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.41015,
+                        y = 0.548107,
+                    },
+                },
+            },
+        },
+    },
+    [59708] = {
+        name = "Invitation for the Stonewright",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165661,
+            name = "Prince Renathal",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.41015,
+                        y = 0.548107,
+                    },
+                },
+            },
+        },
+    },
     [59709] = {
         name = "Afterlife Goes On",
         contentTuningID = 837,
@@ -6321,6 +7519,23 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 165859,
             name = "Dimwiddle",
+        },
+    },
+    [59711] = {
+        name = "Harvester of Envy",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165818,
+            name = "Nadjia the Mistblade",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.72234,
+                        y = 0.74925,
+                    },
+                },
+            },
         },
     },
     [59712] = {
@@ -6403,6 +7618,40 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.601709,
                         y = 0.694482,
+                    },
+                },
+            },
+        },
+    },
+    [59719] = {
+        name = "The Court",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165661,
+            name = "Prince Renathal",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.41015,
+                        y = 0.548107,
+                    },
+                },
+            },
+        },
+    },
+    [59720] = {
+        name = "Harvester of Wrath",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165865,
+            name = "General Draven",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.40264,
+                        y = 0.305924,
                     },
                 },
             },
@@ -7754,6 +9003,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [60145] = {
+        name = "Third Talon Vartox",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 167381,
+            name = "Baroness Draka",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.56339,
+                        y = 0.665939,
+                    },
+                },
+            },
+        },
+    },
     [60146] = {
         name = "The Upper Reaches",
         contentTuningID = 837,
@@ -7950,6 +9216,23 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.483858,
                         y = 0.571655,
+                    },
+                },
+            },
+        },
+    },
+    [60183] = {
+        name = "After Them!",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 167381,
+            name = "Baroness Draka",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.56339,
+                        y = 0.665939,
                     },
                 },
             },
@@ -8176,9 +9459,30 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [60234] = {
+        name = "Souls of the Damned",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 164738,
+            name = "Tenaval",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.45422,
+                        y = 0.28439,
+                    },
+                },
+            },
+        },
+    },
     [60235] = {
         name = "Newfound Power",
         contentTuningID = 743,
+    },
+    [60265] = {
+        name = "Disrupting the Chain",
+        contentTuningID = 837,
     },
     [60267] = {
         name = "Prison of the Forgotten",
@@ -8699,6 +10003,23 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.567598,
                         y = 0.314339,
+                    },
+                },
+            },
+        },
+    },
+    [60500] = {
+        name = "Halls of Atonement: Medallion of Pride",
+        contentTuningID = 0,
+        source = {
+            type = "object",
+            id = 352520,
+            name = "Medallion of Pride",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.568261,
+                        y = 0.309563,
                     },
                 },
             },
@@ -9339,6 +10660,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [60673] = {
+        name = "The Traitor",
+        contentTuningID = 1928,
+        source = {
+            type = "npc",
+            id = 161298,
+            name = "Nourman",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.775742,
+                        y = 0.392811,
+                    },
+                },
+            },
+        },
+    },
     [60709] = {
         name = "Recovering the Heart",
         contentTuningID = 807,
@@ -9682,6 +11020,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [60904] = {
+        name = "Medallion of Desire",
+        contentTuningID = 837,
+        source = {
+            type = "object",
+            id = 353948,
+            name = "Medallion of Desire",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.535786,
+                        y = 0.329878,
+                    },
+                },
+            },
+        },
+    },
     [60905] = {
         name = "Infusing the Wildseed",
         contentTuningID = 1931,
@@ -9716,6 +11071,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [60935] = {
+        name = "Medallion of Avarice",
+        contentTuningID = 837,
+        source = {
+            type = "object",
+            id = 353949,
+            name = "Medallion of Avarice",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.548857,
+                        y = 0.310307,
+                    },
+                },
+            },
+        },
+    },
     [60950] = {
         name = "A Matter of Stealth",
         contentTuningID = 837,
@@ -9723,6 +11095,91 @@ BtWQuestsDatabase:AddQuestsTable({
     [60972] = {
         name = "The Hunt for the Baron",
         contentTuningID = 1337,
+    },
+    [60993] = {
+        name = "Citadel of Loyalty",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501129,
+                        y = 0.205391,
+                    },
+                },
+            },
+        },
+    },
+    [60994] = {
+        name = "Lowering Their Defenses",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 171001,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.244149,
+                        y = 0.298594,
+                    },
+                },
+            },
+        },
+    },
+    [60995] = {
+        name = "Disloyalty",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 170999,
+            name = "General Draven",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.242963,
+                        y = 0.298809,
+                    },
+                },
+            },
+        },
+    },
+    [60996] = {
+        name = "Face Your Fears",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 171147,
+            name = "General Draven",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.242806,
+                        y = 0.296653,
+                    },
+                },
+            },
+        },
+    },
+    [61050] = {
+        name = "How to Wear Seven Medallions",
+        contentTuningID = 1928,
+        source = {
+            type = "npc",
+            id = 158653,
+            name = "Prince Renathal",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.517884,
+                        y = 0.375757,
+                    },
+                },
+            },
+        },
     },
     [61051] = {
         name = "The Absent-Minded Artisan",
@@ -9736,6 +11193,23 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.626112,
                         y = 0.360826,
+                    },
+                },
+            },
+        },
+    },
+    [61077] = {
+        name = "Confronting Sin",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 158653,
+            name = "Prince Renathal",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.517884,
+                        y = 0.375757,
                     },
                 },
             },
@@ -10093,6 +11567,23 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [61492] = {
+        name = "The Princeguard",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161977,
+            name = "General Draven",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.461399,
+                        y = 0.146843,
+                    },
+                },
+            },
+        },
+    },
     [61495] = {
         name = "Soul Salvation",
         contentTuningID = 837,
@@ -10138,6 +11629,23 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.466306,
                         y = 0.423772,
+                    },
+                },
+            },
+        },
+    },
+    [61515] = {
+        name = "Soul Salvation",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 164738,
+            name = "Tenaval",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.45422,
+                        y = 0.28439,
                     },
                 },
             },

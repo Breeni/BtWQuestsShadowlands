@@ -177,6 +177,17 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [352520] = {
+        name = "Medallion of Pride",
+        locations = {
+            [1699] = {
+                {
+                    x = 0.568261,
+                    y = 0.309563,
+                },
+            },
+        },
+    },
     [353472] = {
         name = "Radiant Sword",
         locations = {
@@ -195,6 +206,28 @@ BtWQuestsDatabase:AddObjectsTable({
                 {
                     x = 0.565349,
                     y = 0.572116,
+                },
+            },
+        },
+    },
+    [353948] = {
+        name = "Medallion of Desire",
+        locations = {
+            [1699] = {
+                {
+                    x = 0.535786,
+                    y = 0.329878,
+                },
+            },
+        },
+    },
+    [353949] = {
+        name = "Medallion of Avarice",
+        locations = {
+            [1699] = {
+                {
+                    x = 0.548857,
+                    y = 0.310307,
                 },
             },
         },

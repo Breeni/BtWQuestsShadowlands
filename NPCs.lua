@@ -631,6 +631,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [158653] = {
+        name = "Prince Renathal",
+        locations = {
+            [1699] = {
+                {
+                    x = 0.517884,
+                    y = 0.375757,
+                },
+            },
+        },
+    },
     [158694] = {
         name = "Theotar",
         locations = {
@@ -763,6 +774,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [159513] = {
+        name = "Bogdan",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.604694,
+                    y = 0.401444,
+                },
+            },
+        },
+    },
     [159583] = {
         name = "Kleia",
         locations = {
@@ -814,6 +836,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.540239,
                     y = 0.508597,
+                },
+            },
+        },
+    },
+    [159694] = {
+        name = "The Countess",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.580526,
+                    y = 0.27538,
                 },
             },
         },
@@ -891,6 +924,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.565569,
                     y = 0.573254,
+                },
+            },
+        },
+    },
+    [159946] = {
+        name = "The Countess",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.569232,
+                    y = 0.286422,
                 },
             },
         },
@@ -1093,6 +1137,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [160941] = {
+        name = "The Curator",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.727316,
+                    y = 0.376391,
+                },
+            },
+        },
+    },
+    [160956] = {
+        name = "Watcher Emil",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.659252,
+                    y = 0.28844,
+                },
+            },
+        },
+    },
     [160962] = {
         name = "Dreamweaver",
         locations = {
@@ -1115,6 +1181,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [161056] = {
+        name = "Guard Captain Elizabeta",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.659252,
+                    y = 0.322811,
+                },
+            },
+        },
+    },
     [161060] = {
         name = "Aspirant Survivor",
         locations = {
@@ -1122,6 +1199,50 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.338902,
                     y = 0.310397,
+                },
+            },
+        },
+    },
+    [161158] = {
+        name = "The Accuser",
+        locations = {
+            [1700] = {
+                {
+                    x = 0.464103,
+                    y = 0.321207,
+                },
+            },
+        },
+    },
+    [161208] = {
+        name = "The Accuser",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.422989,
+                    y = 0.475632,
+                },
+            },
+        },
+    },
+    [161261] = {
+        name = "Kael'thas Sunstrider",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.422989,
+                    y = 0.475632,
+                },
+            },
+        },
+    },
+    [161278] = {
+        name = "The Accuser",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.438712,
+                    y = 0.514181,
                 },
             },
         },
@@ -1137,6 +1258,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [161298] = {
+        name = "Nourman",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.775742,
+                    y = 0.392811,
+                },
+            },
+        },
+    },
     [161378] = {
         name = "Ara'lon",
         locations = {
@@ -1144,6 +1276,50 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.684599,
                     y = 0.57446,
+                },
+            },
+        },
+    },
+    [161421] = {
+        name = "The Accuser",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.46448,
+                    y = 0.51498,
+                },
+            },
+        },
+    },
+    [161427] = {
+        name = "Kael'thas Sunstrider",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.486753,
+                    y = 0.541951,
+                },
+            },
+        },
+    },
+    [161431] = {
+        name = "Kael'thas Sunstrider",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.464505,
+                    y = 0.514993,
+                },
+            },
+        },
+    },
+    [161436] = {
+        name = "Kael'thas Sunstrider",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.777253,
+                    y = 0.604797,
                 },
             },
         },
@@ -1181,6 +1357,9 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [161469] = {
+        name = "Blackbale Racketeer",
+    },
     [161474] = {
         name = "Baroness Draka",
         locations = {
@@ -1210,6 +1389,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.71505,
                     y = 0.546863,
+                },
+            },
+        },
+    },
+    [161514] = {
+        name = "General Draven",
+        locations = {
+            [1699] = {
+                {
+                    x = 0.444977,
+                    y = 0.464243,
+                },
+            },
+        },
+    },
+    [161526] = {
+        name = "General Draven",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.500868,
+                    y = 0.207048,
                 },
             },
         },
@@ -1254,6 +1455,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.544781,
                     y = 0.485941,
+                },
+            },
+        },
+    },
+    [161572] = {
+        name = "Kael'thas Sunstrider",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.698882,
+                    y = 0.599733,
                 },
             },
         },
@@ -1346,6 +1558,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [161977] = {
+        name = "General Draven",
+        locations = {
+            [1699] = {
+                {
+                    x = 0.461399,
+                    y = 0.146843,
+                },
+            },
+        },
+    },
+    [161979] = {
+        name = "Theotar",
+        locations = {
+            [1699] = {
+                {
+                    x = 0.502347,
+                    y = 0.181354,
+                },
+            },
+        },
+    },
     [161988] = {
         name = "Alexandros Mograine",
         locations = {
@@ -1397,6 +1631,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.251283,
                     y = 0.318492,
+                },
+            },
+        },
+    },
+    [162213] = {
+        name = "General Draven",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.49652,
+                    y = 0.301518,
                 },
             },
         },
@@ -1797,6 +2042,50 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [164738] = {
+        name = "Tenaval",
+        locations = {
+            [1699] = {
+                {
+                    x = 0.45422,
+                    y = 0.28439,
+                },
+            },
+        },
+    },
+    [164741] = {
+        name = "Tactician Sakaa",
+        locations = {
+            [1699] = {
+                {
+                    x = 0.595328,
+                    y = 0.583139,
+                },
+            },
+        },
+    },
+    [164742] = {
+        name = "Prince Renathal",
+        locations = {
+            [1699] = {
+                {
+                    x = 0.25941,
+                    y = 0.557288,
+                },
+            },
+        },
+    },
+    [164796] = {
+        name = "Prince Renathal",
+        locations = {
+            [1699] = {
+                {
+                    x = 0.522706,
+                    y = 0.371842,
+                },
+            },
+        },
+    },
     [164843] = {
         name = "Baron Vyraz",
         locations = {
@@ -1907,6 +2196,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [165291] = {
+        name = "The Accuser",
+        locations = {
+            [1700] = {
+                {
+                    x = 0.56035,
+                    y = 0.785736,
+                },
+            },
+        },
+    },
     [165321] = {
         name = "Merick Feldscar",
         locations = {
@@ -1984,6 +2284,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [165658] = {
+        name = "Cudgelface",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.524396,
+                    y = 0.353288,
+                },
+            },
+        },
+    },
+    [165661] = {
+        name = "Prince Renathal",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.41015,
+                    y = 0.548107,
+                },
+            },
+        },
+    },
     [165794] = {
         name = "Xandria",
         locations = {
@@ -2006,6 +2328,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [165818] = {
+        name = "Nadjia the Mistblade",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.72234,
+                    y = 0.74925,
+                },
+            },
+        },
+    },
     [165859] = {
         name = "Dimwiddle",
         locations = {
@@ -2024,6 +2357,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.598913,
                     y = 0.688947,
+                },
+            },
+        },
+    },
+    [165865] = {
+        name = "General Draven",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.40264,
+                    y = 0.305924,
                 },
             },
         },
@@ -2336,6 +2680,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [167380] = {
+        name = "Prince Renathal",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.563197,
+                    y = 0.667243,
+                },
+            },
+        },
+    },
+    [167381] = {
+        name = "Baroness Draka",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.56339,
+                    y = 0.665939,
+                },
+            },
+        },
+    },
     [167410] = {
         name = "Devos",
     },
@@ -2445,6 +2811,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.409368,
                     y = 0.553524,
+                },
+            },
+        },
+    },
+    [167620] = {
+        name = "Prince Renathal",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.615995,
+                    y = 0.696459,
+                },
+            },
+        },
+    },
+    [167689] = {
+        name = "Prince Renathal",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.719319,
+                    y = 0.688484,
                 },
             },
         },
@@ -3087,6 +3475,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [170999] = {
+        name = "General Draven",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.242963,
+                    y = 0.298809,
+                },
+            },
+        },
+    },
+    [171001] = {
+        name = "Mikanikos",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.244149,
+                    y = 0.298594,
+                },
+            },
+        },
+    },
     [171028] = {
         name = "Shandris Feathermoon",
         locations = {
@@ -3105,6 +3515,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.628836,
                     y = 0.321367,
+                },
+            },
+        },
+    },
+    [171147] = {
+        name = "General Draven",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.242806,
+                    y = 0.296653,
+                },
+            },
+        },
+    },
+    [171175] = {
+        name = "General Draven",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.211159,
+                    y = 0.228641,
                 },
             },
         },
@@ -3138,6 +3570,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.363195,
                     y = 0.366262,
+                },
+            },
+        },
+    },
+    [171589] = {
+        name = "General Draven",
+        locations = {
+            [1670] = {
+                {
+                    x = 0.448689,
+                    y = 0.688605,
                 },
             },
         },
@@ -3193,6 +3636,39 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.500013,
                     y = 0.179206,
+                },
+            },
+        },
+    },
+    [171934] = {
+        name = "Prince Renathal",
+        locations = {
+            [1700] = {
+                {
+                    x = 0.453759,
+                    y = 0.293207,
+                },
+            },
+        },
+    },
+    [171950] = {
+        name = "The Accuser",
+        locations = {
+            [1699] = {
+                {
+                    x = 0.454173,
+                    y = 0.208887,
+                },
+            },
+        },
+    },
+    [171979] = {
+        name = "Nadjia the Mistblade",
+        locations = {
+            [1699] = {
+                {
+                    x = 0.436636,
+                    y = 0.174759,
                 },
             },
         },
@@ -3512,6 +3988,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.542228,
                     y = 0.162742,
+                },
+            },
+        },
+    },
+    [174587] = {
+        name = "Mikanikos",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.514297,
+                    y = 0.184475,
                 },
             },
         },
