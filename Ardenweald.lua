@@ -136,13 +136,6 @@ Database:AddChain(Chain.WelcomeToArdenweald, {
             id = 57787,
             x = 0,
         },
-        {
-            visible = false,
-            type = "quest",
-            id = 57738,
-            x = 0,
-            comment = "Bugged?",
-        },
     },
 })
 Database:AddChain(Chain.TranquilPools, {
