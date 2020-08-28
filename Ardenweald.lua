@@ -1858,24 +1858,6 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.Chain03,
         },
-
-
-        {
-            type = "chain",
-            id = Chain.TempChain14,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain15,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain16,
-        },
-        {
-            type = "chain",
-            id = Chain.TempChain17,
-        },
     },
 })
 

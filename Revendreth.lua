@@ -28,9 +28,10 @@ Chain.MenagerieOfTheMaster = 90407
 Chain.Chain01 = 90411
 Chain.Chain02 = 90412
 Chain.Chain03 = 90413
-Chain.Chain04 = 90417
-Chain.Chain05 = 90414
-Chain.Chain06 = 90415
+Chain.Chain04 = 90414
+Chain.Chain05 = 90415
+Chain.Chain06 = 90416
+Chain.Chain07 = 90417
 
 Chain.EmbedChain01 = 90421
 Chain.EmbedChain02 = 90422
@@ -1447,6 +1448,147 @@ Database:AddChain(Chain.Chain06, {
         },
     },
 })
+Database:AddChain(Chain.Chain07, {
+    name = BtWQuests.GetMapName(1663),
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 57,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 57919,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 58092,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 160116,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57919,
+            x = 0,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57920,
+            x = -2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57921,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57922,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57923,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57924,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57925,
+            x = 0,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57926,
+            x = -2,
+            connections = {
+                6, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60127,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57928,
+            aside = true,
+        },
+        {
+            type = "quest",
+            id = 57927,
+            x = 0,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain06,
+            embed = true,
+            aside = true,
+        },
+        {
+            type = "quest",
+            id = 60128,
+            x = 0,
+            y = 8,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57929,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58092,
+            x = 0,
+        },
+    },
+})
 
 Database:AddChain(Chain.EmbedChain01, {
     category = CATEGORY_ID,
@@ -1789,6 +1931,10 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.Chain06,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain07,
         },
     },
 })
