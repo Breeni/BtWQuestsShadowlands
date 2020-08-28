@@ -67,6 +67,17 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [350804] = {
+        name = "Broken Harp",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.381136,
+                    y = 0.287203,
+                },
+            },
+        },
+    },
     [351467] = {
         name = "Faded Epitaph",
         locations = {
