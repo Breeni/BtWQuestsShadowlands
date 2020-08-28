@@ -1,6 +1,17 @@
 ----- AUTO GENERATED - DO NOT EDIT
 
 BtWQuestsDatabase:AddObjectsTable({
+    [334880] = {
+        name = "Marasmius",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.29494,
+                    y = 0.346119,
+                },
+            },
+        },
+    },
     [336415] = {
         name = "Discarded Scroll",
         locations = {
@@ -63,6 +74,17 @@ BtWQuestsDatabase:AddObjectsTable({
                 {
                     x = 0.541493,
                     y = 0.47485,
+                },
+            },
+        },
+    },
+    [350804] = {
+        name = "Broken Harp",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.381136,
+                    y = 0.287203,
                 },
             },
         },

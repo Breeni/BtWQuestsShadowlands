@@ -356,6 +356,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [157710] = {
+        name = "Cortinarius",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.332337,
+                    y = 0.363764,
+                },
+            },
+        },
+    },
     [157788] = {
         name = "Lady Moonberry",
         locations = {
@@ -620,6 +631,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [158556] = {
+        name = "Aithlyn",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.484839,
+                    y = 0.504209,
+                },
+            },
+        },
+    },
     [158604] = {
         name = "Navigator Xennir",
         locations = {
@@ -785,6 +807,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [159270] = {
+        name = "Caretaker Lillythistle",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.389764,
+                    y = 0.299274,
+                },
+            },
+        },
+    },
     [159272] = {
         name = "Artificer Ligiea",
         locations = {
@@ -792,6 +825,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.427241,
                     y = 0.394189,
+                },
+            },
+        },
+    },
+    [159388] = {
+        name = "Gertie Jr.",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.372829,
+                    y = 0.259738,
                 },
             },
         },
@@ -1005,6 +1049,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [160116] = {
+        name = "The Accuser",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.717511,
+                    y = 0.404191,
+                },
+            },
+        },
+    },
     [160121] = {
         name = "Master Sha'lor",
         locations = {
@@ -1016,6 +1071,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [160139] = {
+        name = "The Accuser",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.706996,
+                    y = 0.46964,
+                },
+            },
+        },
+    },
     [160155] = {
         name = "Guardian Kota",
         locations = {
@@ -1023,6 +1089,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.595798,
                     y = 0.334355,
+                },
+            },
+        },
+    },
+    [160163] = {
+        name = "The Accuser",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.719605,
+                    y = 0.462262,
                 },
             },
         },
@@ -1049,6 +1126,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [160248] = {
+        name = "Archivist Fane",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.729925,
+                    y = 0.519903,
+                },
+            },
+        },
+    },
     [160262] = {
         name = "Ysera",
         locations = {
@@ -1067,6 +1155,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.501129,
                     y = 0.205391,
+                },
+            },
+        },
+    },
+    [160294] = {
+        name = "The Accuser",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.742954,
+                    y = 0.497124,
                 },
             },
         },
@@ -1932,6 +2031,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [163073] = {
+        name = "Cryptkeeper Kassir",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.701468,
+                    y = 0.562156,
+                },
+            },
+        },
+    },
     [163111] = {
         name = "Magistrate Solomon",
         locations = {
@@ -2753,6 +2863,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.551511,
                     y = 0.687025,
+                },
+            },
+        },
+    },
+    [167047] = {
+        name = "Artisan Rees",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.370539,
+                    y = 0.296636,
                 },
             },
         },
@@ -4032,6 +4153,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.663152,
                     y = 0.263906,
+                },
+            },
+        },
+    },
+    [173171] = {
+        name = "Conservator Saola",
+        locations = {
+            [1702] = {
+                {
+                    x = 0.562489,
+                    y = 0.683419,
                 },
             },
         },
