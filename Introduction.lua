@@ -12,12 +12,17 @@
     When leaving The Maw quests for the main character oribos chain are flagged
     as completed, along with quest 62537, this doesnt seem to be flagged as completed 
     on the main though, so maybe it can be used to test for alts
+
+    Maybe the solution is:
+    if achievement 14529 isnt complete on any character then we are the main
+    if quest 59770 is complete and quest 62537 is not complete you are the main
+    if quest 59770 is not complete and achievement 14529 is complete you are an alt
+    if quest 62537 is complete you are an alt (only happens after finishing the maw)
 ]]
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
 local Chain = BtWQuests.Constant.Chain.Shadowlands
-local ALLIANCE_RESTRICTIONS, HORDE_RESTRICTIONS = BtWQuests.Constant.Restrictions.Alliance, BtWQuests.Constant.Restrictions.Horde
 local LEVEL_RANGE = {50, 50}
 local LEVEL_PREREQUISITES = {
     {
@@ -249,14 +254,32 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
     range = LEVEL_RANGE,
     major = true,
     restrictions = {
-        type = "achievement",
-        id = 14529,
-        restrictions = {
-            type = "achievement",
-            id = 14529,
-            anyone = true,
+        variations = {
+            { -- Completed the Maw without getting the alt quest completed
+                type = "quest",
+                id = 59770,
+                restrictions = { -- Marked as completed when leaving the maw on alt
+                    type = "quest",
+                    id = 62537,
+                    completed = false,
+                },
+            },
+            { -- The Alt progress achievement is complete so we are a main
+                type = "achievement",
+                id = 14529,
+                completed = false,
+            },
         },
     },
+    -- restrictions = {
+    --     type = "achievement",
+    --     id = 14529,
+    --     restrictions = {
+    --         type = "achievement",
+    --         id = 14529,
+    --         anyone = true,
+    --     },
+    -- },
     prerequisites = {
         {
             type = "level",
@@ -354,15 +377,33 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
     range = LEVEL_RANGE,
     major = true,
     restrictions = {
-        type = "achievement",
-        id = 14529,
-        completed = false,
-        restrictions = {
-            type = "achievement",
-            id = 14529,
-            anyone = true,
-        },
+        variations = {
+            { -- Alt Progress is enabled
+                type = "achievement",
+                id = 14529,
+                anyone = true,
+                restrictions = { -- Not completed the Maw yet
+                    type = "quest",
+                    id = 59770,
+                    completed = false,
+                },
+            },
+            { -- Marked as completed when leaving the maw on alt
+                type = "quest",
+                id = 62537,
+            },
+        }
     },
+    -- restrictions = {
+    --     type = "achievement",
+    --     id = 14529,
+    --     completed = false,
+    --     restrictions = {
+    --         type = "achievement",
+    --         id = 14529,
+    --         anyone = true,
+    --     },
+    -- },
     -- restrictions = {
     --     {
     --         type = "quest",
