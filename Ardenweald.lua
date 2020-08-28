@@ -28,6 +28,7 @@ Chain.AwakenTheDreamer = 90309
 Chain.Chain01 = 90311
 Chain.Chain02 = 90312
 Chain.Chain03 = 90313
+Chain.Chain04 = 90318
 
 Chain.TempChain14 = 90314
 Chain.TempChain15 = 90315
@@ -1330,6 +1331,98 @@ Database:AddChain(Chain.Chain03, {
         },
     },
 })
+Database:AddChain(Chain.Chain04, {
+    name = { -- Silk for Ardenweald
+        type = "quest",
+        id = 60066,
+    },
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        LEVEL_PREREQUISITE,
+        {
+            name = "Unknown"
+        },
+    },
+    active = {
+        type = "quest",
+        id = 57661,
+        status = {'active','completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 60066,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 158556,
+            x = -2,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57661,
+            x = -2,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "object",
+            id = 350804,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60061,
+            x = -2,
+            connections = {
+                5, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60062,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60064,
+            x = 0,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60063,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60065,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60066,
+            x = 0,
+        },
+    },
+})
 
 Database:AddChain(Chain.TempChain14, {
     category = CATEGORY_ID,
@@ -1857,6 +1950,10 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.Chain03,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain04,
         },
     },
 })
