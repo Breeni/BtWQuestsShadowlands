@@ -16,6 +16,10 @@ Chain.DrustToDrust = 90806
 Chain.TheHornedHunter = 90807
 Chain.DealForALoa = 90808
 Chain.DrustAndAshes = 90809
+
+Chain.Chain01 = 90811
+Chain.Chain02 = 90812
+
 Chain.OtherAlliance = 90897
 Chain.OtherHorde = 90898
 Chain.OtherBoth = 90899
@@ -515,6 +519,10 @@ Database:AddChain(Chain.NightWarriorsCurse, {
             type = "renown",
             level = 10,
         },
+    },
+    completed = {
+        type = "quest",
+        id = 59071,
     },
     items = {
         {
@@ -1273,6 +1281,101 @@ Database:AddChain(Chain.DrustAndAshes, {
         },
     },
 })
+Database:AddChain(Chain.Chain01, {
+    name = "The Queen's Conservatory",
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "Same requirements as the necrolord stiching thingy",
+            aside = true,
+        },
+        {
+            type = "npc",
+            id = 173171,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62624,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+    },
+})
+Database:AddChain(Chain.Chain02, {
+    name = "Mushroom Network",
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "Requires Level 1 transport network",
+            aside = true,
+        },
+        {
+            type = "npc",
+            id = 158556,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57454,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57455,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57458,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57459,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57463,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57583,
+            x = 0,
+        },
+        {
+            name = "Reward: Mushroom Network and Vendor"
+        },
+    },
+})
 Database:AddChain(Chain.OtherAlliance, {
     name = "Other Alliance",
     category = CATEGORY_ID,
@@ -1337,6 +1440,14 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.DrustAndAshes,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain01,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain02,
         },
         {
             type = "chain",
