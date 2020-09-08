@@ -1019,6 +1019,7 @@ Database:AddChain(Chain.Chain01, {
         type = "quest",
         id = 58026,
     },
+    questline = 1161,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1153,6 +1154,7 @@ Database:AddChain(Chain.Chain02, {
         type = "quest",
         id = 59802,
     },
+    questline = 1164,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1257,6 +1259,7 @@ Database:AddChain(Chain.Chain02, {
 })
 Database:AddChain(Chain.Chain03, {
     name = BtWQuests.GetAreaName(12245), -- Glitterfall Basin
+    questline = 1162,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1296,7 +1299,7 @@ Database:AddChain(Chain.Chain03, {
         },
         {
             type = "chain",
-            id = 90323,
+            id = Chain.EmbedChain03,
             embed = true,
             x = 3,
         },
@@ -1336,6 +1339,7 @@ Database:AddChain(Chain.Chain04, {
         type = "quest",
         id = 60066,
     },
+    questline = 1166,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
