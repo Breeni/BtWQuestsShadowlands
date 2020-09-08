@@ -934,6 +934,7 @@ Database:AddChain(Chain.TheEmptyThrone, {
 })
 Database:AddChain(Chain.Chain01, {
     name = BtWQuests.GetAreaName(12810), -- Challenger's Promenade
+    questline = 1156,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1031,6 +1032,7 @@ Database:AddChain(Chain.Chain01, {
 })
 Database:AddChain(Chain.Chain02, {
     name = BtWQuests.GetAreaName(12906), -- Wrangler Pit
+    questline = 1159,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1084,6 +1086,7 @@ Database:AddChain(Chain.Chain03, {
         type = "quest",
         id = 58622,
     },
+    questline = 1157,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1231,6 +1234,7 @@ Database:AddChain(Chain.EmbedChain01, {
     },
 })
 Database:AddChain(Chain.EmbedChain02, {
+    questline = 1156,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1271,6 +1275,7 @@ Database:AddChain(Chain.EmbedChain02, {
     },
 })
 Database:AddChain(Chain.EmbedChain03, {
+    questline = 1156,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1325,6 +1330,7 @@ Database:AddChain(Chain.EmbedChain03, {
     },
 })
 Database:AddChain(Chain.EmbedChain04, {
+    questline = 1171,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1349,6 +1355,7 @@ Database:AddChain(Chain.EmbedChain04, {
     },
 })
 Database:AddChain(Chain.EmbedChain05, {
+    questline = 1170,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1373,6 +1380,7 @@ Database:AddChain(Chain.EmbedChain05, {
     },
 })
 Database:AddChain(Chain.EmbedChain06, {
+    questline = 1159,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1397,6 +1405,7 @@ Database:AddChain(Chain.EmbedChain06, {
     },
 })
 Database:AddChain(Chain.EmbedChain07, {
+    questline = 1159,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
