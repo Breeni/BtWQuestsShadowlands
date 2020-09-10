@@ -54,7 +54,7 @@ Database:AddChain(Chain.EternitysCall, {
         },
         {
             type = "chain",
-            ids = {90002, 900003}
+            id = 90002
         },
     },
     active = {
