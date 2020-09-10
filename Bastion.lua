@@ -149,7 +149,7 @@ Database:AddChain(Chain.EternitysCall, {
 })
 Database:AddChain(Chain.TheAspirantsCrucible, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
-    questline = 1055,
+    questline = {1055, 1154},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -963,6 +963,22 @@ Database:AddChain(Chain.EmbedChain01, {
             type = "quest",
             id = 60466,
             x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 62714,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 62715,
+            x = 0,
         },
     },
 })
@@ -997,6 +1013,7 @@ Database:AddChain(Chain.EmbedChain02, {
     },
 })
 Database:AddChain(Chain.EmbedChain03, {
+    questline = {1152, 1153},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
