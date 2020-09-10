@@ -422,7 +422,7 @@ Database:AddChain(Chain.TheAccusersSecret, {
 })
 Database:AddChain(Chain.TheRebellion, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
-    questline = {996, 1186},
+    questline = {996, 1186, 1178},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -969,6 +969,15 @@ Database:AddChain(Chain.MenagerieOfTheMaster, {
             id = 57877,
             aside = true,
             x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 57878,
+            aside = true,
+            x = 0,
         },
     },
 })
@@ -1272,6 +1281,7 @@ Database:AddChain(Chain.Chain04, {
         type = "quest",
         id = 60470,
     },
+    questline = 1147,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,

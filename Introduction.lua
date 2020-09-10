@@ -267,6 +267,7 @@ Database:AddChain(Chain.IntoTheMaw, {
 })
 Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
     name = "Arrival in the Shadowlands (Main)",
+    questline = 1135,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
@@ -611,6 +612,7 @@ Database:AddChain(Chain.TheMawEmbed, {
 })
 Database:AddChain(Chain.Torghast, {
     name = "Torghast",
+    questline = 1136,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,

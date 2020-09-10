@@ -754,7 +754,34 @@ Database:AddChain(Chain.TheFallenTree, {
             id = 58265,
             x = 0,
             aside = true,
+            -- connections = {
+            --     1, 
+            -- },
         },
+        -- {
+        --     type = "quest",
+        --     id = 58264,
+        --     x = 0,
+        --     aside = true,
+        --     connections = {
+        --         1, 
+        --     },
+        -- },
+        -- {
+        --     type = "quest",
+        --     id = 58266,
+        --     x = 0,
+        --     aside = true,
+        --     connections = {
+        --         1, 
+        --     },
+        -- },
+        -- {
+        --     type = "quest",
+        --     id = 58267,
+        --     x = 0,
+        --     aside = true,
+        -- },
     },
 })
 Database:AddChain(Chain.VisionsOfTheDreamer, {
