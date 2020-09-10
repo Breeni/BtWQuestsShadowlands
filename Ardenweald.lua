@@ -139,7 +139,7 @@ Database:AddChain(Chain.WelcomeToArdenweald, {
         },
     },
 })
-Database:AddChain(Chain.TranquilPools, {
+Database:AddChain(Chain.TranquilPools, { -- [Aiding Tirna Vaal]
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
     questline = 1008,
     category = CATEGORY_ID,
@@ -223,8 +223,8 @@ Database:AddChain(Chain.TranquilPools, {
         },
     },
 })
-Database:AddChain(Chain.SpiritGlen, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 3),
+Database:AddChain(Chain.SpiritGlen, { -- [Aiding Tirna Vaal]
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
     questline = 1011,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -294,7 +294,8 @@ Database:AddChain(Chain.SpiritGlen, {
     },
 })
 Database:AddChain(Chain.WaningGrove, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 3),
+    questline = 1125,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -418,7 +419,8 @@ Database:AddChain(Chain.WaningGrove, {
     },
 })
 Database:AddChain(Chain.GlitterfallHeights, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 5),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
+    questline = 1126,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -525,7 +527,8 @@ Database:AddChain(Chain.GlitterfallHeights, {
     },
 })
 Database:AddChain(Chain.ThisIsTheWay, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 6),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 5),
+    questline = 1127,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -636,7 +639,7 @@ Database:AddChain(Chain.ThisIsTheWay, {
     },
 })
 Database:AddChain(Chain.TheFallenTree, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 7),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 6),
     questline = 1025,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -755,8 +758,8 @@ Database:AddChain(Chain.TheFallenTree, {
     },
 })
 Database:AddChain(Chain.VisionsOfTheDreamer, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 8),
-    questline = 1033,
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 7),
+    questline = 1027,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -869,7 +872,7 @@ Database:AddChain(Chain.VisionsOfTheDreamer, {
     },
 })
 Database:AddChain(Chain.AwakenTheDreamer, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 9),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 8),
     questline = 1033,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -919,7 +922,7 @@ Database:AddChain(Chain.AwakenTheDreamer, {
     },
     active = {
         type = "quest",
-        id = 60572,
+        id = 58714,
         status = {'active', 'completed'},
     },
     completed = {
@@ -1659,29 +1662,9 @@ Database:AddChain(Chain.OtherBoth, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
-        { -- Dreamweaver
-            type = "quest",
-            id = 57816,
-        },
         { -- The Sweat of Our Brow
             type = "quest",
             id = 57867,
-        },
-        { -- Blooming Villains
-            type = "quest",
-            id = 58265,
-        },
-        { -- The Restless Dreamer
-            type = "quest",
-            id = 58589,
-        },
-        { -- Despoilers
-            type = "quest",
-            id = 58591,
-        },
-        { -- Caring for the Caretakers
-            type = "quest",
-            id = 58592,
         },
         {
             type = "quest",
@@ -1727,141 +1710,37 @@ Database:AddChain(Chain.OtherBoth, {
             type = "quest",
             id = 60533,
         },
-        { -- Tending to Wildseeds
-            type = "quest",
-            id = 60563,
-        },
-        { -- Shooing Wildlife
-            type = "quest",
-            id = 60567,
-        },
-        { -- For the Sake of Spirit
-            type = "quest",
-            id = 60572,
-        },
         { -- Shaking 'Shrooms
             type = "quest",
             id = 60574,
-        },
-        { -- Belly Full of Fae
-            type = "quest",
-            id = 60575,
-        },
-        { -- Hungry for Animacones
-            type = "quest",
-            id = 60577,
         },
         { -- Spriggan Riot
             type = "quest",
             id = 60585,
         },
-        { -- One Special Spirit
-            type = "quest",
-            id = 60594,
-        },
         { -- Trouble at the Gormling Corral
             type = "quest",
             id = 60597,
-        },
-        { -- Preparing for the Winter Queen
-            type = "quest",
-            id = 60600,
         },
         { -- Who Devours the Devourers?
             type = "quest",
             id = 60609,
         },
-        { -- Ride to Heartwood Grove
-            type = "quest",
-            id = 60624,
-        },
-        { -- The Missing Hunters
-            type = "quest",
-            id = 60628,
-        },
-        { -- Extreme Recycling
-            type = "quest",
-            id = 60629,
-        },
-        { -- The End of Former Friends
-            type = "quest",
-            id = 60637,
-        },
-        { -- Recovering Wildseeds
-            type = "quest",
-            id = 60638,
-        },
-        { -- Heart of the Grove
-            type = "quest",
-            id = 60639,
-        },
-        { -- Recovering the Animacones
-            type = "quest",
-            id = 60647,
-        },
-        { -- Survivors of Heartwood Grove
-            type = "quest",
-            id = 60648,
-        },
         { -- A Thorn In Their Side
             type = "quest",
             id = 60649,
-        },
-        { -- The Sacrifices We Must Make
-            type = "quest",
-            id = 60671,
-        },
-        { -- Recovering the Heart
-            type = "quest",
-            id = 60709,
-        },
-        { -- Heartless
-            type = "quest",
-            id = 60724,
-        },
-        { -- The Way to Hibernal Hollow
-            type = "quest",
-            id = 60738,
         },
         { -- Tough Crowd
             type = "quest",
             id = 60739,
         },
-        { -- Soothing Song
-            type = "quest",
-            id = 60764,
-        },
-        { -- Remnants of the Wild Hunt
-            type = "quest",
-            id = 60839,
-        },
         { -- Gormageddon
             type = "quest",
             id = 60855,
         },
-        { -- Toppling the Brute
-            type = "quest",
-            id = 60856,
-        },
-        { -- We Can't Save Them All
-            type = "quest",
-            id = 60857,
-        },
-        { -- Ride of the Wild Hunt
-            type = "quest",
-            id = 60881,
-        },
         { -- A Night in the Woods
             type = "quest",
             id = 60899,
-        },
-        { -- Passage to Hibernal Hollow
-            type = "quest",
-            id = 60901,
-        },
-        { -- Infusing the Wildseed
-            type = "quest",
-            id = 60905,
         },
         { -- A Matter of Stealth
             type = "quest",
@@ -1890,14 +1769,6 @@ Database:AddChain(Chain.OtherBoth, {
         { -- Ardenweald's Tricksters
             type = "quest",
             id = 61949,
-        },
-        { -- A Fallen Friend
-            type = "quest",
-            id = 62246,
-        },
-        { -- Tirna Scithe: A Warning Silence
-            type = "quest",
-            id = 62371,
         },
     },
 })
