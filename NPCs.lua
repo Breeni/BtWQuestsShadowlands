@@ -801,8 +801,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1670] = {
                 {
-                    x = 0.388914,
-                    y = 0.700078,
+                    x = 0.388685,
+                    y = 0.699083,
                 },
             },
         },
@@ -2853,8 +2853,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1670] = {
                 {
-                    x = 0.398939,
-                    y = 0.664437,
+                    x = 0.398471,
+                    y = 0.66422,
                 },
             },
         },
@@ -2875,8 +2875,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1670] = {
                 {
-                    x = 0.408061,
-                    y = 0.658356,
+                    x = 0.408257,
+                    y = 0.658716,
                 },
             },
         },
@@ -2976,17 +2976,6 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.280856,
                     y = 0.375191,
-                },
-            },
-        },
-    },
-    [167826] = {
-        name = "Lady Jaina Proudmoore",
-        locations = {
-            [1648] = {
-                {
-                    x = 0.250859,
-                    y = 0.134688,
                 },
             },
         },
@@ -4036,17 +4025,6 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
-    [173565] = {
-        name = "Overseer Kah-Delen",
-        locations = {
-            [1670] = {
-                {
-                    x = 0.238055,
-                    y = 0.503822,
-                },
-            },
-        },
-    },
     [173831] = {
         name = "Balmedar",
         locations = {
@@ -4131,6 +4109,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.514297,
                     y = 0.184475,
+                },
+            },
+        },
+    },
+    [174871] = {
+        name = "Fatescribe Roh-Tahl",
+        locations = {
+            [1670] = {
+                {
+                    x = 0.19211,
+                    y = 0.502752,
                 },
             },
         },

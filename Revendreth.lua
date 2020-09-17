@@ -422,7 +422,7 @@ Database:AddChain(Chain.TheAccusersSecret, {
 })
 Database:AddChain(Chain.TheRebellion, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
-    questline = {996, 1186, 1178},
+    questline = {996, 1178},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,

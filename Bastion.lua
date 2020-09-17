@@ -377,7 +377,7 @@ Database:AddChain(Chain.TheAspirantsCrucible, {
 })
 Database:AddChain(Chain.TheTempleOfPurity, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 3),
-    questline = 1056,
+    questline = {1056,1186},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,

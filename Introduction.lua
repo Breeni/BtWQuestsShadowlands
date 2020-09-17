@@ -521,27 +521,27 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
                 4,
             },
         },
-        {
-            type = "chain",
-            id = 90141,
-            aside = true,
-            x = -3,
-        },
-        {
-            type = "chain",
-            id = 90241,
-            aside = true,
-        },
-        {
-            type = "chain",
-            id = 90341,
-            aside = true,
-        },
-        {
-            type = "chain",
-            id = 90441,
-            aside = true,
-        },
+        -- {
+        --     type = "chain",
+        --     id = 90141,
+        --     aside = true,
+        --     x = -3,
+        -- },
+        -- {
+        --     type = "chain",
+        --     id = 90241,
+        --     aside = true,
+        -- },
+        -- {
+        --     type = "chain",
+        --     id = 90341,
+        --     aside = true,
+        -- },
+        -- {
+        --     type = "chain",
+        --     id = 90441,
+        --     aside = true,
+        -- },
     },
 })
 Database:AddChain(Chain.TheMawEmbed, {

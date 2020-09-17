@@ -225,7 +225,7 @@ Database:AddChain(Chain.TranquilPools, { -- [Aiding Tirna Vaal]
 })
 Database:AddChain(Chain.SpiritGlen, { -- [Aiding Tirna Vaal]
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
-    questline = 1011,
+    questline = {1008,1011},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1558,6 +1558,7 @@ Database:AddChain(Chain.TempChain17, {
 })
 
 Database:AddChain(Chain.EmbedChain01, {
+    questline = 1161,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,

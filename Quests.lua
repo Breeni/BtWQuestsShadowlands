@@ -5,6 +5,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 155668,
+            name = "Rendle",
         },
     },
     [56942] = {
@@ -13,6 +14,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 155668,
+            name = "Rendle",
         },
     },
     [56955] = {
@@ -21,6 +23,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 155533,
+            name = "Lord Chamberlain",
         },
     },
     [56978] = {
@@ -29,6 +32,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 155533,
+            name = "Lord Chamberlain",
         },
     },
     [57007] = {
@@ -37,6 +41,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 155533,
+            name = "Lord Chamberlain",
         },
     },
     [57025] = {
@@ -45,6 +50,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159478,
+            name = "Tal-Inara",
         },
     },
     [57026] = {
@@ -53,6 +59,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 155537,
+            name = "Rendle",
         },
     },
     [57037] = {
@@ -61,6 +68,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159762,
+            name = "Eridia",
             locations = {
                 [1533] = {
                     {
@@ -77,6 +85,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156381,
+            name = "Sire Denathrius",
         },
     },
     [57102] = {
@@ -85,6 +94,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165107,
+            name = "Kleia",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.420943,
+                        y = 0.783093,
+                    },
+                },
+            },
         },
     },
     [57113] = {
@@ -93,6 +111,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
             locations = {
                 [1707] = {
                     {
@@ -109,6 +128,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156361,
+            name = "Kleia",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.618527,
+                        y = 0.436137,
+                    },
+                },
+            },
         },
     },
     [57115] = {
@@ -117,6 +145,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156327,
+            name = "Voitha",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.660463,
+                        y = 0.470952,
+                    },
+                },
+            },
         },
     },
     [57116] = {
@@ -125,6 +162,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156361,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -141,6 +179,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156327,
+            name = "Voitha",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.660463,
+                        y = 0.470952,
+                    },
+                },
+            },
         },
     },
     [57118] = {
@@ -149,6 +196,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156327,
+            name = "Voitha",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.660463,
+                        y = 0.470952,
+                    },
+                },
+            },
         },
     },
     [57120] = {
@@ -157,6 +213,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 353472,
+            name = "Radiant Sword",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.647419,
+                        y = 0.456728,
+                    },
+                },
+            },
         },
     },
     [57121] = {
@@ -165,6 +230,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156474,
+            name = "Chyrus",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.690934,
+                        y = 0.407121,
+                    },
+                },
+            },
         },
     },
     [57122] = {
@@ -173,6 +247,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170375,
+            name = "Kleia",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.337928,
+                        y = 0.557345,
+                    },
+                },
+            },
         },
     },
     [57123] = {
@@ -181,6 +264,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170375,
+            name = "Kleia",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.337928,
+                        y = 0.557345,
+                    },
+                },
+            },
         },
     },
     [57124] = {
@@ -189,6 +281,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170375,
+            name = "Kleia",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.337928,
+                        y = 0.557345,
+                    },
+                },
+            },
         },
     },
     [57125] = {
@@ -197,6 +298,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169850,
+            name = "Uther",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.256493,
+                        y = 0.651744,
+                    },
+                },
+            },
         },
     },
     [57131] = {
@@ -205,6 +315,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168664,
+            name = "The Fearstalker",
         },
     },
     [57136] = {
@@ -213,6 +324,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168664,
+            name = "The Fearstalker",
         },
     },
     [57159] = {
@@ -221,6 +333,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156554,
+            name = "The Accuser",
         },
     },
     [57161] = {
@@ -229,6 +342,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156605,
+            name = "Lord Chamberlain",
         },
     },
     [57164] = {
@@ -237,6 +351,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168664,
+            name = "The Fearstalker",
         },
     },
     [57173] = {
@@ -245,6 +360,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156842,
+            name = "Echelon",
         },
     },
     [57174] = {
@@ -253,6 +369,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156374,
+            name = "Lord Chamberlain",
         },
     },
     [57175] = {
@@ -261,6 +378,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 163576,
+            name = "Echelon",
         },
     },
     [57176] = {
@@ -269,6 +387,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164166,
+            name = "Echelon",
         },
     },
     [57177] = {
@@ -281,6 +400,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 155541,
+            name = "General Kaal",
         },
     },
     [57179] = {
@@ -289,6 +409,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156644,
+            name = "Sire Denathrius",
         },
     },
     [57180] = {
@@ -297,6 +418,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157069,
+            name = "Lord Chamberlain",
         },
     },
     [57182] = {
@@ -305,6 +427,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157084,
+            name = "Lord Chamberlain",
         },
     },
     [57189] = {
@@ -313,6 +436,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168217,
+            name = "The Accuser",
         },
     },
     [57190] = {
@@ -321,6 +445,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168217,
+            name = "The Accuser",
         },
     },
     [57207] = {
@@ -329,6 +454,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156361,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -345,6 +471,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168217,
+            name = "The Accuser",
         },
     },
     [57261] = {
@@ -353,6 +480,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166306,
+            name = "Kalisthene",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.423343,
+                        y = 0.783543,
+                    },
+                },
+            },
         },
     },
     [57263] = {
@@ -361,6 +497,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166577,
+            name = "Sika",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.52651,
+                        y = 0.826054,
+                    },
+                },
+            },
         },
     },
     [57264] = {
@@ -369,6 +514,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157673,
+            name = "Disciple Kosmas",
             locations = {
                 [1533] = {
                     {
@@ -385,6 +531,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158807,
+            name = "Forgelite Sophone",
             locations = {
                 [1533] = {
                     {
@@ -401,6 +548,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159583,
+            name = "Kleia",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.572238,
+                        y = 0.865817,
+                    },
+                },
+            },
         },
     },
     [57267] = {
@@ -409,6 +565,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166577,
+            name = "Sika",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.52651,
+                        y = 0.826054,
+                    },
+                },
+            },
         },
     },
     [57269] = {
@@ -417,6 +582,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157673,
+            name = "Disciple Kosmas",
             locations = {
                 [1533] = {
                     {
@@ -433,6 +599,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157673,
+            name = "Disciple Kosmas",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.483644,
+                        y = 0.727991,
+                    },
+                },
+            },
         },
     },
     [57288] = {
@@ -441,6 +616,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158862,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -457,6 +633,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158807,
+            name = "Forgelite Sophone",
             locations = {
                 [1533] = {
                     {
@@ -473,6 +650,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161733,
+            name = "Anzio The Infallible",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.505728,
+                        y = 0.516111,
+                    },
+                },
+            },
         },
     },
     [57380] = {
@@ -481,6 +667,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157199,
+            name = "Stonehead",
         },
     },
     [57381] = {
@@ -489,6 +676,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157550,
+            name = "Nadjia the Mistblade",
         },
     },
     [57386] = {
@@ -497,6 +685,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171338,
+            name = "Overseer Kah-Sher",
             locations = {
                 [1671] = {
                     {
@@ -513,6 +702,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164244,
+            name = "Grandmaster Vole",
             locations = {
                 [1536] = {
                     {
@@ -529,6 +719,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157588,
+            name = "Lost Sybille",
         },
     },
     [57425] = {
@@ -537,6 +728,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164244,
+            name = "Grandmaster Vole",
             locations = {
                 [1536] = {
                     {
@@ -553,6 +745,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157639,
+            name = "Theotar",
         },
     },
     [57427] = {
@@ -561,6 +754,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157639,
+            name = "Theotar",
         },
     },
     [57428] = {
@@ -569,6 +763,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157639,
+            name = "Theotar",
         },
     },
     [57442] = {
@@ -577,6 +772,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157650,
+            name = "Theotar",
         },
     },
     [57444] = {
@@ -585,6 +781,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160647,
+            name = "Acolyte Galistos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.579643,
+                        y = 0.758767,
+                    },
+                },
+            },
         },
     },
     [57446] = {
@@ -593,6 +798,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159762,
+            name = "Eridia",
             locations = {
                 [1533] = {
                     {
@@ -609,6 +815,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157687,
+            name = "Vesiphone",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.646287,
+                        y = 0.71078,
+                    },
+                },
+            },
         },
     },
     [57460] = {
@@ -617,6 +832,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157801,
+            name = "Tubbins",
         },
     },
     [57461] = {
@@ -625,6 +841,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158542,
+            name = "Theotar",
         },
     },
     [57470] = {
@@ -633,6 +850,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173308,
+            name = "Baroness Draka",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.31027,
+                        y = 0.294278,
+                    },
+                },
+            },
         },
     },
     [57471] = {
@@ -641,6 +867,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157846,
+            name = "Rendle",
             locations = {
                 [1525] = {
                     {
@@ -657,6 +884,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173194,
+            name = "Alexandros Mograine",
             locations = {
                 [1536] = {
                     {
@@ -673,6 +901,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157846,
+            name = "Rendle",
             locations = {
                 [1525] = {
                     {
@@ -689,6 +918,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173194,
+            name = "Alexandros Mograine",
             locations = {
                 [1536] = {
                     {
@@ -705,6 +935,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158001,
+            name = "Bootus",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.728382,
+                        y = 0.739123,
+                    },
+                },
+            },
         },
     },
     [57511] = {
@@ -713,6 +952,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162069,
+            name = "Baroness Draka",
             locations = {
                 [1536] = {
                     {
@@ -729,6 +969,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167535,
+            name = "Baroness Draka",
             locations = {
                 [1536] = {
                     {
@@ -745,6 +986,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159065,
+            name = "Baroness Draka",
             locations = {
                 [1536] = {
                     {
@@ -761,6 +1003,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167535,
+            name = "Baroness Draka",
             locations = {
                 [1536] = {
                     {
@@ -777,6 +1020,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159065,
+            name = "Baroness Draka",
             locations = {
                 [1536] = {
                     {
@@ -793,6 +1037,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173194,
+            name = "Alexandros Mograine",
             locations = {
                 [1536] = {
                     {
@@ -809,6 +1054,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158038,
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.264198,
+                        y = 0.489661,
+                    },
+                },
+            },
         },
     },
     [57532] = {
@@ -817,6 +1070,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158038,
+            name = "Laurent",
             locations = {
                 [1525] = {
                     {
@@ -833,6 +1087,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158088,
+            name = "Simone",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.242162,
+                        y = 0.494725,
+                    },
+                },
+            },
         },
     },
     [57534] = {
@@ -841,6 +1104,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158205,
+            name = "Laurent",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.242517,
+                        y = 0.494192,
+                    },
+                },
+            },
         },
     },
     [57535] = {
@@ -849,6 +1121,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158205,
+            name = "Laurent",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.242517,
+                        y = 0.494192,
+                    },
+                },
+            },
         },
     },
     [57536] = {
@@ -857,6 +1138,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158205,
+            name = "Laurent",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.242517,
+                        y = 0.494192,
+                    },
+                },
+            },
         },
     },
     [57538] = {
@@ -865,6 +1155,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158004,
+            name = "Zosime",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.513323,
+                        y = 0.595387,
+                    },
+                },
+            },
         },
     },
     [57545] = {
@@ -873,6 +1172,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158004,
+            name = "Zosime",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.513323,
+                        y = 0.595387,
+                    },
+                },
+            },
         },
     },
     [57547] = {
@@ -881,6 +1189,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158004,
+            name = "Zosime",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.513323,
+                        y = 0.595387,
+                    },
+                },
+            },
         },
     },
     [57549] = {
@@ -889,6 +1206,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158078,
+            name = "Keeper Mnemis",
         },
     },
     [57551] = {
@@ -897,6 +1215,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158078,
+            name = "Keeper Mnemis",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.469828,
+                        y = 0.634414,
+                    },
+                },
+            },
         },
     },
     [57552] = {
@@ -905,6 +1232,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158181,
+            name = "Agthia",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.465479,
+                        y = 0.634189,
+                    },
+                },
+            },
         },
     },
     [57553] = {
@@ -913,6 +1249,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158178,
+            name = "Agthian Defender",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.464135,
+                        y = 0.636248,
+                    },
+                },
+            },
         },
     },
     [57554] = {
@@ -921,6 +1266,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158181,
+            name = "Agthia",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.465479,
+                        y = 0.634189,
+                    },
+                },
+            },
         },
     },
     [57555] = {
@@ -929,6 +1283,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158181,
+            name = "Agthia",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.465479,
+                        y = 0.634189,
+                    },
+                },
+            },
         },
     },
     [57568] = {
@@ -937,6 +1300,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158004,
+            name = "Zosime",
             locations = {
                 [1533] = {
                     {
@@ -953,6 +1317,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158205,
+            name = "Laurent",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.242517,
+                        y = 0.494192,
+                    },
+                },
+            },
         },
     },
     [57584] = {
@@ -961,6 +1334,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158281,
+            name = "Greeter Mnemis",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.421243,
+                        y = 0.782418,
+                    },
+                },
+            },
         },
     },
     [57636] = {
@@ -969,6 +1351,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161907,
+            name = "Baroness Draka",
             locations = {
                 [1698] = {
                     {
@@ -985,6 +1368,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158604,
+            name = "Navigator Xennir",
             locations = {
                 [1536] = {
                     {
@@ -1001,6 +1385,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167689,
+            name = "Prince Renathal",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.719319,
+                        y = 0.688484,
+                    },
+                },
+            },
         },
     },
     [57648] = {
@@ -1009,6 +1402,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160518,
+            name = "Whisperer Vyn",
             locations = {
                 [1536] = {
                     {
@@ -1025,6 +1419,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164619,
+            name = "Baroness Vashj",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.508267,
+                        y = 0.24492,
+                    },
+                },
+            },
         },
     },
     [57651] = {
@@ -1033,6 +1436,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158345,
+            name = "Lady of the Falls",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.511059,
+                        y = 0.338766,
+                    },
+                },
+            },
         },
     },
     [57652] = {
@@ -1041,6 +1453,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 348747,
+            name = "Muddy Scroll",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.469215,
+                        y = 0.276609,
+                    },
+                },
+            },
         },
     },
     [57653] = {
@@ -1049,6 +1470,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158422,
+            name = "Foreman Thorodir",
             locations = {
                 [1565] = {
                     {
@@ -1065,6 +1487,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 336415,
+            name = "Discarded Scroll",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.475105,
+                        y = 0.263659,
+                    },
+                },
+            },
         },
     },
     [57656] = {
@@ -1073,6 +1504,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158489,
+            name = "Fluttercatch",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.480672,
+                        y = 0.243418,
+                    },
+                },
+            },
         },
     },
     [57660] = {
@@ -1081,6 +1521,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160121,
+            name = "Master Sha'lor",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.629216,
+                        y = 0.362361,
+                    },
+                },
+            },
         },
     },
     [57661] = {
@@ -1089,6 +1538,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158556,
+            name = "Aithlyn",
             locations = {
                 [1565] = {
                     {
@@ -1111,6 +1561,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165107,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -1127,6 +1578,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165107,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -1143,6 +1595,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158615,
+            name = "Vorpalia",
         },
     },
     [57690] = {
@@ -1151,6 +1604,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158649,
+            name = "Vorpalia",
         },
     },
     [57691] = {
@@ -1159,6 +1613,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158645,
+            name = "Prince Renathal",
         },
     },
     [57693] = {
@@ -1167,6 +1622,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158645,
+            name = "Prince Renathal",
         },
     },
     [57694] = {
@@ -1175,6 +1631,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162688,
+            name = "Prince Renathal",
         },
     },
     [57709] = {
@@ -1183,6 +1640,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165107,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -1199,6 +1657,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158807,
+            name = "Forgelite Sophone",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.561449,
+                        y = 0.817282,
+                    },
+                },
+            },
         },
     },
     [57711] = {
@@ -1207,6 +1674,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158807,
+            name = "Forgelite Sophone",
             locations = {
                 [1533] = {
                     {
@@ -1223,6 +1691,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166738,
+            name = "Clora",
         },
     },
     [57713] = {
@@ -1231,6 +1700,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158807,
+            name = "Forgelite Sophone",
             locations = {
                 [1533] = {
                     {
@@ -1247,6 +1717,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158862,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -1263,6 +1734,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158862,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -1279,6 +1751,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159762,
+            name = "Eridia",
             locations = {
                 [1533] = {
                     {
@@ -1295,6 +1768,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159762,
+            name = "Eridia",
             locations = {
                 [1533] = {
                     {
@@ -1311,6 +1785,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 344726,
+            name = "Dark Sermon",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.572313,
+                        y = 0.717962,
+                    },
+                },
+            },
         },
     },
     [57724] = {
@@ -1319,6 +1802,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169105,
+            name = "Breakfist",
         },
     },
     [57727] = {
@@ -1327,6 +1811,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158653,
+            name = "Prince Renathal",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.517884,
+                        y = 0.375757,
+                    },
+                },
+            },
         },
     },
     [57729] = {
@@ -1335,6 +1828,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167620,
+            name = "Prince Renathal",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.615995,
+                        y = 0.696459,
+                    },
+                },
+            },
         },
     },
     [57771] = {
@@ -1343,6 +1845,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167381,
+            name = "Baroness Draka",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.56339,
+                        y = 0.665939,
+                    },
+                },
+            },
         },
     },
     [57772] = {
@@ -1351,6 +1862,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167380,
+            name = "Prince Renathal",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.563197,
+                        y = 0.667243,
+                    },
+                },
+            },
         },
     },
     [57778] = {
@@ -1359,6 +1879,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161907,
+            name = "Baroness Draka",
             locations = {
                 [1698] = {
                     {
@@ -1375,6 +1896,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170533,
+            name = "Featherlight",
             locations = {
                 [1565] = {
                     {
@@ -1391,6 +1913,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158487,
+            name = "Droman Tashmur",
             locations = {
                 [1565] = {
                     {
@@ -1407,6 +1930,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158969,
+            name = "Master Sha'lor",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.648603,
+                        y = 0.389392,
+                    },
+                },
+            },
         },
     },
     [57824] = {
@@ -1415,6 +1947,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158969,
+            name = "Master Sha'lor",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.648603,
+                        y = 0.389392,
+                    },
+                },
+            },
         },
     },
     [57825] = {
@@ -1423,6 +1964,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158969,
+            name = "Master Sha'lor",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.648603,
+                        y = 0.389392,
+                    },
+                },
+            },
         },
     },
     [57860] = {
@@ -1431,6 +1981,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159248,
+            name = "Haetio",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.366867,
+                        y = 0.375629,
+                    },
+                },
+            },
         },
     },
     [57861] = {
@@ -1439,6 +1998,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159248,
+            name = "Haetio",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.366867,
+                        y = 0.375629,
+                    },
+                },
+            },
         },
     },
     [57867] = {
@@ -1451,6 +2019,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159272,
+            name = "Artificer Ligiea",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.427241,
+                        y = 0.394189,
+                    },
+                },
+            },
         },
     },
     [57876] = {
@@ -1459,6 +2036,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165557,
+            name = "Prince Renathal",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.502866,
+                        y = 0.282843,
+                    },
+                },
+            },
         },
     },
     [57877] = {
@@ -1467,6 +2053,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159478,
+            name = "Tal-Inara",
             locations = {
                 [1670] = {
                     {
@@ -1483,6 +2070,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159478,
+            name = "Tal-Inara",
         },
     },
     [57880] = {
@@ -1491,6 +2079,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161979,
+            name = "Theotar",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.502347,
+                        y = 0.181354,
+                    },
+                },
+            },
         },
     },
     [57881] = {
@@ -1499,6 +2096,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159513,
+            name = "Bogdan",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.604694,
+                        y = 0.401444,
+                    },
+                },
+            },
         },
     },
     [57882] = {
@@ -1507,6 +2113,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159513,
+            name = "Bogdan",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.604694,
+                        y = 0.401444,
+                    },
+                },
+            },
         },
     },
     [57884] = {
@@ -1515,6 +2130,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159513,
+            name = "Bogdan",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.604694,
+                        y = 0.401444,
+                    },
+                },
+            },
         },
     },
     [57885] = {
@@ -1523,6 +2147,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159513,
+            name = "Bogdan",
             locations = {
                 [1525] = {
                     {
@@ -1539,6 +2164,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159694,
+            name = "The Countess",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.580526,
+                        y = 0.27538,
+                    },
+                },
+            },
         },
     },
     [57887] = {
@@ -1547,6 +2181,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159694,
+            name = "The Countess",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.580526,
+                        y = 0.27538,
+                    },
+                },
+            },
         },
     },
     [57888] = {
@@ -1555,6 +2198,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159694,
+            name = "The Countess",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.580526,
+                        y = 0.27538,
+                    },
+                },
+            },
         },
     },
     [57889] = {
@@ -1563,6 +2215,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159694,
+            name = "The Countess",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.580526,
+                        y = 0.27538,
+                    },
+                },
+            },
         },
     },
     [57890] = {
@@ -1571,6 +2232,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159694,
+            name = "The Countess",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.580526,
+                        y = 0.27538,
+                    },
+                },
+            },
         },
     },
     [57891] = {
@@ -1579,6 +2249,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159694,
+            name = "The Countess",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.580526,
+                        y = 0.27538,
+                    },
+                },
+            },
         },
     },
     [57892] = {
@@ -1587,6 +2266,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159946,
+            name = "The Countess",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.569232,
+                        y = 0.286422,
+                    },
+                },
+            },
         },
     },
     [57893] = {
@@ -1595,6 +2283,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159946,
+            name = "The Countess",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.569232,
+                        y = 0.286422,
+                    },
+                },
+            },
         },
     },
     [57895] = {
@@ -1603,6 +2300,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168906,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.584392,
+                        y = 0.289147,
+                    },
+                },
+            },
         },
     },
     [57896] = {
@@ -1611,6 +2317,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
             locations = {
                 [1707] = {
                     {
@@ -1627,6 +2334,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169045,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.628792,
+                        y = 0.287332,
+                    },
+                },
+            },
         },
     },
     [57898] = {
@@ -1635,6 +2351,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160212,
+            name = "Soulguide Daelia",
             locations = {
                 [1708] = {
                     {
@@ -1651,6 +2368,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160212,
+            name = "Soulguide Daelia",
             locations = {
                 [1708] = {
                     {
@@ -1667,6 +2385,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160389,
+            name = "Koros",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.438353,
+                        y = 0.40708,
+                    },
+                },
+            },
         },
     },
     [57904] = {
@@ -1675,6 +2402,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160389,
+            name = "Koros",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.438353,
+                        y = 0.40708,
+                    },
+                },
+            },
         },
     },
     [57905] = {
@@ -1683,6 +2419,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
         },
     },
     [57908] = {
@@ -1691,6 +2428,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158807,
+            name = "Forgelite Sophone",
             locations = {
                 [1533] = {
                     {
@@ -1707,6 +2445,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158861,
+            name = "Pelagos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.517424,
+                        y = 0.809873,
+                    },
+                },
+            },
         },
     },
     [57912] = {
@@ -1715,6 +2462,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168381,
+            name = "Baroness Draka",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.503029,
+                        y = 0.677063,
+                    },
+                },
+            },
         },
     },
     [57914] = {
@@ -1723,6 +2479,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159272,
+            name = "Artificer Ligiea",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.427241,
+                        y = 0.394189,
+                    },
+                },
+            },
         },
     },
     [57919] = {
@@ -1731,6 +2496,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160116,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.717511,
+                        y = 0.404191,
+                    },
+                },
+            },
         },
     },
     [57920] = {
@@ -1739,6 +2513,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160116,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.717511,
+                        y = 0.404191,
+                    },
+                },
+            },
         },
     },
     [57921] = {
@@ -1747,6 +2530,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160116,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.717511,
+                        y = 0.404191,
+                    },
+                },
+            },
         },
     },
     [57922] = {
@@ -1755,6 +2547,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160116,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.717511,
+                        y = 0.404191,
+                    },
+                },
+            },
         },
     },
     [57923] = {
@@ -1763,6 +2564,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160139,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.706996,
+                        y = 0.46964,
+                    },
+                },
+            },
         },
     },
     [57924] = {
@@ -1771,6 +2581,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160163,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.719605,
+                        y = 0.462262,
+                    },
+                },
+            },
         },
     },
     [57925] = {
@@ -1779,6 +2598,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160294,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.742954,
+                        y = 0.497124,
+                    },
+                },
+            },
         },
     },
     [57926] = {
@@ -1787,6 +2615,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160248,
+            name = "Archivist Fane",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.729925,
+                        y = 0.519903,
+                    },
+                },
+            },
         },
     },
     [57927] = {
@@ -1795,6 +2632,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 163073,
+            name = "Cryptkeeper Kassir",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.701468,
+                        y = 0.562156,
+                    },
+                },
+            },
         },
     },
     [57928] = {
@@ -1807,6 +2653,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160248,
+            name = "Archivist Fane",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.729925,
+                        y = 0.519903,
+                    },
+                },
+            },
         },
     },
     [57931] = {
@@ -1815,6 +2670,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158765,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.547808,
+                        y = 0.411644,
+                    },
+                },
+            },
         },
     },
     [57932] = {
@@ -1823,6 +2686,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159609,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.547904,
+                        y = 0.412447,
+                    },
+                },
+            },
         },
     },
     [57933] = {
@@ -1831,6 +2702,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158765,
+            name = "Pelodis",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.547808,
+                        y = 0.411644,
+                    },
+                },
+            },
         },
     },
     [57934] = {
@@ -1839,6 +2719,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158765,
+            name = "Pelodis",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.547808,
+                        y = 0.411644,
+                    },
+                },
+            },
         },
     },
     [57935] = {
@@ -1847,6 +2736,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158765,
+            name = "Pelodis",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.547808,
+                        y = 0.411644,
+                    },
+                },
+            },
         },
     },
     [57936] = {
@@ -1855,6 +2753,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159609,
+            name = "Hopo",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.547904,
+                        y = 0.412447,
+                    },
+                },
+            },
         },
     },
     [57937] = {
@@ -1863,6 +2770,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158765,
+            name = "Pelodis",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.547808,
+                        y = 0.411644,
+                    },
+                },
+            },
         },
     },
     [57947] = {
@@ -1871,6 +2787,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158487,
+            name = "Droman Tashmur",
             locations = {
                 [1565] = {
                     {
@@ -1887,6 +2804,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159638,
+            name = "Choofa",
             locations = {
                 [1565] = {
                     {
@@ -1903,6 +2821,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159638,
+            name = "Choofa",
             locations = {
                 [1565] = {
                     {
@@ -1919,6 +2838,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159639,
+            name = "Choofa",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.677464,
+                        y = 0.343273,
+                    },
+                },
+            },
         },
     },
     [57951] = {
@@ -1927,6 +2855,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159638,
+            name = "Choofa",
             locations = {
                 [1565] = {
                     {
@@ -1943,6 +2872,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158921,
+            name = "Guardian Kota",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.626112,
+                        y = 0.360826,
+                    },
+                },
+            },
         },
     },
     [57966] = {
@@ -1951,6 +2889,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159272,
+            name = "Artificer Ligiea",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.427241,
+                        y = 0.394189,
+                    },
+                },
+            },
         },
     },
     [57976] = {
@@ -1959,6 +2906,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159894,
+            name = "Baron Vyraz",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.392681,
+                        y = 0.558857,
+                    },
+                },
+            },
         },
     },
     [57977] = {
@@ -1967,6 +2923,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159762,
+            name = "Eridia",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.541024,
+                        y = 0.736205,
+                    },
+                },
+            },
         },
     },
     [57979] = {
@@ -1975,6 +2940,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169226,
+            name = "Secutor Mevix",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.394444,
+                        y = 0.467108,
+                    },
+                },
+            },
         },
     },
     [57982] = {
@@ -1983,6 +2957,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165397,
+            name = "Secutor Mevix",
             locations = {
                 [1536] = {
                     {
@@ -1999,6 +2974,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160211,
+            name = "Aspirant Thales",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.338908,
+                        y = 0.310474,
+                    },
+                },
+            },
         },
     },
     [57984] = {
@@ -2008,6 +2992,14 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 161060,
             name = "Aspirant Thales",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.338902,
+                        y = 0.310397,
+                    },
+                },
+            },
         },
     },
     [57985] = {
@@ -2016,6 +3008,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165397,
+            name = "Secutor Mevix",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.319855,
+                        y = 0.27373,
+                    },
+                },
+            },
         },
     },
     [57986] = {
@@ -2024,6 +3025,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160211,
+            name = "Aspirant Thales",
             locations = {
                 [1536] = {
                     {
@@ -2040,6 +3042,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165397,
+            name = "Secutor Mevix",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.319855,
+                        y = 0.27373,
+                    },
+                },
+            },
         },
     },
     [57989] = {
@@ -2048,6 +3059,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159272,
+            name = "Artificer Ligiea",
             locations = {
                 [1714] = {
                     {
@@ -2064,6 +3076,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165397,
+            name = "Secutor Mevix",
             locations = {
                 [1536] = {
                     {
@@ -2080,6 +3093,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165575,
+            name = "Aspirant Thales",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.288902,
+                        y = 0.221587,
+                    },
+                },
+            },
         },
     },
     [58007] = {
@@ -2088,6 +3110,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161907,
+            name = "Baroness Draka",
             locations = {
                 [1698] = {
                     {
@@ -2104,6 +3127,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159930,
+            name = "Plague Deviser Marileth",
             locations = {
                 [1536] = {
                     {
@@ -2120,6 +3144,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159930,
+            name = "Plague Deviser Marileth",
             locations = {
                 [1536] = {
                     {
@@ -2136,6 +3161,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171099,
+            name = "Guardian Kota",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.628836,
+                        y = 0.321367,
+                    },
+                },
+            },
         },
     },
     [58023] = {
@@ -2144,6 +3178,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171099,
+            name = "Guardian Kota",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.628836,
+                        y = 0.321367,
+                    },
+                },
+            },
         },
     },
     [58024] = {
@@ -2152,6 +3195,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171195,
+            name = "Gorm Burrow",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.621725,
+                        y = 0.299914,
+                    },
+                },
+            },
         },
     },
     [58025] = {
@@ -2160,6 +3212,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160155,
+            name = "Guardian Kota",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.595798,
+                        y = 0.334355,
+                    },
+                },
+            },
         },
     },
     [58026] = {
@@ -2168,6 +3229,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160155,
+            name = "Guardian Kota",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.595798,
+                        y = 0.334355,
+                    },
+                },
+            },
         },
     },
     [58027] = {
@@ -2176,6 +3246,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159930,
+            name = "Plague Deviser Marileth",
             locations = {
                 [1536] = {
                     {
@@ -2192,6 +3263,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 353645,
+            name = "Marileth's Journal",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.565349,
+                        y = 0.572116,
+                    },
+                },
+            },
         },
     },
     [58036] = {
@@ -2200,6 +3280,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159930,
+            name = "Plague Deviser Marileth",
             locations = {
                 [1536] = {
                     {
@@ -2216,6 +3297,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157696,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.572689,
+                        y = 0.392098,
+                    },
+                },
+            },
         },
     },
     [58038] = {
@@ -2224,6 +3313,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157696,
+            name = "Nemea",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.572689,
+                        y = 0.392098,
+                    },
+                },
+            },
         },
     },
     [58039] = {
@@ -2232,6 +3330,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157696,
+            name = "Nemea",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.572689,
+                        y = 0.392098,
+                    },
+                },
+            },
         },
     },
     [58040] = {
@@ -2240,6 +3347,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157696,
+            name = "Nemea",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.572689,
+                        y = 0.392098,
+                    },
+                },
+            },
         },
     },
     [58041] = {
@@ -2248,6 +3364,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157696,
+            name = "Nemea",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.572689,
+                        y = 0.392098,
+                    },
+                },
+            },
         },
     },
     [58042] = {
@@ -2256,6 +3381,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157696,
+            name = "Nemea",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.572689,
+                        y = 0.392098,
+                    },
+                },
+            },
         },
     },
     [58045] = {
@@ -2264,6 +3398,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159930,
+            name = "Plague Deviser Marileth",
             locations = {
                 [1536] = {
                     {
@@ -2280,6 +3415,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160100,
+            name = "Provisioner Dracho",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.485231,
+                        y = 0.707068,
+                    },
+                },
+            },
         },
     },
     [58062] = {
@@ -2288,6 +3432,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160091,
+            name = "Daru'ca",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.511252,
+                        y = 0.785147,
+                    },
+                },
+            },
         },
     },
     [58068] = {
@@ -2296,6 +3449,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159689,
+            name = "Overseer Kalvaros",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.540239,
+                        y = 0.508597,
+                    },
+                },
+            },
         },
     },
     [58086] = {
@@ -2304,6 +3466,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172673,
+            name = "Projection of Prince Renathal",
         },
     },
     [58088] = {
@@ -2312,6 +3475,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159827,
+            name = "Scrapper Minoire",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.537977,
+                        y = 0.505384,
+                    },
+                },
+            },
         },
     },
     [58090] = {
@@ -2320,6 +3492,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159833,
+            name = "Y'narynar",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.536997,
+                        y = 0.479206,
+                    },
+                },
+            },
         },
     },
     [58092] = {
@@ -2328,6 +3509,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160248,
+            name = "Archivist Fane",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.729925,
+                        y = 0.519903,
+                    },
+                },
+            },
         },
     },
     [58161] = {
@@ -2336,6 +3526,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160440,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.643888,
+                        y = 0.351862,
+                    },
+                },
+            },
         },
     },
     [58162] = {
@@ -2344,6 +3542,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160439,
+            name = "Partik",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.703508,
+                        y = 0.325952,
+                    },
+                },
+            },
         },
     },
     [58163] = {
@@ -2352,6 +3559,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 349515,
+            name = "Battered Journal",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.721953,
+                        y = 0.338543,
+                    },
+                },
+            },
         },
     },
     [58164] = {
@@ -2360,6 +3576,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160439,
+            name = "Partik",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.703508,
+                        y = 0.325952,
+                    },
+                },
+            },
         },
     },
     [58165] = {
@@ -2368,6 +3593,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160439,
+            name = "Partik",
             locations = {
                 [1565] = {
                     {
@@ -2384,6 +3610,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160439,
+            name = "Partik",
             locations = {
                 [1565] = {
                     {
@@ -2400,6 +3627,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158862,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -2416,6 +3644,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
             locations = {
                 [1707] = {
                     {
@@ -2432,6 +3661,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160648,
+            name = "Sika",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501082,
+                        y = 0.20596,
+                    },
+                },
+            },
         },
     },
     [58177] = {
@@ -2440,6 +3678,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160280,
+            name = "Mikanikos",
             locations = {
                 [1533] = {
                     {
@@ -2456,6 +3695,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160280,
+            name = "Mikanikos",
             locations = {
                 [1533] = {
                     {
@@ -2472,6 +3712,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160648,
+            name = "Sika",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501082,
+                        y = 0.20596,
+                    },
+                },
+            },
         },
     },
     [58180] = {
@@ -2480,6 +3729,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160280,
+            name = "Mikanikos",
             locations = {
                 [1533] = {
                     {
@@ -2496,6 +3746,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160280,
+            name = "Mikanikos",
             locations = {
                 [1707] = {
                     {
@@ -2512,6 +3763,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160280,
+            name = "Mikanikos",
             locations = {
                 [1533] = {
                     {
@@ -2528,6 +3780,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160280,
+            name = "Mikanikos",
             locations = {
                 [1533] = {
                     {
@@ -2548,14 +3801,31 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157696,
+            name = "Nemea",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.572689,
+                        y = 0.392098,
+                    },
+                },
+            },
         },
     },
     [58265] = {
         name = "Blooming Villains",
-        contentTuningID = 807,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 160929,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.60681,
+                        y = 0.513346,
+                    },
+                },
+            },
         },
     },
     [58268] = {
@@ -2564,6 +3834,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169359,
+            name = "Secutor Mevix",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.394381,
+                        y = 0.555518,
+                    },
+                },
+            },
         },
     },
     [58272] = {
@@ -2572,6 +3851,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 352490,
+            name = "Join the Rebellion!",
         },
     },
     [58325] = {
@@ -2580,6 +3860,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160941,
+            name = "The Curator",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.727316,
+                        y = 0.376391,
+                    },
+                },
+            },
         },
     },
     [58326] = {
@@ -2588,6 +3877,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161056,
+            name = "Guard Captain Elizabeta",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.659252,
+                        y = 0.322811,
+                    },
+                },
+            },
         },
     },
     [58337] = {
@@ -2596,6 +3894,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161056,
+            name = "Guard Captain Elizabeta",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.659252,
+                        y = 0.322811,
+                    },
+                },
+            },
         },
     },
     [58351] = {
@@ -2604,6 +3911,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157895,
+            name = "Baron Vyraz",
             locations = {
                 [1536] = {
                     {
@@ -2620,6 +3928,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160956,
+            name = "Watcher Emil",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.659252,
+                        y = 0.28844,
+                    },
+                },
+            },
         },
     },
     [58382] = {
@@ -2628,6 +3945,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165291,
+            name = "The Accuser",
             locations = {
                 [1700] = {
                     {
@@ -2644,6 +3962,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161158,
+            name = "The Accuser",
+            locations = {
+                [1700] = {
+                    {
+                        x = 0.464103,
+                        y = 0.321207,
+                    },
+                },
+            },
         },
     },
     [58384] = {
@@ -2652,6 +3979,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161208,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.422989,
+                        y = 0.475632,
+                    },
+                },
+            },
         },
     },
     [58385] = {
@@ -2660,6 +3996,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161208,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.422989,
+                        y = 0.475632,
+                    },
+                },
+            },
         },
     },
     [58386] = {
@@ -2668,6 +4013,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161261,
+            name = "Kael'thas Sunstrider",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.422989,
+                        y = 0.475632,
+                    },
+                },
+            },
         },
     },
     [58387] = {
@@ -2676,6 +4030,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161278,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.438712,
+                        y = 0.514181,
+                    },
+                },
+            },
         },
     },
     [58388] = {
@@ -2684,6 +4047,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161421,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.46448,
+                        y = 0.51498,
+                    },
+                },
+            },
         },
     },
     [58389] = {
@@ -2696,6 +4068,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161431,
+            name = "Kael'thas Sunstrider",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.464505,
+                        y = 0.514993,
+                    },
+                },
+            },
         },
     },
     [58392] = {
@@ -2704,6 +4085,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161572,
+            name = "Kael'thas Sunstrider",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.698882,
+                        y = 0.599733,
+                    },
+                },
+            },
         },
     },
     [58393] = {
@@ -2712,6 +4102,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161572,
+            name = "Kael'thas Sunstrider",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.698882,
+                        y = 0.599733,
+                    },
+                },
+            },
         },
     },
     [58394] = {
@@ -2720,6 +4119,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161436,
+            name = "Kael'thas Sunstrider",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.777253,
+                        y = 0.604797,
+                    },
+                },
+            },
         },
     },
     [58395] = {
@@ -2728,6 +4136,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161436,
+            name = "Kael'thas Sunstrider",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.777253,
+                        y = 0.604797,
+                    },
+                },
+            },
         },
     },
     [58406] = {
@@ -2736,6 +4153,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158653,
+            name = "Prince Renathal",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.517884,
+                        y = 0.375757,
+                    },
+                },
+            },
         },
     },
     [58407] = {
@@ -2744,6 +4170,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170543,
+            name = "General Draven",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.274229,
+                        y = 0.403287,
+                    },
+                },
+            },
         },
     },
     [58421] = {
@@ -2752,6 +4187,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160941,
+            name = "The Curator",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.727316,
+                        y = 0.376391,
+                    },
+                },
+            },
         },
     },
     [58424] = {
@@ -2760,6 +4204,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160956,
+            name = "Watcher Emil",
             locations = {
                 [1525] = {
                     {
@@ -2776,6 +4221,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161158,
+            name = "The Accuser",
+            locations = {
+                [1700] = {
+                    {
+                        x = 0.464103,
+                        y = 0.321207,
+                    },
+                },
+            },
         },
     },
     [58428] = {
@@ -2784,6 +4238,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160941,
+            name = "The Curator",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.727316,
+                        y = 0.376391,
+                    },
+                },
+            },
         },
     },
     [58431] = {
@@ -2792,6 +4255,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157945,
+            name = "Boil Master Yetch",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.590966,
+                        y = 0.73873,
+                    },
+                },
+            },
         },
     },
     [58433] = {
@@ -2800,6 +4272,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 155533,
+            name = "Lord Chamberlain",
         },
     },
     [58440] = {
@@ -2808,6 +4281,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160941,
+            name = "The Curator",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.727316,
+                        y = 0.376391,
+                    },
+                },
+            },
         },
     },
     [58443] = {
@@ -2816,6 +4298,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161278,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.438712,
+                        y = 0.514181,
+                    },
+                },
+            },
         },
     },
     [58444] = {
@@ -2824,6 +4315,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160941,
+            name = "The Curator",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.727316,
+                        y = 0.376391,
+                    },
+                },
+            },
         },
     },
     [58472] = {
@@ -2832,6 +4332,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161694,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.737848,
+                        y = 0.573854,
+                    },
+                },
+            },
         },
     },
     [58473] = {
@@ -2840,6 +4349,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160963,
+            name = "Ara'lon",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.601121,
+                        y = 0.528245,
+                    },
+                },
+            },
         },
     },
     [58480] = {
@@ -2848,6 +4366,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161378,
+            name = "Ara'lon",
             locations = {
                 [1565] = {
                     {
@@ -2864,6 +4383,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161447,
+            name = "Niya",
         },
     },
     [58484] = {
@@ -2872,6 +4392,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161378,
+            name = "Ara'lon",
             locations = {
                 [1565] = {
                     {
@@ -2888,6 +4409,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161446,
+            name = "Ara'lon",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.684739,
+                        y = 0.57446,
+                    },
+                },
+            },
         },
     },
     [58488] = {
@@ -2896,6 +4426,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161492,
+            name = "Ara'lon",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.714573,
+                        y = 0.545261,
+                    },
+                },
+            },
         },
     },
     [58504] = {
@@ -2904,6 +4443,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161907,
+            name = "Baroness Draka",
             locations = {
                 [1698] = {
                     {
@@ -2920,6 +4460,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161427,
+            name = "Kael'thas Sunstrider",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.486753,
+                        y = 0.541951,
+                    },
+                },
+            },
         },
     },
     [58523] = {
@@ -2928,6 +4477,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161461,
+            name = "The Accuser",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.720718,
+                        y = 0.411525,
+                    },
+                },
+            },
         },
     },
     [58524] = {
@@ -2936,6 +4494,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161494,
+            name = "Lady Moonberry",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.71505,
+                        y = 0.546863,
+                    },
+                },
+            },
         },
     },
     [58530] = {
@@ -2944,6 +4511,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161514,
+            name = "General Draven",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.444977,
+                        y = 0.464243,
+                    },
+                },
+            },
         },
     },
     [58555] = {
@@ -2952,6 +4528,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162213,
+            name = "General Draven",
             locations = {
                 [1533] = {
                     {
@@ -2968,6 +4545,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
             locations = {
                 [1707] = {
                     {
@@ -2984,6 +4562,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161544,
+            name = "The Curator",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.603451,
+                        y = 0.608795,
+                    },
+                },
+            },
         },
     },
     [58559] = {
@@ -2992,6 +4579,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161540,
+            name = "Kleia",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.602678,
+                        y = 0.60843,
+                    },
+                },
+            },
         },
     },
     [58560] = {
@@ -3000,6 +4596,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165011,
+            name = "Pelagos",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.50521,
+                        y = 0.531772,
+                    },
+                },
+            },
         },
     },
     [58561] = {
@@ -3008,6 +4613,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161540,
+            name = "Kleia",
             locations = {
                 [1525] = {
                     {
@@ -3024,6 +4630,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161544,
+            name = "The Curator",
             locations = {
                 [1525] = {
                     {
@@ -3040,6 +4647,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161544,
+            name = "The Curator",
             locations = {
                 [1525] = {
                     {
@@ -3056,6 +4664,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161544,
+            name = "The Curator",
             locations = {
                 [1525] = {
                     {
@@ -3072,6 +4681,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161544,
+            name = "The Curator",
             locations = {
                 [1525] = {
                     {
@@ -3088,6 +4698,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161553,
+            name = "Mindscorched Alwin",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.319184,
+                        y = 0.475698,
+                    },
+                },
+            },
         },
     },
     [58567] = {
@@ -3096,6 +4715,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161540,
+            name = "Kleia",
             locations = {
                 [1525] = {
                     {
@@ -3112,6 +4732,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161540,
+            name = "Kleia",
             locations = {
                 [1525] = {
                     {
@@ -3128,6 +4749,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161553,
+            name = "Mindscorched Alwin",
             locations = {
                 [1525] = {
                     {
@@ -3144,6 +4766,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161540,
+            name = "Kleia",
             locations = {
                 [1525] = {
                     {
@@ -3160,6 +4783,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162149,
+            name = "Mikanikos",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.456344,
+                        y = 0.571343,
+                    },
+                },
+            },
         },
     },
     [58575] = {
@@ -3168,6 +4800,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161559,
+            name = "Louison",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.544781,
+                        y = 0.485941,
+                    },
+                },
+            },
         },
     },
     [58584] = {
@@ -3176,6 +4817,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161526,
+            name = "General Draven",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.500868,
+                        y = 0.207048,
+                    },
+                },
+            },
         },
     },
     [58585] = {
@@ -3184,6 +4834,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501129,
+                        y = 0.205391,
+                    },
+                },
+            },
         },
     },
     [58586] = {
@@ -3192,6 +4851,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501129,
+                        y = 0.205391,
+                    },
+                },
+            },
         },
     },
     [58589] = {
@@ -3200,6 +4868,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160962,
+            name = "Dreamweaver",
             locations = {
                 [1565] = {
                     {
@@ -3216,6 +4885,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160962,
+            name = "Dreamweaver",
             locations = {
                 [1565] = {
                     {
@@ -3232,6 +4902,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160894,
+            name = "Droman Aliothe",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.600841,
+                        y = 0.539589,
+                    },
+                },
+            },
         },
     },
     [58592] = {
@@ -3240,6 +4919,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160962,
+            name = "Dreamweaver",
             locations = {
                 [1565] = {
                     {
@@ -3256,6 +4936,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160962,
+            name = "Dreamweaver",
             locations = {
                 [1565] = {
                     {
@@ -3272,6 +4953,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161474,
+            name = "Baroness Draka",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.737822,
+                        y = 0.573816,
+                    },
+                },
+            },
         },
     },
     [58600] = {
@@ -3280,6 +4970,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501129,
+                        y = 0.205391,
+                    },
+                },
+            },
         },
     },
     [58603] = {
@@ -3288,6 +4987,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501129,
+                        y = 0.205391,
+                    },
+                },
+            },
         },
     },
     [58608] = {
@@ -3296,6 +5004,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161474,
+            name = "Baroness Draka",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.737822,
+                        y = 0.573816,
+                    },
+                },
+            },
         },
     },
     [58609] = {
@@ -3304,6 +5021,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171821,
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.429622,
+                        y = 0.742122,
+                    },
+                },
+            },
         },
     },
     [58616] = {
@@ -3312,6 +5037,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159065,
+            name = "Baroness Draka",
             locations = {
                 [1536] = {
                     {
@@ -3328,6 +5054,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157895,
+            name = "Baron Vyraz",
             locations = {
                 [1536] = {
                     {
@@ -3344,6 +5071,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157676,
+            name = "Bonesmith Heirmir",
             locations = {
                 [1536] = {
                     {
@@ -3360,6 +5088,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166657,
+            name = "Ta'eran",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.406604,
+                        y = 0.330727,
+                    },
+                },
+            },
         },
     },
     [58620] = {
@@ -3368,6 +5105,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166664,
+            name = "Ta'eran",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.430812,
+                        y = 0.251039,
+                    },
+                },
+            },
         },
     },
     [58621] = {
@@ -3376,6 +5122,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166664,
+            name = "Ta'eran",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.430812,
+                        y = 0.251039,
+                    },
+                },
+            },
         },
     },
     [58622] = {
@@ -3384,6 +5139,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166664,
+            name = "Ta'eran",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.430812,
+                        y = 0.251039,
+                    },
+                },
+            },
         },
     },
     [58623] = {
@@ -3392,6 +5156,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166806,
+            name = "Ta'eran",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.451601,
+                        y = 0.321287,
+                    },
+                },
+            },
         },
     },
     [58624] = {
@@ -3400,6 +5173,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161865,
+            name = "Baroness Draka",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.781186,
+                        y = 0.621867,
+                    },
+                },
+            },
         },
     },
     [58630] = {
@@ -3408,6 +5190,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501129,
+                        y = 0.205391,
+                    },
+                },
+            },
         },
     },
     [58654] = {
@@ -3416,6 +5207,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156822,
+            name = "Mistress Mihaela",
         },
     },
     [58656] = {
@@ -3424,6 +5216,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 174587,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.514297,
+                        y = 0.184475,
+                    },
+                },
+            },
         },
     },
     [58665] = {
@@ -3432,6 +5233,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162222,
+            name = "Rathan",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.479564,
+                        y = 0.504587,
+                    },
+                },
+            },
         },
     },
     [58668] = {
@@ -3440,6 +5250,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162108,
+            name = "Rathan",
             locations = {
                 [1536] = {
                     {
@@ -3456,6 +5267,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162174,
+            name = "Emeni",
             locations = {
                 [1536] = {
                     {
@@ -3472,6 +5284,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162174,
+            name = "Emeni",
             locations = {
                 [1536] = {
                     {
@@ -3488,6 +5301,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161285,
+            name = "Emeni",
             locations = {
                 [1536] = {
                     {
@@ -3504,6 +5318,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162227,
+            name = "Rathan",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.241759,
+                        y = 0.387301,
+                    },
+                },
+            },
         },
     },
     [58686] = {
@@ -3512,6 +5335,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162227,
+            name = "Rathan",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.241759,
+                        y = 0.387301,
+                    },
+                },
+            },
         },
     },
     [58714] = {
@@ -3520,6 +5352,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161847,
+            name = "Lady Moonberry",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.599992,
+                        y = 0.53019,
+                    },
+                },
+            },
         },
     },
     [58719] = {
@@ -3528,6 +5369,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160894,
+            name = "Droman Aliothe",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.600841,
+                        y = 0.539589,
+                    },
+                },
+            },
         },
     },
     [58720] = {
@@ -3536,6 +5386,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160894,
+            name = "Droman Aliothe",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.600841,
+                        y = 0.539589,
+                    },
+                },
+            },
         },
     },
     [58721] = {
@@ -3544,6 +5403,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169869,
+            name = "Lord Herne",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.479265,
+                        y = 0.538118,
+                    },
+                },
+            },
         },
     },
     [58723] = {
@@ -3552,6 +5420,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162968,
+            name = "Winter Queen",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.452933,
+                        y = 0.630337,
+                    },
+                },
+            },
         },
     },
     [58724] = {
@@ -3560,6 +5437,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162968,
+            name = "Winter Queen",
             locations = {
                 [1701] = {
                     {
@@ -3576,6 +5454,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157676,
+            name = "Bonesmith Heirmir",
             locations = {
                 [1536] = {
                     {
@@ -3592,6 +5471,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162174,
+            name = "Emeni",
             locations = {
                 [1536] = {
                     {
@@ -3608,6 +5488,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162474,
+            name = "Dundae",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.468795,
+                        y = 0.485786,
+                    },
+                },
+            },
         },
     },
     [58751] = {
@@ -3616,6 +5505,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168381,
+            name = "Baroness Draka",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.503029,
+                        y = 0.677063,
+                    },
+                },
+            },
         },
     },
     [58771] = {
@@ -3624,6 +5522,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167034,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.547354,
+                        y = 0.641162,
+                    },
+                },
+            },
         },
     },
     [58775] = {
@@ -3632,6 +5539,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
             locations = {
                 [1707] = {
                     {
@@ -3648,6 +5556,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162615,
+            name = "Caleesy",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.469968,
+                        y = 0.490392,
+                    },
+                },
+            },
         },
     },
     [58787] = {
@@ -3656,6 +5573,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
             locations = {
                 [1707] = {
                     {
@@ -3672,6 +5590,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162542,
+            name = "Kleia",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.331848,
+                        y = 0.261401,
+                    },
+                },
+            },
         },
     },
     [58789] = {
@@ -3680,6 +5607,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162544,
+            name = "Achillon",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.33248,
+                        y = 0.26153,
+                    },
+                },
+            },
         },
     },
     [58790] = {
@@ -3688,6 +5624,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162542,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -3704,6 +5641,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162558,
+            name = "Alithea",
+            locations = {
+                [49] = {
+                    {
+                        x = 0.324349,
+                        y = 0.396854,
+                    },
+                },
+            },
         },
     },
     [58792] = {
@@ -3712,6 +5658,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162558,
+            name = "Alithea",
+            locations = {
+                [49] = {
+                    {
+                        x = 0.324349,
+                        y = 0.396854,
+                    },
+                },
+            },
         },
     },
     [58793] = {
@@ -3720,6 +5675,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162542,
+            name = "Kleia",
             locations = {
                 [1671] = {
                     {
@@ -3736,6 +5692,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162474,
+            name = "Dundae",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.468795,
+                        y = 0.485786,
+                    },
+                },
+            },
         },
     },
     [58795] = {
@@ -3744,6 +5709,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
             locations = {
                 [1707] = {
                     {
@@ -3760,6 +5726,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 163650,
+            name = "Kleia",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.51551,
+                        y = 0.477185,
+                    },
+                },
+            },
         },
     },
     [58797] = {
@@ -3768,6 +5743,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 163650,
+            name = "Kleia",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.51551,
+                        y = 0.477185,
+                    },
+                },
+            },
         },
     },
     [58798] = {
@@ -3776,6 +5760,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 163650,
+            name = "Kleia",
             locations = {
                 [1708] = {
                     {
@@ -3792,6 +5777,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167034,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.547354,
+                        y = 0.641162,
+                    },
+                },
+            },
         },
     },
     [58800] = {
@@ -3800,6 +5794,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167034,
+            name = "Mikanikos",
             locations = {
                 [1533] = {
                     {
@@ -3816,6 +5811,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162679,
+            name = "Willowblossom",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.405871,
+                        y = 0.563746,
+                    },
+                },
+            },
         },
     },
     [58820] = {
@@ -3824,6 +5828,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161907,
+            name = "Baroness Draka",
             locations = {
                 [1698] = {
                     {
@@ -3840,6 +5845,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162487,
+            name = "Baroness Vashj",
             locations = {
                 [1536] = {
                     {
@@ -3860,6 +5866,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161907,
+            name = "Baroness Draka",
             locations = {
                 [1698] = {
                     {
@@ -3876,6 +5883,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158653,
+            name = "Prince Renathal",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.517884,
+                        y = 0.375757,
+                    },
+                },
+            },
         },
     },
     [58843] = {
@@ -3884,6 +5900,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167035,
+            name = "Locus-Keeper Mnemis",
             locations = {
                 [1533] = {
                     {
@@ -3900,6 +5917,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
             locations = {
                 [1707] = {
                     {
@@ -3916,6 +5934,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164473,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.313904,
+                        y = 0.234101,
+                    },
+                },
+            },
         },
     },
     [58847] = {
@@ -3924,6 +5951,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166693,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.674214,
+                        y = 0.15239,
+                    },
+                },
+            },
         },
     },
     [58854] = {
@@ -3932,6 +5968,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
             locations = {
                 [1707] = {
                     {
@@ -3948,6 +5985,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162392,
+            name = "Willowblossom",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.440433,
+                        y = 0.517947,
+                    },
+                },
+            },
         },
     },
     [58857] = {
@@ -3956,6 +6002,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162392,
+            name = "Willowblossom",
             locations = {
                 [1565] = {
                     {
@@ -3972,6 +6019,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169541,
+            name = "Droman Aliothe",
             locations = {
                 [1565] = {
                     {
@@ -3988,6 +6036,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161559,
+            name = "Louison",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.544781,
+                        y = 0.485941,
+                    },
+                },
+            },
         },
     },
     [58905] = {
@@ -3996,6 +6053,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162679,
+            name = "Willowblossom",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.405871,
+                        y = 0.563746,
+                    },
+                },
+            },
         },
     },
     [58916] = {
@@ -4004,6 +6070,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169087,
+            name = "The Fearstalker",
         },
     },
     [58931] = {
@@ -4012,6 +6079,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156823,
+            name = "Lord Chamberlain",
         },
     },
     [58932] = {
@@ -4024,6 +6092,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 355296,
+            name = "Bounty: Beast Control",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.496113,
+                        y = 0.759573,
+                    },
+                },
+            },
         },
     },
     [58937] = {
@@ -4032,6 +6109,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162392,
+            name = "Willowblossom",
             locations = {
                 [1565] = {
                     {
@@ -4048,6 +6126,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162392,
+            name = "Willowblossom",
             locations = {
                 [1565] = {
                     {
@@ -4064,6 +6143,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165110,
+            name = "Pelagos",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.531719,
+                        y = 0.745873,
+                    },
+                },
+            },
         },
     },
     [58941] = {
@@ -4072,6 +6160,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 163221,
+            name = "Flockmaster Sergio",
         },
     },
     [58947] = {
@@ -4080,6 +6169,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161559,
+            name = "Louison",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.544781,
+                        y = 0.485941,
+                    },
+                },
+            },
         },
     },
     [58948] = {
@@ -4088,6 +6186,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162953,
+            name = "Sarah Howell",
+            locations = {
+                [49] = {
+                    {
+                        x = 0.215912,
+                        y = 0.420324,
+                    },
+                },
+            },
         },
     },
     [58949] = {
@@ -4096,6 +6203,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162953,
+            name = "Sarah Howell",
+            locations = {
+                [49] = {
+                    {
+                        x = 0.215912,
+                        y = 0.420324,
+                    },
+                },
+            },
         },
     },
     [58950] = {
@@ -4104,6 +6220,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162953,
+            name = "Sarah Howell",
+            locations = {
+                [49] = {
+                    {
+                        x = 0.215912,
+                        y = 0.420324,
+                    },
+                },
+            },
         },
     },
     [58951] = {
@@ -4112,6 +6237,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 163111,
+            name = "Magistrate Solomon",
+            locations = {
+                [49] = {
+                    {
+                        x = 0.289096,
+                        y = 0.411114,
+                    },
+                },
+            },
         },
     },
     [58976] = {
@@ -4120,6 +6254,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156238,
+            name = "Kleia",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.538284,
+                        y = 0.736626,
+                    },
+                },
+            },
         },
     },
     [58977] = {
@@ -4128,6 +6271,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167034,
+            name = "Mikanikos",
             locations = {
                 [1533] = {
                     {
@@ -4144,6 +6288,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167038,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -4160,6 +6305,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167034,
+            name = "Mikanikos",
             locations = {
                 [1533] = {
                     {
@@ -4176,6 +6322,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167035,
+            name = "Locus-Keeper Mnemis",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.572546,
+                        y = 0.552765,
+                    },
+                },
+            },
         },
     },
     [58995] = {
@@ -4184,6 +6339,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 163328,
+            name = "Pelagos",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.45231,
+                        y = 0.653536,
+                    },
+                },
+            },
         },
     },
     [58996] = {
@@ -4192,6 +6356,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156384,
+            name = "Huntmaster Constantin",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.485077,
+                        y = 0.684418,
+                    },
+                },
+            },
         },
     },
     [58997] = {
@@ -4200,6 +6373,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 163328,
+            name = "Pelagos",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.45231,
+                        y = 0.653536,
+                    },
+                },
+            },
         },
     },
     [59009] = {
@@ -4208,6 +6390,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164326,
+            name = "Baroness Vashj",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.735728,
+                        y = 0.445635,
+                    },
+                },
+            },
         },
     },
     [59011] = {
@@ -4216,6 +6407,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162801,
+            name = "Alexandros Mograine",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.413347,
+                        y = 0.605873,
+                    },
+                },
+            },
         },
     },
     [59014] = {
@@ -4224,6 +6424,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 163221,
+            name = "Flockmaster Sergio",
         },
     },
     [59015] = {
@@ -4236,6 +6437,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 174179,
+            name = "Baroness Draka",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.621656,
+                        y = 0.410408,
+                    },
+                },
+            },
         },
     },
     [59021] = {
@@ -4244,6 +6454,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 163576,
+            name = "Echelon",
         },
     },
     [59023] = {
@@ -4252,6 +6463,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164166,
+            name = "Echelon",
         },
     },
     [59025] = {
@@ -4260,6 +6472,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164326,
+            name = "Baroness Vashj",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.735728,
+                        y = 0.445635,
+                    },
+                },
+            },
         },
     },
     [59042] = {
@@ -4268,6 +6489,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162227,
+            name = "Rathan",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.241759,
+                        y = 0.387301,
+                    },
+                },
+            },
         },
     },
     [59130] = {
@@ -4276,6 +6506,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168381,
+            name = "Baroness Draka",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.503029,
+                        y = 0.677063,
+                    },
+                },
+            },
         },
     },
     [59147] = {
@@ -4284,6 +6523,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159762,
+            name = "Eridia",
             locations = {
                 [1533] = {
                     {
@@ -4300,6 +6540,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162487,
+            name = "Baroness Vashj",
             locations = {
                 [1536] = {
                     {
@@ -4316,6 +6557,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162487,
+            name = "Baroness Vashj",
             locations = {
                 [1536] = {
                     {
@@ -4336,6 +6578,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164277,
+            name = "Shandris Feathermoon",
             locations = {
                 [1670] = {
                     {
@@ -4352,6 +6595,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162487,
+            name = "Baroness Vashj",
             locations = {
                 [1536] = {
                     {
@@ -4368,6 +6612,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164297,
+            name = "Khaliiq",
             locations = {
                 [1536] = {
                     {
@@ -4384,6 +6629,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171028,
+            name = "Shandris Feathermoon",
             locations = {
                 [1543] = {
                     {
@@ -4400,6 +6646,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164326,
+            name = "Baroness Vashj",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.735728,
+                        y = 0.445635,
+                    },
+                },
+            },
         },
     },
     [59196] = {
@@ -4408,6 +6663,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167038,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -4424,6 +6680,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165045,
+            name = "Kalisthene",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.528272,
+                        y = 0.47879,
+                    },
+                },
+            },
         },
     },
     [59198] = {
@@ -4432,6 +6697,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165048,
+            name = "Polemarch Adrestes",
         },
     },
     [59199] = {
@@ -4440,6 +6706,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
         },
     },
     [59200] = {
@@ -4448,6 +6715,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
         },
     },
     [59202] = {
@@ -4456,6 +6724,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168381,
+            name = "Baroness Draka",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.503029,
+                        y = 0.677063,
+                    },
+                },
+            },
         },
     },
     [59203] = {
@@ -4464,6 +6741,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159830,
+            name = "Ad'narim",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.535886,
+                        y = 0.475159,
+                    },
+                },
+            },
         },
     },
     [59206] = {
@@ -4472,6 +6758,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164545,
+            name = "Baroness Draka",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.496364,
+                        y = 0.489459,
+                    },
+                },
+            },
         },
     },
     [59207] = {
@@ -4480,6 +6775,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159248,
+            name = "Haetio",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.366867,
+                        y = 0.375629,
+                    },
+                },
+            },
         },
     },
     [59209] = {
@@ -4488,6 +6792,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164394,
+            name = "General Draven",
         },
     },
     [59210] = {
@@ -4496,6 +6801,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162487,
+            name = "Baroness Vashj",
             locations = {
                 [1536] = {
                     {
@@ -4516,6 +6822,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159930,
+            name = "Plague Deviser Marileth",
             locations = {
                 [1536] = {
                     {
@@ -4532,6 +6839,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159930,
+            name = "Plague Deviser Marileth",
             locations = {
                 [1536] = {
                     {
@@ -4548,6 +6856,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156381,
+            name = "Sire Denathrius",
         },
     },
     [59233] = {
@@ -4556,6 +6865,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171175,
+            name = "General Draven",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.211159,
+                        y = 0.228641,
+                    },
+                },
+            },
         },
     },
     [59242] = {
@@ -4564,6 +6882,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171028,
+            name = "Shandris Feathermoon",
             locations = {
                 [1543] = {
                     {
@@ -4580,6 +6899,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160262,
+            name = "Ysera",
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.447788,
+                        y = 0.389445,
+                    },
+                },
+            },
         },
     },
     [59256] = {
@@ -4588,6 +6916,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168468,
+            name = "The Accuser",
         },
     },
     [59262] = {
@@ -4596,6 +6925,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164640,
+            name = "Kowalskos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.42827,
+                        y = 0.427291,
+                    },
+                },
+            },
         },
     },
     [59263] = {
@@ -4604,6 +6942,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164640,
+            name = "Kowalskos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.42827,
+                        y = 0.427291,
+                    },
+                },
+            },
         },
     },
     [59265] = {
@@ -4612,6 +6959,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164619,
+            name = "Baroness Vashj",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.508267,
+                        y = 0.24492,
+                    },
+                },
+            },
         },
     },
     [59311] = {
@@ -4620,6 +6976,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164640,
+            name = "Kowalskos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.42827,
+                        y = 0.427291,
+                    },
+                },
+            },
         },
     },
     [59314] = {
@@ -4628,6 +6993,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171589,
+            name = "General Draven",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.448689,
+                        y = 0.688605,
+                    },
+                },
+            },
         },
     },
     [59315] = {
@@ -4636,6 +7010,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164742,
+            name = "Prince Renathal",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.25941,
+                        y = 0.557288,
+                    },
+                },
+            },
         },
     },
     [59316] = {
@@ -4644,6 +7027,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171950,
+            name = "The Accuser",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.454173,
+                        y = 0.208887,
+                    },
+                },
+            },
         },
     },
     [59317] = {
@@ -4652,6 +7044,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171979,
+            name = "Nadjia the Mistblade",
             locations = {
                 [1699] = {
                     {
@@ -4700,6 +7093,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164741,
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.595328,
+                        y = 0.583139,
+                    },
+                },
+            },
         },
     },
     [59321] = {
@@ -4708,6 +7109,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164796,
+            name = "Prince Renathal",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.522706,
+                        y = 0.371842,
+                    },
+                },
+            },
         },
     },
     [59322] = {
@@ -4716,6 +7126,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171934,
+            name = "Prince Renathal",
+            locations = {
+                [1700] = {
+                    {
+                        x = 0.453759,
+                        y = 0.293207,
+                    },
+                },
+            },
         },
     },
     [59323] = {
@@ -4724,6 +7143,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171934,
+            name = "Prince Renathal",
+            locations = {
+                [1700] = {
+                    {
+                        x = 0.453759,
+                        y = 0.293207,
+                    },
+                },
+            },
         },
     },
     [59324] = {
@@ -4732,6 +7160,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164741,
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.595328,
+                        y = 0.583139,
+                    },
+                },
+            },
         },
     },
     [59325] = {
@@ -4740,6 +7176,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161977,
+            name = "General Draven",
             locations = {
                 [1699] = {
                     {
@@ -4756,6 +7193,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158716,
+            name = "Theotar",
         },
     },
     [59343] = {
@@ -4764,6 +7202,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161979,
+            name = "Theotar",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.502347,
+                        y = 0.181354,
+                    },
+                },
+            },
         },
     },
     [59348] = {
@@ -4772,6 +7219,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164640,
+            name = "Kowalskos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.42827,
+                        y = 0.427291,
+                    },
+                },
+            },
         },
     },
     [59351] = {
@@ -4780,6 +7236,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164640,
+            name = "Kowalskos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.42827,
+                        y = 0.427291,
+                    },
+                },
+            },
         },
     },
     [59426] = {
@@ -4788,6 +7253,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165045,
+            name = "Kalisthene",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.528272,
+                        y = 0.47879,
+                    },
+                },
+            },
         },
     },
     [59427] = {
@@ -4796,6 +7270,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158088,
+            name = "Simone",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.242162,
+                        y = 0.494725,
+                    },
+                },
+            },
         },
     },
     [59430] = {
@@ -4804,6 +7287,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165049,
+            name = "Judas Sneap",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.580592,
+                        y = 0.721067,
+                    },
+                },
+            },
         },
     },
     [59554] = {
@@ -4812,6 +7304,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 348558,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.515325,
+                        y = 0.471975,
+                    },
+                },
+            },
         },
     },
     [59555] = {
@@ -4820,6 +7320,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161907,
+            name = "Baroness Draka",
             locations = {
                 [1698] = {
                     {
@@ -4852,6 +7353,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165182,
+            name = "Baroness Draka",
             locations = {
                 [1698] = {
                     {
@@ -4868,6 +7370,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161904,
+            name = "Plague Deviser Marileth",
             locations = {
                 [1698] = {
                     {
@@ -4884,6 +7387,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161904,
+            name = "Plague Deviser Marileth",
             locations = {
                 [1698] = {
                     {
@@ -4904,6 +7408,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165321,
+            name = "Merick Feldscar",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.387943,
+                        y = 0.485106,
+                    },
+                },
+            },
         },
     },
     [59616] = {
@@ -4912,6 +7425,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169462,
+            name = "Baron Vyraz",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.397313,
+                        y = 0.467189,
+                    },
+                },
+            },
         },
     },
     [59621] = {
@@ -4920,6 +7442,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158422,
+            name = "Foreman Thorodir",
             locations = {
                 [1565] = {
                     {
@@ -4936,6 +7459,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158422,
+            name = "Foreman Thorodir",
             locations = {
                 [1565] = {
                     {
@@ -4952,6 +7476,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165382,
+            name = "Gormsmith Cavina",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.516662,
+                        y = 0.338976,
+                    },
+                },
+            },
         },
     },
     [59625] = {
@@ -4960,6 +7493,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161988,
+            name = "Alexandros Mograine",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.490014,
+                        y = 0.516334,
+                    },
+                },
+            },
         },
     },
     [59644] = {
@@ -4968,6 +7510,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162688,
+            name = "Prince Renathal",
         },
     },
     [59645] = {
@@ -4976,6 +7519,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165591,
+            name = "Alexandros Mograine",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.402349,
+                        y = 0.55299,
+                    },
+                },
+            },
         },
     },
     [59648] = {
@@ -4984,6 +7536,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165412,
+            name = "Xandria",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.406848,
+                        y = 0.55029,
+                    },
+                },
+            },
         },
     },
     [59650] = {
@@ -4992,6 +7553,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165412,
+            name = "Xandria",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.406848,
+                        y = 0.55029,
+                    },
+                },
+            },
         },
     },
     [59653] = {
@@ -5000,6 +7570,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165412,
+            name = "Xandria",
             locations = {
                 [1533] = {
                     {
@@ -5016,6 +7587,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165412,
+            name = "Xandria",
             locations = {
                 [1533] = {
                     {
@@ -5032,6 +7604,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158765,
+            name = "Pelodis",
             locations = {
                 [1533] = {
                     {
@@ -5048,6 +7621,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165658,
+            name = "Cudgelface",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.524396,
+                        y = 0.353288,
+                    },
+                },
+            },
         },
     },
     [59678] = {
@@ -5056,6 +7638,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165591,
+            name = "Alexandros Mograine",
             locations = {
                 [1533] = {
                     {
@@ -5072,6 +7655,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165412,
+            name = "Xandria",
             locations = {
                 [1533] = {
                     {
@@ -5088,6 +7672,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165412,
+            name = "Xandria",
             locations = {
                 [1533] = {
                     {
@@ -5104,6 +7689,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158653,
+            name = "Prince Renathal",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.517884,
+                        y = 0.375757,
+                    },
+                },
+            },
         },
     },
     [59706] = {
@@ -5112,6 +7706,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165661,
+            name = "Prince Renathal",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.41015,
+                        y = 0.548107,
+                    },
+                },
+            },
         },
     },
     [59707] = {
@@ -5120,6 +7723,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165661,
+            name = "Prince Renathal",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.41015,
+                        y = 0.548107,
+                    },
+                },
+            },
         },
     },
     [59708] = {
@@ -5128,6 +7740,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165661,
+            name = "Prince Renathal",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.41015,
+                        y = 0.548107,
+                    },
+                },
+            },
         },
     },
     [59709] = {
@@ -5136,6 +7757,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165412,
+            name = "Xandria",
             locations = {
                 [1533] = {
                     {
@@ -5152,6 +7774,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165859,
+            name = "Dimwiddle",
         },
     },
     [59711] = {
@@ -5160,6 +7783,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165818,
+            name = "Nadjia the Mistblade",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.72234,
+                        y = 0.74925,
+                    },
+                },
+            },
         },
     },
     [59712] = {
@@ -5168,6 +7800,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169238,
+            name = "Courier Araak",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.59492,
+                        y = 0.667429,
+                    },
+                },
+            },
         },
     },
     [59713] = {
@@ -5176,6 +7817,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165864,
+            name = "Nadjia the Mistblade",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.598913,
+                        y = 0.688947,
+                    },
+                },
+            },
         },
     },
     [59714] = {
@@ -5184,6 +7834,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165864,
+            name = "Nadjia the Mistblade",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.598913,
+                        y = 0.688947,
+                    },
+                },
+            },
         },
     },
     [59715] = {
@@ -5192,6 +7851,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165864,
+            name = "Nadjia the Mistblade",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.598913,
+                        y = 0.688947,
+                    },
+                },
+            },
         },
     },
     [59716] = {
@@ -5200,6 +7868,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166081,
+            name = "Taskmaster Matyas",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.601709,
+                        y = 0.694482,
+                    },
+                },
+            },
         },
     },
     [59719] = {
@@ -5208,6 +7885,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165661,
+            name = "Prince Renathal",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.41015,
+                        y = 0.548107,
+                    },
+                },
+            },
         },
     },
     [59720] = {
@@ -5216,6 +7902,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165865,
+            name = "General Draven",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.40264,
+                        y = 0.305924,
+                    },
+                },
+            },
         },
     },
     [59722] = {
@@ -5224,6 +7919,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164679,
+            name = "Whisperer Vyn",
             locations = {
                 [1536] = {
                     {
@@ -5240,6 +7936,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165864,
+            name = "Nadjia the Mistblade",
             locations = {
                 [1525] = {
                     {
@@ -5256,6 +7953,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166616,
+            name = "Nadjia the Mistblade",
             locations = {
                 [1525] = {
                     {
@@ -5272,6 +7970,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165795,
+            name = "Alexandros Mograine",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.416306,
+                        y = 0.551,
+                    },
+                },
+            },
         },
     },
     [59750] = {
@@ -5280,6 +7987,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161559,
+            name = "Louison",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.544781,
+                        y = 0.485941,
+                    },
+                },
+            },
         },
     },
     [59751] = {
@@ -5288,6 +8004,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169076,
+            name = "Highlord Bolvar Fordragon",
         },
     },
     [59752] = {
@@ -5296,6 +8013,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165918,
+            name = "Highlord Darion Mograine",
         },
     },
     [59753] = {
@@ -5304,6 +8022,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170624,
+            name = "Wilona Thorne",
+            locations = {
+                [1648] = {
+                    {
+                        x = 0.229584,
+                        y = 0.519004,
+                    },
+                },
+            },
         },
     },
     [59754] = {
@@ -5312,6 +8039,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166980,
+            name = "Lady Jaina Proudmoore",
             locations = {
                 [1648] = {
                     {
@@ -5328,6 +8056,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166980,
+            name = "Lady Jaina Proudmoore",
             locations = {
                 [1648] = {
                     {
@@ -5344,6 +8073,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166980,
+            name = "Lady Jaina Proudmoore",
             locations = {
                 [1648] = {
                     {
@@ -5360,6 +8090,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165918,
+            name = "Highlord Darion Mograine",
             locations = {
                 [1648] = {
                     {
@@ -5376,6 +8107,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166723,
+            name = "Highlord Darion Mograine",
             locations = {
                 [1648] = {
                     {
@@ -5392,6 +8124,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166980,
+            name = "Lady Jaina Proudmoore",
             locations = {
                 [1648] = {
                     {
@@ -5408,6 +8141,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167833,
+            name = "Anduin Wrynn",
+            locations = {
+                [1648] = {
+                    {
+                        x = 0.250428,
+                        y = 0.134158,
+                    },
+                },
+            },
         },
     },
     [59761] = {
@@ -5416,6 +8158,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167833,
+            name = "Anduin Wrynn",
+            locations = {
+                [1648] = {
+                    {
+                        x = 0.250428,
+                        y = 0.134158,
+                    },
+                },
+            },
         },
     },
     [59762] = {
@@ -5424,6 +8175,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166980,
+            name = "Lady Jaina Proudmoore",
             locations = {
                 [1648] = {
                     {
@@ -5440,6 +8192,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166981,
+            name = "Thrall",
+            locations = {
+                [1648] = {
+                    {
+                        x = 0.295012,
+                        y = 0.437975,
+                    },
+                },
+            },
         },
     },
     [59766] = {
@@ -5448,6 +8209,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167827,
+            name = "Thrall",
         },
     },
     [59767] = {
@@ -5456,6 +8218,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166980,
+            name = "Lady Jaina Proudmoore",
             locations = {
                 [1648] = {
                     {
@@ -5472,6 +8235,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167833,
+            name = "Anduin Wrynn",
             locations = {
                 [1648] = {
                     {
@@ -5488,6 +8252,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164579,
+            name = "Overseer Kah-Sher",
         },
     },
     [59774] = {
@@ -5496,14 +8261,16 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166227,
+            name = "Kleia",
         },
     },
     [59776] = {
         name = "From the Mouths of Madness",
-        contentTuningID = 1400,
+        contentTuningID = 0,
         source = {
             type = "npc",
-            id = 167826,
+            id = 167833,
+            name = "Anduin Wrynn",
         },
     },
     [59781] = {
@@ -5512,6 +8279,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161559,
+            name = "Louison",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.544781,
+                        y = 0.485941,
+                    },
+                },
+            },
         },
     },
     [59800] = {
@@ -5520,6 +8296,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161559,
+            name = "Louison",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.544781,
+                        y = 0.485941,
+                    },
+                },
+            },
         },
     },
     [59801] = {
@@ -5528,6 +8313,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160439,
+            name = "Partik",
             locations = {
                 [1565] = {
                     {
@@ -5544,6 +8330,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160439,
+            name = "Partik",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.703508,
+                        y = 0.325952,
+                    },
+                },
+            },
         },
     },
     [59825] = {
@@ -5556,6 +8351,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159830,
+            name = "Ad'narim",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.535886,
+                        y = 0.475159,
+                    },
+                },
+            },
         },
     },
     [59846] = {
@@ -5564,6 +8368,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165864,
+            name = "Nadjia the Mistblade",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.598913,
+                        y = 0.688947,
+                    },
+                },
+            },
         },
     },
     [59865] = {
@@ -5572,6 +8385,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164640,
+            name = "Kowalskos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.42827,
+                        y = 0.427291,
+                    },
+                },
+            },
         },
     },
     [59867] = {
@@ -5580,6 +8402,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 349612,
+            name = "Wanted: Appraiser Vix",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.541493,
+                        y = 0.47485,
+                    },
+                },
+            },
         },
     },
     [59868] = {
@@ -5588,6 +8419,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165864,
+            name = "Nadjia the Mistblade",
             locations = {
                 [1525] = {
                     {
@@ -5604,6 +8436,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164843,
+            name = "Baron Vyraz",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.382077,
+                        y = 0.66754,
+                    },
+                },
+            },
         },
     },
     [59879] = {
@@ -5612,6 +8453,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161559,
+            name = "Louison",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.544781,
+                        y = 0.485941,
+                    },
+                },
+            },
         },
     },
     [59894] = {
@@ -5620,6 +8470,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161988,
+            name = "Alexandros Mograine",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.490014,
+                        y = 0.516334,
+                    },
+                },
+            },
         },
     },
     [59897] = {
@@ -5628,6 +8487,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164079,
+            name = "Highlord Bolvar Fordragon",
             locations = {
                 [1670] = {
                     {
@@ -5644,6 +8504,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166723,
+            name = "Highlord Darion Mograine",
         },
     },
     [59910] = {
@@ -5652,6 +8513,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171483,
+            name = "Baroness Draka",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.363195,
+                        y = 0.366262,
+                    },
+                },
+            },
         },
     },
     [59914] = {
@@ -5660,6 +8530,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165918,
+            name = "Highlord Darion Mograine",
             locations = {
                 [1648] = {
                     {
@@ -5676,6 +8547,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166723,
+            name = "Highlord Darion Mograine",
             locations = {
                 [1648] = {
                     {
@@ -5692,6 +8564,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168743,
+            name = "Apolon",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.353283,
+                        y = 0.259456,
+                    },
+                },
+            },
         },
     },
     [59917] = {
@@ -5700,6 +8581,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166664,
+            name = "Ta'eran",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.430812,
+                        y = 0.251039,
+                    },
+                },
+            },
         },
     },
     [59919] = {
@@ -5708,6 +8598,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.478889,
+                        y = 0.536667,
+                    },
+                },
+            },
         },
     },
     [59920] = {
@@ -5716,6 +8615,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158807,
+            name = "Forgelite Sophone",
             locations = {
                 [1533] = {
                     {
@@ -5732,6 +8632,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165794,
+            name = "Xandria",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.464758,
+                        y = 0.629372,
+                    },
+                },
+            },
         },
     },
     [59922] = {
@@ -5740,6 +8649,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165794,
+            name = "Xandria",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.464758,
+                        y = 0.629372,
+                    },
+                },
+            },
         },
     },
     [59959] = {
@@ -5748,6 +8666,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 355798,
+            name = "Cage",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.384258,
+                        y = 0.48483,
+                    },
+                },
+            },
         },
     },
     [59960] = {
@@ -5760,6 +8687,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171770,
+            name = "Ve'nari",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.365415,
+                        y = 0.507653,
+                    },
+                },
+            },
         },
     },
     [59966] = {
@@ -5768,6 +8704,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171770,
+            name = "Ve'nari",
             locations = {
                 [1543] = {
                     {
@@ -5784,6 +8721,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172414,
+            name = "Highlord Darion Mograine",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.32918,
+                        y = 0.664151,
+                    },
+                },
+            },
         },
     },
     [59974] = {
@@ -5792,6 +8738,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167903,
+            name = "Baroness Draka",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.391601,
+                        y = 0.679621,
+                    },
+                },
+            },
         },
     },
     [59994] = {
@@ -5800,6 +8755,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162476,
+            name = "Ta'eran",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.421472,
+                        y = 0.233169,
+                    },
+                },
+            },
         },
     },
     [60005] = {
@@ -5808,6 +8772,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
         },
     },
     [60006] = {
@@ -5816,6 +8781,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167873,
+            name = "Thanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.417644,
+                        y = 0.551865,
+                    },
+                },
+            },
         },
     },
     [60007] = {
@@ -5824,6 +8798,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167135,
+            name = "Mikanikos",
             locations = {
                 [1533] = {
                     {
@@ -5840,6 +8815,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167134,
+            name = "Thanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.405899,
+                        y = 0.552093,
+                    },
+                },
+            },
         },
     },
     [60009] = {
@@ -5848,6 +8832,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167269,
+            name = "Disciple Apolon",
             locations = {
                 [1533] = {
                     {
@@ -5864,6 +8849,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167504,
+            name = "Vault-Keeper Mnemis",
             locations = {
                 [1533] = {
                     {
@@ -5880,6 +8866,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164244,
+            name = "Grandmaster Vole",
             locations = {
                 [1536] = {
                     {
@@ -5896,6 +8883,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164244,
+            name = "Grandmaster Vole",
             locations = {
                 [1536] = {
                     {
@@ -5912,6 +8900,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166333,
+            name = "Xandria",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.356187,
+                        y = 0.264993,
+                    },
+                },
+            },
         },
     },
     [60044] = {
@@ -5920,6 +8917,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166211,
+            name = "Alexandros Mograine",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.288109,
+                        y = 0.382063,
+                    },
+                },
+            },
         },
     },
     [60048] = {
@@ -5928,14 +8934,31 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167150,
+            name = "Rathan",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.550966,
+                        y = 0.687778,
+                    },
+                },
+            },
         },
     },
     [60049] = {
         name = "At Your Service",
-        contentTuningID = 837,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 167044,
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.551511,
+                        y = 0.687025,
+                    },
+                },
+            },
         },
     },
     [60050] = {
@@ -5944,6 +8967,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168860,
+            name = "Kynthia",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.354532,
+                        y = 0.265042,
+                    },
+                },
+            },
         },
     },
     [60052] = {
@@ -5952,6 +8984,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167164,
+            name = "Thanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.405948,
+                        y = 0.55209,
+                    },
+                },
+            },
         },
     },
     [60053] = {
@@ -5960,6 +9001,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167135,
+            name = "Mikanikos",
             locations = {
                 [1533] = {
                     {
@@ -5976,6 +9018,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167423,
+            name = "Thanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.394402,
+                        y = 0.552315,
+                    },
+                },
+            },
         },
     },
     [60055] = {
@@ -5984,6 +9035,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167460,
+            name = "Thanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.389153,
+                        y = 0.552315,
+                    },
+                },
+            },
         },
     },
     [60056] = {
@@ -5992,6 +9052,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167583,
+            name = "Disciple Apolon",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.408947,
+                        y = 0.550965,
+                    },
+                },
+            },
         },
     },
     [60057] = {
@@ -6000,6 +9069,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167584,
+            name = "Disciple Artemede",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.409368,
+                        y = 0.553524,
+                    },
+                },
+            },
         },
     },
     [60060] = {
@@ -6008,6 +9086,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167160,
+            name = "Laurent",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.478224,
+                        y = 0.572439,
+                    },
+                },
+            },
         },
     },
     [60061] = {
@@ -6016,6 +9103,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159270,
+            name = "Caretaker Lillythistle",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.389764,
+                        y = 0.299274,
+                    },
+                },
+            },
         },
     },
     [60062] = {
@@ -6024,6 +9120,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 350804,
+            name = "Broken Harp",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.381136,
+                        y = 0.287203,
+                    },
+                },
+            },
         },
     },
     [60063] = {
@@ -6032,6 +9137,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167047,
+            name = "Artisan Rees",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.370539,
+                        y = 0.296636,
+                    },
+                },
+            },
         },
     },
     [60064] = {
@@ -6040,6 +9154,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167047,
+            name = "Artisan Rees",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.370539,
+                        y = 0.296636,
+                    },
+                },
+            },
         },
     },
     [60065] = {
@@ -6048,6 +9171,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159388,
+            name = "Gertie Jr.",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.372829,
+                        y = 0.259738,
+                    },
+                },
+            },
         },
     },
     [60066] = {
@@ -6056,6 +9188,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159270,
+            name = "Caretaker Lillythistle",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.389764,
+                        y = 0.299274,
+                    },
+                },
+            },
         },
     },
     [60067] = {
@@ -6064,6 +9205,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172002,
+            name = "Xandria",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.317791,
+                        y = 0.303254,
+                    },
+                },
+            },
         },
     },
     [60098] = {
@@ -6072,14 +9222,31 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166211,
+            name = "Alexandros Mograine",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.288109,
+                        y = 0.382063,
+                    },
+                },
+            },
         },
     },
     [60110] = {
         name = "Never Had A Friend Like Me",
-        contentTuningID = 837,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 161906,
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.3831,
+                        y = 0.367669,
+                    },
+                },
+            },
         },
     },
     [60111] = {
@@ -6088,6 +9255,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161905,
+            name = "Bonesmith Heirmir",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.428368,
+                        y = 0.319905,
+                    },
+                },
+            },
         },
     },
     [60112] = {
@@ -6096,6 +9272,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172574,
+            name = "Navigator Xennir",
             locations = {
                 [1536] = {
                     {
@@ -6112,6 +9289,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167810,
+            name = "Emeni",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.280856,
+                        y = 0.375191,
+                    },
+                },
+            },
         },
     },
     [60127] = {
@@ -6120,6 +9306,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160248,
+            name = "Archivist Fane",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.729925,
+                        y = 0.519903,
+                    },
+                },
+            },
         },
     },
     [60128] = {
@@ -6128,6 +9323,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 163073,
+            name = "Cryptkeeper Kassir",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.701468,
+                        y = 0.562156,
+                    },
+                },
+            },
         },
     },
     [60129] = {
@@ -6140,6 +9344,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167748,
+            name = "Osbourne Black",
             locations = {
                 [1698] = {
                     {
@@ -6156,6 +9361,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162804,
+            name = "Ve'nari",
         },
     },
     [60136] = {
@@ -6164,6 +9370,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164079,
+            name = "Highlord Bolvar Fordragon",
         },
     },
     [60137] = {
@@ -6184,6 +9391,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170153,
+            name = "Lady Jaina Proudmoore",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.397784,
+                        y = 0.681636,
+                    },
+                },
+            },
         },
     },
     [60145] = {
@@ -6192,6 +9408,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167381,
+            name = "Baroness Draka",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.56339,
+                        y = 0.665939,
+                    },
+                },
+            },
         },
     },
     [60146] = {
@@ -6204,6 +9429,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167160,
+            name = "Laurent",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.478224,
+                        y = 0.572439,
+                    },
+                },
+            },
         },
     },
     [60148] = {
@@ -6212,14 +9446,31 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167425,
+            name = "Overseer Kah-Delen",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.398939,
+                        y = 0.664437,
+                    },
+                },
+            },
         },
     },
     [60149] = {
         name = "Audience with the Arbiter",
-        contentTuningID = 807,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 167486,
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.408111,
+                        y = 0.658131,
+                    },
+                },
+            },
         },
     },
     [60150] = {
@@ -6228,6 +9479,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167425,
+            name = "Overseer Kah-Delen",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.398939,
+                        y = 0.664437,
+                    },
+                },
+            },
         },
     },
     [60151] = {
@@ -6236,6 +9496,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164079,
+            name = "Highlord Bolvar Fordragon",
             locations = {
                 [1670] = {
                     {
@@ -6252,6 +9513,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167424,
+            name = "Overseer Kah-Sher",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.403246,
+                        y = 0.665811,
+                    },
+                },
+            },
         },
     },
     [60154] = {
@@ -6260,6 +9530,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164079,
+            name = "Highlord Bolvar Fordragon",
             locations = {
                 [1670] = {
                     {
@@ -6276,6 +9547,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167424,
+            name = "Overseer Kah-Sher",
             locations = {
                 [1671] = {
                     {
@@ -6292,6 +9564,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156822,
+            name = "Mistress Mihaela",
         },
     },
     [60177] = {
@@ -6300,6 +9573,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167489,
+            name = "Lajos",
         },
     },
     [60178] = {
@@ -6308,6 +9582,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167489,
+            name = "Lajos",
         },
     },
     [60179] = {
@@ -6316,6 +9591,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 351467,
+            name = "Faded Epitaph",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.483272,
+                        y = 0.577776,
+                    },
+                },
+            },
         },
     },
     [60180] = {
@@ -6324,6 +9608,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167504,
+            name = "Vault-Keeper Mnemis",
             locations = {
                 [1533] = {
                     {
@@ -6340,6 +9625,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167535,
+            name = "Baroness Draka",
             locations = {
                 [1536] = {
                     {
@@ -6356,14 +9642,31 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167381,
+            name = "Baroness Draka",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.56339,
+                        y = 0.665939,
+                    },
+                },
+            },
         },
     },
     [60184] = {
         name = "Dude, Where's My Necropolis?",
-        contentTuningID = 837,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 173306,
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.612889,
+                        y = 0.329041,
+                    },
+                },
+            },
         },
     },
     [60217] = {
@@ -6372,6 +9675,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158862,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -6388,6 +9692,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158862,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -6404,6 +9709,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158862,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -6420,6 +9726,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158862,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -6436,6 +9743,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158862,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -6452,6 +9760,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158862,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -6468,6 +9777,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158862,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -6484,6 +9794,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158862,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -6500,6 +9811,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158862,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -6516,6 +9828,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158862,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -6532,6 +9845,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158862,
+            name = "Kleia",
             locations = {
                 [1533] = {
                     {
@@ -6548,6 +9862,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160212,
+            name = "Soulguide Daelia",
             locations = {
                 [1708] = {
                     {
@@ -6564,6 +9879,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164738,
+            name = "Tenaval",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.45422,
+                        y = 0.28439,
+                    },
+                },
+            },
         },
     },
     [60235] = {
@@ -6584,6 +9908,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164937,
+            name = "Runecarver",
+            locations = {
+                [1728] = {
+                    {
+                        x = 0.503347,
+                        y = 0.532354,
+                    },
+                },
+            },
         },
     },
     [60269] = {
@@ -6592,6 +9925,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164937,
+            name = "Runecarver",
+            locations = {
+                [1728] = {
+                    {
+                        x = 0.503347,
+                        y = 0.532354,
+                    },
+                },
+            },
         },
     },
     [60270] = {
@@ -6600,6 +9942,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164937,
+            name = "Runecarver",
+            locations = {
+                [1728] = {
+                    {
+                        x = 0.503347,
+                        y = 0.532354,
+                    },
+                },
+            },
         },
     },
     [60271] = {
@@ -6608,6 +9959,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162804,
+            name = "Ve'nari",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.469532,
+                        y = 0.417087,
+                    },
+                },
+            },
         },
     },
     [60272] = {
@@ -6616,6 +9976,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162804,
+            name = "Ve'nari",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.469532,
+                        y = 0.417087,
+                    },
+                },
+            },
         },
     },
     [60275] = {
@@ -6624,6 +9993,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 351874,
+            name = "Wanted: Enforcer Kristof",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.306797,
+                        y = 0.489919,
+                    },
+                },
+            },
         },
     },
     [60276] = {
@@ -6632,6 +10010,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 351888,
+            name = "Wanted: Summoner Marcelis",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.308697,
+                        y = 0.490498,
+                    },
+                },
+            },
         },
     },
     [60277] = {
@@ -6640,6 +10027,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 351885,
+            name = "Wanted: Aggregate of Doom",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.590793,
+                        y = 0.692048,
+                    },
+                },
+            },
         },
     },
     [60278] = {
@@ -6648,6 +10044,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 351886,
+            name = "Wanted: Duke Anton",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.606984,
+                        y = 0.401708,
+                    },
+                },
+            },
         },
     },
     [60279] = {
@@ -6656,6 +10061,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 351889,
+            name = "Wanted: The Pale Doom",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.62193,
+                        y = 0.635452,
+                    },
+                },
+            },
         },
     },
     [60280] = {
@@ -6664,6 +10078,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 351887,
+            name = "Wanted: Lord Darion",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.608753,
+                        y = 0.400555,
+                    },
+                },
+            },
         },
     },
     [60287] = {
@@ -6672,6 +10095,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162804,
+            name = "Ve'nari",
         },
     },
     [60289] = {
@@ -6680,6 +10104,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162804,
+            name = "Ve'nari",
         },
     },
     [60292] = {
@@ -6692,6 +10117,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157696,
+            name = "Nemea",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.572689,
+                        y = 0.392098,
+                    },
+                },
+            },
         },
     },
     [60313] = {
@@ -6700,6 +10134,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156554,
+            name = "The Accuser",
         },
     },
     [60315] = {
@@ -6708,6 +10143,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 352027,
+            name = "Wanted Scroll",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.532746,
+                        y = 0.464217,
+                    },
+                },
+            },
         },
     },
     [60316] = {
@@ -6716,6 +10160,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 352028,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.491363,
+                        y = 0.72821,
+                    },
+                },
+            },
         },
     },
     [60338] = {
@@ -6724,6 +10176,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159478,
+            name = "Tal-Inara",
         },
     },
     [60341] = {
@@ -6732,6 +10185,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157788,
+            name = "Lady Moonberry",
             locations = {
                 [1565] = {
                     {
@@ -6748,6 +10202,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 352027,
+            name = "Wanted Scroll",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.532746,
+                        y = 0.464217,
+                    },
+                },
+            },
         },
     },
     [60428] = {
@@ -6756,6 +10219,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157676,
+            name = "Bonesmith Heirmir",
             locations = {
                 [1536] = {
                     {
@@ -6772,6 +10236,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157895,
+            name = "Baron Vyraz",
             locations = {
                 [1536] = {
                     {
@@ -6788,6 +10253,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 157676,
+            name = "Bonesmith Heirmir",
             locations = {
                 [1536] = {
                     {
@@ -6804,6 +10270,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159065,
+            name = "Baroness Draka",
             locations = {
                 [1536] = {
                     {
@@ -6820,6 +10287,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160598,
+            name = "Klystere",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.47883,
+                        y = 0.735022,
+                    },
+                },
+            },
         },
     },
     [60467] = {
@@ -6828,6 +10304,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168455,
+            name = "Sabina",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.350732,
+                        y = 0.5388,
+                    },
+                },
+            },
         },
     },
     [60468] = {
@@ -6836,6 +10321,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168455,
+            name = "Sabina",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.350732,
+                        y = 0.5388,
+                    },
+                },
+            },
         },
     },
     [60469] = {
@@ -6844,6 +10338,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168455,
+            name = "Sabina",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.350732,
+                        y = 0.5388,
+                    },
+                },
+            },
         },
     },
     [60470] = {
@@ -6852,6 +10355,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168455,
+            name = "Sabina",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.350732,
+                        y = 0.5388,
+                    },
+                },
+            },
         },
     },
     [60476] = {
@@ -6864,6 +10376,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168618,
+            name = "Tessle the Snitch",
         },
     },
     [60487] = {
@@ -6872,6 +10385,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168698,
+            name = "Chiselgrump",
         },
     },
     [60491] = {
@@ -6880,6 +10394,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171787,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.361598,
+                        y = 0.641775,
+                    },
+                },
+            },
         },
     },
     [60492] = {
@@ -6888,6 +10411,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168742,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.567598,
+                        y = 0.314339,
+                    },
+                },
+            },
         },
     },
     [60500] = {
@@ -6896,6 +10428,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 352520,
+            name = "Medallion of Pride",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.568261,
+                        y = 0.309563,
+                    },
+                },
+            },
         },
     },
     [60504] = {
@@ -6904,6 +10445,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160212,
+            name = "Soulguide Daelia",
             locations = {
                 [1708] = {
                     {
@@ -6920,6 +10462,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156499,
+            name = "The Fearstalker",
         },
     },
     [60508] = {
@@ -6928,6 +10471,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164277,
+            name = "Shandris Feathermoon",
             locations = {
                 [1543] = {
                     {
@@ -6950,6 +10494,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158057,
+            name = "Rendle",
         },
     },
     [60510] = {
@@ -6958,6 +10503,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166333,
+            name = "Xandria",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.356187,
+                        y = 0.264993,
+                    },
+                },
+            },
         },
     },
     [60514] = {
@@ -6966,6 +10520,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 156384,
+            name = "Huntmaster Constantin",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.485077,
+                        y = 0.684418,
+                    },
+                },
+            },
         },
     },
     [60517] = {
@@ -6978,6 +10541,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158487,
+            name = "Droman Tashmur",
             locations = {
                 [1565] = {
                     {
@@ -6994,6 +10558,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169142,
+            name = "Dreamweaver",
             locations = {
                 [1565] = {
                     {
@@ -7010,6 +10575,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169031,
+            name = "Lady Moonberry",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.635857,
+                        y = 0.362714,
+                    },
+                },
+            },
         },
     },
     [60522] = {
@@ -7018,6 +10592,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169935,
+            name = "Ara'lon",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.51316,
+                        y = 0.339817,
+                    },
+                },
+            },
         },
     },
     [60530] = {
@@ -7026,6 +10609,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168929,
+            name = "Shandris Feathermoon",
             locations = {
                 [1543] = {
                     {
@@ -7050,6 +10634,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159894,
+            name = "Baron Vyraz",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.392681,
+                        y = 0.558857,
+                    },
+                },
+            },
         },
     },
     [60563] = {
@@ -7058,6 +10651,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169116,
+            name = "Dreamweaver",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.64272,
+                        y = 0.412709,
+                    },
+                },
+            },
         },
     },
     [60566] = {
@@ -7066,6 +10668,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158694,
+            name = "Theotar",
         },
     },
     [60567] = {
@@ -7074,6 +10677,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169116,
+            name = "Dreamweaver",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.64272,
+                        y = 0.412709,
+                    },
+                },
+            },
         },
     },
     [60572] = {
@@ -7082,6 +10694,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160894,
+            name = "Droman Aliothe",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.600841,
+                        y = 0.539589,
+                    },
+                },
+            },
         },
     },
     [60574] = {
@@ -7094,6 +10715,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169202,
+            name = "Dreamweaver",
             locations = {
                 [1565] = {
                     {
@@ -7110,6 +10732,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169202,
+            name = "Dreamweaver",
             locations = {
                 [1565] = {
                     {
@@ -7126,6 +10749,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160962,
+            name = "Dreamweaver",
             locations = {
                 [1565] = {
                     {
@@ -7146,6 +10770,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169217,
+            name = "Dreamweaver",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.62213,
+                        y = 0.364814,
+                    },
+                },
+            },
         },
     },
     [60597] = {
@@ -7158,6 +10791,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169031,
+            name = "Lady Moonberry",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.635857,
+                        y = 0.362714,
+                    },
+                },
+            },
         },
     },
     [60609] = {
@@ -7170,6 +10812,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162541,
+            name = "Hunt-Captain Korayn",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.559522,
+                        y = 0.57635,
+                    },
+                },
+            },
         },
     },
     [60624] = {
@@ -7178,6 +10829,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158487,
+            name = "Droman Tashmur",
             locations = {
                 [1565] = {
                     {
@@ -7194,6 +10846,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169584,
+            name = "Hunt-Captain Korayn",
             locations = {
                 [1565] = {
                     {
@@ -7210,6 +10863,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169584,
+            name = "Hunt-Captain Korayn",
             locations = {
                 [1565] = {
                     {
@@ -7226,6 +10880,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169584,
+            name = "Hunt-Captain Korayn",
             locations = {
                 [1565] = {
                     {
@@ -7242,6 +10897,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169584,
+            name = "Hunt-Captain Korayn",
             locations = {
                 [1565] = {
                     {
@@ -7258,6 +10914,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169772,
+            name = "Hunt-Captain Korayn",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.51316,
+                        y = 0.339817,
+                    },
+                },
+            },
         },
     },
     [60637] = {
@@ -7266,6 +10931,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169686,
+            name = "Niya",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.669612,
+                        y = 0.265664,
+                    },
+                },
+            },
         },
     },
     [60638] = {
@@ -7274,6 +10948,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169686,
+            name = "Niya",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.669612,
+                        y = 0.265664,
+                    },
+                },
+            },
         },
     },
     [60639] = {
@@ -7282,6 +10965,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169686,
+            name = "Niya",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.669612,
+                        y = 0.265664,
+                    },
+                },
+            },
         },
     },
     [60644] = {
@@ -7290,6 +10982,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167827,
+            name = "Thrall",
             locations = {
                 [1648] = {
                     {
@@ -7306,6 +10999,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169748,
+            name = "Niya",
             locations = {
                 [1565] = {
                     {
@@ -7322,6 +11016,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169868,
+            name = "Niya",
         },
     },
     [60649] = {
@@ -7334,6 +11029,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164640,
+            name = "Kowalskos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.42827,
+                        y = 0.427291,
+                    },
+                },
+            },
         },
     },
     [60661] = {
@@ -7342,6 +11046,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161847,
+            name = "Lady Moonberry",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.599992,
+                        y = 0.53019,
+                    },
+                },
+            },
         },
     },
     [60671] = {
@@ -7350,6 +11063,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169868,
+            name = "Niya",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.684319,
+                        y = 0.243607,
+                    },
+                },
+            },
         },
     },
     [60673] = {
@@ -7358,6 +11080,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161298,
+            name = "Nourman",
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.775742,
+                        y = 0.392811,
+                    },
+                },
+            },
         },
     },
     [60709] = {
@@ -7366,6 +11097,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169956,
+            name = "Warden Casad",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.66269,
+                        y = 0.237949,
+                    },
+                },
+            },
         },
     },
     [60722] = {
@@ -7374,6 +11114,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167205,
+            name = "Yondare Hex",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.491142,
+                        y = 0.359721,
+                    },
+                },
+            },
         },
     },
     [60724] = {
@@ -7382,6 +11131,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170012,
+            name = "Niya",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.653925,
+                        y = 0.266714,
+                    },
+                },
+            },
         },
     },
     [60733] = {
@@ -7390,6 +11148,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170094,
+            name = "Secutor Mevix",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.377005,
+                        y = 0.291325,
+                    },
+                },
+            },
         },
     },
     [60735] = {
@@ -7398,6 +11165,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165107,
+            name = "Kleia",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.420943,
+                        y = 0.783093,
+                    },
+                },
+            },
         },
     },
     [60737] = {
@@ -7406,6 +11182,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170309,
+            name = "Baroness Draka",
             locations = {
                 [1536] = {
                     {
@@ -7422,6 +11199,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 169142,
+            name = "Dreamweaver",
             locations = {
                 [1565] = {
                     {
@@ -7446,6 +11224,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168341,
+            name = "Lady Moonberry",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.682778,
+                        y = 0.183738,
+                    },
+                },
+            },
         },
     },
     [60764] = {
@@ -7454,6 +11241,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170172,
+            name = "Dreamweaver",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.645788,
+                        y = 0.390795,
+                    },
+                },
+            },
         },
     },
     [60778] = {
@@ -7462,6 +11258,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170175,
+            name = "Featherlight",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.650704,
+                        y = 0.195502,
+                    },
+                },
+            },
         },
     },
     [60831] = {
@@ -7470,6 +11275,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159930,
+            name = "Plague Deviser Marileth",
             locations = {
                 [1536] = {
                     {
@@ -7486,6 +11292,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170290,
+            name = "Ara'lon",
             locations = {
                 [1565] = {
                     {
@@ -7510,6 +11317,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170485,
+            name = "Ara'lon",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.64258,
+                        y = 0.499887,
+                    },
+                },
+            },
         },
     },
     [60857] = {
@@ -7518,6 +11334,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170324,
+            name = "Featherlight",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.676755,
+                        y = 0.206005,
+                    },
+                },
+            },
         },
     },
     [60859] = {
@@ -7526,6 +11351,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170533,
+            name = "Featherlight",
             locations = {
                 [1565] = {
                     {
@@ -7542,6 +11368,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170485,
+            name = "Ara'lon",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.64258,
+                        y = 0.499887,
+                    },
+                },
+            },
         },
     },
     [60886] = {
@@ -7550,6 +11385,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158007,
+            name = "Margrave Krexus",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.369296,
+                        y = 0.684296,
+                    },
+                },
+            },
         },
     },
     [60899] = {
@@ -7562,6 +11406,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170667,
+            name = "Ta'eran",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.418004,
+                        y = 0.236455,
+                    },
+                },
+            },
         },
     },
     [60901] = {
@@ -7570,6 +11423,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170290,
+            name = "Ara'lon",
             locations = {
                 [1565] = {
                     {
@@ -7586,6 +11440,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 353948,
+            name = "Medallion of Desire",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.535786,
+                        y = 0.329878,
+                    },
+                },
+            },
         },
     },
     [60905] = {
@@ -7594,6 +11457,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160894,
+            name = "Droman Aliothe",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.600841,
+                        y = 0.539589,
+                    },
+                },
+            },
         },
     },
     [60906] = {
@@ -7602,6 +11474,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159248,
+            name = "Haetio",
             locations = {
                 [1533] = {
                     {
@@ -7618,6 +11491,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 353949,
+            name = "Medallion of Avarice",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.548857,
+                        y = 0.310307,
+                    },
+                },
+            },
         },
     },
     [60950] = {
@@ -7634,6 +11516,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160280,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.501129,
+                        y = 0.205391,
+                    },
+                },
+            },
         },
     },
     [60994] = {
@@ -7642,6 +11533,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171001,
+            name = "Mikanikos",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.244149,
+                        y = 0.298594,
+                    },
+                },
+            },
         },
     },
     [60995] = {
@@ -7650,6 +11550,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 170999,
+            name = "General Draven",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.242963,
+                        y = 0.298809,
+                    },
+                },
+            },
         },
     },
     [60996] = {
@@ -7658,6 +11567,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171147,
+            name = "General Draven",
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.242806,
+                        y = 0.296653,
+                    },
+                },
+            },
         },
     },
     [61050] = {
@@ -7666,6 +11584,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158653,
+            name = "Prince Renathal",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.517884,
+                        y = 0.375757,
+                    },
+                },
+            },
         },
     },
     [61051] = {
@@ -7674,6 +11601,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158921,
+            name = "Guardian Kota",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.626112,
+                        y = 0.360826,
+                    },
+                },
+            },
         },
     },
     [61077] = {
@@ -7682,6 +11618,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158653,
+            name = "Prince Renathal",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.517884,
+                        y = 0.375757,
+                    },
+                },
+            },
         },
     },
     [61096] = {
@@ -7690,6 +11635,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159478,
+            name = "Tal-Inara",
         },
     },
     [61099] = {
@@ -7702,6 +11648,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171338,
+            name = "Overseer Kah-Sher",
             locations = {
                 [1671] = {
                     {
@@ -7718,6 +11665,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
             locations = {
                 [1707] = {
                     {
@@ -7734,6 +11682,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161907,
+            name = "Baroness Draka",
             locations = {
                 [1698] = {
                     {
@@ -7750,6 +11699,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168744,
+            name = "Artemede",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.351601,
+                        y = 0.268968,
+                    },
+                },
+            },
         },
     },
     [61190] = {
@@ -7758,6 +11716,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172414,
+            name = "Highlord Darion Mograine",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.32918,
+                        y = 0.664151,
+                    },
+                },
+            },
         },
     },
     [61226] = {
@@ -7766,6 +11733,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158529,
+            name = "Whisperer Vyn",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.497315,
+                        y = 0.178492,
+                    },
+                },
+            },
         },
     },
     [61227] = {
@@ -7774,6 +11750,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164646,
+            name = "Baroness Vashj",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.49905,
+                        y = 0.178642,
+                    },
+                },
+            },
         },
     },
     [61230] = {
@@ -7782,6 +11767,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171875,
+            name = "Khaliiq",
             locations = {
                 [1536] = {
                     {
@@ -7798,6 +11784,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166211,
+            name = "Alexandros Mograine",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.288109,
+                        y = 0.382063,
+                    },
+                },
+            },
         },
     },
     [61252] = {
@@ -7806,6 +11801,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 174343,
+            name = "Khaliiq",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.542228,
+                        y = 0.162742,
+                    },
+                },
+            },
         },
     },
     [61303] = {
@@ -7818,6 +11822,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 158529,
+            name = "Whisperer Vyn",
             locations = {
                 [1536] = {
                     {
@@ -7834,6 +11839,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159814,
+            name = "Ansid the Mechanic",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.486204,
+                        y = 0.185397,
+                    },
+                },
+            },
         },
     },
     [61355] = {
@@ -7842,6 +11856,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162804,
+            name = "Ve'nari",
         },
     },
     [61359] = {
@@ -7850,6 +11865,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165182,
+            name = "Baroness Draka",
             locations = {
                 [1698] = {
                     {
@@ -7866,6 +11882,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161904,
+            name = "Plague Deviser Marileth",
             locations = {
                 [1698] = {
                     {
@@ -7898,6 +11915,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 355825,
+            name = "Tattered Scroll",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.33494,
+                        y = 0.24111,
+                    },
+                },
+            },
         },
     },
     [61397] = {
@@ -7906,6 +11932,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 165321,
+            name = "Merick Feldscar",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.387943,
+                        y = 0.485106,
+                    },
+                },
+            },
         },
     },
     [61411] = {
@@ -7918,6 +11953,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168743,
+            name = "Apolon",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.353283,
+                        y = 0.259456,
+                    },
+                },
+            },
         },
     },
     [61485] = {
@@ -7926,6 +11970,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160518,
+            name = "Whisperer Vyn",
             locations = {
                 [1536] = {
                     {
@@ -7942,6 +11987,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161977,
+            name = "General Draven",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.461399,
+                        y = 0.146843,
+                    },
+                },
+            },
         },
     },
     [61495] = {
@@ -7950,6 +12004,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160212,
+            name = "Soulguide Daelia",
             locations = {
                 [1708] = {
                     {
@@ -7982,6 +12037,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167748,
+            name = "Osbourne Black",
             locations = {
                 [1698] = {
                     {
@@ -7998,6 +12054,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164738,
+            name = "Tenaval",
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.45422,
+                        y = 0.28439,
+                    },
+                },
+            },
         },
     },
     [61518] = {
@@ -8006,6 +12071,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172574,
+            name = "Navigator Xennir",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.311759,
+                        y = 0.493968,
+                    },
+                },
+            },
         },
     },
     [61548] = {
@@ -8014,6 +12088,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172573,
+            name = "Khaliiq",
             locations = {
                 [1536] = {
                     {
@@ -8030,6 +12105,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172573,
+            name = "Khaliiq",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.28541,
+                        y = 0.477063,
+                    },
+                },
+            },
         },
     },
     [61567] = {
@@ -8038,6 +12122,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167173,
+            name = "Baroness Vashj",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.286972,
+                        y = 0.376118,
+                    },
+                },
+            },
         },
     },
     [61569] = {
@@ -8046,6 +12139,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172805,
+            name = "Whisperer Vyn",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.301657,
+                        y = 0.436424,
+                    },
+                },
+            },
         },
     },
     [61594] = {
@@ -8054,6 +12156,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172573,
+            name = "Khaliiq",
             locations = {
                 [1536] = {
                     {
@@ -8070,6 +12173,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 174177,
+            name = "Polemarch Adrestes",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.436783,
+                        y = 0.665699,
+                    },
+                },
+            },
         },
     },
     [61715] = {
@@ -8078,6 +12190,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173383,
+            name = "Tal-Inara",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.493873,
+                        y = 0.462563,
+                    },
+                },
+            },
         },
     },
     [61716] = {
@@ -8086,6 +12207,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173384,
+            name = "Highlord Bolvar Fordragon",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.402914,
+                        y = 0.686988,
+                    },
+                },
+            },
         },
     },
     [61730] = {
@@ -8098,6 +12228,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173172,
+            name = "Balmedar",
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.497973,
+                        y = 0.496976,
+                    },
+                },
+            },
         },
     },
     [61740] = {
@@ -8106,6 +12245,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173422,
+            name = "Balmedar's Oculus",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.593478,
+                        y = 0.329917,
+                    },
+                },
+            },
         },
     },
     [61741] = {
@@ -8114,6 +12262,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173422,
+            name = "Balmedar's Oculus",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.593478,
+                        y = 0.329917,
+                    },
+                },
+            },
         },
     },
     [61742] = {
@@ -8122,6 +12279,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173422,
+            name = "Balmedar's Oculus",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.593478,
+                        y = 0.329917,
+                    },
+                },
+            },
         },
     },
     [61743] = {
@@ -8130,6 +12296,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173172,
+            name = "Balmedar",
             locations = {
                 [1536] = {
                     {
@@ -8146,6 +12313,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172923,
+            name = "Kel'thuzad",
+            locations = {
+                [1652] = {
+                    {
+                        x = 0.501964,
+                        y = 0.517611,
+                    },
+                },
+            },
         },
     },
     [61745] = {
@@ -8154,6 +12330,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172923,
+            name = "Kel'thuzad",
             locations = {
                 [1652] = {
                     {
@@ -8170,6 +12347,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172924,
+            name = "Baroness Ninadar",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.663152,
+                        y = 0.263906,
+                    },
+                },
+            },
         },
     },
     [61747] = {
@@ -8178,6 +12364,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172924,
+            name = "Baroness Ninadar",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.663152,
+                        y = 0.263906,
+                    },
+                },
+            },
         },
     },
     [61748] = {
@@ -8186,6 +12381,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172924,
+            name = "Baroness Ninadar",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.663152,
+                        y = 0.263906,
+                    },
+                },
+            },
         },
     },
     [61749] = {
@@ -8194,6 +12398,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172923,
+            name = "Kel'thuzad",
             locations = {
                 [1652] = {
                     {
@@ -8210,6 +12415,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173492,
+            name = "Jor'dan the Powerful",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.699696,
+                        y = 0.327063,
+                    },
+                },
+            },
         },
     },
     [61751] = {
@@ -8218,6 +12432,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173492,
+            name = "Jor'dan the Powerful",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.699696,
+                        y = 0.327063,
+                    },
+                },
+            },
         },
     },
     [61752] = {
@@ -8226,6 +12449,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173492,
+            name = "Jor'dan the Powerful",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.699696,
+                        y = 0.327063,
+                    },
+                },
+            },
         },
     },
     [61753] = {
@@ -8234,6 +12466,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173172,
+            name = "Balmedar",
             locations = {
                 [1536] = {
                     {
@@ -8250,6 +12483,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173422,
+            name = "Balmedar's Oculus",
             locations = {
                 [1536] = {
                     {
@@ -8266,6 +12500,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173422,
+            name = "Balmedar's Oculus",
             locations = {
                 [1536] = {
                     {
@@ -8282,6 +12517,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173172,
+            name = "Balmedar",
             locations = {
                 [1536] = {
                     {
@@ -8298,6 +12534,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172923,
+            name = "Kel'thuzad",
             locations = {
                 [1652] = {
                     {
@@ -8322,6 +12559,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173172,
+            name = "Balmedar",
             locations = {
                 [1652] = {
                     {
@@ -8338,6 +12576,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173831,
+            name = "Balmedar",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.700063,
+                        y = 0.269056,
+                    },
+                },
+            },
         },
     },
     [61767] = {
@@ -8346,6 +12593,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 154627,
+            name = "Xandria",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.621976,
+                        y = 0.377551,
+                    },
+                },
+            },
         },
     },
     [61768] = {
@@ -8354,6 +12610,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173222,
+            name = "Xandria",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.377876,
+                        y = 0.294525,
+                    },
+                },
+            },
         },
     },
     [61769] = {
@@ -8362,6 +12627,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 171483,
+            name = "Baroness Draka",
             locations = {
                 [1536] = {
                     {
@@ -8378,6 +12644,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168743,
+            name = "Apolon",
             locations = {
                 [1536] = {
                     {
@@ -8394,6 +12661,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166333,
+            name = "Xandria",
             locations = {
                 [1536] = {
                     {
@@ -8410,6 +12678,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 357246,
+            name = "Tattered Scroll",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.334947,
+                        y = 0.241082,
+                    },
+                },
+            },
         },
     },
     [61773] = {
@@ -8418,6 +12695,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166333,
+            name = "Xandria",
             locations = {
                 [1536] = {
                     {
@@ -8434,6 +12712,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168744,
+            name = "Artemede",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.351601,
+                        y = 0.268968,
+                    },
+                },
+            },
         },
     },
     [61775] = {
@@ -8442,6 +12729,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168743,
+            name = "Apolon",
             locations = {
                 [1536] = {
                     {
@@ -8458,6 +12746,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168860,
+            name = "Kynthia",
             locations = {
                 [1536] = {
                     {
@@ -8474,6 +12763,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166211,
+            name = "Alexandros Mograine",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.288109,
+                        y = 0.382063,
+                    },
+                },
+            },
         },
     },
     [61778] = {
@@ -8482,6 +12780,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167810,
+            name = "Emeni",
             locations = {
                 [1536] = {
                     {
@@ -8498,6 +12797,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 167173,
+            name = "Baroness Vashj",
             locations = {
                 [1536] = {
                     {
@@ -8514,6 +12814,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166211,
+            name = "Alexandros Mograine",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.288109,
+                        y = 0.382063,
+                    },
+                },
+            },
         },
     },
     [61781] = {
@@ -8522,6 +12831,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 166211,
+            name = "Alexandros Mograine",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.288109,
+                        y = 0.382063,
+                    },
+                },
+            },
         },
     },
     [61782] = {
@@ -8530,6 +12848,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172002,
+            name = "Xandria",
             locations = {
                 [1536] = {
                     {
@@ -8546,6 +12865,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
             locations = {
                 [1707] = {
                     {
@@ -8562,6 +12882,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164679,
+            name = "Whisperer Vyn",
             locations = {
                 [1536] = {
                     {
@@ -8582,6 +12903,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173193,
+            name = "Xandria",
             locations = {
                 [1536] = {
                     {
@@ -8598,6 +12920,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173193,
+            name = "Xandria",
             locations = {
                 [1536] = {
                     {
@@ -8614,6 +12937,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173313,
+            name = "Xandria",
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.389315,
+                        y = 0.597764,
+                    },
+                },
+            },
         },
     },
     [61946] = {
@@ -8634,30 +12966,34 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [62000] = {
         name = "Choosing Your Purpose",
-        contentTuningID = 807,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 159478,
-        },
-    },
-    [62072] = {
-        name = "Familiar Faces",
-        contentTuningID = 807,
-    },
-    [62077] = {
-        name = "To the Chase",
-        contentTuningID = 807,
-        source = {
-            type = "npc",
-            id = 173565,
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.388685,
+                        y = 0.699083,
+                    },
+                },
+            },
         },
     },
     [62159] = {
         name = "Aiding the Shadowlands",
-        contentTuningID = 807,
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 159478,
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.388685,
+                        y = 0.699083,
+                    },
+                },
+            },
         },
     },
     [62186] = {
@@ -8698,6 +13034,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 159478,
+            name = "Tal-Inara",
         },
     },
     [62297] = {
@@ -8706,6 +13043,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 174020,
+            name = "Captain Prateq",
             locations = {
                 [1536] = {
                     {
@@ -8722,6 +13060,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 172813,
+            name = "Ton'hamil",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.679667,
+                        y = 0.306714,
+                    },
+                },
+            },
         },
     },
     [62309] = {
@@ -8738,6 +13085,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 358319,
+            name = "Sorcerer's Note",
+            locations = {
+                [1652] = {
+                    {
+                        x = 0.468584,
+                        y = 0.314394,
+                    },
+                },
+            },
         },
     },
     [62320] = {
@@ -8746,6 +13102,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 174120,
+            name = "Moret the Vogue",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.716864,
+                        y = 0.328947,
+                    },
+                },
+            },
         },
     },
     [62371] = {
@@ -8754,6 +13119,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 168032,
+            name = "Flwngyrr",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.483752,
+                        y = 0.504611,
+                    },
+                },
+            },
         },
     },
     [62406] = {
@@ -8762,6 +13136,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 161907,
+            name = "Baroness Draka",
             locations = {
                 [1698] = {
                     {
@@ -8778,6 +13153,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 173422,
+            name = "Balmedar's Oculus",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.593478,
+                        y = 0.329917,
+                    },
+                },
+            },
         },
     },
     [62458] = {
@@ -8786,6 +13170,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 174341,
+            name = "Mask of Bwonsamdi",
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.648127,
+                        y = 0.197199,
+                    },
+                },
+            },
         },
     },
     [62462] = {
@@ -8794,6 +13187,15 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "object",
             id = 358382,
+            name = "Wanted: Chelicera",
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.530728,
+                        y = 0.414114,
+                    },
+                },
+            },
         },
     },
     [62555] = {
@@ -8802,6 +13204,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
             locations = {
                 [1707] = {
                     {
@@ -8818,6 +13221,7 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 160037,
+            name = "Polemarch Adrestes",
         },
     },
     [62654] = {
@@ -8826,6 +13230,49 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 162804,
+            name = "Ve'nari",
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.469532,
+                        y = 0.417087,
+                    },
+                },
+            },
+        },
+    },
+    [62704] = {
+        name = "The Threads of Fate",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 174871,
+            name = "Fatescribe Roh-Tahl",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.19211,
+                        y = 0.502752,
+                    },
+                },
+            },
+        },
+    },
+    [62716] = {
+        name = "Re-Introductions",
+        contentTuningID = 0,
+        source = {
+            type = "npc",
+            id = 174871,
+            name = "Fatescribe Roh-Tahl",
+            locations = {
+                [1670] = {
+                    {
+                        x = 0.19211,
+                        y = 0.502752,
+                    },
+                },
+            },
         },
     },
 })
