@@ -16,6 +16,7 @@ Chain.TheCrownedPrince = 90906
 Chain.ConfrontingSin = 90907
 Chain.Envy = 90908
 Chain.Dominion = 90909
+Chain.Chain01 = 90911
 Chain.OtherAlliance = 90997
 Chain.OtherHorde = 90998
 Chain.OtherBoth = 90999
@@ -1268,6 +1269,10 @@ Database:AddChain(Chain.Dominion, {
             id = Chain.Envy,
         },
         {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Revendreth.Chain05,
+        },
+        {
             type = "renown",
             level = 22,
         },
@@ -1283,17 +1288,77 @@ Database:AddChain(Chain.Dominion, {
     },
     items = {
         {
+            type = "npc",
+            id = 158653,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
             id = 58406,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58407,
             x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "npc",
+            id = 161977,
+            aside = true,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59325,
+            aside = true,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain01, {
+    name = "Mirror Network",
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    items = {
+        {
+            name = "Unlock rank 1 travel network",
+            aside = true,
+            x = -1,
+        },
+        {
+            type = "chain",
+            id = 90415,
+        },
+        {
+            type = "npc",
+            id = 167160,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60060,
+            x = -1,
+        },
+        {
+            type = "quest",
+            id = 60147,
         },
     },
 })
@@ -1361,6 +1426,10 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.Dominion,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain01,
         },
     },
 })

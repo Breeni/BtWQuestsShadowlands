@@ -10,7 +10,7 @@
     not sure if it was changed or why its different now
 
     When leaving The Maw quests for the main character oribos chain are flagged
-    as completed, along with quest 62537, this doesnt seem to be flagged as completed 
+    as completed, along with quest 62537, this doesnt seem to be flagged as completed
     on the main though, so maybe it can be used to test for alts
 
     Maybe the solution is:
@@ -18,6 +18,26 @@
     if quest 59770 is complete and quest 62537 is not complete you are the main
     if quest 59770 is not complete and achievement 14529 is complete you are an alt
     if quest 62537 is complete you are an alt (only happens after finishing the maw)
+
+As of Build 35854:
+    New alt handling, when first arriving in oribos after doing The Maw you get the
+    quest [62704] The Threads of Fate, if selecting to do the campaign...
+    otherwise you get a couple of intro quests as before and can select a zone
+    or fly directly to the zone to auto accept the quest
+
+    When selecting the new leveling the quest 62713 is flagged as completed, this is also checked by the player condition
+    and should be useable to detect if the player is on the alt progress
+
+    alt tracking is now if we should show quest 62704 (The Threads of Fate) at the start of the main progress
+    and then checking if the player selected the main version of leveling
+
+    achievement 14807 flags alt progress being available, its account wide
+    completing The Maw flags quest 62706 as completed if the achievement is complete(?)
+
+    To show the alt leveling we check if quest 62713 is complete
+    To show the initial quest on main progress we check if achievement 14807 is complete and if either
+        The Maw isnt complete or
+        quest 62704 is active/completed
 ]]
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
@@ -78,29 +98,27 @@ Database:AddChain(Chain.IntoTheMaw, {
             id = 59751,
             x = 0,
             connections = {
-                1,
+                1, 2, 3,
             },
         },
         {
             type = "quest",
             id = 59752,
-            x = 0,
+            x = -2,
             connections = {
-                1,
+                3,
             },
         },
         {
             type = "quest",
             id = 59907,
-            x = 0,
             connections = {
-                1,
+                2,
             },
         },
         {
             type = "quest",
             id = 59753,
-            x = 0,
             connections = {
                 1,
             },
@@ -247,39 +265,20 @@ Database:AddChain(Chain.IntoTheMaw, {
         },
     },
 })
-BtWQuests.Characters:AddAchievement(14529);
 Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
     name = "Arrival in the Shadowlands (Main)",
+    questline = 1135,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    restrictions = {
-        variations = {
-            { -- Completed the Maw without getting the alt quest completed
-                type = "quest",
-                id = 59770,
-                restrictions = { -- Marked as completed when leaving the maw on alt
-                    type = "quest",
-                    id = 62537,
-                    completed = false,
-                },
-            },
-            { -- The Alt progress achievement is complete so we are a main
-                type = "achievement",
-                id = 14529,
-                completed = false,
-            },
-        },
+    alternatives = {
+        Chain.ArrivalInTheShadowlandsAlt
     },
-    -- restrictions = {
-    --     type = "achievement",
-    --     id = 14529,
-    --     restrictions = {
-    --         type = "achievement",
-    --         id = 14529,
-    --         anyone = true,
-    --     },
-    -- },
+    restrictions = {
+        type = "quest",
+        id = 62713,
+        status = {'pending'}
+    },
     prerequisites = {
         {
             type = "level",
@@ -292,7 +291,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
     },
     active = {
         type = "quest",
-        id = 60129,
+        ids = {62704, 60129},
         status = {'active', 'completed'},
     },
     completed = {
@@ -301,11 +300,57 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
     },
     items = {
         {
+            type = "npc",
+            id = 174871,
+            restrictions = {
+                {
+                    type = "achievement",
+                    id = 14807,
+                },
+                {
+                    type = "quest",
+                    id = 62704,
+                    restrictions = {
+                        type = "quest",
+                        id = 60129,
+                        status = {'active', 'completed'}
+                    }
+                },
+            },
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 62704,
+            restrictions = {
+                {
+                    type = "achievement",
+                    id = 14807,
+                },
+                {
+                    type = "quest",
+                    id = 62704,
+                    restrictions = {
+                        type = "quest",
+                        id = 60129,
+                        status = {'active', 'completed'}
+                    }
+                },
+            },
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
             type = "quest",
             id = 60129,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -313,7 +358,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
             id = 60148,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -321,7 +366,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
             id = 60149,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -329,7 +374,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
             id = 60150,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -337,7 +382,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
             id = 60151,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -345,7 +390,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
             id = 60152,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -353,7 +398,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
             id = 60154,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -361,7 +406,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
             id = 60156,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -376,46 +421,13 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    restrictions = {
-        variations = {
-            { -- Alt Progress is enabled
-                type = "achievement",
-                id = 14529,
-                anyone = true,
-                restrictions = { -- Not completed the Maw yet
-                    type = "quest",
-                    id = 59770,
-                    completed = false,
-                },
-            },
-            { -- Marked as completed when leaving the maw on alt
-                type = "quest",
-                id = 62537,
-            },
-        }
+    alternatives = {
+        Chain.ArrivalInTheShadowlandsMain
     },
-    -- restrictions = {
-    --     type = "achievement",
-    --     id = 14529,
-    --     completed = false,
-    --     restrictions = {
-    --         type = "achievement",
-    --         id = 14529,
-    --         anyone = true,
-    --     },
-    -- },
-    -- restrictions = {
-    --     {
-    --         type = "quest",
-    --         id = 62072,
-    --         status = {'active', 'completed'},
-    --     },
-    --     {
-    --         type = "achievement",
-    --         id = 14529,
-    --         anyone = true,
-    --     },
-    -- },
+    restrictions = {
+        type = "quest",
+        id = 62713,
+    },
     prerequisites = {
         {
             type = "level",
@@ -428,7 +440,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
     },
     active = {
         type = "quest",
-        id = 62072,
+        id = 62704,
         status = {'active', 'completed'},
     },
     completed = {
@@ -437,35 +449,35 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
     },
     items = {
         {
-            type = "quest",
-            id = 62072,
+            type = "npc",
+            id = 174871,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
             type = "quest",
-            id = 62077,
+            id = 62704,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
-        -- { -- Removed?
-        --     type = "quest",
-        --     id = 62166,
-        --     x = 0,
-        --     connections = {
-        --         1, 
-        --     },
-        -- },
+        {
+            type = "quest",
+            id = 62716,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
         {
             type = "quest",
             id = 62000,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -473,7 +485,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
             id = 62159,
             x = 0,
             connections = {
-                1, 2, 3, 4, 
+                1, 2, 3, 4,
             },
         },
         {
@@ -482,7 +494,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
             aside = true,
             x = -3,
             connections = {
-                4, 
+                4,
             },
         },
         {
@@ -490,7 +502,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
             id = 62278,
             aside = true,
             connections = {
-                4, 
+                4,
             },
         },
         {
@@ -498,7 +510,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
             id = 62277,
             aside = true,
             connections = {
-                4, 
+                4,
             },
         },
         {
@@ -506,30 +518,30 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
             id = 62279,
             aside = true,
             connections = {
-                4, 
+                4,
             },
         },
-        {
-            type = "chain",
-            id = 90101,
-            aside = true,
-            x = -3,
-        },
-        {
-            type = "chain",
-            id = 90201,
-            aside = true,
-        },
-        {
-            type = "chain",
-            id = 90301,
-            aside = true,
-        },
-        {
-            type = "chain",
-            id = 90401,
-            aside = true,
-        },
+        -- {
+        --     type = "chain",
+        --     id = 90141,
+        --     aside = true,
+        --     x = -3,
+        -- },
+        -- {
+        --     type = "chain",
+        --     id = 90241,
+        --     aside = true,
+        -- },
+        -- {
+        --     type = "chain",
+        --     id = 90341,
+        --     aside = true,
+        -- },
+        -- {
+        --     type = "chain",
+        --     id = 90441,
+        --     aside = true,
+        -- },
     },
 })
 Database:AddChain(Chain.TheMawEmbed, {
@@ -552,7 +564,7 @@ Database:AddChain(Chain.TheMawEmbed, {
             id = 171783,
             x = 1,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -560,14 +572,14 @@ Database:AddChain(Chain.TheMawEmbed, {
             id = 60287,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 61391,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -575,7 +587,7 @@ Database:AddChain(Chain.TheMawEmbed, {
             id = 61355,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -583,7 +595,7 @@ Database:AddChain(Chain.TheMawEmbed, {
             id = 60289,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -600,6 +612,7 @@ Database:AddChain(Chain.TheMawEmbed, {
 })
 Database:AddChain(Chain.Torghast, {
     name = "Torghast",
+    questline = 1136,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
@@ -629,7 +642,7 @@ Database:AddChain(Chain.Torghast, {
             id = 164079,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -637,7 +650,7 @@ Database:AddChain(Chain.Torghast, {
             id = 60136,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -645,14 +658,14 @@ Database:AddChain(Chain.Torghast, {
             id = 61099,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "kill",
             id = 151329,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -660,14 +673,14 @@ Database:AddChain(Chain.Torghast, {
             id = 60137,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 60267,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -675,14 +688,14 @@ Database:AddChain(Chain.Torghast, {
             id = 60139,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 60268,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -690,14 +703,14 @@ Database:AddChain(Chain.Torghast, {
             id = 60141,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 60269,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -705,14 +718,14 @@ Database:AddChain(Chain.Torghast, {
             id = 60140,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 60270,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -720,14 +733,14 @@ Database:AddChain(Chain.Torghast, {
             id = 60757,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 60271,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -735,7 +748,7 @@ Database:AddChain(Chain.Torghast, {
             id = 60146,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {

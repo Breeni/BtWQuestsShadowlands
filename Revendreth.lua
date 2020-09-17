@@ -187,7 +187,7 @@ Database:AddChain(Chain.WelcomeToRevendreth, {
 })
 Database:AddChain(Chain.MeetTheMaster, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
-    questline = 994,
+    questline = {994, 1145},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -422,7 +422,7 @@ Database:AddChain(Chain.TheAccusersSecret, {
 })
 Database:AddChain(Chain.TheRebellion, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
-    questline = 996,
+    questline = {996, 1178},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -969,6 +969,15 @@ Database:AddChain(Chain.MenagerieOfTheMaster, {
             id = 57877,
             aside = true,
             x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 57878,
+            aside = true,
+            x = 0,
         },
     },
 })
@@ -1038,6 +1047,14 @@ Database:AddChain(Chain.Chain01, {
         {
             type = "quest",
             id = 57474,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 57477,
             x = 0,
             connections = {
                 1,
@@ -1182,6 +1199,7 @@ Database:AddChain(Chain.Chain03, {
         type = "quest",
         id = 58060,
     },
+    questline = 1185,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1263,6 +1281,7 @@ Database:AddChain(Chain.Chain04, {
         type = "quest",
         id = 60470,
     },
+    questline = 1147,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1325,6 +1344,7 @@ Database:AddChain(Chain.Chain05, {
         type = "quest",
         id = 57536,
     },
+    questline = 1146,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1450,6 +1470,7 @@ Database:AddChain(Chain.Chain06, {
 })
 Database:AddChain(Chain.Chain07, {
     name = BtWQuests.GetMapName(1663),
+    questline = 1144,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1612,6 +1633,7 @@ Database:AddChain(Chain.EmbedChain01, {
     },
 })
 Database:AddChain(Chain.EmbedChain02, {
+    questline = 1177,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1652,6 +1674,7 @@ Database:AddChain(Chain.EmbedChain03, {
     },
 })
 Database:AddChain(Chain.EmbedChain04, {
+    questline = 1180,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1672,6 +1695,7 @@ Database:AddChain(Chain.EmbedChain04, {
     },
 })
 Database:AddChain(Chain.EmbedChain05, {
+    questline = 1145,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1700,6 +1724,7 @@ Database:AddChain(Chain.EmbedChain05, {
     },
 })
 Database:AddChain(Chain.EmbedChain06, {
+    questline = 1144,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1751,6 +1776,7 @@ Database:AddChain(Chain.EmbedChain07, {
     },
 })
 Database:AddChain(Chain.EmbedChain08, {
+    questline = 1182,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1771,6 +1797,7 @@ Database:AddChain(Chain.EmbedChain08, {
     },
 })
 Database:AddChain(Chain.EmbedChain09, {
+    questline = 1181,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1811,6 +1838,7 @@ Database:AddChain(Chain.EmbedChain10, {
     },
 })
 Database:AddChain(Chain.EmbedChain11, {
+    questline = 1183,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1831,6 +1859,7 @@ Database:AddChain(Chain.EmbedChain11, {
     },
 })
 Database:AddChain(Chain.EmbedChain12, {
+    questline = 1184,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,

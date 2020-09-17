@@ -460,8 +460,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1525] = {
                 {
-                    x = 0.26425,
-                    y = 0.489508,
+                    x = 0.264198,
+                    y = 0.489661,
                 },
             },
         },
@@ -845,8 +845,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1670] = {
                 {
-                    x = 0.388914,
-                    y = 0.700078,
+                    x = 0.388685,
+                    y = 0.699083,
                 },
             },
         },
@@ -2911,6 +2911,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [167160] = {
+        name = "Laurent",
+        locations = {
+            [1699] = {
+                {
+                    x = 0.478224,
+                    y = 0.572439,
+                },
+            },
+        },
+    },
     [167164] = {
         name = "Thanikos",
         locations = {
@@ -3007,8 +3018,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1670] = {
                 {
-                    x = 0.398939,
-                    y = 0.664437,
+                    x = 0.398471,
+                    y = 0.66422,
                 },
             },
         },
@@ -3029,8 +3040,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1670] = {
                 {
-                    x = 0.408061,
-                    y = 0.658356,
+                    x = 0.408257,
+                    y = 0.658716,
                 },
             },
         },
@@ -3739,6 +3750,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [170543] = {
+        name = "General Draven",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.274229,
+                    y = 0.403287,
+                },
+            },
+        },
+    },
     [170624] = {
         name = "Wilona Thorne",
         locations = {
@@ -4395,6 +4417,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.514297,
                     y = 0.184475,
+                },
+            },
+        },
+    },
+    [174871] = {
+        name = "Fatescribe Roh-Tahl",
+        locations = {
+            [1670] = {
+                {
+                    x = 0.19211,
+                    y = 0.502752,
                 },
             },
         },

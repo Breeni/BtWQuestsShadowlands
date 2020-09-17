@@ -54,7 +54,7 @@ Database:AddChain(Chain.EternitysCall, {
         },
         {
             type = "chain",
-            ids = {90002, 900003}
+            id = 90002
         },
     },
     active = {
@@ -149,7 +149,7 @@ Database:AddChain(Chain.EternitysCall, {
 })
 Database:AddChain(Chain.TheAspirantsCrucible, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
-    questline = 1055,
+    questline = {1055, 1154},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -377,7 +377,7 @@ Database:AddChain(Chain.TheAspirantsCrucible, {
 })
 Database:AddChain(Chain.TheTempleOfPurity, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 3),
-    questline = 1056,
+    questline = {1056,1186},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -963,6 +963,22 @@ Database:AddChain(Chain.EmbedChain01, {
             type = "quest",
             id = 60466,
             x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 62714,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 62715,
+            x = 0,
         },
     },
 })
@@ -997,6 +1013,7 @@ Database:AddChain(Chain.EmbedChain02, {
     },
 })
 Database:AddChain(Chain.EmbedChain03, {
+    questline = {1152, 1153},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1037,6 +1054,7 @@ Database:AddChain(Chain.Chain01, {
         type = "quest",
         id = 57545,
     },
+    questline = 1149,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1103,6 +1121,7 @@ Database:AddChain(Chain.Chain02, {
         type = "quest",
         id = 57549,
     },
+    questline = 1148,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1193,6 +1212,7 @@ Database:AddChain(Chain.Chain03, {
         type = "quest",
         id = 58037,
     },
+    questline = 1150,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1286,6 +1306,7 @@ Database:AddChain(Chain.Chain04, {
         type = "quest",
         id = 57933,
     },
+    questline = 1150,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1401,6 +1422,7 @@ Database:AddChain(Chain.Chain05, {
         type = "quest",
         id = 60296,
     },
+    questline = 1150,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
