@@ -8,6 +8,7 @@
 ## LoadOnDemand: 1
 ## X-BtWQuests: Shadowlands
 ## X-BtWQuests-Expansion: 8
+## X-BtWQuests-Expansion-Image: UI-Expansion 0 0.90625 0 0.8125
 ## X-BtWQuests-Expansion-Movie-ID: 936
 ## X-BtWQuests-AutoLoad: 1
 ## X-Part-Of: BtWQuests

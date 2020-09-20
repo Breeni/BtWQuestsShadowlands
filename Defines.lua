@@ -69,4 +69,8 @@ do
 end
 
 Database:AddExpansion(BtWQuests.Constant.Expansions.Shadowlands, {
+    image = {
+        texture = "Interface\\AddOns\\BtWQuestsShadowlands\\UI-Expansion",
+        texCoords = {0, 0.90625, 0, 0.8125}
+    }
 })
