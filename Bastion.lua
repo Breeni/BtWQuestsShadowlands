@@ -937,6 +937,7 @@ Database:AddChain(Chain.TheTempleOfCourage, {
 })
 
 Database:AddChain(Chain.EmbedChain01, {
+    questline = 1151,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
