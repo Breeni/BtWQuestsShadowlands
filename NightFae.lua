@@ -470,6 +470,14 @@ Database:AddChain(Chain.DeBoss, {
         },
         {
             type = "quest",
+            id = 59820,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
             id = 59821,
             x = 0,
         },
@@ -1311,6 +1319,7 @@ Database:AddChain(Chain.Chain01, {
 })
 Database:AddChain(Chain.Chain02, {
     name = "Mushroom Network",
+    questline = 1006,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,

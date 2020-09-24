@@ -796,7 +796,7 @@ Database:AddChain(Chain.ByTheArchonsWill, {
 })
 Database:AddChain(Chain.TheTempleOfCourage, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 6),
-    questline = 1066,
+    questline = {1066, 1187},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -924,9 +924,6 @@ Database:AddChain(Chain.TheTempleOfCourage, {
             id = 60056,
             aside = true,
             x = -1,
-            connections = {
-                2,
-            },
         },
         {
             type = "quest",
@@ -984,6 +981,7 @@ Database:AddChain(Chain.EmbedChain01, {
     },
 })
 Database:AddChain(Chain.EmbedChain02, {
+    questline = 1195,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,

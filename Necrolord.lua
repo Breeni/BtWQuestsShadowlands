@@ -370,6 +370,14 @@ Database:AddChain(Chain.TheHouseOfEyes, {
         },
         {
             type = "quest",
+            id = 57790,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
             id = 57648,
             x = 0,
         },

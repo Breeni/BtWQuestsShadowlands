@@ -59,6 +59,7 @@ Chain.Torghast = 90005
 
 Database:AddChain(Chain.IntoTheMaw, {
     name = BtWQuests_GetAchievementName(14334),
+    questline = 1108,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
@@ -410,14 +411,15 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
             },
         },
         {
-            type = "quest",
-            id = 59773,
+            type = "chain",
+            id = 90101,
             x = 0,
         },
     },
 })
 Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
     name = "Arrival in the Shadowlands (Alt)",
+    questline = 1175,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,

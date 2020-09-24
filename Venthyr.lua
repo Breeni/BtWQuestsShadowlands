@@ -1330,6 +1330,7 @@ Database:AddChain(Chain.Dominion, {
 })
 Database:AddChain(Chain.Chain01, {
     name = "Mirror Network",
+    questline = 1040,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,

@@ -1483,6 +1483,7 @@ Database:AddChain(Chain.TempChain14, {
     },
 })
 Database:AddChain(Chain.TempChain15, {
+    questline = 1188,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1696,26 +1697,6 @@ Database:AddChain(Chain.OtherBoth, {
             type = "quest",
             id = 57867,
         },
-        {
-            type = "quest",
-            id = 59179,
-        },
-        {
-            type = "quest",
-            id = 59181,
-        },
-        {
-            type = "quest",
-            id = 59189,
-        },
-        { -- Their New Home
-            type = "quest",
-            id = 59242,
-        },
-        { -- Daughter of the Night Warrior
-            type = "quest",
-            id = 59246,
-        },
         { -- Rotbriar Trouble
             type = "quest",
             id = 59600,
@@ -1727,14 +1708,6 @@ Database:AddChain(Chain.OtherBoth, {
         { -- Seize the Means of Production
             type = "quest",
             id = 60476,
-        },
-        {
-            type = "quest",
-            id = 60508,
-        },
-        {
-            type = "quest",
-            id = 60530,
         },
         { -- Terrors in Tirna Scithe
             type = "quest",

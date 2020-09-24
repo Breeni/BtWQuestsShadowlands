@@ -422,7 +422,7 @@ Database:AddChain(Chain.TheAccusersSecret, {
 })
 Database:AddChain(Chain.TheRebellion, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 4),
-    questline = {996, 1178},
+    questline = {996, 1178, 1192, 1189},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -880,7 +880,7 @@ Database:AddChain(Chain.ThePrinceAndTheTower, {
 })
 Database:AddChain(Chain.MenagerieOfTheMaster, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 7),
-    questline = 1038,
+    questline = {1038, 1137},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1818,6 +1818,7 @@ Database:AddChain(Chain.EmbedChain09, {
     },
 })
 Database:AddChain(Chain.EmbedChain10, {
+    questline = 1191,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
