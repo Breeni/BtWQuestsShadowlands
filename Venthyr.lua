@@ -1740,7 +1740,10 @@ Database:AddChain(Chain.OtherBoth, {
 })
 
 Database:AddCategory(CATEGORY_ID, {
-    name = "Venthyr Campaign",
+    name = { -- Venthyr Campaign
+        type = "campaign",
+        id = 113,
+    },
     expansion = EXPANSION_ID,
     items = {
         {

@@ -1007,76 +1007,83 @@ Database:AddChain(Chain.TheHornedHunter, {
     },
     items = {
         {
+            type = "npc",
+            id = 160262,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
             id = 58445,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58446,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59258,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58706,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58447,
             x = 0,
             connections = {
-                1
-            }
+                1, 2, 
+            },
         },
         {
             type = "quest",
             id = 58449,
-            x = 0,
+            x = -1,
             connections = {
-                1
-            }
+                2, 
+            },
         },
         {
             type = "quest",
             id = 58450,
-            x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59721,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 58451,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
@@ -1151,84 +1158,90 @@ Database:AddChain(Chain.DealForALoa, {
     },
     items = {
         {
+            type = "npc",
+            id = 160262,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
             id = 59731,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59732,
             x = 0,
             connections = {
-                1
-            }
+                1, 2, 3, 
+            },
         },
         {
             type = "quest",
             id = 59739,
-            x = 0,
+            x = -2,
             connections = {
-                1
-            }
+                3, 
+            },
         },
         {
             type = "quest",
             id = 59741,
-            x = 0,
             connections = {
-                1
-            }
+                2, 
+            },
         },
         {
             type = "quest",
             id = 59742,
-            x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59749,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59805,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59822,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59824,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 59856,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
@@ -1308,56 +1321,71 @@ Database:AddChain(Chain.DrustAndAshes, {
     },
     items = {
         {
+            type = "npc",
+            id = 160262,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
             type = "quest",
             id = 60189,
             x = 0,
             connections = {
-                1
-            }
+                1, 2, 3, 
+            },
         },
         {
             type = "quest",
             id = 60190,
-            x = 0,
+            x = -2,
             connections = {
-                1
-            }
+                3, 
+            },
         },
         {
             type = "quest",
             id = 60191,
-            x = 0,
             connections = {
-                1
-            }
+                2, 
+            },
         },
         {
             type = "quest",
             id = 60192,
-            x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 60193,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 60194,
             x = 0,
             connections = {
-                1
-            }
+                1, 
+            },
         },
         {
             type = "quest",
             id = 60108,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62422,
+            aside = true,
             x = 0,
         },
     },
@@ -1710,7 +1738,10 @@ Database:AddChain(Chain.OtherBoth, {
 })
 
 Database:AddCategory(CATEGORY_ID, {
-    name = "Night Fae Campaign",
+    name = { -- Night Fae Campaign
+        type = "campaign",
+        id = 117,
+    },
     expansion = EXPANSION_ID,
     items = {
         {

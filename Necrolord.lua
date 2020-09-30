@@ -1979,7 +1979,10 @@ Database:AddChain(Chain.OtherBoth, {
 })
 
 Database:AddCategory(CATEGORY_ID, {
-    name = "Necrolord Campaign",
+    name = { -- Necrolord Campaign
+        type = "campaign",
+        id = 115,
+    },
     expansion = EXPANSION_ID,
     items = {
         {

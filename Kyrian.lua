@@ -1748,7 +1748,10 @@ Database:AddChain(Chain.OtherBoth, {
 })
 
 Database:AddCategory(CATEGORY_ID, {
-    name = "Kyrian Campaign",
+    name = { -- Kyrian Campaign
+        type = "campaign",
+        id = 119,
+    },
     expansion = EXPANSION_ID,
     items = {
         {
