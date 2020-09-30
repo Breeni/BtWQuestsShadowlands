@@ -10,10 +10,11 @@ local MAP_ID = 1536
 local CONTINENT_ID = 1550
 local ACHIEVEMENT_ID = 14206
 local LEVEL_RANGE = {52, 54}
-local LEVEL_PREREQUISITES = {
-    {
-        type = "level",
-        level = 52,
+local LEVEL_PREREQUISITE = {
+    type = "level",
+    variations = {
+        { level = 50, restrictions = 86994, },
+        { level = 52, },
     },
 }
 
@@ -48,7 +49,7 @@ Database:AddChain(Chain.ChampionOfPain, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    prerequisites = LEVEL_PREREQUISITES,
+    prerequisites = { LEVEL_PREREQUISITE },
     active = {
         type = "quest",
         id = 61096,
@@ -168,10 +169,7 @@ Database:AddChain(Chain.HouseOfTheChosen, {
     range = LEVEL_RANGE,
     major = true,
     prerequisites = {
-        {
-            type = "level",
-            level = 52,
-        },
+        LEVEL_PREREQUISITE,
         {
             type = "chain",
             id = Chain.ChampionOfPain,
@@ -297,7 +295,10 @@ Database:AddChain(Chain.MatronOfSpies, {
     prerequisites = {
         {
             type = "level",
-            level = 52,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 53, },
+            },
         },
         {
             type = "chain",
@@ -413,7 +414,10 @@ Database:AddChain(Chain.HouseOfConstructs, {
     prerequisites = {
         {
             type = "level",
-            level = 52,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 53, },
+            },
         },
         {
             type = "chain",
@@ -568,7 +572,10 @@ Database:AddChain(Chain.HouseOfPlagues, {
     prerequisites = {
         {
             type = "level",
-            level = 52,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 53, },
+            },
         },
         {
             type = "chain",
@@ -692,7 +699,10 @@ Database:AddChain(Chain.RitualForTheDamned, {
     prerequisites = {
         {
             type = "level",
-            level = 52,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 55, },
+            },
         },
         {
             type = "chain",
@@ -840,7 +850,10 @@ Database:AddChain(Chain.TheEmptyThrone, {
     prerequisites = {
         {
             type = "level",
-            level = 52,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 55, },
+            },
         },
         {
             type = "chain",
@@ -941,7 +954,10 @@ Database:AddChain(Chain.Chain01, {
     prerequisites = {
         {
             type = "level",
-            level = 52,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 52, },
+            },
         },
         {
             type = "chain",
@@ -1039,7 +1055,10 @@ Database:AddChain(Chain.Chain02, {
     prerequisites = {
         {
             type = "level",
-            level = 52,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 52, },
+            },
         },
         {
             type = "chain",
@@ -1093,7 +1112,10 @@ Database:AddChain(Chain.Chain03, {
     prerequisites = {
         {
             type = "level",
-            level = 52,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 53, },
+            },
         },
         {
             type = "chain",
@@ -1187,7 +1209,10 @@ Database:AddChain(Chain.EmbedChain01, {
     prerequisites = {
         {
             type = "level",
-            level = 52,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 53, },
+            },
         },
         {
             type = "chain",

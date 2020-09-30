@@ -56,14 +56,7 @@ Database:AddChain(Chain.WelcomeToArdenweald, {
         LEVEL_PREREQUISITE,
         {
             type = "chain",
-            variations = {
-                {
-                    id = 90003,
-                },
-                {
-                    id = 90207,
-                }
-            }
+            id = 90207,
         }
     },
     active = {

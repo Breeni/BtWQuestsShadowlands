@@ -16,6 +16,12 @@ Chain.TheSealOfContrition = 90606
 Chain.AVesselOfArdenweald = 90607
 Chain.ClosingIn = 90608
 Chain.TheBellTolls = 90609
+
+Chain.Chain01 = 90611
+Chain.Chain02 = 90612
+Chain.Chain03 = 90613
+Chain.Chain04 = 90614
+
 Chain.OtherAlliance = 90697
 Chain.OtherHorde = 90698
 Chain.OtherBoth = 90699
@@ -56,7 +62,7 @@ Database:AddChain(Chain.AmongTheKyrian, {
             id = 171787,
             x = 0,
             connections = {
-                1,
+                1, 
             },
         },
         {
@@ -64,7 +70,7 @@ Database:AddChain(Chain.AmongTheKyrian, {
             id = 60491,
             x = 0,
             connections = {
-                1,
+                1, 
             },
         },
         {
@@ -72,7 +78,7 @@ Database:AddChain(Chain.AmongTheKyrian, {
             id = 60492,
             x = 0,
             connections = {
-                1,
+                1, 
             },
         },
         {
@@ -80,15 +86,99 @@ Database:AddChain(Chain.AmongTheKyrian, {
             id = 57895,
             x = 0,
             connections = {
-                1,
+                1, 
             },
         },
         {
             type = "quest",
-            id = 57896,
+            id = 62789,
             x = 0,
             connections = {
-                1,
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62790,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62698,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62692,
+            breadcrumb = true,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62791,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62792,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57905,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            completed = {
+                type = "quest",
+                ids = {
+                    57905, 62796, 
+                },
+                count = 2,
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+            active = {
+                type = "quest",
+                id = 57905,
+            },
+        },
+        {
+            type = "quest",
+            id = 62793,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62794,
+            x = 0,
+            connections = {
+                1, 
             },
         },
         {
@@ -96,7 +186,7 @@ Database:AddChain(Chain.AmongTheKyrian, {
             id = 57897,
             x = 0,
             connections = {
-                1,
+                1, 
             },
         },
         {
@@ -104,7 +194,7 @@ Database:AddChain(Chain.AmongTheKyrian, {
             id = 57898,
             x = 0,
             connections = {
-                1,
+                1, 
             },
         },
         {
@@ -112,23 +202,15 @@ Database:AddChain(Chain.AmongTheKyrian, {
             id = 60504,
             x = 0,
             connections = {
-                1,
+                1, 
             },
         },
         {
             type = "quest",
-            id = 57899,
+            id = 62795,
             x = 0,
             connections = {
-                1,
-            },
-        },
-        {
-            type = "quest",
-            id = 57900,
-            x = 0,
-            connections = {
-                1,
+                1, 
             },
         },
         {
@@ -140,7 +222,7 @@ Database:AddChain(Chain.AmongTheKyrian, {
 })
 Database:AddChain(Chain.ReturnToTheMaw, {
     name = "Return to the Maw",
-    questline = 1123,
+    questline = 1014,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -162,82 +244,49 @@ Database:AddChain(Chain.ReturnToTheMaw, {
         {
             type = "chain",
             id = Chain.AmongTheKyrian,
+            upto = 57905,
         },
     },
     active = {
         type = "quest",
-        ids = {57905, 60232},
+        id = 62832,
         status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
-        id = 60134,
+        id = 62796,
     },
     items = {
         {
-            variations = {
-                {
-                    type = "quest",
-                    id = 57905,
-                    restrictions = {
-                        type = "quest",
-                        id = 57905,
-                        status = {
-                            "active",
-                            "completed",
-                        },
-                    },
-                },
-                {
-                    type = "npc",
-                    id = 160212,
-                },
-            },
+            type = "npc",
+            id = 160212,
             x = 0,
             connections = {
-                1,
+                1, 
             },
         },
         {
             type = "quest",
-            id = 60232,
+            id = 62832,
             x = 0,
             connections = {
-                1,
-            },
-        },
-        {
-            type = "quest",
-            id = 61495,
-            x = 0,
-            connections = {
-                1,
-            },
-        },
-        {
-            type = "quest",
-            id = 61496,
-            source = {
-                type = "npc",
-                id = 172543,
-                locations = {
-                    [1708] = {
-                        {
-                            x = 0.601929,
-                            y = 0.334804,
-                        },
-                    },
-                },
-            },
-            x = -1,
-            connections = {
-                1.2, 1.3,
+                1, 
             },
         },
         {
             type = "chain",
-            id = 90004,
+            id = BtWQuests.Constant.Chain.Shadowlands.TheMawEmbed,
             embed = true,
+            x = 0,
+            connections = {
+                [5] = {
+                    1, 
+                }, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62796,
             x = 0,
         },
     },
@@ -266,11 +315,6 @@ Database:AddChain(Chain.TrialOfAscension, {
         {
             type = "chain",
             id = Chain.AmongTheKyrian,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = Chain.ReturnToTheMaw,
         },
         {
             type = "renown",
@@ -815,7 +859,7 @@ Database:AddChain(Chain.TheSealOfContrition, {
         },
         {
             type = "renown",
-            level = 13,
+            level = 12,
         },
     },
     active = {
@@ -1002,7 +1046,7 @@ Database:AddChain(Chain.AVesselOfArdenweald, {
         },
         {
             type = "renown",
-            level = 17,
+            level = 16,
         },
     },
     active = {
@@ -1182,7 +1226,7 @@ Database:AddChain(Chain.ClosingIn, {
         },
         {
             type = "renown",
-            level = 21,
+            level = 19,
         },
     },
     active = {
@@ -1373,7 +1417,7 @@ Database:AddChain(Chain.TheBellTolls, {
         },
         {
             type = "renown",
-            level = 22,
+            level = 21,
         },
     },
     active = {
@@ -1441,6 +1485,243 @@ Database:AddChain(Chain.TheBellTolls, {
         },
     },
 })
+Database:AddChain(Chain.Chain01, {
+    name = {
+        type = "garrisontalentree",
+        id = 308,
+    },
+    questline = 1040,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 1,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AmongTheKyrian,
+            upto = 62794,
+            lowPriority = true,
+        },
+        {
+            type = "garrisontalentree",
+            id = 308,
+            rank = 1,
+        },
+    },
+    active = false,
+    completed = false,
+    items = {
+    },
+})
+Database:AddChain(Chain.Chain02, {
+    name = {
+        type = "garrisontalentree",
+        id = 312,
+    },
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 1,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AmongTheKyrian,
+            upto = 62794,
+            lowPriority = true,
+        },
+        {
+            type = "garrisontalentree",
+            id = 312,
+            rank = 1,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 57903,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 57903,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 158773,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57903,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain03, {
+    name = {
+        type = "garrisontalentree",
+        id = 316,
+    },
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 1,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AmongTheKyrian,
+            upto = 62794,
+            lowPriority = true,
+        },
+        {
+            type = "garrisontalentree",
+            id = 316,
+            rank = 1,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 57899,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 57900,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 167745,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57899,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57900,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain04, {
+    name = {
+        type = "garrisontalentree",
+        id = 320,
+    },
+    questline = 1196,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 1,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AmongTheKyrian,
+            upto = 62794,
+            lowPriority = true,
+        },
+        {
+            type = "garrisontalentree",
+            id = 320,
+            rank = 1,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 60489,
+        status = {'active', 'completed'}
+    },
+    -- completed = {
+    --     type = "quest",
+    --     id = 57900,
+    -- },
+    items = {
+        {
+            type = "npc",
+            id = 167745,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60489,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60493,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+    },
+})
 Database:AddChain(Chain.OtherAlliance, {
     name = "Other Alliance",
     category = CATEGORY_ID,
@@ -1505,6 +1786,22 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.TheBellTolls,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain01,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain02,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain03,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain04,
         },
     },
 })

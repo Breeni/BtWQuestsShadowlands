@@ -60,18 +60,14 @@ Database:AddChain(Chain.WelcomeToRevendreth, {
     prerequisites = {
         {
             type = "level",
-            level = 57,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 57, },
+            },
         },
         {
             type = "chain",
-            variations = {
-                {
-                    id = 90003,
-                },
-                {
-                    id = 90306
-                }
-            }
+            id = 90306,
         },
     },
     active = {
@@ -195,7 +191,10 @@ Database:AddChain(Chain.MeetTheMaster, {
     prerequisites = {
         {
             type = "level",
-            level = 57,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 57, },
+            },
         },
         {
             type = "chain",
@@ -285,7 +284,10 @@ Database:AddChain(Chain.TheAccusersSecret, {
     prerequisites = {
         {
             type = "level",
-            level = 57,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 57, },
+            },
         },
         {
             type = "chain",
@@ -430,7 +432,10 @@ Database:AddChain(Chain.TheRebellion, {
     prerequisites = {
         {
             type = "level",
-            level = 57,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 57, },
+            },
         },
         {
             type = "chain",
@@ -627,7 +632,10 @@ Database:AddChain(Chain.SecuringSinfall, {
     prerequisites = {
         {
             type = "level",
-            level = 57,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 57, },
+            },
         },
         {
             type = "chain",
@@ -785,7 +793,10 @@ Database:AddChain(Chain.ThePrinceAndTheTower, {
     prerequisites = {
         {
             type = "level",
-            level = 57,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 57, },
+            },
         },
         {
             type = "chain",
@@ -880,7 +891,7 @@ Database:AddChain(Chain.ThePrinceAndTheTower, {
 })
 Database:AddChain(Chain.MenagerieOfTheMaster, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 7),
-    questline = {1038, 1137},
+    questline = {1038, 1010, 1137},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -888,7 +899,10 @@ Database:AddChain(Chain.MenagerieOfTheMaster, {
     prerequisites = {
         {
             type = "level",
-            level = 57,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 57, },
+            },
         },
         {
             type = "chain",
@@ -994,7 +1008,10 @@ Database:AddChain(Chain.Chain01, {
     prerequisites = {
         {
             type = "level",
-            level = 57,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 57, },
+            },
         },
         {
             type = "chain",
@@ -1079,7 +1096,10 @@ Database:AddChain(Chain.Chain02, {
     prerequisites = {
         {
             type = "level",
-            level = 57,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 57, },
+            },
         },
         {
             type = "chain",
@@ -1206,7 +1226,10 @@ Database:AddChain(Chain.Chain03, {
     prerequisites = {
         {
             type = "level",
-            level = 57,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 57, },
+            },
         },
         {
             type = "chain",
@@ -1288,7 +1311,10 @@ Database:AddChain(Chain.Chain04, {
     prerequisites = {
         {
             type = "level",
-            level = 57,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 58, },
+            },
         },
     },
     active = {
@@ -1351,12 +1377,15 @@ Database:AddChain(Chain.Chain05, {
     prerequisites = {
         {
             type = "level",
-            level = 57,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 57, },
+            },
         },
     },
     active = {
         type = "quest",
-        id = 57531,
+        ids = {57531, 60051},
         status = {'active', 'completed'},
     },
     completed = {
@@ -1365,8 +1394,21 @@ Database:AddChain(Chain.Chain05, {
     },
     items = {
         {
-            type = "npc",
-            id = 158038,
+            variations = {
+                {
+                    type = "quest",
+                    id = 60051,
+                    restrictions = {
+                        type = "quest",
+                        id = 60051,
+                        status = {'active', 'completed'},
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 158038,
+                },
+            },
             x = 0,
             connections = {
                 1,
@@ -1441,7 +1483,10 @@ Database:AddChain(Chain.Chain06, {
     prerequisites = {
         {
             type = "level",
-            level = 57,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 57, },
+            },
         },
     },
     active = {
@@ -1477,7 +1522,10 @@ Database:AddChain(Chain.Chain07, {
     prerequisites = {
         {
             type = "level",
-            level = 57,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 57, },
+            },
         },
     },
     active = {

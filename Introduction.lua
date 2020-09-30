@@ -562,26 +562,19 @@ Database:AddChain(Chain.TheMawEmbed, {
     },
     items = {
         {
-            type = "kill",
-            id = 171783,
-            x = 1,
+            type = "quest",
+            id = 62882,
+            x = 0,
             connections = {
-                2,
+                1, 
             },
         },
         {
             type = "quest",
             id = 60287,
-            x = -1,
+            x = 0,
             connections = {
-                2,
-            },
-        },
-        {
-            type = "quest",
-            id = 61391,
-            connections = {
-                1,
+                1, 
             },
         },
         {
@@ -589,7 +582,7 @@ Database:AddChain(Chain.TheMawEmbed, {
             id = 61355,
             x = 0,
             connections = {
-                1,
+                1, 
             },
         },
         {
@@ -597,12 +590,12 @@ Database:AddChain(Chain.TheMawEmbed, {
             id = 60289,
             x = 0,
             connections = {
-                1, 2,
+                1, 2, 
             },
         },
         {
             type = "quest",
-            id = 60134,
+            id = 62837,
             x = -1,
         },
         {
@@ -625,7 +618,35 @@ Database:AddChain(Chain.Torghast, {
         },
         {
             type = "chain",
-            id = Chain.TheMawEmbed,
+            id = Chain.Kyrian.AmongTheKyrian or 90601,
+            restrictions = {
+                type = "covenant",
+                id = 1,
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.Venthyr.Sinfall or 90901,
+            restrictions = {
+                type = "covenant",
+                id = 2,
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.NightFae.ForQueenAndGrove or 90801,
+            restrictions = {
+                type = "covenant",
+                id = 3,
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.Necrolord.CovenantHallIntro or 90701,
+            restrictions = {
+                type = "covenant",
+                id = 4,
+            },
         },
     },
     active = {
@@ -644,7 +665,7 @@ Database:AddChain(Chain.Torghast, {
             id = 164079,
             x = 0,
             connections = {
-                1,
+                1, 
             },
         },
         {
@@ -652,7 +673,7 @@ Database:AddChain(Chain.Torghast, {
             id = 60136,
             x = 0,
             connections = {
-                1, 2,
+                1, 2, 
             },
         },
         {
@@ -660,29 +681,59 @@ Database:AddChain(Chain.Torghast, {
             id = 61099,
             x = -1,
             connections = {
-                2,
+                2, 
             },
         },
         {
             type = "kill",
             id = 151329,
             connections = {
-                2,
+                2, 
             },
         },
         {
             type = "quest",
-            id = 60137,
+            id = 62932,
             x = -1,
             connections = {
-                2,
+                2, 
             },
         },
         {
             type = "quest",
             id = 60267,
             connections = {
-                2,
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62935,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60268,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62938,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60269,
+            connections = {
+                2, 
             },
         },
         {
@@ -690,59 +741,29 @@ Database:AddChain(Chain.Torghast, {
             id = 60139,
             x = -1,
             connections = {
-                2,
-            },
-        },
-        {
-            type = "quest",
-            id = 60268,
-            connections = {
-                2,
-            },
-        },
-        {
-            type = "quest",
-            id = 60141,
-            x = -1,
-            connections = {
-                2,
-            },
-        },
-        {
-            type = "quest",
-            id = 60269,
-            connections = {
-                2,
-            },
-        },
-        {
-            type = "quest",
-            id = 60140,
-            x = -1,
-            connections = {
-                2,
+                2, 
             },
         },
         {
             type = "quest",
             id = 60270,
             connections = {
-                2,
+                2, 
             },
         },
         {
             type = "quest",
-            id = 60757,
+            id = 62830,
             x = -1,
             connections = {
-                2,
+                2, 
             },
         },
         {
             type = "quest",
             id = 60271,
             connections = {
-                2,
+                2, 
             },
         },
         {
@@ -750,12 +771,20 @@ Database:AddChain(Chain.Torghast, {
             id = 60146,
             x = -1,
             connections = {
-                2,
+                2, 
             },
         },
         {
             type = "quest",
             id = 60272,
+        },
+        {
+            type = "quest",
+            id = 62836,
+            x = -1,
+            connections = {
+                1, 
+            },
         },
         {
             type = "quest",

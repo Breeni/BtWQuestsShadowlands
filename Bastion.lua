@@ -804,7 +804,10 @@ Database:AddChain(Chain.TheTempleOfCourage, {
     prerequisites = {
         {
             type = "level",
-            level = 50,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 52, },
+            },
         },
         {
             type = "chain",
@@ -1019,7 +1022,10 @@ Database:AddChain(Chain.EmbedChain03, {
     prerequisites = {
         {
             type = "level",
-            level = 50,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 51, },
+            },
         },
     },
     completed = {

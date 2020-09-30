@@ -199,17 +199,6 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
-    [352520] = {
-        name = "Medallion of Pride",
-        locations = {
-            [1699] = {
-                {
-                    x = 0.568261,
-                    y = 0.309563,
-                },
-            },
-        },
-    },
     [353472] = {
         name = "Radiant Sword",
         locations = {

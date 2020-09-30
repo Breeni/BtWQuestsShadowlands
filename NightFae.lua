@@ -19,6 +19,8 @@ Chain.DrustAndAshes = 90809
 
 Chain.Chain01 = 90811
 Chain.Chain02 = 90812
+Chain.Chain03 = 90813
+Chain.Chain04 = 90814
 
 Chain.OtherAlliance = 90897
 Chain.OtherHorde = 90898
@@ -45,9 +47,14 @@ Database:AddChain(Chain.ForQueenAndGrove, {
             ids = {57878, 62000},
         },
     },
+    active = {
+        type = "quest",
+        id = 61475,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
-        id = 58160,
+        id = 62899,
     },
     items = {
         {
@@ -69,54 +76,6 @@ Database:AddChain(Chain.ForQueenAndGrove, {
         {
             type = "quest",
             id = 61479,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 61541,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 61542,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 61550,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 61552,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 61553,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 61554,
             x = 0,
             connections = {
                 1, 
@@ -158,11 +117,133 @@ Database:AddChain(Chain.ForQueenAndGrove, {
             type = "quest",
             id = 58160,
             x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62883,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62884,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62697,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62693,
+            breadcrumb = true,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62890,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62891,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62892,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62897,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62898,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61541,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61542,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61550,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62900,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62899,
+            x = 0,
         },
     },
 })
 Database:AddChain(Chain.ReturnToTheMaw, {
     name = "Return to the Maw",
+    questline = 1098,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -184,16 +265,17 @@ Database:AddChain(Chain.ReturnToTheMaw, {
         {
             type = "chain",
             id = Chain.ForQueenAndGrove,
+            upto = 62892,
         },
     },
     active = {
         type = "quest",
-        id = 60233,
+        id = 62893,
         status = {'active', 'completed'},
     },
     completed = {
         type = "quest",
-        id = 60134,
+        id = 62894,
     },
     items = {
         {
@@ -201,50 +283,45 @@ Database:AddChain(Chain.ReturnToTheMaw, {
             id = 158553,
             x = 0,
             connections = {
-                1, 
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62893,
+            x = -1,
+            connections = {
+                2, 
             },
         },
         {
             type = "quest",
             id = 60233,
-            x = 0,
             connections = {
                 1, 
             },
-        },
-        {
-            type = "quest",
-            id = 61508,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 61496,
-            source = {
-                type = "npc",
-                id = 172543,
-                locations = {
-                    [1701] = {
-                        {
-                            x = 0.339654,
-                            y = 0.426709,
-                        },
-                    },
-                },
-            },
-            x = -1,
-            connections = {
-                1.2, 1.3, 
-            },
+            comment = "Dont think this should be available",
         },
         {
             type = "chain",
-            id = 90004,
+            id = BtWQuests.Constant.Chain.Shadowlands.TheMawEmbed,
             embed = true,
             x = 0,
+            connections = {
+                [5] = {
+                    1, 2
+                }, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62894,
+            x = -1,
+        },
+        {
+            type = "quest",
+            id = 62838,
+            comment = "Dont think this should be available",
         },
     },
 })
@@ -272,16 +349,16 @@ Database:AddChain(Chain.DaughterOfTheNightWarrior, {
         {
             type = "chain",
             id = Chain.ForQueenAndGrove,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = Chain.ReturnToTheMaw,
         },
         {
             type = "renown",
             level = 4,
         },
+    },
+    active = {
+        type = "quest",
+        ids = {59179, 59246},
+        status = {'active', 'completed'},
     },
     completed = {
         type = "quest",
@@ -688,7 +765,7 @@ Database:AddChain(Chain.DrustToDrust, {
         },
         {
             type = "renown",
-            level = 13,
+            level = 12,
         },
     },
     completed = {
@@ -696,10 +773,6 @@ Database:AddChain(Chain.DrustToDrust, {
         id = 61138,
     },
     items = {
-        {
-            type = "chain",
-            id = 90805,
-        },
         {
             type = "npc",
             id = 161509,
@@ -925,7 +998,7 @@ Database:AddChain(Chain.TheHornedHunter, {
         },
         {
             type = "renown",
-            level = 17,
+            level = 16,
         },
     },
     completed = {
@@ -1069,7 +1142,7 @@ Database:AddChain(Chain.DealForALoa, {
         },
         {
             type = "renown",
-            level = 21,
+            level = 19,
         },
     },
     completed = {
@@ -1226,7 +1299,7 @@ Database:AddChain(Chain.DrustAndAshes, {
         },
         {
             type = "renown",
-            level = 22,
+            level = 21,
         },
     },
     completed = {
@@ -1290,44 +1363,50 @@ Database:AddChain(Chain.DrustAndAshes, {
     },
 })
 Database:AddChain(Chain.Chain01, {
-    name = "The Queen's Conservatory",
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    items = {
-        {
-            name = "Same requirements as the necrolord stiching thingy",
-            aside = true,
-        },
-        {
-            type = "npc",
-            id = 173171,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 62624,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
+    name = {
+        type = "garrisontalentree",
+        id = 307,
     },
-})
-Database:AddChain(Chain.Chain02, {
-    name = "Mushroom Network",
     questline = 1006,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
-    items = {
+    prerequisites = {
         {
-            name = "Requires Level 1 transport network",
-            aside = true,
+            type = "level",
+            level = 60,
         },
+        {
+            type = "covenant",
+            id = 3,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ForQueenAndGrove,
+            upto = 62915,
+            lowPriority = true,
+        },
+        {
+            type = "garrisontalentree",
+            id = 307,
+            rank = 1,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 57454,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 57583,
+    },
+    items = {
         {
             type = "npc",
             id = 158556,
@@ -1382,6 +1461,226 @@ Database:AddChain(Chain.Chain02, {
         },
         {
             name = "Reward: Mushroom Network and Vendor"
+        },
+    },
+})
+Database:AddChain(Chain.Chain02, {
+    name = {
+        type = "garrisontalentree",
+        id = 311,
+    },
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 3,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ForQueenAndGrove,
+            upto = 62915,
+            lowPriority = true,
+        },
+        {
+            type = "garrisontalentree",
+            id = 311,
+            rank = 1,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 60723,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 60723,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 167196,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 60723,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain03, {
+    name = {
+        type = "garrisontalentree",
+        id = 315,
+    },
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 3,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ForQueenAndGrove,
+            upto = 62915,
+            lowPriority = true,
+        },
+        {
+            type = "garrisontalentree",
+            id = 315,
+            rank = 1,
+        },
+    },
+    items = {
+    },
+})
+Database:AddChain(Chain.Chain04, {
+    name = {
+        type = "garrisontalentree",
+        id = 319,
+    },
+    questline = 1139,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 3,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ForQueenAndGrove,
+            upto = 62915,
+            lowPriority = true,
+        },
+        {
+            type = "garrisontalentree",
+            id = 319,
+            rank = 1,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 59862,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 60642,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 166476,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59862,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59872,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59873,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59999,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59871,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62467,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60640,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60641,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60642,
+            x = 0,
         },
     },
 })
@@ -1460,15 +1759,11 @@ Database:AddCategory(CATEGORY_ID, {
         },
         {
             type = "chain",
-            id = Chain.OtherAlliance,
+            id = Chain.Chain03,
         },
         {
             type = "chain",
-            id = Chain.OtherHorde,
-        },
-        {
-            type = "chain",
-            id = Chain.OtherBoth,
+            id = Chain.Chain04,
         },
     },
 })
@@ -1476,177 +1771,4 @@ Database:AddCategory(CATEGORY_ID, {
 Database:AddExpansionItem(EXPANSION_ID, {
     type = "category",
     id = CATEGORY_ID,
-})
-
----- @TODO - DELETE
-
-Database:AddQuestsTable({
-    [59812] = {
-        name = "Following the Trail",
-        contentTuningID = 837,
-    },
-    [58871] = {
-        name = "Broken Harts",
-        contentTuningID = 837,
-    },
-    [59818] = {
-        name = "Gathering The Hunt",
-        contentTuningID = 837,
-    },
-    [59820] = {
-        name = "[DNT] Da Treacherous Loa",
-        contentTuningID = 837,
-    },
-    [59068] = {
-        name = "A Secret Never Spoken",
-        contentTuningID = 837,
-    },
-    [59070] = {
-        name = "A Sacrifice of Anima",
-        contentTuningID = 837,
-    },
-    [58704] = {
-        name = "The Garden of Night",
-        contentTuningID = 837,
-    },
-    [61541] = {
-        name = "The Forge of Bonds",
-        contentTuningID = 837,
-    },
-    [58647] = {
-        name = "Broken Webs",
-        contentTuningID = 837,
-    },
-    [61553] = {
-        name = "Know Where to Strike",
-        contentTuningID = 837,
-    },
-    [58157] = {
-        name = "Break a Leg",
-        contentTuningID = 837,
-    },
-    [58159] = {
-        name = "What's My Motivation?",
-        contentTuningID = 837,
-    },
-    [58669] = {
-        name = "A Little Pruning",
-        contentTuningID = 837,
-    },
-    [58104] = {
-        name = "Show, Don't Tell",
-        contentTuningID = 837,
-    },
-    [58610] = {
-        name = "The Speaker of Elune",
-        contentTuningID = 837,
-    },
-    [59242] = {
-        name = "Their New Home",
-        contentTuningID = 837,
-    },
-    [59811] = {
-        name = "Taking Inventory",
-        contentTuningID = 837,
-    },
-    [59246] = {
-        name = "Daughter of the Night Warrior",
-        contentTuningID = 837,
-    },
-    [59815] = {
-        name = "Stolen Loa",
-        contentTuningID = 837,
-    },
-    [59817] = {
-        name = "Winter Be Comin'",
-        contentTuningID = 837,
-    },
-    [59189] = {
-        name = "The Recovery of Tyrande Whisperwind",
-        contentTuningID = 837,
-    },
-    [59821] = {
-        name = "Report to the Queen",
-        contentTuningID = 837,
-    },
-    [59069] = {
-        name = "A Token of Lost Love",
-        contentTuningID = 837,
-    },
-    [59008] = {
-        name = "Spriggan Snares",
-        contentTuningID = 837,
-    },
-    [59071] = {
-        name = "Mending a Broken Hart",
-        contentTuningID = 837,
-    },
-    [60530] = {
-        name = "The Sea of Souls",
-        contentTuningID = 837,
-    },
-    [61552] = {
-        name = "The Hunt Watches",
-        contentTuningID = 837,
-    },
-    [61479] = {
-        name = "The Boon of Shapes",
-        contentTuningID = 837,
-    },
-    [60508] = {
-        name = "On the Trail",
-        contentTuningID = 837,
-    },
-    [61542] = {
-        name = "The Boon of Binding",
-        contentTuningID = 837,
-    },
-    [61475] = {
-        name = "The Heart of the Forest",
-        contentTuningID = 2060,
-    },
-    [61550] = {
-        name = "Strengthening the Bond",
-        contentTuningID = 837,
-    },
-    [59725] = {
-        name = "Archivist on the Edge",
-        contentTuningID = 837,
-    },
-    [61554] = {
-        name = "The Play's The Thing",
-        contentTuningID = 837,
-    },
-    [59819] = {
-        name = "Cleansing the Forest",
-        contentTuningID = 837,
-    },
-    [59813] = {
-        name = "Minions of Mueh'zala",
-        contentTuningID = 837,
-    },
-    [58158] = {
-        name = "The Fourth Wall, er, War",
-        contentTuningID = 837,
-    },
-    [58160] = {
-        name = "For Queen and Grove!",
-        contentTuningID = 837,
-    },
-    [59179] = {
-        name = "Daughter of the Night Warrior",
-        contentTuningID = 837,
-    },
-    [59809] = {
-        name = "On De Other Side",
-        contentTuningID = 837,
-    },
-    [59063] = {
-        name = "Curses!",
-        contentTuningID = 837,
-    },
-    [59181] = {
-        name = "Into the Maw",
-        contentTuningID = 837,
-    },
 })

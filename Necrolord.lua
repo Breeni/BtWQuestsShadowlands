@@ -21,7 +21,10 @@ Chain.Chain01 = 90711
 Chain.Chain02 = 90712
 Chain.Chain03 = 90713
 Chain.Chain04 = 90714
-Chain.Chain05 = 90715
+Chain.Chain12 = 90722
+Chain.Chain13 = 90723
+Chain.Chain14 = 90724
+Chain.Chain15 = 90725
 
 Chain.OtherAlliance = 90797
 Chain.OtherHorde = 90798
@@ -55,7 +58,7 @@ Database:AddChain(Chain.CovenantHallIntro, {
     },
     completed = {
         type = "quest",
-        id = 61397,
+        id = 59609,
     },
     items = {
         {
@@ -92,6 +95,87 @@ Database:AddChain(Chain.CovenantHallIntro, {
         },
         {
             type = "quest",
+            id = 62833,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62834,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62835,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62694,
+            breadcrumb = true,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62839,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62840,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61397,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.ReturnToTheMaw,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62845,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62846,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
             id = 59596,
             x = 0,
             connections = {
@@ -116,7 +200,7 @@ Database:AddChain(Chain.CovenantHallIntro, {
         },
         {
             type = "quest",
-            id = 59598,
+            id = 62848,
             x = 0,
             connections = {
                 1, 
@@ -124,21 +208,14 @@ Database:AddChain(Chain.CovenantHallIntro, {
         },
         {
             type = "quest",
-            id = 59603,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 61397,
+            id = 59609,
             x = 0,
         },
     },
 })
 Database:AddChain(Chain.ReturnToTheMaw, {
     name = "Return to The Maw",
+    questline = 1087,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -160,16 +237,17 @@ Database:AddChain(Chain.ReturnToTheMaw, {
         {
             type = "chain",
             id = Chain.CovenantHallIntro,
+            upto = 61397,
         },
     },
     active = {
         type = "quest",
-        id = 60130,
+        id = 62843,
         status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
-        id = 61513,
+        id = 62844,
     },
     items = {
         {
@@ -182,44 +260,26 @@ Database:AddChain(Chain.ReturnToTheMaw, {
         },
         {
             type = "quest",
-            id = 60130,
+            id = 62843,
             x = 0,
             connections = {
                 1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 61513,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 61496,
-            source = {
-                type = "npc",
-                id = 172543,
-                locations = {
-                    [1698] = {
-                        {
-                            x = 0.469269,
-                            y = 0.430799,
-                        },
-                    },
-                },
-            },
-            x = -1,
-            connections = {
-                1.2, 1.3, 
             },
         },
         {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.TheMawEmbed,
             embed = true,
+            x = 0,
+            connections = {
+                [5] = {
+                    1, 
+                }, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62844,
             x = 0,
         },
     },
@@ -248,11 +308,6 @@ Database:AddChain(Chain.TheHouseOfEyes, {
         {
             type = "chain",
             id = Chain.CovenantHallIntro,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = Chain.ReturnToTheMaw,
         },
         {
             type = "renown",
@@ -753,7 +808,7 @@ Database:AddChain(Chain.AGoldenDawn, {
         },
         {
             type = "renown",
-            level = 13,
+            level = 12,
         },
     },
     active = {
@@ -987,7 +1042,7 @@ Database:AddChain(Chain.TheWagesOfSin, {
         },
         {
             type = "renown",
-            level = 17,
+            level = 16,
         },
     },
     active = {
@@ -1119,7 +1174,7 @@ Database:AddChain(Chain.TheHouseOfRituals, {
         },
         {
             type = "renown",
-            level = 21,
+            level = 19,
         },
     },
     active = {
@@ -1425,7 +1480,7 @@ Database:AddChain(Chain.AssaultOnTheHouseOfRituals, {
         },
         {
             type = "renown",
-            level = 22,
+            level = 21,
         },
     },
     active = {
@@ -1479,7 +1534,157 @@ Database:AddChain(Chain.AssaultOnTheHouseOfRituals, {
 })
 
 Database:AddChain(Chain.Chain01, {
-    name = "Soul Survivors",
+    name = {
+        type = "garrisontalentree",
+        id = 310,
+    },
+    questline = 1040,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 4,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.CovenantHallIntro,
+            upto = 62846,
+            lowPriority = true,
+        },
+        {
+            type = "garrisontalentree",
+            id = 310,
+            rank = 1,
+        },
+    },
+    items = {
+    },
+})
+Database:AddChain(Chain.Chain02, {
+    name = {
+        type = "garrisontalentree",
+        id = 313,
+    },
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 4,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.CovenantHallIntro,
+            upto = 62846,
+            lowPriority = true,
+        },
+        {
+            type = "garrisontalentree",
+            id = 313,
+            rank = 1,
+        },
+    },
+    items = {
+        {
+            type = "npc",
+            id = 167205,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60722,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain03, {
+    name = {
+        type = "garrisontalentree",
+        id = 318,
+    },
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "covenant",
+            id = 2,
+        },
+        {
+            type = "quest",
+            ids = {57878, 62000},
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.CovenantHallIntro,
+            upto = 62846,
+            lowPriority = true,
+        },
+        {
+            type = "garrisontalentree",
+            id = 318,
+            rank = 1,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 59603,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 59603,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 165321,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59603,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain04, {
+    name = {
+        type = "garrisontalentree",
+        id = 321,
+    },
     questline = 1089,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1502,18 +1707,21 @@ Database:AddChain(Chain.Chain01, {
             type = "chain",
             id = Chain.CovenantHallIntro,
         },
+        {
+            type = "renown",
+            level = 4,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 58665,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 60042,
     },
     items = {
-        {
-            type = "quest",
-            id = 59603,
-            x = -1,
-            comment = "This or the next one, not sure",
-        },
-        {
-            type = "quest",
-            id = 61397,
-        },
         {
             type = "npc",
             id = 162222,
@@ -1611,7 +1819,8 @@ Database:AddChain(Chain.Chain01, {
         },
     },
 })
-Database:AddChain(Chain.Chain02, {
+Database:AddChain(Chain.Chain12, {
+    name = "Adventurer: Secutor Mevix",
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1639,7 +1848,8 @@ Database:AddChain(Chain.Chain02, {
         },
     },
 })
-Database:AddChain(Chain.Chain03, {
+Database:AddChain(Chain.Chain13, {
+    name = "Adventurer: Gunn Gorgebone",
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1669,7 +1879,7 @@ Database:AddChain(Chain.Chain03, {
         },
     },
 })
-Database:AddChain(Chain.Chain04, {
+Database:AddChain(Chain.Chain14, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1702,18 +1912,15 @@ Database:AddChain(Chain.Chain04, {
         },
     },
 })
-Database:AddChain(Chain.Chain05, {
+Database:AddChain(Chain.Chain15, {
+    questline = 1089,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
         {
-            name = "Research Anima Conduit thingy",
-            aside = true,
-        },
-        {
             type = "npc",
-            id = 167205,
+            id = 167150,
             x = 0,
             connections = {
                 1, 
@@ -1721,7 +1928,23 @@ Database:AddChain(Chain.Chain05, {
         },
         {
             type = "quest",
-            id = 60722,
+            id = 60041,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60042,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60195,
             x = 0,
             connections = {
                 1, 
@@ -1798,6 +2021,34 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.Chain01,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain02,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain03,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain04,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain12,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain13,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain14,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain15,
         },
     },
 })
