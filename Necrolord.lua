@@ -120,7 +120,11 @@ Database:AddChain(Chain.CovenantHallIntro, {
         {
             type = "quest",
             id = 62694,
-            breadcrumb = true,
+            completed = {
+                type = "quest",
+                ids = {62699, 62835},
+                count = 2,
+            },
             x = 0,
             connections = {
                 1, 
@@ -1782,14 +1786,24 @@ Database:AddChain(Chain.Chain04, {
             id = 58670,
             x = -1,
             connections = {
-                2, 
+                3, 
             },
         },
         {
             type = "quest",
             id = 58671,
             connections = {
-                1, 
+                2, 
+            },
+        },
+        {
+            -- quest:60048
+            type = "garrisontalentree",
+            id = 321,
+            rank = 1,
+            x = -2,
+            connections = {
+                2, 
             },
         },
         {
@@ -1802,20 +1816,30 @@ Database:AddChain(Chain.Chain04, {
         },
         {
             type = "quest",
-            id = 60048,
+            id = 60041,
             x = -1,
+            connections = {
+                2, 
+            },
         },
         {
             type = "quest",
             id = 60049,
             connections = {
-                1, 
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60042,
+            x = -1,
+            connections = {
+               
             },
         },
         {
             type = "quest",
             id = 60110,
-            x = 0,
         },
     },
 })

@@ -122,7 +122,11 @@ Database:AddChain(Chain.Sinfall, {
         {
             type = "quest",
             id = 62691,
-            breadcrumb = true,
+            completed = {
+                type = "quest",
+                ids = {62699, 62695},
+                count = 2,
+            },
             x = 0,
             connections = {
                 1, 

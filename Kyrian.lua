@@ -116,7 +116,11 @@ Database:AddChain(Chain.AmongTheKyrian, {
         {
             type = "quest",
             id = 62692,
-            breadcrumb = true,
+            completed = {
+                type = "quest",
+                ids = {62699, 62698},
+                count = 2,
+            },
             x = 0,
             connections = {
                 1, 
