@@ -293,13 +293,7 @@ Database:AddChain(Chain.MatronOfSpies, {
     range = LEVEL_RANGE,
     major = true,
     prerequisites = {
-        {
-            type = "level",
-            variations = {
-                { level = 50, restrictions = 86994, },
-                { level = 53, },
-            },
-        },
+        LEVEL_PREREQUISITE,
         {
             type = "chain",
             id = Chain.ChampionOfPain,

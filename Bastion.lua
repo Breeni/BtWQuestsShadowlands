@@ -69,10 +69,10 @@ Database:AddChain(Chain.EternitysCall, {
     items = {
         {
             type = "npc",
-            id = 164579,
+            id = 175133,
             x = 0,
             connections = {
-                1,
+                1, 
             },
         },
         {
@@ -953,32 +953,55 @@ Database:AddChain(Chain.EmbedChain01, {
     },
     items = {
         {
-            type = "npc",
-            id = 160598,
+            variations = {
+                {
+                    type = "quest",
+                    id = 57529,
+                    restrictions = {
+                        type = "quest",
+                        id = 57529,
+                        status = {
+                            "active",
+                            "completed",
+                        },
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 158004,
+                },
+            },
             x = 0,
             connections = {
-                1,
+                1, 2, 
             },
         },
         {
             type = "quest",
-            id = 60466,
-            x = 0,
+            id = 57538,
+            x = -1,
             connections = {
-                1,
+                2, 
             },
         },
         {
             type = "quest",
-            id = 62714,
-            x = 0,
+            id = 57545,
             connections = {
-                1,
+                1, 
             },
         },
         {
             type = "quest",
-            id = 62715,
+            id = 57547,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57568,
             x = 0,
         },
     },
@@ -1507,7 +1530,10 @@ Database:AddChain(Chain.Chain06, {
     prerequisites = {
         {
             type = "level",
-            level = 50,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 60, },
+            },
         },
     },
     active = {
@@ -1600,7 +1626,10 @@ Database:AddChain(Chain.Chain07, {
     prerequisites = {
         {
             type = "level",
-            level = 50,
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 60, },
+            },
         },
     },
     active = {

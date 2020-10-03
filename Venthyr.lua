@@ -1588,6 +1588,25 @@ Database:AddChain(Chain.Chain03, {
     active = false,
     completed = false,
     items = {
+        {
+            name = "This might not be correct, might be left over from previous intro questline"
+        },
+        {
+            type = "npc",
+            id = 164741,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59319,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
     },
 })
 Database:AddChain(Chain.Chain04, {
