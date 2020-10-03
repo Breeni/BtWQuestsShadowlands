@@ -297,7 +297,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
     },
     completed = {
         type = "quest",
-        id = 59770,
+        id = 60156,
     },
     items = {
         {
