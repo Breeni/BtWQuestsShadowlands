@@ -1,30 +1,9 @@
--- AUTO GENERATED - NEEDS UPDATING
-
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
 local CATEGORY_ID = BtWQuests.Constant.Category.Shadowlands.NightFae
 local Chain = BtWQuests.Constant.Chain.Shadowlands.NightFae
 local LEVEL_RANGE = {60, 60}
-
-Chain.ForQueenAndGrove = 90801
-Chain.ReturnToTheMaw = 90802
-Chain.DaughterOfTheNightWarrior = 90803
-Chain.DeBoss = 90804
-Chain.NightWarriorsCurse = 90805
-Chain.DrustToDrust = 90806
-Chain.TheHornedHunter = 90807
-Chain.DealForALoa = 90808
-Chain.DrustAndAshes = 90809
-
-Chain.Chain01 = 90811
-Chain.Chain02 = 90812
-Chain.Chain03 = 90813
-Chain.Chain04 = 90814
-
-Chain.OtherAlliance = 90897
-Chain.OtherHorde = 90898
-Chain.OtherBoth = 90899
 
 Database:AddChain(Chain.ForQueenAndGrove, {
     name = "For Queen And Grove",

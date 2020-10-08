@@ -17,39 +17,6 @@ local LEVEL_PREREQUISITES = {
     },
 }
 
-Chain.WelcomeToRevendreth = 90401
-Chain.MeetTheMaster = 90402
-Chain.TheAccusersSecret = 90403
-Chain.TheRebellion = 90404
-Chain.SecuringSinfall = 90405
-Chain.ThePrinceAndTheTower = 90406
-Chain.MenagerieOfTheMaster = 90407
-
-Chain.Chain01 = 90411
-Chain.Chain02 = 90412
-Chain.Chain03 = 90413
-Chain.Chain04 = 90414
-Chain.Chain05 = 90415
-Chain.Chain06 = 90416
-Chain.Chain07 = 90417
-
-Chain.EmbedChain01 = 90421
-Chain.EmbedChain02 = 90422
-Chain.EmbedChain03 = 90423
-Chain.EmbedChain04 = 90424
-Chain.EmbedChain05 = 90425
-Chain.EmbedChain06 = 90426
-Chain.EmbedChain07 = 90428
-Chain.EmbedChain08 = 90429
-Chain.EmbedChain09 = 90430
-Chain.EmbedChain10 = 90431
-Chain.EmbedChain11 = 90432
-Chain.EmbedChain12 = 90433
-
-Chain.OtherAlliance = 90497
-Chain.OtherHorde = 90498
-Chain.OtherBoth = 90499
-
 Database:AddChain(Chain.WelcomeToRevendreth, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 1),
     questline = 985,
@@ -1957,6 +1924,7 @@ Database:AddChain(Chain.OtherBoth, {
 Database:AddCategory(CATEGORY_ID, {
     name = BtWQuests.GetMapName(MAP_ID),
     expansion = EXPANSION_ID,
+    buttonImage = 3759912,
     items = {
         {
             type = "chain",

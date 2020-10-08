@@ -42,6 +42,7 @@ As of Build 35854:
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
+local Category = BtWQuests.Constant.Category.Shadowlands
 local Chain = BtWQuests.Constant.Chain.Shadowlands
 local LEVEL_RANGE = {50, 50}
 local LEVEL_PREREQUISITES = {
@@ -50,12 +51,6 @@ local LEVEL_PREREQUISITES = {
         level = 50,
     },
 }
-
-Chain.IntoTheMaw = 90001
-Chain.ArrivalInTheShadowlandsMain = 90002
-Chain.ArrivalInTheShadowlandsAlt = 90003
-Chain.TheMawEmbed = 90004
-Chain.Torghast = 90005
 
 Database:AddChain(Chain.IntoTheMaw, {
     name = BtWQuests_GetAchievementName(14334),
@@ -611,6 +606,7 @@ Database:AddChain(Chain.Torghast, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
+    buttonImage = "Interface\\AddOns\\BtWQuestsShadowlands\\UI-Chain-Artifact-Torghast",
     prerequisites = {
         {
             type = "level",
@@ -642,7 +638,7 @@ Database:AddChain(Chain.Torghast, {
         },
         {
             type = "chain",
-            id = Chain.Necrolord.CovenantHallIntro or 90701,
+            id = Chain.Necrolord.LoyalToThePrimus or 90701,
             restrictions = {
                 type = "covenant",
                 id = 4,
@@ -806,6 +802,39 @@ BtWQuestsDatabase:AddExpansionItems(EXPANSION_ID, {
     {
         type = "chain",
         id = Chain.ArrivalInTheShadowlandsAlt,
+    },
+    {
+        type = "category",
+        variations = {
+            {
+                id = Category.Kyrian,
+                restrictions = {
+                    type = "covenant",
+                    id = 1,
+                },
+            },
+            {
+                id = Category.Necrolord,
+                restrictions = {
+                    type = "covenant",
+                    id = 4,
+                },
+            },
+            {
+                id = Category.NightFae,
+                restrictions = {
+                    type = "covenant",
+                    id = 3,
+                },
+            },
+            {
+                id = Category.Venthyr,
+                restrictions = {
+                    type = "covenant",
+                    id = 2,
+                },
+            },
+        },
     },
     {
         type = "chain",

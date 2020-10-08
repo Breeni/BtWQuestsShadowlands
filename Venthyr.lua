@@ -1,28 +1,9 @@
--- Needs rewards, translations and last chain
-
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
 local CATEGORY_ID = BtWQuests.Constant.Category.Shadowlands.Venthyr
 local Chain = BtWQuests.Constant.Chain.Shadowlands.Venthyr
 local LEVEL_RANGE = {60, 60}
-
-Chain.Sinfall = 90901
-Chain.ReturnToTheMaw = 90902
-Chain.TheCourtOfHarvesters = 90903
-Chain.Desire = 90904
-Chain.Avarice = 90905
-Chain.TheCrownedPrince = 90906
-Chain.ConfrontingSin = 90907
-Chain.Envy = 90908
-Chain.Dominion = 90909
-Chain.Chain01 = 90911
-Chain.Chain02 = 90912
-Chain.Chain03 = 90913
-Chain.Chain04 = 90914
-Chain.OtherAlliance = 90997
-Chain.OtherHorde = 90998
-Chain.OtherBoth = 90999
 
 Database:AddChain(Chain.Sinfall, {
     name = "Sinfall",
@@ -442,7 +423,7 @@ Database:AddChain(Chain.Desire, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.Sinfall,
             upto = 59324,
             lowPriority = true,
         },
@@ -605,7 +586,7 @@ Database:AddChain(Chain.Avarice, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.Sinfall,
             upto = 59324,
             lowPriority = true,
         },
@@ -756,7 +737,7 @@ Database:AddChain(Chain.TheCrownedPrince, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.Sinfall,
             upto = 59324,
             lowPriority = true,
         },
@@ -936,7 +917,7 @@ Database:AddChain(Chain.ConfrontingSin, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.Sinfall,
             upto = 59324,
             lowPriority = true,
         },
@@ -1143,7 +1124,7 @@ Database:AddChain(Chain.Envy, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.Sinfall,
             upto = 59324,
             lowPriority = true,
         },
@@ -1278,7 +1259,7 @@ Database:AddChain(Chain.Dominion, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.Sinfall,
             upto = 59324,
             lowPriority = true,
         },

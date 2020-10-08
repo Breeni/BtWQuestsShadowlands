@@ -1,5 +1,3 @@
--- Needs rewards and translations
-
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
@@ -7,31 +5,8 @@ local CATEGORY_ID = BtWQuests.Constant.Category.Shadowlands.Necrolord
 local Chain = BtWQuests.Constant.Chain.Shadowlands.Necrolord
 local LEVEL_RANGE = {60, 60}
 
-Chain.CovenantHallIntro = 90701
-Chain.ReturnToTheMaw = 90702
-Chain.TheHouseOfEyes = 90703
-Chain.GrandTheftNecropolis = 90704
-Chain.DoNotForget = 90705
-Chain.AGoldenDawn = 90706
-Chain.TheWagesOfSin = 90707
-Chain.TheHouseOfRituals = 90708
-Chain.AssaultOnTheHouseOfRituals = 90709
-
-Chain.Chain01 = 90711
-Chain.Chain02 = 90712
-Chain.Chain03 = 90713
-Chain.Chain04 = 90714
-Chain.Chain12 = 90722
-Chain.Chain13 = 90723
-Chain.Chain14 = 90724
-Chain.Chain15 = 90725
-
-Chain.OtherAlliance = 90797
-Chain.OtherHorde = 90798
-Chain.OtherBoth = 90799
-
-Database:AddChain(Chain.CovenantHallIntro, {
-    name = "Covenant Hall Intro",
+Database:AddChain(Chain.LoyalToThePrimus, {
+    name = "Loyal to the Primus",
     questline = 1087,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -240,7 +215,7 @@ Database:AddChain(Chain.ReturnToTheMaw, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.LoyalToThePrimus,
             upto = 61397,
         },
     },
@@ -311,7 +286,7 @@ Database:AddChain(Chain.TheHouseOfEyes, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.LoyalToThePrimus,
         },
         {
             type = "renown",
@@ -465,7 +440,7 @@ Database:AddChain(Chain.GrandTheftNecropolis, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.LoyalToThePrimus,
             lowPriority = true,
         },
         {
@@ -617,7 +592,7 @@ Database:AddChain(Chain.DoNotForget, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.LoyalToThePrimus,
             lowPriority = true,
         },
         {
@@ -788,7 +763,7 @@ Database:AddChain(Chain.AGoldenDawn, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.LoyalToThePrimus,
             lowPriority = true,
         },
         {
@@ -1017,7 +992,7 @@ Database:AddChain(Chain.TheWagesOfSin, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.LoyalToThePrimus,
             lowPriority = true,
         },
         {
@@ -1144,7 +1119,7 @@ Database:AddChain(Chain.TheHouseOfRituals, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.LoyalToThePrimus,
             lowPriority = true,
         },
         {
@@ -1445,7 +1420,7 @@ Database:AddChain(Chain.AssaultOnTheHouseOfRituals, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.LoyalToThePrimus,
             lowPriority = true,
         },
         {
@@ -1562,7 +1537,7 @@ Database:AddChain(Chain.Chain01, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.LoyalToThePrimus,
             upto = 62846,
             lowPriority = true,
         },
@@ -1599,7 +1574,7 @@ Database:AddChain(Chain.Chain02, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.LoyalToThePrimus,
             upto = 62846,
             lowPriority = true,
         },
@@ -1649,7 +1624,7 @@ Database:AddChain(Chain.Chain03, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.LoyalToThePrimus,
             upto = 62846,
             lowPriority = true,
         },
@@ -1709,7 +1684,7 @@ Database:AddChain(Chain.Chain04, {
         },
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.LoyalToThePrimus,
         },
         {
             type = "renown",
@@ -2011,7 +1986,7 @@ Database:AddCategory(CATEGORY_ID, {
     items = {
         {
             type = "chain",
-            id = Chain.CovenantHallIntro,
+            id = Chain.LoyalToThePrimus,
         },
         {
             type = "chain",

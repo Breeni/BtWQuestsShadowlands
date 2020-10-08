@@ -18,30 +18,6 @@ local LEVEL_PREREQUISITE = {
     },
 }
 
-Chain.ChampionOfPain = 90201
-Chain.HouseOfTheChosen = 90202
-Chain.MatronOfSpies = 90203
-Chain.HouseOfConstructs = 90204
-Chain.HouseOfPlagues = 90205
-Chain.RitualForTheDamned = 90206
-Chain.TheEmptyThrone = 90207
-
-Chain.Chain01 = 90211
-Chain.Chain02 = 90212
-Chain.Chain03 = 90213
-
-Chain.EmbedChain01 = 90221
-Chain.EmbedChain02 = 90222
-Chain.EmbedChain03 = 90223
-Chain.EmbedChain04 = 90224
-Chain.EmbedChain05 = 90225
-Chain.EmbedChain06 = 90226
-Chain.EmbedChain07 = 90227
-
-Chain.OtherAlliance = 90297
-Chain.OtherHorde = 90298
-Chain.OtherBoth = 90299
-
 Database:AddChain(Chain.ChampionOfPain, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 1),
     questline = 1057,
@@ -1477,6 +1453,7 @@ Database:AddChain(Chain.OtherBoth, {
 Database:AddCategory(CATEGORY_ID, {
     name = BtWQuests.GetMapName(MAP_ID),
     expansion = EXPANSION_ID,
+    buttonImage = 3759911,
     items = {
         {
             type = "chain",

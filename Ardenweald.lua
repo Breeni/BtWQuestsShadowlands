@@ -15,36 +15,6 @@ local LEVEL_PREREQUISITE = {
     level = 55,
 }
 
-Chain.WelcomeToArdenweald = 90301
-Chain.TranquilPools = 90302
-Chain.SpiritGlen = 90303
-Chain.WaningGrove = 90304
-Chain.GlitterfallHeights = 90305
-Chain.ThisIsTheWay = 90306
-Chain.TheFallenTree = 90307
-Chain.VisionsOfTheDreamer = 90308
-Chain.AwakenTheDreamer = 90309
-
-Chain.Chain01 = 90311
-Chain.Chain02 = 90312
-Chain.Chain03 = 90313
-Chain.Chain04 = 90318
-
-Chain.TempChain14 = 90314
-Chain.TempChain15 = 90315
-Chain.TempChain16 = 90316
-Chain.TempChain17 = 90317
-
-Chain.EmbedChain01 = 90321
-Chain.EmbedChain02 = 90322
-Chain.EmbedChain03 = 90323
-Chain.EmbedChain04 = 90324
-Chain.EmbedChain05 = 90325
-
-Chain.OtherAlliance = 90397
-Chain.OtherHorde = 90398
-Chain.OtherBoth = 90399
-
 Database:AddChain(Chain.WelcomeToArdenweald, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 1),
     questline = 1002,
@@ -1772,6 +1742,7 @@ Database:AddChain(Chain.OtherBoth, {
 Database:AddCategory(CATEGORY_ID, {
     name = BtWQuests.GetMapName(MAP_ID),
     expansion = EXPANSION_ID,
+    buttonImage = 3759909,
     items = {
         {
             type = "chain",

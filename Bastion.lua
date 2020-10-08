@@ -1,5 +1,3 @@
--- AUTO GENERATED - NEEDS UPDATING
-
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
@@ -10,35 +8,6 @@ local MAP_ID = 1533
 local CONTINENT_ID = 1550
 local ACHIEVEMENT_ID = 14281
 local LEVEL_RANGE = {50, 52}
-local LEVEL_PREREQUISITES = {
-    {
-        type = "level",
-        level = 50,
-    },
-}
-
-Chain.EternitysCall = 90101
-Chain.TheAspirantsCrucible = 90102
-Chain.TheTempleOfPurity = 90103
-Chain.ChasingAMemory = 90104
-Chain.ByTheArchonsWill = 90105
-Chain.TheTempleOfCourage = 90106
-
-Chain.EmbedChain01 = 90111
-Chain.EmbedChain02 = 90112
-Chain.EmbedChain03 = 90113
-
-Chain.Chain01 = 90114
-Chain.Chain02 = 90115
-Chain.Chain03 = 90116
-Chain.Chain04 = 90117
-Chain.Chain05 = 90118
-Chain.Chain06 = 90119
-Chain.Chain07 = 90120
-
-Chain.OtherAlliance = 90197
-Chain.OtherHorde = 90198
-Chain.OtherBoth = 90199
 
 Database:AddChain(Chain.EternitysCall, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 1),
@@ -1530,10 +1499,7 @@ Database:AddChain(Chain.Chain06, {
     prerequisites = {
         {
             type = "level",
-            variations = {
-                { level = 50, restrictions = 86994, },
-                { level = 60, },
-            },
+            level = 60,
         },
     },
     active = {
@@ -1626,10 +1592,7 @@ Database:AddChain(Chain.Chain07, {
     prerequisites = {
         {
             type = "level",
-            variations = {
-                { level = 50, restrictions = 86994, },
-                { level = 60, },
-            },
+            level = 60,
         },
     },
     active = {
@@ -1740,6 +1703,7 @@ Database:AddChain(Chain.OtherBoth, {
 Database:AddCategory(CATEGORY_ID, {
     name = BtWQuests.GetMapName(MAP_ID),
     expansion = EXPANSION_ID,
+    buttonImage = 3759913,
     items = {
         {
             type = "chain",

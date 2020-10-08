@@ -7,25 +7,6 @@ local CATEGORY_ID = BtWQuests.Constant.Category.Shadowlands.Kyrian
 local Chain = BtWQuests.Constant.Chain.Shadowlands.Kyrian
 local LEVEL_RANGE = {60, 60}
 
-Chain.AmongTheKyrian = 90601
-Chain.ReturnToTheMaw = 90602
-Chain.TrialOfAscension = 90603
-Chain.PhaestusGenesisOfAeons = 90604
-Chain.RighteousRetribution = 90605
-Chain.TheSealOfContrition = 90606
-Chain.AVesselOfArdenweald = 90607
-Chain.ClosingIn = 90608
-Chain.TheBellTolls = 90609
-
-Chain.Chain01 = 90611
-Chain.Chain02 = 90612
-Chain.Chain03 = 90613
-Chain.Chain04 = 90614
-
-Chain.OtherAlliance = 90697
-Chain.OtherHorde = 90698
-Chain.OtherBoth = 90699
-
 Database:AddChain(Chain.AmongTheKyrian, {
     name = "Among The Kyrian",
     questline = 1014,
