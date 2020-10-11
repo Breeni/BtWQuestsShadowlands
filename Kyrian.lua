@@ -1472,7 +1472,7 @@ Database:AddChain(Chain.TheBellTolls, {
 })
 Database:AddChain(Chain.Chain01, {
     name = {
-        type = "garrisontalentree",
+        type = "garrisontalenttree",
         id = 308,
     },
     questline = 1040,
@@ -1500,7 +1500,7 @@ Database:AddChain(Chain.Chain01, {
             lowPriority = true,
         },
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 308,
             rank = 1,
         },
@@ -1512,7 +1512,7 @@ Database:AddChain(Chain.Chain01, {
 })
 Database:AddChain(Chain.Chain02, {
     name = {
-        type = "garrisontalentree",
+        type = "garrisontalenttree",
         id = 312,
     },
     category = CATEGORY_ID,
@@ -1539,7 +1539,7 @@ Database:AddChain(Chain.Chain02, {
             lowPriority = true,
         },
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 312,
             rank = 1,
         },
@@ -1571,7 +1571,7 @@ Database:AddChain(Chain.Chain02, {
 })
 Database:AddChain(Chain.Chain03, {
     name = {
-        type = "garrisontalentree",
+        type = "garrisontalenttree",
         id = 316,
     },
     category = CATEGORY_ID,
@@ -1598,7 +1598,7 @@ Database:AddChain(Chain.Chain03, {
             lowPriority = true,
         },
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 316,
             rank = 1,
         },
@@ -1638,7 +1638,7 @@ Database:AddChain(Chain.Chain03, {
 })
 Database:AddChain(Chain.Chain04, {
     name = {
-        type = "garrisontalentree",
+        type = "garrisontalenttree",
         id = 320,
     },
     questline = 1196,
@@ -1666,7 +1666,7 @@ Database:AddChain(Chain.Chain04, {
             lowPriority = true,
         },
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 320,
             rank = 1,
         },

@@ -1514,7 +1514,7 @@ Database:AddChain(Chain.AssaultOnTheHouseOfRituals, {
 
 Database:AddChain(Chain.Chain01, {
     name = {
-        type = "garrisontalentree",
+        type = "garrisontalenttree",
         id = 310,
     },
     questline = 1040,
@@ -1542,7 +1542,7 @@ Database:AddChain(Chain.Chain01, {
             lowPriority = true,
         },
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 310,
             rank = 1,
         },
@@ -1552,7 +1552,7 @@ Database:AddChain(Chain.Chain01, {
 })
 Database:AddChain(Chain.Chain02, {
     name = {
-        type = "garrisontalentree",
+        type = "garrisontalenttree",
         id = 313,
     },
     category = CATEGORY_ID,
@@ -1579,7 +1579,7 @@ Database:AddChain(Chain.Chain02, {
             lowPriority = true,
         },
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 313,
             rank = 1,
         },
@@ -1602,7 +1602,7 @@ Database:AddChain(Chain.Chain02, {
 })
 Database:AddChain(Chain.Chain03, {
     name = {
-        type = "garrisontalentree",
+        type = "garrisontalenttree",
         id = 318,
     },
     category = CATEGORY_ID,
@@ -1629,7 +1629,7 @@ Database:AddChain(Chain.Chain03, {
             lowPriority = true,
         },
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 318,
             rank = 1,
         },
@@ -1661,7 +1661,7 @@ Database:AddChain(Chain.Chain03, {
 })
 Database:AddChain(Chain.Chain04, {
     name = {
-        type = "garrisontalentree",
+        type = "garrisontalenttree",
         id = 321,
     },
     questline = 1089,
@@ -1773,7 +1773,7 @@ Database:AddChain(Chain.Chain04, {
         },
         {
             -- quest:60048
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 321,
             rank = 1,
             x = -2,

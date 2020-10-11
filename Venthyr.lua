@@ -1355,7 +1355,7 @@ Database:AddChain(Chain.Dominion, {
 })
 Database:AddChain(Chain.Chain01, {
     name = {
-        type = "garrisontalentree",
+        type = "garrisontalenttree",
         id = 309,
     },
     questline = 1040,
@@ -1383,7 +1383,7 @@ Database:AddChain(Chain.Chain01, {
             lowPriority = true,
         },
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 309,
             rank = 1,
         },
@@ -1394,7 +1394,7 @@ Database:AddChain(Chain.Chain01, {
     },
     items = {
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 309,
             rank = 1,
             x = 0,
@@ -1420,7 +1420,7 @@ Database:AddChain(Chain.Chain01, {
             id = 60147,
         },
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 309,
             rank = 2,
             x = 0,
@@ -1446,7 +1446,7 @@ Database:AddChain(Chain.Chain01, {
             id = 60160,
         },
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 309,
             rank = 3,
             x = 0,
@@ -1475,7 +1475,7 @@ Database:AddChain(Chain.Chain01, {
 })
 Database:AddChain(Chain.Chain02, {
     name = {
-        type = "garrisontalentree",
+        type = "garrisontalenttree",
         id = 314,
     },
     category = CATEGORY_ID,
@@ -1502,7 +1502,7 @@ Database:AddChain(Chain.Chain02, {
             lowPriority = true,
         },
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 314,
             rank = 1,
         },
@@ -1534,7 +1534,7 @@ Database:AddChain(Chain.Chain02, {
 })
 Database:AddChain(Chain.Chain03, {
     name = {
-        type = "garrisontalentree",
+        type = "garrisontalenttree",
         id = 317,
     },
     category = CATEGORY_ID,
@@ -1561,7 +1561,7 @@ Database:AddChain(Chain.Chain03, {
             lowPriority = true,
         },
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 317,
             rank = 1,
         },
@@ -1592,7 +1592,7 @@ Database:AddChain(Chain.Chain03, {
 })
 Database:AddChain(Chain.Chain04, {
     name = {
-        type = "garrisontalentree",
+        type = "garrisontalenttree",
         id = 324,
     },
     questline = 1196,
@@ -1620,7 +1620,7 @@ Database:AddChain(Chain.Chain04, {
             lowPriority = true,
         },
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 324,
             rank = 1,
         },

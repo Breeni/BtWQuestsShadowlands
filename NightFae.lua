@@ -1375,7 +1375,7 @@ Database:AddChain(Chain.DrustAndAshes, {
 })
 Database:AddChain(Chain.Chain01, {
     name = {
-        type = "garrisontalentree",
+        type = "garrisontalenttree",
         id = 307,
     },
     questline = 1006,
@@ -1403,7 +1403,7 @@ Database:AddChain(Chain.Chain01, {
             lowPriority = true,
         },
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 307,
             rank = 1,
         },
@@ -1477,7 +1477,7 @@ Database:AddChain(Chain.Chain01, {
 })
 Database:AddChain(Chain.Chain02, {
     name = {
-        type = "garrisontalentree",
+        type = "garrisontalenttree",
         id = 311,
     },
     category = CATEGORY_ID,
@@ -1504,7 +1504,7 @@ Database:AddChain(Chain.Chain02, {
             lowPriority = true,
         },
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 311,
             rank = 1,
         },
@@ -1536,7 +1536,7 @@ Database:AddChain(Chain.Chain02, {
 })
 Database:AddChain(Chain.Chain03, {
     name = {
-        type = "garrisontalentree",
+        type = "garrisontalenttree",
         id = 315,
     },
     category = CATEGORY_ID,
@@ -1563,7 +1563,7 @@ Database:AddChain(Chain.Chain03, {
             lowPriority = true,
         },
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 315,
             rank = 1,
         },
@@ -1573,7 +1573,7 @@ Database:AddChain(Chain.Chain03, {
 })
 Database:AddChain(Chain.Chain04, {
     name = {
-        type = "garrisontalentree",
+        type = "garrisontalenttree",
         id = 319,
     },
     questline = 1139,
@@ -1601,7 +1601,7 @@ Database:AddChain(Chain.Chain04, {
             lowPriority = true,
         },
         {
-            type = "garrisontalentree",
+            type = "garrisontalenttree",
             id = 319,
             rank = 1,
         },
