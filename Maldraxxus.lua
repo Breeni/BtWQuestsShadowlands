@@ -174,27 +174,20 @@ Database:AddChain(Chain.HouseOfTheChosen, {
             id = 57514,
             x = 0,
             connections = {
-                1, 2, 3, 
+                1, 2,
             },
         },
         {
             type = "quest",
             id = 58351,
-            x = -2,
-            connections = {
-                3, 
-            },
-        },
-        {
-            type = "quest",
-            id = 58617,
+            x = -1,
             connections = {
                 2, 
             },
         },
         {
             type = "quest",
-            id = 57516,
+            id = 58617,
             connections = {
                 1, 
             },
@@ -202,6 +195,14 @@ Database:AddChain(Chain.HouseOfTheChosen, {
         {
             type = "quest",
             id = 60451,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57516,
             x = 0,
             connections = {
                 1, 

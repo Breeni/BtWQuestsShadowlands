@@ -1410,7 +1410,7 @@ Database:AddChain(Chain.Chain01, {
     },
     active = {
         type = "quest",
-        id = 57454,
+        id = 63073,
         status = {'active', 'completed'}
     },
     completed = {
@@ -1420,7 +1420,15 @@ Database:AddChain(Chain.Chain01, {
     items = {
         {
             type = "npc",
-            id = 158556,
+            id = 165702,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63073,
             x = 0,
             connections = {
                 1, 
@@ -1471,9 +1479,9 @@ Database:AddChain(Chain.Chain01, {
             x = 0,
         },
         {
-            name = "Reward: Mushroom Network and Vendor"
+            name = "Reward: Mushroom Network and Vendor",
         },
-    },
+    }
 })
 Database:AddChain(Chain.Chain02, {
     name = {
@@ -1511,7 +1519,7 @@ Database:AddChain(Chain.Chain02, {
     },
     active = {
         type = "quest",
-        id = 60723,
+        id = 63067,
         status = {'active', 'completed'}
     },
     completed = {
@@ -1521,10 +1529,18 @@ Database:AddChain(Chain.Chain02, {
     items = {
         {
             type = "npc",
-            id = 167196,
+            id = 165702,
             x = 0,
             connections = {
-                1,
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63067,
+            x = 0,
+            connections = {
+                1, 
             },
         },
         {
@@ -1532,7 +1548,7 @@ Database:AddChain(Chain.Chain02, {
             id = 60723,
             x = 0,
         },
-    },
+    }
 })
 Database:AddChain(Chain.Chain03, {
     name = {
@@ -1568,7 +1584,37 @@ Database:AddChain(Chain.Chain03, {
             rank = 1,
         },
     },
+    active = {
+        type = "quest",
+        id = 61552,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 61553,
+    },
     items = {
+        {
+            type = "npc",
+            id = 165702,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61552,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61553,
+            x = 0,
+        },
     },
 })
 Database:AddChain(Chain.Chain04, {

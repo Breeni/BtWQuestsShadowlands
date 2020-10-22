@@ -1509,7 +1509,7 @@ Database:AddChain(Chain.Chain02, {
     },
     active = {
         type = "quest",
-        id = 60721,
+        id = 63066,
         status = {'active', 'completed'}
     },
     completed = {
@@ -1519,7 +1519,15 @@ Database:AddChain(Chain.Chain02, {
     items = {
         {
             type = "npc",
-            id = 164739,
+            id = 172605,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63066,
             x = 0,
             connections = {
                 1, 
@@ -1530,7 +1538,7 @@ Database:AddChain(Chain.Chain02, {
             id = 60721,
             x = 0,
         },
-    },
+    }
 })
 Database:AddChain(Chain.Chain03, {
     name = {
@@ -1566,15 +1574,27 @@ Database:AddChain(Chain.Chain03, {
             rank = 1,
         },
     },
-    active = false,
-    completed = false,
+    active = {
+        type = "quest",
+        id = 63064,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 59319,
+    },
     items = {
         {
-            name = "This might not be correct, might be left over from previous intro questline"
+            type = "npc",
+            id = 172605,
+            x = 0,
+            connections = {
+                1, 
+            },
         },
         {
-            type = "npc",
-            id = 164741,
+            type = "quest",
+            id = 63064,
             x = 0,
             connections = {
                 1, 
@@ -1584,11 +1604,8 @@ Database:AddChain(Chain.Chain03, {
             type = "quest",
             id = 59319,
             x = 0,
-            connections = {
-                1, 
-            },
         },
-    },
+    }
 })
 Database:AddChain(Chain.Chain04, {
     name = {

@@ -262,7 +262,7 @@ do
 
     Database:RegisterItemType("renown", RenownItem);
     Database:RegisterItemType("covenant", CovenantItem);
-    Database:AddCondition(86994, { type = "quest", ids = {62713, 57559} }) -- Quests should be level 50 now
+    Database:AddCondition(86994, { type = "quest", ids = {62713, 57559}, count = 2 }) -- Quests should be level 50 now
 end
 
 Database:AddExpansion(BtWQuests.Constant.Expansions.Shadowlands, {

@@ -81,19 +81,32 @@ Database:AddChain(Chain.EternitysCall, {
             id = 60735,
             x = 0,
             connections = {
-                2,
+                1,
             },
-        },
-        {
-            visible = false,
-            x = -3,
         },
         {
             type = "quest",
             id = 57261,
             x = 0,
             connections = {
-                2, 3,
+                1, 2,
+            },
+        },
+        {
+            type = "quest",
+            id = 57676,
+            aside = true,
+            x = -1,
+            y = 7,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 57677,
+            connections = {
+                1,
             },
         },
         {
@@ -102,17 +115,6 @@ Database:AddChain(Chain.EternitysCall, {
             aside = true,
             embed = true,
             x = 3,
-        },
-        {
-            type = "quest",
-            id = 57676,
-            aside = true,
-            x = -1,
-            y = 7,
-        },
-        {
-            type = "quest",
-            id = 57677,
         },
     },
 })
@@ -922,58 +924,35 @@ Database:AddChain(Chain.EmbedChain01, {
     },
     items = {
         {
-            variations = {
-                {
-                    type = "quest",
-                    id = 57529,
-                    restrictions = {
-                        type = "quest",
-                        id = 57529,
-                        status = {
-                            "active",
-                            "completed",
-                        },
-                    },
-                },
-                {
-                    type = "npc",
-                    id = 158004,
-                },
-            },
+            type = "npc",
+            id = 160598,
             x = 0,
             connections = {
-                1, 2, 
+                1,
             },
         },
         {
             type = "quest",
-            id = 57538,
-            x = -1,
-            connections = {
-                2, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57545,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57547,
+            id = 60466,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
             type = "quest",
-            id = 57568,
+            id = 62714,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 62715,
             x = 0,
         },
-    },
+    }
 })
 Database:AddChain(Chain.EmbedChain02, {
     questline = 1195,
@@ -1076,11 +1055,27 @@ Database:AddChain(Chain.Chain01, {
     },
     items = {
         {
-            type = "npc",
-            id = 158004,
+            variations = {
+                {
+                    type = "quest",
+                    id = 57529,
+                    restrictions = {
+                        type = "quest",
+                        id = 57529,
+                        status = {
+                            "active",
+                            "completed",
+                        },
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 158004,
+                },
+            },
             x = 0,
             connections = {
-                1, 2,
+                1, 2, 
             },
         },
         {
@@ -1088,14 +1083,14 @@ Database:AddChain(Chain.Chain01, {
             id = 57538,
             x = -1,
             connections = {
-                2,
+                2, 
             },
         },
         {
             type = "quest",
             id = 57545,
             connections = {
-                1,
+                1, 
             },
         },
         {
@@ -1103,7 +1098,7 @@ Database:AddChain(Chain.Chain01, {
             id = 57547,
             x = 0,
             connections = {
-                1,
+                1, 
             },
         },
         {

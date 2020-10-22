@@ -1547,7 +1547,37 @@ Database:AddChain(Chain.Chain01, {
             rank = 1,
         },
     },
+    active = {
+        type = "quest",
+        id = 63055,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 63059,
+    },
     items = {
+        {
+            type = "npc",
+            id = 161909,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63055,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63059,
+            x = 0,
+        },
     },
 })
 Database:AddChain(Chain.Chain02, {
@@ -1584,10 +1614,27 @@ Database:AddChain(Chain.Chain02, {
             rank = 1,
         },
     },
+    active = {
+        type = "quest",
+        id = 63057,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 60722,
+    },
     items = {
         {
             type = "npc",
-            id = 167205,
+            id = 161909,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63057,
             x = 0,
             connections = {
                 1, 
@@ -1636,7 +1683,7 @@ Database:AddChain(Chain.Chain03, {
     },
     active = {
         type = "quest",
-        id = 59603,
+        id = 63054,
         status = {'active', 'completed'}
     },
     completed = {
@@ -1646,7 +1693,15 @@ Database:AddChain(Chain.Chain03, {
     items = {
         {
             type = "npc",
-            id = 165321,
+            id = 161909,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63054,
             x = 0,
             connections = {
                 1, 

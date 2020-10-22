@@ -1475,7 +1475,7 @@ Database:AddChain(Chain.Chain01, {
         type = "garrisontalenttree",
         id = 308,
     },
-    questline = 1040,
+    questline = 1206,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1505,9 +1505,37 @@ Database:AddChain(Chain.Chain01, {
             rank = 1,
         },
     },
-    active = false,
-    completed = false,
+    active = {
+        type = "quest",
+        id = 63052,
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 63053,
+    },
     items = {
+        {
+            type = "npc",
+            id = 167745,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63052,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63053,
+            x = 0,
+        },
     },
 })
 Database:AddChain(Chain.Chain02, {
@@ -1515,6 +1543,7 @@ Database:AddChain(Chain.Chain02, {
         type = "garrisontalenttree",
         id = 312,
     },
+    questline = 1208,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1556,7 +1585,15 @@ Database:AddChain(Chain.Chain02, {
     items = {
         {
             type = "npc",
-            id = 158773,
+            id = 167745,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57901,
             x = 0,
             connections = {
                 1, 
@@ -1574,6 +1611,7 @@ Database:AddChain(Chain.Chain03, {
         type = "garrisontalenttree",
         id = 316,
     },
+    questline = 1207,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1641,7 +1679,7 @@ Database:AddChain(Chain.Chain04, {
         type = "garrisontalenttree",
         id = 320,
     },
-    questline = 1196,
+    questline = 1209,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1676,10 +1714,10 @@ Database:AddChain(Chain.Chain04, {
         id = 60489,
         status = {'active', 'completed'}
     },
-    -- completed = {
-    --     type = "quest",
-    --     id = 57900,
-    -- },
+    completed = {
+        type = "quest",
+        id = 60498,
+    },
     items = {
         {
             type = "npc",
@@ -1704,6 +1742,51 @@ Database:AddChain(Chain.Chain04, {
             connections = {
                 1, 
             },
+        },
+        {
+            type = "quest",
+            id = 60494,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60495,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60496,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60497,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 61473,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60498,
+            x = 0,
         },
     },
 })
