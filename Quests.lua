@@ -3,6 +3,7 @@
 BtWQuestsDatabase:AddQuestsTable({
     [56829] = {
         name = "Bottom Feeders",
+        contentTuningID = 1425,
         source = {
             type = "npc",
             id = 155668,
@@ -11,20 +12,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 250380,
+                amount = 252720,
             },
         },
-        contentTuningID = 1425,
     },
     [56942] = {
         name = "On The Road Again",
+        contentTuningID = 1425,
         source = {
             type = "npc",
             id = 155668,
@@ -33,20 +34,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    1950, 2000, 
+                    2250, 2300, 
                 },
-                minLevel = 57,
-                maxLevel = 58,
+                minLevel = 58,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 62595,
+                amount = 63180,
             },
         },
-        contentTuningID = 1425,
     },
     [56955] = {
         name = "Rebels on the Road",
+        contentTuningID = 1425,
         source = {
             type = "npc",
             id = 155533,
@@ -55,20 +56,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 250380,
+                amount = 252720,
             },
         },
-        contentTuningID = 1425,
     },
     [56978] = {
         name = "To Darkhaven",
+        contentTuningID = 1425,
         source = {
             type = "npc",
             id = 155533,
@@ -77,20 +78,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 250380,
+                amount = 252720,
             },
         },
-        contentTuningID = 1425,
     },
     [57007] = {
         name = "Invitation of the Master",
+        contentTuningID = 1425,
         source = {
             type = "npc",
             id = 155533,
@@ -99,20 +100,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    1950, 2000, 
+                    2250, 2300, 
                 },
-                minLevel = 57,
-                maxLevel = 58,
+                minLevel = 58,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 62595,
+                amount = 63180,
             },
         },
-        contentTuningID = 1425,
     },
     [57025] = {
         name = "A Plea to Revendreth",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 159478,
@@ -121,30 +122,29 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    975, 975, 1000, 
+                    1100, 1150, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    25040, 25270, 25505, 25740, 
+                    25270, 25505, 25740, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
             {
                 type = "reputation",
                 id = 2413,
                 amount = 10,
-                restrictions = 924,
             },
         },
-        contentTuningID = 746,
     },
     [57026] = {
         name = "The Sinstone",
+        contentTuningID = 1425,
         source = {
             type = "npc",
             id = 155537,
@@ -153,20 +153,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3900, 3950, 4000, 
+                    4450, 4550, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 125190,
+                amount = 126360,
             },
         },
-        contentTuningID = 1425,
     },
     [57037] = {
         name = "A Once Sweet Sound",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 159762,
@@ -183,24 +183,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57098] = {
         name = "The Grove of Terror",
+        contentTuningID = 1427,
         source = {
             type = "npc",
             id = 156381,
@@ -208,21 +208,17 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
-                amounts = {
-                    975, 1000, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 1150,
             },
             {
                 type = "money",
-                amount = 25270,
+                amount = 25505,
             },
         },
-        contentTuningID = 1427,
     },
     [57102] = {
         name = "Pardon Our Dust",
+        contentTuningID = 1314,
         source = {
             type = "npc",
             id = 165107,
@@ -239,20 +235,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 56,
+                minLevel = 51,
+                maxLevel = 57,
             },
             {
                 type = "money",
-                amount = 234000,
+                amount = 236340,
             },
         },
-        contentTuningID = 1314,
     },
     [57113] = {
         name = "On Lysonia's Trail",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 160037,
@@ -271,10 +267,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [57114] = {
         name = "Aerial Reconnaissance",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 156361,
@@ -287,10 +283,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [57115] = {
         name = "Sacred Scrolls of Humility",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 156327,
@@ -309,10 +305,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 2060,
     },
     [57116] = {
         name = "Succumbing to Pride",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 156361,
@@ -331,10 +327,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 2060,
     },
     [57117] = {
         name = "Fallen to Their Vices",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 156327,
@@ -353,10 +349,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 2060,
     },
     [57118] = {
         name = "Distorted by the Maw",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 156327,
@@ -375,10 +371,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 2060,
     },
     [57120] = {
         name = "Compassion, Blade of Humility",
+        contentTuningID = 2060,
         source = {
             type = "object",
             id = 353472,
@@ -397,10 +393,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 2060,
     },
     [57121] = {
         name = "The Power of the Maw",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 156474,
@@ -419,10 +415,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 2060,
     },
     [57122] = {
         name = "A Step Too Far",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 170375,
@@ -441,10 +437,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 2060,
     },
     [57123] = {
         name = "Kyrian No More",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 170375,
@@ -463,10 +459,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 2060,
     },
     [57124] = {
         name = "Her Will, Inflicted",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 170375,
@@ -490,10 +486,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 2060,
     },
     [57125] = {
         name = "Time to Reflect",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 169850,
@@ -510,24 +506,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 500, 340, 170, 85, 
+                    975, 1000, 1000, 1050, 1050, 600, 390, 200, 100, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    23400, 23635, 23870, 
+                    23635, 23870, 24100, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57131] = {
         name = "Let the Hunt Begin",
+        contentTuningID = 1427,
         source = {
             type = "npc",
             id = 168664,
@@ -535,8 +531,102 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
+                amount = 4550,
+            },
+            {
+                type = "money",
+                amount = 127530,
+            },
+        },
+    },
+    [57136] = {
+        name = "The Penitent Hunt",
+        contentTuningID = 1427,
+        source = {
+            type = "npc",
+            id = 168664,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amount = 9100,
+            },
+            {
+                type = "money",
+                amount = 255060,
+            },
+        },
+    },
+    [57159] = {
+        name = "A Reflection of Truth",
+        contentTuningID = 1427,
+        source = {
+            type = "npc",
+            id = 156554,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amount = 11350,
+            },
+            {
+                type = "money",
+                amount = 510120,
+            },
+        },
+    },
+    [57161] = {
+        name = "I Don't Get My Hands Dirty",
+        contentTuningID = 1426,
+        source = {
+            type = "npc",
+            id = 156605,
+        },
+        rewards = {
+            {
+                type = "experience",
                 amounts = {
-                    3950, 4000, 
+                    8950, 9100, 
+                },
+                minLevel = 58,
+                maxLevel = 59,
+            },
+            {
+                type = "money",
+                amount = 252720,
+            },
+        },
+    },
+    [57164] = {
+        name = "Devour This",
+        contentTuningID = 1427,
+        source = {
+            type = "npc",
+            id = 168664,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amount = 9100,
+            },
+            {
+                type = "money",
+                amount = 255060,
+            },
+        },
+    },
+    [57173] = {
+        name = "The Accuser's Sinstone",
+        contentTuningID = 1426,
+        source = {
+            type = "npc",
+            id = 156842,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    4450, 4550, 
                 },
                 minLevel = 58,
                 maxLevel = 59,
@@ -546,19 +636,41 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 126360,
             },
         },
-        contentTuningID = 1427,
     },
-    [57136] = {
-        name = "The Penitent Hunt",
+    [57174] = {
+        name = "The Stoneborn",
+        contentTuningID = 1425,
         source = {
             type = "npc",
-            id = 168664,
+            id = 156374,
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    7900, 8050, 
+                    4450, 4550, 
+                },
+                minLevel = 58,
+                maxLevel = 59,
+            },
+            {
+                type = "money",
+                amount = 126360,
+            },
+        },
+    },
+    [57175] = {
+        name = "Inquisitor Vilhelm's Sinstone",
+        contentTuningID = 1426,
+        source = {
+            type = "npc",
+            id = 163576,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8950, 9100, 
                 },
                 minLevel = 58,
                 maxLevel = 59,
@@ -568,19 +680,107 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 252720,
             },
         },
-        contentTuningID = 1427,
     },
-    [57159] = {
-        name = "A Reflection of Truth",
+    [57176] = {
+        name = "Sinstone Delivery",
+        contentTuningID = 1426,
         source = {
             type = "npc",
-            id = 156554,
+            id = 164166,
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9850, 10050, 
+                    2250, 2300, 
+                },
+                minLevel = 58,
+                maxLevel = 59,
+            },
+            {
+                type = "money",
+                amount = 63180,
+            },
+        },
+    },
+    [57177] = {
+        name = "A Fresh Start",
+        contentTuningID = 746,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    17900, 18200, 
+                },
+                minLevel = 58,
+                maxLevel = 59,
+            },
+            {
+                type = "money",
+                amounts = {
+                    505440, 510120, 514800, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
+            },
+        },
+    },
+    [57178] = {
+        name = "The Master Awaits",
+        contentTuningID = 1425,
+        source = {
+            type = "npc",
+            id = 155541,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1100, 1150, 
+                },
+                minLevel = 58,
+                maxLevel = 59,
+            },
+            {
+                type = "money",
+                amount = 25270,
+            },
+        },
+    },
+    [57179] = {
+        name = "The Authority of Revendreth",
+        contentTuningID = 1425,
+        source = {
+            type = "npc",
+            id = 156644,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    6700, 6800, 
+                },
+                minLevel = 58,
+                maxLevel = 59,
+            },
+            {
+                type = "money",
+                amount = 189540,
+            },
+        },
+    },
+    [57180] = {
+        name = "The Accuser's Secret",
+        contentTuningID = 1426,
+        source = {
+            type = "npc",
+            id = 157069,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    11200, 11350, 
                 },
                 minLevel = 58,
                 maxLevel = 59,
@@ -590,254 +790,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 505440,
             },
         },
-        contentTuningID = 1427,
-    },
-    [57161] = {
-        name = "I Don't Get My Hands Dirty",
-        source = {
-            type = "npc",
-            id = 156605,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    7750, 7900, 8050, 
-                },
-                minLevel = 57,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    250380, 252720, 255060, 257400, 
-                },
-                minLevel = 57,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 746,
-    },
-    [57164] = {
-        name = "Devour This",
-        source = {
-            type = "npc",
-            id = 168664,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    7900, 8050, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amount = 252720,
-            },
-        },
-        contentTuningID = 1427,
-    },
-    [57173] = {
-        name = "The Accuser's Sinstone",
-        source = {
-            type = "npc",
-            id = 156842,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    3900, 3950, 4000, 
-                },
-                minLevel = 57,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    125190, 126360, 127530, 128700, 
-                },
-                minLevel = 57,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 746,
-    },
-    [57174] = {
-        name = "The Stoneborn",
-        source = {
-            type = "npc",
-            id = 156374,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    3900, 3950, 4000, 
-                },
-                minLevel = 57,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amount = 125190,
-            },
-        },
-        contentTuningID = 1425,
-    },
-    [57175] = {
-        name = "Inquisitor Vilhelm's Sinstone",
-        source = {
-            type = "npc",
-            id = 163576,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    7750, 7900, 8050, 
-                },
-                minLevel = 57,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    250380, 252720, 255060, 257400, 
-                },
-                minLevel = 57,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 746,
-    },
-    [57176] = {
-        name = "Sinstone Delivery",
-        source = {
-            type = "npc",
-            id = 164166,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    3900, 3950, 4000, 
-                },
-                minLevel = 57,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    125190, 126360, 127530, 128700, 
-                },
-                minLevel = 57,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 746,
-    },
-    [57177] = {
-        name = "A Fresh Start",
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    15500, 15800, 16100, 
-                },
-                minLevel = 57,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    500760, 505440, 510120, 514800, 
-                },
-                minLevel = 57,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 746,
-    },
-    [57178] = {
-        name = "The Master Awaits",
-        source = {
-            type = "npc",
-            id = 155541,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    975, 975, 1000, 
-                },
-                minLevel = 57,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amount = 25040,
-            },
-        },
-        contentTuningID = 1425,
-    },
-    [57179] = {
-        name = "The Authority of Revendreth",
-        source = {
-            type = "npc",
-            id = 156644,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    7750, 7900, 8050, 
-                },
-                minLevel = 57,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    250380, 252720, 255060, 257400, 
-                },
-                minLevel = 57,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 746,
-    },
-    [57180] = {
-        name = "The Accuser's Secret",
-        source = {
-            type = "npc",
-            id = 157069,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    11650, 11850, 12050, 
-                },
-                minLevel = 57,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    751140, 758160, 765180, 772200, 
-                },
-                minLevel = 57,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 746,
     },
     [57182] = {
         name = "The Accuser's Fate",
+        contentTuningID = 1426,
         source = {
             type = "npc",
             id = 157084,
@@ -846,24 +802,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3900, 3950, 4000, 
+                    2250, 2300, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    125190, 126360, 127530, 128700, 
-                },
-                minLevel = 57,
-                maxLevel = 60,
+                amount = 63180,
             },
         },
-        contentTuningID = 746,
     },
     [57189] = {
         name = "Breaking the Hopebreakers",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 168217,
@@ -872,24 +824,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57190] = {
         name = "They Won't Know What Hit Them",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 168217,
@@ -898,24 +850,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57207] = {
         name = "Lysonia's Plan",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 156361,
@@ -934,10 +886,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 2060,
     },
     [57240] = {
         name = "Where is Prince Renathal?",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 168217,
@@ -946,24 +898,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    975, 975, 1000, 
+                    1100, 1150, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    25040, 25270, 25505, 25740, 
+                    25270, 25505, 25740, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57261] = {
         name = "Walk the Path, Aspirant",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 166306,
@@ -980,24 +932,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 500, 340, 170, 85, 
+                    975, 1000, 1000, 1050, 1050, 600, 390, 200, 100, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    23400, 23635, 23870, 
+                    23635, 23870, 24100, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57263] = {
         name = "The Cycle of Anima: Etherwyrms",
+        contentTuningID = 1316,
         source = {
             type = "npc",
             id = 166577,
@@ -1014,7 +966,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6950, 7100, 7200, 4150, 2800, 1400, 700, 
+                    7850, 8000, 8200, 4700, 3150, 1550, 775, 
                 },
                 minLevel = 51,
                 maxLevel = 57,
@@ -1024,10 +976,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 236340,
             },
         },
-        contentTuningID = 1316,
     },
     [57264] = {
         name = "On The Edge of a Revelation",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 157673,
@@ -1044,24 +996,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57265] = {
         name = "The Cycle of Anima: Drought Conditions",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158807,
@@ -1078,24 +1030,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8500, 8700, 8850, 9050, 9200, 5100, 3400, 1700, 850, 
+                    9850, 10050, 10200, 10400, 10600, 5900, 3950, 1950, 975, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    468000, 472680, 477360, 
+                    472680, 477360, 482040, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57266] = {
         name = "The First Cleansing",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 159583,
@@ -1112,24 +1064,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8500, 8700, 8850, 9050, 9200, 5100, 3400, 1700, 850, 
+                    9850, 10050, 10200, 10400, 10600, 5900, 3950, 1950, 975, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    468000, 472680, 477360, 
+                    472680, 477360, 482040, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57267] = {
         name = "The Cycle of Anima: Flower Power",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 166577,
@@ -1146,24 +1098,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57269] = {
         name = "The Hand of Doubt",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 157673,
@@ -1180,24 +1132,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8500, 8700, 8850, 9050, 9200, 5100, 3400, 1700, 850, 
+                    9850, 10050, 10200, 10400, 10600, 5900, 3950, 1950, 975, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    468000, 472680, 477360, 
+                    472680, 477360, 482040, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57270] = {
         name = "The Temple of Purity",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 157673,
@@ -1214,24 +1166,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 500, 340, 170, 85, 
+                    975, 1000, 1000, 1050, 1050, 600, 390, 200, 100, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    23400, 23635, 23870, 
+                    23635, 23870, 24100, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57288] = {
         name = "Assessing Your Strength",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -1248,24 +1200,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57291] = {
         name = "The Chamber of First Reflection",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158807,
@@ -1282,24 +1234,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 500, 340, 170, 85, 
+                    975, 1000, 1000, 1050, 1050, 600, 390, 200, 100, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    23400, 23635, 23870, 
+                    23635, 23870, 24100, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57316] = {
         name = "The Ladder",
+        contentTuningID = 745,
         source = {
             type = "npc",
             id = 161733,
@@ -1316,24 +1268,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7100, 7200, 7350, 7500, 7650, 4250, 2850, 1400, 
+                    8200, 8350, 8500, 8650, 8800, 4900, 3250, 
                 },
-                minLevel = 52,
+                minLevel = 53,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    238680, 241020, 243360, 
+                    241020, 243360, 245700, 
                 },
-                minLevel = 52,
-                maxLevel = 54,
+                minLevel = 53,
+                maxLevel = 55,
             },
         },
-        contentTuningID = 745,
     },
     [57380] = {
         name = "Sign Your Own Death Warrant",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 157199,
@@ -1342,24 +1294,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57381] = {
         name = "The Greatest Duelist",
+        contentTuningID = 1425,
         source = {
             type = "npc",
             id = 157550,
@@ -1368,20 +1320,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 250380,
+                amount = 252720,
             },
         },
-        contentTuningID = 1425,
     },
     [57386] = {
         name = "If You Want Peace...",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 171338,
@@ -1394,24 +1346,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    875, 900, 925, 525, 350, 180, 90, 
-                },
-                minLevel = 52,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amount = 23870,
-            },
-        },
-        contentTuningID = 1325,
     },
     [57390] = {
         name = "To Die By the Sword",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164244,
@@ -1424,24 +1362,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    7100, 7200, 7350, 4250, 2850, 1400, 700, 
-                },
-                minLevel = 52,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amount = 238680,
-            },
-        },
-        contentTuningID = 1325,
     },
     [57405] = {
         name = "Chasing Madness",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 157588,
@@ -1450,24 +1374,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3900, 3950, 4000, 
+                    4450, 4550, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    125190, 126360, 127530, 128700, 
+                    126360, 127530, 128700, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57425] = {
         name = "Land of Opportunity",
+        contentTuningID = 1325,
         source = {
             type = "npc",
             id = 164244,
@@ -1484,20 +1408,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8850, 9050, 9200, 5300, 3550, 1750, 875, 
+                    10200, 10400, 10600, 6150, 4100, 2050, 1000, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 53,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 477360,
+                amount = 482040,
             },
         },
-        contentTuningID = 1325,
     },
     [57426] = {
         name = "My Terrible Morning",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 157639,
@@ -1506,24 +1430,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9700, 9850, 10050, 
+                    11200, 11350, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    500760, 505440, 510120, 514800, 
+                    505440, 510120, 514800, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57427] = {
         name = "Unbearable Light",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 157639,
@@ -1532,24 +1456,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57428] = {
         name = "Theotar's Mission",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 157639,
@@ -1558,24 +1482,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57442] = {
         name = "Lost in the Desiccation",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 157650,
@@ -1584,24 +1508,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57444] = {
         name = "An Inspired Moral Inventory",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 160647,
@@ -1618,29 +1542,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 743,
     },
     [57446] = {
         name = "The Enemy You Know",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 159762,
@@ -1657,24 +1580,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57447] = {
         name = "Purity's Prerogative",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 157687,
@@ -1691,59 +1614,40 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 500, 340, 170, 85, 
+                    975, 1000, 1000, 1050, 1050, 600, 390, 200, 100, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    23400, 23635, 23870, 
+                    23635, 23870, 24100, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57454] = {
         name = "Silence in the Stalks",
+        contentTuningID = -1,
         source = {
             type = "npc",
-            id = 158556,
+            id = 174609,
             locations = {
-                [1565] = {
+                [1702] = {
                     {
-                        x = 0.484839,
-                        y = 0.504209,
-                    },
-                },
-                [1701] = {
-                    {
-                        x = 0.600083,
-                        y = 0.324463,
+                        x = 0.532466,
+                        y = 0.328921,
                     },
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-            {
-                type = "reputation",
-                id = 2463,
-                amount = 250,
-                restrictions = 924,
-                maxRank = 4,
-            },
-        },
-        contentTuningID = 837,
     },
     [57455] = {
         name = "Mushroom For Improvement",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 157710,
@@ -1762,10 +1666,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [57458] = {
         name = "Ring Repairs",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 157710,
@@ -1784,10 +1688,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [57459] = {
         name = "Fighting For Fungus",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 157710,
@@ -1806,10 +1710,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [57460] = {
         name = "Tubbins's Tea",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 157801,
@@ -1818,24 +1722,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3900, 3950, 4000, 
+                    4450, 4550, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    125190, 126360, 127530, 128700, 
+                    126360, 127530, 128700, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57461] = {
         name = "An Uneventful Stroll",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 158542,
@@ -1844,24 +1748,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9700, 9850, 10050, 
+                    11200, 11350, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    500760, 505440, 510120, 514800, 
+                    505440, 510120, 514800, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57463] = {
         name = "My Way or the Hyphae",
+        contentTuningID = 837,
         source = {
             type = "object",
             id = 334880,
@@ -1880,10 +1784,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [57470] = {
         name = "An Abominable Discovery",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173308,
@@ -1902,10 +1806,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [57471] = {
         name = "It's a Dirty Job",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 157846,
@@ -1922,24 +1826,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57473] = {
         name = "Prized Possession",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173194,
@@ -1958,10 +1862,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [57474] = {
         name = "Dredger Duty",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 157846,
@@ -1978,24 +1882,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57475] = {
         name = "The Mantle Returned",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173194,
@@ -2014,10 +1918,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [57477] = {
         name = "We're Gonna Need a Bigger Dredger",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 157846,
@@ -2034,24 +1938,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    975, 975, 1000, 
+                    1100, 1150, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    25040, 25270, 25505, 25740, 
+                    25270, 25505, 25740, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57481] = {
         name = "Running a Muck",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 158001,
@@ -2068,24 +1972,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9700, 9850, 10050, 
+                    11200, 11350, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    500760, 505440, 510120, 514800, 
+                    505440, 510120, 514800, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57511] = {
         name = "Arms for the Poor",
+        contentTuningID = 1325,
         source = {
             type = "npc",
             id = 162069,
@@ -2102,20 +2006,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7100, 7200, 7350, 4250, 2850, 1400, 700, 
+                    8200, 8350, 8500, 4900, 3250, 1650, 825, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 53,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 238680,
+                amount = 241020,
             },
         },
-        contentTuningID = 1325,
     },
     [57512] = {
         name = "Walk Among Death",
+        contentTuningID = 1325,
         source = {
             type = "npc",
             id = 167535,
@@ -2132,20 +2036,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7100, 7200, 7350, 4250, 2850, 1400, 700, 
+                    8200, 8350, 8500, 4900, 3250, 1650, 825, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 53,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 238680,
+                amount = 241020,
             },
         },
-        contentTuningID = 1325,
     },
     [57514] = {
         name = "The First Act of War",
+        contentTuningID = 1326,
         source = {
             type = "npc",
             id = 159065,
@@ -2162,20 +2066,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    875, 900, 925, 525, 350, 180, 90, 
+                    1050, 1050, 1100, 625, 420, 210, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 54,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 23870,
+                amount = 24335,
             },
         },
-        contentTuningID = 1326,
     },
     [57515] = {
         name = "The House of the Chosen",
+        contentTuningID = 1325,
         source = {
             type = "npc",
             id = 167535,
@@ -2192,20 +2096,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    875, 900, 925, 525, 350, 180, 90, 
+                    1000, 1050, 1050, 600, 410, 200, 100, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 53,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 23870,
+                amount = 24100,
             },
         },
-        contentTuningID = 1325,
     },
     [57516] = {
         name = "Through the Fire and Flames",
+        contentTuningID = 1326,
         source = {
             type = "npc",
             id = 159065,
@@ -2222,20 +2126,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7100, 7200, 7350, 4250, 2850, 1400, 700, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 54,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 238680,
+                amount = 243360,
             },
         },
-        contentTuningID = 1326,
+    },
+    [57529] = {
+        name = "Garden in Turmoil",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 158005,
+        },
     },
     [57530] = {
         name = "Gharmal's Tower",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173194,
@@ -2254,10 +2166,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [57531] = {
         name = "An Unfortunate Situation",
+        contentTuningID = 1428,
         source = {
             type = "npc",
             id = 158038,
@@ -2273,25 +2185,17 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
-                amounts = {
-                    9850, 10050, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 11350,
             },
             {
                 type = "money",
-                amounts = {
-                    505440, 510120, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 510120,
             },
         },
-        contentTuningID = 1428,
     },
     [57532] = {
         name = "Foraging for Fragments",
+        contentTuningID = 1428,
         source = {
             type = "npc",
             id = 158038,
@@ -2304,10 +2208,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1428,
     },
     [57533] = {
         name = "Light Punishment",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 158088,
@@ -2324,24 +2228,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57534] = {
         name = "When Only Ash Remains",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 158205,
@@ -2358,24 +2262,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57535] = {
         name = "Escaping the Master",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 158205,
@@ -2392,24 +2296,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9700, 9850, 10050, 
+                    11200, 11350, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    500760, 505440, 510120, 514800, 
+                    505440, 510120, 514800, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57536] = {
         name = "Mirror Making, Not Breaking",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 158205,
@@ -2426,24 +2330,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    11650, 11850, 12050, 
+                    13400, 13650, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    751140, 758160, 765180, 772200, 
+                    758160, 765180, 772200, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57538] = {
         name = "Disturbing the Peace",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 158004,
@@ -2456,24 +2360,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    8700, 8850, 9050, 5200, 3500, 1750, 875, 
-                },
-                minLevel = 51,
-                maxLevel = 57,
-            },
-            {
-                type = "money",
-                amount = 472680,
-            },
-        },
-        contentTuningID = 1320,
     },
     [57545] = {
         name = "Distractions for Kala",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 158004,
@@ -2486,24 +2376,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    8700, 8850, 9050, 5200, 3500, 1750, 875, 
-                },
-                minLevel = 51,
-                maxLevel = 57,
-            },
-            {
-                type = "money",
-                amount = 472680,
-            },
-        },
-        contentTuningID = 1320,
     },
     [57547] = {
         name = "A Test of Courage",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 158004,
@@ -2516,55 +2392,18 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    8500, 8700, 8850, 9050, 9200, 5100, 3400, 1700, 850, 
-                },
-                minLevel = 50,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amounts = {
-                    468000, 472680, 477360, 
-                },
-                minLevel = 50,
-                maxLevel = 52,
-            },
-            {
-                type = "reputation",
-                id = 2407,
-                restrictions = 924,
-            },
-        },
-        contentTuningID = 743,
     },
     [57549] = {
         name = "In Agthia's Memory",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 158078,
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    8850, 9050, 9200, 5300, 3550, 1750, 875, 
-                },
-                minLevel = 52,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amount = 477360,
-            },
-        },
-        contentTuningID = 1322,
     },
     [57551] = {
         name = "Agthia's Path",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158078,
@@ -2581,24 +2420,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 2050, 1350, 675, 340, 
+                    3950, 4000, 4100, 4150, 4250, 2350, 1550, 775, 390, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    117000, 118170, 119340, 
+                    118170, 119340, 120510, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57552] = {
         name = "Warriors of the Void",
+        contentTuningID = 1322,
         source = {
             type = "npc",
             id = 158181,
@@ -2615,7 +2454,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8850, 9050, 9200, 5300, 3550, 1750, 875, 
+                    10050, 10200, 10400, 6000, 4000, 2000, 1000, 
                 },
                 minLevel = 52,
                 maxLevel = 58,
@@ -2625,10 +2464,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 477360,
             },
         },
-        contentTuningID = 1322,
     },
     [57553] = {
         name = "On Wounded Wings",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158178,
@@ -2645,29 +2484,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 743,
     },
     [57554] = {
         name = "Wicked Gateways",
+        contentTuningID = 1322,
         source = {
             type = "npc",
             id = 158181,
@@ -2684,7 +2522,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8850, 9050, 9200, 5300, 3550, 1750, 875, 
+                    10050, 10200, 10400, 6000, 4000, 2000, 1000, 
                 },
                 minLevel = 52,
                 maxLevel = 58,
@@ -2694,10 +2532,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 477360,
             },
         },
-        contentTuningID = 1322,
     },
     [57555] = {
         name = "Shadow's Fall",
+        contentTuningID = 1322,
         source = {
             type = "npc",
             id = 158181,
@@ -2714,7 +2552,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    10650, 10850, 11050, 6400, 4250, 2150, 1050, 
+                    12050, 12250, 12500, 7200, 4800, 2400, 1200, 
                 },
                 minLevel = 52,
                 maxLevel = 58,
@@ -2724,10 +2562,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 716040,
             },
         },
-        contentTuningID = 1322,
     },
     [57568] = {
         name = "Tough Love",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158004,
@@ -2744,29 +2582,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8500, 8700, 8850, 9050, 9200, 5100, 3400, 1700, 850, 
+                    9850, 10050, 10200, 10400, 10600, 5900, 3950, 1950, 975, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    468000, 472680, 477360, 
+                    472680, 477360, 482040, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 743,
     },
     [57571] = {
         name = "Moving Mirrors",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 158205,
@@ -2783,24 +2620,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    5800, 5900, 6050, 
+                    6700, 6800, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    187785, 189540, 191295, 193050, 
+                    189540, 191295, 193050, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57583] = {
         name = "Through the Veil",
+        contentTuningID = 837,
         source = {
             type = "object",
             id = 334880,
@@ -2819,10 +2656,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [57584] = {
         name = "A Fate Most Noble",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158281,
@@ -2839,24 +2676,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57636] = {
         name = "Pride of Place",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161907,
@@ -2875,10 +2712,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [57644] = {
         name = "No Friend Left Behind",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 158604,
@@ -2897,10 +2734,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [57646] = {
         name = "The Tithelord",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 167689,
@@ -2924,10 +2761,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [57648] = {
         name = "The Impossible Plan",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160518,
@@ -2951,10 +2788,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [57649] = {
         name = "Whisper of Hope",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 164619,
@@ -2973,10 +2810,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [57651] = {
         name = "Trouble in the Banks",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 158345,
@@ -2993,7 +2830,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -3007,10 +2844,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [57652] = {
         name = "Supplies Needed: Amber Grease",
+        contentTuningID = 1236,
         source = {
             type = "object",
             id = 348747,
@@ -3027,7 +2864,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9550, 9700, 9850, 5700, 
+                    10800, 11000, 11200, 6450, 
                 },
                 minLevel = 56,
                 maxLevel = 59,
@@ -3037,10 +2874,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 496080,
             },
         },
-        contentTuningID = 1236,
     },
     [57653] = {
         name = "Unsafe Workplace",
+        contentTuningID = 1236,
         source = {
             type = "npc",
             id = 158422,
@@ -3057,7 +2894,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9550, 9700, 9850, 5700, 
+                    10800, 11000, 11200, 6450, 
                 },
                 minLevel = 56,
                 maxLevel = 59,
@@ -3067,10 +2904,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 496080,
             },
         },
-        contentTuningID = 1236,
     },
     [57655] = {
         name = "Supplies Needed: More Husks!",
+        contentTuningID = 807,
         source = {
             type = "object",
             id = 336415,
@@ -3087,7 +2924,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -3101,10 +2938,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [57656] = {
         name = "Gifts of the Forest",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 158489,
@@ -3121,7 +2958,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -3135,10 +2972,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [57660] = {
         name = "The Grove of Creation",
+        contentTuningID = 1236,
         source = {
             type = "npc",
             id = 160121,
@@ -3155,7 +2992,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    950, 975, 975, 575, 
+                    1100, 1100, 1100, 650, 
                 },
                 minLevel = 56,
                 maxLevel = 59,
@@ -3165,10 +3002,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 24805,
             },
         },
-        contentTuningID = 1236,
     },
     [57661] = {
         name = "Silk Shortage",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 158556,
@@ -3187,62 +3024,44 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+    },
+    [57676] = {
+        name = "The Things That Haunt Us",
+        contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 165107,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.482014,
+                        y = 0.726004,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
+                minLevel = 51,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    23400, 23635, 23870, 24100, 24335, 24570, 24805, 25040, 25270, 25505, 25740, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 60,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 807,
-    },
-    [57676] = {
-        name = "The Things That Haunt Us",
-        source = {
-            type = "npc",
-            id = 165107,
-            locations = {
-                [1533] = {
-                    {
-                        x = 0.482014,
-                        y = 0.726004,
-                    },
-                },
-            },
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
-                },
-                minLevel = 50,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amounts = {
-                    234000, 236340, 238680, 
-                },
-                minLevel = 50,
-                maxLevel = 52,
-            },
-        },
-        contentTuningID = 743,
     },
     [57677] = {
         name = "A Soulbind In Need",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 165107,
@@ -3259,24 +3078,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8500, 8700, 8850, 9050, 9200, 5100, 3400, 1700, 850, 
+                    9850, 10050, 10200, 10400, 10600, 5900, 3950, 1950, 975, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    468000, 472680, 477360, 
+                    472680, 477360, 482040, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57689] = {
         name = "Prince Renathal",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 158615,
@@ -3285,24 +3104,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    975, 975, 1000, 
+                    1100, 1150, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    25040, 25270, 25505, 25740, 
+                    25270, 25505, 25740, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57690] = {
         name = "Cages For All Occasions",
+        contentTuningID = 1428,
         source = {
             type = "npc",
             id = 158649,
@@ -3310,25 +3129,17 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
-                amounts = {
-                    3950, 4000, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 4550,
             },
             {
                 type = "money",
-                amounts = {
-                    126360, 127530, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 127530,
             },
         },
-        contentTuningID = 1428,
     },
     [57691] = {
         name = "A Royal Key",
+        contentTuningID = 1428,
         source = {
             type = "npc",
             id = 158645,
@@ -3336,25 +3147,17 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
-                amounts = {
-                    7900, 8050, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 9100,
             },
             {
                 type = "money",
-                amounts = {
-                    252720, 255060, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 255060,
             },
         },
-        contentTuningID = 1428,
     },
     [57693] = {
         name = "Torghast, Tower of the Damned",
+        contentTuningID = 1428,
         source = {
             type = "npc",
             id = 158645,
@@ -3362,25 +3165,17 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
-                amounts = {
-                    9850, 10050, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 11350,
             },
             {
                 type = "money",
-                amounts = {
-                    505440, 510120, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 510120,
             },
         },
-        contentTuningID = 1428,
     },
     [57694] = {
         name = "Refuge of Revendreth",
+        contentTuningID = 1428,
         source = {
             type = "npc",
             id = 162688,
@@ -3388,25 +3183,17 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
-                amounts = {
-                    3950, 4000, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 4550,
             },
             {
                 type = "money",
-                amounts = {
-                    126360, 127530, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 127530,
             },
         },
-        contentTuningID = 1428,
     },
     [57709] = {
         name = "The Aspirant's Crucible",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 165107,
@@ -3423,24 +3210,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 500, 340, 170, 85, 
+                    975, 1000, 1000, 1050, 1050, 600, 390, 200, 100, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    23400, 23635, 23870, 
+                    23635, 23870, 24100, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57710] = {
         name = "A Life of Service",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158807,
@@ -3457,24 +3244,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8500, 8700, 8850, 9050, 9200, 5100, 3400, 1700, 850, 
+                    9850, 10050, 10200, 10400, 10600, 5900, 3950, 1950, 975, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    468000, 472680, 477360, 
+                    472680, 477360, 482040, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57711] = {
         name = "A Forge Gone Cold",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158807,
@@ -3491,33 +3278,33 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 500, 340, 170, 85, 
+                    975, 1000, 1000, 1050, 1050, 600, 390, 200, 100, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    23400, 23635, 23870, 
+                    23635, 23870, 24100, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57712] = {
         name = "Suggested Reading",
+        contentTuningID = 1316,
         source = {
             type = "npc",
-            id = 166738,
+            id = 157138,
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    6950, 7100, 7200, 4150, 2800, 1400, 700, 
+                    7850, 8000, 8200, 4700, 3150, 1550, 775, 
                 },
                 minLevel = 51,
                 maxLevel = 57,
@@ -3527,10 +3314,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 236340,
             },
         },
-        contentTuningID = 1316,
     },
     [57713] = {
         name = "The Work of One's Hands",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158807,
@@ -3547,24 +3334,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57714] = {
         name = "Assessing Your Spirit",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -3581,24 +3368,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57715] = {
         name = "The Archon's Answer",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -3615,24 +3402,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    10250, 10450, 10650, 10850, 11050, 6150, 4100, 2050, 1000, 
+                    11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    702000, 709020, 716040, 
+                    709020, 716040, 723060, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57716] = {
         name = "A Wayward Disciple?",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 159762,
@@ -3649,24 +3436,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57717] = {
         name = "Step Back From That Ledge, My Friend",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 159762,
@@ -3683,24 +3470,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8500, 8700, 8850, 9050, 9200, 5100, 3400, 1700, 850, 
+                    9850, 10050, 10200, 10400, 10600, 5900, 3950, 1950, 975, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    468000, 472680, 477360, 
+                    472680, 477360, 482040, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57719] = {
         name = "Dangerous Discourse",
+        contentTuningID = 743,
         source = {
             type = "object",
             id = 344726,
@@ -3717,24 +3504,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57724] = {
         name = "Securing Sinfall",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 169105,
@@ -3743,24 +3530,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    11650, 11850, 12050, 
+                    13400, 13650, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    751140, 758160, 765180, 772200, 
+                    758160, 765180, 772200, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57727] = {
         name = "Stonevigil Unrest",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 158653,
@@ -3779,10 +3566,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [57729] = {
         name = "To the Estate",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 167620,
@@ -3801,10 +3588,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [57771] = {
         name = "An Unwelcome Incursion",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 167381,
@@ -3823,10 +3610,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [57772] = {
         name = "Fangs and Minds",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 167380,
@@ -3845,10 +3632,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [57778] = {
         name = "The Maldraxxian Job",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161907,
@@ -3867,10 +3654,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [57787] = {
         name = "Keep to the Path",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 170533,
@@ -3887,7 +3674,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -3901,12 +3688,12 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [57790] = {
     },
     [57816] = {
         name = "Dreamweaver",
+        contentTuningID = 1234,
         source = {
             type = "npc",
             id = 158487,
@@ -3923,20 +3710,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    925, 950, 975, 550, 370, 
+                    1100, 1100, 1100, 650, 
                 },
-                minLevel = 55,
+                minLevel = 56,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 24570,
+                amount = 24805,
             },
         },
-        contentTuningID = 1234,
     },
     [57818] = {
         name = "Nothing Goes to Waste",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 158969,
@@ -3953,7 +3740,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
+                    3850, 3950, 4000, 4100, 4150, 4250, 4300, 4400, 4450, 4550, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -3967,10 +3754,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [57824] = {
         name = "Collection Day",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 158969,
@@ -3987,7 +3774,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
+                    3850, 3950, 4000, 4100, 4150, 4250, 4300, 4400, 4450, 4550, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -4001,10 +3788,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [57825] = {
         name = "Delivery for Guardian Kota",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 158969,
@@ -4021,7 +3808,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -4035,10 +3822,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [57860] = {
         name = "How to Become Forsworn",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 159248,
@@ -4059,13 +3846,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 837,
     },
     [57861] = {
         name = "Just Act Natural",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 159248,
@@ -4078,21 +3864,15 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 837,
     },
     [57867] = {
         name = "The Sweat of Our Brow",
+        contentTuningID = 807,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -4108,13 +3888,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2422,
-                restrictions = 924,
             },
         },
-        contentTuningID = 807,
     },
     [57875] = {
         name = "Mark of Humility",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 159272,
@@ -4133,10 +3912,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [57876] = {
         name = "The End of the Beginning",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 165557,
@@ -4155,10 +3934,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [57877] = {
         name = "The Looming Dark",
+        contentTuningID = 1927,
         source = {
             type = "npc",
             id = 159478,
@@ -4171,10 +3950,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1927,
     },
     [57878] = {
         name = "Choosing Your Purpose",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 159478,
@@ -4193,10 +3972,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 2060,
     },
     [57880] = {
         name = "An Estate Within the Old Gate",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161979,
@@ -4215,10 +3994,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [57881] = {
         name = "The Key to Rebuilding",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 159513,
@@ -4237,10 +4016,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [57882] = {
         name = "Reestablishing the Household",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 159513,
@@ -4259,10 +4038,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [57884] = {
         name = "Reclaiming Thornhill Manor",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 159513,
@@ -4281,10 +4060,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [57885] = {
         name = "A Discreet Entrance",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 159513,
@@ -4303,10 +4082,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [57886] = {
         name = "A Meal and A Deal",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 159694,
@@ -4325,10 +4104,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [57887] = {
         name = "Killing the Messenger",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 159694,
@@ -4347,10 +4126,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [57888] = {
         name = "An Invitation to Treachery",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 159694,
@@ -4369,10 +4148,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [57889] = {
         name = "\"Accidental\" Arson",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 159694,
@@ -4391,10 +4170,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [57890] = {
         name = "Beautiful, But Deadly",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 159694,
@@ -4413,10 +4192,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [57891] = {
         name = "Mix, Mingle, and Meddle",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 159694,
@@ -4435,10 +4214,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [57892] = {
         name = "Enacting Immediate Justice",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 159946,
@@ -4457,10 +4236,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [57893] = {
         name = "Neither Enemy nor Ally",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 159946,
@@ -4484,10 +4263,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [57895] = {
         name = "Elysian Hold",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 168906,
@@ -4506,10 +4285,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [57897] = {
         name = "Dangerous to Go Alone",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 167745,
@@ -4528,10 +4307,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [57898] = {
         name = "Soul Meets Body",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 160212,
@@ -4550,10 +4329,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 2060,
     },
     [57899] = {
         name = "More Work?",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167745,
@@ -4566,16 +4345,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 2060,
     },
     [57900] = {
         name = "Across the Shadowlands",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 160389,
@@ -4588,16 +4361,26 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
+    },
+    [57901] = {
+        name = "All That Remains",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 167745,
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.426101,
+                        y = 0.531079,
+                    },
+                },
             },
         },
-        contentTuningID = 2060,
     },
     [57903] = {
         name = "Power in the Sky",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 158773,
@@ -4610,16 +4393,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 837,
     },
     [57904] = {
         name = "Our Eternal Charge",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 160212,
@@ -4643,10 +4420,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 2060,
     },
     [57905] = {
         name = "A Unique Opportunity",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 167745,
@@ -4665,10 +4442,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [57908] = {
         name = "The True Crucible Awaits",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158807,
@@ -4685,24 +4462,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 500, 340, 170, 85, 
+                    975, 1000, 1000, 1050, 1050, 600, 390, 200, 100, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    23400, 23635, 23870, 
+                    23635, 23870, 24100, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57909] = {
         name = "Assessing Your Stamina",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158861,
@@ -4719,24 +4496,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57912] = {
         name = "Baron of the Chosen",
+        contentTuningID = 1334,
         source = {
             type = "npc",
             id = 168381,
@@ -4753,20 +4530,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    900, 925, 925, 550, 360, 180, 90, 
+                    1050, 1050, 1100, 625, 420, 210, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 24100,
+                amount = 24335,
             },
         },
-        contentTuningID = 1334,
     },
     [57914] = {
         name = "Mark of Knowledge",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 159272,
@@ -4785,10 +4562,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [57919] = {
         name = "An Abuse of Power",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 160116,
@@ -4805,24 +4582,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57920] = {
         name = "The Proper Souls",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 160116,
@@ -4839,24 +4616,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57921] = {
         name = "The Proper Tools",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 160116,
@@ -4873,24 +4650,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57922] = {
         name = "The Proper Punishment",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 160116,
@@ -4907,24 +4684,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9700, 9850, 10050, 
+                    11200, 11350, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    500760, 505440, 510120, 514800, 
+                    505440, 510120, 514800, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57923] = {
         name = "Ritual of Absolution",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 160139,
@@ -4941,24 +4718,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57924] = {
         name = "Ritual of Judgment",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 160163,
@@ -4975,24 +4752,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3900, 3950, 4000, 
+                    4450, 4550, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    125190, 126360, 127530, 128700, 
+                    126360, 127530, 128700, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57925] = {
         name = "Archivist Fane",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 160294,
@@ -5009,24 +4786,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    975, 975, 1000, 
+                    1100, 1150, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    25040, 25270, 25505, 25740, 
+                    25270, 25505, 25740, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57926] = {
         name = "The Sinstone Archive",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 160248,
@@ -5043,24 +4820,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57927] = {
         name = "Rebuilding Temel",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 163073,
@@ -5077,46 +4854,42 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [57928] = {
         name = "Atonement Crypt Key",
+        contentTuningID = 1426,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    5800, 5900, 6050, 
+                    6700, 6800, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    187785, 189540, 
-                },
-                minLevel = 57,
-                maxLevel = 58,
+                amount = 189540,
             },
         },
-        contentTuningID = 1426,
     },
     [57929] = {
         name = "Hunting an Inquisitor",
+        contentTuningID = 1426,
         source = {
             type = "npc",
             id = 160248,
@@ -5133,123 +4906,90 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    11650, 11850, 12050, 
+                    13400, 13650, 
                 },
-                minLevel = 57,
+                minLevel = 58,
+                maxLevel = 59,
+            },
+            {
+                type = "money",
+                amount = 758160,
+            },
+        },
+    },
+    [57931] = {
+        name = "Phalynx Malfunction",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 158765,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.547808,
+                        y = 0.411644,
+                    },
+                },
+            },
+        },
+    },
+    [57932] = {
+        name = "Resource Drain",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 159609,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.547904,
+                        y = 0.412447,
+                    },
+                },
+            },
+        },
+    },
+    [57933] = {
+        name = "We Can Rebuild Him",
+        contentTuningID = 743,
+        source = {
+            type = "npc",
+            id = 158765,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.547808,
+                        y = 0.411644,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
+                },
+                minLevel = 51,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    751140, 758160, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 57,
-                maxLevel = 58,
-            },
-        },
-        contentTuningID = 1426,
-    },
-    [57931] = {
-        name = "Phalynx Malfunction",
-        source = {
-            type = "npc",
-            id = 158765,
-            locations = {
-                [1533] = {
-                    {
-                        x = 0.547808,
-                        y = 0.411644,
-                    },
-                },
-            },
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    8850, 9050, 9200, 5300, 3550, 1750, 875, 
-                },
-                minLevel = 52,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amount = 477360,
-            },
-        },
-        contentTuningID = 1323,
-    },
-    [57932] = {
-        name = "Resource Drain",
-        source = {
-            type = "npc",
-            id = 159609,
-            locations = {
-                [1533] = {
-                    {
-                        x = 0.547904,
-                        y = 0.412447,
-                    },
-                },
-            },
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    8850, 9050, 9200, 5300, 3550, 1750, 875, 
-                },
-                minLevel = 52,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amount = 477360,
-            },
-        },
-        contentTuningID = 1323,
-    },
-    [57933] = {
-        name = "We Can Rebuild Him",
-        source = {
-            type = "npc",
-            id = 158765,
-            locations = {
-                [1533] = {
-                    {
-                        x = 0.547808,
-                        y = 0.411644,
-                    },
-                },
-            },
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
-                },
-                minLevel = 50,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amounts = {
-                    234000, 236340, 238680, 
-                },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 743,
     },
     [57934] = {
         name = "Combat Drills",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158765,
@@ -5266,29 +5006,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 743,
     },
     [57935] = {
         name = "Laser Location",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158765,
@@ -5305,29 +5044,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 743,
     },
     [57936] = {
         name = "Superior Programming",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 159609,
@@ -5344,29 +5082,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 743,
     },
     [57937] = {
         name = "Tactical Formation",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158765,
@@ -5383,29 +5120,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 743,
     },
     [57947] = {
         name = "Spirits of the Glen",
+        contentTuningID = 1232,
         source = {
             type = "npc",
             id = 158487,
@@ -5422,7 +5158,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    925, 950, 975, 550, 370, 
+                    1050, 1100, 1100, 625, 420, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -5432,10 +5168,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 24570,
             },
         },
-        contentTuningID = 1232,
     },
     [57948] = {
         name = "Nothing Left to Give",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 159638,
@@ -5452,7 +5188,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -5466,10 +5202,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [57949] = {
         name = "They Need to Calm Down",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 159638,
@@ -5486,7 +5222,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -5500,10 +5236,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [57950] = {
         name = "Mizik the Haughty",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 159639,
@@ -5520,7 +5256,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -5534,10 +5270,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [57951] = {
         name = "Souls Come Home",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 159638,
@@ -5554,7 +5290,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -5568,10 +5304,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [57952] = {
         name = "In Need of Gorm Gris",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 158921,
@@ -5588,7 +5324,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -5602,10 +5338,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [57966] = {
         name = "You Go First",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 159272,
@@ -5626,13 +5362,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 837,
     },
     [57976] = {
         name = "Lead By Example",
+        contentTuningID = 1334,
         source = {
             type = "npc",
             id = 159894,
@@ -5649,20 +5384,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1334,
     },
     [57977] = {
         name = "A Temple in Need",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 159762,
@@ -5679,24 +5414,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [57979] = {
         name = "Offensive Behavior",
+        contentTuningID = 1334,
         source = {
             type = "npc",
             id = 169226,
@@ -5713,20 +5448,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1334,
     },
     [57982] = {
         name = "Breaking Down Barriers",
+        contentTuningID = 1334,
         source = {
             type = "npc",
             id = 165397,
@@ -5743,20 +5478,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3600, 3700, 3750, 2150, 1450, 725, 360, 
+                    4150, 4250, 4300, 2500, 1650, 825, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 120510,
+                amount = 121680,
             },
         },
-        contentTuningID = 1334,
     },
     [57983] = {
         name = "Archon Save Us",
+        contentTuningID = 1334,
         source = {
             type = "npc",
             id = 160211,
@@ -5773,20 +5508,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1334,
     },
     [57984] = {
         name = "The Ones in Charge",
+        contentTuningID = 1334,
         source = {
             type = "npc",
             id = 161060,
@@ -5803,20 +5538,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1334,
     },
     [57985] = {
         name = "Give Them a Hand",
+        contentTuningID = 1334,
         source = {
             type = "npc",
             id = 165397,
@@ -5833,20 +5568,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1334,
     },
     [57986] = {
         name = "A Burden Worth Bearing",
+        contentTuningID = 1334,
         source = {
             type = "npc",
             id = 160211,
@@ -5863,20 +5598,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1334,
     },
     [57987] = {
         name = "A Deadly Distraction",
+        contentTuningID = 1334,
         source = {
             type = "npc",
             id = 165397,
@@ -5893,20 +5628,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1334,
     },
     [57989] = {
         name = "The Spear of Kalliope",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 159272,
@@ -5927,13 +5662,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 837,
     },
     [57993] = {
         name = "Two of Them, Two of Us",
+        contentTuningID = 1334,
         source = {
             type = "npc",
             id = 165397,
@@ -5950,20 +5684,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1334,
     },
     [57994] = {
         name = "In The Flesh",
+        contentTuningID = 1334,
         source = {
             type = "npc",
             id = 165575,
@@ -5980,20 +5714,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1334,
     },
     [58007] = {
         name = "Eyes on the Problem",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161907,
@@ -6012,10 +5746,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58011] = {
         name = "Bug Bites",
+        contentTuningID = 1340,
         source = {
             type = "npc",
             id = 159930,
@@ -6032,20 +5766,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1340,
     },
     [58016] = {
         name = "Spores Galore",
+        contentTuningID = 1340,
         source = {
             type = "npc",
             id = 159930,
@@ -6062,20 +5796,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1340,
     },
     [58022] = {
         name = "Finish What He Started",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 171099,
@@ -6092,7 +5826,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -6106,10 +5840,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58023] = {
         name = "One Big Problem",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 171099,
@@ -6126,7 +5860,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -6140,10 +5874,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58024] = {
         name = "Burrows Away",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 171195,
@@ -6160,7 +5894,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -6174,10 +5908,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58025] = {
         name = "Queen of the Underground",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 160155,
@@ -6194,7 +5928,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8500, 8700, 8850, 9050, 9200, 9350, 9550, 9700, 9850, 10050, 
+                    9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -6210,13 +5944,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2422,
-                restrictions = 924,
             },
         },
-        contentTuningID = 807,
     },
     [58026] = {
         name = "When a Gorm Eats a God",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 160155,
@@ -6233,7 +5966,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -6247,10 +5980,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58027] = {
         name = "Slime, Anyone?",
+        contentTuningID = 1340,
         source = {
             type = "npc",
             id = 159930,
@@ -6267,20 +6000,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    900, 925, 925, 550, 360, 180, 90, 
+                    1050, 1050, 1100, 625, 420, 210, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 24100,
+                amount = 24335,
             },
         },
-        contentTuningID = 1340,
     },
     [58031] = {
         name = "Applied Science",
+        contentTuningID = 1340,
         source = {
             type = "object",
             id = 353645,
@@ -6297,20 +6030,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1340,
     },
     [58036] = {
         name = "Hazardous Waste Collection",
+        contentTuningID = 1340,
         source = {
             type = "npc",
             id = 159930,
@@ -6327,20 +6060,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1340,
     },
     [58037] = {
         name = "Part of the Pride",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 157696,
@@ -6353,24 +6086,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    8850, 9050, 9200, 5300, 3550, 1750, 875, 
-                },
-                minLevel = 52,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amount = 477360,
-            },
-        },
-        contentTuningID = 1323,
     },
     [58038] = {
         name = "All Natural Chews",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 157696,
@@ -6387,29 +6106,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 743,
     },
     [58039] = {
         name = "Larion at Large",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 157696,
@@ -6426,29 +6144,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 743,
     },
     [58040] = {
         name = "With Lance and Larion",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 157696,
@@ -6465,29 +6182,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 743,
     },
     [58041] = {
         name = "Providing for the Pack",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 157696,
@@ -6504,29 +6220,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 743,
     },
     [58042] = {
         name = "On Larion Wings",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 157696,
@@ -6543,29 +6258,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 743,
     },
     [58045] = {
         name = "Plague is Thicker Than Water",
+        contentTuningID = 1340,
         source = {
             type = "npc",
             id = 159930,
@@ -6582,20 +6296,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 5400, 3600, 1800, 900, 
+                    10400, 10600, 10800, 6250, 4150, 2100, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 482040,
+                amount = 486720,
             },
         },
-        contentTuningID = 1340,
     },
     [58060] = {
         name = "The Night Market",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 160100,
@@ -6612,24 +6326,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3900, 3950, 4000, 
+                    4450, 4550, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    125190, 126360, 127530, 128700, 
+                    126360, 127530, 128700, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [58062] = {
         name = "A Very Special Guest",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 160091,
@@ -6646,24 +6360,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    1950, 2000, 
+                    2250, 2300, 
                 },
-                minLevel = 57,
-                maxLevel = 58,
+                minLevel = 58,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    62595, 63180, 63765, 64350, 
+                    63180, 63765, 64350, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [58068] = {
         name = "...Even The Most Ridiculous Request!",
+        contentTuningID = 1335,
         source = {
             type = "npc",
             id = 159689,
@@ -6680,47 +6394,38 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 7650, 4350, 2900, 1450, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    241020, 243360, 
-                },
-                minLevel = 53,
-                maxLevel = 54,
+                amount = 243360,
             },
             {
                 type = "reputation",
                 id = 2410,
-                restrictions = 924,
             },
         },
-        contentTuningID = 1335,
     },
     [58086] = {
         name = "The Master of Lies",
+        contentTuningID = 1429,
         source = {
             type = "npc",
             id = 172673,
         },
         rewards = {
             {
-                type = "experience",
-                amount = 12050,
-            },
-            {
                 type = "money",
-                amount = 765180,
+                amount = 772200,
             },
         },
-        contentTuningID = 1429,
     },
     [58088] = {
         name = "Juicing Up",
+        contentTuningID = 745,
         source = {
             type = "npc",
             id = 159827,
@@ -6737,24 +6442,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    875, 900, 925, 925, 950, 525, 350, 180, 
+                    1000, 1050, 1050, 1100, 1100, 600, 410, 
                 },
-                minLevel = 52,
+                minLevel = 53,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    23870, 24100, 24335, 
+                    24100, 24335, 24570, 
                 },
-                minLevel = 52,
-                maxLevel = 54,
+                minLevel = 53,
+                maxLevel = 55,
             },
         },
-        contentTuningID = 745,
     },
     [58090] = {
         name = "Side Effects",
+        contentTuningID = 1335,
         source = {
             type = "npc",
             id = 159833,
@@ -6771,24 +6476,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    900, 925, 925, 950, 550, 360, 180, 
+                    1050, 1050, 1100, 625, 420, 210, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    24100, 24335, 
-                },
-                minLevel = 53,
-                maxLevel = 54,
+                amount = 24335,
             },
         },
-        contentTuningID = 1335,
     },
     [58092] = {
         name = "Halls of Atonement: Your Absolution",
+        contentTuningID = 1426,
         source = {
             type = "npc",
             id = 160248,
@@ -6805,24 +6506,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    15500, 15800, 16050, 
+                    17900, 18200, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    1001520, 1010880, 
-                },
-                minLevel = 57,
-                maxLevel = 58,
+                amount = 1010880,
             },
         },
-        contentTuningID = 1426,
     },
     [58104] = {
         name = "Show, Don't Tell",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161509,
@@ -6835,16 +6532,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 837,
     },
     [58157] = {
         name = "Break a Leg",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 160484,
@@ -6857,16 +6548,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 514800,
-            },
-        },
-        contentTuningID = 837,
     },
     [58158] = {
         name = "The Fourth Wall, er, War",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 160484,
@@ -6879,16 +6564,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
-        },
-        contentTuningID = 837,
     },
     [58159] = {
         name = "What's My Motivation?",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 160484,
@@ -6901,16 +6580,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
-        },
-        contentTuningID = 837,
     },
     [58160] = {
         name = "For Queen and Grove!",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 160500,
@@ -6923,21 +6596,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
-            {
-                type = "currency",
-                id = 1822,
-                amount = 1,
-            },
-        },
-        contentTuningID = 837,
     },
     [58161] = {
         name = "Forest Disappearances",
+        contentTuningID = 1231,
         source = {
             type = "npc",
             id = 160440,
@@ -6954,20 +6616,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    925, 950, 975, 550, 370, 
+                    1100, 1100, 1100, 650, 
                 },
-                minLevel = 55,
+                minLevel = 56,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 24570,
+                amount = 24805,
             },
         },
-        contentTuningID = 1231,
     },
     [58162] = {
         name = "Mysterious Masks",
+        contentTuningID = 1231,
         source = {
             type = "npc",
             id = 160439,
@@ -6984,20 +6646,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9350, 9550, 9700, 5600, 3750, 
+                    10800, 11000, 11200, 6450, 
                 },
-                minLevel = 55,
+                minLevel = 56,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 491400,
+                amount = 496080,
             },
         },
-        contentTuningID = 1231,
     },
     [58163] = {
         name = "A Desperate Solution",
+        contentTuningID = 1231,
         source = {
             type = "object",
             id = 349515,
@@ -7014,20 +6676,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9350, 9550, 9700, 5600, 3750, 
+                    10800, 11000, 11200, 6450, 
                 },
-                minLevel = 55,
+                minLevel = 56,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 491400,
+                amount = 496080,
             },
         },
-        contentTuningID = 1231,
     },
     [58164] = {
         name = "Cult of Personality",
+        contentTuningID = 1231,
         source = {
             type = "npc",
             id = 160439,
@@ -7044,20 +6706,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9350, 9550, 9700, 5600, 3750, 
+                    10800, 11000, 11200, 6450, 
                 },
-                minLevel = 55,
+                minLevel = 56,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 491400,
+                amount = 496080,
             },
         },
-        contentTuningID = 1231,
     },
     [58165] = {
         name = "Cut the Roots",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 160439,
@@ -7074,7 +6736,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -7090,13 +6752,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2422,
-                restrictions = 924,
             },
         },
-        contentTuningID = 807,
     },
     [58166] = {
         name = "Unknown Assailants",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 160439,
@@ -7113,7 +6774,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -7127,10 +6788,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58174] = {
         name = "All An Aspirant Can Do",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -7147,24 +6808,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 500, 340, 170, 85, 
+                    975, 1000, 1000, 1050, 1050, 600, 390, 200, 100, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    23400, 23635, 23870, 
+                    23635, 23870, 24100, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [58175] = {
         name = "The Eternal Forge",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 160037,
@@ -7177,10 +6838,16 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
     },
     [58176] = {
         name = "Stewards of a Feather",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 160648,
@@ -7193,10 +6860,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58177] = {
         name = "Refining Ego",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 160280,
@@ -7209,10 +6876,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58178] = {
         name = "A Partner for Eternity",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 160280,
@@ -7225,10 +6892,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58179] = {
         name = "Instruments of Perfection",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 160648,
@@ -7241,10 +6908,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58180] = {
         name = "Phaestus, Genesis of Aeons",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 160280,
@@ -7257,10 +6924,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58181] = {
         name = "Building the Base",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 160280,
@@ -7280,10 +6947,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 1388,
     },
     [58182] = {
         name = "Dismantling the Opposition",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 160280,
@@ -7296,10 +6963,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58183] = {
         name = "Friend to the Forgelite",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 160280,
@@ -7312,37 +6979,36 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58184] = {
         name = "Antiquated Methodology",
+        contentTuningID = 743,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 743,
     },
     [58185] = {
         name = "Success Without Soul",
+        contentTuningID = 1323,
         source = {
             type = "npc",
             id = 157696,
@@ -7359,7 +7025,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8850, 9050, 9200, 5300, 3550, 1750, 875, 
+                    10050, 10200, 10400, 6000, 4000, 2000, 1000, 
                 },
                 minLevel = 52,
                 maxLevel = 58,
@@ -7369,10 +7035,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 477360,
             },
         },
-        contentTuningID = 1323,
     },
     [58265] = {
         name = "Blooming Villains",
+        contentTuningID = 1240,
         source = {
             type = "npc",
             id = 160929,
@@ -7389,7 +7055,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9700, 9850, 10050, 
+                    11000, 11200, 11350, 
                 },
                 minLevel = 57,
                 maxLevel = 59,
@@ -7399,10 +7065,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 500760,
             },
         },
-        contentTuningID = 1240,
     },
     [58268] = {
         name = "Take the High Ground",
+        contentTuningID = 1334,
         source = {
             type = "npc",
             id = 169359,
@@ -7419,20 +7085,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1334,
     },
     [58272] = {
         name = "Words Have Power",
+        contentTuningID = 746,
         source = {
             type = "object",
             id = 352490,
@@ -7441,24 +7107,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [58325] = {
         name = "Watcher Emil",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160941,
@@ -7477,10 +7143,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58326] = {
         name = "Combing the Catacombs",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161056,
@@ -7499,10 +7165,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58337] = {
         name = "Break Out",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161056,
@@ -7521,10 +7187,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58351] = {
         name = "The Hills Have Eyes",
+        contentTuningID = 1326,
         source = {
             type = "npc",
             id = 157895,
@@ -7541,20 +7207,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7100, 7200, 7350, 4250, 2850, 1400, 700, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 54,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 238680,
+                amount = 243360,
             },
         },
-        contentTuningID = 1326,
     },
     [58372] = {
         name = "Lead the Way",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160956,
@@ -7573,10 +7239,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58382] = {
         name = "Someone Worth Saving",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165291,
@@ -7595,10 +7261,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58383] = {
         name = "The Many Sins of Kael'thas Sunstrider",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161158,
@@ -7617,10 +7283,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58384] = {
         name = "Dredgers Left Behind",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161208,
@@ -7639,10 +7305,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58385] = {
         name = "Learning to Sacrifice",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161208,
@@ -7661,10 +7327,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58386] = {
         name = "Use My Strengths",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161261,
@@ -7683,10 +7349,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [58387] = {
         name = "We Each Must Carry Our Own Sins",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161278,
@@ -7705,10 +7371,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58388] = {
         name = "Blackbale Betrayers",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161421,
@@ -7727,20 +7393,20 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58389] = {
         name = "Maldraxxian Weapons",
+        contentTuningID = 837,
         rewards = {
             {
                 type = "money",
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58391] = {
         name = "Reconnaissance... for my, uh, Recovery",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161431,
@@ -7759,10 +7425,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58392] = {
         name = "Death's End Destruction",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161572,
@@ -7781,10 +7447,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58393] = {
         name = "Strategic Executions",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161572,
@@ -7803,10 +7469,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [58394] = {
         name = "Lady Ouix'Ara",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161436,
@@ -7825,10 +7491,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 772200,
             },
         },
-        contentTuningID = 837,
     },
     [58395] = {
         name = "Enough Vengeance For One Day",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161436,
@@ -7852,10 +7518,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [58406] = {
         name = "Mirror to Maldraxxus",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 158653,
@@ -7874,10 +7540,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [58407] = {
         name = "The Medallion of Dominion",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 170543,
@@ -7901,10 +7567,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [58421] = {
         name = "Special Access",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160941,
@@ -7923,10 +7589,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [58424] = {
         name = "An Eye for an Amulet",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160956,
@@ -7945,10 +7611,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58426] = {
         name = "In the Shadow of our Failures",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161158,
@@ -7967,10 +7633,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [58428] = {
         name = "Crypt Crashers",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160941,
@@ -7989,10 +7655,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58431] = {
         name = "Pool of Potions",
+        contentTuningID = 1340,
         source = {
             type = "npc",
             id = 157945,
@@ -8009,25 +7675,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
             {
                 type = "reputation",
                 id = 2410,
-                restrictions = 924,
             },
         },
-        contentTuningID = 1340,
     },
     [58433] = {
         name = "Anima Attrition",
+        contentTuningID = 1425,
         source = {
             type = "npc",
             id = 155533,
@@ -8036,20 +7701,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 250380,
+                amount = 252720,
             },
         },
-        contentTuningID = 1425,
     },
     [58440] = {
         name = "Mirror, Mirror...",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160941,
@@ -8068,10 +7733,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58443] = {
         name = "Continued Care of Kael'thas",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161278,
@@ -8090,10 +7755,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [58444] = {
         name = "Return to Sinfall",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160941,
@@ -8117,70 +7782,154 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [58445] = {
         name = "Containing the Night",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160262,
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.447788,
+                        y = 0.389445,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58446] = {
         name = "Tracker Tracking",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 160262,
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.447788,
+                        y = 0.389445,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58447] = {
         name = "Monster Hunting",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161353,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.299983,
+                        y = 0.449051,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [58449] = {
         name = "Acid Reflux",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165841,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.352647,
+                        y = 0.51186,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58450] = {
         name = "Anima Instincts",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165841,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.352647,
+                        y = 0.51186,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58451] = {
         name = "Voras, The Realm Eater",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161353,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.245443,
+                        y = 0.489742,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [58452] = {
         name = "Tracking the Shadows",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161353,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.245443,
+                        y = 0.489742,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
@@ -8192,10 +7941,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [58472] = {
         name = "A Farewell to Arms",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161694,
@@ -8214,10 +7963,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58473] = {
         name = "Echoes of Tirna Noch",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 160963,
@@ -8234,7 +7983,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -8248,10 +7997,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58480] = {
         name = "Read the Roots",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 161378,
@@ -8268,7 +8017,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -8282,10 +8031,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58483] = {
         name = "Mementos",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 161447,
@@ -8294,7 +8043,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -8308,10 +8057,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58484] = {
         name = "Take What You Can",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 161378,
@@ -8328,7 +8077,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -8342,10 +8091,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58486] = {
         name = "He's Drust in the Way",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 161446,
@@ -8362,7 +8111,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -8376,10 +8125,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58488] = {
         name = "Go for the Heart",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 161492,
@@ -8396,7 +8145,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
+                    3850, 3950, 4000, 4100, 4150, 4250, 4300, 4400, 4450, 4550, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -8410,10 +8159,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58504] = {
         name = "Accusatory Missive",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161907,
@@ -8432,10 +8181,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [58518] = {
         name = "There's Always a Paper Trail",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161427,
@@ -8454,10 +8203,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [58523] = {
         name = "You're Dead To Me",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161461,
@@ -8476,10 +8225,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58524] = {
         name = "Sparkles Rain from Above",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 161494,
@@ -8496,7 +8245,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -8510,10 +8259,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58530] = {
         name = "Hidden Mirror",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161514,
@@ -8532,10 +8281,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58555] = {
         name = "A Tense Reunion",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 162213,
@@ -8554,10 +8303,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58557] = {
         name = "Assistance from Sinfall",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 160037,
@@ -8570,10 +8319,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58558] = {
         name = "Overhead Intelligence",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 161544,
@@ -8586,10 +8335,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58559] = {
         name = "Eyes of the Master",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 161540,
@@ -8602,10 +8351,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58560] = {
         name = "Gothic Fashion",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 165011,
@@ -8618,10 +8367,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58561] = {
         name = "Shards of the Countess",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 161540,
@@ -8634,10 +8383,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58562] = {
         name = "Collecting Dust",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 161544,
@@ -8650,10 +8399,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58563] = {
         name = "Through Glass",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 161544,
@@ -8666,10 +8415,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58564] = {
         name = "Sins of the Past",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 161544,
@@ -8682,10 +8431,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58565] = {
         name = "Land of Light",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 161544,
@@ -8698,10 +8447,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58566] = {
         name = "Actions Speak Louder than Words",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 161553,
@@ -8714,10 +8463,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58567] = {
         name = "Skulking in the Darkness",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 161540,
@@ -8730,10 +8479,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58568] = {
         name = "Light Respite",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 161540,
@@ -8746,10 +8495,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58569] = {
         name = "The Folly of Envy",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 161553,
@@ -8762,10 +8511,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58570] = {
         name = "Parting Words",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 161540,
@@ -8778,10 +8527,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1388,
     },
     [58571] = {
         name = "The Seal of Contrition",
+        contentTuningID = 1388,
         source = {
             type = "npc",
             id = 162149,
@@ -8801,10 +8550,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 1388,
     },
     [58575] = {
         name = "Stuff We All Get",
+        contentTuningID = 1335,
         source = {
             type = "npc",
             id = 161559,
@@ -8821,29 +8570,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 7650, 4350, 2900, 1450, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    241020, 243360, 
-                },
-                minLevel = 53,
-                maxLevel = 54,
+                amount = 243360,
             },
             {
                 type = "reputation",
                 id = 2410,
-                restrictions = 924,
             },
         },
-        contentTuningID = 1335,
     },
     [58584] = {
         name = "Right our Wrongs",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161526,
@@ -8862,10 +8606,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58585] = {
         name = "No Friend of Mine",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160280,
@@ -8884,10 +8628,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [58586] = {
         name = "The Right Stuff",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160280,
@@ -8906,10 +8650,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58589] = {
         name = "The Restless Dreamer",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 160962,
@@ -8926,7 +8670,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -8940,10 +8684,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58590] = {
         name = "Visions of the Dreamer: Origins",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 160962,
@@ -8960,7 +8704,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -8974,10 +8718,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58591] = {
         name = "Despoilers",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 160894,
@@ -8994,7 +8738,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8500, 8700, 8850, 9050, 9200, 9350, 9550, 9700, 9850, 10050, 
+                    9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -9008,10 +8752,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58592] = {
         name = "Caring for the Caretakers",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 160962,
@@ -9028,7 +8772,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -9042,10 +8786,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58593] = {
         name = "End of the Dream",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 160962,
@@ -9062,7 +8806,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8500, 8700, 8850, 9050, 9200, 9350, 9550, 9700, 9850, 10050, 
+                    9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -9076,10 +8820,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58599] = {
         name = "Drive A Dredge Between Them",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161474,
@@ -9098,10 +8842,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58600] = {
         name = "A Perfect Circle",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160280,
@@ -9120,10 +8864,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [58603] = {
         name = "Phaestus, Genesis of Aeons",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160280,
@@ -9142,10 +8886,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [58608] = {
         name = "It's Treason, Then",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161474,
@@ -9169,10 +8913,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [58609] = {
         name = "Taking The Seat",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 171821,
@@ -9191,10 +8935,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [58610] = {
         name = "The Speaker of Elune",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160262,
@@ -9213,10 +8957,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [58616] = {
         name = "Forging a Champion",
+        contentTuningID = 1326,
         source = {
             type = "npc",
             id = 159065,
@@ -9233,20 +8977,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7100, 7200, 7350, 4250, 2850, 1400, 700, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 54,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 238680,
+                amount = 243360,
             },
         },
-        contentTuningID = 1326,
     },
     [58617] = {
         name = "Maintaining Order",
+        contentTuningID = 1326,
         source = {
             type = "npc",
             id = 157895,
@@ -9263,20 +9007,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7100, 7200, 7350, 4250, 2850, 1400, 700, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 54,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 238680,
+                amount = 243360,
             },
         },
-        contentTuningID = 1326,
     },
     [58618] = {
         name = "Ossein Enchantment",
+        contentTuningID = 1326,
         source = {
             type = "npc",
             id = 157676,
@@ -9293,20 +9037,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8850, 9050, 9200, 5300, 3550, 1750, 875, 
+                    10400, 10600, 10800, 6250, 4150, 2100, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 54,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 477360,
+                amount = 486720,
             },
         },
-        contentTuningID = 1326,
     },
     [58619] = {
         name = "Read Between the Lines",
+        contentTuningID = 1331,
         source = {
             type = "npc",
             id = 166657,
@@ -9323,20 +9067,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 5400, 3600, 1800, 900, 
+                    10400, 10600, 10800, 6250, 4150, 2100, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 482040,
+                amount = 486720,
             },
         },
-        contentTuningID = 1331,
     },
     [58620] = {
         name = "Slaylines",
+        contentTuningID = 1331,
         source = {
             type = "npc",
             id = 166664,
@@ -9353,20 +9097,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 5400, 3600, 1800, 900, 
+                    10400, 10600, 10800, 6250, 4150, 2100, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 482040,
+                amount = 486720,
             },
         },
-        contentTuningID = 1331,
     },
     [58621] = {
         name = "Repeat After Me",
+        contentTuningID = 1331,
         source = {
             type = "npc",
             id = 166664,
@@ -9383,20 +9127,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 5400, 3600, 1800, 900, 
+                    10400, 10600, 10800, 6250, 4150, 2100, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 482040,
+                amount = 486720,
             },
         },
-        contentTuningID = 1331,
     },
     [58622] = {
         name = "Secrets Among the Shelves",
+        contentTuningID = 1331,
         source = {
             type = "npc",
             id = 166664,
@@ -9413,20 +9157,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 5400, 3600, 1800, 900, 
+                    10400, 10600, 10800, 6250, 4150, 2100, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 482040,
+                amount = 486720,
             },
         },
-        contentTuningID = 1331,
     },
     [58623] = {
         name = "A Complete Set",
+        contentTuningID = 1331,
         source = {
             type = "npc",
             id = 166806,
@@ -9443,20 +9187,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 5400, 3600, 1800, 900, 
+                    10400, 10600, 10800, 6250, 4150, 2100, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 482040,
+                amount = 486720,
             },
         },
-        contentTuningID = 1331,
     },
     [58624] = {
         name = "Pauldrons of Imperium",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161865,
@@ -9475,10 +9219,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 772200,
             },
         },
-        contentTuningID = 837,
     },
     [58630] = {
         name = "Crown of the Harvesters",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160280,
@@ -9497,10 +9241,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58647] = {
         name = "Broken Webs",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161786,
@@ -9519,10 +9263,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58654] = {
         name = "A Plea to the Harvesters",
+        contentTuningID = 1425,
         source = {
             type = "npc",
             id = 156822,
@@ -9531,20 +9275,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    975, 975, 1000, 
+                    1100, 1150, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 25040,
+                amount = 25270,
             },
         },
-        contentTuningID = 1425,
     },
     [58656] = {
         name = "Heavy is the Head...",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 174587,
@@ -9563,10 +9307,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [58665] = {
         name = "Rebellious Souls",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 162222,
@@ -9579,16 +9323,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 837,
     },
     [58668] = {
         name = "Find The Way",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 162108,
@@ -9601,16 +9339,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 837,
     },
     [58669] = {
         name = "A Little Pruning",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161786,
@@ -9629,10 +9361,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58670] = {
         name = "The Slaughter Daughter",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 162174,
@@ -9645,16 +9377,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
-        },
-        contentTuningID = 837,
     },
     [58671] = {
         name = "Bottled Up Inside",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 162174,
@@ -9667,16 +9393,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
-        },
-        contentTuningID = 837,
     },
     [58677] = {
         name = "Skin in the Game",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161285,
@@ -9695,10 +9415,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [58680] = {
         name = "Loose Threads",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 162227,
@@ -9717,10 +9437,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58686] = {
         name = "Weapon of Mass Construction",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 162227,
@@ -9739,10 +9459,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58704] = {
         name = "The Garden of Night",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161934,
@@ -9761,20 +9481,32 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58706] = {
         name = "Dressing the Kill",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 161353,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.299983,
+                        y = 0.449051,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58714] = {
         name = "The Forest Has Eyes",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 161847,
@@ -9791,7 +9523,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -9805,10 +9537,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58719] = {
         name = "The Droman's Call",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 160894,
@@ -9825,7 +9557,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
+                    3850, 3950, 4000, 4100, 4150, 4250, 4300, 4400, 4450, 4550, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -9839,10 +9571,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58720] = {
         name = "Missing!",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 160894,
@@ -9859,7 +9591,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -9873,10 +9605,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58721] = {
         name = "Awaken the Dreamer",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169869,
@@ -9893,7 +9625,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
+                    3850, 3950, 4000, 4100, 4150, 4250, 4300, 4400, 4450, 4550, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -9907,10 +9639,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58723] = {
         name = "The Court of Winter",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 162968,
@@ -9927,7 +9659,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
+                    3850, 3950, 4000, 4100, 4150, 4250, 4300, 4400, 4450, 4550, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -9941,10 +9673,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58724] = {
         name = "The Queen's Request",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 162968,
@@ -9961,7 +9693,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8500, 8700, 8850, 9050, 9200, 9350, 9550, 9700, 9850, 10050, 
+                    9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -9975,10 +9707,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58726] = {
         name = "Thick Skin",
+        contentTuningID = 1326,
         source = {
             type = "npc",
             id = 157676,
@@ -9995,20 +9727,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8850, 9050, 9200, 5300, 3550, 1750, 875, 
+                    10400, 10600, 10800, 6250, 4150, 2100, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 54,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 477360,
+                amount = 486720,
             },
         },
-        contentTuningID = 1326,
     },
     [58727] = {
         name = "A Place To Call Home",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 162174,
@@ -10021,16 +9753,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 837,
     },
     [58750] = {
         name = "Take The Bull By The Horns",
+        contentTuningID = 745,
         source = {
             type = "npc",
             id = 162474,
@@ -10047,24 +9773,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7100, 7200, 7350, 7500, 7650, 4250, 2850, 1400, 
+                    8200, 8350, 8500, 8650, 8800, 4900, 3250, 
                 },
-                minLevel = 52,
+                minLevel = 53,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    238680, 241020, 243360, 
+                    241020, 243360, 245700, 
                 },
-                minLevel = 52,
-                maxLevel = 54,
+                minLevel = 53,
+                maxLevel = 55,
             },
         },
-        contentTuningID = 745,
     },
     [58751] = {
         name = "A Common Peril",
+        contentTuningID = 1327,
         source = {
             type = "npc",
             id = 168381,
@@ -10081,20 +9807,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    900, 925, 925, 550, 360, 180, 90, 
+                    1050, 1050, 1100, 625, 420, 210, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 24100,
+                amount = 24335,
             },
         },
-        contentTuningID = 1327,
     },
     [58771] = {
         name = "Directions Not Included",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 167034,
@@ -10111,24 +9837,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [58773] = {
         name = "The Thornspeaker Captive",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171413,
@@ -10147,10 +9873,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58775] = {
         name = "Meet the Queen",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160037,
@@ -10169,10 +9895,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58785] = {
         name = "Smack And Grab",
+        contentTuningID = 745,
         source = {
             type = "npc",
             id = 162615,
@@ -10189,24 +9915,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8850, 9050, 9200, 9350, 9550, 5300, 3550, 1750, 
+                    10200, 10400, 10600, 10800, 11000, 6150, 4100, 
                 },
-                minLevel = 52,
+                minLevel = 53,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    477360, 482040, 486720, 
+                    482040, 486720, 491400, 
                 },
-                minLevel = 52,
-                maxLevel = 54,
+                minLevel = 53,
+                maxLevel = 55,
             },
         },
-        contentTuningID = 745,
     },
     [58787] = {
         name = "Trial of Ascension",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 160037,
@@ -10219,16 +9945,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 2060,
     },
     [58788] = {
         name = "Censers of Guidance",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 162542,
@@ -10247,10 +9967,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58789] = {
         name = "Misguiding Mentors",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 162544,
@@ -10269,10 +9989,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [58790] = {
         name = "To Cross the Veil",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 162542,
@@ -10291,10 +10011,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58791] = {
         name = "A Day in the Life",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 162558,
@@ -10313,10 +10033,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [58792] = {
         name = "Where a Soul Belongs",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 162558,
@@ -10335,10 +10055,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58793] = {
         name = "Faith Through the Darkness",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 162542,
@@ -10357,10 +10077,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [58794] = {
         name = "Stabbing Wasteward",
+        contentTuningID = 745,
         source = {
             type = "npc",
             id = 162474,
@@ -10377,29 +10097,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7100, 7200, 7350, 7500, 7650, 4250, 2850, 1400, 
+                    8200, 8350, 8500, 8650, 8800, 4900, 3250, 
                 },
-                minLevel = 52,
+                minLevel = 53,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    238680, 241020, 243360, 
+                    241020, 243360, 245700, 
                 },
-                minLevel = 52,
-                maxLevel = 54,
+                minLevel = 53,
+                maxLevel = 55,
             },
             {
                 type = "reputation",
                 id = 2410,
-                restrictions = 924,
             },
         },
-        contentTuningID = 745,
     },
     [58795] = {
         name = "Ascended",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160037,
@@ -10418,10 +10137,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58796] = {
         name = "The Forsworn Onslaught",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 163650,
@@ -10440,10 +10159,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [58797] = {
         name = "Forged by Trial",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 163650,
@@ -10467,10 +10186,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 2060,
     },
     [58798] = {
         name = "The Spires of Ascension",
+        contentTuningID = 2044,
         source = {
             type = "npc",
             id = 163650,
@@ -10489,10 +10208,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [58799] = {
         name = "The Prime's Directive",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 167034,
@@ -10509,24 +10228,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [58800] = {
         name = "The Mnemonic Locus",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 167034,
@@ -10543,24 +10262,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 2050, 1350, 675, 340, 
+                    3950, 4000, 4100, 4150, 4250, 2350, 1550, 775, 390, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    117000, 118170, 119340, 
+                    118170, 119340, 120510, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [58816] = {
         name = "Getting Backstage",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 162679,
@@ -10579,10 +10298,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58820] = {
         name = "Bindings of Fleshcrafting",
+        contentTuningID = 1930,
         source = {
             type = "npc",
             id = 161907,
@@ -10595,10 +10314,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1930,
     },
     [58821] = {
         name = "Glorious Pursuits",
+        contentTuningID = 1327,
         source = {
             type = "npc",
             id = 162487,
@@ -10615,30 +10334,30 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1327,
     },
     [58832] = {
         name = "Trinkle Trinkle Little Twerp",
+        contentTuningID = 837,
         rewards = {
             {
                 type = "money",
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [58833] = {
         name = "Calling in All Favors",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161907,
@@ -10657,10 +10376,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58842] = {
         name = "The Curator",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 158653,
@@ -10679,10 +10398,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58843] = {
         name = "The Vault of the Archon",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 167035,
@@ -10699,24 +10418,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [58844] = {
         name = "Before the Dawn",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160037,
@@ -10735,10 +10454,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58846] = {
         name = "The Greater Good",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 164473,
@@ -10757,10 +10476,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 772200,
             },
         },
-        contentTuningID = 837,
     },
     [58847] = {
         name = "Kyrestia's Grace",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 166693,
@@ -10784,10 +10503,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [58854] = {
         name = "Convene the Paragons",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160037,
@@ -10806,10 +10525,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58856] = {
         name = "Who Are You Fooling?",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 162392,
@@ -10828,10 +10547,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58857] = {
         name = "Seeds Away!",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 162392,
@@ -10850,10 +10569,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58869] = {
         name = "Battle for Hibernal Hollow",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169541,
@@ -10870,7 +10589,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    10250, 10450, 10650, 10850, 11050, 11250, 11450, 11650, 11850, 12050, 
+                    11600, 11800, 12050, 12250, 12500, 12700, 12950, 13200, 13400, 13650, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -10884,10 +10603,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [58871] = {
         name = "Broken Harts",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161785,
@@ -10906,10 +10625,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58900] = {
         name = "A Sure Bet",
+        contentTuningID = 1335,
         source = {
             type = "npc",
             id = 161559,
@@ -10926,24 +10645,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    900, 925, 925, 950, 550, 360, 180, 
+                    1050, 1050, 1100, 625, 420, 210, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    24100, 24335, 
-                },
-                minLevel = 53,
-                maxLevel = 54,
+                amount = 24335,
             },
         },
-        contentTuningID = 1335,
     },
     [58905] = {
         name = "Picking Up Pelagos",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 162679,
@@ -10962,10 +10677,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [58916] = {
         name = "Dread Priming",
+        contentTuningID = 1427,
         source = {
             type = "npc",
             id = 169087,
@@ -10973,21 +10688,17 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
-                amounts = {
-                    3950, 4000, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 4550,
             },
             {
                 type = "money",
-                amount = 126360,
+                amount = 127530,
             },
         },
-        contentTuningID = 1427,
     },
     [58931] = {
         name = "Inquisitor Stelia's Sinstone",
+        contentTuningID = 1426,
         source = {
             type = "npc",
             id = 156823,
@@ -10996,46 +10707,38 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    250380, 252720, 255060, 257400, 
-                },
-                minLevel = 57,
-                maxLevel = 60,
+                amount = 252720,
             },
         },
-        contentTuningID = 746,
     },
     [58932] = {
         name = "Temel, the Sin Herald",
+        contentTuningID = 1426,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    250380, 252720, 
-                },
-                minLevel = 57,
-                maxLevel = 58,
+                amount = 252720,
             },
         },
-        contentTuningID = 1426,
     },
     [58936] = {
         name = "Beast Control",
+        contentTuningID = 746,
         source = {
             type = "object",
             id = 355296,
@@ -11052,24 +10755,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9700, 9850, 10050, 
+                    11200, 11350, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    500760, 505440, 510120, 514800, 
+                    505440, 510120, 514800, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [58937] = {
         name = "Evil Grubbies",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 162392,
@@ -11088,10 +10791,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58938] = {
         name = "Gorm Ruin Everything",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 162392,
@@ -11110,10 +10813,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58939] = {
         name = "The Blue Seed",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165110,
@@ -11132,10 +10835,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58941] = {
         name = "Alpha Bat",
+        contentTuningID = 1427,
         source = {
             type = "npc",
             id = 163221,
@@ -11143,21 +10846,17 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
-                amounts = {
-                    7900, 8050, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 9100,
             },
             {
                 type = "money",
-                amount = 252720,
+                amount = 255060,
             },
         },
-        contentTuningID = 1427,
     },
     [58947] = {
         name = "Test Your Mettle",
+        contentTuningID = 1335,
         source = {
             type = "npc",
             id = 161559,
@@ -11174,29 +10873,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 7650, 4350, 2900, 1450, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    241020, 243360, 
-                },
-                minLevel = 53,
-                maxLevel = 54,
+                amount = 243360,
             },
             {
                 type = "reputation",
                 id = 2410,
-                restrictions = 924,
             },
         },
-        contentTuningID = 1335,
     },
     [58948] = {
         name = "Food on the Table",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 162953,
@@ -11215,10 +10909,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58949] = {
         name = "Millie's Garden",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 162953,
@@ -11237,10 +10931,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [58950] = {
         name = "Lumber for Lakeshire",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 162953,
@@ -11259,10 +10953,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [58951] = {
         name = "Lakeshire's Last Stand",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 163111,
@@ -11281,10 +10975,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [58976] = {
         name = "Chasing a Memory",
+        contentTuningID = 1319,
         source = {
             type = "npc",
             id = 156238,
@@ -11301,20 +10995,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    875, 875, 900, 525, 350, 170, 85, 
+                    1000, 1000, 1050, 600, 400, 200, 100, 
                 },
-                minLevel = 51,
-                maxLevel = 57,
+                minLevel = 52,
+                maxLevel = 58,
             },
             {
                 type = "money",
-                amount = 23635,
+                amount = 23870,
             },
         },
-        contentTuningID = 1319,
     },
     [58977] = {
         name = "What's In a Memory?",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 167034,
@@ -11331,24 +11025,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8500, 8700, 8850, 9050, 9200, 5100, 3400, 1700, 850, 
+                    9850, 10050, 10200, 10400, 10600, 5900, 3950, 1950, 975, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    468000, 472680, 477360, 
+                    472680, 477360, 482040, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [58978] = {
         name = "Lysonia's Truth",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 167038,
@@ -11365,24 +11059,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [58979] = {
         name = "I MADE You!",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 167034,
@@ -11399,24 +11093,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8500, 8700, 8850, 9050, 9200, 5100, 3400, 1700, 850, 
+                    9850, 10050, 10200, 10400, 10600, 5900, 3950, 1950, 975, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    468000, 472680, 477360, 
+                    472680, 477360, 482040, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [58980] = {
         name = "Mnemis, At Your Service",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 167035,
@@ -11433,24 +11127,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [58995] = {
         name = "I Dreamed A Dream",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 163328,
@@ -11469,10 +11163,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [58996] = {
         name = "Abel's Fate",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 156384,
@@ -11489,24 +11183,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9700, 9850, 10050, 
+                    11200, 11350, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    500760, 505440, 510120, 514800, 
+                    505440, 510120, 514800, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [58997] = {
         name = "A Bittersweet Prize",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 163328,
@@ -11525,10 +11219,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [59008] = {
         name = "Spriggan Snares",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 163385,
@@ -11547,10 +11241,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59009] = {
         name = "Her Rightful Place",
+        contentTuningID = 1327,
         source = {
             type = "npc",
             id = 164326,
@@ -11567,20 +11261,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3600, 3700, 3750, 2150, 1450, 725, 360, 
+                    4150, 4250, 4300, 2500, 1650, 825, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 120510,
+                amount = 121680,
             },
         },
-        contentTuningID = 1327,
     },
     [59011] = {
         name = "In Death We Are Truly Tested",
+        contentTuningID = 1337,
         source = {
             type = "npc",
             id = 162801,
@@ -11597,7 +11291,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9350, 9550, 9700, 5600, 3750, 
+                    10600, 10800, 11000, 6350, 4250, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -11607,10 +11301,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 491400,
             },
         },
-        contentTuningID = 1337,
     },
     [59014] = {
         name = "King of the Hill",
+        contentTuningID = 1427,
         source = {
             type = "npc",
             id = 163221,
@@ -11618,35 +11312,21 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
-                amount = 2000,
+                amount = 2300,
             },
             {
                 type = "money",
-                amount = 63180,
+                amount = 63765,
             },
         },
-        contentTuningID = 1427,
     },
     [59015] = {
         name = "Hostile Recollection",
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6950, 7100, 7200, 4150, 2800, 1400, 700, 
-                },
-                minLevel = 51,
-                maxLevel = 57,
-            },
-            {
-                type = "money",
-                amount = 236340,
-            },
-        },
-        contentTuningID = 1319,
+        contentTuningID = -1,
     },
     [59020] = {
         name = "The Third Fall of Kel'thuzad",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 174179,
@@ -11670,10 +11350,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [59021] = {
         name = "Herald Their Demise",
+        contentTuningID = 1426,
         source = {
             type = "npc",
             id = 163576,
@@ -11682,24 +11362,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9700, 9850, 10050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    500760, 505440, 510120, 514800, 
-                },
-                minLevel = 57,
-                maxLevel = 60,
+                amount = 252720,
             },
         },
-        contentTuningID = 746,
     },
     [59023] = {
         name = "Ending the Inquisitor",
+        contentTuningID = 1426,
         source = {
             type = "npc",
             id = 164166,
@@ -11708,24 +11384,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9700, 9850, 10050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    500760, 505440, 510120, 514800, 
-                },
-                minLevel = 57,
-                maxLevel = 60,
+                amount = 252720,
             },
         },
-        contentTuningID = 746,
     },
     [59025] = {
         name = "Straight to the Heart",
+        contentTuningID = 1327,
         source = {
             type = "npc",
             id = 164326,
@@ -11742,20 +11414,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1327,
     },
     [59042] = {
         name = "A Good Heart",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 162227,
@@ -11774,10 +11446,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59063] = {
         name = "Curses!",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165867,
@@ -11796,10 +11468,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59068] = {
         name = "A Secret Never Spoken",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161509,
@@ -11818,10 +11490,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59069] = {
         name = "A Token of Lost Love",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160262,
@@ -11840,10 +11512,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59070] = {
         name = "A Sacrifice of Anima",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161509,
@@ -11862,10 +11534,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59071] = {
         name = "Mending a Broken Hart",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161509,
@@ -11889,10 +11561,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [59130] = {
         name = "The House of Plagues",
+        contentTuningID = 1340,
         source = {
             type = "npc",
             id = 168381,
@@ -11909,20 +11581,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    900, 925, 925, 550, 360, 180, 90, 
+                    1050, 1050, 1100, 625, 420, 210, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 24100,
+                amount = 24335,
             },
         },
-        contentTuningID = 1340,
     },
     [59147] = {
         name = "The Hand of Purification",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 159762,
@@ -11939,58 +11611,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amounts = {
-                    234000, 236340, 238680, 
-                },
-                minLevel = 50,
-                maxLevel = 52,
-            },
-        },
-        contentTuningID = 743,
-    },
-    [59171] = {
-        name = "Prey Upon Them",
-        source = {
-            type = "npc",
-            id = 162487,
-            locations = {
-                [1536] = {
-                    {
-                        x = 0.676741,
-                        y = 0.459239,
-                    },
-                },
-            },
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    7100, 7200, 7350, 7500, 7650, 4250, 2850, 1400, 
-                },
-                minLevel = 52,
+                minLevel = 51,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    238680, 241020, 243360, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 52,
-                maxLevel = 54,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 745,
     },
-    [59172] = {
-        name = "War is Deception",
+    [59171] = {
+        name = "Prey Upon Them",
+        contentTuningID = 745,
         source = {
             type = "npc",
             id = 162487,
@@ -12007,30 +11645,64 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    900, 925, 925, 550, 360, 180, 90, 
+                    8200, 8350, 8500, 8650, 8800, 4900, 3250, 
                 },
                 minLevel = 53,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 24100,
+                amounts = {
+                    241020, 243360, 245700, 
+                },
+                minLevel = 53,
+                maxLevel = 55,
             },
         },
+    },
+    [59172] = {
+        name = "War is Deception",
         contentTuningID = 1327,
+        source = {
+            type = "npc",
+            id = 162487,
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.676741,
+                        y = 0.459239,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1050, 1050, 1100, 625, 420, 210, 
+                },
+                minLevel = 54,
+                maxLevel = 59,
+            },
+            {
+                type = "money",
+                amount = 24335,
+            },
+        },
     },
     [59179] = {
         name = "Daughter of the Night Warrior",
+        contentTuningID = 837,
         rewards = {
             {
                 type = "money",
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [59181] = {
         name = "Into the Maw",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 164277,
@@ -12049,10 +11721,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [59185] = {
         name = "Entangling Web",
+        contentTuningID = 1327,
         source = {
             type = "npc",
             id = 162487,
@@ -12069,20 +11741,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1327,
     },
     [59188] = {
         name = "Vaunted Vengeance",
+        contentTuningID = 1327,
         source = {
             type = "npc",
             id = 164297,
@@ -12099,20 +11771,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1327,
     },
     [59189] = {
         name = "The Recovery of Tyrande Whisperwind",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171028,
@@ -12131,10 +11803,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [59190] = {
         name = "Seek Your Mark",
+        contentTuningID = 1327,
         source = {
             type = "npc",
             id = 164326,
@@ -12151,20 +11823,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3600, 3700, 3750, 2150, 1450, 725, 360, 
+                    4150, 4250, 4300, 2500, 1650, 825, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 120510,
+                amount = 121680,
             },
         },
-        contentTuningID = 1327,
     },
     [59196] = {
         name = "Go in Service",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 167038,
@@ -12181,24 +11853,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 500, 340, 170, 85, 
+                    975, 1000, 1000, 1050, 1050, 600, 390, 200, 100, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    23400, 23635, 23870, 
+                    23635, 23870, 24100, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [59197] = {
         name = "Steward at Work",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 165045,
@@ -12215,24 +11887,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [59198] = {
         name = "On Swift Wings",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 165048,
@@ -12241,50 +11913,58 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 500, 340, 170, 85, 
+                    975, 1000, 1000, 1050, 1050, 600, 390, 200, 100, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    23400, 23635, 23870, 
+                    23635, 23870, 24100, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [59199] = {
         name = "Kyrestia, the Firstborne",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 160037,
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.556667,
+                        y = 0.42,
+                    },
+                },
+            },
         },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [59200] = {
         name = "The Wards of Bastion",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 160037,
@@ -12293,24 +11973,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [59202] = {
         name = "Among the Chosen",
+        contentTuningID = 1337,
         source = {
             type = "npc",
             id = 168381,
@@ -12327,7 +12007,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7500, 7650, 7750, 4500, 3000, 
+                    8500, 8650, 8800, 5100, 3400, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -12337,10 +12017,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 245700,
             },
         },
-        contentTuningID = 1337,
     },
     [59203] = {
         name = "Leave Me a Loan",
+        contentTuningID = 1337,
         source = {
             type = "npc",
             id = 159830,
@@ -12357,7 +12037,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7500, 7650, 7750, 4500, 3000, 
+                    8500, 8650, 8800, 5100, 3400, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -12369,13 +12049,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2410,
-                restrictions = 924,
             },
         },
-        contentTuningID = 1337,
     },
     [59206] = {
         name = "Words of the Primus",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 164545,
@@ -12392,7 +12071,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -12406,10 +12085,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [59207] = {
         name = "Unshackled Knowledge",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 159248,
@@ -12422,21 +12101,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
-            {
-                type = "reputation",
-                id = 2407,
-                restrictions = 924,
-            },
-        },
-        contentTuningID = 837,
     },
     [59209] = {
         name = "Rebel Reinforcements",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 164394,
@@ -12445,24 +12113,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [59210] = {
         name = "Tainted Cores",
+        contentTuningID = 1327,
         source = {
             type = "npc",
             id = 162487,
@@ -12479,42 +12147,42 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1327,
     },
     [59211] = {
         name = "Forgotten Village",
+        contentTuningID = 746,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    38750, 39500, 40250, 
+                    17900, 18200, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    1251900, 1263600, 1275300, 1287000, 
+                    1263600, 1275300, 1287000, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [59223] = {
         name = "By Any Other Name",
+        contentTuningID = 1340,
         source = {
             type = "npc",
             id = 159930,
@@ -12531,20 +12199,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 5400, 3600, 1800, 900, 
+                    10400, 10600, 10800, 6250, 4150, 2100, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 482040,
+                amount = 486720,
             },
         },
-        contentTuningID = 1340,
     },
     [59231] = {
         name = "Fathomless Power",
+        contentTuningID = 1340,
         source = {
             type = "npc",
             id = 159930,
@@ -12561,20 +12229,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    900, 925, 925, 550, 360, 180, 90, 
+                    1050, 1050, 1100, 625, 420, 210, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 24100,
+                amount = 24335,
             },
         },
-        contentTuningID = 1340,
     },
     [59232] = {
         name = "A Lesson in Humility",
+        contentTuningID = 1426,
         source = {
             type = "npc",
             id = 156381,
@@ -12583,24 +12251,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3900, 3950, 4000, 
+                    4450, 4550, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    125190, 126360, 
-                },
-                minLevel = 57,
-                maxLevel = 58,
+                amount = 126360,
             },
         },
-        contentTuningID = 1426,
     },
     [59233] = {
         name = "The Prince's New Crown",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171175,
@@ -12624,10 +12288,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [59242] = {
         name = "Their New Home",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171028,
@@ -12651,10 +12315,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [59246] = {
         name = "Daughter of the Night Warrior",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 160262,
@@ -12667,16 +12331,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 837,
     },
     [59256] = {
         name = "The Fearstalker",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 168468,
@@ -12685,34 +12343,46 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9700, 9850, 10050, 
+                    11200, 11350, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    500760, 505440, 510120, 514800, 
+                    505440, 510120, 514800, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [59258] = {
         name = "Home of the Tirnenn",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 164627,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.352647,
+                        y = 0.51123,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59262] = {
         name = "Broken Wings",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164640,
@@ -12725,16 +12395,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
-        },
-        contentTuningID = 2060,
     },
     [59263] = {
         name = "Feathers of Flight",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164640,
@@ -12747,21 +12411,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
-            {
-                type = "reputation",
-                id = 2407,
-                restrictions = 924,
-            },
-        },
-        contentTuningID = 837,
     },
     [59265] = {
         name = "Prying Eyes",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 164619,
@@ -12780,10 +12433,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59311] = {
         name = "How to Catch a Glimmerfly",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 164640,
@@ -12804,13 +12457,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 837,
     },
     [59314] = {
         name = "Sinfall",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 171589,
@@ -12829,10 +12481,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [59315] = {
         name = "The Court of Harvesters",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 164742,
@@ -12851,10 +12503,26 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
+    },
+    [59319] = {
+        name = "Advancing Our Efforts",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 164741,
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.595328,
+                        y = 0.583139,
+                    },
+                },
+            },
+        },
     },
     [59321] = {
         name = "Sacred Covenant",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 164796,
@@ -12873,10 +12541,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [59323] = {
         name = "Anima Awakening",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171934,
@@ -12895,10 +12563,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [59325] = {
         name = "A Stalwart Ally",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161977,
@@ -12917,10 +12585,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [59327] = {
         name = "In the Ruin of Rebellion",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 158716,
@@ -12929,24 +12597,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    975, 975, 1000, 
+                    1100, 1150, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    25040, 25270, 25505, 25740, 
+                    25270, 25505, 25740, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [59343] = {
         name = "Kindred Spirits",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161979,
@@ -12959,16 +12627,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 2060,
     },
     [59348] = {
         name = "More Wings!",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 164640,
@@ -12989,13 +12651,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 837,
     },
     [59351] = {
         name = "Strings and Things",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 164640,
@@ -13016,13 +12677,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 837,
     },
     [59426] = {
         name = "Your Personal Assistant",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 165045,
@@ -13039,24 +12699,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [59427] = {
         name = "We Need More Power",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 158088,
@@ -13073,24 +12733,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [59430] = {
         name = "A Plague On Your House",
+        contentTuningID = 1340,
         source = {
             type = "npc",
             id = 165049,
@@ -13107,20 +12767,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 5400, 3600, 1800, 900, 
+                    10400, 10600, 10800, 6250, 4150, 2100, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 482040,
+                amount = 486720,
             },
         },
-        contentTuningID = 1340,
     },
     [59554] = {
         name = "A Fine Journey",
+        contentTuningID = -1,
         source = {
             type = "object",
             id = 348558,
@@ -13133,24 +12793,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    875, 900, 925, 525, 350, 180, 90, 
-                },
-                minLevel = 52,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amount = 23870,
-            },
-        },
-        contentTuningID = 1322,
     },
     [59555] = {
         name = "Enemy at the Door",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161907,
@@ -13163,16 +12809,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
-        },
-        contentTuningID = 837,
     },
     [59556] = {
         name = "Welcome To Our House",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 158453,
@@ -13185,24 +12825,13 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
-            {
-                type = "currency",
-                id = 1822,
-                amount = 1,
-            },
-        },
-        contentTuningID = 837,
     },
     [59596] = {
         name = "Collective Soul",
+        contentTuningID = -1,
         source = {
             type = "npc",
-            id = 165182,
+            id = 161909,
             locations = {
                 [1698] = {
                     {
@@ -13212,16 +12841,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 837,
     },
     [59597] = {
         name = "Come On, We're Simpatico!",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161904,
@@ -13234,20 +12857,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 837,
     },
     [59600] = {
         name = "Rotbriar Trouble",
-        contentTuningID = 837,
+        contentTuningID = -1,
     },
     [59603] = {
         name = "In Shadowlands Service",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 165321,
@@ -13260,16 +12877,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 837,
     },
     [59609] = {
         name = "No Rest For the Dead",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161904,
@@ -13282,21 +12893,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-            {
-                type = "currency",
-                id = 1822,
-                amount = 1,
-            },
-        },
-        contentTuningID = 837,
     },
     [59616] = {
         name = "Army of One",
+        contentTuningID = 1334,
         source = {
             type = "npc",
             id = 169462,
@@ -13313,20 +12913,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3600, 3700, 3750, 2150, 1450, 725, 360, 
+                    4150, 4250, 4300, 2500, 1650, 825, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 120510,
+                amount = 121680,
             },
         },
-        contentTuningID = 1334,
     },
     [59621] = {
         name = "Breaking A Few Eggs",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 158422,
@@ -13343,7 +12943,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -13357,10 +12957,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [59622] = {
         name = "Tending to the Tenders",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 158422,
@@ -13377,7 +12977,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -13391,10 +12991,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [59623] = {
         name = "What a Buzzkill",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 165382,
@@ -13411,7 +13011,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -13427,13 +13027,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2422,
-                restrictions = 924,
             },
         },
-        contentTuningID = 807,
     },
     [59625] = {
         name = "The Only Cure",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161988,
@@ -13452,10 +13051,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [59644] = {
         name = "Blinded By The Light",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 162688,
@@ -13464,30 +13063,29 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
             {
                 type = "reputation",
                 id = 2413,
                 amount = 250,
-                restrictions = 924,
             },
         },
-        contentTuningID = 746,
     },
     [59645] = {
         name = "Death Rains",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165591,
@@ -13506,10 +13104,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59648] = {
         name = "Peace by Piece",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165412,
@@ -13528,10 +13126,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [59650] = {
         name = "No Hesitation, No Surrender",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165412,
@@ -13550,10 +13148,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [59653] = {
         name = "Don't Cross Courage",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165412,
@@ -13572,10 +13170,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [59659] = {
         name = "Aerial Absolution",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165412,
@@ -13594,10 +13192,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [59660] = {
         name = "A New Court",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161979,
@@ -13610,16 +13208,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 2060,
     },
     [59661] = {
         name = "Ember Court Rehearsal",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 164966,
@@ -13638,10 +13230,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 2060,
     },
     [59674] = {
         name = "A Friendly Rivalry",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 158765,
@@ -13654,24 +13246,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    875, 900, 925, 525, 350, 180, 90, 
-                },
-                minLevel = 52,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amount = 23870,
-            },
-        },
-        contentTuningID = 1323,
     },
     [59676] = {
         name = "Harvester of Desire",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165658,
@@ -13690,10 +13268,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59678] = {
         name = "Sustain, In Vain",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165591,
@@ -13712,10 +13290,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59698] = {
         name = "Wipe the Slate Clean",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165412,
@@ -13734,10 +13312,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [59700] = {
         name = "The Last Labor",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165412,
@@ -13756,10 +13334,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [59701] = {
         name = "Common Ground",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 158653,
@@ -13772,16 +13350,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
-        },
-        contentTuningID = 2060,
     },
     [59706] = {
         name = "Invitation for the Countess",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 165661,
@@ -13794,16 +13366,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 837,
     },
     [59707] = {
         name = "Invitation for the Tithelord",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 165661,
@@ -13822,10 +13388,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [59708] = {
         name = "Invitation for the Stonewright",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165661,
@@ -13844,10 +13410,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [59709] = {
         name = "Afterlife Goes On",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165412,
@@ -13866,10 +13432,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [59710] = {
         name = "A Curious Invitation",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 165859,
@@ -13878,24 +13444,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    975, 975, 1000, 
+                    1100, 1150, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    25040, 25270, 25505, 25740, 
+                    25270, 25505, 25740, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [59711] = {
         name = "Harvester of Envy",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 165818,
@@ -13914,10 +13480,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 2060,
     },
     [59712] = {
         name = "The Lay of the Land",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 169238,
@@ -13934,24 +13500,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3900, 3950, 4000, 
+                    4450, 4550, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    125190, 126360, 127530, 128700, 
+                    126360, 127530, 128700, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [59713] = {
         name = "Active Ingredients",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 165864,
@@ -13968,29 +13534,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
             {
                 type = "reputation",
                 id = 2413,
-                restrictions = 924,
             },
         },
-        contentTuningID = 746,
     },
     [59714] = {
         name = "A Fine Vintage",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 165864,
@@ -14007,29 +13572,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9700, 9850, 10050, 
+                    11200, 11350, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    500760, 505440, 510120, 514800, 
+                    505440, 510120, 514800, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
             {
                 type = "reputation",
                 id = 2413,
-                restrictions = 924,
             },
         },
-        contentTuningID = 746,
     },
     [59715] = {
         name = "Message for Matyas",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 165864,
@@ -14046,24 +13610,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3900, 3950, 4000, 
+                    4450, 4550, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    125190, 126360, 127530, 128700, 
+                    126360, 127530, 128700, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [59716] = {
         name = "Comfortably Numb",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 166081,
@@ -14080,24 +13644,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3900, 3950, 4000, 
+                    4450, 4550, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    125190, 126360, 127530, 128700, 
+                    126360, 127530, 128700, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [59719] = {
         name = "The Court",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165661,
@@ -14121,10 +13685,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [59720] = {
         name = "Harvester of Wrath",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 165865,
@@ -14143,20 +13707,32 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59721] = {
         name = "Becoming the Hunt",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 164627,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.352647,
+                        y = 0.51123,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [59722] = {
         name = "Grand Theft Necropolis",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164679,
@@ -14169,16 +13745,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 837,
     },
     [59724] = {
         name = "The Field of Honor",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 165864,
@@ -14195,29 +13765,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
             {
                 type = "reputation",
                 id = 2413,
-                restrictions = 924,
             },
         },
-        contentTuningID = 746,
     },
     [59725] = {
         name = "Archivist on the Edge",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161509,
@@ -14236,10 +13805,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59726] = {
         name = "It's a Trap",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 166616,
@@ -14256,34 +13825,45 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9700, 9850, 10050, 
+                    11200, 11350, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    500760, 505440, 510120, 514800, 
+                    505440, 510120, 514800, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
             {
                 type = "reputation",
                 id = 2413,
-                restrictions = 924,
             },
         },
-        contentTuningID = 746,
     },
     [59731] = {
         name = "An Expected Guest",
+        contentTuningID = 807,
+        source = {
+            type = "npc",
+            id = 160262,
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.447788,
+                        y = 0.389445,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -14297,50 +13877,98 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [59732] = {
         name = "Something Extra for the Winter Queen",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165951,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.483607,
+                        y = 0.524254,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [59739] = {
         name = "The Problem with Containing a Death Loa",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 122688,
+            locations = {
+                [863] = {
+                    {
+                        x = 0.395621,
+                        y = 0.245306,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [59741] = {
         name = "Dark Mojo for a Dark Loa",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165968,
+            locations = {
+                [863] = {
+                    {
+                        x = 0.395069,
+                        y = 0.247222,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59742] = {
         name = "Delaying the Other Side",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 165968,
+            locations = {
+                [863] = {
+                    {
+                        x = 0.395069,
+                        y = 0.247222,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59748] = {
         name = "No Peace In Death",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165795,
@@ -14359,20 +13987,32 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [59749] = {
         name = "One Little Whisper",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 122688,
+            locations = {
+                [863] = {
+                    {
+                        x = 0.395621,
+                        y = 0.245306,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59750] = {
         name = "How To Get A Head",
+        contentTuningID = 1335,
         source = {
             type = "npc",
             id = 161559,
@@ -14389,73 +14029,48 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 7650, 4350, 2900, 1450, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    241020, 243360, 
-                },
-                minLevel = 53,
-                maxLevel = 54,
+                amount = 243360,
             },
             {
                 type = "reputation",
                 id = 2410,
-                restrictions = 924,
             },
         },
-        contentTuningID = 1335,
     },
     [59751] = {
         name = "Through the Shattered Sky",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 169076,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    3400, 3400, 2750, 2050, 1350, 675, 340, 
+            locations = {
+                [1360] = {
+                    {
+                        x = 0.507093,
+                        y = 0.546267,
+                    },
                 },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 117000,
             },
         },
-        contentTuningID = 1400,
     },
     [59752] = {
         name = "A Fractured Blade",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 165918,
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6800, 5450, 4100, 2750, 1350, 675, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 234000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59753] = {
         name = "Ruiner's End",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 170624,
@@ -14468,24 +14083,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6800, 5450, 4100, 2750, 1350, 675, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 234000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59754] = {
         name = "On Blackened Wings",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 166980,
@@ -14498,24 +14099,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6800, 5450, 4100, 2750, 1350, 675, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 234000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59755] = {
         name = "A Flight from Darkness",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 166980,
@@ -14528,24 +14115,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6800, 5450, 4100, 2750, 1350, 675, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 234000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59756] = {
         name = "A Moment's Respite",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 166980,
@@ -14558,24 +14131,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    3400, 3400, 2750, 2050, 1350, 675, 340, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 117000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59757] = {
         name = "Field Seance",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 165918,
@@ -14588,24 +14147,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6800, 5450, 4100, 2750, 1350, 675, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 234000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59758] = {
         name = "Speaking to the Dead",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 166723,
@@ -14618,24 +14163,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6800, 5450, 4100, 2750, 1350, 675, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 234000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59759] = {
         name = "The Lion's Cage",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 166980,
@@ -14648,24 +14179,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    3400, 3400, 2750, 2050, 1350, 675, 340, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 117000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59760] = {
         name = "The Afflictor's Key",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167833,
@@ -14678,24 +14195,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6800, 5450, 4100, 2750, 1350, 675, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 234000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59761] = {
         name = "An Undeserved Fate",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167833,
@@ -14708,24 +14211,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6800, 5450, 4100, 2750, 1350, 675, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 234000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59762] = {
         name = "By and Down the River",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 166980,
@@ -14738,24 +14227,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    3400, 3400, 2750, 2050, 1350, 675, 340, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 117000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59765] = {
         name = "Wounds Beyond Flesh",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 166981,
@@ -14768,46 +14243,18 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6800, 5450, 4100, 2750, 1350, 675, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 234000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59766] = {
         name = "A Good Axe",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167827,
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6800, 5450, 4100, 2750, 1350, 675, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 234000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59767] = {
         name = "The Path to Salvation",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 166980,
@@ -14820,24 +14267,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6800, 5450, 4100, 2750, 1350, 675, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 234000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59770] = {
         name = "Stand as One",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167833,
@@ -14850,50 +14283,26 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    8500, 8500, 6800, 5100, 3400, 1700, 850, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 468000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59773] = {
         name = "Seek the Ascended",
+        contentTuningID = -1,
         source = {
             type = "npc",
-            id = 164579,
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
+            id = 175133,
+            locations = {
+                [1671] = {
+                    {
+                        x = 0.642028,
+                        y = 0.496036,
+                    },
                 },
-                minLevel = 50,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    117000, 118170, 119340, 120510, 121680, 122850, 124020, 125190, 126360, 127530, 128700, 
-                },
-                minLevel = 50,
-                maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [59774] = {
         name = "Welcome to Eternity",
+        contentTuningID = 1314,
         source = {
             type = "npc",
             id = 166227,
@@ -14902,46 +14311,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 2050, 1350, 675, 340, 
+                    3950, 4000, 4100, 2350, 1550, 775, 390, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 57,
             },
             {
                 type = "money",
-                amounts = {
-                    117000, 118170, 119340, 
-                },
-                minLevel = 50,
-                maxLevel = 52,
+                amount = 118170,
             },
         },
-        contentTuningID = 743,
     },
     [59776] = {
         name = "From the Mouths of Madness",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167833,
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    3400, 3400, 2750, 2050, 1350, 675, 340, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 117000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59781] = {
         name = "The Last Guy",
+        contentTuningID = 1335,
         source = {
             type = "npc",
             id = 161559,
@@ -14958,24 +14349,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 9550, 5400, 3600, 1800, 
+                    10400, 10600, 10800, 6250, 4150, 2100, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    482040, 486720, 
-                },
-                minLevel = 53,
-                maxLevel = 54,
+                amount = 486720,
             },
         },
-        contentTuningID = 1335,
     },
     [59800] = {
         name = "Team Spirit",
+        contentTuningID = 1335,
         source = {
             type = "npc",
             id = 161559,
@@ -14992,24 +14379,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 7650, 4350, 2900, 1450, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    241020, 243360, 
-                },
-                minLevel = 53,
-                maxLevel = 54,
+                amount = 243360,
             },
         },
-        contentTuningID = 1335,
     },
     [59801] = {
         name = "Take the Power",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 160439,
@@ -15026,7 +14409,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -15042,13 +14425,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2422,
-                restrictions = 924,
             },
         },
-        contentTuningID = 807,
     },
     [59802] = {
         name = "The Crumbling Village",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 160439,
@@ -15065,7 +14447,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -15079,20 +14461,32 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [59805] = {
         name = "Maw Manifested",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 122688,
+            locations = {
+                [863] = {
+                    {
+                        x = 0.395621,
+                        y = 0.245306,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [59809] = {
         name = "On De Other Side",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 166265,
@@ -15111,10 +14505,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [59811] = {
         name = "Taking Inventory",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 166281,
@@ -15133,10 +14527,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59812] = {
         name = "Following the Trail",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 166265,
@@ -15155,10 +14549,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59813] = {
         name = "Minions of Mueh'zala",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 166265,
@@ -15177,10 +14571,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [59815] = {
         name = "Stolen Loa",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 166265,
@@ -15199,10 +14593,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59817] = {
         name = "Winter Be Comin'",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 166265,
@@ -15221,10 +14615,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59818] = {
         name = "Gathering The Hunt",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 156634,
@@ -15243,10 +14637,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59819] = {
         name = "Cleansing the Forest",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 167823,
@@ -15259,20 +14653,20 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 837,
     },
     [59820] = {
         name = "[DNT] Da Treacherous Loa",
+        contentTuningID = 837,
         rewards = {
             {
                 type = "money",
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [59821] = {
         name = "Report to the Queen",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 167823,
@@ -15296,27 +14690,50 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [59822] = {
         name = "Tracking a Wild God",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 171655,
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.447844,
+                        y = 0.410254,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [59824] = {
         name = "Loa Rescue",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 171806,
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.409381,
+                        y = 0.642415,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [59825] = {
         name = "Seed Hunting",
@@ -15324,6 +14741,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [59837] = {
         name = "Working For The Living",
+        contentTuningID = 1335,
         source = {
             type = "npc",
             id = 159830,
@@ -15340,29 +14758,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 7650, 4350, 2900, 1450, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    241020, 243360, 
-                },
-                minLevel = 53,
-                maxLevel = 54,
+                amount = 243360,
             },
             {
                 type = "reputation",
                 id = 2410,
-                restrictions = 924,
             },
         },
-        contentTuningID = 1335,
     },
     [59846] = {
         name = "Finders-Keepers, Sinners-Weepers",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 165864,
@@ -15379,39 +14792,50 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
             {
                 type = "reputation",
                 id = 2413,
-                restrictions = 924,
             },
         },
-        contentTuningID = 746,
     },
     [59856] = {
         name = "Rezan, Loa of Kings",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166461,
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.457924,
+                        y = 0.850215,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [59862] = {
         name = "A Savior for Lost Souls",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 166476,
@@ -15424,16 +14848,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 742,
     },
     [59865] = {
         name = "Glimmerflight",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 164640,
@@ -15454,13 +14872,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 837,
     },
     [59866] = {
         name = "Parting Ways",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 166461,
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.457924,
+                        y = 0.850215,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
@@ -15472,10 +14901,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [59867] = {
         name = "WANTED: Appraiser Vix",
+        contentTuningID = -1,
         source = {
             type = "object",
             id = 349612,
@@ -15488,16 +14917,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 514800,
-            },
-        },
-        contentTuningID = 837,
     },
     [59868] = {
         name = "Offer of Freedom",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 165864,
@@ -15514,32 +14937,50 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
             {
                 type = "reputation",
                 id = 2413,
-                restrictions = 924,
             },
         },
-        contentTuningID = 746,
     },
     [59871] = {
         name = "Catalyze This",
+        contentTuningID = 742,
+        source = {
+            type = "npc",
+            id = 166476,
+            locations = {
+                [1662] = {
+                    {
+                        x = 0.333591,
+                        y = 0.622966,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
     },
     [59872] = {
         name = "How to Save a God",
+        contentTuningID = 742,
         source = {
             type = "npc",
             id = 166476,
@@ -15558,10 +14999,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 742,
     },
     [59873] = {
         name = "Greeting a God",
+        contentTuningID = 742,
         source = {
             type = "npc",
             id = 166476,
@@ -15580,10 +15021,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 742,
     },
     [59874] = {
         name = "The Maw",
+        contentTuningID = 1337,
         source = {
             type = "npc",
             id = 164843,
@@ -15600,7 +15041,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    925, 950, 975, 550, 370, 
+                    1050, 1100, 1100, 625, 420, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -15610,10 +15051,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 24570,
             },
         },
-        contentTuningID = 1337,
     },
     [59879] = {
         name = "This Thing Of Ours",
+        contentTuningID = 1335,
         source = {
             type = "npc",
             id = 161559,
@@ -15630,24 +15071,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    900, 925, 925, 950, 550, 360, 180, 
+                    1050, 1050, 1100, 625, 420, 210, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amounts = {
-                    24100, 24335, 
-                },
-                minLevel = 53,
-                maxLevel = 54,
+                amount = 24335,
             },
         },
-        contentTuningID = 1335,
     },
     [59894] = {
         name = "The Golden Dawn",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161988,
@@ -15666,10 +15103,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [59897] = {
         name = "Seeking the Baron",
+        contentTuningID = 1337,
         source = {
             type = "npc",
             id = 164079,
@@ -15686,7 +15123,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7500, 7650, 7750, 4500, 3000, 
+                    8500, 8650, 8800, 5100, 3400, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -15696,32 +15133,18 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 245700,
             },
         },
-        contentTuningID = 1337,
     },
     [59907] = {
         name = "Mawsworn Menace",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 166723,
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6800, 5450, 4100, 2750, 1350, 675, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 234000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59910] = {
         name = "Fight and Flight",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171483,
@@ -15740,10 +15163,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [59914] = {
         name = "Fear to Tread",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 165918,
@@ -15756,24 +15179,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6800, 5450, 4100, 2750, 1350, 675, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 234000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59915] = {
         name = "Soul in Hand",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 166723,
@@ -15786,24 +15195,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    850, 850, 675, 500, 340, 170, 85, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 23400,
-            },
-        },
-        contentTuningID = 1400,
     },
     [59916] = {
         name = "The Butchers of Bastion",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 168743,
@@ -15822,10 +15217,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [59917] = {
         name = "Kill Them Of Course",
+        contentTuningID = 1332,
         source = {
             type = "npc",
             id = 166664,
@@ -15842,7 +15237,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9200, 9350, 9550, 5500, 3700, 1850, 
+                    10400, 10600, 10800, 6250, 4150, 2100, 
                 },
                 minLevel = 54,
                 maxLevel = 59,
@@ -15852,10 +15247,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 486720,
             },
         },
-        contentTuningID = 1332,
     },
     [59919] = {
         name = "An Earned Bond",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160037,
@@ -15874,10 +15269,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [59920] = {
         name = "Light the Forge, Forgelite",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158807,
@@ -15894,24 +15289,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 2050, 1350, 675, 340, 
+                    3950, 4000, 4100, 4150, 4250, 2350, 1550, 775, 390, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    117000, 118170, 119340, 
+                    118170, 119340, 120510, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [59921] = {
         name = "All I Ever Will Be",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165794,
@@ -15930,10 +15325,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [59922] = {
         name = "Do Not Forget",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165794,
@@ -15957,10 +15352,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [59959] = {
         name = "The Brand Holds the Key",
+        contentTuningID = 1337,
         source = {
             type = "object",
             id = 355798,
@@ -15977,7 +15372,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7500, 7650, 7750, 4500, 3000, 
+                    8500, 8650, 8800, 5100, 3400, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -15987,15 +15382,15 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 245700,
             },
         },
-        contentTuningID = 1337,
     },
     [59960] = {
         name = "A Cooling Trail",
+        contentTuningID = 1337,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    7500, 7650, 7750, 4500, 3000, 
+                    8500, 8650, 8800, 5100, 3400, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -16005,10 +15400,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 245700,
             },
         },
-        contentTuningID = 1337,
     },
     [59962] = {
         name = "Hope Never Dies",
+        contentTuningID = 1337,
         source = {
             type = "npc",
             id = 171770,
@@ -16025,7 +15420,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    925, 950, 975, 550, 370, 
+                    1050, 1100, 1100, 625, 420, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -16035,10 +15430,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 24570,
             },
         },
-        contentTuningID = 1337,
     },
     [59966] = {
         name = "Delving Deeper",
+        contentTuningID = 1337,
         source = {
             type = "npc",
             id = 171770,
@@ -16055,7 +15450,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7500, 7650, 7750, 4500, 3000, 
+                    8500, 8650, 8800, 5100, 3400, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -16065,10 +15460,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 245700,
             },
         },
-        contentTuningID = 1337,
     },
     [59973] = {
         name = "A Bond Beyond Death",
+        contentTuningID = 1337,
         source = {
             type = "npc",
             id = 172414,
@@ -16085,7 +15480,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7500, 7650, 7750, 4500, 3000, 
+                    8500, 8650, 8800, 5100, 3400, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -16095,10 +15490,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 245700,
             },
         },
-        contentTuningID = 1337,
     },
     [59974] = {
         name = "A Soul Saved",
+        contentTuningID = 1337,
         source = {
             type = "npc",
             id = 167903,
@@ -16115,7 +15510,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    925, 950, 975, 550, 370, 
+                    1050, 1100, 1100, 625, 420, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -16125,10 +15520,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 24570,
             },
         },
-        contentTuningID = 1337,
     },
     [59994] = {
         name = "Trust Fall",
+        contentTuningID = 1331,
         source = {
             type = "npc",
             id = 162476,
@@ -16145,20 +15540,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 5400, 3600, 1800, 900, 
+                    10400, 10600, 10800, 6250, 4150, 2100, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 482040,
+                amount = 486720,
             },
         },
-        contentTuningID = 1331,
     },
     [59999] = {
         name = "Rebirth of the Grove",
+        contentTuningID = 742,
         source = {
             type = "npc",
             id = 166476,
@@ -16177,32 +15572,18 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 742,
     },
     [60005] = {
         name = "Imminent Danger",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 160037,
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    875, 900, 925, 525, 350, 180, 90, 
-                },
-                minLevel = 52,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amount = 23870,
-            },
-        },
-        contentTuningID = 1324,
     },
     [60006] = {
         name = "Now or Never",
+        contentTuningID = 1324,
         source = {
             type = "npc",
             id = 167873,
@@ -16219,20 +15600,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7100, 7200, 7350, 4250, 2850, 1400, 700, 
+                    8200, 8350, 8500, 4900, 3250, 1650, 825, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 53,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 238680,
+                amount = 241020,
             },
         },
-        contentTuningID = 1324,
     },
     [60007] = {
         name = "Stay Scrappy",
+        contentTuningID = 1324,
         source = {
             type = "npc",
             id = 167135,
@@ -16249,20 +15630,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7100, 7200, 7350, 4250, 2850, 1400, 700, 
+                    8200, 8350, 8500, 4900, 3250, 1650, 825, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 53,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 238680,
+                amount = 241020,
             },
         },
-        contentTuningID = 1324,
     },
     [60008] = {
         name = "Rip and Tear",
+        contentTuningID = 1324,
         source = {
             type = "npc",
             id = 167134,
@@ -16279,20 +15660,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7100, 7200, 7350, 4250, 2850, 1400, 700, 
+                    8200, 8350, 8500, 4900, 3250, 1650, 825, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 53,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 238680,
+                amount = 241020,
             },
         },
-        contentTuningID = 1324,
     },
     [60009] = {
         name = "Fight Another Day",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167269,
@@ -16305,24 +15686,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    7100, 7200, 7350, 4250, 2850, 1400, 700, 
-                },
-                minLevel = 52,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amount = 238680,
-            },
-        },
-        contentTuningID = 1324,
     },
     [60013] = {
         name = "Leave it to Mnemis",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 167504,
@@ -16339,24 +15706,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 2050, 1350, 675, 340, 
+                    3950, 4000, 4100, 4150, 4250, 2350, 1550, 775, 390, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    117000, 118170, 119340, 
+                    118170, 119340, 120510, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [60020] = {
         name = "An Opportunistic Strike",
+        contentTuningID = 1325,
         source = {
             type = "npc",
             id = 164244,
@@ -16373,20 +15740,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7100, 7200, 7350, 4250, 2850, 1400, 700, 
+                    8200, 8350, 8500, 4900, 3250, 1650, 825, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 53,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 238680,
+                amount = 241020,
             },
         },
-        contentTuningID = 1325,
     },
     [60021] = {
         name = "Champion the Cause",
+        contentTuningID = 1325,
         source = {
             type = "npc",
             id = 164244,
@@ -16403,20 +15770,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8850, 9050, 9200, 5300, 3550, 1750, 875, 
+                    10200, 10400, 10600, 6150, 4100, 2050, 1000, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 53,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 477360,
+                amount = 482040,
             },
         },
-        contentTuningID = 1325,
     },
     [60041] = {
         name = "Build-A-Bomination",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167150,
@@ -16429,16 +15796,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 837,
     },
     [60042] = {
         name = "May I Take Your Order?",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167150,
@@ -16451,16 +15812,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 837,
     },
     [60043] = {
         name = "Justice from Above",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 166333,
@@ -16479,10 +15834,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [60044] = {
         name = "Charging The Blade",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 166211,
@@ -16501,32 +15856,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
-    },
-    [60048] = {
-        name = "Stitching Time",
-        source = {
-            type = "npc",
-            id = 167150,
-            locations = {
-                [1536] = {
-                    {
-                        x = 0.550966,
-                        y = 0.687778,
-                    },
-                },
-            },
-        },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 837,
     },
     [60049] = {
         name = "At Your Service",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167044,
@@ -16539,16 +15872,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 837,
     },
     [60050] = {
         name = "Trouble on the Western Front",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 168860,
@@ -16567,10 +15894,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [60051] = {
         name = "A Master of Their Craft",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 158653,
@@ -16583,16 +15910,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 837,
     },
     [60052] = {
         name = "Double Tap",
+        contentTuningID = 1324,
         source = {
             type = "npc",
             id = 167164,
@@ -16609,20 +15930,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7100, 7200, 7350, 4250, 2850, 1400, 700, 
+                    8200, 8350, 8500, 4900, 3250, 1650, 825, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 53,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 238680,
+                amount = 241020,
             },
         },
-        contentTuningID = 1324,
     },
     [60053] = {
         name = "Clear as Crystal",
+        contentTuningID = 1324,
         source = {
             type = "npc",
             id = 167135,
@@ -16639,20 +15960,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7100, 7200, 7350, 4250, 2850, 1400, 700, 
+                    8200, 8350, 8500, 4900, 3250, 1650, 825, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 53,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 238680,
+                amount = 241020,
             },
         },
-        contentTuningID = 1324,
     },
     [60054] = {
         name = "The Final Countdown",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167423,
@@ -16665,24 +15986,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    8850, 9050, 9200, 5300, 3550, 1750, 875, 
-                },
-                minLevel = 52,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amount = 477360,
-            },
-        },
-        contentTuningID = 1324,
     },
     [60055] = {
         name = "A Time for Courage",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167460,
@@ -16695,24 +16002,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    8850, 9050, 9200, 5300, 3550, 1750, 875, 
-                },
-                minLevel = 52,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amount = 477360,
-            },
-        },
-        contentTuningID = 1324,
     },
     [60056] = {
         name = "Follow the Path",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167583,
@@ -16725,24 +16018,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    875, 900, 925, 525, 350, 180, 90, 
-                },
-                minLevel = 52,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amount = 23870,
-            },
-        },
-        contentTuningID = 1324,
     },
     [60057] = {
         name = "Necrotic Wake: A Paragon's Plight",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167584,
@@ -16755,24 +16034,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    13900, 14150, 11100, 8350, 5550, 2800, 1400, 
-                },
-                minLevel = 51,
-                maxLevel = 57,
-            },
-            {
-                type = "money",
-                amount = 945360,
-            },
-        },
-        contentTuningID = 1709,
     },
     [60060] = {
         name = "Mirror Attunement: Pridefall Hamlet",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167160,
@@ -16785,28 +16050,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    975, 975, 1000, 
-                },
-                minLevel = 57,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    25040, 25270, 25505, 25740, 
-                },
-                minLevel = 57,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 746,
     },
     [60061] = {
         name = "Tough as Silk",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 159270,
@@ -16823,7 +16070,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -16837,10 +16084,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60062] = {
         name = "The Shattered Harp",
+        contentTuningID = 807,
         source = {
             type = "object",
             id = 350804,
@@ -16857,7 +16104,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -16871,10 +16118,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60063] = {
         name = "A Song for Silkstriders",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 167047,
@@ -16891,7 +16138,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -16905,10 +16152,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60064] = {
         name = "Save Ol' Gertie",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 167047,
@@ -16925,7 +16172,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -16939,10 +16186,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60065] = {
         name = "Thread of Hope",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 159388,
@@ -16959,7 +16206,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -16973,10 +16220,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60066] = {
         name = "Silk for Ardenweald",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 159270,
@@ -16993,7 +16240,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -17007,10 +16254,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60067] = {
         name = "Pursuit of Justice",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 172002,
@@ -17034,10 +16281,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [60098] = {
         name = "The End is Now",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 166211,
@@ -17056,21 +16303,37 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [60108] = {
         name = "Drust and Ashes",
+        contentTuningID = 2060,
+        source = {
+            type = "npc",
+            id = 172091,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.389335,
+                        y = 0.634345,
+                    },
+                },
+            },
+        },
         rewards = {
+            {
+                type = "money",
+                amount = 772200,
+            },
             {
                 type = "currency",
                 id = 1822,
                 amount = 1,
             },
         },
-        contentTuningID = 1929,
     },
     [60110] = {
         name = "Never Had A Friend Like Me",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161906,
@@ -17083,16 +16346,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 837,
     },
     [60111] = {
         name = "Forging A Friendship",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161905,
@@ -17111,10 +16368,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [60112] = {
         name = "Cut to the Bone",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 172574,
@@ -17133,10 +16390,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [60114] = {
         name = "Aerial Advantage",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 167810,
@@ -17155,10 +16412,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [60127] = {
         name = "Missing Stone Fiend",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 160248,
@@ -17175,24 +16432,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    975, 975, 1000, 
+                    1100, 1150, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    25040, 25270, 25505, 25740, 
+                    25270, 25505, 25740, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [60128] = {
         name = "Ready to Serve",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 163073,
@@ -17209,46 +16466,28 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    975, 975, 1000, 
+                    1100, 1150, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    25040, 25270, 25505, 25740, 
+                    25270, 25505, 25740, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [60129] = {
         name = "Stranger in an Even Stranger Land",
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    117000, 118170, 119340, 120510, 121680, 122850, 124020, 125190, 126360, 127530, 128700, 
-                },
-                minLevel = 50,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 807,
+        contentTuningID = -1,
     },
     [60136] = {
         name = "Into Torghast",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164079,
@@ -17261,20 +16500,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 837,
     },
     [60139] = {
         name = "Torment Chamber: Jaina",
-        rewards = {
-            {
-                type = "money",
-                amount = 1029600,
-            },
-        },
-        contentTuningID = 837,
+        contentTuningID = -1,
     },
     [60145] = {
         name = "Third Talon Vartox",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 167381,
@@ -17293,20 +16526,20 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [60146] = {
         name = "Torment Chamber: Thrall",
+        contentTuningID = 837,
         rewards = {
             {
                 type = "money",
                 amount = 1029600,
             },
         },
-        contentTuningID = 837,
     },
     [60147] = {
         name = "Mirror Attunement: The Eternal Terrace",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167160,
@@ -17319,28 +16552,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    975, 975, 1000, 
-                },
-                minLevel = 57,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    25040, 25270, 25505, 25740, 
-                },
-                minLevel = 57,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 746,
     },
     [60148] = {
         name = "No Place for the Living",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167425,
@@ -17353,28 +16568,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    117000, 118170, 119340, 120510, 121680, 122850, 124020, 125190, 126360, 127530, 128700, 
-                },
-                minLevel = 50,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 807,
     },
     [60149] = {
         name = "Audience with the Arbiter",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167486,
@@ -17387,28 +16584,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    117000, 118170, 119340, 120510, 121680, 122850, 124020, 125190, 126360, 127530, 128700, 
-                },
-                minLevel = 50,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 807,
     },
     [60150] = {
         name = "Tether to Home",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167425,
@@ -17421,28 +16600,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    117000, 118170, 119340, 120510, 121680, 122850, 124020, 125190, 126360, 127530, 128700, 
-                },
-                minLevel = 50,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 807,
     },
     [60151] = {
         name = "A Doorway Through the Veil",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164079,
@@ -17455,28 +16616,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    117000, 118170, 119340, 120510, 121680, 122850, 124020, 125190, 126360, 127530, 128700, 
-                },
-                minLevel = 50,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 807,
     },
     [60152] = {
         name = "The Eternal City",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167424,
@@ -17489,28 +16632,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    117000, 118170, 119340, 120510, 121680, 122850, 124020, 125190, 126360, 127530, 128700, 
-                },
-                minLevel = 50,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 807,
     },
     [60154] = {
         name = "Understanding the Shadowlands",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164079,
@@ -17523,28 +16648,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    117000, 118170, 119340, 120510, 121680, 122850, 124020, 125190, 126360, 127530, 128700, 
-                },
-                minLevel = 50,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 807,
     },
     [60156] = {
         name = "The Path to Bastion",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167424,
@@ -17557,28 +16664,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    117000, 118170, 119340, 120510, 121680, 122850, 124020, 125190, 126360, 127530, 128700, 
-                },
-                minLevel = 50,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 807,
     },
     [60159] = {
         name = "Mirror Attunement: Halls of Atonement",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 167160,
@@ -17587,33 +16676,90 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    975, 975, 1000, 
+                    1100, 1150, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    25040, 25270, 25505, 25740, 
+                    25270, 25505, 25740, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [60160] = {
         name = "Mirror Attunement: The Banewood",
+        contentTuningID = 746,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1100, 1150, 
+                },
+                minLevel = 58,
+                maxLevel = 59,
+            },
+            {
+                type = "money",
+                amounts = {
+                    25270, 25505, 25740, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
+            },
+        },
     },
     [60164] = {
         name = "Mirror Attunement: Dominance Keep",
+        contentTuningID = 746,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1100, 1150, 
+                },
+                minLevel = 58,
+                maxLevel = 59,
+            },
+            {
+                type = "money",
+                amounts = {
+                    25270, 25505, 25740, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
+            },
+        },
     },
     [60165] = {
         name = "Mirror Attunement: Feeders' Thicket",
+        contentTuningID = 746,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1100, 1150, 
+                },
+                minLevel = 58,
+                maxLevel = 59,
+            },
+            {
+                type = "money",
+                amounts = {
+                    25270, 25505, 25740, 
+                },
+                minLevel = 58,
+                maxLevel = 60,
+            },
+        },
     },
     [60176] = {
         name = "Bring Out Your Tithe",
+        contentTuningID = 1425,
         source = {
             type = "npc",
             id = 156822,
@@ -17622,20 +16768,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 250380,
+                amount = 252720,
             },
         },
-        contentTuningID = 1425,
     },
     [60177] = {
         name = "Reason for the Treason",
+        contentTuningID = 1425,
         source = {
             type = "npc",
             id = 167489,
@@ -17644,20 +16790,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 250380,
+                amount = 252720,
             },
         },
-        contentTuningID = 1425,
     },
     [60178] = {
         name = "And Then There Were None",
+        contentTuningID = 1425,
         source = {
             type = "npc",
             id = 167489,
@@ -17666,20 +16812,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 250380,
+                amount = 252720,
             },
         },
-        contentTuningID = 1425,
     },
     [60179] = {
         name = "Memory of Honor",
+        contentTuningID = 1325,
         source = {
             type = "object",
             id = 351467,
@@ -17696,20 +16842,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7100, 7200, 7350, 4250, 2850, 1400, 700, 
+                    8200, 8350, 8500, 4900, 3250, 1650, 825, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 53,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 238680,
+                amount = 241020,
             },
         },
-        contentTuningID = 1325,
     },
     [60180] = {
         name = "A Paragon's Reflection",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 167504,
@@ -17726,24 +16872,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    10250, 10450, 10650, 10850, 11050, 6150, 4100, 2050, 1000, 
+                    11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    702000, 709020, 716040, 
+                    709020, 716040, 723060, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [60181] = {
         name = "Trench Warfare",
+        contentTuningID = 1325,
         source = {
             type = "npc",
             id = 167535,
@@ -17760,20 +16906,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8850, 9050, 9200, 5300, 3550, 1750, 875, 
+                    10200, 10400, 10600, 6150, 4100, 2050, 1000, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 53,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 477360,
+                amount = 482040,
             },
         },
-        contentTuningID = 1325,
     },
     [60183] = {
         name = "After Them!",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 167381,
@@ -17792,10 +16938,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [60184] = {
         name = "Dude, Where's My Necropolis?",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173306,
@@ -17814,15 +16960,27 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [60189] = {
         name = "We Strike Now",
+        contentTuningID = 807,
+        source = {
+            type = "npc",
+            id = 160262,
+            locations = {
+                [1701] = {
+                    {
+                        x = 0.447788,
+                        y = 0.389445,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -17836,15 +16994,27 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60190] = {
         name = "Assault on Darkreach",
+        contentTuningID = 807,
+        source = {
+            type = "npc",
+            id = 167686,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.390744,
+                        y = 0.637479,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -17858,15 +17028,27 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60191] = {
         name = "Ingra Drif",
+        contentTuningID = 807,
+        source = {
+            type = "npc",
+            id = 172010,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.389825,
+                        y = 0.637559,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    8500, 8700, 8850, 9050, 9200, 9350, 9550, 9700, 9850, 10050, 
+                    9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -17880,15 +17062,27 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60192] = {
         name = "Their Last Line of Defense",
+        contentTuningID = 807,
+        source = {
+            type = "npc",
+            id = 167688,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.391253,
+                        y = 0.637311,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -17902,15 +17096,27 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60193] = {
         name = "Unmasked",
+        contentTuningID = 807,
+        source = {
+            type = "npc",
+            id = 171838,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.351806,
+                        y = 0.724447,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    8500, 8700, 8850, 9050, 9200, 9350, 9550, 9700, 9850, 10050, 
+                    9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -17924,15 +17130,27 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60194] = {
         name = "The Call of the Hunt",
+        contentTuningID = 807,
+        source = {
+            type = "npc",
+            id = 171992,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.361674,
+                        y = 0.696257,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -17946,10 +17164,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60195] = {
         name = "Build One More",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 167150,
@@ -17968,10 +17186,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [60217] = {
         name = "The Archon's Answer",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -17988,24 +17206,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    10250, 10450, 10650, 10850, 11050, 6150, 4100, 2050, 1000, 
+                    11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    702000, 709020, 716040, 
+                    709020, 716040, 723060, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [60218] = {
         name = "The Archon's Answer",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -18022,24 +17240,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    10250, 10450, 10650, 10850, 11050, 6150, 4100, 2050, 1000, 
+                    11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    702000, 709020, 716040, 
+                    709020, 716040, 723060, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [60219] = {
         name = "The Archon's Answer",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -18056,24 +17274,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    10250, 10450, 10650, 10850, 11050, 6150, 4100, 2050, 1000, 
+                    11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    702000, 709020, 716040, 
+                    709020, 716040, 723060, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [60220] = {
         name = "The Archon's Answer",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -18090,24 +17308,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    10250, 10450, 10650, 10850, 11050, 6150, 4100, 2050, 1000, 
+                    11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    702000, 709020, 716040, 
+                    709020, 716040, 723060, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [60221] = {
         name = "The Archon's Answer",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -18124,24 +17342,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    10250, 10450, 10650, 10850, 11050, 6150, 4100, 2050, 1000, 
+                    11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    702000, 709020, 716040, 
+                    709020, 716040, 723060, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [60222] = {
         name = "The Archon's Answer",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -18158,24 +17376,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    10250, 10450, 10650, 10850, 11050, 6150, 4100, 2050, 1000, 
+                    11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    702000, 709020, 716040, 
+                    709020, 716040, 723060, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [60223] = {
         name = "The Archon's Answer",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -18192,24 +17410,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    10250, 10450, 10650, 10850, 11050, 6150, 4100, 2050, 1000, 
+                    11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    702000, 709020, 716040, 
+                    709020, 716040, 723060, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [60224] = {
         name = "The Archon's Answer",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -18226,24 +17444,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    10250, 10450, 10650, 10850, 11050, 6150, 4100, 2050, 1000, 
+                    11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    702000, 709020, 716040, 
+                    709020, 716040, 723060, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [60225] = {
         name = "The Archon's Answer",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -18260,24 +17478,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    10250, 10450, 10650, 10850, 11050, 6150, 4100, 2050, 1000, 
+                    11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    702000, 709020, 716040, 
+                    709020, 716040, 723060, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [60226] = {
         name = "The Archon's Answer",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -18294,24 +17512,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    10250, 10450, 10650, 10850, 11050, 6150, 4100, 2050, 1000, 
+                    11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    702000, 709020, 716040, 
+                    709020, 716040, 723060, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [60229] = {
         name = "The Archon's Answer",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 158862,
@@ -18328,24 +17546,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    10250, 10450, 10650, 10850, 11050, 6150, 4100, 2050, 1000, 
+                    11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    702000, 709020, 716040, 
+                    709020, 716040, 723060, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [60233] = {
         name = "Souls of the Damned",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 158553,
@@ -18361,54 +17579,53 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "money",
-                amount = 257400,
+                amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [60235] = {
         name = "Newfound Power",
+        contentTuningID = 743,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    234000, 236340, 238680, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 743,
     },
     [60265] = {
         name = "Disrupting the Chain",
+        contentTuningID = 837,
         rewards = {
             {
                 type = "money",
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [60267] = {
         name = "Prison of the Forgotten",
-        contentTuningID = 709,
+        contentTuningID = -1,
     },
     [60268] = {
         name = "Deep Within",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164937,
@@ -18421,10 +17638,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 709,
     },
     [60269] = {
         name = "Reawakening",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164937,
@@ -18437,20 +17654,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-            },
-        },
-        contentTuningID = 709,
     },
     [60270] = {
         name = "A Damned Pact",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164937,
@@ -18463,10 +17670,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 709,
     },
     [60271] = {
         name = "A Grave Chance",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 162804,
@@ -18479,10 +17686,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 709,
     },
     [60272] = {
         name = "The Weak Link",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 162804,
@@ -18495,10 +17702,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 709,
     },
     [60275] = {
         name = "WANTED: Enforcer Kristof",
+        contentTuningID = 1428,
         source = {
             type = "object",
             id = 351874,
@@ -18514,17 +17721,13 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
-                amounts = {
-                    11850, 12050, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 13650,
             },
         },
-        contentTuningID = 1428,
     },
     [60276] = {
         name = "WANTED: Summoner Marcelis",
+        contentTuningID = 1428,
         source = {
             type = "object",
             id = 351888,
@@ -18540,17 +17743,13 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
-                amounts = {
-                    11850, 12050, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 13650,
             },
         },
-        contentTuningID = 1428,
     },
     [60277] = {
         name = "WANTED: Aggregate of Doom",
+        contentTuningID = 1425,
         source = {
             type = "object",
             id = 351885,
@@ -18567,22 +17766,21 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9700, 9850, 10050, 
+                    11200, 11350, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "reputation",
                 id = 2413,
                 amount = 350,
-                restrictions = 924,
             },
         },
-        contentTuningID = 1425,
     },
     [60278] = {
         name = "WANTED: Duke Anton",
+        contentTuningID = 837,
         source = {
             type = "object",
             id = 351886,
@@ -18595,10 +17793,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 837,
     },
     [60279] = {
         name = "WANTED: The Pale Doom",
+        contentTuningID = 1424,
         source = {
             type = "object",
             id = 351889,
@@ -18611,10 +17809,20 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1424,
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    11200, 11350, 
+                },
+                minLevel = 58,
+                maxLevel = 59,
+            },
+        },
     },
     [60280] = {
         name = "WANTED: Lord Darion",
+        contentTuningID = 837,
         source = {
             type = "object",
             id = 351887,
@@ -18632,13 +17840,12 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "reputation",
                 id = 2413,
                 amount = 250,
-                restrictions = 924,
             },
         },
-        contentTuningID = 837,
     },
     [60287] = {
         name = "Rule 1: Have an Escape Plan",
+        contentTuningID = 1936,
         source = {
             type = "npc",
             id = 162804,
@@ -18655,7 +17862,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7500, 7650, 7750, 7900, 8050, 
+                    8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -18669,10 +17876,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 1936,
     },
     [60289] = {
         name = "Rule 3: Trust is Earned",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 162804,
@@ -18685,57 +17892,32 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+    },
+    [60292] = {
+        name = "Dangerous Discourse",
+        contentTuningID = 743,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9550, 9700, 9850, 10050, 
+                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
                 },
-                minLevel = 55,
+                minLevel = 51,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    491400, 496080, 500760, 505440, 510120, 514800, 
+                    236340, 238680, 241020, 
                 },
-                minLevel = 55,
-                maxLevel = 60,
-            },
-            {
-                type = "reputation",
-                id = 2432,
-                amount = 350,
-                restrictions = 924,
-                maxRank = -1,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 1936,
-    },
-    [60292] = {
-        name = "Dangerous Discourse",
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6950, 7100, 7200, 7350, 4100, 2750, 1350, 675, 
-                },
-                minLevel = 50,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amounts = {
-                    234000, 236340, 238680, 
-                },
-                minLevel = 50,
-                maxLevel = 52,
-            },
-        },
-        contentTuningID = 743,
     },
     [60296] = {
         name = "Pride or Unit",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 157696,
@@ -18752,24 +17934,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 500, 340, 170, 85, 
+                    975, 1000, 1000, 1050, 1050, 600, 390, 200, 100, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    23400, 23635, 23870, 
+                    23635, 23870, 24100, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [60313] = {
         name = "Dredhollow",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 156554,
@@ -18778,24 +17960,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    975, 975, 1000, 
+                    1100, 1150, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    25040, 25270, 25505, 25740, 
+                    25270, 25505, 25740, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [60315] = {
         name = "WANTED: Gorgebeak",
+        contentTuningID = -1,
         source = {
             type = "object",
             id = 352027,
@@ -18808,24 +17990,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    10450, 10650, 10850, 6250, 4150, 2100, 1050, 
-                },
-                minLevel = 51,
-                maxLevel = 57,
-            },
-            {
-                type = "money",
-                amount = 709020,
-            },
-        },
-        contentTuningID = 1321,
     },
     [60316] = {
         name = "WANTED: Altered Sentinel",
+        contentTuningID = 1318,
         source = {
             type = "object",
             id = 352028,
@@ -18842,7 +18010,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8700, 8850, 9050, 5200, 3500, 1750, 875, 
+                    9850, 10050, 10200, 5900, 3950, 1950, 975, 
                 },
                 minLevel = 51,
                 maxLevel = 57,
@@ -18852,10 +18020,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 472680,
             },
         },
-        contentTuningID = 1318,
     },
     [60338] = {
         name = "Journey to Ardenweald",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 159478,
@@ -18864,7 +18032,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -18878,10 +18046,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60341] = {
         name = "First on the Agenda",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 157788,
@@ -18898,7 +18066,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -18912,10 +18080,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60366] = {
         name = "WANTED: Darkwing",
+        contentTuningID = -1,
         source = {
             type = "object",
             id = 352027,
@@ -18928,24 +18096,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    10650, 10850, 11050, 6400, 4250, 2150, 1050, 
-                },
-                minLevel = 52,
-                maxLevel = 58,
-            },
-            {
-                type = "money",
-                amount = 716040,
-            },
-        },
-        contentTuningID = 1323,
     },
     [60428] = {
         name = "The Blade of the Primus",
+        contentTuningID = 1326,
         source = {
             type = "npc",
             id = 157676,
@@ -18962,20 +18116,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    10650, 10850, 11050, 6400, 4250, 2150, 1050, 
+                    12500, 12700, 12950, 7500, 5000, 2500, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 54,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 716040,
+                amount = 730080,
             },
         },
-        contentTuningID = 1326,
     },
     [60451] = {
         name = "Never Enough",
+        contentTuningID = 1326,
         source = {
             type = "npc",
             id = 157895,
@@ -18992,20 +18146,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    875, 900, 925, 525, 350, 180, 90, 
+                    1050, 1050, 1100, 625, 420, 210, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 54,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 23870,
+                amount = 24335,
             },
         },
-        contentTuningID = 1326,
     },
     [60453] = {
         name = "The Path to Glory",
+        contentTuningID = 1326,
         source = {
             type = "npc",
             id = 157676,
@@ -19022,20 +18176,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    875, 900, 925, 525, 350, 180, 90, 
+                    1050, 1050, 1100, 625, 420, 210, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 54,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 23870,
+                amount = 24335,
             },
         },
-        contentTuningID = 1326,
     },
     [60461] = {
         name = "Meet the Margrave",
+        contentTuningID = 1326,
         source = {
             type = "npc",
             id = 159065,
@@ -19052,20 +18206,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    875, 900, 925, 525, 350, 180, 90, 
+                    1050, 1050, 1100, 625, 420, 210, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 54,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 23870,
+                amount = 24335,
             },
         },
-        contentTuningID = 1326,
     },
     [60466] = {
         name = "The Old Ways",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 160598,
@@ -19078,24 +18232,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    10250, 10450, 10650, 6150, 4100, 2050, 1000, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 702000,
-            },
-        },
-        contentTuningID = 1315,
     },
     [60467] = {
         name = "A Rousing Aroma",
+        contentTuningID = 1428,
         source = {
             type = "npc",
             id = 168455,
@@ -19111,25 +18251,17 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
-                amounts = {
-                    9850, 10050, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 11350,
             },
             {
                 type = "money",
-                amounts = {
-                    505440, 510120, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 510120,
             },
         },
-        contentTuningID = 1428,
     },
     [60468] = {
         name = "Rubble Rummaging",
+        contentTuningID = 1428,
         source = {
             type = "npc",
             id = 168455,
@@ -19145,25 +18277,17 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
-                amounts = {
-                    9850, 10050, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 11350,
             },
             {
                 type = "money",
-                amounts = {
-                    505440, 510120, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 510120,
             },
         },
-        contentTuningID = 1428,
     },
     [60469] = {
         name = "Safe in the Shadows",
+        contentTuningID = 1428,
         source = {
             type = "npc",
             id = 168455,
@@ -19179,25 +18303,17 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
-                amounts = {
-                    9850, 10050, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 11350,
             },
             {
                 type = "money",
-                amounts = {
-                    505440, 510120, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 510120,
             },
         },
-        contentTuningID = 1428,
     },
     [60470] = {
         name = "Setting Sabina Free",
+        contentTuningID = 1428,
         source = {
             type = "npc",
             id = 168455,
@@ -19213,39 +18329,31 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
-                amounts = {
-                    9850, 10050, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 11350,
             },
             {
                 type = "money",
-                amounts = {
-                    505440, 510120, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 510120,
             },
         },
-        contentTuningID = 1428,
     },
     [60476] = {
         name = "Seize the Means of Production",
+        contentTuningID = 1235,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    7650, 7750, 7900, 4600, 
+                    8650, 8800, 8950, 5200, 
                 },
                 minLevel = 56,
                 maxLevel = 59,
             },
         },
-        contentTuningID = 1235,
     },
     [60480] = {
         name = "The Endmire",
+        contentTuningID = 1424,
         source = {
             type = "npc",
             id = 168618,
@@ -19254,20 +18362,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 250380,
+                amount = 252720,
             },
         },
-        contentTuningID = 1424,
     },
     [60487] = {
         name = "It Used to Be Quiet Here",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 168698,
@@ -19276,24 +18384,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8950, 9100, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    250380, 252720, 255060, 257400, 
+                    252720, 255060, 257400, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [60489] = {
         name = "The Path of Ascension",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167745,
@@ -19306,10 +18414,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
     },
     [60491] = {
         name = "Among the Kyrian",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 171787,
@@ -19328,10 +18436,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [60492] = {
         name = "A Proper Reception",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 168742,
@@ -19350,10 +18458,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 2060,
     },
     [60493] = {
         name = "Humble Gatherer",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 168485,
@@ -19366,10 +18474,90 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
+    },
+    [60494] = {
+        name = "Your Friend, Dactylis",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 168485,
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.277357,
+                        y = 0.417255,
+                    },
+                },
+            },
+        },
+    },
+    [60495] = {
+        name = "A Suitable Opponent",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 168485,
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.277357,
+                        y = 0.417255,
+                    },
+                },
+            },
+        },
+    },
+    [60496] = {
+        name = "Into the Coliseum",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 168427,
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.281765,
+                        y = 0.423526,
+                    },
+                },
+            },
+        },
+    },
+    [60497] = {
+        name = "Herald's Footpads",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 168427,
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.281765,
+                        y = 0.423526,
+                    },
+                },
+            },
+        },
+    },
+    [60498] = {
+        name = "Overcoming the Trial",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 168427,
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.281765,
+                        y = 0.423526,
+                    },
+                },
+            },
+        },
     },
     [60504] = {
         name = "Strengthen the Bond",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 160212,
@@ -19388,10 +18576,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 2060,
     },
     [60506] = {
         name = "The Accuser",
+        contentTuningID = 1427,
         source = {
             type = "npc",
             id = 156499,
@@ -19399,21 +18587,17 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "experience",
-                amounts = {
-                    3950, 4000, 
-                },
-                minLevel = 58,
-                maxLevel = 59,
+                amount = 4550,
             },
             {
                 type = "money",
-                amount = 126360,
+                amount = 127530,
             },
         },
-        contentTuningID = 1427,
     },
     [60508] = {
         name = "On the Trail",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 164277,
@@ -19438,10 +18622,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [60509] = {
         name = "Not My Job",
+        contentTuningID = 1425,
         source = {
             type = "npc",
             id = 158057,
@@ -19450,20 +18634,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    975, 975, 1000, 
+                    1100, 1150, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 25040,
+                amount = 25270,
             },
         },
-        contentTuningID = 1425,
     },
     [60510] = {
         name = "Descended",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 166333,
@@ -19482,10 +18666,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [60514] = {
         name = "Hunting Trophies",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 156384,
@@ -19502,46 +18686,46 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9700, 9850, 10050, 
+                    11200, 11350, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    500760, 505440, 510120, 514800, 
+                    505440, 510120, 514800, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [60517] = {
         name = "The Toll of the Road",
+        contentTuningID = 746,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9700, 9850, 10050, 
+                    11200, 11350, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    500760, 505440, 510120, 514800, 
+                    505440, 510120, 514800, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [60519] = {
         name = "Audience with the Winter Queen",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 158487,
@@ -19558,7 +18742,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8500, 8700, 8850, 9050, 9200, 9350, 9550, 9700, 9850, 10050, 
+                    9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -19572,10 +18756,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60520] = {
         name = "Nightmares Manifest",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169142,
@@ -19592,7 +18776,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -19606,10 +18790,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60521] = {
         name = "Call of the Hunt",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169031,
@@ -19626,7 +18810,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -19640,10 +18824,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60522] = {
         name = "Return to Tirna Vaal",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169935,
@@ -19660,7 +18844,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -19674,10 +18858,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60530] = {
         name = "The Sea of Souls",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 168929,
@@ -19696,19 +18880,19 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [60533] = {
         name = "Terrors in Tirna Scithe",
-        contentTuningID = 2060,
+        contentTuningID = -1,
     },
     [60545] = {
         name = "A Chilling Summons",
+        contentTuningID = 1400,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    850, 850, 675, 500, 340, 170, 85, 
+                    975, 975, 775, 575, 390, 190, 95, 
                 },
                 minLevel = 50,
                 maxLevel = 56,
@@ -19718,10 +18902,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 23400,
             },
         },
-        contentTuningID = 1400,
     },
     [60557] = {
         name = "First Time? You Have to Fight!",
+        contentTuningID = 1334,
         source = {
             type = "npc",
             id = 159894,
@@ -19738,20 +18922,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7200, 7350, 7500, 4350, 2900, 1450, 725, 
+                    8350, 8500, 8650, 5000, 3350, 1650, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 241020,
+                amount = 243360,
             },
         },
-        contentTuningID = 1334,
     },
     [60563] = {
         name = "Tending to Wildseeds",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169116,
@@ -19768,7 +18952,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -19782,10 +18966,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60566] = {
         name = "Into the Light",
+        contentTuningID = 746,
         source = {
             type = "npc",
             id = 158694,
@@ -19794,24 +18978,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    975, 975, 1000, 
+                    1100, 1150, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    25040, 25270, 25505, 25740, 
+                    25270, 25505, 25740, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 60,
             },
         },
-        contentTuningID = 746,
     },
     [60567] = {
         name = "Shooing Wildlife",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169116,
@@ -19828,7 +19012,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -19842,10 +19026,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60572] = {
         name = "For the Sake of Spirit",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 160894,
@@ -19862,7 +19046,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -19876,7 +19060,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60574] = {
         name = "Shaking 'Shrooms",
@@ -19884,6 +19067,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60575] = {
         name = "Belly Full of Fae",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169202,
@@ -19900,7 +19084,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -19914,10 +19098,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60577] = {
         name = "Hungry for Animacones",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169202,
@@ -19934,7 +19118,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -19948,10 +19132,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60578] = {
         name = "Visions of the Dreamer: The Betrayal",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 160962,
@@ -19968,7 +19152,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -19982,7 +19166,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60585] = {
         name = "Spriggan Riot",
@@ -19990,6 +19173,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60594] = {
         name = "One Special Spirit",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169217,
@@ -20006,7 +19190,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
+                    3850, 3950, 4000, 4100, 4150, 4250, 4300, 4400, 4450, 4550, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20020,24 +19204,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60597] = {
         name = "Trouble at the Gormling Corral",
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    7650, 7750, 7900, 4600, 
-                },
-                minLevel = 56,
-                maxLevel = 59,
-            },
-        },
-        contentTuningID = 1236,
+        contentTuningID = 837,
     },
     [60600] = {
         name = "Preparing for the Winter Queen",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169031,
@@ -20054,7 +19228,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
+                    3850, 3950, 4000, 4100, 4150, 4250, 4300, 4400, 4450, 4550, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20068,14 +19242,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60609] = {
         name = "Who Devours the Devourers?",
-        contentTuningID = 2060,
+        contentTuningID = -1,
     },
     [60621] = {
         name = "Enemies at the Gates",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 162541,
@@ -20092,7 +19266,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20106,10 +19280,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60624] = {
         name = "Ride to Heartwood Grove",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 158487,
@@ -20126,7 +19300,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
+                    3850, 3950, 4000, 4100, 4150, 4250, 4300, 4400, 4450, 4550, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20140,10 +19314,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60628] = {
         name = "The Missing Hunters",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169584,
@@ -20160,7 +19334,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20174,10 +19348,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60629] = {
         name = "Extreme Recycling",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169584,
@@ -20194,7 +19368,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20208,10 +19382,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60630] = {
         name = "Totem Eclipse",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169584,
@@ -20228,7 +19402,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20242,10 +19416,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60631] = {
         name = "Big Problem, Little Vorkai",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169584,
@@ -20262,7 +19436,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20276,10 +19450,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60632] = {
         name = "I Know Your Face",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169772,
@@ -20296,7 +19470,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    8500, 8700, 8850, 9050, 9200, 9350, 9550, 9700, 9850, 10050, 
+                    9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20310,10 +19484,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60637] = {
         name = "The End of Former Friends",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169686,
@@ -20330,7 +19504,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20344,10 +19518,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60638] = {
         name = "Recovering Wildseeds",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169686,
@@ -20364,7 +19538,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20378,10 +19552,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60639] = {
         name = "Heart of the Grove",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169686,
@@ -20398,7 +19572,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
+                    3850, 3950, 4000, 4100, 4150, 4250, 4300, 4400, 4450, 4550, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20412,19 +19586,52 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60640] = {
         name = "Regrowth of the Grove",
+        contentTuningID = 742,
+        source = {
+            type = "npc",
+            id = 166476,
+            locations = {
+                [1662] = {
+                    {
+                        x = 0.333591,
+                        y = 0.622966,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
     },
     [60641] = {
         name = "Blossoming of the Grove",
+        contentTuningID = 742,
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
     },
     [60642] = {
         name = "The Grove Resplendent",
+        contentTuningID = 742,
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
     },
     [60644] = {
         name = "Draw Out the Darkness",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167827,
@@ -20437,24 +19644,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    6800, 6800, 5450, 4100, 2750, 1350, 675, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 234000,
-            },
-        },
-        contentTuningID = 1400,
     },
     [60647] = {
         name = "Recovering the Animacones",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169748,
@@ -20471,7 +19664,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20485,10 +19678,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60648] = {
         name = "Survivors of Heartwood Grove",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169868,
@@ -20497,7 +19690,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20511,14 +19704,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60649] = {
         name = "A Thorn In Their Side",
-        contentTuningID = 2060,
+        contentTuningID = -1,
     },
     [60660] = {
         name = "Flight Test",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 164640,
@@ -20539,13 +19732,12 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2407,
-                restrictions = 924,
             },
         },
-        contentTuningID = 837,
     },
     [60661] = {
         name = "Dying Dreams",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 161847,
@@ -20562,7 +19754,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
+                    3850, 3950, 4000, 4100, 4150, 4250, 4300, 4400, 4450, 4550, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20576,10 +19768,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60671] = {
         name = "The Sacrifices We Must Make",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169868,
@@ -20596,7 +19788,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
+                    3850, 3950, 4000, 4100, 4150, 4250, 4300, 4400, 4450, 4550, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20610,10 +19802,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60673] = {
         name = "The Traitor",
+        contentTuningID = 1928,
         source = {
             type = "npc",
             id = 161298,
@@ -20626,10 +19818,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1928,
     },
     [60709] = {
         name = "Recovering the Heart",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 169956,
@@ -20646,7 +19838,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20660,32 +19852,26 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60721] = {
         name = "The Anima Must Flow",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164739,
             locations = {
                 [1700] = {
                     {
-                        x = 0.490135,
-                        y = 0.587065,
+                        x = 0.477438,
+                        y = 0.573418,
                     },
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 2060,
     },
     [60722] = {
         name = "Tower Power",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167205,
@@ -20698,16 +19884,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 837,
     },
     [60723] = {
         name = "The Roots Thirst",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167196,
@@ -20720,16 +19900,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 837,
     },
     [60724] = {
         name = "Heartless",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 170012,
@@ -20746,7 +19920,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20760,10 +19934,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60733] = {
         name = "Front and Center",
+        contentTuningID = 1334,
         source = {
             type = "npc",
             id = 170094,
@@ -20780,20 +19954,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3600, 3700, 3750, 2150, 1450, 725, 360, 
+                    4150, 4250, 4300, 2500, 1650, 825, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 120510,
+                amount = 121680,
             },
         },
-        contentTuningID = 1334,
     },
     [60735] = {
         name = "Trouble in Paradise",
+        contentTuningID = 743,
         source = {
             type = "npc",
             id = 165107,
@@ -20810,24 +19984,24 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 500, 340, 170, 85, 
+                    975, 1000, 1000, 1050, 1050, 600, 390, 200, 100, 
                 },
-                minLevel = 50,
-                maxLevel = 58,
+                minLevel = 51,
+                maxLevel = 59,
             },
             {
                 type = "money",
                 amounts = {
-                    23400, 23635, 23870, 
+                    23635, 23870, 24100, 
                 },
-                minLevel = 50,
-                maxLevel = 52,
+                minLevel = 51,
+                maxLevel = 53,
             },
         },
-        contentTuningID = 743,
     },
     [60737] = {
         name = "The Door to the Unknown",
+        contentTuningID = 1337,
         source = {
             type = "npc",
             id = 170309,
@@ -20844,7 +20018,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9350, 9550, 9700, 5600, 3750, 
+                    10600, 10800, 11000, 6350, 4250, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -20854,10 +20028,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 491400,
             },
         },
-        contentTuningID = 1337,
     },
     [60738] = {
         name = "The Way to Hibernal Hollow",
+        contentTuningID = 1931,
         source = {
             type = "npc",
             id = 169142,
@@ -20874,7 +20048,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3900, 3950, 4000, 
+                    4400, 4450, 4550, 
                 },
                 minLevel = 57,
                 maxLevel = 59,
@@ -20884,14 +20058,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 125190,
             },
         },
-        contentTuningID = 1931,
     },
     [60739] = {
         name = "Tough Crowd",
-        contentTuningID = 2060,
+        contentTuningID = -1,
     },
     [60763] = {
         name = "I Moustache You to Lend a Hand",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 168341,
@@ -20908,7 +20082,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
+                    3850, 3950, 4000, 4100, 4150, 4250, 4300, 4400, 4450, 4550, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20922,10 +20096,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60764] = {
         name = "Soothing Song",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 170172,
@@ -20942,7 +20116,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20956,10 +20130,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60778] = {
         name = "Wildseed Rescue",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 170175,
@@ -20976,7 +20150,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -20990,10 +20164,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60831] = {
         name = "Fit For a Margrave",
+        contentTuningID = 1340,
         source = {
             type = "npc",
             id = 159930,
@@ -21010,20 +20184,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    10850, 11050, 11250, 6500, 4350, 2150, 1100, 
+                    12500, 12700, 12950, 7500, 5000, 2500, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 723060,
+                amount = 730080,
             },
         },
-        contentTuningID = 1340,
     },
     [60839] = {
         name = "Remnants of the Wild Hunt",
+        contentTuningID = 1931,
         source = {
             type = "npc",
             id = 170290,
@@ -21040,7 +20214,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8800, 8950, 9100, 
                 },
                 minLevel = 57,
                 maxLevel = 59,
@@ -21050,42 +20224,18 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 250380,
             },
         },
-        contentTuningID = 1931,
     },
     [60840] = {
         name = "Wild Hunt Offensive",
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    15500, 15800, 16100, 
-                },
-                minLevel = 57,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amount = 500760,
-            },
-        },
-        contentTuningID = 1931,
+        contentTuningID = -1,
     },
     [60855] = {
         name = "Gormageddon",
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    7650, 7750, 7900, 4600, 
-                },
-                minLevel = 56,
-                maxLevel = 59,
-            },
-        },
-        contentTuningID = 1233,
+        contentTuningID = 837,
     },
     [60856] = {
         name = "Toppling the Brute",
+        contentTuningID = 1931,
         source = {
             type = "npc",
             id = 170485,
@@ -21102,7 +20252,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7750, 7900, 8050, 
+                    8800, 8950, 9100, 
                 },
                 minLevel = 57,
                 maxLevel = 59,
@@ -21112,10 +20262,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 250380,
             },
         },
-        contentTuningID = 1931,
     },
     [60857] = {
         name = "We Can't Save Them All",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 170324,
@@ -21132,7 +20282,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -21146,10 +20296,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60859] = {
         name = "Souls of the Forest",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 170537,
@@ -21166,7 +20316,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -21180,10 +20330,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [60881] = {
         name = "Ride of the Wild Hunt",
+        contentTuningID = 1931,
         source = {
             type = "npc",
             id = 170485,
@@ -21200,7 +20350,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    975, 975, 1000, 
+                    1100, 1100, 1150, 
                 },
                 minLevel = 57,
                 maxLevel = 59,
@@ -21210,10 +20360,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25040,
             },
         },
-        contentTuningID = 1931,
     },
     [60885] = {
         name = "Grove of Awakening",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161509,
@@ -21232,10 +20382,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [60886] = {
         name = "The Seat of the Primus",
+        contentTuningID = 1326,
         source = {
             type = "npc",
             id = 158007,
@@ -21252,20 +20402,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3550, 3600, 3700, 2150, 1400, 700, 350, 
+                    4150, 4250, 4300, 2500, 1650, 825, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 54,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 119340,
+                amount = 121680,
             },
         },
-        contentTuningID = 1326,
     },
     [60888] = {
         name = "Ceremony of Awakening",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 170636,
@@ -21284,10 +20434,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [60898] = {
         name = "The Fate of Ara'lon",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 170848,
@@ -21306,7 +20456,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [60899] = {
         name = "A Night in the Woods",
@@ -21314,6 +20463,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60900] = {
         name = "Archival Protection",
+        contentTuningID = 1331,
         source = {
             type = "npc",
             id = 170667,
@@ -21330,20 +20480,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    9050, 9200, 9350, 5400, 3600, 1800, 900, 
+                    10400, 10600, 10800, 6250, 4150, 2100, 
                 },
-                minLevel = 53,
+                minLevel = 54,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 482040,
+                amount = 486720,
             },
         },
-        contentTuningID = 1331,
     },
     [60901] = {
         name = "Passage to Hibernal Hollow",
+        contentTuningID = 1931,
         source = {
             type = "npc",
             id = 170290,
@@ -21360,7 +20510,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    975, 975, 1000, 
+                    1100, 1100, 1150, 
                 },
                 minLevel = 57,
                 maxLevel = 59,
@@ -21370,10 +20520,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25040,
             },
         },
-        contentTuningID = 1931,
     },
     [60904] = {
         name = "Medallion of Desire",
+        contentTuningID = -1,
         source = {
             type = "object",
             id = 353948,
@@ -21386,16 +20536,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 837,
     },
     [60905] = {
         name = "Infusing the Wildseed",
+        contentTuningID = 1931,
         source = {
             type = "npc",
             id = 160894,
@@ -21412,7 +20556,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3900, 3950, 4000, 
+                    4400, 4450, 4550, 
                 },
                 minLevel = 57,
                 maxLevel = 59,
@@ -21422,10 +20566,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 125190,
             },
         },
-        contentTuningID = 1931,
     },
     [60906] = {
         name = "Rightful Resting Place",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 159248,
@@ -21444,10 +20588,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [60910] = {
         name = "Masks of Deception",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 170705,
@@ -21466,10 +20610,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [60928] = {
         name = "Blackthorn Captives",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 170705,
@@ -21488,10 +20632,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [60934] = {
         name = "Report to Lord Herne",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 170705,
@@ -21510,10 +20654,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [60935] = {
         name = "Medallion of Avarice",
+        contentTuningID = 837,
         source = {
             type = "object",
             id = 353949,
@@ -21532,29 +20676,19 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [60950] = {
         name = "A Matter of Stealth",
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    7500, 7650, 7750, 4500, 3000, 
-                },
-                minLevel = 55,
-                maxLevel = 59,
-            },
-        },
-        contentTuningID = 1231,
+        contentTuningID = -1,
     },
     [60972] = {
         name = "The Hunt for the Baron",
+        contentTuningID = 1337,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    7500, 7650, 7750, 4500, 3000, 
+                    8500, 8650, 8800, 5100, 3400, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -21564,10 +20698,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 245700,
             },
         },
-        contentTuningID = 1337,
     },
     [60993] = {
         name = "Citadel of Loyalty",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160280,
@@ -21586,10 +20720,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [60994] = {
         name = "Lowering Their Defenses",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171001,
@@ -21608,10 +20742,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [60995] = {
         name = "Disloyalty",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 170999,
@@ -21630,10 +20764,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [60996] = {
         name = "Face Your Fears",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171147,
@@ -21652,10 +20786,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [61050] = {
         name = "How to Wear Seven Medallions",
+        contentTuningID = 1928,
         source = {
             type = "npc",
             id = 158653,
@@ -21668,10 +20802,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1928,
     },
     [61051] = {
         name = "The Absent-Minded Artisan",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 158921,
@@ -21688,7 +20822,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -21702,10 +20836,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [61061] = {
         name = "Ulfar's Guidance",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171138,
@@ -21724,10 +20858,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61076] = {
         name = "Into the Flame",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 141159,
@@ -21746,10 +20880,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [61077] = {
         name = "Confronting Sin",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 158653,
@@ -21768,10 +20902,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [61096] = {
         name = "The Arbiter's Will",
+        contentTuningID = 1324,
         source = {
             type = "npc",
             id = 159478,
@@ -21780,24 +20914,36 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    875, 900, 925, 525, 350, 180, 90, 
+                    1000, 1050, 1050, 600, 410, 200, 100, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 53,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 23870,
+                amount = 24100,
             },
         },
-        contentTuningID = 1324,
     },
     [61099] = {
         name = "The Search for Baine",
-        contentTuningID = 837,
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 162804,
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.469532,
+                        y = 0.417087,
+                    },
+                },
+            },
+        },
     },
     [61102] = {
         name = "Kivarr the Thornspeaker",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 141159,
@@ -21816,10 +20962,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61107] = {
         name = "A Land of Strife",
+        contentTuningID = 1324,
         source = {
             type = "npc",
             id = 171338,
@@ -21836,20 +20982,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3550, 3600, 3700, 2150, 1400, 700, 350, 
+                    4100, 4150, 4250, 2450, 1650, 825, 410, 
                 },
-                minLevel = 52,
-                maxLevel = 58,
+                minLevel = 53,
+                maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 119340,
+                amount = 120510,
             },
         },
-        contentTuningID = 1324,
     },
     [61113] = {
         name = "Kivarr's Den",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 170848,
@@ -21868,10 +21014,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [61135] = {
         name = "Heart of the Crest",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160037,
@@ -21890,13 +21036,13 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61138] = {
         contentTuningID = 0,
     },
     [61143] = {
         name = "Return to the Den",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171413,
@@ -21915,10 +21061,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61145] = {
         name = "Take The Fight To Them",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161907,
@@ -21937,10 +21083,22 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61171] = {
         name = "Unbroken Bonds",
+        contentTuningID = 837,
+        source = {
+            type = "npc",
+            id = 170848,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.462265,
+                        y = 0.567564,
+                    },
+                },
+            },
+        },
         rewards = {
             {
                 type = "money",
@@ -21952,10 +21110,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [61180] = {
         name = "Burn Before Reading",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 168744,
@@ -21974,10 +21132,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 2060,
     },
     [61190] = {
         name = "Wake of Ashes",
+        contentTuningID = 1337,
         source = {
             type = "npc",
             id = 172414,
@@ -21994,7 +21152,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3750, 3800, 3900, 2250, 1500, 
+                    4250, 4300, 4400, 2550, 1700, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -22004,10 +21162,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 122850,
             },
         },
-        contentTuningID = 1337,
     },
     [61226] = {
         name = "Extra Limbs",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 158529,
@@ -22026,10 +21184,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61227] = {
         name = "The Other Foot",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 164646,
@@ -22048,10 +21206,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61230] = {
         name = "Outside Influence",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171875,
@@ -22070,10 +21228,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61246] = {
         name = "Power of the Chosen",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 166211,
@@ -22092,10 +21250,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61252] = {
         name = "Call In a Favor",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 174343,
@@ -22114,14 +21272,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [61303] = {
         name = "It's Raining Sparkles",
-        contentTuningID = 837,
+        contentTuningID = -1,
     },
     [61323] = {
         name = "See What You've Done",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 158529,
@@ -22140,10 +21298,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [61335] = {
         name = "Rage Against the Cage",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 159814,
@@ -22162,10 +21320,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61355] = {
         name = "Rule 2: Keep a Low Profile",
+        contentTuningID = 1936,
         source = {
             type = "npc",
             id = 162804,
@@ -22182,7 +21340,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3750, 3800, 3900, 3950, 4000, 
+                    4250, 4300, 4400, 4450, 4550, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -22196,10 +21354,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 1936,
     },
     [61359] = {
         name = "Power of the Primus",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 165182,
@@ -22212,16 +21370,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 837,
     },
     [61388] = {
         name = "A Journey Made Together",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161904,
@@ -22234,16 +21386,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 837,
     },
     [61396] = {
         name = "Dark Developments",
+        contentTuningID = 837,
         source = {
             type = "object",
             id = 355825,
@@ -22262,24 +21408,18 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61397] = {
         name = "Opportunity Strikes",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161909,
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 837,
     },
     [61404] = {
         name = "Ember Court: Tubbins's Tea Party",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 173299,
@@ -22292,7 +21432,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
     },
     [61411] = {
         name = "Our Heart Will Go On",
@@ -22300,6 +21439,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [61412] = {
         name = "An Early End",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 168743,
@@ -22318,24 +21458,34 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
+    },
+    [61473] = {
+        name = "Sourcing Your Own Materials",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 168430,
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.299541,
+                        y = 0.388328,
+                    },
+                },
+            },
+        },
     },
     [61475] = {
         name = "The Heart of the Forest",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 171795,
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 2060,
     },
     [61479] = {
         name = "The Boon of Shapes",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 172431,
@@ -22348,16 +21498,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 837,
     },
     [61485] = {
         name = "I'll Only Say This Once",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160518,
@@ -22376,10 +21520,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [61492] = {
         name = "The Princeguard",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161977,
@@ -22392,16 +21536,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
-        },
-        contentTuningID = 2060,
     },
     [61518] = {
         name = "Follow Me",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 172574,
@@ -22420,24 +21558,18 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61541] = {
         name = "The Forge of Bonds",
+        contentTuningID = -1,
         source = {
             type = "npc",
-            id = 172431,
+            id = 165702,
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 837,
     },
     [61542] = {
         name = "The Boon of Binding",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 158553,
@@ -22450,16 +21582,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
-        },
-        contentTuningID = 837,
     },
     [61548] = {
         name = "Set Me Free",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 172573,
@@ -22478,10 +21604,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61550] = {
         name = "Strengthening the Bond",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 172677,
@@ -22494,16 +21620,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
-        },
-        contentTuningID = 837,
     },
     [61551] = {
         name = "Crush 'Em All",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 172573,
@@ -22522,10 +21642,42 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
+    },
+    [61552] = {
+        name = "The Hunt Watches",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 165702,
+            locations = {
+                [1702] = {
+                    {
+                        x = 0.393569,
+                        y = 0.544022,
+                    },
+                },
+            },
+        },
+    },
+    [61553] = {
+        name = "Know Where to Strike",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 164023,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.44668,
+                        y = 0.5628,
+                    },
+                },
+            },
+        },
     },
     [61567] = {
         name = "Grave Intent",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 167173,
@@ -22544,10 +21696,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61569] = {
         name = "Keys the Ruin",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 172805,
@@ -22566,10 +21718,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [61594] = {
         name = "This Way Out",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 172573,
@@ -22588,10 +21740,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61616] = {
         name = "The Ember Court",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 164966,
@@ -22610,10 +21762,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 772200,
             },
         },
-        contentTuningID = 2060,
     },
     [61697] = {
         name = "A New Age",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 174177,
@@ -22637,10 +21789,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [61701] = {
         name = "Searching the Grove",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 170705,
@@ -22659,10 +21811,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [61702] = {
         name = "A Swift Intervention",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173612,
@@ -22681,10 +21833,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [61703] = {
         name = "Nox Root",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171413,
@@ -22703,10 +21855,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61704] = {
         name = "Ember Court: Guest RSVPs",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164966,
@@ -22719,16 +21871,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
-        },
-        contentTuningID = 2060,
     },
     [61705] = {
         name = "Ember Court: Refreshments",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 164966,
@@ -22747,10 +21893,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 2060,
     },
     [61706] = {
         name = "Ember Court: Entertainment",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164966,
@@ -22763,16 +21909,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
-        },
-        contentTuningID = 2060,
     },
     [61709] = {
         name = "Witch's Satchel",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171413,
@@ -22791,10 +21931,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61710] = {
         name = "The Broken Spear",
+        contentTuningID = 837,
         source = {
             type = "object",
             id = 357726,
@@ -22813,10 +21953,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61711] = {
         name = "Ritual of Purification",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171413,
@@ -22827,10 +21967,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [61715] = {
         name = "Request of the Highlord",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 173383,
@@ -22847,7 +21987,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -22861,10 +22001,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [61716] = {
         name = "A Glimpse into Darkness",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 173384,
@@ -22881,7 +22021,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    6800, 6950, 7100, 7200, 7350, 7500, 7650, 7750, 7900, 8050, 
+                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -22895,20 +22035,20 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [61730] = {
         name = "The Captive King",
+        contentTuningID = 837,
         rewards = {
             {
                 type = "money",
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61739] = {
         name = "The Wayward Baron",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173172,
@@ -22927,10 +22067,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61740] = {
         name = "Playing Favorites",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173422,
@@ -22949,10 +22089,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [61741] = {
         name = "Pilfered Power",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173422,
@@ -22971,10 +22111,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61742] = {
         name = "A Fitting Guise",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173422,
@@ -22993,10 +22133,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [61743] = {
         name = "The Pupil Returns",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173172,
@@ -23015,10 +22155,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61744] = {
         name = "The Baron's Plan",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 172923,
@@ -23037,10 +22177,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [61745] = {
         name = "Mistress of Tomes",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 172923,
@@ -23059,10 +22199,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61746] = {
         name = "Cantrip Collections",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 172924,
@@ -23081,10 +22221,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61747] = {
         name = "Errant Enchantments",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 172924,
@@ -23103,10 +22243,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61748] = {
         name = "The Hall of Tomes",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 172924,
@@ -23125,10 +22265,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [61749] = {
         name = "Necessary Ingredients",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 172923,
@@ -23147,10 +22287,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61750] = {
         name = "Heart of the Forest",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173492,
@@ -23169,10 +22309,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [61751] = {
         name = "Cage Free Spores",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173492,
@@ -23191,10 +22331,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61752] = {
         name = "The Final Reagent",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173492,
@@ -23213,10 +22353,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61753] = {
         name = "Explosive Schemes",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173172,
@@ -23235,10 +22375,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61754] = {
         name = "No Crate Unturned",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173422,
@@ -23257,10 +22397,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61755] = {
         name = "Blinding the Brokers",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173422,
@@ -23279,10 +22419,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61756] = {
         name = "Designed to Fail",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173172,
@@ -23301,10 +22441,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61757] = {
         name = "Caught in the Act",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 172923,
@@ -23323,30 +22463,30 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [61758] = {
         name = "Improvised Implements",
+        contentTuningID = 837,
         rewards = {
             {
                 type = "money",
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [61759] = {
         name = "A Helpful Hand",
+        contentTuningID = 837,
         rewards = {
             {
                 type = "money",
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61760] = {
         name = "The Traitor Unmasked",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173172,
@@ -23365,10 +22505,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [61761] = {
         name = "The Better Part of Valor",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173831,
@@ -23392,10 +22532,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [61767] = {
         name = "A Perilous Journey",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 154627,
@@ -23414,10 +22554,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [61768] = {
         name = "Stronger Together",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173222,
@@ -23436,10 +22576,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61769] = {
         name = "Fight and Flight",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171483,
@@ -23458,10 +22598,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61770] = {
         name = "The Butchers of Bastion",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 168743,
@@ -23480,10 +22620,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61771] = {
         name = "Justice from Above",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 166333,
@@ -23502,10 +22642,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61772] = {
         name = "Dark Developments",
+        contentTuningID = 837,
         source = {
             type = "object",
             id = 357246,
@@ -23524,10 +22664,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61773] = {
         name = "Descended",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 166333,
@@ -23546,10 +22686,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [61774] = {
         name = "Burn Before Reading",
+        contentTuningID = 1930,
         source = {
             type = "npc",
             id = 168744,
@@ -23562,10 +22702,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 1930,
     },
     [61775] = {
         name = "An Early End",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 168743,
@@ -23584,10 +22724,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61776] = {
         name = "Trouble on the Western Front",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 168860,
@@ -23606,10 +22746,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61777] = {
         name = "Charging The Blade",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 166211,
@@ -23628,10 +22768,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61778] = {
         name = "Aerial Advantage",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 167810,
@@ -23650,10 +22790,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61779] = {
         name = "Grave Intent",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 167173,
@@ -23672,10 +22812,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61780] = {
         name = "Power of the Chosen",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 166211,
@@ -23694,10 +22834,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [61781] = {
         name = "The End is Now",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 166211,
@@ -23716,10 +22856,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61782] = {
         name = "Pursuit of Justice",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 172002,
@@ -23743,10 +22883,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 837,
     },
     [61785] = {
         name = "An Expected Visitor",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 160037,
@@ -23765,10 +22905,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61869] = {
         name = "Search the Place",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164679,
@@ -23781,34 +22921,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
-        },
-        contentTuningID = 837,
     },
     [61874] = {
         name = "A Chilling Summons",
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    850, 850, 675, 500, 340, 170, 85, 
-                },
-                minLevel = 50,
-                maxLevel = 56,
-            },
-            {
-                type = "money",
-                amount = 23400,
-            },
-        },
-        contentTuningID = 1400,
+        contentTuningID = -1,
     },
     [61876] = {
         name = "Take Heart",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173193,
@@ -23827,10 +22947,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [61877] = {
         name = "Return to the Hold",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173193,
@@ -23849,10 +22969,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61878] = {
         name = "Crest of Greatness",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173313,
@@ -23871,10 +22991,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 837,
     },
     [61880] = {
         name = "Honored Attendance",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 165399,
@@ -23893,10 +23013,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 2060,
     },
     [61882] = {
         name = "Formal Entertainment",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 165494,
@@ -23915,10 +23035,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 2060,
     },
     [61884] = {
         name = "Formal Refreshments",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 173299,
@@ -23937,15 +23057,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 2060,
     },
     [61946] = {
         name = "Natural Defenders",
-        contentTuningID = 837,
+        contentTuningID = -1,
     },
     [61947] = {
         name = "Lurking In The Shadows",
-        contentTuningID = 837,
+        contentTuningID = -1,
     },
     [61948] = {
         name = "Airborne Defense Force",
@@ -23957,6 +23076,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [62000] = {
         name = "Choosing Your Purpose",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 159478,
@@ -23973,7 +23093,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
+                    3850, 3950, 4000, 4100, 4150, 4250, 4300, 4400, 4450, 4550, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -23987,10 +23107,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [62159] = {
         name = "Aiding the Shadowlands",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 159478,
@@ -24007,7 +23127,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3400, 3500, 3550, 3600, 3700, 3750, 3800, 3900, 3950, 4000, 
+                    3850, 3950, 4000, 4100, 4150, 4250, 4300, 4400, 4450, 4550, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -24021,15 +23141,15 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [62186] = {
         name = "Swollen Anima Seed",
+        contentTuningID = 744,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9550, 9700, 9850, 10050, 
+                    10600, 10800, 11000, 11200, 11350, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -24046,20 +23166,19 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "reputation",
                 id = 2422,
                 amount = 250,
-                restrictions = 924,
             },
         },
-        contentTuningID = 744,
     },
     [62189] = {
         name = "Parasol Components",
+        contentTuningID = 746,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9700, 9850, 10050, 
+                    11200, 11350, 
                 },
-                minLevel = 57,
+                minLevel = 58,
                 maxLevel = 59,
             },
             {
@@ -24068,25 +23187,25 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 35,
             },
         },
-        contentTuningID = 746,
     },
     [62237] = {
         name = "Mysterious Soul Mirror",
+        contentTuningID = 2060,
         rewards = {
             {
                 type = "money",
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [62246] = {
         name = "A Fallen Friend",
+        contentTuningID = 744,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9550, 9700, 9850, 10050, 
+                    10600, 10800, 11000, 11200, 11350, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -24103,18 +23222,17 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "reputation",
                 id = 2422,
                 amount = 350,
-                restrictions = 924,
             },
         },
-        contentTuningID = 744,
     },
     [62259] = {
         name = "Anima-Laden Dreamcatcher",
+        contentTuningID = 744,
         rewards = {
             {
                 type = "experience",
                 amounts = {
-                    9350, 9550, 9700, 9850, 10050, 
+                    10600, 10800, 11000, 11200, 11350, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -24131,105 +23249,32 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "reputation",
                 id = 2422,
                 amount = 350,
-                restrictions = 924,
             },
         },
-        contentTuningID = 744,
     },
     [62275] = {
         name = "Bastion",
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    23400, 23635, 23870, 24100, 24335, 24570, 24805, 25040, 25270, 25505, 25740, 
-                },
-                minLevel = 50,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 807,
+        contentTuningID = -1,
     },
     [62277] = {
         name = "Ardenweald",
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    23400, 23635, 23870, 24100, 24335, 24570, 24805, 25040, 25270, 25505, 25740, 
-                },
-                minLevel = 50,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 807,
+        contentTuningID = -1,
     },
     [62278] = {
         name = "Maldraxxus",
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    23400, 23635, 23870, 24100, 24335, 24570, 24805, 25040, 25270, 25505, 25740, 
-                },
-                minLevel = 50,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 807,
+        contentTuningID = -1,
     },
     [62279] = {
         name = "Revendreth",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 159478,
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    23400, 23635, 23870, 24100, 24335, 24570, 24805, 25040, 25270, 25505, 25740, 
-                },
-                minLevel = 50,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 807,
     },
     [62297] = {
         name = "A Fatal Failure",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 174020,
@@ -24248,10 +23293,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [62308] = {
         name = "Mantle of Mastery",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 172813,
@@ -24270,18 +23315,18 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 772200,
             },
         },
-        contentTuningID = 837,
     },
     [62309] = {
         name = "Adventurer: Secutor Mevix",
-        contentTuningID = 837,
+        contentTuningID = -1,
     },
     [62312] = {
         name = "Adventurer: Gunn Gorgebone",
-        contentTuningID = 837,
+        contentTuningID = -1,
     },
     [62317] = {
         name = "Casting Doubt",
+        contentTuningID = 837,
         source = {
             type = "object",
             id = 358319,
@@ -24300,10 +23345,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [62320] = {
         name = "Regalia de Rigueur",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 174120,
@@ -24322,10 +23367,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
-        contentTuningID = 837,
     },
     [62371] = {
         name = "Tirna Scithe: A Warning Silence",
+        contentTuningID = 1711,
         source = {
             type = "npc",
             id = 168032,
@@ -24342,20 +23387,20 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    15000, 15250, 15500, 9000, 6000, 
+                    17250, 17550, 17900, 10350, 
                 },
-                minLevel = 55,
+                minLevel = 56,
                 maxLevel = 59,
             },
             {
                 type = "money",
-                amount = 982800,
+                amount = 992160,
             },
         },
-        contentTuningID = 1711,
     },
     [62406] = {
         name = "Staff of the Primus",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 161907,
@@ -24374,10 +23419,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 2060,
     },
     [62414] = {
         name = "Burying Suspicion",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 173422,
@@ -24396,6 +23441,9 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 257400,
             },
         },
+    },
+    [62422] = {
+        name = "Ardenmoth Soul",
         contentTuningID = 837,
     },
     [62428] = {
@@ -24404,6 +23452,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [62458] = {
         name = "De Other Side",
+        contentTuningID = 2044,
         source = {
             type = "npc",
             id = 174341,
@@ -24422,10 +23471,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2044,
     },
     [62462] = {
         name = "WANTED: The Key of Eyes",
+        contentTuningID = 837,
         source = {
             type = "object",
             id = 358382,
@@ -24444,13 +23493,32 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 514800,
             },
         },
-        contentTuningID = 837,
     },
     [62467] = {
         name = "Seed of a Thought",
+        contentTuningID = 2060,
+        source = {
+            type = "npc",
+            id = 166476,
+            locations = {
+                [1662] = {
+                    {
+                        x = 0.333591,
+                        y = 0.622966,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
     },
     [62555] = {
         name = "A Touch of Humility",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 160037,
@@ -24469,10 +23537,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [62557] = {
         name = "Our Realm Reclaimed",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 160037,
@@ -24483,10 +23551,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [62654] = {
         name = "Maw Walker",
+        contentTuningID = 1337,
         source = {
             type = "npc",
             id = 162804,
@@ -24503,7 +23571,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7500, 7650, 7750, 4500, 3000, 
+                    8500, 8650, 8800, 5100, 3400, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -24513,10 +23581,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 245700,
             },
         },
-        contentTuningID = 1337,
     },
     [62691] = {
         name = "A Calling in Revendreth",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 165302,
@@ -24529,10 +23597,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 2060,
     },
     [62692] = {
         name = "A Calling in Bastion",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 160387,
@@ -24545,10 +23613,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 2060,
     },
     [62693] = {
         name = "A Calling in Ardenweald",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167195,
@@ -24561,10 +23629,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 2060,
     },
     [62694] = {
         name = "A Calling in Maldraxxus",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 158339,
@@ -24577,10 +23645,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 2060,
     },
     [62695] = {
         name = "A Call to Service",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 172605,
@@ -24593,10 +23661,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
     },
     [62697] = {
         name = "A Call to Service",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 165702,
@@ -24615,10 +23683,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 837,
     },
     [62698] = {
         name = "A Call to Service",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 167745,
@@ -24637,10 +23705,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [62704] = {
         name = "The Threads of Fate",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 174871,
@@ -24653,28 +23721,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-            },
-            {
-                type = "money",
-                amounts = {
-                    23400, 23635, 23870, 24100, 24335, 24570, 24805, 25040, 25270, 25505, 25740, 
-                },
-                minLevel = 50,
-                maxLevel = 60,
-            },
-        },
-        contentTuningID = 807,
     },
     [62714] = {
         name = "A Gift for An Acolyte",
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 160598,
@@ -24687,10 +23737,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
     },
     [62715] = {
         name = "More Than A Gift",
+        contentTuningID = 0,
         source = {
             type = "npc",
             id = 174900,
@@ -24703,10 +23753,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
     },
     [62716] = {
         name = "Re-Introductions",
+        contentTuningID = 807,
         source = {
             type = "npc",
             id = 174871,
@@ -24723,7 +23773,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    850, 875, 875, 900, 925, 925, 950, 975, 975, 1000, 
+                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
                 },
                 minLevel = 50,
                 maxLevel = 59,
@@ -24737,10 +23787,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 807,
     },
     [62789] = {
         name = "Of Great Renown",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 160037,
@@ -24759,10 +23809,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [62790] = {
         name = "The Path Provides",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 167745,
@@ -24781,10 +23831,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 2060,
     },
     [62791] = {
         name = "Our Most Precious Resource",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 160387,
@@ -24803,10 +23853,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [62792] = {
         name = "Into the Reservoir",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 167745,
@@ -24825,10 +23875,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 2060,
     },
     [62793] = {
         name = "It's All Coming Together",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 160037,
@@ -24847,10 +23897,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [62794] = {
         name = "Enhancing the Hold",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 167745,
@@ -24874,10 +23924,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 1,
             },
         },
-        contentTuningID = 2060,
     },
     [62795] = {
         name = "A Conduit for Good",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 160212,
@@ -24896,10 +23946,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
         },
-        contentTuningID = 2060,
     },
     [62796] = {
         name = "Return to Adrestes",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164079,
@@ -24912,18 +23962,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-            {
-                type = "currency",
-                id = 1810,
-                amount = 5,
-            },
-        },
-        contentTuningID = 2060,
     },
     [62830] = {
         name = "Tracking Thrall",
@@ -24931,6 +23969,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [62832] = {
         name = "Friends in Dark Places",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 160212,
@@ -24949,10 +23988,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [62833] = {
         name = "A Hero of Great Renown",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 165182,
@@ -24965,16 +24004,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 2060,
     },
     [62834] = {
         name = "Glorious Ambition",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161909,
@@ -24987,16 +24020,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 2060,
     },
     [62835] = {
         name = "A Call to Service",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161909,
@@ -25009,13 +24036,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 2060,
     },
     [62836] = {
         name = "Tracking Anduin",
@@ -25023,6 +24043,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [62837] = {
         name = "Hopeful News",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 162804,
@@ -25035,16 +24056,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 837,
     },
     [62838] = {
         name = "Soulful Recovery",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 164079,
@@ -25068,10 +24083,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 5,
             },
         },
-        contentTuningID = 837,
     },
     [62839] = {
         name = "Anima is Strength",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 158339,
@@ -25084,16 +24099,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 2060,
     },
     [62840] = {
         name = "Into the Reservoir",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161909,
@@ -25106,16 +24115,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 2060,
     },
     [62843] = {
         name = "The Soul Contact",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167748,
@@ -25128,16 +24131,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 2060,
     },
     [62844] = {
         name = "Return to Draka",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164079,
@@ -25150,21 +24147,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-            {
-                type = "currency",
-                id = 1810,
-                amount = 5,
-            },
-        },
-        contentTuningID = 2060,
     },
     [62845] = {
         name = "Bringing It All Together",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161907,
@@ -25177,16 +24163,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 2060,
     },
     [62846] = {
         name = "Sanctum Improvements",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161909,
@@ -25199,21 +24179,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-            {
-                type = "currency",
-                id = 1822,
-                amount = 1,
-            },
-        },
-        contentTuningID = 2060,
     },
     [62848] = {
         name = "Conduits, What Are They For?",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161904,
@@ -25226,16 +24195,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 2060,
     },
     [62856] = {
         name = "Building Your Renown",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 171934,
@@ -25254,10 +24217,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
-        contentTuningID = 2060,
     },
     [62857] = {
         name = "The Court's Bounty",
+        contentTuningID = 2060,
         source = {
             type = "npc",
             id = 172605,
@@ -25270,10 +24233,16 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
     },
     [62870] = {
         name = "Souls for Sinfall",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164079,
@@ -25286,10 +24255,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
     },
     [62882] = {
         name = "Setting the Ground Rules",
+        contentTuningID = 1936,
         source = {
             type = "npc",
             id = 162804,
@@ -25306,7 +24275,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    3750, 3800, 3900, 3950, 4000, 
+                    4250, 4300, 4400, 4450, 4550, 
                 },
                 minLevel = 55,
                 maxLevel = 59,
@@ -25320,10 +24289,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 maxLevel = 60,
             },
         },
-        contentTuningID = 1936,
     },
     [62883] = {
         name = "The Forest Will Sing Your Name",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 156634,
@@ -25336,16 +24305,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 837,
     },
     [62884] = {
         name = "Who Shapes the Forest",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 165702,
@@ -25358,16 +24321,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 2060,
     },
     [62890] = {
         name = "The Life-blood of the Forest",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 167195,
@@ -25380,16 +24337,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 2060,
     },
     [62891] = {
         name = "Into the Reservoir",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 165702,
@@ -25402,16 +24353,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 2060,
     },
     [62892] = {
         name = "Recover the Lost",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 165702,
@@ -25424,16 +24369,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 25740,
-            },
-        },
-        contentTuningID = 2060,
     },
     [62893] = {
         name = "Do What We Cannot",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 158553,
@@ -25446,20 +24385,42 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
     },
     [62894] = {
         name = "Flutterback",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 164079,
+        },
     },
     [62897] = {
+        name = "Recovered Souls",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 158553,
+        },
     },
     [62898] = {
+        name = "The First New Growth",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 165702,
+        },
     },
     [62899] = {
         name = "The Endless Forest",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 158553,
+        },
     },
     [62900] = {
         name = "A Conduit for Growth",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 172677,
@@ -25472,16 +24433,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
-            },
-        },
-        contentTuningID = 2060,
     },
     [62902] = {
         name = "Anima is Power",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 165302,
@@ -25494,10 +24449,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
     },
     [62903] = {
         name = "Into the Reservoir",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 172605,
@@ -25510,10 +24465,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
     },
     [62904] = {
         name = "The Souls Plight",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 172605,
@@ -25526,10 +24481,10 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
     },
     [62905] = {
         name = "Back into the Darkness",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 164738,
@@ -25542,10 +24497,16 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
     },
     [62914] = {
         name = "A Coalition of the Willing",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 164738,
@@ -25558,10 +24519,16 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
     },
     [62915] = {
         name = "Home Improvement",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 172605,
@@ -25574,10 +24541,21 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+            {
+                type = "currency",
+                id = 1822,
+                amount = 1,
+            },
+        },
     },
     [62918] = {
         name = "Binding Power",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171950,
@@ -25590,10 +24568,16 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
     },
     [62919] = {
         name = "Strengthening the Bond",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171979,
@@ -25606,10 +24590,16 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
     },
     [62920] = {
         name = "A Conduit For Change",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171950,
@@ -25622,10 +24612,16 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
     },
     [62921] = {
         name = "Our True Purpose",
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 171950,
@@ -25638,10 +24634,21 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 0,
+        rewards = {
+            {
+                type = "money",
+                amount = 772200,
+            },
+            {
+                type = "currency",
+                id = 1822,
+                amount = 1,
+            },
+        },
     },
     [62932] = {
         name = "Explore Torghast",
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 164079,
@@ -25654,12 +24661,204 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
-        contentTuningID = 837,
     },
     [62935] = {
-        name = "Questioning the Locals",
+        name = "Remnants of Hope",
+        contentTuningID = -1,
     },
     [62938] = {
         name = "Information for a price",
+        contentTuningID = -1,
+    },
+    [63029] = {
+        name = "The Highlord Calls",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 160037,
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.556667,
+                        y = 0.42,
+                    },
+                },
+            },
+        },
+    },
+    [63030] = {
+        contentTuningID = -1,
+    },
+    [63032] = {
+        name = "The Highlord Calls",
+        contentTuningID = -1,
+    },
+    [63033] = {
+        name = "The Highlord Calls",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 158653,
+        },
+    },
+    [63052] = {
+        name = "Step of Faith",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 167745,
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.426101,
+                        y = 0.531079,
+                    },
+                },
+            },
+        },
+    },
+    [63053] = {
+        name = "At a Moment's Notice",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 175907,
+            locations = {
+                [1707] = {
+                    {
+                        x = 0.488643,
+                        y = 0.627194,
+                    },
+                },
+            },
+        },
+    },
+    [63054] = {
+        name = "Strength in Numbers",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 161909,
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.527558,
+                        y = 0.382723,
+                    },
+                },
+            },
+        },
+    },
+    [63055] = {
+        name = "Powering the Portals",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 161909,
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.527558,
+                        y = 0.382723,
+                    },
+                },
+            },
+        },
+    },
+    [63057] = {
+        name = "Restoring Power",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 161909,
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.527558,
+                        y = 0.382723,
+                    },
+                },
+            },
+        },
+    },
+    [63059] = {
+        name = "Blink of an Eye",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 175963,
+            locations = {
+                [1698] = {
+                    {
+                        x = 0.597872,
+                        y = 0.317021,
+                    },
+                },
+            },
+        },
+    },
+    [63064] = {
+        name = "Sanctum Upgrade: Adventures Scouting Map",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 172605,
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.557114,
+                        y = 0.260105,
+                    },
+                },
+            },
+        },
+    },
+    [63066] = {
+        name = "Sanctum Upgrade: Anima Conductor",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 172605,
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.557114,
+                        y = 0.260105,
+                    },
+                },
+            },
+        },
+    },
+    [63067] = {
+        name = "Root Restoration",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 165702,
+            locations = {
+                [1702] = {
+                    {
+                        x = 0.393569,
+                        y = 0.544022,
+                    },
+                },
+            },
+        },
+    },
+    [63073] = {
+        name = "A Mycelial Network",
+        contentTuningID = -1,
+        source = {
+            type = "npc",
+            id = 165702,
+            locations = {
+                [1702] = {
+                    {
+                        x = 0.393569,
+                        y = 0.544022,
+                    },
+                },
+            },
+        },
     },
 })

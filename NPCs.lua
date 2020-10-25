@@ -1,6 +1,17 @@
 ----- AUTO GENERATED - DO NOT EDIT
 
 BtWQuestsDatabase:AddNPCsTable({
+    [122688] = {
+        name = "Bwonsamdi",
+        locations = {
+            [863] = {
+                {
+                    x = 0.395621,
+                    y = 0.245306,
+                },
+            },
+        },
+    },
     [141159] = {
         name = "Ulfar",
         locations = {
@@ -75,8 +86,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1533] = {
                 {
-                    x = 0.538284,
-                    y = 0.736626,
+                    x = 0.538357,
+                    y = 0.736757,
                 },
             },
         },
@@ -257,6 +268,9 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [157138] = {
+        name = "Aspirant Akimos",
+    },
     [157199] = {
         name = "Stonehead",
         locations = {
@@ -317,8 +331,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1533] = {
                 {
-                    x = 0.483644,
-                    y = 0.727991,
+                    x = 0.642274,
+                    y = 0.714489,
                 },
             },
         },
@@ -339,8 +353,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1533] = {
                 {
-                    x = 0.646287,
-                    y = 0.71078,
+                    x = 0.647673,
+                    y = 0.709541,
                 },
             },
         },
@@ -350,8 +364,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1533] = {
                 {
-                    x = 0.572689,
-                    y = 0.392098,
+                    x = 0.572696,
+                    y = 0.392165,
                 },
             },
         },
@@ -438,8 +452,19 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1533] = {
                 {
-                    x = 0.513323,
-                    y = 0.595387,
+                    x = 0.513314,
+                    y = 0.595051,
+                },
+            },
+        },
+    },
+    [158005] = {
+        name = "Tamesis",
+        locations = {
+            [1533] = {
+                {
+                    x = 0.523197,
+                    y = 0.613572,
                 },
             },
         },
@@ -449,8 +474,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1536] = {
                 {
-                    x = 0.369296,
-                    y = 0.684296,
+                    x = 0.379061,
+                    y = 0.668492,
                 },
             },
         },
@@ -548,8 +573,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1698] = {
                 {
-                    x = 0.47623,
-                    y = 0.287008,
+                    x = 0.475887,
+                    y = 0.291489,
                 },
             },
         },
@@ -702,8 +727,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1699] = {
                 {
-                    x = 0.517884,
-                    y = 0.375757,
+                    x = 0.518519,
+                    y = 0.374074,
                 },
             },
         },
@@ -735,8 +760,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1533] = {
                 {
-                    x = 0.547808,
-                    y = 0.411644,
+                    x = 0.547804,
+                    y = 0.411734,
                 },
             },
         },
@@ -768,8 +793,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1533] = {
                 {
-                    x = 0.517424,
-                    y = 0.809873,
+                    x = 0.517363,
+                    y = 0.809859,
                 },
             },
         },
@@ -867,8 +892,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1670] = {
                 {
-                    x = 0.388685,
-                    y = 0.699083,
+                    x = 0.393578,
+                    y = 0.688073,
                 },
             },
         },
@@ -889,8 +914,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1533] = {
                 {
-                    x = 0.572238,
-                    y = 0.865817,
+                    x = 0.573296,
+                    y = 0.865417,
                 },
             },
         },
@@ -900,8 +925,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1533] = {
                 {
-                    x = 0.547904,
-                    y = 0.412447,
+                    x = 0.547954,
+                    y = 0.412409,
                 },
             },
         },
@@ -955,8 +980,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1533] = {
                 {
-                    x = 0.541024,
-                    y = 0.736205,
+                    x = 0.541056,
+                    y = 0.736082,
                 },
             },
         },
@@ -1010,8 +1035,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1536] = {
                 {
-                    x = 0.392681,
-                    y = 0.558857,
+                    x = 0.393188,
+                    y = 0.554682,
                 },
             },
         },
@@ -1131,8 +1156,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1536] = {
                 {
-                    x = 0.338908,
-                    y = 0.310474,
+                    x = 0.339378,
+                    y = 0.311587,
                 },
             },
         },
@@ -1208,8 +1233,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1707] = {
                 {
-                    x = 0.438206,
-                    y = 0.406847,
+                    x = 0.438353,
+                    y = 0.40708,
                 },
             },
         },
@@ -1455,6 +1480,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [161353] = {
+        name = "Huln Highmountain",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.299983,
+                    y = 0.449051,
+                },
+            },
+        },
+    },
     [161378] = {
         name = "Ara'lon",
         locations = {
@@ -1584,8 +1620,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1701] = {
                 {
-                    x = 0.44992,
-                    y = 0.357097,
+                    x = 0.474432,
+                    y = 0.363636,
                 },
             },
         },
@@ -1679,7 +1715,7 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [161733] = {
-        name = "Anzio The Infallible",
+        name = "Anzio the Infallible",
         locations = {
             [1536] = {
                 {
@@ -1782,8 +1818,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1698] = {
                 {
-                    x = 0.527558,
-                    y = 0.382723,
+                    x = 0.52695,
+                    y = 0.382979,
                 },
             },
         },
@@ -1815,8 +1851,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1699] = {
                 {
-                    x = 0.502347,
-                    y = 0.181354,
+                    x = 0.501235,
+                    y = 0.181481,
                 },
             },
         },
@@ -2151,13 +2187,24 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [164023] = {
+        name = "Watcher Vesperbloom",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.44668,
+                    y = 0.5628,
+                },
+            },
+        },
+    },
     [164079] = {
         name = "Highlord Bolvar Fordragon",
         locations = {
             [1670] = {
                 {
-                    x = 0.392355,
-                    y = 0.689908,
+                    x = 0.399206,
+                    y = 0.685987,
                 },
             },
         },
@@ -2179,7 +2226,7 @@ BtWQuestsDatabase:AddNPCsTable({
             [1536] = {
                 {
                     x = 0.503664,
-                    y = 0.442778,
+                    y = 0.417301,
                 },
             },
         },
@@ -2250,17 +2297,6 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
-    [164579] = {
-        name = "Overseer Kah-Sher",
-        locations = {
-            [1670] = {
-                {
-                    x = 0.389908,
-                    y = 0.704587,
-                },
-            },
-        },
-    },
     [164619] = {
         name = "Baroness Vashj",
         locations = {
@@ -2268,6 +2304,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.508267,
                     y = 0.24492,
+                },
+            },
+        },
+    },
+    [164627] = {
+        name = "Reldorn",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.352647,
+                    y = 0.51123,
                 },
             },
         },
@@ -2321,8 +2368,19 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1700] = {
                 {
-                    x = 0.490135,
-                    y = 0.587065,
+                    x = 0.477438,
+                    y = 0.573418,
+                },
+            },
+        },
+    },
+    [164741] = {
+        name = "Tactician Sakaa",
+        locations = {
+            [1699] = {
+                {
+                    x = 0.580247,
+                    y = 0.596296,
                 },
             },
         },
@@ -2332,8 +2390,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1699] = {
                 {
-                    x = 0.25941,
-                    y = 0.557288,
+                    x = 0.259259,
+                    y = 0.551852,
                 },
             },
         },
@@ -2343,8 +2401,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1699] = {
                 {
-                    x = 0.522706,
-                    y = 0.371842,
+                    x = 0.518519,
+                    y = 0.374074,
                 },
             },
         },
@@ -2398,8 +2456,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1533] = {
                 {
-                    x = 0.528272,
-                    y = 0.47879,
+                    x = 0.52756,
+                    y = 0.477638,
                 },
             },
         },
@@ -2409,8 +2467,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1533] = {
                 {
-                    x = 0.52816,
-                    y = 0.456945,
+                    x = 0.52876,
+                    y = 0.456495,
                 },
             },
         },
@@ -2596,8 +2654,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1525] = {
                 {
-                    x = 0.524396,
-                    y = 0.353288,
+                    x = 0.524369,
+                    y = 0.353204,
                 },
             },
         },
@@ -2607,8 +2665,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1525] = {
                 {
-                    x = 0.41015,
-                    y = 0.548107,
+                    x = 0.4101,
+                    y = 0.548029,
                 },
             },
         },
@@ -2618,8 +2676,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1702] = {
                 {
-                    x = 0.394872,
-                    y = 0.542308,
+                    x = 0.393569,
+                    y = 0.544022,
                 },
             },
         },
@@ -2657,6 +2715,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [165841] = {
+        name = "Huln Highmountain",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.352647,
+                    y = 0.51186,
+                },
+            },
+        },
+    },
     [165859] = {
         name = "Dimwiddle",
         locations = {
@@ -2684,8 +2753,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1525] = {
                 {
-                    x = 0.40264,
-                    y = 0.305924,
+                    x = 0.402636,
+                    y = 0.30603,
                 },
             },
         },
@@ -2708,6 +2777,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.193176,
                     y = 0.572136,
+                },
+            },
+        },
+    },
+    [165951] = {
+        name = "Bwonsamdi",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.483607,
+                    y = 0.524254,
+                },
+            },
+        },
+    },
+    [165968] = {
+        name = "Hanzabu",
+        locations = {
+            [863] = {
+                {
+                    x = 0.395069,
+                    y = 0.247222,
                 },
             },
         },
@@ -2789,13 +2880,24 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [166461] = {
+        name = "Spirit of Vol'jin",
+        locations = {
+            [1543] = {
+                {
+                    x = 0.457924,
+                    y = 0.850215,
+                },
+            },
+        },
+    },
     [166476] = {
         name = "Warden Casad",
         locations = {
             [1662] = {
                 {
-                    x = 0.699143,
-                    y = 0.446538,
+                    x = 0.329585,
+                    y = 0.624999,
                 },
             },
         },
@@ -3047,8 +3149,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1701] = {
                 {
-                    x = 0.538241,
-                    y = 0.060018,
+                    x = 0.538826,
+                    y = 0.059659,
                 },
             },
         },
@@ -3080,8 +3182,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1533] = {
                 {
-                    x = 0.412996,
-                    y = 0.542643,
+                    x = 0.412696,
+                    y = 0.543543,
                 },
             },
         },
@@ -3127,8 +3229,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1670] = {
                 {
-                    x = 0.403246,
-                    y = 0.665811,
+                    x = 0.403364,
+                    y = 0.666055,
                 },
             },
         },
@@ -3161,7 +3263,7 @@ BtWQuestsDatabase:AddNPCsTable({
             [1670] = {
                 {
                     x = 0.408257,
-                    y = 0.658716,
+                    y = 0.655046,
                 },
             },
         },
@@ -3232,6 +3334,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [167686] = {
+        name = "Lord Herne",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.390744,
+                    y = 0.637479,
+                },
+            },
+        },
+    },
+    [167688] = {
+        name = "Lady Moonberry",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.391253,
+                    y = 0.637311,
+                },
+            },
+        },
+    },
     [167689] = {
         name = "Prince Renathal",
         locations = {
@@ -3248,8 +3372,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1707] = {
                 {
-                    x = 0.425556,
-                    y = 0.53,
+                    x = 0.426101,
+                    y = 0.531079,
                 },
             },
         },
@@ -3371,6 +3495,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.503029,
                     y = 0.677063,
+                },
+            },
+        },
+    },
+    [168427] = {
+        name = "Artemede",
+        locations = {
+            [1707] = {
+                {
+                    x = 0.281765,
+                    y = 0.423526,
+                },
+            },
+        },
+    },
+    [168430] = {
+        name = "Dactylis",
+        locations = {
+            [1707] = {
+                {
+                    x = 0.299541,
+                    y = 0.388328,
                 },
             },
         },
@@ -3600,8 +3746,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1536] = {
                 {
-                    x = 0.394444,
-                    y = 0.467108,
+                    x = 0.394458,
+                    y = 0.465873,
                 },
             },
         },
@@ -4060,6 +4206,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [171655] = {
+        name = "Spirit of Vol'jin",
+        locations = {
+            [1543] = {
+                {
+                    x = 0.447844,
+                    y = 0.410254,
+                },
+            },
+        },
+    },
     [171770] = {
         name = "Ve'nari",
         locations = {
@@ -4093,6 +4250,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [171806] = {
+        name = "Spirit of Vol'jin",
+        locations = {
+            [1543] = {
+                {
+                    x = 0.409381,
+                    y = 0.642415,
+                },
+            },
+        },
+    },
     [171821] = {
         name = "Secutor Mevix",
         locations = {
@@ -4100,6 +4268,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.429693,
                     y = 0.742125,
+                },
+            },
+        },
+    },
+    [171838] = {
+        name = "Lord Herne",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.351806,
+                    y = 0.724447,
                 },
             },
         },
@@ -4120,8 +4299,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1700] = {
                 {
-                    x = 0.453759,
-                    y = 0.293207,
+                    x = 0.453968,
+                    y = 0.295238,
                 },
             },
         },
@@ -4148,6 +4327,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [171992] = {
+        name = "Lady Moonberry",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.361674,
+                    y = 0.696257,
+                },
+            },
+        },
+    },
     [172002] = {
         name = "Xandria",
         locations = {
@@ -4155,6 +4345,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.317791,
                     y = 0.303254,
+                },
+            },
+        },
+    },
+    [172010] = {
+        name = "Kivarr",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.389825,
+                    y = 0.637559,
+                },
+            },
+        },
+    },
+    [172091] = {
+        name = "Lord Herne",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.389335,
+                    y = 0.634345,
                 },
             },
         },
@@ -4173,10 +4385,10 @@ BtWQuestsDatabase:AddNPCsTable({
     [172431] = {
         name = "Lady Moonberry",
         locations = {
-            [1701] = {
+            [1565] = {
                 {
-                    x = 0.491477,
-                    y = 0.394886,
+                    x = 0.493411,
+                    y = 0.523624,
                 },
             },
         },
@@ -4208,8 +4420,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1699] = {
                 {
-                    x = 0.557114,
-                    y = 0.260105,
+                    x = 0.558025,
+                    y = 0.259259,
                 },
             },
         },
@@ -4230,8 +4442,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1701] = {
                 {
-                    x = 0.334621,
-                    y = 0.452728,
+                    x = 0.33428,
+                    y = 0.451705,
                 },
             },
         },
@@ -4511,6 +4723,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [174609] = {
+        name = "Zaki",
+        locations = {
+            [1702] = {
+                {
+                    x = 0.532466,
+                    y = 0.328921,
+                },
+            },
+        },
+    },
     [174871] = {
         name = "Fatescribe Roh-Tahl",
         locations = {
@@ -4529,6 +4752,39 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.538657,
                     y = 0.739456,
+                },
+            },
+        },
+    },
+    [175133] = {
+        name = "Pathscribe Roh-Avonavi",
+        locations = {
+            [1671] = {
+                {
+                    x = 0.642028,
+                    y = 0.496036,
+                },
+            },
+        },
+    },
+    [175907] = {
+        name = "Khamsius",
+        locations = {
+            [1707] = {
+                {
+                    x = 0.488643,
+                    y = 0.627194,
+                },
+            },
+        },
+    },
+    [175963] = {
+        name = "Serafina Von",
+        locations = {
+            [1698] = {
+                {
+                    x = 0.597872,
+                    y = 0.317021,
                 },
             },
         },
