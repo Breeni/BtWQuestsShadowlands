@@ -543,6 +543,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
 })
 Database:AddChain(Chain.TheMawEmbed, {
     name = "Return to The Maw",
+    questline = 1123,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
@@ -657,8 +658,40 @@ Database:AddChain(Chain.Torghast, {
     },
     items = {
         {
-            type = "npc",
-            id = 164079,
+            variations = {
+                {
+                    type = "quest",
+                    id = 63029,
+                    restrictions = {
+                        type = "covenant",
+                        id = 1,
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 63033,
+                    restrictions = {
+                        type = "covenant",
+                        id = 2,
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 63030,
+                    restrictions = {
+                        type = "covenant",
+                        id = 3,
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 63032,
+                    restrictions = {
+                        type = "covenant",
+                        id = 4,
+                    },
+                },
+            },
             x = 0,
             connections = {
                 1, 

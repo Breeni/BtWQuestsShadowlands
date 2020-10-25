@@ -1,4 +1,6 @@
--- AUTO GENERATED - NEEDS UPDATING
+--[[
+    [Supplies Needed: More Husks!] requires ATLEAST [Unsafe Workplace] to be active, NOT available with JUST [Supplies Needed: Amber Grease] completed
+]]
 
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
@@ -9,6 +11,7 @@ local ALLIANCE_RESTRICTIONS, HORDE_RESTRICTIONS = BtWQuests.Constant.Restriction
 local MAP_ID = 1565
 local CONTINENT_ID = 1550
 local ACHIEVEMENT_ID = 14164
+local SIDE_ACHIEVEMENT_ID = 14800
 local LEVEL_RANGE = {55, 57}
 local LEVEL_PREREQUISITE = {
     type = "level",
@@ -176,13 +179,6 @@ Database:AddChain(Chain.TranquilPools, { -- [Aiding Tirna Vaal]
             type = "quest",
             id = 60594,
             x = 0,
-        },
-        {
-            visible = false,
-            type = "quest",
-            id = 57825,
-            x = 0,
-            comment = "Bugged?",
         },
     },
 })
@@ -708,43 +704,7 @@ Database:AddChain(Chain.TheFallenTree, {
             type = "quest",
             id = 58524,
             x = 0,
-            connections = {
-                1, 
-            },
         },
-        {
-            type = "quest",
-            id = 58265,
-            x = 0,
-            aside = true,
-            -- connections = {
-            --     1, 
-            -- },
-        },
-        -- {
-        --     type = "quest",
-        --     id = 58264,
-        --     x = 0,
-        --     aside = true,
-        --     connections = {
-        --         1, 
-        --     },
-        -- },
-        -- {
-        --     type = "quest",
-        --     id = 58266,
-        --     x = 0,
-        --     aside = true,
-        --     connections = {
-        --         1, 
-        --     },
-        -- },
-        -- {
-        --     type = "quest",
-        --     id = 58267,
-        --     x = 0,
-        --     aside = true,
-        -- },
     },
 })
 Database:AddChain(Chain.VisionsOfTheDreamer, {
@@ -1008,35 +968,35 @@ Database:AddChain(Chain.AwakenTheDreamer, {
 })
 
 Database:AddChain(Chain.Chain01, {
-    name = { -- When a Gorm Eats a God
-        type = "quest",
-        id = 58026,
-    },
-    questline = 1161,
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 2), -- When a Gorm Eats a God
+    questline = {1194,1161},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
-    major = true,
     prerequisites = {
         LEVEL_PREREQUISITE,
         {
             type = "chain",
             id = Chain.WelcomeToArdenweald,
             lowPriority = true,
+            visible = 87203,
         },
         {
             type = "chain",
             id = Chain.TranquilPools,
             lowPriority = true,
+            visible = 87203,
         },
         {
             type = "chain",
             id = Chain.SpiritGlen,
             lowPriority = true,
+            visible = 87203,
         },
         {
             type = "chain",
             id = Chain.WaningGrove,
+            visible = 87203,
         },
     },
     active = {
@@ -1143,10 +1103,7 @@ Database:AddChain(Chain.Chain01, {
     },
 })
 Database:AddChain(Chain.Chain02, {
-    name = { -- The Crumbling Village
-        type = "quest",
-        id = 59802,
-    },
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 5), -- When a Gorm Eats a God
     questline = 1164,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1156,6 +1113,7 @@ Database:AddChain(Chain.Chain02, {
         {
             type = "chain",
             id = Chain.WaningGrove,
+            visible = 87203,
         },
     },
     active = {
@@ -1251,8 +1209,8 @@ Database:AddChain(Chain.Chain02, {
     },
 })
 Database:AddChain(Chain.Chain03, {
-    name = BtWQuests.GetAreaName(12245), -- Glitterfall Basin
-    questline = 1162,
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 3), -- Trouble at the Gormling Corral
+    questline = {1162, 1167},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1262,6 +1220,7 @@ Database:AddChain(Chain.Chain03, {
             type = "chain",
             id = Chain.GlitterfallHeights,
             upto = 60632,
+            visible = 87203,
         },
     },
     active = {
@@ -1271,7 +1230,7 @@ Database:AddChain(Chain.Chain03, {
     },
     completed = {
         type = "quest",
-        id = 57653,
+        id = 59656,
     },
     items = {
         {
@@ -1287,14 +1246,8 @@ Database:AddChain(Chain.Chain03, {
             id = 57651,
             x = -1,
             connections = {
-                2, 3, 
+                1, 2, 
             },
-        },
-        {
-            type = "chain",
-            id = Chain.EmbedChain03,
-            embed = true,
-            x = 3,
         },
         {
             type = "quest",
@@ -1314,24 +1267,53 @@ Database:AddChain(Chain.Chain03, {
         },
         {
             type = "quest",
-            id = 57655,
+            id = 57656,
             x = -3,
+            connections = {
+                4, 
+            },
         },
         {
             type = "quest",
             id = 57653,
+            connections = {
+                4, 
+            },
         },
         {
             type = "quest",
-            id = 57656,
+            id = 57655,
+            aside = true,
+            connections = {
+                1.3, 
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.EmbedChain03,
+            embed = true,
+            x = 2,
+            y = 1,
+        },
+        {
+            type = "quest",
+            id = 57657,
+            x = -2,
+            y = 4,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 59656,
+            x = -1,
+            y = 5,
         },
     },
 })
 Database:AddChain(Chain.Chain04, {
-    name = { -- Silk for Ardenweald
-        type = "quest",
-        id = 60066,
-    },
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 1), -- Thread of Hope
     questline = 1166,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1416,6 +1398,170 @@ Database:AddChain(Chain.Chain04, {
         {
             type = "quest",
             id = 60066,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain05, {
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 4), -- Tricky Spriggans
+    questline = 1163,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        LEVEL_PREREQUISITE,
+        {
+            type = "chain",
+            id = Chain.Chain03,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {57865, 57866, 57867, 57868, 57870, 57869},
+        status = {'active','completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 57871,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 158345,
+            x = -1,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "npc",
+            id = 160045,
+            x = 2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57866,
+            x = -2,
+        },
+        {
+            type = "quest",
+            id = 57865,
+        },
+        {
+            type = "quest",
+            id = 57867,
+        },
+        {
+            type = "npc",
+            id = 159427,
+            x = -2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "npc",
+            id = 159465,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "npc",
+            id = 159428,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57868,
+            x = -2,
+        },
+        {
+            type = "quest",
+            id = 57870,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 57869,
+        },
+        {
+            type = "quest",
+            id = 57871,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain06, {
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 6), -- Wicked Plan
+    questline = 1165,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        LEVEL_PREREQUISITE,
+        { -- Most likely
+            type = "chain",
+            id = Chain.TheFallenTree,
+            visible = 87203,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {58266, 58264},
+        status = {'active','completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 58267,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 160929,
+            x = -2,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "npc",
+            id = 160749,
+            x = 1,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58265,
+            aside = true,
+            x = -2,
+        },
+        {
+            type = "quest",
+            id = 58266,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58264,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58267,
             x = 0,
         },
     },
@@ -1520,7 +1666,6 @@ Database:AddChain(Chain.TempChain17, {
         },
     },
 })
-
 Database:AddChain(Chain.EmbedChain01, {
     questline = 1161,
     category = CATEGORY_ID,
@@ -1589,28 +1734,15 @@ Database:AddChain(Chain.EmbedChain03, {
             type = "quest",
             id = 59623,
             x = 0,
+            y = 3,
         },
     },
 })
 Database:AddChain(Chain.EmbedChain04, {
-    questline = 1167,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
-        {
-            type = "object",
-            id = 336415,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57655,
-            x = 0,
-        },
     },
 })
 Database:AddChain(Chain.EmbedChain05, {
@@ -1618,19 +1750,6 @@ Database:AddChain(Chain.EmbedChain05, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
-        {
-            type = "npc",
-            id = 158489,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 57656,
-            x = 0,
-        },
     },
 })
 
@@ -1656,10 +1775,6 @@ Database:AddChain(Chain.OtherBoth, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
-        { -- The Sweat of Our Brow
-            type = "quest",
-            id = 57867,
-        },
         { -- Rotbriar Trouble
             type = "quest",
             id = 59600,
@@ -1783,11 +1898,11 @@ Database:AddCategory(CATEGORY_ID, {
 
         {
             type = "chain",
-            id = Chain.Chain01,
+            id = Chain.Chain04,
         },
         {
             type = "chain",
-            id = Chain.Chain02,
+            id = Chain.Chain01,
         },
         {
             type = "chain",
@@ -1795,7 +1910,15 @@ Database:AddCategory(CATEGORY_ID, {
         },
         {
             type = "chain",
-            id = Chain.Chain04,
+            id = Chain.Chain05,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain02,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain06,
         },
     },
 })
@@ -1811,12 +1934,4 @@ Database:AddMapRecursive(MAP_ID, {
 })
 
 Database:AddContinentItems(CONTINENT_ID, {
-    {
-        type = "chain",
-        id = Chain.Chain01,
-    },
-    {
-        type = "chain",
-        id = Chain.Chain02,
-    },
 })

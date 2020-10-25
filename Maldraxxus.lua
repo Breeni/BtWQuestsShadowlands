@@ -9,6 +9,7 @@ local ALLIANCE_RESTRICTIONS, HORDE_RESTRICTIONS = BtWQuests.Constant.Restriction
 local MAP_ID = 1536
 local CONTINENT_ID = 1550
 local ACHIEVEMENT_ID = 14206
+local SIDE_ACHIEVEMENT_ID = 14799
 local LEVEL_RANGE = {52, 54}
 local LEVEL_PREREQUISITE = {
     type = "level",
@@ -20,7 +21,7 @@ local LEVEL_PREREQUISITE = {
 
 Database:AddChain(Chain.ChampionOfPain, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 1),
-    questline = 1057,
+    questline = {1133, 1057},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -631,7 +632,7 @@ Database:AddChain(Chain.HouseOfPlagues, {
         },
         {
             type = "chain",
-            id = Chain.EmbedChain01,
+            id = Chain.Chain04,
             embed = true,
             aside = true,
             x = 3,
@@ -917,7 +918,7 @@ Database:AddChain(Chain.TheEmptyThrone, {
     },
 })
 Database:AddChain(Chain.Chain01, {
-    name = BtWQuests.GetAreaName(12810), -- Challenger's Promenade
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 1), -- Theater of Pain
     questline = 1156,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -934,6 +935,7 @@ Database:AddChain(Chain.Chain01, {
             type = "chain",
             id = Chain.ChampionOfPain,
             upto = 57425,
+            visible = 87203,
         },
     },
     active = {
@@ -952,7 +954,7 @@ Database:AddChain(Chain.Chain01, {
             embed = true,
             x = -3,
             connections = {
-                4, 
+                [4] = {0.5, 4}, 
             },
         },
         {
@@ -1018,7 +1020,7 @@ Database:AddChain(Chain.Chain01, {
     },
 })
 Database:AddChain(Chain.Chain02, {
-    name = BtWQuests.GetAreaName(12906), -- Wrangler Pit
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 4), -- Wasteland Work
     questline = 1159,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1035,6 +1037,7 @@ Database:AddChain(Chain.Chain02, {
             type = "chain",
             id = Chain.ChampionOfPain,
             upto = 57425,
+            visible = 87203,
         },
     },
     active = {
@@ -1072,10 +1075,7 @@ Database:AddChain(Chain.Chain02, {
     },
 })
 Database:AddChain(Chain.Chain03, {
-    name = { -- Secrets Among the Shelves
-        type = "quest",
-        id = 58622,
-    },
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 2), -- Archival Protection
     questline = 1157,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1092,6 +1092,7 @@ Database:AddChain(Chain.Chain03, {
             type = "chain",
             id = Chain.ChampionOfPain,
             upto = 57425,
+            visible = 87203,
         },
     },
     active = {
@@ -1101,7 +1102,7 @@ Database:AddChain(Chain.Chain03, {
     },
     completed = {
         type = "quest",
-        id = 60067,
+        id = 58623,
     },
     items = {
         {
@@ -1172,7 +1173,8 @@ Database:AddChain(Chain.Chain03, {
         },
     },
 })
-Database:AddChain(Chain.EmbedChain01, {
+Database:AddChain(Chain.Chain04, {
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 3), -- Mixing Monstrosities
     questline = 1158,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1189,7 +1191,13 @@ Database:AddChain(Chain.EmbedChain01, {
             type = "chain",
             id = Chain.ChampionOfPain,
             upto = 57425,
+            visible = 87203,
         },
+    },
+    active = {
+        type = "quest",
+        id = 59430,
+        status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
@@ -1267,6 +1275,15 @@ Database:AddChain(Chain.EmbedChain02, {
         {
             type = "quest",
             id = 58090,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 58095,
+            aside = true,
             x = 0,
         },
     },
@@ -1495,6 +1512,11 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.Chain03,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain04,
+            visible = 86994,
         },
     },
 })

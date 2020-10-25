@@ -5,10 +5,10 @@ local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
 local CATEGORY_ID = BtWQuests.Constant.Category.Shadowlands.Revendreth
 local Chain = BtWQuests.Constant.Chain.Shadowlands.Revendreth
-local ALLIANCE_RESTRICTIONS, HORDE_RESTRICTIONS = BtWQuests.Constant.Restrictions.Alliance, BtWQuests.Constant.Restrictions.Horde
 local MAP_ID = 1525
 local CONTINENT_ID = 1550
 local ACHIEVEMENT_ID = 13878
+local SIDE_ACHIEVEMENT_ID = 14798
 local LEVEL_RANGE = {57, 60}
 local LEVEL_PREREQUISITES = {
     {
@@ -964,10 +964,7 @@ Database:AddChain(Chain.MenagerieOfTheMaster, {
 })
 
 Database:AddChain(Chain.Chain01, {
-    name = { -- Dredger Duty
-        type = "quest",
-        id = 57474,
-    },
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 3), -- Dirty Jobs
     questline = 1141,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -984,6 +981,7 @@ Database:AddChain(Chain.Chain01, {
             type = "chain",
             id = Chain.WelcomeToRevendreth,
             upto = 56942,
+            visible = 87203,
         },
     },
     active = {
@@ -1052,10 +1050,7 @@ Database:AddChain(Chain.Chain01, {
     },
 })
 Database:AddChain(Chain.Chain02, {
-    name = { -- Message for Matyas
-        type = "quest",
-        id = 59715,
-    },
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 1), -- The Duelist's Debt
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1072,6 +1067,7 @@ Database:AddChain(Chain.Chain02, {
             type = "chain",
             id = Chain.MeetTheMaster,
             upto = 57174,
+            visible = 87203,
         },
     },
     active = {
@@ -1202,6 +1198,7 @@ Database:AddChain(Chain.Chain03, {
             type = "chain",
             id = Chain.TheRebellion,
             upto = 60506,
+            visible = 87203,
         },
     },
     active = {
@@ -1267,10 +1264,7 @@ Database:AddChain(Chain.Chain03, {
     },
 })
 Database:AddChain(Chain.Chain04, {
-    name = { -- Setting Sabina Free
-        type = "quest",
-        id = 60470,
-    },
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 6), -- Revelations of the Light
     questline = 1147,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1333,10 +1327,7 @@ Database:AddChain(Chain.Chain04, {
     },
 })
 Database:AddChain(Chain.Chain05, {
-    name = { -- Mirror Making, Not Breaking
-        type = "quest",
-        id = 57536,
-    },
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 5), -- Mirror Maker of the Master
     questline = 1146,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1481,7 +1472,7 @@ Database:AddChain(Chain.Chain06, {
     },
 })
 Database:AddChain(Chain.Chain07, {
-    name = BtWQuests.GetMapName(1663),
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 4), -- The Final Atonement
     questline = 1144,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1621,6 +1612,67 @@ Database:AddChain(Chain.Chain07, {
         {
             type = "quest",
             id = 58092,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain08, {
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 2), -- Tithes of Darkhaven
+    questline = 1145,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 57, },
+            },
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {60177, 60176},
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 60178,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 167489,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "npc",
+            id = 156822,
+            aside = true,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60177,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60176,
+            aside = true,
+        },
+        {
+            type = "quest",
+            id = 60178,
             x = 0,
         },
     },
@@ -1961,6 +2013,11 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.Chain02,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain08,
+            visible = 86994,
         },
         {
             type = "chain",

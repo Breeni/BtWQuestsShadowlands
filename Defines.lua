@@ -57,7 +57,7 @@ BtWQuests.Constant.Chain.Shadowlands = {
         Chain02 = 90212,
         Chain03 = 90213,
 
-        EmbedChain01 = 90221,
+        Chain04 = 90221,
         EmbedChain02 = 90222,
         EmbedChain03 = 90223,
         EmbedChain04 = 90224,
@@ -84,6 +84,8 @@ BtWQuests.Constant.Chain.Shadowlands = {
         Chain02 = 90312,
         Chain03 = 90313,
         Chain04 = 90318,
+        Chain05 = 90319,
+        Chain06 = 90331,
 
         TempChain14 = 90314,
         TempChain15 = 90315,
@@ -116,6 +118,7 @@ BtWQuests.Constant.Chain.Shadowlands = {
         Chain05 = 90415,
         Chain06 = 90416,
         Chain07 = 90417,
+        Chain08 = 90418,
 
         EmbedChain01 = 90421,
         EmbedChain02 = 90422,
@@ -263,6 +266,7 @@ do
     Database:RegisterItemType("renown", RenownItem);
     Database:RegisterItemType("covenant", CovenantItem);
     Database:AddCondition(86994, { type = "quest", ids = {62713, 57559}, count = 2 }) -- Quests should be level 50 now
+    Database:AddCondition(87203, { type = "quest", id = 62713, status = {"pending"} }) -- Did not choose Threads of Fate alt leveling
 end
 
 Database:AddExpansion(BtWQuests.Constant.Expansions.Shadowlands, {

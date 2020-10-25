@@ -3,10 +3,10 @@ local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
 local CATEGORY_ID = BtWQuests.Constant.Category.Shadowlands.Bastion
 local Chain = BtWQuests.Constant.Chain.Shadowlands.Bastion
-local ALLIANCE_RESTRICTIONS, HORDE_RESTRICTIONS = BtWQuests.Constant.Restrictions.Alliance, BtWQuests.Constant.Restrictions.Horde
 local MAP_ID = 1533
 local CONTINENT_ID = 1550
 local ACHIEVEMENT_ID = 14281
+local SIDE_ACHIEVEMENT_ID = 14801
 local LEVEL_RANGE = {50, 52}
 
 Database:AddChain(Chain.EternitysCall, {
@@ -767,7 +767,7 @@ Database:AddChain(Chain.ByTheArchonsWill, {
 })
 Database:AddChain(Chain.TheTempleOfCourage, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 6),
-    questline = {1066, 1187},
+    questline = {1066, 1187, 1133},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1026,10 +1026,7 @@ Database:AddChain(Chain.EmbedChain03, {
 })
 
 Database:AddChain(Chain.Chain01, {
-    name = { -- Distractions for Kala
-        type = "quest",
-        id = 57545,
-    },
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 3), -- In the Garden of Respite
     questline = 1149,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1109,10 +1106,7 @@ Database:AddChain(Chain.Chain01, {
     },
 })
 Database:AddChain(Chain.Chain02, {
-    name = { -- In Agthia's Memory
-        type = "quest",
-        id = 57549,
-    },
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 1), -- In Agthia's Memory
     questline = 1148,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1410,10 +1404,7 @@ Database:AddChain(Chain.Chain04, {
     },
 })
 Database:AddChain(Chain.Chain05, {
-    name = { -- Pride or Unit
-        type = "quest",
-        id = 60296,
-    },
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 5), -- Pride or Unit
     questline = 1150,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1484,10 +1475,7 @@ Database:AddChain(Chain.Chain05, {
     },
 })
 Database:AddChain(Chain.Chain06, {
-    name = { -- The Spear of Kalliope
-        type = "quest",
-        id = 57989,
-    },
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 4), -- The Spear of Kalliope
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1504,7 +1492,7 @@ Database:AddChain(Chain.Chain06, {
     },
     completed = {
         type = "quest",
-        id = 60906,
+        ids = {60906, 57967},
     },
     items = {
         {
@@ -1571,16 +1559,13 @@ Database:AddChain(Chain.Chain06, {
         },
         {
             type = "quest",
-            id = 60906,
+            ids = {60906, 57967},
             x = 0,
         },
     },
 })
 Database:AddChain(Chain.Chain07, {
-    name = { -- Feathers of Flight
-        type = "quest",
-        id = 59263,
-    },
+    name = BtWQuests_GetAchievementCriteriaNameDelayed(SIDE_ACHIEVEMENT_ID, 2), -- Wings of Freedom
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,

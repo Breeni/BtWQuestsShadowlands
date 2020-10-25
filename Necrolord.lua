@@ -404,14 +404,6 @@ Database:AddChain(Chain.TheHouseOfEyes, {
         },
         {
             type = "quest",
-            id = 57790,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
             id = 57648,
             x = 0,
         },
@@ -1816,24 +1808,14 @@ Database:AddChain(Chain.Chain04, {
             id = 58670,
             x = -1,
             connections = {
-                3, 
+                2, 
             },
         },
         {
             type = "quest",
             id = 58671,
             connections = {
-                2, 
-            },
-        },
-        {
-            -- quest:60048
-            type = "garrisontalenttree",
-            id = 321,
-            rank = 1,
-            x = -2,
-            connections = {
-                2, 
+                1, 
             },
         },
         {
@@ -1846,7 +1828,7 @@ Database:AddChain(Chain.Chain04, {
         },
         {
             type = "quest",
-            id = 60041,
+            id = 60048,
             x = -1,
             connections = {
                 2, 
@@ -1855,21 +1837,38 @@ Database:AddChain(Chain.Chain04, {
         {
             type = "quest",
             id = 60049,
+            aside = true,
+            connections = {
+                2, 
+            },
+        },
+        {
+            -- Unlocks Abomination Stitching
+            type = "quest",
+            id = 60041,
+            x = -1,
             connections = {
                 2, 
             },
         },
         {
             type = "quest",
+            id = 60110,
+            aside = true,
+        },
+        {
+            type = "quest",
             id = 60042,
             x = -1,
             connections = {
-               
+                1, 
             },
         },
         {
             type = "quest",
-            id = 60110,
+            id = 60195,
+            aside = true,
+            x = -1,
         },
     },
 })
@@ -1967,43 +1966,10 @@ Database:AddChain(Chain.Chain14, {
     },
 })
 Database:AddChain(Chain.Chain15, {
-    questline = 1089,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     items = {
-        {
-            type = "npc",
-            id = 167150,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60041,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60042,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60195,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
     },
 })
 
