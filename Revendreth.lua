@@ -1246,7 +1246,7 @@ Database:AddChain(Chain.Chain03, {
             id = 58079,
             x = 0,
         },
-        
+
         {
             type = "kill",
             id = 158420,
@@ -1293,7 +1293,7 @@ Database:AddChain(Chain.Chain04, {
             id = 168455,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1301,7 +1301,7 @@ Database:AddChain(Chain.Chain04, {
             id = 60467,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -1309,14 +1309,14 @@ Database:AddChain(Chain.Chain04, {
             id = 60469,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 60468,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1501,7 +1501,7 @@ Database:AddChain(Chain.Chain07, {
             id = 160116,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1509,7 +1509,7 @@ Database:AddChain(Chain.Chain07, {
             id = 57919,
             x = 0,
             connections = {
-                1, 2, 3, 
+                1, 2, 3,
             },
         },
         {
@@ -1517,21 +1517,21 @@ Database:AddChain(Chain.Chain07, {
             id = 57920,
             x = -2,
             connections = {
-                3, 
+                3,
             },
         },
         {
             type = "quest",
             id = 57921,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 57922,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1539,7 +1539,7 @@ Database:AddChain(Chain.Chain07, {
             id = 57923,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1547,7 +1547,7 @@ Database:AddChain(Chain.Chain07, {
             id = 57924,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1555,7 +1555,7 @@ Database:AddChain(Chain.Chain07, {
             id = 57925,
             x = 0,
             connections = {
-                1, 2, 3, 
+                1, 2, 3,
             },
         },
         {
@@ -1563,14 +1563,14 @@ Database:AddChain(Chain.Chain07, {
             id = 57926,
             x = -2,
             connections = {
-                6, 
+                6,
             },
         },
         {
             type = "quest",
             id = 60127,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -1583,7 +1583,7 @@ Database:AddChain(Chain.Chain07, {
             id = 57927,
             x = 0,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -1598,7 +1598,7 @@ Database:AddChain(Chain.Chain07, {
             x = 0,
             y = 8,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1606,7 +1606,7 @@ Database:AddChain(Chain.Chain07, {
             id = 57929,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -1646,7 +1646,7 @@ Database:AddChain(Chain.Chain08, {
             id = 167489,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -1654,7 +1654,7 @@ Database:AddChain(Chain.Chain08, {
             id = 156822,
             aside = true,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -1662,7 +1662,7 @@ Database:AddChain(Chain.Chain08, {
             id = 60177,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -1673,6 +1673,60 @@ Database:AddChain(Chain.Chain08, {
         {
             type = "quest",
             id = 60178,
+            x = 0,
+        },
+    },
+})
+Database:AddChain(Chain.Chain09, {
+    name = { -- Bell of Remembrance
+        type = "quest",
+        id = 58717,
+    },
+    questline = 1193,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            variations = {
+                { level = 50, restrictions = 86994, },
+                { level = 57, },
+            },
+        },
+        {
+            name = "Unknown",
+        }
+    },
+    active = {
+        type = "quest",
+        id = 58717,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 58725,
+    },
+    items = {
+        {
+            type = "kill",
+            id = 160847,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 58717,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 58725,
             x = 0,
         },
     },
@@ -2038,6 +2092,10 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.Chain07,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain09,
         },
     },
 })

@@ -119,6 +119,7 @@ BtWQuests.Constant.Chain.Shadowlands = {
         Chain06 = 90416,
         Chain07 = 90417,
         Chain08 = 90418,
+        Chain09 = 90419,
 
         EmbedChain01 = 90421,
         EmbedChain02 = 90422,

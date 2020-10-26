@@ -562,7 +562,7 @@ Database:AddChain(Chain.TheMawEmbed, {
             id = 62882,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -570,7 +570,7 @@ Database:AddChain(Chain.TheMawEmbed, {
             id = 60287,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -578,7 +578,7 @@ Database:AddChain(Chain.TheMawEmbed, {
             id = 61355,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -586,7 +586,7 @@ Database:AddChain(Chain.TheMawEmbed, {
             id = 60289,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -694,7 +694,7 @@ Database:AddChain(Chain.Torghast, {
             },
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -702,7 +702,7 @@ Database:AddChain(Chain.Torghast, {
             id = 60136,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -710,14 +710,14 @@ Database:AddChain(Chain.Torghast, {
             id = 61099,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "kill",
             id = 151329,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -725,14 +725,14 @@ Database:AddChain(Chain.Torghast, {
             id = 62932,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 60267,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -740,14 +740,14 @@ Database:AddChain(Chain.Torghast, {
             id = 62935,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 60268,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -755,14 +755,14 @@ Database:AddChain(Chain.Torghast, {
             id = 62938,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 60269,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -770,37 +770,37 @@ Database:AddChain(Chain.Torghast, {
             id = 60139,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 60270,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
-            id = 62830,
+            id = 62966,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 60271,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
-            id = 60146,
+            id = 62969,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -809,10 +809,18 @@ Database:AddChain(Chain.Torghast, {
         },
         {
             type = "quest",
+            id = 60146,
+            x = -1,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
             id = 62836,
             x = -1,
             connections = {
-                1, 
+                1,
             },
         },
         {
