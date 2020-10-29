@@ -1,4 +1,5 @@
 local BtWQuests = BtWQuests
+local L = BtWQuests.L
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
 local CATEGORY_ID = BtWQuests.Constant.Category.Shadowlands.Venthyr
@@ -6,7 +7,7 @@ local Chain = BtWQuests.Constant.Chain.Shadowlands.Venthyr
 local LEVEL_RANGE = {60, 60}
 
 Database:AddChain(Chain.Sinfall, {
-    name = "Sinfall",
+    name = L["SINFALL"],
     questline = 1065,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -193,7 +194,7 @@ Database:AddChain(Chain.Sinfall, {
     },
 })
 Database:AddChain(Chain.ReturnToTheMaw, {
-    name = "Return to the Maw",
+    name = L["RETURN_TO_THE_MAW"],
     questline = 1065,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -264,7 +265,7 @@ Database:AddChain(Chain.ReturnToTheMaw, {
     },
 })
 Database:AddChain(Chain.TheCourtOfHarvesters, {
-    name = "The Court of Harvesters",
+    name = L["THE_COURT_OF_HARVESTERS"],
     questline = 1069,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -401,7 +402,7 @@ Database:AddChain(Chain.TheCourtOfHarvesters, {
     },
 })
 Database:AddChain(Chain.Desire, {
-    name = "Desire",
+    name = L["DESIRE"],
     questline = 1039,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -564,7 +565,7 @@ Database:AddChain(Chain.Desire, {
     },
 })
 Database:AddChain(Chain.Avarice, {
-    name = "Avarice",
+    name = L["AVARICE"],
     questline = 1024,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -715,7 +716,7 @@ Database:AddChain(Chain.Avarice, {
     },
 })
 Database:AddChain(Chain.TheCrownedPrince, {
-    name = "The Crowned Prince",
+    name = L["THE_CROWNED_PRINCE"],
     questline = 1026,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -895,7 +896,7 @@ Database:AddChain(Chain.TheCrownedPrince, {
     },
 })
 Database:AddChain(Chain.ConfrontingSin, {
-    name = "Confronting Sin",
+    name = L["CONFRONTING_SIN"],
     questline = 1017,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1102,7 +1103,7 @@ Database:AddChain(Chain.ConfrontingSin, {
     },
 })
 Database:AddChain(Chain.Envy, {
-    name = "Envy",
+    name = L["ENVY"],
     questline = 1041,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1237,7 +1238,7 @@ Database:AddChain(Chain.Envy, {
     },
 })
 Database:AddChain(Chain.Dominion, {
-    name = "Dominion",
+    name = L["DOMINION"],
     questline = 1018,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,

@@ -1,0 +1,40 @@
+----- AUTO GENERATED - DO NOT EDIT
+
+if GetLocale() ~= "frFR" then
+    return
+end
+
+local L = BtWQuests.L
+L["AMONG_THE_KYRIAN"] = "Parmi les Kyrians"
+L["ARRIVAL_IN_THE_SHADOWLANDS"] = "Arrivée en Ombreterre"
+L["ASSAULT_ON_THE_HOUSE_OF_RITUALS"] = "Assaut de la maison des Rituels"
+L["A_GOLDEN_DAWN"] = "Une aube dorée"
+L["A_VESSEL_OF_ARDENWEALD"] = "Un réceptacle de Sylvarden"
+L["CLOSING_IN"] = "Le piège se referme"
+L["CONFRONTING_SIN"] = "Face au vice"
+L["DAUGHTER_OF_THE_NIGHT_WARRIOR"] = "Fille de la guerrière de la Nuit"
+L["DEAL_FOR_A_LOA"] = "Pacte pour un Loa"
+L["DESIRE"] = "Désir"
+L["DE_BOSS"] = "Le Boss"
+L["DOMINION"] = "Domination"
+L["DO_NOT_FORGET"] = "Devoir de mémoire"
+L["DRUST_AND_ASHES"] = "De Drust et de cendres"
+L["DRUST_TO_DRUST"] = "Drustruction"
+L["ENVY"] = "Envie"
+L["FOR_QUEEN_AND_GROVE"] = "Pour la reine et le bosquet"
+L["GRAND_THEFT_NECROPOLIS"] = "Vol à la nécropole"
+L["LOYAL_TO_THE_PRIMUS"] = "Fidèle au Primat"
+L["NIGHT_WARRIORS_CURSE"] = "La malédiction de la guerrière de la Nuit"
+L["PHAESTUS_GENESIS_OF_AEONS"] = "Phaïstos, genèse des éons"
+L["RETURN_TO_THE_MAW"] = "Retour dans l’Antre"
+L["RIGHTEOUS_RETRIBUTION"] = "Une juste vindicte"
+L["SINFALL"] = "Tombe-Vice"
+L["THE_BELL_TOLLS"] = "Pour qui sonne le bourdon"
+L["THE_COURT_OF_HARVESTERS"] = "La cour des Moissonneurs"
+L["THE_CROWNED_PRINCE"] = "Le prince couronné"
+L["THE_HORNED_HUNTER"] = "Le chasseur cornu"
+L["THE_HOUSE_OF_EYES"] = "La maison des Yeux"
+L["THE_HOUSE_OF_RITUALS"] = "La maison des Rituels"
+L["THE_SEAL_OF_CONTRITION"] = "Le sceau de Contrition"
+L["THE_WAGES_OF_SIN"] = "Les salaires du vice"
+L["TRIAL_OF_ASCENSION"] = "L’épreuve de l’ascension"

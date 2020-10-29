@@ -1,0 +1,41 @@
+----- AUTO GENERATED - DO NOT EDIT
+
+if GetLocale() ~= "koKR" then
+    return
+end
+
+local L = BtWQuests.L
+L["AMONG_THE_KYRIAN"] = "키리안 사이에서"
+L["ARRIVAL_IN_THE_SHADOWLANDS"] = "어둠땅 도착"
+L["ASSAULT_ON_THE_HOUSE_OF_RITUALS"] = "의식의 의회 공격"
+L["AVARICE"] = "탐욕"
+L["A_GOLDEN_DAWN"] = "황금빛 여명"
+L["A_VESSEL_OF_ARDENWEALD"] = "몽환숲의 그릇"
+L["CLOSING_IN"] = "마무리"
+L["CONFRONTING_SIN"] = "죄악과의 대면"
+L["DAUGHTER_OF_THE_NIGHT_WARRIOR"] = "밤 전사의 딸"
+L["DEAL_FOR_A_LOA"] = "로아의 거래"
+L["DESIRE"] = "욕망"
+L["DE_BOSS"] = "높으신 분"
+L["DOMINION"] = "지배"
+L["DO_NOT_FORGET"] = "잊지 말아야 할 것"
+L["DRUST_AND_ASHES"] = "드러스트와 재"
+L["DRUST_TO_DRUST"] = "드러스트에서 드러스트로"
+L["ENVY"] = "시기"
+L["FOR_QUEEN_AND_GROVE"] = "여왕님과 숲을 위하여!"
+L["GRAND_THEFT_NECROPOLIS"] = "죽음의 요새 도둑"
+L["LOYAL_TO_THE_PRIMUS"] = "시초자에 충성"
+L["NIGHT_WARRIORS_CURSE"] = "밤 전사의 저주"
+L["PHAESTUS_GENESIS_OF_AEONS"] = "파에스투스 - 영겁의 기원"
+L["RETURN_TO_THE_MAW"] = "다시 나락으로"
+L["RIGHTEOUS_RETRIBUTION"] = "정의로운 응징"
+L["SINFALL"] = "죄악의 몰락지"
+L["THE_BELL_TOLLS"] = "종은 울리고"
+L["THE_COURT_OF_HARVESTERS"] = "수확자의 궁정"
+L["THE_CROWNED_PRINCE"] = "왕관을 쓴 왕자"
+L["THE_HORNED_HUNTER"] = "뿔 달린 사냥꾼"
+L["THE_HOUSE_OF_EYES"] = "눈의 의회"
+L["THE_HOUSE_OF_RITUALS"] = "의식의 의회"
+L["THE_SEAL_OF_CONTRITION"] = "뉘우침의 인장"
+L["THE_WAGES_OF_SIN"] = "죄악의 값어치"
+L["TRIAL_OF_ASCENSION"] = "승천의 시련"

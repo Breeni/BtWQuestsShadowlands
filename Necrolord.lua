@@ -1,4 +1,5 @@
 local BtWQuests = BtWQuests
+local L = BtWQuests.L
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
 local CATEGORY_ID = BtWQuests.Constant.Category.Shadowlands.Necrolord
@@ -6,7 +7,7 @@ local Chain = BtWQuests.Constant.Chain.Shadowlands.Necrolord
 local LEVEL_RANGE = {60, 60}
 
 Database:AddChain(Chain.LoyalToThePrimus, {
-    name = "Loyal to the Primus",
+    name = L["LOYAL_TO_THE_PRIMUS"],
     questline = 1087,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -193,7 +194,7 @@ Database:AddChain(Chain.LoyalToThePrimus, {
     },
 })
 Database:AddChain(Chain.ReturnToTheMaw, {
-    name = "Return to The Maw",
+    name = L["RETURN_TO_THE_MAW"],
     questline = 1087,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -264,7 +265,7 @@ Database:AddChain(Chain.ReturnToTheMaw, {
     },
 })
 Database:AddChain(Chain.TheHouseOfEyes, {
-    name = "The House Of Eyes",
+    name = L["THE_HOUSE_OF_EYES"],
     questline = 1088,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -410,7 +411,7 @@ Database:AddChain(Chain.TheHouseOfEyes, {
     },
 })
 Database:AddChain(Chain.GrandTheftNecropolis, {
-    name = "Grand Theft Necropolis",
+    name = L["GRAND_THEFT_NECROPOLIS"],
     questline = 1134,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -562,7 +563,7 @@ Database:AddChain(Chain.GrandTheftNecropolis, {
     },
 })
 Database:AddChain(Chain.DoNotForget, {
-    name = "Do Not Forget",
+    name = L["DO_NOT_FORGET"],
     questline = 1119,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -733,7 +734,7 @@ Database:AddChain(Chain.DoNotForget, {
     },
 })
 Database:AddChain(Chain.AGoldenDawn, {
-    name = "A Golden Dawn",
+    name = L["A_GOLDEN_DAWN"],
     questline = 1120,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -962,7 +963,7 @@ Database:AddChain(Chain.AGoldenDawn, {
     },
 })
 Database:AddChain(Chain.TheWagesOfSin, {
-    name = "The Wages of Sin",
+    name = L["THE_WAGES_OF_SIN"],
     questline = 1121,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1089,7 +1090,7 @@ Database:AddChain(Chain.TheWagesOfSin, {
     },
 })
 Database:AddChain(Chain.TheHouseOfRituals, {
-    name = "The House of Rituals",
+    name = L["THE_HOUSE_OF_RITUALS"],
     questline = 1115,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1390,7 +1391,7 @@ Database:AddChain(Chain.TheHouseOfRituals, {
     },
 })
 Database:AddChain(Chain.AssaultOnTheHouseOfRituals, {
-    name = "Assault on the House of Rituals",
+    name = L["ASSAULT_ON_THE_HOUSE_OF_RITUALS"],
     questline = 1118,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -2056,22 +2057,6 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.Chain04,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain12,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain13,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain14,
-        },
-        {
-            type = "chain",
-            id = Chain.Chain15,
         },
     },
 })

@@ -40,6 +40,7 @@ As of Build 35854:
         quest 62704 is active/completed
 ]]
 local BtWQuests = BtWQuests
+local L = BtWQuests.L
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
 local Category = BtWQuests.Constant.Category.Shadowlands
@@ -262,7 +263,7 @@ Database:AddChain(Chain.IntoTheMaw, {
     },
 })
 Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
-    name = "Arrival in the Shadowlands (Main)",
+    name = L["ARRIVAL_IN_THE_SHADOWLANDS"],
     questline = 1135,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -413,7 +414,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
     },
 })
 Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
-    name = "Arrival in the Shadowlands (Alt)",
+    name = L["ARRIVAL_IN_THE_SHADOWLANDS"],
     questline = 1175,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -542,7 +543,7 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
     },
 })
 Database:AddChain(Chain.TheMawEmbed, {
-    name = "Return to The Maw",
+    name = L["RETURN_TO_THE_MAW"],
     questline = 1123,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -602,7 +603,7 @@ Database:AddChain(Chain.TheMawEmbed, {
     },
 })
 Database:AddChain(Chain.Torghast, {
-    name = "Torghast",
+    name = BtWQuests_GetMapName(1762),
     questline = 1136,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -648,12 +649,12 @@ Database:AddChain(Chain.Torghast, {
     },
     active = {
         type = "quest",
-        id = 60136,
+        ids = {63029, 63033, 63030, 63032},
         status = {'active', 'completed'},
     },
     completed = {
         type = "quest",
-        ids = {60272, 61730},
+        ids = {62719, 61730},
         count = 2,
     },
     items = {
@@ -694,7 +695,7 @@ Database:AddChain(Chain.Torghast, {
             },
             x = 0,
             connections = {
-                1,
+                1, 
             },
         },
         {
@@ -702,7 +703,7 @@ Database:AddChain(Chain.Torghast, {
             id = 60136,
             x = 0,
             connections = {
-                1, 2,
+                1, 2, 
             },
         },
         {
@@ -710,14 +711,14 @@ Database:AddChain(Chain.Torghast, {
             id = 61099,
             x = -1,
             connections = {
-                2,
+                2, 
             },
         },
         {
             type = "kill",
             id = 151329,
             connections = {
-                2,
+                2, 
             },
         },
         {
@@ -725,14 +726,14 @@ Database:AddChain(Chain.Torghast, {
             id = 62932,
             x = -1,
             connections = {
-                2,
+                2, 
             },
         },
         {
             type = "quest",
             id = 60267,
             connections = {
-                2,
+                2, 
             },
         },
         {
@@ -740,14 +741,14 @@ Database:AddChain(Chain.Torghast, {
             id = 62935,
             x = -1,
             connections = {
-                2,
+                2, 
             },
         },
         {
             type = "quest",
             id = 60268,
             connections = {
-                2,
+                2, 
             },
         },
         {
@@ -755,14 +756,14 @@ Database:AddChain(Chain.Torghast, {
             id = 62938,
             x = -1,
             connections = {
-                2,
+                2, 
             },
         },
         {
             type = "quest",
             id = 60269,
             connections = {
-                2,
+                2, 
             },
         },
         {
@@ -770,14 +771,14 @@ Database:AddChain(Chain.Torghast, {
             id = 60139,
             x = -1,
             connections = {
-                2,
+                2, 
             },
         },
         {
             type = "quest",
             id = 60270,
             connections = {
-                2,
+                2, 
             },
         },
         {
@@ -785,14 +786,14 @@ Database:AddChain(Chain.Torghast, {
             id = 62966,
             x = -1,
             connections = {
-                2,
+                2, 
             },
         },
         {
             type = "quest",
             id = 60271,
             connections = {
-                2,
+                2, 
             },
         },
         {
@@ -800,19 +801,29 @@ Database:AddChain(Chain.Torghast, {
             id = 62969,
             x = -1,
             connections = {
-                2,
+                2, 
             },
         },
         {
             type = "quest",
             id = 60272,
+            connections = {
+                2, 
+            },
         },
         {
             type = "quest",
             id = 60146,
             x = -1,
             connections = {
-                1,
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62700,
+            connections = {
+                2, 
             },
         },
         {
@@ -820,8 +831,12 @@ Database:AddChain(Chain.Torghast, {
             id = 62836,
             x = -1,
             connections = {
-                1,
+                2, 
             },
+        },
+        {
+            type = "quest",
+            id = 62719,
         },
         {
             type = "quest",

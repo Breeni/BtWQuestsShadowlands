@@ -1,6 +1,5 @@
--- Missing Rewards and Translated names
-
 local BtWQuests = BtWQuests
+local L = BtWQuests.L
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
 local CATEGORY_ID = BtWQuests.Constant.Category.Shadowlands.Kyrian
@@ -8,7 +7,7 @@ local Chain = BtWQuests.Constant.Chain.Shadowlands.Kyrian
 local LEVEL_RANGE = {60, 60}
 
 Database:AddChain(Chain.AmongTheKyrian, {
-    name = "Among The Kyrian",
+    name = L["AMONG_THE_KYRIAN"],
     questline = 1014,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -206,7 +205,7 @@ Database:AddChain(Chain.AmongTheKyrian, {
     },
 })
 Database:AddChain(Chain.ReturnToTheMaw, {
-    name = "Return to the Maw",
+    name = L["RETURN_TO_THE_MAW"],
     questline = 1014,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -277,7 +276,7 @@ Database:AddChain(Chain.ReturnToTheMaw, {
     },
 })
 Database:AddChain(Chain.TrialOfAscension, {
-    name = "Trial of Ascension",
+    name = L["TRIAL_OF_ASCENSION"],
     questline = 1090,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -455,7 +454,7 @@ Database:AddChain(Chain.TrialOfAscension, {
     },
 })
 Database:AddChain(Chain.PhaestusGenesisOfAeons, {
-    name = "Phaestus, Genesis of Aeons",
+    name = L["PHAESTUS_GENESIS_OF_AEONS"],
     questline = 1091,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -582,7 +581,7 @@ Database:AddChain(Chain.PhaestusGenesisOfAeons, {
     },
 })
 Database:AddChain(Chain.RighteousRetribution, {
-    name = "Righteous Retribution",
+    name = L["RIGHTEOUS_RETRIBUTION"],
     questline = 1096,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -798,7 +797,7 @@ Database:AddChain(Chain.RighteousRetribution, {
     },
 })
 Database:AddChain(Chain.TheSealOfContrition, {
-    name = "The Seal of Contrition",
+    name = L["THE_SEAL_OF_CONTRITION"],
     questline = 1092,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -980,7 +979,7 @@ Database:AddChain(Chain.TheSealOfContrition, {
     },
 })
 Database:AddChain(Chain.AVesselOfArdenweald, {
-    name = "A Vessel of Ardenweald",
+    name = L["A_VESSEL_OF_ARDENWEALD"],
     questline = 1093,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1155,7 +1154,7 @@ Database:AddChain(Chain.AVesselOfArdenweald, {
     },
 })
 Database:AddChain(Chain.ClosingIn, {
-    name = "Closing In",
+    name = L["CLOSING_IN"],
     questline = 1094,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1340,7 +1339,7 @@ Database:AddChain(Chain.ClosingIn, {
     },
 })
 Database:AddChain(Chain.TheBellTolls, {
-    name = "The Bell Tolls",
+    name = L["THE_BELL_TOLLS"],
     questline = 1036,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,

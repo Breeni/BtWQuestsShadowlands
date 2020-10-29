@@ -1,0 +1,41 @@
+----- AUTO GENERATED - DO NOT EDIT
+
+if GetLocale() ~= "deDE" then
+    return
+end
+
+local L = BtWQuests.L
+L["AMONG_THE_KYRIAN"] = "Unter Kyrianern"
+L["ARRIVAL_IN_THE_SHADOWLANDS"] = "Ankunft in den Schattenlanden"
+L["ASSAULT_ON_THE_HOUSE_OF_RITUALS"] = "Angriff auf das Haus der Rituale"
+L["AVARICE"] = "Habsucht"
+L["A_GOLDEN_DAWN"] = "Goldene Dämmerung"
+L["A_VESSEL_OF_ARDENWEALD"] = "Ein Gefäß des Ardenwalds"
+L["CLOSING_IN"] = "Die Schlinge zieht sich zusammen"
+L["CONFRONTING_SIN"] = "Konfrontation der Sünde"
+L["DAUGHTER_OF_THE_NIGHT_WARRIOR"] = "Tochter der Nachtkriegerin"
+L["DEAL_FOR_A_LOA"] = "Ein loahnendes Angebot"
+L["DESIRE"] = "Begierde"
+L["DE_BOSS"] = "Der Boss"
+L["DOMINION"] = "Herrschaft"
+L["DO_NOT_FORGET"] = "Nicht vergessen"
+L["DRUST_AND_ASHES"] = "Drust und Verzweiflung"
+L["DRUST_TO_DRUST"] = "Frust mit Drust"
+L["ENVY"] = "Neid"
+L["FOR_QUEEN_AND_GROVE"] = "Für Königin und Hain!"
+L["GRAND_THEFT_NECROPOLIS"] = "Nekropolenklau"
+L["LOYAL_TO_THE_PRIMUS"] = "Treue zum Primus"
+L["NIGHT_WARRIORS_CURSE"] = "Fluch der Nachtkriegerin"
+L["PHAESTUS_GENESIS_OF_AEONS"] = "Phaestus, Genesis der Äonen"
+L["RETURN_TO_THE_MAW"] = "Rückkehr zum Schlund"
+L["RIGHTEOUS_RETRIBUTION"] = "Rechtschaffene Vergeltung"
+L["SINFALL"] = "Sündensturz"
+L["THE_BELL_TOLLS"] = "Die Glocke schlägt"
+L["THE_COURT_OF_HARVESTERS"] = "Der Hof der Ernter"
+L["THE_CROWNED_PRINCE"] = "Der Gekrönte Prinz"
+L["THE_HORNED_HUNTER"] = "Der Gehörnte Jäger"
+L["THE_HOUSE_OF_EYES"] = "Das Haus der Augen"
+L["THE_HOUSE_OF_RITUALS"] = "Das Haus der Rituale"
+L["THE_SEAL_OF_CONTRITION"] = "Das Siegel der Reue"
+L["THE_WAGES_OF_SIN"] = "Der Sold der Sünde"
+L["TRIAL_OF_ASCENSION"] = "Die Prüfung des Aufstiegs"

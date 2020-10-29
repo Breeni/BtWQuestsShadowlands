@@ -1,4 +1,5 @@
 local BtWQuests = BtWQuests
+local L = BtWQuests.L
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
 local CATEGORY_ID = BtWQuests.Constant.Category.Shadowlands.NightFae
@@ -6,7 +7,7 @@ local Chain = BtWQuests.Constant.Chain.Shadowlands.NightFae
 local LEVEL_RANGE = {60, 60}
 
 Database:AddChain(Chain.ForQueenAndGrove, {
-    name = "For Queen And Grove",
+    name = L["FOR_QUEEN_AND_GROVE"],
     questline = 1098,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -225,7 +226,7 @@ Database:AddChain(Chain.ForQueenAndGrove, {
     },
 })
 Database:AddChain(Chain.ReturnToTheMaw, {
-    name = "Return to the Maw",
+    name = L["RETURN_TO_THE_MAW"],
     questline = 1098,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -309,7 +310,7 @@ Database:AddChain(Chain.ReturnToTheMaw, {
     },
 })
 Database:AddChain(Chain.DaughterOfTheNightWarrior, {
-    name = "Daughter of the Night Warrior",
+    name = L["DAUGHTER_OF_THE_NIGHT_WARRIOR"],
     questline = 1064,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -413,7 +414,7 @@ Database:AddChain(Chain.DaughterOfTheNightWarrior, {
     },
 })
 Database:AddChain(Chain.DeBoss, {
-    name = "De Boss",
+    name = L["DE_BOSS"],
     questline = 1101,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -544,7 +545,7 @@ Database:AddChain(Chain.DeBoss, {
     },
 })
 Database:AddChain(Chain.NightWarriorsCurse, {
-    name = "Night Warriors Curse",
+    name = L["NIGHT_WARRIORS_CURSE"],
     questline = 1099,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -702,7 +703,7 @@ Database:AddChain(Chain.NightWarriorsCurse, {
     },
 })
 Database:AddChain(Chain.DrustToDrust, {
-    name = "Drust to Drust",
+    name = L["DRUST_TO_DRUST"],
     questline = 1104,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -930,7 +931,7 @@ Database:AddChain(Chain.DrustToDrust, {
     },
 })
 Database:AddChain(Chain.TheHornedHunter, {
-    name = "The Horned Hunter",
+    name = L["THE_HORNED_HUNTER"],
     questline = 1100,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1076,7 +1077,7 @@ Database:AddChain(Chain.TheHornedHunter, {
     },
 })
 Database:AddChain(Chain.DealForALoa, {
-    name = "Deal for a Loa",
+    name = L["DEAL_FOR_A_LOA"],
     questline = 1102,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1234,7 +1235,7 @@ Database:AddChain(Chain.DealForALoa, {
     },
 })
 Database:AddChain(Chain.DrustAndAshes, {
-    name = "Drust and Ashes",
+    name = L["DRUST_AND_ASHES"],
     questline = 1103,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,

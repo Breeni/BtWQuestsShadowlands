@@ -1,0 +1,41 @@
+----- AUTO GENERATED - DO NOT EDIT
+
+if GetLocale() ~= "esMX" then
+    return
+end
+
+local L = BtWQuests.L
+L["AMONG_THE_KYRIAN"] = "Entre los kyrian"
+L["ARRIVAL_IN_THE_SHADOWLANDS"] = "Llega a las Tierras de las Sombras"
+L["ASSAULT_ON_THE_HOUSE_OF_RITUALS"] = "Asalto a la Casa de Rituales"
+L["AVARICE"] = "Avaricia"
+L["A_GOLDEN_DAWN"] = "Un alba dorada"
+L["A_VESSEL_OF_ARDENWEALD"] = "Un receptáculo de Ardenweald"
+L["CLOSING_IN"] = "Cada vez más cerca"
+L["CONFRONTING_SIN"] = "Confrontar el pecado"
+L["DAUGHTER_OF_THE_NIGHT_WARRIOR"] = "Hija de la guerrera nocturna"
+L["DEAL_FOR_A_LOA"] = "Trato por un loa"
+L["DESIRE"] = "Deseo"
+L["DE_BOSS"] = "El jefe"
+L["DOMINION"] = "Dominio"
+L["DO_NOT_FORGET"] = "Nunca olvidar"
+L["DRUST_AND_ASHES"] = "Drust y cenizas"
+L["DRUST_TO_DRUST"] = "De drust a drust"
+L["ENVY"] = "Envidia"
+L["FOR_QUEEN_AND_GROVE"] = "¡Por la reina y la arboleda!"
+L["GRAND_THEFT_NECROPOLIS"] = "El gran robo de la necrópolis"
+L["LOYAL_TO_THE_PRIMUS"] = "Lealtad al Primus"
+L["NIGHT_WARRIORS_CURSE"] = "La maldición de la guerrera nocturna"
+L["PHAESTUS_GENESIS_OF_AEONS"] = "Festus, génesis de eones"
+L["RETURN_TO_THE_MAW"] = "Regreso a las Fauces"
+L["RIGHTEOUS_RETRIBUTION"] = "Castigo justo"
+L["SINFALL"] = "Caída del Pecado"
+L["THE_BELL_TOLLS"] = "Doblan las campanas"
+L["THE_COURT_OF_HARVESTERS"] = "La Corte de Cosechadores"
+L["THE_CROWNED_PRINCE"] = "El príncipe heredero"
+L["THE_HORNED_HUNTER"] = "El Cazador astado"
+L["THE_HOUSE_OF_EYES"] = "La Casa de los Ojos"
+L["THE_HOUSE_OF_RITUALS"] = "Casa de Rituales"
+L["THE_SEAL_OF_CONTRITION"] = "El sello de contrición"
+L["THE_WAGES_OF_SIN"] = "La paga del pecado"
+L["TRIAL_OF_ASCENSION"] = "La prueba de ascensión"

@@ -1,0 +1,41 @@
+----- AUTO GENERATED - DO NOT EDIT
+
+if GetLocale() ~= "zhTW" then
+    return
+end
+
+local L = BtWQuests.L
+L["AMONG_THE_KYRIAN"] = "琪瑞安的一員"
+L["ARRIVAL_IN_THE_SHADOWLANDS"] = "抵達暗影之境"
+L["ASSAULT_ON_THE_HOUSE_OF_RITUALS"] = "襲擊祭儀家族"
+L["AVARICE"] = "貪婪"
+L["A_GOLDEN_DAWN"] = "黃金黎明"
+L["A_VESSEL_OF_ARDENWEALD"] = "亞登曠野容器"
+L["CLOSING_IN"] = "步步逼近"
+L["CONFRONTING_SIN"] = "面對罪行"
+L["DAUGHTER_OF_THE_NIGHT_WARRIOR"] = "黑夜戰士的女兒"
+L["DEAL_FOR_A_LOA"] = "羅亞的交易"
+L["DESIRE"] = "慾望"
+L["DE_BOSS"] = "幕後老大"
+L["DOMINION"] = "支配"
+L["DO_NOT_FORGET"] = "請別忘記"
+L["DRUST_AND_ASHES"] = "佐司特的惡意"
+L["DRUST_TO_DRUST"] = "佐司特的塵土"
+L["ENVY"] = "嫉妒"
+L["FOR_QUEEN_AND_GROVE"] = "為了女王和林地！"
+L["GRAND_THEFT_NECROPOLIS"] = "亡城大劫案"
+L["LOYAL_TO_THE_PRIMUS"] = "效忠統御者"
+L["NIGHT_WARRIORS_CURSE"] = "黑夜戰士的詛咒"
+L["PHAESTUS_GENESIS_OF_AEONS"] = "斐斯托斯，紀元創生者"
+L["RETURN_TO_THE_MAW"] = "重返淵喉"
+L["RIGHTEOUS_RETRIBUTION"] = "正義懲戒"
+L["SINFALL"] = "罪殞城"
+L["THE_BELL_TOLLS"] = "鐘聲響起"
+L["THE_COURT_OF_HARVESTERS"] = "收割者廷衛"
+L["THE_CROWNED_PRINCE"] = "王子加冕"
+L["THE_HORNED_HUNTER"] = "犄角獵人"
+L["THE_HOUSE_OF_EYES"] = "蛛眼家族"
+L["THE_HOUSE_OF_RITUALS"] = "祭儀家族"
+L["THE_SEAL_OF_CONTRITION"] = "悔悟徽印"
+L["THE_WAGES_OF_SIN"] = "罪惡的代價"
+L["TRIAL_OF_ASCENSION"] = "晉升試煉"
