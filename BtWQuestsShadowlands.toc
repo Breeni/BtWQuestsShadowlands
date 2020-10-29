@@ -63,6 +63,18 @@ Objects.ruRU.lua
 Objects.zhCN.lua
 Objects.zhTW.lua
 
+Index.enUS.lua
+Index.deDE.lua
+Index.esES.lua
+Index.esMX.lua
+Index.frFR.lua
+Index.itIT.lua
+Index.koKR.lua
+Index.ptBR.lua
+Index.ruRU.lua
+Index.zhCN.lua
+Index.zhTW.lua
+
 Introduction.lua
 Bastion.lua
 Maldraxxus.lua
