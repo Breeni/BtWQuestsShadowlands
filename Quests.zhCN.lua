@@ -9,6 +9,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59917] = {
         name = "宰了就行",
     },
+    [60048] = {
+        name = "缝合时间",
+    },
     [60184] = {
         name = "我的浮空城呢？",
     },

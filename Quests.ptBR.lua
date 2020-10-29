@@ -9,6 +9,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59917] = {
         name = "Que morram pela boca",
     },
+    [60048] = {
+        name = "Hora da sutura",
+    },
     [60184] = {
         name = "Cara, cadê minha necrópole?",
     },

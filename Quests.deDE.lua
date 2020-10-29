@@ -18,6 +18,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59917] = {
         name = "Natürlich töten",
     },
+    [60048] = {
+        name = "Stickzeit",
+    },
     [60184] = {
         name = "Ey Mann, wo is' meine Nekropole?",
     },

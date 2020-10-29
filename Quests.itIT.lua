@@ -9,6 +9,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59917] = {
         name = "Quei balordi degli ingordi",
     },
+    [60048] = {
+        name = "L'ora del cucito",
+    },
     [60184] = {
         name = "Dov'è la mia necropoli?",
     },

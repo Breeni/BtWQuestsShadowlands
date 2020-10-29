@@ -18,6 +18,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59917] = {
         name = "당연히 모조리 죽여야지",
     },
+    [60048] = {
+        name = "바느질 시간",
+    },
     [60184] = {
         name = "뭐야 죽음의 요새 돌려줘요",
     },

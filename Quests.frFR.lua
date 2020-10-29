@@ -9,6 +9,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59917] = {
         name = "Pas de pitié pour les gloutons",
     },
+    [60048] = {
+        name = "Ça va suturer sec",
+    },
     [60184] = {
         name = "Où est ma nécropole ?",
     },

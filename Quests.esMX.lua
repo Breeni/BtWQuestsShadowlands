@@ -9,6 +9,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59917] = {
         name = "Matarlos, desde luego",
     },
+    [60048] = {
+        name = "Hora de coser",
+    },
     [60184] = {
         name = "¿Dónde está mi necrópolis?",
     },

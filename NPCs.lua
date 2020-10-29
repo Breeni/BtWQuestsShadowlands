@@ -595,8 +595,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1565] = {
                 {
-                    x = 0.466659,
-                    y = 0.294022,
+                    x = 0.466647,
+                    y = 0.294092,
                 },
             },
         },
@@ -887,13 +887,46 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [159427] = {
+        name = "Elder Finnan",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.558196,
+                    y = 0.234162,
+                },
+            },
+        },
+    },
+    [159428] = {
+        name = "Groonoomcrooek",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.564493,
+                    y = 0.292709,
+                },
+            },
+        },
+    },
+    [159465] = {
+        name = "Elder Gwenna",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.590737,
+                    y = 0.243513,
+                },
+            },
+        },
+    },
     [159478] = {
         name = "Tal-Inara",
         locations = {
             [1670] = {
                 {
-                    x = 0.393578,
-                    y = 0.688073,
+                    x = 0.389161,
+                    y = 0.700035,
                 },
             },
         },
@@ -1046,8 +1079,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1536] = {
                 {
-                    x = 0.565569,
-                    y = 0.573254,
+                    x = 0.565251,
+                    y = 0.571587,
                 },
             },
         },
@@ -1070,6 +1103,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.556667,
                     y = 0.42,
+                },
+            },
+        },
+    },
+    [160045] = {
+        name = "Helpful Faerie",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.537997,
+                    y = 0.275749,
                 },
             },
         },
@@ -1327,6 +1371,39 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [160749] = {
+        name = "Primrose",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.534827,
+                    y = 0.587127,
+                },
+            },
+        },
+    },
+    [160757] = {
+        name = "Primrose",
+        locations = {
+            [1565] = {
+                {
+                    x = 0.524786,
+                    y = 0.600928,
+                },
+            },
+        },
+    },
+    [160847] = {
+        name = "Examiner Boian",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.800567,
+                    y = 0.372481,
+                },
+            },
+        },
+    },
     [160894] = {
         name = "Droman Aliothe",
         locations = {
@@ -1536,7 +1613,7 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [161436] = {
-        name = "Kael'thas Sunstrider",
+        name = "Arrogant Soul",
         locations = {
             [1525] = {
                 {
@@ -1807,8 +1884,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1698] = {
                 {
-                    x = 0.497163,
-                    y = 0.506383,
+                    x = 0.497533,
+                    y = 0.50646,
                 },
             },
         },
@@ -1906,8 +1983,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1536] = {
                 {
-                    x = 0.251283,
-                    y = 0.318492,
+                    x = 0.237868,
+                    y = 0.391479,
                 },
             },
         },
@@ -2084,6 +2161,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.469532,
                     y = 0.417087,
+                },
+            },
+        },
+    },
+    [162928] = {
+        name = "Overseer Kah-Delen",
+        locations = {
+            [1670] = {
+                {
+                    x = 0.54526,
+                    y = 0.543119,
                 },
             },
         },
@@ -2423,8 +2511,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1912] = {
                 {
-                    x = 0.504444,
-                    y = 0.54,
+                    x = 0.503123,
+                    y = 0.559517,
                 },
             },
         },
@@ -4596,8 +4684,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1670] = {
                 {
-                    x = 0.402914,
-                    y = 0.686988,
+                    x = 0.403364,
+                    y = 0.686239,
                 },
             },
         },

@@ -9,6 +9,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59917] = {
         name = "見到就殺",
     },
+    [60048] = {
+        name = "縫合時間",
+    },
     [60184] = {
         name = "喂，我的亡城在哪裡？",
     },

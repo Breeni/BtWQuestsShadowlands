@@ -9,6 +9,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59917] = {
         name = "Mátalos, claro",
     },
+    [60048] = {
+        name = "Así cosía, así, así",
+    },
     [60184] = {
         name = "¿Y mi necrópolis?",
     },
