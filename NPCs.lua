@@ -3609,6 +3609,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [168432] = {
+        name = "Ve'rayn",
+        locations = {
+            [1671] = {
+                {
+                    x = 0.495219,
+                    y = 0.609219,
+                },
+            },
+        },
+    },
     [168455] = {
         name = "Sabina",
         locations = {
