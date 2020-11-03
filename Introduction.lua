@@ -845,6 +845,94 @@ Database:AddChain(Chain.Torghast, {
         },
     },
 })
+Database:AddChain(Chain.NewRules, {
+    name = "New Rules",
+    questline = 1200,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    major = true,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            name = L["UNKNOWN"]
+        }
+    },
+    active = {
+        type = "quest",
+        id = 63051,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 60158,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 168432,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63051,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60281,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60284,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60285,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 62461,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63022,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 60158,
+            x = 0,
+        },
+    },
+})
 
 BtWQuestsDatabase:AddExpansionItems(EXPANSION_ID, {
     {
@@ -895,5 +983,9 @@ BtWQuestsDatabase:AddExpansionItems(EXPANSION_ID, {
     {
         type = "chain",
         id = Chain.Torghast,
+    },
+    {
+        type = "chain",
+        id = Chain.NewRules,
     },
 })

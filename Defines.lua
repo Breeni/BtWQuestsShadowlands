@@ -19,6 +19,7 @@ BtWQuests.Constant.Chain.Shadowlands = {
     ArrivalInTheShadowlandsAlt = 90003,
     TheMawEmbed = 90004,
     Torghast = 90005,
+    NewRules = 90006,
 
     Bastion = {
         EternitysCall = 90101,
