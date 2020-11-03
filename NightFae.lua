@@ -273,18 +273,10 @@ Database:AddChain(Chain.ReturnToTheMaw, {
         {
             type = "quest",
             id = 62893,
-            x = -1,
-            connections = {
-                2, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60233,
+            x = 0,
             connections = {
                 1, 
             },
-            comment = "Dont think this should be available",
         },
         {
             type = "chain",
@@ -293,19 +285,14 @@ Database:AddChain(Chain.ReturnToTheMaw, {
             x = 0,
             connections = {
                 [5] = {
-                    1, 2
+                    1,
                 }, 
             },
         },
         {
             type = "quest",
             id = 62894,
-            x = -1,
-        },
-        {
-            type = "quest",
-            id = 62838,
-            comment = "Dont think this should be available",
+            x = 0,
         },
     },
 })
