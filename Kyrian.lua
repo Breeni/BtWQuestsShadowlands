@@ -302,7 +302,7 @@ Database:AddChain(Chain.TrialOfAscension, {
         },
         {
             type = "renown",
-            level = 4,
+            level = 5,
         },
     },
     active = {
@@ -490,7 +490,7 @@ Database:AddChain(Chain.PhaestusGenesisOfAeons, {
         },
         {
             type = "renown",
-            level = 7,
+            level = 8,
         },
     },
     active = {
@@ -622,7 +622,7 @@ Database:AddChain(Chain.RighteousRetribution, {
         },
         {
             type = "renown",
-            level = 10,
+            level = 11,
         },
     },
     active = {
@@ -843,7 +843,7 @@ Database:AddChain(Chain.TheSealOfContrition, {
         },
         {
             type = "renown",
-            level = 12,
+            level = 13,
         },
     },
     active = {
@@ -1030,7 +1030,7 @@ Database:AddChain(Chain.AVesselOfArdenweald, {
         },
         {
             type = "renown",
-            level = 16,
+            level = 17,
         },
     },
     active = {
@@ -1210,7 +1210,7 @@ Database:AddChain(Chain.ClosingIn, {
         },
         {
             type = "renown",
-            level = 19,
+            level = 20,
         },
     },
     active = {
@@ -1401,7 +1401,7 @@ Database:AddChain(Chain.TheBellTolls, {
         },
         {
             type = "renown",
-            level = 21,
+            level = 22,
         },
     },
     active = {

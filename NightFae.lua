@@ -336,7 +336,7 @@ Database:AddChain(Chain.DaughterOfTheNightWarrior, {
         },
         {
             type = "renown",
-            level = 4,
+            level = 5,
         },
     },
     active = {
@@ -450,7 +450,7 @@ Database:AddChain(Chain.DeBoss, {
         },
         {
             type = "renown",
-            level = 7,
+            level = 8,
         },
     },
     completed = {
@@ -586,7 +586,7 @@ Database:AddChain(Chain.NightWarriorsCurse, {
         },
         {
             type = "renown",
-            level = 10,
+            level = 11,
         },
     },
     completed = {
@@ -749,7 +749,7 @@ Database:AddChain(Chain.DrustToDrust, {
         },
         {
             type = "renown",
-            level = 12,
+            level = 13,
         },
     },
     completed = {
@@ -982,7 +982,7 @@ Database:AddChain(Chain.TheHornedHunter, {
         },
         {
             type = "renown",
-            level = 16,
+            level = 17,
         },
     },
     completed = {
@@ -1133,7 +1133,7 @@ Database:AddChain(Chain.DealForALoa, {
         },
         {
             type = "renown",
-            level = 19,
+            level = 20,
         },
     },
     completed = {
@@ -1296,7 +1296,7 @@ Database:AddChain(Chain.DrustAndAshes, {
         },
         {
             type = "renown",
-            level = 21,
+            level = 22,
         },
     },
     completed = {

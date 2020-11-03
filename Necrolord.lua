@@ -291,7 +291,7 @@ Database:AddChain(Chain.TheHouseOfEyes, {
         },
         {
             type = "renown",
-            level = 4,
+            level = 5,
         },
     },
     active = {
@@ -447,7 +447,7 @@ Database:AddChain(Chain.GrandTheftNecropolis, {
         },
         {
             type = "renown",
-            level = 7,
+            level = 8,
         },
     },
     active = {
@@ -604,7 +604,7 @@ Database:AddChain(Chain.DoNotForget, {
         },
         {
             type = "renown",
-            level = 10,
+            level = 11,
         },
     },
     active = {
@@ -780,7 +780,7 @@ Database:AddChain(Chain.AGoldenDawn, {
         },
         {
             type = "renown",
-            level = 12,
+            level = 13,
         },
     },
     active = {
@@ -1014,7 +1014,7 @@ Database:AddChain(Chain.TheWagesOfSin, {
         },
         {
             type = "renown",
-            level = 16,
+            level = 17,
         },
     },
     active = {
@@ -1146,7 +1146,7 @@ Database:AddChain(Chain.TheHouseOfRituals, {
         },
         {
             type = "renown",
-            level = 19,
+            level = 20,
         },
     },
     active = {
@@ -1452,7 +1452,7 @@ Database:AddChain(Chain.AssaultOnTheHouseOfRituals, {
         },
         {
             type = "renown",
-            level = 21,
+            level = 22,
         },
     },
     active = {
@@ -1881,7 +1881,7 @@ Database:AddChain(Chain.Chain12, {
     items = {
         {
             type = "renown",
-            level = 3,
+            level = 4,
             x = 0,
         },
         {

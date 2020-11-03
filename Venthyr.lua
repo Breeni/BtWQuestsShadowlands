@@ -291,7 +291,7 @@ Database:AddChain(Chain.TheCourtOfHarvesters, {
         },
         {
             type = "renown",
-            level = 4,
+            level = 5,
         },
     },
     active = {
@@ -435,7 +435,7 @@ Database:AddChain(Chain.Desire, {
         },
         {
             type = "renown",
-            level = 7,
+            level = 8,
         },
     },
     active = {
@@ -603,7 +603,7 @@ Database:AddChain(Chain.Avarice, {
         },
         {
             type = "renown",
-            level = 10,
+            level = 11,
         },
     },
     active = {
@@ -759,7 +759,7 @@ Database:AddChain(Chain.TheCrownedPrince, {
         },
         {
             type = "renown",
-            level = 12,
+            level = 13,
         },
     },
     active = {
@@ -944,7 +944,7 @@ Database:AddChain(Chain.ConfrontingSin, {
         },
         {
             type = "renown",
-            level = 16,
+            level = 17,
         },
     },
     active = {
@@ -1156,7 +1156,7 @@ Database:AddChain(Chain.Envy, {
         },
         {
             type = "renown",
-            level = 19,
+            level = 20,
         },
     },
     active = {
@@ -1300,7 +1300,7 @@ Database:AddChain(Chain.Dominion, {
         },
         {
             type = "renown",
-            level = 21,
+            level = 22,
         },
     },
     active = {
