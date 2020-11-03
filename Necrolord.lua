@@ -1734,10 +1734,6 @@ Database:AddChain(Chain.Chain04, {
             type = "chain",
             id = Chain.LoyalToThePrimus,
         },
-        {
-            type = "renown",
-            level = 4,
-        },
     },
     active = {
         type = "quest",
