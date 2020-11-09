@@ -39,7 +39,24 @@ Database:AddChain(Chain.Sinfall, {
     items = {
         {
             type = "npc",
-            id = 171589,
+            id = 159478,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 63215,
+                    breadcrumb = true,
+                },
+                { -- When switching the other quest isnt done
+                    type = "npc",
+                    id = 171589,
+                },
+            },
             x = 0,
             connections = {
                 1, 
@@ -288,6 +305,12 @@ Database:AddChain(Chain.TheCourtOfHarvesters, {
         {
             type = "chain",
             id = Chain.Sinfall,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
+            upto = 60272,
         },
         {
             type = "renown",

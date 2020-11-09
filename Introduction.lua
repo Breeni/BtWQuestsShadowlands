@@ -604,7 +604,7 @@ Database:AddChain(Chain.TheMawEmbed, {
 })
 Database:AddChain(Chain.Torghast, {
     name = BtWQuests_GetMapName(1762),
-    questline = 1136,
+    questline = {1136, 1210},
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
@@ -703,7 +703,7 @@ Database:AddChain(Chain.Torghast, {
             id = 60136,
             x = 0,
             connections = {
-                1, 2, 
+                1,
             },
         },
         {
@@ -711,19 +711,19 @@ Database:AddChain(Chain.Torghast, {
             id = 61099,
             x = -1,
             connections = {
-                2, 
+                2, 3
             },
         },
         {
             type = "kill",
-            id = 151329,
+            id = 175123,
             connections = {
                 2, 
             },
         },
         {
             type = "quest",
-            id = 62932,
+            ids = {62932, 62967},
             x = -1,
             connections = {
                 2, 

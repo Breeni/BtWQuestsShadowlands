@@ -1239,7 +1239,7 @@ Database:AddChain(Chain.Chain04, {
     },
 })
 Database:AddChain(Chain.EmbedChain02, {
-    questline = 1156,
+    questline = {1156, 1169},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,

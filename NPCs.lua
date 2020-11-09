@@ -23,9 +23,6 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
-    [151329] = {
-        name = "Warden Skoldus",
-    },
     [154627] = {
         name = "Xandria",
         locations = {
@@ -196,8 +193,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1703] = {
                 {
-                    x = 0.515385,
-                    y = 0.269231,
+                    x = 0.512571,
+                    y = 0.277408,
                 },
             },
         },
@@ -606,8 +603,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1698] = {
                 {
-                    x = 0.494326,
-                    y = 0.219149,
+                    x = 0.495066,
+                    y = 0.218072,
                 },
             },
         },
@@ -2478,8 +2475,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1699] = {
                 {
-                    x = 0.259259,
-                    y = 0.551852,
+                    x = 0.25941,
+                    y = 0.557288,
                 },
             },
         },
@@ -2489,8 +2486,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1699] = {
                 {
-                    x = 0.518519,
-                    y = 0.374074,
+                    x = 0.518044,
+                    y = 0.37543,
                 },
             },
         },
@@ -2599,8 +2596,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1698] = {
                 {
-                    x = 0.495745,
-                    y = 0.440426,
+                    x = 0.496989,
+                    y = 0.43796,
                 },
             },
         },
@@ -4129,17 +4126,6 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
-    [170636] = {
-        name = "Winter Queen",
-        locations = {
-            [1565] = {
-                {
-                    x = 0.451112,
-                    y = 0.650714,
-                },
-            },
-        },
-    },
     [170667] = {
         name = "Ta'eran",
         locations = {
@@ -4398,8 +4384,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1700] = {
                 {
-                    x = 0.453968,
-                    y = 0.295238,
+                    x = 0.453759,
+                    y = 0.293207,
                 },
             },
         },
@@ -4409,8 +4395,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1699] = {
                 {
-                    x = 0.454321,
-                    y = 0.207407,
+                    x = 0.454173,
+                    y = 0.208887,
                 },
             },
         },
@@ -4420,8 +4406,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1699] = {
                 {
-                    x = 0.436636,
-                    y = 0.174759,
+                    x = 0.436619,
+                    y = 0.1745,
                 },
             },
         },
@@ -4855,6 +4841,9 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [175123] = {
+        name = "Warden Arkoban",
+    },
     [175133] = {
         name = "Pathscribe Roh-Avonavi",
         locations = {
@@ -4884,6 +4873,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.597872,
                     y = 0.317021,
+                },
+            },
+        },
+    },
+    [176100] = {
+        name = "Iona Skyblade",
+        locations = {
+            [1707] = {
+                {
+                    x = 0.427607,
+                    y = 0.702686,
                 },
             },
         },

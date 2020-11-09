@@ -39,7 +39,24 @@ Database:AddChain(Chain.LoyalToThePrimus, {
     items = {
         {
             type = "npc",
-            id = 171821,
+            id = 159478,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 63212,
+                    breadcrumb = true,
+                },
+                { -- When switching the other quest isnt done
+                    type = "npc",
+                    id = 171821,
+                },
+            },
             x = 0,
             connections = {
                 1, 
@@ -155,8 +172,20 @@ Database:AddChain(Chain.LoyalToThePrimus, {
             },
         },
         {
-            type = "quest",
-            id = 59596,
+            variations = {
+                {
+                    type = "quest",
+                    id = 63003,
+                    restrictions = {
+                        type = "quest",
+                        id = 63001,
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 59596,
+                },
+            },
             x = 0,
             connections = {
                 1, 
@@ -288,6 +317,12 @@ Database:AddChain(Chain.TheHouseOfEyes, {
         {
             type = "chain",
             id = Chain.LoyalToThePrimus,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
+            upto = 60272,
         },
         {
             type = "renown",

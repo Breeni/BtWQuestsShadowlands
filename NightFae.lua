@@ -39,7 +39,24 @@ Database:AddChain(Chain.ForQueenAndGrove, {
     items = {
         {
             type = "npc",
-            id = 171795,
+            id = 159478,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 63214,
+                    breadcrumb = true,
+                },
+                { -- When switching the other quest isnt done
+                    type = "npc",
+                    id = 171795,
+                },
+            },
             x = 0,
             connections = {
                 1, 
@@ -94,8 +111,20 @@ Database:AddChain(Chain.ForQueenAndGrove, {
             },
         },
         {
-            type = "quest",
-            id = 58160,
+            variations = {
+                {
+                    type = "quest",
+                    id = 63006,
+                    restrictions = {
+                        type = "quest",
+                        id = 63007,
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 58160,
+                },
+            },
             x = 0,
             connections = {
                 1, 
@@ -187,8 +216,20 @@ Database:AddChain(Chain.ForQueenAndGrove, {
             },
         },
         {
-            type = "quest",
-            id = 61541,
+            variations = {
+                {
+                    type = "quest",
+                    id = 63008,
+                    restrictions = {
+                        type = "quest",
+                        id = 63007,
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 61541,
+                },
+            },
             x = 0,
             connections = {
                 1, 
@@ -320,6 +361,12 @@ Database:AddChain(Chain.DaughterOfTheNightWarrior, {
         {
             type = "chain",
             id = Chain.ForQueenAndGrove,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
+            upto = 60272,
         },
         {
             type = "renown",
@@ -739,6 +786,11 @@ Database:AddChain(Chain.DrustToDrust, {
             level = 13,
         },
     },
+    active = {
+        type = "quest",
+        id = 60898,
+        status = {'active', 'completed'}
+    },
     completed = {
         type = "quest",
         id = 61138,
@@ -747,22 +799,6 @@ Database:AddChain(Chain.DrustToDrust, {
         {
             type = "npc",
             id = 161509,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60885,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 60888,
             x = 0,
             connections = {
                 1, 
@@ -905,14 +941,6 @@ Database:AddChain(Chain.DrustToDrust, {
         {
             type = "quest",
             id = 61171,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 61138,
             x = 0,
         },
     },

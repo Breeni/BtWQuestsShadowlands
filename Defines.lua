@@ -1,3 +1,29 @@
+--[[@TODO
+    Update campaign chapter requirements with torghast, remove return to the maw
+    Figure out requirements for New Rules, at most is part way through torghast
+    Verify first part of each campaign
+    Update chain rewards
+    Update locales
+    Update campaign names
+    Check quest 63006 in night fae intro
+    Check quest 63002 in kyrian intro
+    Check quest 63003 in necrolord intro
+
+    62706 Flagged as completed after accepting the quest A Calling in Bastion during the intro
+          Seemed to happen before after finishing the Maw intro, maybe something to do with Torghast realm
+    62924 Flagged as completed after accepting the quest Our Most Previous Resource
+    62907 Flagged while getting my first 5 souls, after the eye of the jailer popped up
+
+    When doing the Kyrian covenant skip the tracking quests 62706, 62907, 62924, 63001, 63023 are flag completed. might be related to something else
+        Seems like 63001 and 63023 are the thing to look for
+        Same for venthyr it appears
+
+    Questlines 1201, 1202, 1203, 1204, 1205 all seem to be the quests that get flagged as completed when you do the covenant skip
+        1203 and 1205 are both night fae, they are slightly different though. 1203 seems to have an extra tracking quest
+        First quests after skips are different
+        Night Fae have 2 skip options, one BEFORE [Show, Don't Tell] and the other BEFORE [The Forest Will Sing Your Name]
+            First skip also flags 63007 as completed, gives a different version of For Queen and Grove (63006) and leads to (The Forge of Bonds) 63008
+]]
 local BtWQuests = BtWQuests
 local L = BtWQuests.L
 local Database = BtWQuests.Database
@@ -269,6 +295,8 @@ do
     Database:RegisterItemType("covenant", CovenantItem);
     Database:AddCondition(86994, { type = "quest", ids = {62713, 57559}, count = 2 }) -- Quests should be level 50 now
     Database:AddCondition(87203, { type = "quest", id = 62713, status = {"pending"} }) -- Did not choose Threads of Fate alt leveling
+    Database:AddCondition(-90000, { type = "quest", id = 63001, status = {"pending"} }) -- Didnt skip convenant hall intro
+    Database:AddCondition(-90001, { type = "quest", id = 63007, status = {"pending"} }) -- Didnt skip convenant hall intro pre-play in night fae
 end
 
 Database:AddExpansion(BtWQuests.Constant.Expansions.Shadowlands, {

@@ -39,7 +39,24 @@ Database:AddChain(Chain.AmongTheKyrian, {
     items = {
         {
             type = "npc",
-            id = 171787,
+            id = 159478,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            variations = {
+                {
+                    type = "quest",
+                    id = 63211,
+                    breadcrumb = true,
+                },
+                { -- When switching the other quest isnt done
+                    type = "npc",
+                    id = 171787,
+                },
+            },
             x = 0,
             connections = {
                 1, 
@@ -166,8 +183,20 @@ Database:AddChain(Chain.AmongTheKyrian, {
             },
         },
         {
-            type = "quest",
-            id = 57897,
+            variations = {
+                {
+                    type = "quest",
+                    id = 63002,
+                    restrictions = {
+                        type = "quest",
+                        id = 63001,
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 57897,
+                },
+            },
             x = 0,
             connections = {
                 1, 
@@ -299,6 +328,12 @@ Database:AddChain(Chain.TrialOfAscension, {
         {
             type = "chain",
             id = Chain.AmongTheKyrian,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
+            upto = 60272,
         },
         {
             type = "renown",
