@@ -137,7 +137,7 @@ Database:AddChain(Chain.EternitysCall, {
             id = Chain.EmbedChain01,
             aside = true,
             embed = true,
-            x = 3,
+            x = 0,
         },
     },
 })
