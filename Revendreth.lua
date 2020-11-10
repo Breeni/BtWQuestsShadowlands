@@ -1,7 +1,6 @@
--- AUTO GENERATED - NEEDS UPDATING
-
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
+local L = BtWQuests.L
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
 local CATEGORY_ID = BtWQuests.Constant.Category.Shadowlands.Revendreth
 local Chain = BtWQuests.Constant.Chain.Shadowlands.Revendreth
@@ -45,6 +44,29 @@ Database:AddChain(Chain.WelcomeToRevendreth, {
     completed = {
         type = "quest",
         id = 56978,
+    },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                92850, 94450, 
+            },
+            minLevel = 58,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                2805190, 2805190, 2813380, 2821570, 
+            },
+            minLevel = 57,
+            maxLevel = 60,
+        },
+        {
+            type = "reputation",
+            id = 2413,
+            amount = 300,
+        },
     },
     items = {
         {
@@ -177,6 +199,29 @@ Database:AddChain(Chain.MeetTheMaster, {
         type = "quest",
         id = 57179,
     },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                35700, 36400, 
+            },
+            minLevel = 58,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                998240, 998240, 998240, 998240, 
+            },
+            minLevel = 57,
+            maxLevel = 60,
+        },
+        {
+            type = "reputation",
+            id = 2413,
+            amount = 500,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -274,6 +319,24 @@ Database:AddChain(Chain.TheAccusersSecret, {
     completed = {
         type = "quest",
         id = 57180,
+    },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                105150, 106950, 
+            },
+            minLevel = 58,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                3159000, 3159000, 3163680, 3168360, 
+            },
+            minLevel = 57,
+            maxLevel = 60,
+        },
     },
     items = {
         {
@@ -428,6 +491,29 @@ Database:AddChain(Chain.TheRebellion, {
     completed = {
         type = "quest",
         id = 59256,
+    },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                155975, 155975, 156950, 
+            },
+            minLevel = 57,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                5703865, 5703865, 5726095, 5748325, 
+            },
+            minLevel = 57,
+            maxLevel = 60,
+        },
+        {
+            type = "reputation",
+            id = 2413,
+            amount = 600,
+        },
     },
     items = {
         {
@@ -634,6 +720,34 @@ Database:AddChain(Chain.SecuringSinfall, {
         type = "quest",
         id = 57724,
     },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                106700, 106700, 106850, 
+            },
+            minLevel = 57,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                2665375, 2665375, 2665375, 2665375, 
+            },
+            minLevel = 57,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1820,
+            amount = 35,
+        },
+        {
+            type = "reputation",
+            id = 2413,
+            amount = 575,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -800,6 +914,24 @@ Database:AddChain(Chain.ThePrinceAndTheTower, {
         type = "quest",
         id = 57694,
     },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                37500, 37500, 37500, 
+            },
+            minLevel = 57,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                1428335, 1428335, 1428335, 1428335, 
+            },
+            minLevel = 57,
+            maxLevel = 60,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -911,6 +1043,16 @@ Database:AddChain(Chain.MenagerieOfTheMaster, {
         type = "quest",
         id = 58086,
     },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                1415700, 1415700, 1415700, 1415700, 
+            },
+            minLevel = 57,
+            maxLevel = 60,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -992,6 +1134,29 @@ Database:AddChain(Chain.Chain01, {
     completed = {
         type = "quest",
         id = 57481,
+    },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                31350, 31850, 
+            },
+            minLevel = 58,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                1074060, 1074060, 1074060, 1074060, 
+            },
+            minLevel = 57,
+            maxLevel = 60,
+        },
+        {
+            type = "reputation",
+            id = 2413,
+            amount = 300,
+        },
     },
     items = {
         {
@@ -1078,6 +1243,29 @@ Database:AddChain(Chain.Chain02, {
     completed = {
         type = "quest",
         id = 59726,
+    },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                131850, 134200, 
+            },
+            minLevel = 58,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                3247450, 3247450, 3247450, 3247450, 
+            },
+            minLevel = 57,
+            maxLevel = 60,
+        },
+        {
+            type = "reputation",
+            id = 2413,
+            amount = 1050,
+        },
     },
     items = {
         {
@@ -1210,6 +1398,16 @@ Database:AddChain(Chain.Chain03, {
         type = "quest",
         id = 58062,
     },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                90090, 90090, 90090, 90090, 
+            },
+            minLevel = 57,
+            maxLevel = 60,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -1287,6 +1485,29 @@ Database:AddChain(Chain.Chain04, {
         type = "quest",
         id = 60470,
     },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                54600, 54600, 54600, 
+            },
+            minLevel = 57,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                1530360, 1530360, 1530360, 1530360, 
+            },
+            minLevel = 57,
+            maxLevel = 60,
+        },
+        {
+            type = "reputation",
+            id = 2413,
+            amount = 400,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -1349,6 +1570,29 @@ Database:AddChain(Chain.Chain05, {
     completed = {
         type = "quest",
         id = 57536,
+    },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                112575, 112575, 112575, 
+            },
+            minLevel = 57,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                3443310, 3443310, 3443310, 3443310, 
+            },
+            minLevel = 57,
+            maxLevel = 60,
+        },
+        {
+            type = "reputation",
+            id = 2413,
+            amount = 950,
+        },
     },
     items = {
         {
@@ -1457,6 +1701,13 @@ Database:AddChain(Chain.Chain06, {
         ids = {60280, 60278},
         count = 2,
     },
+    rewards = {
+        {
+            type = "reputation",
+            id = 2413,
+            amount = 550,
+        },
+    },
     items = {
         {
             type = "chain",
@@ -1494,6 +1745,34 @@ Database:AddChain(Chain.Chain07, {
     completed = {
         type = "quest",
         id = 58092,
+    },
+    rewards = {
+        {
+            name = L["HALLS_OF_ATONEMENT_VENTHYR_RITUALS"],
+            type = "spell",
+            id = 312427,
+        },
+        {
+            type = "experience",
+            amounts = {
+                171100, 173900, 
+            },
+            minLevel = 58,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                6014730, 6014730, 6014730, 6014730, 
+            },
+            minLevel = 57,
+            maxLevel = 60,
+        },
+        {
+            type = "reputation",
+            id = 2439,
+            amount = 1500,
+        },
     },
     items = {
         {
@@ -1640,6 +1919,29 @@ Database:AddChain(Chain.Chain08, {
         type = "quest",
         id = 60178,
     },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                22350, 22750, 
+            },
+            minLevel = 58,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                631800, 631800, 631800, 631800, 
+            },
+            minLevel = 57,
+            maxLevel = 60,
+        },
+        {
+            type = "reputation",
+            id = 2413,
+            amount = 200,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -1706,6 +2008,16 @@ Database:AddChain(Chain.Chain09, {
     completed = {
         type = "quest",
         id = 58725,
+    },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                386100, 386100, 386100, 386100, 
+            },
+            minLevel = 57,
+            maxLevel = 60,
+        },
     },
     items = {
         {

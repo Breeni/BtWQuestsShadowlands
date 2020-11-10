@@ -36,6 +36,29 @@ Database:AddChain(Chain.ForQueenAndGrove, {
         type = "quest",
         id = 62899,
     },
+    rewards = {
+        {
+            name = L["SOULBIND_NIYA"],
+        },
+        {
+            type = "money",
+            amounts = {
+                2496780, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+        {
+            type = "reputation",
+            id = 2465,
+            amount = 1500,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -302,6 +325,34 @@ Database:AddChain(Chain.ReturnToTheMaw, {
         type = "quest",
         id = 62894,
     },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                38200, 38850, 39600, 40250, 40900, 
+            },
+            minLevel = 55,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                1525680, 1539720, 1553760, 1567800, 1581840, 1595880, 25740, 
+            },
+            minLevel = 55,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1810,
+            amount = 5,
+        },
+        {
+            type = "reputation",
+            id = 2432,
+            amount = 35,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -381,6 +432,24 @@ Database:AddChain(Chain.DaughterOfTheNightWarrior, {
     completed = {
         type = "quest",
         id = 59242,
+    },
+    rewards = {
+        {
+            name = L["SOULBIND_DREAMWEAVER"],
+        },
+        {
+            type = "money",
+            amounts = {
+                2084940, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -487,9 +556,29 @@ Database:AddChain(Chain.DeBoss, {
             level = 8,
         },
     },
+    active = {
+        type = "quest",
+        id = 59809,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
         id = 59821,
+    },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                2960100, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -565,14 +654,6 @@ Database:AddChain(Chain.DeBoss, {
         },
         {
             type = "quest",
-            id = 59820,
-            x = 0,
-            connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
             id = 59821,
             x = 0,
         },
@@ -623,9 +704,29 @@ Database:AddChain(Chain.NightWarriorsCurse, {
             level = 11,
         },
     },
+    active = {
+        type = "quest",
+        id = 58610,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
         id = 59071,
+    },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                3397680, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -794,6 +895,21 @@ Database:AddChain(Chain.DrustToDrust, {
     completed = {
         type = "quest",
         id = 61138,
+    },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                3963960, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -1000,9 +1116,29 @@ Database:AddChain(Chain.TheHornedHunter, {
             level = 17,
         },
     },
+    active = {
+        type = "quest",
+        id = 58445,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
         id = 58452,
+    },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                2342340, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -1151,9 +1287,37 @@ Database:AddChain(Chain.DealForALoa, {
             level = 20,
         },
     },
+    active = {
+        type = "quest",
+        id = 59731,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
         id = 59866,
+    },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
+            },
+            minLevel = 50,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                3678480, 3678715, 3678950, 3679180, 3679415, 3679650, 3679885, 3680120, 3680350, 3680585, 3680820, 
+            },
+            minLevel = 50,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -1314,9 +1478,42 @@ Database:AddChain(Chain.DrustAndAshes, {
             level = 22,
         },
     },
+    active = {
+        type = "quest",
+        id = 60189,
+        status = {'active', 'completed'},
+    },
     completed = {
         type = "quest",
         id = 60108,
+    },
+    rewards = {
+        {
+            name = L["SOULBIND_HUNT_CAPTAIN_KORAYN"],
+            type = "spell",
+            id = 345644,
+        },
+        {
+            type = "experience",
+            amounts = {
+                36650, 37350, 38100, 38800, 39600, 40300, 41100, 41800, 42500, 43200, 
+            },
+            minLevel = 50,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                2223000, 2237510, 2252020, 2266520, 2281030, 2295540, 2310050, 2324560, 2339060, 2353570, 2368080, 
+            },
+            minLevel = 50,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -1433,6 +1630,21 @@ Database:AddChain(Chain.Chain01, {
         type = "quest",
         id = 57583,
     },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                1467180, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "reputation",
+            id = 2463,
+            amount = 2500,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -1542,6 +1754,16 @@ Database:AddChain(Chain.Chain02, {
         type = "quest",
         id = 60723,
     },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                154440, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -1608,6 +1830,16 @@ Database:AddChain(Chain.Chain03, {
     completed = {
         type = "quest",
         id = 61553,
+    },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                51480, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
     },
     items = {
         {
@@ -1676,6 +1908,16 @@ Database:AddChain(Chain.Chain04, {
     completed = {
         type = "quest",
         id = 60642,
+    },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                1673100, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
     },
     items = {
         {

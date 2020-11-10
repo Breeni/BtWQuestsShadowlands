@@ -69,6 +69,24 @@ Database:AddChain(Chain.IntoTheMaw, {
         type = "quest",
         id = 59770,
     },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                137675, 137675, 110075, 82975, 55390, 27715, 13870, 13870, 13870, 13870, 
+            },
+            minLevel = 50,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                4352400, 4352400, 4352400, 4352400, 4352400, 4352400, 4352400, 4352400, 4352400, 4352400, 4352400, 
+            },
+            minLevel = 50,
+            maxLevel = 60,
+        },
+    },
     items = {
         {
             variations = {
@@ -295,6 +313,24 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsMain, {
         type = "quest",
         id = 60156,
     },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                31775, 32575, 33000, 33800, 34250, 35050, 35500, 36300, 36700, 37550, 
+            },
+            minLevel = 50,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                959400, 968995, 978590, 988180, 997775, 1007370, 1016965, 1026560, 1036150, 1045745, 1055340, 
+            },
+            minLevel = 50,
+            maxLevel = 60,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -445,6 +481,24 @@ Database:AddChain(Chain.ArrivalInTheShadowlandsAlt, {
         type = "quest",
         id = 62159,
     },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                13550, 13750, 14000, 14200, 14600, 14800, 15200, 15400, 15500, 16000, 
+            },
+            minLevel = 50,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                374400, 378150, 381900, 385620, 389370, 393120, 396870, 400620, 404340, 408090, 411840, 
+            },
+            minLevel = 50,
+            maxLevel = 60,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -557,6 +611,29 @@ Database:AddChain(Chain.TheMawEmbed, {
         type = "quest",
         id = 60134,
     },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                38200, 38850, 39600, 40250, 40900, 
+            },
+            minLevel = 55,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                1499940, 1513980, 1528020, 1542060, 1556100, 1570140, 
+            },
+            minLevel = 55,
+            maxLevel = 60,
+        },
+        {
+            type = "reputation",
+            id = 2432,
+            amount = 35,
+        },
+    },
     items = {
         {
             type = "quest",
@@ -656,6 +733,31 @@ Database:AddChain(Chain.Torghast, {
         type = "quest",
         ids = {62719, 61730},
         count = 2,
+    },
+    rewards = {
+        {
+            name = L["ACCESS_TO_TORGHAST"],
+            type = "spell",
+            id = 334746,
+        },
+        {
+            name = L["ACCESS_TO_TORGHAST_TWISTING_CORRIDORS"],
+            type = "spell",
+            id = 346217,
+        },
+        {
+            type = "money",
+            amounts = {
+                8751600, 8751600, 8751600, 8751600, 8751600, 8751600, 8751600, 8751600, 8751600, 8751600, 8751600, 
+            },
+            minLevel = 50,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1828,
+            amount = 950,
+        },
     },
     items = {
         {
@@ -846,7 +948,7 @@ Database:AddChain(Chain.Torghast, {
     },
 })
 Database:AddChain(Chain.NewRules, {
-    name = "New Rules",
+    name = L["NEW_RULES"],
     questline = 1200,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -857,8 +959,46 @@ Database:AddChain(Chain.NewRules, {
             level = 60,
         },
         {
-            name = L["UNKNOWN"]
-        }
+            type = "chain",
+            id = Chain.Kyrian.AmongTheKyrian or 90601,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 1,
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.Venthyr.Sinfall or 90901,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 2,
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.NightFae.ForQueenAndGrove or 90801,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 3,
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.Necrolord.LoyalToThePrimus or 90701,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 4,
+            },
+        },
+        {
+            type = "chain",
+            id = Chain.Torghast,
+            upto = 61099
+        },
     },
     active = {
         type = "quest",
@@ -868,6 +1008,36 @@ Database:AddChain(Chain.NewRules, {
     completed = {
         type = "quest",
         id = 60158,
+    },
+    rewards = {
+        {
+            name = L["ACCESS_TO_PERDITION_HOLD"],
+            type = "spell",
+            id = 340350,
+        },
+        {
+            name = L["ACCESS_TO_THE_BEASTWARRENS"],
+            type = "spell",
+            id = 340351,
+        },
+        {
+            type = "money",
+            amounts = {
+                3217500, 3217500, 3217500, 3217500, 3217500, 3217500, 3217500, 3217500, 3217500, 3217500, 3217500, 
+            },
+            minLevel = 50,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1767,
+            amount = 223,
+        },
+        {
+            type = "reputation",
+            id = 2432,
+            amount = 380,
+        },
     },
     items = {
         {

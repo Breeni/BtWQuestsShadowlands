@@ -36,6 +36,31 @@ Database:AddChain(Chain.Sinfall, {
         type = "quest",
         id = 62921,
     },
+    rewards = {
+        {
+            name = L["SOULBIND_NADJIA_THE_MISTBLADE"],
+            type = "spell",
+            id = 307337,
+        },
+        {
+            type = "money",
+            amounts = {
+                1776060, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+        {
+            type = "reputation",
+            id = 2413,
+            amount = 1500,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -246,6 +271,34 @@ Database:AddChain(Chain.ReturnToTheMaw, {
         type = "quest",
         id = 62870,
     },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                38200, 38850, 39600, 40250, 40900, 
+            },
+            minLevel = 55,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                1525680, 1539720, 1553760, 1567800, 1581840, 1595880, 25740, 
+            },
+            minLevel = 55,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1810,
+            amount = 5,
+        },
+        {
+            type = "reputation",
+            id = 2432,
+            amount = 35,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -325,6 +378,26 @@ Database:AddChain(Chain.TheCourtOfHarvesters, {
     completed = {
         type = "quest",
         id = 59343,
+    },
+    rewards = {
+        {
+            name = L["SOULBIND_THEOTAR"],
+            type = "spell",
+            id = 345654,
+        },
+        {
+            type = "money",
+            amounts = {
+                1518660, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -469,6 +542,26 @@ Database:AddChain(Chain.Desire, {
     completed = {
         type = "quest",
         id = 57893,
+    },
+    rewards = {
+        {
+            name = L["THE_EMBER_COURT_RSVP_THE_COUNTESS"],
+            type = "spell",
+            id = 335254,
+        },
+        {
+            type = "money",
+            amounts = {
+                4427280, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -638,6 +731,21 @@ Database:AddChain(Chain.Avarice, {
         type = "quest",
         id = 58444,
     },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                3886740, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+    },
     items = {
         {
             type = "object",
@@ -793,6 +901,21 @@ Database:AddChain(Chain.TheCrownedPrince, {
     completed = {
         type = "quest",
         id = 59233,
+    },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                4813380, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -978,6 +1101,21 @@ Database:AddChain(Chain.ConfrontingSin, {
     completed = {
         type = "quest",
         id = 58395,
+    },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                4324320, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -1191,6 +1329,21 @@ Database:AddChain(Chain.Envy, {
         type = "quest",
         id = 57646,
     },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                2625480, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -1335,6 +1488,24 @@ Database:AddChain(Chain.Dominion, {
         type = "quest",
         id = 58407,
     },
+    rewards = {
+        {
+            name = L["SOULBIND_GENERAL_DRAVEN"],
+        },
+        {
+            type = "money",
+            amounts = {
+                823680, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -1414,6 +1585,34 @@ Database:AddChain(Chain.Chain01, {
         {
             type = "chain",
             id = 90415,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = { 60060, 60147, 60159, 60160, 60164, 60165, },
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        ids = { 60060, 60147, 60159, 60160, 60164, 60165, },
+        count = 6,
+    },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                6600, 6900, 
+            },
+            minLevel = 58,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                151620, 153030, 154440, 
+            },
+            minLevel = 58,
+            maxLevel = 60,
         },
     },
     items = {
@@ -1540,6 +1739,16 @@ Database:AddChain(Chain.Chain02, {
         type = "quest",
         id = 60721,
     },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                154440, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -1606,6 +1815,16 @@ Database:AddChain(Chain.Chain03, {
     completed = {
         type = "quest",
         id = 59319,
+    },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                51480, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
     },
     items = {
         {
@@ -1674,6 +1893,16 @@ Database:AddChain(Chain.Chain04, {
     completed = {
         type = "quest",
         id = 61616,
+    },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                3088800, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
     },
     items = {
         {

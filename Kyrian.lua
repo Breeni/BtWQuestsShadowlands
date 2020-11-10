@@ -36,6 +36,31 @@ Database:AddChain(Chain.AmongTheKyrian, {
         type = "quest",
         id = 57904,
     },
+    rewards = {
+        {
+            name = L["SOULBIND_PELAGOS"],
+            type = "spell",
+            id = 344756,
+        },
+        {
+            type = "money",
+            amounts = {
+                1106820, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+        {
+            type = "reputation",
+            id = 2407,
+            amount = 1500,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -269,6 +294,34 @@ Database:AddChain(Chain.ReturnToTheMaw, {
         type = "quest",
         id = 62796,
     },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                38200, 38850, 39600, 40250, 40900, 
+            },
+            minLevel = 55,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                1525680, 1539720, 1553760, 1567800, 1581840, 1595880, 25740, 
+            },
+            minLevel = 55,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1810,
+            amount = 5,
+        },
+        {
+            type = "reputation",
+            id = 2432,
+            amount = 35,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -348,6 +401,26 @@ Database:AddChain(Chain.TrialOfAscension, {
     completed = {
         type = "quest",
         id = 58798,
+    },
+    rewards = {
+        {
+            name = L["SOULBIND_KLEIA"],
+            type = "spell",
+            id = 344757,
+        },
+        {
+            type = "money",
+            amounts = {
+                3474900, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -537,6 +610,21 @@ Database:AddChain(Chain.PhaestusGenesisOfAeons, {
         type = "quest",
         id = 58181,
     },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                1853280, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -668,6 +756,21 @@ Database:AddChain(Chain.RighteousRetribution, {
     completed = {
         type = "quest",
         id = 61878,
+    },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                3706560, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -890,6 +993,21 @@ Database:AddChain(Chain.TheSealOfContrition, {
         type = "quest",
         id = 58571,
     },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                3577860, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -1077,6 +1195,21 @@ Database:AddChain(Chain.AVesselOfArdenweald, {
         type = "quest",
         id = 61697,
     },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                2908620, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -1256,6 +1389,29 @@ Database:AddChain(Chain.ClosingIn, {
     completed = {
         type = "quest",
         id = 62555,
+    },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                975, 1000, 1000, 1050, 1050, 600, 390, 200, 100, 
+            },
+            minLevel = 51,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                152335, 152570, 152800, 152800, 152800, 152800, 152800, 152800, 152800, 152800, 2625480, 
+            },
+            minLevel = 51,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -1448,6 +1604,26 @@ Database:AddChain(Chain.TheBellTolls, {
         type = "quest",
         id = 62557,
     },
+    rewards = {
+        {
+            name = L["SOULBIND_MIKANIKOS"],
+            type = "spell",
+            id = 344758,
+        },
+        {
+            type = "money",
+            amounts = {
+                1441440, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -1548,6 +1724,16 @@ Database:AddChain(Chain.Chain01, {
         type = "quest",
         id = 63053,
     },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                51480, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -1615,6 +1801,16 @@ Database:AddChain(Chain.Chain02, {
     completed = {
         type = "quest",
         id = 57903,
+    },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                154440, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
     },
     items = {
         {
@@ -1684,6 +1880,16 @@ Database:AddChain(Chain.Chain03, {
         type = "quest",
         id = 57900,
     },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                154440, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -1751,6 +1957,31 @@ Database:AddChain(Chain.Chain04, {
     completed = {
         type = "quest",
         id = 60498,
+    },
+    rewards = {
+        {
+            name = L["TRIAL_KALISTHENE"],
+            type = "spell",
+            id = 337360,
+        },
+        {
+            name = L["ASCENSION_CRAFTING_HERALDS_FOOTPADS"],
+            type = "spell",
+            id = 346680,
+        },
+        {
+            type = "money",
+            amounts = {
+                1724580, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1819,
+            amount = 5,
+        },
     },
     items = {
         {

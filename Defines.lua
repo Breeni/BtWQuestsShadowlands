@@ -1,13 +1,9 @@
 --[[@TODO
     Update campaign chapter requirements with torghast, remove return to the maw
     Figure out requirements for New Rules, at most is part way through torghast
-    Verify first part of each campaign
     Update chain rewards
     Update locales
     Update campaign names
-    Check quest 63006 in night fae intro
-    Check quest 63002 in kyrian intro
-    Check quest 63003 in necrolord intro
 
     62706 Flagged as completed after accepting the quest A Calling in Bastion during the intro
           Seemed to happen before after finishing the Maw intro, maybe something to do with Torghast realm
@@ -55,17 +51,17 @@ BtWQuests.Constant.Chain.Shadowlands = {
         ByTheArchonsWill = 90105,
         TheTempleOfCourage = 90106,
 
-        EmbedChain01 = 90111,
-        EmbedChain02 = 90112,
-        EmbedChain03 = 90113,
+        Chain01 = 90111,
+        Chain02 = 90112,
+        Chain03 = 90113,
+        Chain04 = 90114,
+        Chain05 = 90115,
+        Chain06 = 90116,
+        Chain07 = 90127,
 
-        Chain01 = 90114,
-        Chain02 = 90115,
-        Chain03 = 90116,
-        Chain04 = 90117,
-        Chain05 = 90118,
-        Chain06 = 90119,
-        Chain07 = 90120,
+        EmbedChain01 = 90121,
+        EmbedChain02 = 90122,
+        EmbedChain03 = 90123,
 
         OtherAlliance = 90197,
         OtherHorde = 90198,
@@ -83,14 +79,14 @@ BtWQuests.Constant.Chain.Shadowlands = {
         Chain01 = 90211,
         Chain02 = 90212,
         Chain03 = 90213,
+        Chain04 = 90214,
 
-        Chain04 = 90221,
-        EmbedChain02 = 90222,
-        EmbedChain03 = 90223,
-        EmbedChain04 = 90224,
-        EmbedChain05 = 90225,
-        EmbedChain06 = 90226,
-        EmbedChain07 = 90227,
+        EmbedChain02 = 90221,
+        EmbedChain03 = 90222,
+        EmbedChain04 = 90223,
+        EmbedChain05 = 90224,
+        EmbedChain06 = 90225,
+        EmbedChain07 = 90226,
 
         OtherAlliance = 90297,
         OtherHorde = 90298,
@@ -110,14 +106,14 @@ BtWQuests.Constant.Chain.Shadowlands = {
         Chain01 = 90311,
         Chain02 = 90312,
         Chain03 = 90313,
-        Chain04 = 90318,
-        Chain05 = 90319,
-        Chain06 = 90331,
+        Chain04 = 90314,
+        Chain05 = 90315,
+        Chain06 = 90316,
 
-        TempChain14 = 90314,
-        TempChain15 = 90315,
-        TempChain16 = 90316,
-        TempChain17 = 90317,
+        TempChain14 = 90317,
+        TempChain15 = 90318,
+        TempChain16 = 90319,
+        TempChain17 = 90320,
 
         EmbedChain01 = 90321,
         EmbedChain02 = 90322,
@@ -154,12 +150,12 @@ BtWQuests.Constant.Chain.Shadowlands = {
         EmbedChain04 = 90424,
         EmbedChain05 = 90425,
         EmbedChain06 = 90426,
-        EmbedChain07 = 90428,
-        EmbedChain08 = 90429,
-        EmbedChain09 = 90430,
-        EmbedChain10 = 90431,
-        EmbedChain11 = 90432,
-        EmbedChain12 = 90433,
+        EmbedChain07 = 90427,
+        EmbedChain08 = 90428,
+        EmbedChain09 = 90429,
+        EmbedChain10 = 90430,
+        EmbedChain11 = 90431,
+        EmbedChain12 = 90432,
 
         OtherAlliance = 90497,
         OtherHorde = 90498,
@@ -200,10 +196,11 @@ BtWQuests.Constant.Chain.Shadowlands = {
         Chain02 = 90712,
         Chain03 = 90713,
         Chain04 = 90714,
-        Chain12 = 90722,
-        Chain13 = 90723,
-        Chain14 = 90724,
-        Chain15 = 90725,
+        
+        TempChain12 = 90722,
+        TempChain13 = 90723,
+        TempChain14 = 90724,
+        TempChain15 = 90725,
 
         OtherAlliance = 90797,
         OtherHorde = 90798,
@@ -238,8 +235,8 @@ BtWQuests.Constant.Chain.Shadowlands = {
         TheCrownedPrince = 90906,
         ConfrontingSin = 90907,
         Envy = 90908,
-
         Dominion = 90909,
+        
         Chain01 = 90911,
         Chain02 = 90912,
         Chain03 = 90913,

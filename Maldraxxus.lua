@@ -1,5 +1,3 @@
--- AUTO GENERATED - NEEDS UPDATING
-
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
@@ -35,6 +33,24 @@ Database:AddChain(Chain.ChampionOfPain, {
     completed = {
         type = "quest",
         id = 57515,
+    },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                74700, 76150, 77500, 44700, 29730, 15025, 7485, 
+            },
+            minLevel = 53,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                2361990, 2361990, 2361990, 2361990, 2361990, 2361990, 2361990, 2361990, 2361990, 
+            },
+            minLevel = 52,
+            maxLevel = 60,
+        },
     },
     items = {
         {
@@ -160,6 +176,24 @@ Database:AddChain(Chain.HouseOfTheChosen, {
     completed = {
         type = "quest",
         id = 60886,
+    },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                68850, 70050, 71400, 41250, 27580, 13665, 
+            },
+            minLevel = 54,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                2165900, 2165900, 2165900, 2165900, 2165900, 2165900, 2165900, 2165900, 2165900, 
+            },
+            minLevel = 52,
+            maxLevel = 60,
+        },
     },
     items = {
         {
@@ -291,6 +325,24 @@ Database:AddChain(Chain.MatronOfSpies, {
         type = "quest",
         id = 59009,
     },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                60350, 60500, 61600, 62700, 40050, 25790, 13570, 
+            },
+            minLevel = 53,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                1749850, 1749850, 1752190, 1754530, 1754530, 1754530, 1754530, 1754530, 1754530, 
+            },
+            minLevel = 52,
+            maxLevel = 60,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -409,6 +461,24 @@ Database:AddChain(Chain.HouseOfConstructs, {
     completed = {
         type = "quest",
         id = 60733,
+    },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                105350, 107300, 109150, 63125, 42220, 20835, 
+            },
+            minLevel = 54,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                3066335, 3066335, 3066335, 3066335, 3066335, 3066335, 3066335, 3066335, 3066335, 
+            },
+            minLevel = 52,
+            maxLevel = 60,
+        },
     },
     items = {
         {
@@ -568,6 +638,29 @@ Database:AddChain(Chain.HouseOfPlagues, {
         type = "quest",
         id = 59231,
     },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                91800, 93450, 95150, 55000, 36790, 18195, 
+            },
+            minLevel = 54,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                2847310, 2847310, 2847310, 2847310, 2847310, 2847310, 2847310, 2847310, 2847310, 
+            },
+            minLevel = 52,
+            maxLevel = 60,
+        },
+        {
+            type = "reputation",
+            id = 2410,
+            amount = 270,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -707,6 +800,24 @@ Database:AddChain(Chain.RitualForTheDamned, {
     completed = {
         type = "quest",
         id = 59974,
+    },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                75400, 76800, 78100, 45225, 30160, 
+            },
+            minLevel = 55,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                2162160, 2162160, 2162160, 2162160, 2162160, 2162160, 2162160, 2162160, 2162160, 
+            },
+            minLevel = 52,
+            maxLevel = 60,
+        },
     },
     items = {
         {
@@ -866,6 +977,24 @@ Database:AddChain(Chain.TheEmptyThrone, {
         type = "quest",
         id = 60737,
     },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                30925, 31075, 31250, 31450, 31650, 31800, 32450, 33000, 23375, 19170, 
+            },
+            minLevel = 50,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                257400, 259975, 262550, 1272490, 1275065, 1277640, 1280215, 1282790, 1285360, 1287935, 1290510, 1007370, 
+            },
+            minLevel = 50,
+            maxLevel = 60,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -946,6 +1075,29 @@ Database:AddChain(Chain.Chain01, {
     completed = {
         type = "quest",
         id = 57316,
+    },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                115775, 116050, 117850, 120075, 81250, 51560, 28190, 
+            },
+            minLevel = 53,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                5813725, 5813725, 5817470, 5821215, 5821215, 5821215, 5821215, 5821215, 5821215, 
+            },
+            minLevel = 52,
+            maxLevel = 60,
+        },
+        {
+            type = "reputation",
+            id = 2410,
+            amount = 1665,
+        },
     },
     items = {
         {
@@ -1049,6 +1201,29 @@ Database:AddChain(Chain.Chain02, {
         type = "quest",
         id = 58794,
     },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                32800, 33400, 34000, 34600, 35200, 19600, 13000, 
+            },
+            minLevel = 53,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                964080, 973440, 982800, 
+            },
+            minLevel = 53,
+            maxLevel = 55,
+        },
+        {
+            type = "reputation",
+            id = 2410,
+            amount = 405,
+        },
+    },
     items = {
         {
             type = "chain",
@@ -1103,6 +1278,29 @@ Database:AddChain(Chain.Chain03, {
     completed = {
         type = "quest",
         id = 58623,
+    },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                100200, 102000, 103800, 60000, 40200, 19800, 
+            },
+            minLevel = 54,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                2920320, 2920320, 2920320, 2920320, 2920320, 2920320, 2920320, 2920320, 2920320, 
+            },
+            minLevel = 52,
+            maxLevel = 60,
+        },
+        {
+            type = "reputation",
+            id = 2410,
+            amount = 1080,
+        },
     },
     items = {
         {

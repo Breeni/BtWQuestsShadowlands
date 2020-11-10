@@ -36,6 +36,31 @@ Database:AddChain(Chain.LoyalToThePrimus, {
         type = "quest",
         id = 59609,
     },
+    rewards = {
+        {
+            name = L["SOULBIND_PLAGUE_DEVISER_MARILETH"],
+            type = "spell",
+            id = 344967,
+        },
+        {
+            type = "money",
+            amounts = {
+                1338480, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+        {
+            type = "reputation",
+            id = 2410,
+            amount = 1500,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -258,6 +283,34 @@ Database:AddChain(Chain.ReturnToTheMaw, {
         type = "quest",
         id = 62844,
     },
+    rewards = {
+        {
+            type = "experience",
+            amounts = {
+                38200, 38850, 39600, 40250, 40900, 
+            },
+            minLevel = 55,
+            maxLevel = 59,
+        },
+        {
+            type = "money",
+            amounts = {
+                1525680, 1539720, 1553760, 1567800, 1581840, 1595880, 25740, 
+            },
+            minLevel = 55,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1810,
+            amount = 5,
+        },
+        {
+            type = "reputation",
+            id = 2432,
+            amount = 35,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -337,6 +390,21 @@ Database:AddChain(Chain.TheHouseOfEyes, {
     completed = {
         type = "quest",
         id = 57648,
+    },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                3294720, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -495,6 +563,21 @@ Database:AddChain(Chain.GrandTheftNecropolis, {
         ids = {59722, 58820},
         count = 2,
     },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                3011580, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -650,6 +733,21 @@ Database:AddChain(Chain.DoNotForget, {
     completed = {
         type = "quest",
         id = 59894,
+    },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                4195620, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -826,6 +924,21 @@ Database:AddChain(Chain.AGoldenDawn, {
     completed = {
         type = "quest",
         id = 57636,
+    },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                4453020, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -1061,6 +1174,21 @@ Database:AddChain(Chain.TheWagesOfSin, {
         type = "quest",
         id = 58624,
     },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                2213640, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -1192,6 +1320,26 @@ Database:AddChain(Chain.TheHouseOfRituals, {
     completed = {
         type = "quest",
         id = 61761,
+    },
+    rewards = {
+        {
+            name = L["SOULBIND_BONESMITH_HEIRMIR"],
+            type = "spell",
+            id = 344969,
+        },
+        {
+            type = "money",
+            amounts = {
+                7361640, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -1499,6 +1647,21 @@ Database:AddChain(Chain.AssaultOnTheHouseOfRituals, {
         type = "quest",
         id = 62406,
     },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                1801800, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -1584,6 +1747,16 @@ Database:AddChain(Chain.Chain01, {
         type = "quest",
         id = 63059,
     },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                154440, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -1650,6 +1823,16 @@ Database:AddChain(Chain.Chain02, {
     completed = {
         type = "quest",
         id = 60722,
+    },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                257400, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
     },
     items = {
         {
@@ -1718,6 +1901,16 @@ Database:AddChain(Chain.Chain03, {
         type = "quest",
         id = 59603,
     },
+    rewards = {
+        {
+            type = "money",
+            amounts = {
+                257400, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+    },
     items = {
         {
             type = "npc",
@@ -1778,6 +1971,26 @@ Database:AddChain(Chain.Chain04, {
     completed = {
         type = "quest",
         id = 60042,
+    },
+    rewards = {
+        {
+            name = L["SOULBIND_PRINCESS_EMENI"],
+            type = "spell",
+            id = 344968,
+        },
+        {
+            type = "money",
+            amounts = {
+                2419560, 
+            },
+            minLevel = 60,
+            maxLevel = 60,
+        },
+        {
+            type = "reputation",
+            id = 2462,
+            amount = 275,
+        },
     },
     items = {
         {
@@ -1904,7 +2117,7 @@ Database:AddChain(Chain.Chain04, {
         },
     },
 })
-Database:AddChain(Chain.Chain12, {
+Database:AddChain(Chain.TempChain12, {
     name = "Adventurer: Secutor Mevix",
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1933,7 +2146,7 @@ Database:AddChain(Chain.Chain12, {
         },
     },
 })
-Database:AddChain(Chain.Chain13, {
+Database:AddChain(Chain.TempChain13, {
     name = "Adventurer: Gunn Gorgebone",
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1964,7 +2177,7 @@ Database:AddChain(Chain.Chain13, {
         },
     },
 })
-Database:AddChain(Chain.Chain14, {
+Database:AddChain(Chain.TempChain14, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1997,7 +2210,7 @@ Database:AddChain(Chain.Chain14, {
         },
     },
 })
-Database:AddChain(Chain.Chain15, {
+Database:AddChain(Chain.TempChain15, {
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
