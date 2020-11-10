@@ -6,5 +6,8 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateObjectsTable({
+    [351889] = {
+        name = "Se busca: La perdición pálida",
+    },
 })
 ]])()

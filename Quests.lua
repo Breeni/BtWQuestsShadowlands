@@ -1866,10 +1866,24 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57529] = {
         name = "Garden in Turmoil",
-        contentTuningID = -1,
+        contentTuningID = 1320,
         source = {
             type = "npc",
             id = 158005,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    1000, 1000, 1050, 600, 400, 200, 100, 
+                },
+                minLevel = 52,
+                maxLevel = 58,
+            },
+            {
+                type = "money",
+                amount = 23870,
+            },
         },
     },
     [57530] = {
@@ -3125,7 +3139,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57719] = {
         name = "Dangerous Discourse",
-        contentTuningID = 743,
+        contentTuningID = 1318,
         source = {
             type = "object",
             id = 344726,
@@ -3134,18 +3148,14 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "experience",
                 amounts = {
-                    7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
+                    7850, 8000, 8200, 4700, 3150, 1550, 775, 
                 },
                 minLevel = 51,
-                maxLevel = 59,
+                maxLevel = 57,
             },
             {
                 type = "money",
-                amounts = {
-                    236340, 238680, 241020, 
-                },
-                minLevel = 51,
-                maxLevel = 53,
+                amount = 236340,
             },
         },
     },
@@ -3850,7 +3860,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
-                name = L["THE_EMBER_COURT_RSVP_THE_COUNTESS"], -- spell:321485
+                name = L["THE_EMBER_COURT_RSVP_THE_COUNTESS"],
                 type = "spell",
                 id = 335254,
             },
@@ -11201,7 +11211,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [59596] = {
         name = "Collective Soul",
-        contentTuningID = -1,
+        contentTuningID = 837,
         source = {
             type = "npc",
             id = 161909,
@@ -11212,6 +11222,12 @@ BtWQuestsDatabase:AddQuestsTable({
                         y = 0.43796,
                     },
                 },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
             },
         },
     },
@@ -14471,13 +14487,13 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
-                type = "money",
-                amount = 128700,
-            },
-            {
                 name = L["SOULBIND_PRINCESS_EMENI"],
                 type = "spell",
                 id = 344968,
+            },
+            {
+                type = "money",
+                amount = 128700,
             },
         },
     },
@@ -19058,7 +19074,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 128700,
-            }
+            },
         },
     },
     [61396] = {
@@ -21278,6 +21294,25 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 160598,
         },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    975, 1000, 1000, 600, 390, 200, 100, 
+                },
+                minLevel = 51,
+                maxLevel = 57,
+            },
+            {
+                type = "money",
+                amount = 23635,
+            },
+            {
+                type = "reputation",
+                id = 2407,
+                amount = 100,
+            },
+        },
     },
     [62715] = {
         name = "More Than A Gift",
@@ -21285,6 +21320,25 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 174900,
+        },
+        rewards = {
+            {
+                type = "experience",
+                amounts = {
+                    8850, 9000, 9225, 5325, 3525, 1800, 900, 
+                },
+                minLevel = 51,
+                maxLevel = 57,
+            },
+            {
+                type = "money",
+                amount = 265883,
+            },
+            {
+                type = "reputation",
+                id = 2407,
+                amount = 100,
+            },
         },
     },
     [62716] = {

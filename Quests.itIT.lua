@@ -255,6 +255,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57516] = {
         name = "Tra fuoco e fiamme",
     },
+    [57529] = {
+        name = "Giardino in subbuglio",
+    },
     [57530] = {
         name = "La torre di Gharmal",
     },
@@ -333,6 +336,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57651] = {
         name = "Problemi sulle Sponde",
     },
+    [57652] = {
+        name = "Provviste necessarie: grasso ambrato",
+    },
     [57653] = {
         name = "Un posto di lavoro pericoloso",
     },
@@ -381,17 +387,26 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57711] = {
         name = "Una forgia ormai fredda",
     },
+    [57712] = {
+        name = "Letture consigliate",
+    },
     [57713] = {
         name = "Un po' di lavoro manuale",
     },
     [57714] = {
         name = "Valutare lo spirito",
     },
+    [57715] = {
+        name = "La risposta dell'Arconte",
+    },
     [57716] = {
         name = "Un Discepolo ribelle?",
     },
     [57717] = {
         name = "Allontanati dal bordo, amico mio",
+    },
+    [57719] = {
+        name = "Discorso pericoloso",
     },
     [57724] = {
         name = "Oblio del Peccato in sicurezza",
@@ -506,6 +521,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [57895] = {
         name = "Forte Elisio",
+    },
+    [57897] = {
+        name = "Due sono meglio di uno",
     },
     [57898] = {
         name = "L'anima incontra il corpo",
@@ -666,6 +684,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [58023] = {
         name = "Un grosso problema",
     },
+    [58024] = {
+        name = "Rintanarsi",
+    },
     [58025] = {
         name = "La regina del sottosuolo",
     },
@@ -705,11 +726,26 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [58060] = {
         name = "Il Mercato Notturno",
     },
+    [58062] = {
+        name = "Un ospite molto speciale",
+    },
+    [58068] = {
+        name = "...Anche la richiesta più ridicola!",
+    },
     [58086] = {
         name = "Il maestro delle menzogne",
     },
+    [58088] = {
+        name = "Pozioni di potenziamento",
+    },
+    [58090] = {
+        name = "Effetti collaterali",
+    },
     [58092] = {
         name = "Sale della Redenzione: la tua assoluzione",
+    },
+    [58095] = {
+        name = "Teatro del Dolore: cercasi aiuto",
     },
     [58104] = {
         name = "Una presentazione formidabile",
@@ -774,6 +810,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [58183] = {
         name = "Amici del Forgialita",
     },
+    [58184] = {
+        name = "Sistema antiquato",
+    },
     [58185] = {
         name = "Successo senz'anima",
     },
@@ -791,6 +830,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [58268] = {
         name = "Posizioni avvantaggiate",
+    },
+    [58272] = {
+        name = "Il potere delle parole",
     },
     [58325] = {
         name = "Il Guardiano Emil",
@@ -984,6 +1026,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [58571] = {
         name = "Il Sigillo del Pentimento",
     },
+    [58575] = {
+        name = "Onorare le tradizioni",
+    },
     [58584] = {
         name = "Raddrizzare i propri torti",
     },
@@ -1125,6 +1170,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [58727] = {
         name = "Una nuova casa",
     },
+    [58750] = {
+        name = "Prendere il toro per le corna",
+    },
     [58751] = {
         name = "Un pericolo comune",
     },
@@ -1136,6 +1184,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [58775] = {
         name = "Incontro con la Regina",
+    },
+    [58785] = {
+        name = "Colpisci e cattura",
     },
     [58787] = {
         name = "Prova dell'Ascensione",
@@ -1253,6 +1304,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [58941] = {
         name = "Pipistrello Alfa",
+    },
+    [58947] = {
+        name = "Una prova di valore",
     },
     [58948] = {
         name = "Carne in tavola",
@@ -1476,14 +1530,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59430] = {
         name = "Una piaga sulla tua casata",
     },
+    [59554] = {
+        name = "Un viaggio cerimoniale",
+    },
     [59555] = {
         name = "Nemici alle porte",
     },
     [59556] = {
         name = "Ti do il benvenuto a casa",
     },
+    [59596] = {
+        name = "Anime collettive",
+    },
     [59597] = {
         name = "Non ci stiamo simpatici forse?",
+    },
+    [59600] = {
+        name = "Problemi Rovomarci",
     },
     [59603] = {
         name = "Prestare servizio alle Terretetre",
@@ -1499,6 +1562,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [59622] = {
         name = "Una cura per i curatori",
+    },
+    [59623] = {
+        name = "Che Pungimorte!",
     },
     [59625] = {
         name = "L'unica cura",
@@ -1529,6 +1595,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [59661] = {
         name = "La Prova della Corte delle Braci",
+    },
+    [59674] = {
+        name = "Una rivalità amichevole",
     },
     [59676] = {
         name = "Mietitrice del Desiderio",
@@ -1620,6 +1689,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59749] = {
         name = "Un minuscolo sussurro",
     },
+    [59750] = {
+        name = "Farsi strada con la testa",
+    },
     [59751] = {
         name = "Lungo il cielo spezzato",
     },
@@ -1677,6 +1749,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59776] = {
         name = "Dalla bocca della follia",
     },
+    [59781] = {
+        name = "L'ultima uccisione",
+    },
+    [59800] = {
+        name = "Spirito di squadra",
+    },
     [59801] = {
         name = "Prendere il potere",
     },
@@ -1719,6 +1797,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59824] = {
         name = "Salvare i Loa",
     },
+    [59825] = {
+        name = "Caccia al seme",
+    },
     [59837] = {
         name = "Al lavoro per i vivi",
     },
@@ -1736,6 +1817,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [59866] = {
         name = "Strade separate",
+    },
+    [59867] = {
+        name = "RICERCATO: Valutatore Vix",
     },
     [59868] = {
         name = "Offerta di libertà",
@@ -1859,6 +1943,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [60050] = {
         name = "Problemi al Fronte Occidentale",
+    },
+    [60051] = {
+        name = "Un maestro delle sue creazioni",
     },
     [60052] = {
         name = "Doppio Colpo",
@@ -2022,6 +2109,39 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60195] = {
         name = "Costruiscine un altro",
     },
+    [60217] = {
+        name = "La risposta dell'Arconte",
+    },
+    [60218] = {
+        name = "La risposta dell'Arconte",
+    },
+    [60219] = {
+        name = "La risposta dell'Arconte",
+    },
+    [60220] = {
+        name = "La risposta dell'Arconte",
+    },
+    [60221] = {
+        name = "La risposta dell'Arconte",
+    },
+    [60222] = {
+        name = "La risposta dell'Arconte",
+    },
+    [60223] = {
+        name = "La risposta dell'Arconte",
+    },
+    [60224] = {
+        name = "La risposta dell'Arconte",
+    },
+    [60225] = {
+        name = "La risposta dell'Arconte",
+    },
+    [60226] = {
+        name = "La risposta dell'Arconte",
+    },
+    [60229] = {
+        name = "La risposta dell'Arconte",
+    },
     [60265] = {
         name = "Interrompere la filiera",
     },
@@ -2043,8 +2163,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60272] = {
         name = "L'anello debole",
     },
+    [60275] = {
+        name = "RICERCATO: Esecutore Kristoff",
+    },
+    [60276] = {
+        name = "RICERCATO: Evocatore Marcelis",
+    },
+    [60277] = {
+        name = "RICERCATO: Aggregato della Rovina",
+    },
+    [60278] = {
+        name = "RICERCATO: Duca Anton",
+    },
     [60279] = {
         name = "RICERCATO: La Rovina Pallida",
+    },
+    [60280] = {
+        name = "RICERCATO: Sire Darion",
     },
     [60281] = {
         name = "Regola 4: fare un elenco",
@@ -2055,11 +2190,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60285] = {
         name = "Regola 6: l'occultamento è fondamentale",
     },
+    [60287] = {
+        name = "Regola 1: avere un piano di fuga",
+    },
+    [60289] = {
+        name = "Regola 3: la fiducia va guadagnata",
+    },
+    [60292] = {
+        name = "Discorso pericoloso",
+    },
     [60296] = {
         name = "In branco o da soli",
     },
     [60313] = {
         name = "Concacupa",
+    },
+    [60315] = {
+        name = "RICERCATA: Beccogrosso",
     },
     [60316] = {
         name = "RICERCATA: Sentinella Alterata",
@@ -2069,6 +2216,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [60341] = {
         name = "Il primo della lista",
+    },
+    [60366] = {
+        name = "RICERCATA: Alacupa",
     },
     [60428] = {
         name = "La Lama del Primus",
@@ -2082,6 +2232,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60461] = {
         name = "Incontro con il Margravio",
     },
+    [60466] = {
+        name = "Alla vecchia maniera",
+    },
     [60467] = {
         name = "Profumi attraenti",
     },
@@ -2093,6 +2246,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [60470] = {
         name = "Liberare Sabina",
+    },
+    [60476] = {
+        name = "Spriggan immisurabil!",
+    },
+    [60480] = {
+        name = "Ultimo Limo",
+    },
+    [60487] = {
+        name = "Una volta era tranquillo qui",
     },
     [60489] = {
         name = "La Via dell'Ascensione",
@@ -2130,11 +2292,17 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60508] = {
         name = "Sulle Tracce di Tyrande",
     },
+    [60509] = {
+        name = "Non è compito mio",
+    },
     [60510] = {
         name = "Discesa",
     },
     [60514] = {
         name = "Trofei di caccia",
+    },
+    [60517] = {
+        name = "Il pedaggio della strada",
     },
     [60519] = {
         name = "Udienza con la Regina dell'Inverno",
@@ -2150,6 +2318,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [60530] = {
         name = "Il mare di anime",
+    },
+    [60533] = {
+        name = "Orrori a Tirna Falcis",
     },
     [60545] = {
         name = "(Shadowlands) Una convocazione agghiacciante",
@@ -2169,6 +2340,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60572] = {
         name = "Per il bene dello spirito",
     },
+    [60574] = {
+        name = "Scuotere i funghi",
+    },
     [60575] = {
         name = "Pance piene di Silfi",
     },
@@ -2178,11 +2352,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60578] = {
         name = "Visioni della Sognatrice: il tradimento",
     },
+    [60585] = {
+        name = "La rivolta degli Spriggan",
+    },
     [60594] = {
         name = "Uno spirito speciale",
     },
+    [60597] = {
+        name = "Problemi al recinto dei gormini",
+    },
     [60600] = {
         name = "Preparativi per la Regina dell'Inverno",
+    },
+    [60609] = {
+        name = "Chi divora i divoratori?",
     },
     [60621] = {
         name = "Il nemico alle porte",
@@ -2232,6 +2415,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60648] = {
         name = "Sopravvissuti della Foresta di Cuordilegno",
     },
+    [60649] = {
+        name = "Una spina nel loro fianco",
+    },
     [60660] = {
         name = "Prove di volo",
     },
@@ -2271,6 +2457,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60738] = {
         name = "La via per l'Antro del Letargo",
     },
+    [60739] = {
+        name = "Un pubblico difficile",
+    },
     [60763] = {
         name = "Mi serve una mano... o dei baffi",
     },
@@ -2307,6 +2496,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60898] = {
         name = "Il destino di Ara'lon",
     },
+    [60899] = {
+        name = "Una notte al bosco",
+    },
     [60900] = {
         name = "La difesa dell'archivio",
     },
@@ -2333,6 +2525,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [60935] = {
         name = "Il Medaglione dell'Avarizia",
+    },
+    [60950] = {
+        name = "Una questione di furtività",
     },
     [60972] = {
         name = "Caccia al barone",
@@ -2418,6 +2613,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [61335] = {
         name = "Rabbia contro la gabbia",
     },
+    [61355] = {
+        name = "Regola 2: tenere un basso profilo",
+    },
     [61359] = {
         name = "Il potere del Primus",
     },
@@ -2453,6 +2651,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [61518] = {
         name = "Seguimi!",
+    },
+    [61541] = {
+        name = "La Forgia dei Vincoli",
     },
     [61542] = {
         name = "Il dono dei vincoli",
@@ -2667,14 +2868,32 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [61884] = {
         name = "Rinfreschi Formali",
     },
+    [61946] = {
+        name = "Difensori naturali",
+    },
+    [61948] = {
+        name = "Forza di difesa aerea",
+    },
+    [61949] = {
+        name = "Ingannatori di Selvarden",
+    },
     [62000] = {
         name = "Scegliere lo Scopo",
     },
     [62159] = {
         name = "Aiutare le Terretetre",
     },
+    [62186] = {
+        name = "Seme dell'Animum Rigonfio",
+    },
+    [62189] = {
+        name = "Componenti del Parasole",
+    },
     [62237] = {
         name = "Lo Specchio dell'Anima Misterioso",
+    },
+    [62246] = {
+        name = "Un'amica caduta",
     },
     [62259] = {
         name = "Acchiappasogni carico d'Animum",
@@ -2690,6 +2909,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [62308] = {
         name = "Il coprispalle della maestria",
+    },
+    [62309] = {
+        name = "Avventuriero: Secutor Mevix",
+    },
+    [62312] = {
+        name = "Avventuriero: Gunn Ossotetro",
     },
     [62317] = {
         name = "Dubbi da incantatori",
@@ -2711,6 +2936,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [62428] = {
         name = "Anima di Cavallo",
+    },
+    [62458] = {
+        name = "L'Aldilà",
     },
     [62461] = {
         name = "All'inseguimento negli antri",
@@ -2757,6 +2985,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [62704] = {
         name = "Fili del Fato",
     },
+    [62714] = {
+        name = "Un dono per un'Accolita",
+    },
+    [62715] = {
+        name = "Più che un semplice dono",
+    },
     [62716] = {
         name = "Seconde presentazioni",
     },
@@ -2802,6 +3036,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [62836] = {
         name = "Tracce del leone",
     },
+    [62837] = {
+        name = "Notizie di speranza",
+    },
     [62839] = {
         name = "L'Animum è la forza",
     },
@@ -2831,6 +3068,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [62870] = {
         name = "Anime per Oblio del Peccato",
+    },
+    [62882] = {
+        name = "Stabilire le regole di base",
     },
     [62883] = {
         name = "Custode di grande fama",
@@ -2910,11 +3150,32 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [62969] = {
         name = "Non perdere le tracce",
     },
+    [63002] = {
+        name = "Due sono meglio di uno",
+    },
+    [63003] = {
+        name = "Anime collettive",
+    },
     [63006] = {
         name = "Per la Regina e il bosco!",
     },
+    [63008] = {
+        name = "La Forgia dei Vincoli",
+    },
     [63022] = {
         name = "Aggiunta alla regola 6: salvami a ogni costo",
+    },
+    [63029] = {
+        name = "La chiamata del Gran Signore",
+    },
+    [63030] = {
+        name = "La chiamata del Gran Signore",
+    },
+    [63032] = {
+        name = "La chiamata del Gran Signore",
+    },
+    [63033] = {
+        name = "La chiamata del Gran Signore",
     },
     [63051] = {
         name = "Problemi di fiducia",
@@ -2948,6 +3209,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [63073] = {
         name = "La rete miceliare",
+    },
+    [63211] = {
+        name = "Rapporto ad Adrestes",
+    },
+    [63212] = {
+        name = "Rapporto a Mevix",
+    },
+    [63214] = {
+        name = "Rapporto a Baccaluna",
+    },
+    [63215] = {
+        name = "Rapporto a Draven",
     },
 })
 ]])()

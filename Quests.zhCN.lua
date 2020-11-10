@@ -255,6 +255,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57516] = {
         name = "穿越烈焰与火光",
     },
+    [57529] = {
+        name = "动荡的花园",
+    },
     [57530] = {
         name = "伽马尔之塔",
     },
@@ -333,6 +336,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57651] = {
         name = "河床的麻烦",
     },
+    [57652] = {
+        name = "补给需求：琥珀滑油",
+    },
     [57653] = {
         name = "高危工作环境",
     },
@@ -381,17 +387,26 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57711] = {
         name = "冰冷的熔炉",
     },
+    [57712] = {
+        name = "推荐书目",
+    },
     [57713] = {
         name = "打造杰作",
     },
     [57714] = {
         name = "评估你的灵魂",
     },
+    [57715] = {
+        name = "执政官的答案",
+    },
     [57716] = {
         name = "任性的信徒？",
     },
     [57717] = {
         name = "转危为安吧，我的朋友",
+    },
+    [57719] = {
+        name = "危险的话语",
     },
     [57724] = {
         name = "占领堕罪堡",
@@ -506,6 +521,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [57895] = {
         name = "极乐堡",
+    },
+    [57897] = {
+        name = "独行危险",
     },
     [57898] = {
         name = "魂体合一",
@@ -666,6 +684,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [58023] = {
         name = "大麻烦",
     },
+    [58024] = {
+        name = "掩埋地穴",
+    },
     [58025] = {
         name = "地下女王",
     },
@@ -705,11 +726,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [58060] = {
         name = "午夜集市",
     },
+    [58068] = {
+        name = "……即使是最离谱的要求！",
+    },
     [58086] = {
         name = "谎言主宰者",
     },
+    [58088] = {
+        name = "激发活力",
+    },
+    [58090] = {
+        name = "副作用",
+    },
     [58092] = {
         name = "赎罪大厅：自业自赎",
+    },
+    [58095] = {
+        name = "伤逝剧场：困难时期",
     },
     [58104] = {
         name = "秀而勿言",
@@ -774,6 +807,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [58183] = {
         name = "掌炉大师之友",
     },
+    [58184] = {
+        name = "过时之法",
+    },
     [58185] = {
         name = "无魂功成",
     },
@@ -791,6 +827,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [58268] = {
         name = "占据高地",
+    },
+    [58272] = {
+        name = "语言的力量",
     },
     [58325] = {
         name = "监视者埃米尔",
@@ -984,6 +1023,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [58571] = {
         name = "痛悔印记",
     },
+    [58575] = {
+        name = "人手一件",
+    },
     [58584] = {
         name = "改正过错",
     },
@@ -1125,6 +1167,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [58727] = {
         name = "称为家的地方",
     },
+    [58750] = {
+        name = "执角降牛",
+    },
     [58751] = {
         name = "共同的危殆",
     },
@@ -1136,6 +1181,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [58775] = {
         name = "觐见女王",
+    },
+    [58785] = {
+        name = "连消带打",
     },
     [58787] = {
         name = "晋升试炼",
@@ -1253,6 +1301,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [58941] = {
         name = "蝠群之首",
+    },
+    [58947] = {
+        name = "测试你的斗志",
     },
     [58948] = {
         name = "桌上的食物",
@@ -1476,14 +1527,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59430] = {
         name = "协助凋零",
     },
+    [59554] = {
+        name = "美好的旅程",
+    },
     [59555] = {
         name = "兵临城下",
     },
     [59556] = {
         name = "欢迎加入密院",
     },
+    [59596] = {
+        name = "共享灵魂",
+    },
     [59597] = {
         name = "来吧，我们很合得来的！",
+    },
+    [59600] = {
+        name = "腐楠的麻烦",
     },
     [59603] = {
         name = "效力暗影界",
@@ -1499,6 +1559,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [59622] = {
         name = "“料理”看护者",
+    },
+    [59623] = {
+        name = "真是个扫兴者",
     },
     [59625] = {
         name = "唯一解药",
@@ -1529,6 +1592,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [59661] = {
         name = "灰烬王庭演练",
+    },
+    [59674] = {
+        name = "友好的对手",
     },
     [59676] = {
         name = "欲望收割者",
@@ -1620,6 +1686,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59749] = {
         name = "轻声低语",
     },
+    [59750] = {
+        name = "寻颅高手",
+    },
     [59751] = {
         name = "穿过破碎天空",
     },
@@ -1677,6 +1746,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59776] = {
         name = "来自疯狂之口",
     },
+    [59781] = {
+        name = "最后生还者",
+    },
+    [59800] = {
+        name = "团队精神",
+    },
     [59801] = {
         name = "获得能量",
     },
@@ -1719,6 +1794,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59824] = {
         name = "营救洛阿神灵",
     },
+    [59825] = {
+        name = "寻种记",
+    },
     [59837] = {
         name = "生者的差事",
     },
@@ -1736,6 +1814,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [59866] = {
         name = "分道扬镳",
+    },
+    [59867] = {
+        name = "通缉：评估师维克斯",
     },
     [59868] = {
         name = "自由的价码",
@@ -1859,6 +1940,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [60050] = {
         name = "西部战线的麻烦",
+    },
+    [60051] = {
+        name = "手工艺大师",
     },
     [60052] = {
         name = "二连击",
@@ -2025,6 +2109,39 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60195] = {
         name = "再造一个",
     },
+    [60217] = {
+        name = "执政官的答案",
+    },
+    [60218] = {
+        name = "执政官的答案",
+    },
+    [60219] = {
+        name = "执政官的答案",
+    },
+    [60220] = {
+        name = "执政官的答案",
+    },
+    [60221] = {
+        name = "执政官的答案",
+    },
+    [60222] = {
+        name = "执政官的答案",
+    },
+    [60223] = {
+        name = "执政官的答案",
+    },
+    [60224] = {
+        name = "执政官的答案",
+    },
+    [60225] = {
+        name = "执政官的答案",
+    },
+    [60226] = {
+        name = "执政官的答案",
+    },
+    [60229] = {
+        name = "执政官的答案",
+    },
     [60265] = {
         name = "瓦解供应链",
     },
@@ -2046,8 +2163,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60272] = {
         name = "脆弱的链节",
     },
+    [60275] = {
+        name = "通缉：执行者克里斯托弗",
+    },
+    [60276] = {
+        name = "通缉：召唤师玛尔瑟力斯",
+    },
+    [60277] = {
+        name = "通缉：聚合末日",
+    },
+    [60278] = {
+        name = "通缉：安东公爵",
+    },
     [60279] = {
         name = "通缉：苍白末日",
+    },
+    [60280] = {
+        name = "通缉：达里安勋爵",
     },
     [60281] = {
         name = "原则4：罗列清单",
@@ -2058,11 +2190,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60285] = {
         name = "原则6：深藏不露",
     },
+    [60287] = {
+        name = "原则1：逃跑计划",
+    },
+    [60289] = {
+        name = "原则3：赢得信任",
+    },
+    [60292] = {
+        name = "危险的话语",
+    },
     [60296] = {
         name = "狮群还是灵豹",
     },
     [60313] = {
         name = "惧谷镇",
+    },
+    [60315] = {
+        name = "通缉：饕餮之喙",
     },
     [60316] = {
         name = "通缉：被修改的哨兵",
@@ -2072,6 +2216,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [60341] = {
         name = "首要事务",
+    },
+    [60366] = {
+        name = "通缉：暗翼",
     },
     [60428] = {
         name = "兵主之刃",
@@ -2085,6 +2232,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60461] = {
         name = "会见侯爵",
     },
+    [60466] = {
+        name = "古老的艺术",
+    },
     [60467] = {
         name = "刺鼻气息",
     },
@@ -2096,6 +2246,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [60470] = {
         name = "释放莎拜娜",
+    },
+    [60476] = {
+        name = "林鬼的尺寸",
+    },
+    [60480] = {
+        name = "末日迷沼",
+    },
+    [60487] = {
+        name = "这里的过去静悄悄",
     },
     [60489] = {
         name = "晋升之路",
@@ -2133,11 +2292,17 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60508] = {
         name = "利刃留痕",
     },
+    [60509] = {
+        name = "不是我的活儿",
+    },
     [60510] = {
         name = "堕亡者",
     },
     [60514] = {
         name = "狩猎战利品",
+    },
+    [60517] = {
+        name = "行路税",
     },
     [60519] = {
         name = "觐见寒冬女王",
@@ -2153,6 +2318,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [60530] = {
         name = "灵魂之海",
+    },
+    [60533] = {
+        name = "塞兹仙林的恐惧",
     },
     [60545] = {
         name = "暗影国度：冷冽的召唤",
@@ -2172,6 +2340,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60572] = {
         name = "为了灵魂",
     },
+    [60574] = {
+        name = "摇动蘑菇",
+    },
     [60575] = {
         name = "满腹法夜",
     },
@@ -2181,11 +2352,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60578] = {
         name = "沉睡者的幻象：背叛",
     },
+    [60585] = {
+        name = "林鬼暴乱",
+    },
     [60594] = {
         name = "特别的灵种",
     },
+    [60597] = {
+        name = "戈姆蛴围栏的麻烦",
+    },
     [60600] = {
         name = "准备迎接寒冬女王",
+    },
+    [60609] = {
+        name = "谁来吞噬吞噬者？",
     },
     [60621] = {
         name = "敌临城下",
@@ -2235,6 +2415,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60648] = {
         name = "心木林的幸存者",
     },
+    [60649] = {
+        name = "如棘在喉",
+    },
     [60660] = {
         name = "飞行测试",
     },
@@ -2274,6 +2457,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60738] = {
         name = "冬日林谷之路",
     },
+    [60739] = {
+        name = "乌合之众",
+    },
     [60763] = {
         name = "助我一臂之力",
     },
@@ -2310,6 +2496,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60898] = {
         name = "艾拉隆的命运",
     },
+    [60899] = {
+        name = "林中之夜",
+    },
     [60900] = {
         name = "保护档案",
     },
@@ -2336,6 +2525,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [60935] = {
         name = "贪婪勋章",
+    },
+    [60950] = {
+        name = "潜行事宜",
     },
     [60972] = {
         name = "猎寻男爵",
@@ -2421,6 +2613,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [61335] = {
         name = "笼中怒火",
     },
+    [61355] = {
+        name = "原则2：低调行事",
+    },
     [61359] = {
         name = "兵主之力",
     },
@@ -2456,6 +2651,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [61518] = {
         name = "跟我走",
+    },
+    [61541] = {
+        name = "羁绊熔炉",
     },
     [61542] = {
         name = "羁绊恩惠",
@@ -2670,14 +2868,32 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [61884] = {
         name = "正式点心",
     },
+    [61946] = {
+        name = "自然卫士",
+    },
+    [61948] = {
+        name = "空中守备军",
+    },
+    [61949] = {
+        name = "炽蓝仙野欺诈者",
+    },
     [62000] = {
         name = "天命之选",
     },
     [62159] = {
         name = "协助暗影界",
     },
+    [62186] = {
+        name = "鼓胀的心能之种",
+    },
+    [62189] = {
+        name = "阳伞组件",
+    },
     [62237] = {
         name = "神秘的灵魂之镜",
+    },
+    [62246] = {
+        name = "陨落的朋友",
     },
     [62259] = {
         name = "装满心能的捕梦网",
@@ -2700,6 +2916,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [62308] = {
         name = "精通的披肩",
     },
+    [62309] = {
+        name = "冒险者：剑斗士米维克斯",
+    },
+    [62312] = {
+        name = "冒险者：加恩·吞骨",
+    },
     [62317] = {
         name = "疑心生暗鬼",
     },
@@ -2720,6 +2942,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [62428] = {
         name = "角马之魂",
+    },
+    [62458] = {
+        name = "彼界",
     },
     [62461] = {
         name = "密径追猎",
@@ -2766,6 +2991,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [62704] = {
         name = "命运丝线",
     },
+    [62714] = {
+        name = "送给助祭的礼物",
+    },
+    [62715] = {
+        name = "不仅仅是礼物",
+    },
     [62716] = {
         name = "再次迎新",
     },
@@ -2811,6 +3042,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [62836] = {
         name = "狮王的线索",
     },
+    [62837] = {
+        name = "充满希望的消息",
+    },
     [62839] = {
         name = "心能就是力量",
     },
@@ -2840,6 +3074,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [62870] = {
         name = "给堕罪堡的灵魂",
+    },
+    [62882] = {
+        name = "订立基本原则",
     },
     [62883] = {
         name = "伟大的名望记录者",
@@ -2919,11 +3156,32 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [62969] = {
         name = "紧跟线索",
     },
+    [63002] = {
+        name = "独行危险",
+    },
+    [63003] = {
+        name = "共享灵魂",
+    },
     [63006] = {
         name = "为了女王和林地！",
     },
+    [63008] = {
+        name = "羁绊熔炉",
+    },
     [63022] = {
         name = "原则6附录：不惜一切代价救我",
+    },
+    [63029] = {
+        name = "大领主的召唤",
+    },
+    [63030] = {
+        name = "大领主的召唤",
+    },
+    [63032] = {
+        name = "大领主的召唤",
+    },
+    [63033] = {
+        name = "大领主的召唤",
     },
     [63051] = {
         name = "信任问题",
@@ -2957,6 +3215,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [63073] = {
         name = "菌丝网络",
+    },
+    [63211] = {
+        name = "向阿得赖斯提斯报告",
+    },
+    [63212] = {
+        name = "向米维克斯报告",
+    },
+    [63214] = {
+        name = "向月莓报告",
+    },
+    [63215] = {
+        name = "向德莱文报告",
     },
 })
 ]])()

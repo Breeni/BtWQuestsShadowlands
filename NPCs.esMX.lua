@@ -477,6 +477,8 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [165841] = {
         name = "Huln Altamontaña",
     },
+    [165859] = {
+    },
     [165864] = {
         name = "Nadjia la Hojaniebla",
     },

@@ -726,6 +726,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [58060] = {
         name = "El Mercado Nocturno",
     },
+    [58062] = {
+        name = "Una invitada muy especial",
+    },
     [58068] = {
         name = "¡... Incluso el pedido más ridículo!",
     },
@@ -2317,7 +2320,7 @@ BtWQuestsDatabase:UpdateQuestsTable({
         name = "Terrores en Tirna Scithe",
     },
     [60545] = {
-        name = "Un llamado escalofriante",
+        name = "Shadowlands: un llamado escalofriante",
     },
     [60557] = {
         name = "¿Primer día? ¡Debes luchar!",

@@ -255,6 +255,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57516] = {
         name = "火裡來，焰裡去",
     },
+    [57529] = {
+        name = "花園動盪",
+    },
     [57530] = {
         name = "珈爾瑪的高塔",
     },
@@ -333,6 +336,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57651] = {
         name = "水岸困境",
     },
+    [57652] = {
+        name = "需要的補給品：琥珀油",
+    },
     [57653] = {
         name = "不安全的工作地點",
     },
@@ -381,17 +387,26 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57711] = {
         name = "冷卻的熔爐",
     },
+    [57712] = {
+        name = "必讀書目",
+    },
     [57713] = {
         name = "巧奪天工",
     },
     [57714] = {
         name = "評估你的精神",
     },
+    [57715] = {
+        name = "御靈者的回答",
+    },
     [57716] = {
         name = "任性的侍徒？",
     },
     [57717] = {
         name = "我的朋友，請不要走上絕路",
+    },
+    [57719] = {
+        name = "危險的論述",
     },
     [57724] = {
         name = "奪下罪殞城",
@@ -506,6 +521,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [57895] = {
         name = "樂土堡",
+    },
+    [57897] = {
+        name = "獨行的危險",
     },
     [57898] = {
         name = "當靈魂遇見身體",
@@ -666,6 +684,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [58023] = {
         name = "一個大問題",
     },
+    [58024] = {
+        name = "鑽來鑽去",
+    },
     [58025] = {
         name = "地底女王",
     },
@@ -705,11 +726,26 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [58060] = {
         name = "深夜市集",
     },
+    [58062] = {
+        name = "貴客臨門",
+    },
+    [58068] = {
+        name = "…就算是最離譜的要求！",
+    },
     [58086] = {
         name = "謊言之主",
     },
+    [58088] = {
+        name = "生氣勃勃",
+    },
+    [58090] = {
+        name = "副作用",
+    },
     [58092] = {
         name = "贖罪之殿：你的赦免",
+    },
+    [58095] = {
+        name = "苦痛劇場：需要幫手",
     },
     [58104] = {
         name = "籌劃演出",
@@ -774,6 +810,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [58183] = {
         name = "熔爐士的朋友",
     },
+    [58184] = {
+        name = "老派的方法",
+    },
     [58185] = {
         name = "沒有靈魂的成功",
     },
@@ -791,6 +830,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [58268] = {
         name = "佔領制高點",
+    },
+    [58272] = {
+        name = "言語的力量",
     },
     [58325] = {
         name = "看守者艾密爾",
@@ -984,6 +1026,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [58571] = {
         name = "悔悟徽印",
     },
+    [58575] = {
+        name = "惟吾僅有",
+    },
     [58584] = {
         name = "彌補錯誤",
     },
@@ -1125,6 +1170,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [58727] = {
         name = "稱為家的地方",
     },
+    [58750] = {
+        name = "大膽抓牛",
+    },
     [58751] = {
         name = "共臨危難",
     },
@@ -1136,6 +1184,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [58775] = {
         name = "晉見女王",
+    },
+    [58785] = {
+        name = "連打帶捕",
     },
     [58787] = {
         name = "晉升試煉",
@@ -1253,6 +1304,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [58941] = {
         name = "蝙蝠群首",
+    },
+    [58947] = {
+        name = "考驗你的毅力",
     },
     [58948] = {
         name = "桌上美食",
@@ -1476,14 +1530,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59430] = {
         name = "家有瘟疫",
     },
+    [59554] = {
+        name = "愉快的旅程",
+    },
     [59555] = {
         name = "兵臨門下",
     },
     [59556] = {
         name = "歡迎加入我的家族",
     },
+    [59596] = {
+        name = "收集靈魂",
+    },
     [59597] = {
         name = "來吧，我們志趣相投！",
+    },
+    [59600] = {
+        name = "腐棘的麻煩",
     },
     [59603] = {
         name = "為暗影之境效力",
@@ -1499,6 +1562,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [59622] = {
         name = "解決護蛋者",
+    },
+    [59623] = {
+        name = "煩人大東西",
     },
     [59625] = {
         name = "唯一的解藥",
@@ -1529,6 +1595,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [59661] = {
         name = "餘燼宴會預演",
+    },
+    [59674] = {
+        name = "君子之爭",
     },
     [59676] = {
         name = "慾望收割者",
@@ -1620,6 +1689,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59749] = {
         name = "輕聲低語",
     },
+    [59750] = {
+        name = "成功之道",
+    },
     [59751] = {
         name = "穿越破碎天空",
     },
@@ -1677,6 +1749,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59776] = {
         name = "來自瘋狂之口",
     },
+    [59781] = {
+        name = "最後一人",
+    },
+    [59800] = {
+        name = "團隊精神",
+    },
     [59801] = {
         name = "拿取力量",
     },
@@ -1719,6 +1797,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [59824] = {
         name = "拯救羅亞",
     },
+    [59825] = {
+        name = "收集種子",
+    },
     [59837] = {
         name = "為生者努力",
     },
@@ -1736,6 +1817,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [59866] = {
         name = "道別時刻",
+    },
+    [59867] = {
+        name = "懸賞：評估者維克斯",
     },
     [59868] = {
         name = "重獲自由的機會",
@@ -1859,6 +1943,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [60050] = {
         name = "西部前線的麻煩",
+    },
+    [60051] = {
+        name = "技藝精湛的大師",
     },
     [60052] = {
         name = "雙重攻擊",
@@ -2025,6 +2112,39 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60195] = {
         name = "再造一個",
     },
+    [60217] = {
+        name = "御靈者的回答",
+    },
+    [60218] = {
+        name = "御靈者的回答",
+    },
+    [60219] = {
+        name = "御靈者的回答",
+    },
+    [60220] = {
+        name = "御靈者的回答",
+    },
+    [60221] = {
+        name = "御靈者的回答",
+    },
+    [60222] = {
+        name = "御靈者的回答",
+    },
+    [60223] = {
+        name = "御靈者的回答",
+    },
+    [60224] = {
+        name = "御靈者的回答",
+    },
+    [60225] = {
+        name = "御靈者的回答",
+    },
+    [60226] = {
+        name = "御靈者的回答",
+    },
+    [60229] = {
+        name = "御靈者的回答",
+    },
     [60265] = {
         name = "中斷供應鏈",
     },
@@ -2046,8 +2166,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60272] = {
         name = "脆弱的鎖鏈",
     },
+    [60275] = {
+        name = "懸賞：執法者克里斯多夫",
+    },
+    [60276] = {
+        name = "懸賞：召喚者馬瑟里斯",
+    },
+    [60277] = {
+        name = "懸賞：末日聚合體",
+    },
+    [60278] = {
+        name = "懸賞：安東公爵",
+    },
     [60279] = {
         name = "懸賞：蒼白末日",
+    },
+    [60280] = {
+        name = "懸賞：達瑞安勛爵",
     },
     [60281] = {
         name = "守則四：注意清單",
@@ -2058,11 +2193,23 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60285] = {
         name = "守則六：隱蔽行蹤",
     },
+    [60287] = {
+        name = "守則一：逃脫計畫",
+    },
+    [60289] = {
+        name = "守則三：換取信任",
+    },
+    [60292] = {
+        name = "危險的論述",
+    },
     [60296] = {
         name = "驕傲的野獸或精密的機械",
     },
     [60313] = {
         name = "掘息坑",
+    },
+    [60315] = {
+        name = "懸賞：吞喙",
     },
     [60316] = {
         name = "懸賞：變異的哨兵",
@@ -2072,6 +2219,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [60341] = {
         name = "第一要務",
+    },
+    [60366] = {
+        name = "懸賞：暗翼",
     },
     [60428] = {
         name = "統御者之刃",
@@ -2085,6 +2235,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60461] = {
         name = "謁見藩候",
     },
+    [60466] = {
+        name = "自古之道",
+    },
     [60467] = {
         name = "提神醒腦",
     },
@@ -2096,6 +2249,15 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [60470] = {
         name = "釋放莎賓娜",
+    },
+    [60476] = {
+        name = "木魈變變變！",
+    },
+    [60480] = {
+        name = "歿路沼澤",
+    },
+    [60487] = {
+        name = "這裡以前很安靜",
     },
     [60489] = {
         name = "晉升之路",
@@ -2133,11 +2295,17 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60508] = {
         name = "緊追在後",
     },
+    [60509] = {
+        name = "不關我的事",
+    },
     [60510] = {
         name = "墮入深淵",
     },
     [60514] = {
         name = "狩獵戰利品",
+    },
+    [60517] = {
+        name = "過路費",
     },
     [60519] = {
         name = "謁見凜冬女王",
@@ -2153,6 +2321,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [60530] = {
         name = "靈魂之海",
+    },
+    [60533] = {
+        name = "特那希的恐怖威脅",
     },
     [60545] = {
         name = "暗影之境：冰寒的召集",
@@ -2172,6 +2343,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60572] = {
         name = "為了靈魂",
     },
+    [60574] = {
+        name = "搖晃蘑菇",
+    },
     [60575] = {
         name = "一肚子的妖精",
     },
@@ -2181,11 +2355,20 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60578] = {
         name = "夢旅者的幻象：背叛",
     },
+    [60585] = {
+        name = "木魈暴動",
+    },
     [60594] = {
         name = "與眾不同的靈魂",
     },
+    [60597] = {
+        name = "小果姆飼育區的麻煩",
+    },
     [60600] = {
         name = "準備迎接凜冬女王",
+    },
+    [60609] = {
+        name = "誰吞噬了吞噬者？",
     },
     [60621] = {
         name = "大敵當前",
@@ -2235,6 +2418,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60648] = {
         name = "心木林地的倖存者",
     },
+    [60649] = {
+        name = "芒刺在側",
+    },
     [60660] = {
         name = "試飛",
     },
@@ -2274,6 +2460,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60738] = {
         name = "前往冬日窪地",
     },
+    [60739] = {
+        name = "難搞的觀眾",
+    },
     [60763] = {
         name = "「鬚」要你助我一臂之力",
     },
@@ -2310,6 +2499,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [60898] = {
         name = "亞拉隆的命運",
     },
+    [60899] = {
+        name = "林中夜晚",
+    },
     [60900] = {
         name = "保護文獻",
     },
@@ -2336,6 +2528,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [60935] = {
         name = "貪婪勳章",
+    },
+    [60950] = {
+        name = "潛行至上",
     },
     [60972] = {
         name = "尋覓男爵",
@@ -2421,6 +2616,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [61335] = {
         name = "反抗監禁的怒火",
     },
+    [61355] = {
+        name = "守則二：保持低調",
+    },
     [61359] = {
         name = "統御者之力",
     },
@@ -2456,6 +2654,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [61518] = {
         name = "跟我來",
+    },
+    [61541] = {
+        name = "魂絆熔爐",
     },
     [61542] = {
         name = "羈絆之恩惠",
@@ -2670,14 +2871,32 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [61884] = {
         name = "正式餐點",
     },
+    [61946] = {
+        name = "自然防禦者",
+    },
+    [61948] = {
+        name = "空中防禦隊",
+    },
+    [61949] = {
+        name = "亞登曠野的詭騙者",
+    },
     [62000] = {
         name = "選擇你的使命",
     },
     [62159] = {
         name = "協助暗影之境",
     },
+    [62186] = {
+        name = "腫脹的靈魄種子",
+    },
+    [62189] = {
+        name = "遮陽傘組件",
+    },
     [62237] = {
         name = "神秘的靈魂之鏡",
+    },
+    [62246] = {
+        name = "過世的朋友",
     },
     [62259] = {
         name = "佈滿靈魄的捕夢網",
@@ -2700,6 +2919,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [62308] = {
         name = "精通披肩",
     },
+    [62309] = {
+        name = "冒險者：武鬥士梅維斯",
+    },
+    [62312] = {
+        name = "冒險者：剛恩‧吞骨",
+    },
     [62317] = {
         name = "驅趕疑惑",
     },
@@ -2720,6 +2945,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [62428] = {
         name = "駿馬靈魂",
+    },
+    [62458] = {
+        name = "彼界境地",
     },
     [62461] = {
         name = "獸穴追獵",
@@ -2766,6 +2994,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [62704] = {
         name = "命運絲線",
     },
+    [62714] = {
+        name = "給侍僧的禮物",
+    },
+    [62715] = {
+        name = "不只是禮物",
+    },
     [62716] = {
         name = "重新初次見面",
     },
@@ -2811,6 +3045,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [62836] = {
         name = "雄獅的蹤跡",
     },
+    [62837] = {
+        name = "充滿希望的消息",
+    },
     [62839] = {
         name = "靈魄為力量之源",
     },
@@ -2840,6 +3077,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [62870] = {
         name = "給罪殞城的靈魂",
+    },
+    [62882] = {
+        name = "約法三章",
     },
     [62883] = {
         name = "盛大名望的守衛者",
@@ -2919,11 +3159,32 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [62969] = {
         name = "打鐵趁熱",
     },
+    [63002] = {
+        name = "獨行的危險",
+    },
+    [63003] = {
+        name = "收集靈魂",
+    },
     [63006] = {
         name = "為了女王和林地！",
     },
+    [63008] = {
+        name = "魂絆熔爐",
+    },
     [63022] = {
         name = "守則六附加條款：不計代價拯救我",
+    },
+    [63029] = {
+        name = "會見大領主",
+    },
+    [63030] = {
+        name = "會見大領主",
+    },
+    [63032] = {
+        name = "會見大領主",
+    },
+    [63033] = {
+        name = "會見大領主",
     },
     [63051] = {
         name = "信任問題",
@@ -2957,6 +3218,18 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [63073] = {
         name = "真菌網路",
+    },
+    [63211] = {
+        name = "向阿德雷特斯回報",
+    },
+    [63212] = {
+        name = "向梅維斯回報",
+    },
+    [63214] = {
+        name = "向月莓回報",
+    },
+    [63215] = {
+        name = "向德瑞文將軍回報",
     },
 })
 ]])()
