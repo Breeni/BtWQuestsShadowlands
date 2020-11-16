@@ -2249,6 +2249,7 @@ Database:AddCategory(CATEGORY_ID, {
         id = 115,
     },
     expansion = EXPANSION_ID,
+    buttonImage = "Interface\\AddOns\\BtWQuestsShadowlands\\UI-Chain-Covenant-Necrolord",
     items = {
         {
             type = "chain",

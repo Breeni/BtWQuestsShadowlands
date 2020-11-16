@@ -2030,6 +2030,7 @@ Database:AddCategory(CATEGORY_ID, {
         id = 117,
     },
     expansion = EXPANSION_ID,
+    buttonImage = "Interface\\AddOns\\BtWQuestsShadowlands\\UI-Chain-Covenant-NightFae",
     items = {
         {
             type = "chain",

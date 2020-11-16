@@ -2019,6 +2019,7 @@ Database:AddCategory(CATEGORY_ID, {
         id = 113,
     },
     expansion = EXPANSION_ID,
+    buttonImage = "Interface\\AddOns\\BtWQuestsShadowlands\\UI-Chain-Covenant-Venthyr",
     items = {
         {
             type = "chain",

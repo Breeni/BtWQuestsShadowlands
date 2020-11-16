@@ -2086,6 +2086,7 @@ Database:AddCategory(CATEGORY_ID, {
         id = 119,
     },
     expansion = EXPANSION_ID,
+    buttonImage = "Interface\\AddOns\\BtWQuestsShadowlands\\UI-Chain-Covenant-Kyrian",
     items = {
         {
             type = "chain",

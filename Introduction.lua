@@ -685,7 +685,7 @@ Database:AddChain(Chain.Torghast, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     major = true,
-    buttonImage = "Interface\\AddOns\\BtWQuestsShadowlands\\UI-Chain-Artifact-Torghast",
+    buttonImage = "Interface\\AddOns\\BtWQuestsShadowlands\\UI-Chain-Torghast",
     prerequisites = {
         {
             type = "level",
