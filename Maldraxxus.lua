@@ -1509,14 +1509,14 @@ Database:AddChain(Chain.EmbedChain03, {
             id = 59750,
             x = -1,
             connections = {
-                2, 
+                2, 3, 
             },
         },
         {
             type = "quest",
             id = 59781,
             connections = {
-                2, 
+                1, 2, 
             },
         },
         {
