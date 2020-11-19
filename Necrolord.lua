@@ -2244,10 +2244,7 @@ Database:AddChain(Chain.OtherBoth, {
 })
 
 Database:AddCategory(CATEGORY_ID, {
-    name = { -- Necrolord Campaign
-        type = "campaign",
-        id = 115,
-    },
+    name = L["NECROLORD_CAMPAIGN"],
     expansion = EXPANSION_ID,
     buttonImage = "Interface\\AddOns\\BtWQuestsShadowlands\\UI-Chain-Covenant-Necrolord",
     items = {

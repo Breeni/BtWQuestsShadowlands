@@ -2025,10 +2025,7 @@ Database:AddChain(Chain.OtherBoth, {
 })
 
 Database:AddCategory(CATEGORY_ID, {
-    name = { -- Night Fae Campaign
-        type = "campaign",
-        id = 117,
-    },
+    name = L["NIGHT_FAE_CAMPAIGN"],
     expansion = EXPANSION_ID,
     buttonImage = "Interface\\AddOns\\BtWQuestsShadowlands\\UI-Chain-Covenant-NightFae",
     items = {

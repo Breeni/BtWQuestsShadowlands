@@ -2081,10 +2081,7 @@ Database:AddChain(Chain.OtherBoth, {
 })
 
 Database:AddCategory(CATEGORY_ID, {
-    name = { -- Kyrian Campaign
-        type = "campaign",
-        id = 119,
-    },
+    name = L["KYRIAN_CAMPAIGN"],
     expansion = EXPANSION_ID,
     buttonImage = "Interface\\AddOns\\BtWQuestsShadowlands\\UI-Chain-Covenant-Kyrian",
     items = {

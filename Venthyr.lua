@@ -2014,10 +2014,7 @@ Database:AddChain(Chain.OtherBoth, {
 })
 
 Database:AddCategory(CATEGORY_ID, {
-    name = { -- Venthyr Campaign
-        type = "campaign",
-        id = 113,
-    },
+    name = L["VENTHYR_CAMPAIGN"],
     expansion = EXPANSION_ID,
     buttonImage = "Interface\\AddOns\\BtWQuestsShadowlands\\UI-Chain-Covenant-Venthyr",
     items = {
