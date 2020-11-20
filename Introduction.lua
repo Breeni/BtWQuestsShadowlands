@@ -73,18 +73,14 @@ Database:AddChain(Chain.IntoTheMaw, {
         {
             type = "experience",
             amounts = {
-                137675, 137675, 110075, 82975, 55390, 27715, 13870, 13870, 13870, 13870, 
+                137675, 110075, 82975, 55390, 27715, 13870, 
             },
-            minLevel = 50,
-            maxLevel = 59,
+            minLevel = 51,
+            maxLevel = 56,
         },
         {
             type = "money",
-            amounts = {
-                4352400, 4352400, 4352400, 4352400, 4352400, 4352400, 4352400, 4352400, 4352400, 4352400, 4352400, 
-            },
-            minLevel = 50,
-            maxLevel = 60,
+            amount = 4352400,
         },
     },
     items = {
@@ -604,7 +600,7 @@ Database:AddChain(Chain.TheMawEmbed, {
     major = true,
     active = {
         type = "quest",
-        id = 61496,
+        id = 62882,
         status = {'active', 'completed'},
     },
     completed = {
@@ -614,24 +610,48 @@ Database:AddChain(Chain.TheMawEmbed, {
     rewards = {
         {
             type = "experience",
-            amounts = {
-                38200, 38850, 39600, 40250, 40900, 
+            variations = {
+                {
+                    amounts = {
+                        28575, 28600, 28600, 28650, 28650, 29150, 29700, 30150, 30700, 
+                    },
+                    minLevel = 51,
+                    maxLevel = 59,
+                    restrictions = 86994,
+                },
+                {
+                    amounts = {
+                        27600, 28050, 28600, 29050, 29550, 
+                    },
+                    minLevel = 55,
+                    maxLevel = 59,
+                },
             },
-            minLevel = 55,
-            maxLevel = 59,
         },
         {
             type = "money",
-            amounts = {
-                1499940, 1513980, 1528020, 1542060, 1556100, 1570140, 
+            variations = {
+                {
+                    amounts = {
+                        1006200, 1006435, 1006670, 1006900, 1007135, 1007370, 1016965, 1026560, 1036150, 1045745, 1055340, 
+                    },
+                    minLevel = 50,
+                    maxLevel = 60,
+                    restrictions = 86994,
+                },
+                {
+                    amounts = {
+                        1008540, 1017900, 1027260, 1036620, 1045980, 1055340, 
+                    },
+                    minLevel = 55,
+                    maxLevel = 60,
+                },
             },
-            minLevel = 55,
-            maxLevel = 60,
         },
         {
             type = "reputation",
             id = 2432,
-            amount = 35,
+            amount = 20,
         },
     },
     items = {
@@ -664,18 +684,13 @@ Database:AddChain(Chain.TheMawEmbed, {
             id = 60289,
             x = 0,
             connections = {
-                1, 2,
+                1,
             },
         },
         {
             type = "quest",
             id = 62837,
-            x = -1,
-        },
-        {
-            name = "Unlock Dailies",
-            type = "quest",
-            id = 60289,
+            x = 0,
         },
     },
 })
@@ -746,12 +761,29 @@ Database:AddChain(Chain.Torghast, {
             id = 346217,
         },
         {
-            type = "money",
+            type = "experience",
             amounts = {
-                8751600, 8751600, 8751600, 8751600, 8751600, 8751600, 8751600, 8751600, 8751600, 8751600, 8751600, 
+                135150, 137800, 140400, 143100, 145700, 148350, 150950, 153600, 156600, 159250, 
             },
             minLevel = 50,
-            maxLevel = 60,
+            maxLevel = 59,
+            restrictions = 86994,
+        },
+        {
+            type = "money",
+            variations = {
+                {
+                    amounts = {
+                        7979400, 8056620, 8133840, 8211060, 8288280, 8365500, 8442720, 8519940, 8597160, 8674380, 8751600, 
+                    },
+                    minLevel = 50,
+                    maxLevel = 60,
+                    restrictions = 86994,
+                },
+                {
+                    amount = 8751600,
+                },
+            },
         },
         {
             type = "currency",
@@ -1021,12 +1053,29 @@ Database:AddChain(Chain.NewRules, {
             id = 340351,
         },
         {
-            type = "money",
+            type = "experience",
             amounts = {
-                3217500, 3217500, 3217500, 3217500, 3217500, 3217500, 3217500, 3217500, 3217500, 3217500, 3217500, 
+                54050, 55150, 56250, 57150, 58250, 59350, 60450, 61600, 62650, 63600, 
             },
             minLevel = 50,
-            maxLevel = 60,
+            maxLevel = 59,
+            restrictions = 86994,
+        },
+        {
+            type = "money",
+            variations = {
+                {
+                    amounts = {
+                        2948400, 2975310, 3002220, 3029130, 3056040, 3082950, 3109860, 3136770, 3163680, 3190590, 3217500, 
+                    },
+                    minLevel = 50,
+                    maxLevel = 60,
+                    restrictions = 86994,
+                },
+                {
+                    amount = 3217500,
+                },
+            },
         },
         {
             type = "currency",

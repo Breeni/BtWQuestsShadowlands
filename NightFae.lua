@@ -29,8 +29,10 @@ Database:AddChain(Chain.ForQueenAndGrove, {
     },
     active = {
         type = "quest",
-        id = 61475,
-        status = {'active', 'completed'}
+        ids = {
+            63214, 61475, 
+        },
+        status = { "active", "completed", },
     },
     completed = {
         type = "quest",
@@ -41,12 +43,29 @@ Database:AddChain(Chain.ForQueenAndGrove, {
             name = L["SOULBIND_NIYA"],
         },
         {
-            type = "money",
+            type = "experience",
             amounts = {
-                2496780, 
+                50100, 51100, 52050, 53200, 54200, 55200, 56200, 57200, 58100, 59150, 
             },
-            minLevel = 60,
-            maxLevel = 60,
+            minLevel = 50,
+            maxLevel = 59,
+            restrictions = 86994,
+        },
+        {
+            type = "money",
+            variations = {
+                {
+                    amounts = {
+                        2328300, 2345150, 2362000, 2378840, 2395690, 2412540, 2429390, 2446240, 2463080, 2479930, 2496780, 
+                    },
+                    minLevel = 50,
+                    maxLevel = 60,
+                    restrictions = 86994,
+                },
+                {
+                    amount = 2496780,
+                },
+            },
         },
         {
             type = "currency",
@@ -328,19 +347,43 @@ Database:AddChain(Chain.ReturnToTheMaw, {
     rewards = {
         {
             type = "experience",
-            amounts = {
-                38200, 38850, 39600, 40250, 40900, 
+            variations = {
+                {
+                    amounts = {
+                        28575, 28600, 28600, 28650, 28650, 29150, 29700, 30150, 30700, 
+                    },
+                    minLevel = 51,
+                    maxLevel = 59,
+                    restrictions = 86994,
+                },
+                {
+                    amounts = {
+                        27600, 28050, 28600, 29050, 29550, 
+                    },
+                    minLevel = 55,
+                    maxLevel = 59,
+                },
             },
-            minLevel = 55,
-            maxLevel = 59,
         },
         {
             type = "money",
-            amounts = {
-                1525680, 1539720, 1553760, 1567800, 1581840, 1595880, 25740, 
+            variations = {
+                {
+                    amounts = {
+                        1057680, 1057915, 1058150, 1058380, 1058615, 1058850, 1068445, 1078040, 1087630, 1097225, 1106820, 
+                    },
+                    minLevel = 50,
+                    maxLevel = 60,
+                    restrictions = 86994,
+                },
+                {
+                    amounts = {
+                        1060020, 1069380, 1078740, 1088100, 1097460, 1106820, 
+                    },
+                    minLevel = 55,
+                    maxLevel = 60,
+                },
             },
-            minLevel = 55,
-            maxLevel = 60,
         },
         {
             type = "currency",
@@ -350,7 +393,7 @@ Database:AddChain(Chain.ReturnToTheMaw, {
         {
             type = "reputation",
             id = 2432,
-            amount = 35,
+            amount = 20,
         },
     },
     items = {
@@ -376,9 +419,7 @@ Database:AddChain(Chain.ReturnToTheMaw, {
             embed = true,
             x = 0,
             connections = {
-                [5] = {
-                    1,
-                }, 
+                1, 
             },
         },
         {
@@ -438,12 +479,29 @@ Database:AddChain(Chain.DaughterOfTheNightWarrior, {
             name = L["SOULBIND_DREAMWEAVER"],
         },
         {
-            type = "money",
+            type = "experience",
             amounts = {
-                2084940, 
+                39575, 40325, 41150, 41850, 42700, 43450, 44300, 45100, 45850, 46600, 
             },
-            minLevel = 60,
-            maxLevel = 60,
+            minLevel = 50,
+            maxLevel = 59,
+            restrictions = 86994,
+        },
+        {
+            type = "money",
+            variations = {
+                {
+                    amounts = {
+                        1895400, 1914355, 1933310, 1952260, 1971215, 1990170, 2009125, 2028080, 2047030, 2065985, 2084940, 
+                    },
+                    minLevel = 50,
+                    maxLevel = 60,
+                    restrictions = 86994,
+                },
+                {
+                    amount = 2084940,
+                },
+            },
         },
         {
             type = "currency",
@@ -567,12 +625,29 @@ Database:AddChain(Chain.DeBoss, {
     },
     rewards = {
         {
-            type = "money",
+            type = "experience",
             amounts = {
-                2960100, 
+                71300, 72750, 74150, 75700, 77100, 78550, 79950, 81400, 82800, 84100, 
             },
-            minLevel = 60,
-            maxLevel = 60,
+            minLevel = 50,
+            maxLevel = 59,
+            restrictions = 86994,
+        },
+        {
+            type = "money",
+            variations = {
+                {
+                    amounts = {
+                        2691000, 2717910, 2744820, 2771730, 2798640, 2825550, 2852460, 2879370, 2906280, 2933190, 2960100, 
+                    },
+                    minLevel = 50,
+                    maxLevel = 60,
+                    restrictions = 86994,
+                },
+                {
+                    amount = 2960100,
+                },
+            },
         },
         {
             type = "currency",
@@ -715,12 +790,29 @@ Database:AddChain(Chain.NightWarriorsCurse, {
     },
     rewards = {
         {
-            type = "money",
+            type = "experience",
             amounts = {
-                3397680, 
+                79050, 80650, 82200, 83800, 85400, 87000, 88600, 90200, 91700, 93200, 
             },
-            minLevel = 60,
-            maxLevel = 60,
+            minLevel = 50,
+            maxLevel = 59,
+            restrictions = 86994,
+        },
+        {
+            type = "money",
+            variations = {
+                {
+                    amounts = {
+                        3088800, 3119690, 3150580, 3181460, 3212350, 3243240, 3274130, 3305020, 3335900, 3366790, 3397680, 
+                    },
+                    minLevel = 50,
+                    maxLevel = 60,
+                    restrictions = 86994,
+                },
+                {
+                    amount = 3397680,
+                },
+            },
         },
         {
             type = "currency",
@@ -898,12 +990,29 @@ Database:AddChain(Chain.DrustToDrust, {
     },
     rewards = {
         {
-            type = "money",
+            type = "experience",
             amounts = {
-                3963960, 
+                102150, 104150, 106150, 108400, 110500, 112500, 114600, 116600, 118500, 120550, 
             },
-            minLevel = 60,
-            maxLevel = 60,
+            minLevel = 50,
+            maxLevel = 59,
+            restrictions = 86994,
+        },
+        {
+            type = "money",
+            variations = {
+                {
+                    amounts = {
+                        3603600, 3639640, 3675680, 3711700, 3747740, 3783780, 3819820, 3855860, 3891880, 3927920, 3963960, 
+                    },
+                    minLevel = 50,
+                    maxLevel = 60,
+                    restrictions = 86994,
+                },
+                {
+                    amount = 3963960,
+                },
+            },
         },
         {
             type = "currency",
@@ -1127,12 +1236,29 @@ Database:AddChain(Chain.TheHornedHunter, {
     },
     rewards = {
         {
-            type = "money",
+            type = "experience",
             amounts = {
-                2342340, 
+                58775, 60025, 61100, 62400, 63500, 64750, 65850, 67100, 68150, 69350, 
             },
-            minLevel = 60,
-            maxLevel = 60,
+            minLevel = 50,
+            maxLevel = 59,
+            restrictions = 86994,
+        },
+        {
+            type = "money",
+            variations = {
+                {
+                    amounts = {
+                        2129400, 2150695, 2171990, 2193280, 2214575, 2235870, 2257165, 2278460, 2299750, 2321045, 2342340, 
+                    },
+                    minLevel = 50,
+                    maxLevel = 60,
+                    restrictions = 86994,
+                },
+                {
+                    amount = 2342340,
+                },
+            },
         },
         {
             type = "currency",
@@ -1299,19 +1425,43 @@ Database:AddChain(Chain.DealForALoa, {
     rewards = {
         {
             type = "experience",
-            amounts = {
-                975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
+            variations = {
+                {
+                    amounts = {
+                        76225, 77675, 79250, 80650, 82300, 83750, 85400, 86900, 88350, 89800, 
+                    },
+                    minLevel = 50,
+                    maxLevel = 59,
+                    restrictions = 86994,
+                },
+                {
+                    amounts = {
+                        975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
+                    },
+                    minLevel = 51,
+                    maxLevel = 59,
+                },
             },
-            minLevel = 50,
-            maxLevel = 59,
         },
         {
             type = "money",
-            amounts = {
-                3678480, 3678715, 3678950, 3679180, 3679415, 3679650, 3679885, 3680120, 3680350, 3680585, 3680820, 
+            variations = {
+                {
+                    amounts = {
+                        3346200, 3379665, 3413130, 3446580, 3480045, 3513510, 3546975, 3580440, 3613890, 3647355, 3680820, 
+                    },
+                    minLevel = 50,
+                    maxLevel = 60,
+                    restrictions = 86994,
+                },
+                {
+                    amounts = {
+                        3678480, 3678715, 3678950, 3679180, 3679415, 3679650, 3679885, 3680120, 3680350, 3680585, 3680820, 
+                    },
+                    minLevel = 50,
+                    maxLevel = 60,
+                },
             },
-            minLevel = 50,
-            maxLevel = 60,
         },
         {
             type = "currency",
@@ -1632,12 +1782,29 @@ Database:AddChain(Chain.Chain01, {
     },
     rewards = {
         {
-            type = "money",
+            type = "experience",
             amounts = {
-                1467180, 
+                38550, 39300, 40050, 40900, 41700, 42450, 43250, 44000, 44700, 45500, 
             },
-            minLevel = 60,
-            maxLevel = 60,
+            minLevel = 50,
+            maxLevel = 59,
+            restrictions = 86994,
+        },
+        {
+            type = "money",
+            variations = {
+                {
+                    amounts = {
+                        1333800, 1347140, 1360480, 1373810, 1387150, 1400490, 1413830, 1427170, 1440500, 1453840, 1467180, 
+                    },
+                    minLevel = 50,
+                    maxLevel = 60,
+                    restrictions = 86994,
+                },
+                {
+                    amount = 1467180,
+                },
+            },
         },
         {
             type = "reputation",
@@ -1756,12 +1923,29 @@ Database:AddChain(Chain.Chain02, {
     },
     rewards = {
         {
-            type = "money",
+            type = "experience",
             amounts = {
-                154440, 
+                4825, 4925, 5000, 5100, 5200, 5300, 5400, 5500, 5550, 5700, 
             },
-            minLevel = 60,
-            maxLevel = 60,
+            minLevel = 50,
+            maxLevel = 59,
+            restrictions = 86994,
+        },
+        {
+            type = "money",
+            variations = {
+                {
+                    amounts = {
+                        140400, 141805, 143210, 144610, 146015, 147420, 148825, 150230, 151630, 153035, 154440, 
+                    },
+                    minLevel = 50,
+                    maxLevel = 60,
+                    restrictions = 86994,
+                },
+                {
+                    amount = 154440,
+                },
+            },
         },
     },
     items = {
@@ -1833,12 +2017,29 @@ Database:AddChain(Chain.Chain03, {
     },
     rewards = {
         {
-            type = "money",
+            type = "experience",
             amounts = {
-                51480, 
+                1950, 2000, 2000, 2100, 2100, 2200, 2200, 2200, 2300, 
             },
-            minLevel = 60,
-            maxLevel = 60,
+            minLevel = 51,
+            maxLevel = 59,
+            restrictions = 86994,
+        },
+        {
+            type = "money",
+            variations = {
+                {
+                    amounts = {
+                        46800, 47270, 47740, 48200, 48670, 49140, 49610, 50080, 50540, 51010, 51480, 
+                    },
+                    minLevel = 50,
+                    maxLevel = 60,
+                    restrictions = 86994,
+                },
+                {
+                    amount = 51480,
+                },
+            },
         },
     },
     items = {
@@ -1912,11 +2113,7 @@ Database:AddChain(Chain.Chain04, {
     rewards = {
         {
             type = "money",
-            amounts = {
-                1673100, 
-            },
-            minLevel = 60,
-            maxLevel = 60,
+            amount = 1673100,
         },
     },
     items = {
