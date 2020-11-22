@@ -63,5 +63,8 @@ BtWQuestsDatabase:UpdateObjectsTable({
     [358382] = {
         name = "Gesucht: Chelicera",
     },
+    [358533] = {
+        name = "Vergessene Vorräte",
+    },
 })
 ]])()

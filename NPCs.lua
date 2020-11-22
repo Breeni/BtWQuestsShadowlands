@@ -4181,17 +4181,6 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
-    [171028] = {
-        name = "Shandris Feathermoon",
-        locations = {
-            [1543] = {
-                {
-                    x = 0.468566,
-                    y = 0.417087,
-                },
-            },
-        },
-    },
     [171099] = {
         name = "Guardian Kota",
         locations = {
@@ -4815,6 +4804,28 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.532466,
                     y = 0.328921,
+                },
+            },
+        },
+    },
+    [174833] = {
+        name = "Shandris Feathermoon",
+        locations = {
+            [1543] = {
+                {
+                    x = 0.443684,
+                    y = 0.411653,
+                },
+            },
+        },
+    },
+    [174834] = {
+        name = "Shandris Feathermoon",
+        locations = {
+            [1543] = {
+                {
+                    x = 0.468594,
+                    y = 0.41701,
                 },
             },
         },

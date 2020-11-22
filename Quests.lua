@@ -1,5 +1,4 @@
 ----- AUTO GENERATED - DO NOT EDIT
-local L = BtWQuests.L
 
 BtWQuestsDatabase:AddQuestsTable({
     [56829] = {
@@ -11,6 +10,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -28,9 +28,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -44,7 +44,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -57,6 +56,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -74,9 +74,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -90,7 +90,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 63180,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -103,6 +102,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -120,9 +120,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -136,7 +136,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -149,6 +148,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -166,9 +166,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -182,7 +182,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -195,6 +194,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -212,9 +212,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -228,7 +228,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 63180,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -241,6 +240,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -258,9 +258,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -274,7 +274,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25270,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -287,6 +286,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -304,9 +304,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -320,7 +320,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 126360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -341,6 +340,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -358,9 +358,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -374,7 +374,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -387,6 +386,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -400,9 +400,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 1150,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -416,7 +416,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25505,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -429,6 +428,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -446,9 +446,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -462,7 +462,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 118170,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -637,6 +636,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -654,9 +654,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -674,7 +674,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 53,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -687,6 +686,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -700,9 +700,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 4550,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -716,7 +716,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 127530,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -729,6 +728,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -742,9 +742,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 9100,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -758,7 +758,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 255060,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -771,6 +770,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -784,9 +784,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 11350,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -800,7 +800,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 510120,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -813,6 +812,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -830,9 +830,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -846,7 +846,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -859,6 +858,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -872,9 +872,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 9100,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -888,7 +888,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 255060,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -901,6 +900,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -918,9 +918,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -934,7 +934,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 126360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -947,6 +946,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -964,9 +964,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -980,7 +980,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 126360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -993,6 +992,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1010,9 +1010,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1026,7 +1026,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1039,6 +1038,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1056,9 +1056,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1072,7 +1072,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 63180,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1081,6 +1080,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 746,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1098,9 +1098,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1118,7 +1118,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 60,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1131,6 +1130,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1148,9 +1148,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1164,7 +1164,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25270,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1177,6 +1176,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1194,9 +1194,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1210,7 +1210,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 189540,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1223,6 +1222,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1240,9 +1240,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1256,7 +1256,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 505440,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1269,6 +1268,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1286,9 +1286,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1302,7 +1302,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 63180,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1315,6 +1314,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1328,9 +1328,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 11350,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1344,7 +1344,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 510120,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1357,6 +1356,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1370,9 +1370,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 9100,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1386,7 +1386,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 255060,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1421,6 +1420,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1434,9 +1434,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 1150,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1450,7 +1450,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25505,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1463,6 +1462,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1480,9 +1480,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1496,7 +1496,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 23635,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1509,6 +1508,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1526,9 +1526,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1542,7 +1542,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1563,6 +1562,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1580,9 +1580,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1596,7 +1596,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1617,6 +1616,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1634,9 +1634,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1650,7 +1650,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1671,6 +1670,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1688,9 +1688,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1704,7 +1704,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1717,6 +1716,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1734,9 +1734,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1750,7 +1750,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1771,6 +1770,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1788,9 +1788,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1804,7 +1804,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1825,6 +1824,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1842,9 +1842,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1858,7 +1858,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 23635,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1879,6 +1878,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1896,9 +1896,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1912,7 +1912,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1933,6 +1932,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1950,9 +1950,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -1966,7 +1966,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 23635,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -1979,6 +1978,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -1996,9 +1996,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2016,7 +2016,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 55,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -2034,6 +2033,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -2047,9 +2047,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 9100,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2063,7 +2063,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 255060,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -2076,6 +2075,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -2093,9 +2093,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2109,7 +2109,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -2130,6 +2129,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -2147,9 +2147,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2163,7 +2163,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24100,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -2184,6 +2183,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -2201,9 +2201,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2217,7 +2217,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 241020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -2230,6 +2229,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -2243,9 +2243,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 4550,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2259,7 +2259,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 127530,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -2280,6 +2279,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -2297,9 +2297,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2313,7 +2313,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 482040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -2326,6 +2325,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -2339,9 +2339,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 9100,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2355,7 +2355,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 255060,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -2368,6 +2367,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -2381,9 +2381,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 9100,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2397,7 +2397,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 255060,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -2410,6 +2409,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -2423,9 +2423,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 9100,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2439,7 +2439,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 255060,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -2452,6 +2451,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -2465,9 +2465,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 9100,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2481,7 +2481,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 255060,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -2494,6 +2493,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -2511,9 +2511,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2527,7 +2527,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 265883,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -2548,6 +2547,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -2565,9 +2565,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2581,7 +2581,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -2602,6 +2601,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -2619,9 +2619,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2635,7 +2635,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 23635,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -2657,6 +2656,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2670,7 +2670,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -2692,6 +2691,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2705,7 +2705,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -2733,6 +2732,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2746,7 +2746,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -2782,6 +2781,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2795,7 +2795,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -2814,6 +2813,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -2827,9 +2827,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 6800,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2843,7 +2843,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 191295,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -2856,6 +2855,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -2869,9 +2869,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 11350,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2885,7 +2885,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 510120,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -2907,6 +2906,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2920,7 +2920,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -2948,6 +2947,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -2961,7 +2961,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -2982,6 +2981,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -2999,9 +2999,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3015,7 +3015,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -3050,6 +3049,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3063,7 +3063,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -3084,6 +3083,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -3101,9 +3101,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3117,7 +3117,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -3152,6 +3151,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3165,7 +3165,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -3186,6 +3185,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -3203,9 +3203,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3219,7 +3219,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 63180,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -3232,6 +3231,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -3249,9 +3249,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3265,7 +3265,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 505440,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -3291,6 +3290,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -3308,9 +3308,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3324,7 +3324,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 241020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -3345,6 +3344,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -3362,9 +3362,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3378,7 +3378,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 241020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -3399,6 +3398,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -3416,9 +3416,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3432,7 +3432,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24335,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -3453,6 +3452,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -3470,9 +3470,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3486,7 +3486,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24100,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -3507,6 +3506,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -3524,9 +3524,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3540,7 +3540,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -3553,6 +3552,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -3570,9 +3570,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3586,7 +3586,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 23870,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -3616,6 +3615,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3629,7 +3629,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -3642,6 +3641,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -3655,9 +3655,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 13650,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3671,7 +3671,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 382590,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -3697,6 +3696,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -3710,9 +3710,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 13650,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3726,7 +3726,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 382590,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -3744,6 +3743,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -3757,9 +3757,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 13650,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3773,7 +3773,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 382590,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -3791,6 +3790,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -3804,9 +3804,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 13650,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3820,7 +3820,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 382590,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -3838,6 +3837,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -3851,9 +3851,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 13650,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3867,7 +3867,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 382590,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -3885,6 +3884,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -3898,9 +3898,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 17025,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3914,7 +3914,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 765180,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -3940,6 +3939,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -3957,9 +3957,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -3973,7 +3973,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -3999,6 +3998,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -4016,9 +4016,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4032,7 +4032,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -4058,6 +4057,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -4075,9 +4075,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4091,7 +4091,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -4109,6 +4108,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -4126,9 +4126,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4142,7 +4142,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -4160,6 +4159,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -4177,9 +4177,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4193,7 +4193,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 89505,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -4206,6 +4205,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -4223,9 +4223,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4239,7 +4239,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -4257,6 +4256,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -4274,9 +4274,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4290,7 +4290,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -4308,6 +4307,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -4325,9 +4325,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4341,7 +4341,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -4359,6 +4358,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -4376,9 +4376,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4392,7 +4392,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 716040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -4418,6 +4417,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -4435,9 +4435,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4451,7 +4451,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 716040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -4469,6 +4468,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -4482,9 +4482,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 13650,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4498,7 +4498,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 382590,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -4525,6 +4524,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4538,7 +4538,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -4557,6 +4556,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -4574,9 +4574,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4590,7 +4590,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -4612,6 +4611,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4625,7 +4625,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 772200,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -4660,6 +4659,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4673,7 +4673,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -4722,6 +4721,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4735,7 +4735,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 772200,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -4762,6 +4761,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4775,7 +4775,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -4788,6 +4787,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -4805,9 +4805,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4821,7 +4821,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24805,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -4834,6 +4833,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -4851,9 +4851,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4867,7 +4867,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -4885,6 +4884,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -4902,9 +4902,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4918,7 +4918,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -4936,6 +4935,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -4953,9 +4953,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -4969,7 +4969,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -4987,6 +4986,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5004,9 +5004,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5020,7 +5020,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -5038,6 +5037,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5055,9 +5055,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5071,7 +5071,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -5089,6 +5088,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5106,9 +5106,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5122,7 +5122,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24805,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -5171,6 +5170,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5188,9 +5188,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5204,7 +5204,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -5225,6 +5224,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5242,9 +5242,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5258,7 +5258,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -5271,6 +5270,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5284,9 +5284,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 4550,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5300,7 +5300,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 127530,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -5313,6 +5312,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5326,9 +5326,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 4550,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5342,7 +5342,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 127530,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -5355,6 +5354,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5368,9 +5368,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 11350,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5384,7 +5384,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 510120,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -5397,6 +5396,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5410,9 +5410,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 11350,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5426,7 +5426,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 510120,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -5439,6 +5438,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5452,9 +5452,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 4550,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5468,7 +5468,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 127530,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -5489,6 +5488,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5506,9 +5506,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5522,7 +5522,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 23635,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -5535,6 +5534,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5552,9 +5552,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5568,7 +5568,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -5589,6 +5588,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5606,9 +5606,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5622,7 +5622,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 23635,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -5635,6 +5634,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5652,9 +5652,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5668,7 +5668,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 265883,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -5694,6 +5693,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5711,9 +5711,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5727,7 +5727,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -5748,6 +5747,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5765,9 +5765,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5781,13 +5781,12 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
     [57715] = {
         name = "The Archon's Answer",
-        contentTuningID = 743,
+        contentTuningID = 1317,
         source = {
             type = "npc",
             id = 158862,
@@ -5802,10 +5801,11 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
-                            11600, 11800, 12050, 12250, 12500, 12700, 12950, 13200, 13400, 13650, 
+                            9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                         },
                         minLevel = 50,
                         maxLevel = 59,
@@ -5813,33 +5813,28 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
+                            9850, 10050, 10200, 5900, 3950, 1950, 975, 
                         },
                         minLevel = 51,
-                        maxLevel = 59,
+                        maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
-                            702000, 709020, 716040, 723060, 730080, 737100, 744120, 751140, 758160, 765180, 772200, 
+                            468000, 472680, 477360, 482040, 486720, 491400, 496080, 500760, 505440, 510120, 514800, 
                         },
                         minLevel = 50,
                         maxLevel = 60,
                         restrictions = 86994,
                     },
                     {
-                        amounts = {
-                            709020, 716040, 723060, 
-                        },
-                        minLevel = 51,
-                        maxLevel = 53,
+                        amount = 472680,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -5860,6 +5855,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5877,9 +5873,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5893,7 +5889,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -5914,6 +5909,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5931,9 +5927,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5947,7 +5943,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 472680,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -5960,6 +5955,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -5977,9 +5973,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -5993,7 +5989,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -6006,6 +6001,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -6019,9 +6015,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 11350,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -6035,7 +6031,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 510120,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -6129,6 +6124,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -6142,7 +6138,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -6163,6 +6158,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -6180,9 +6176,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -6196,7 +6192,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 245700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -6217,6 +6212,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -6234,9 +6230,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -6250,7 +6246,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24805,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -6263,6 +6258,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -6280,9 +6276,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -6296,7 +6292,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 93015,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -6309,6 +6304,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -6326,9 +6322,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -6342,7 +6338,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 93015,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -6355,6 +6350,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -6372,9 +6368,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -6388,7 +6384,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24805,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -6434,6 +6429,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -6451,9 +6447,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -6467,7 +6463,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -6485,6 +6480,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -6502,9 +6498,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -6518,7 +6514,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -6536,6 +6531,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -6553,9 +6549,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -6569,7 +6565,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -6587,6 +6582,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -6604,9 +6600,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -6620,7 +6616,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -6638,6 +6633,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -6655,9 +6651,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -6671,7 +6667,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -6689,6 +6684,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -6706,9 +6702,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -6722,7 +6718,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -6740,6 +6735,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -6757,9 +6753,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -6773,7 +6769,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 744120,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -7153,6 +7148,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -7166,7 +7162,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -7220,6 +7215,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -7237,9 +7233,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -7253,7 +7249,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 23635,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -7274,6 +7269,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -7291,9 +7287,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -7307,7 +7303,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -7320,6 +7315,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -7337,9 +7333,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -7353,7 +7349,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24335,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -7380,6 +7375,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -7397,9 +7393,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -7413,7 +7409,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 505440,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -7431,6 +7426,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -7448,9 +7444,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -7464,7 +7460,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 505440,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -7482,6 +7477,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -7499,9 +7495,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -7515,7 +7511,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 505440,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -7533,6 +7528,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -7550,9 +7546,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -7566,7 +7562,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 758160,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -7584,6 +7579,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -7601,9 +7597,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -7617,7 +7613,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -7640,6 +7635,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 id = 312427,
             },
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -7657,9 +7653,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -7673,7 +7669,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 189540,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -7686,6 +7681,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -7703,9 +7699,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -7719,7 +7715,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25270,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -7732,6 +7727,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -7749,9 +7745,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -7765,7 +7761,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 505440,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -7783,6 +7778,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -7800,9 +7796,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -7816,7 +7812,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 505440,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -7830,6 +7825,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 1426,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -7847,9 +7843,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -7863,7 +7859,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 189540,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -7881,6 +7876,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -7898,9 +7894,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -7914,7 +7910,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 758160,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -7940,6 +7935,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -7957,9 +7953,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -7973,7 +7969,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -7999,6 +7994,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8016,9 +8012,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8032,7 +8028,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -8058,6 +8053,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8075,9 +8071,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8091,7 +8087,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -8117,6 +8112,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8134,9 +8130,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8150,7 +8146,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -8176,6 +8171,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8193,9 +8189,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8209,7 +8205,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -8235,6 +8230,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8252,9 +8248,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8268,7 +8264,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -8294,6 +8289,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8311,9 +8307,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8327,7 +8323,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -8353,6 +8348,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8370,9 +8366,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8386,7 +8382,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24570,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -8407,6 +8402,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8424,9 +8420,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8440,7 +8436,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 245700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -8461,6 +8456,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8478,9 +8474,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8494,7 +8490,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 245700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -8507,6 +8502,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8524,9 +8520,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8540,7 +8536,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 245700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -8561,6 +8556,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8578,9 +8574,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8594,7 +8590,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24570,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -8607,6 +8602,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8624,9 +8620,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8640,7 +8636,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24805,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -8680,6 +8675,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8697,9 +8693,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8713,7 +8709,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -8734,6 +8729,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8751,9 +8747,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8767,7 +8763,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -8788,6 +8783,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8805,9 +8801,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8821,7 +8817,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -8842,6 +8837,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8859,9 +8855,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8875,7 +8871,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 121680,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -8896,6 +8891,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8913,9 +8909,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8929,7 +8925,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -8942,6 +8937,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -8959,9 +8955,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -8975,7 +8971,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -8988,6 +8983,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9005,9 +9001,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9021,7 +9017,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -9042,6 +9037,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9059,9 +9055,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9075,7 +9071,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -9088,6 +9083,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9105,9 +9101,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9121,7 +9117,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -9169,6 +9164,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9186,9 +9182,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9202,7 +9198,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -9215,6 +9210,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9232,9 +9228,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9248,7 +9244,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -9270,6 +9265,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9283,7 +9279,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -9304,6 +9299,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9321,9 +9317,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9337,7 +9333,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -9358,6 +9353,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9375,9 +9371,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9391,7 +9387,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -9404,6 +9399,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9421,9 +9417,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9437,7 +9433,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -9455,6 +9450,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9472,9 +9468,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9488,7 +9484,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -9506,6 +9501,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9523,9 +9519,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9539,7 +9535,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -9557,6 +9552,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9574,9 +9570,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9590,7 +9586,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 744120,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -9608,6 +9603,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9625,9 +9621,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9641,7 +9637,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24805,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -9662,6 +9657,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9679,9 +9675,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9695,7 +9691,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24335,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -9708,6 +9703,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9725,9 +9721,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9741,7 +9737,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -9762,6 +9757,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9779,9 +9775,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9795,7 +9791,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -9816,6 +9811,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9833,9 +9829,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9849,7 +9845,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -9875,6 +9870,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9892,9 +9888,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9908,7 +9904,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -9934,6 +9929,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -9951,9 +9947,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -9967,7 +9963,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -9993,6 +9988,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -10010,9 +10006,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10026,7 +10022,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -10052,6 +10047,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -10069,9 +10065,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10085,7 +10081,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -10111,6 +10106,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -10128,9 +10124,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10144,7 +10140,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -10170,6 +10165,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -10187,9 +10183,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10203,7 +10199,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -10244,6 +10239,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -10261,9 +10257,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10277,7 +10273,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 365040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -10304,6 +10299,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10317,7 +10313,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 772200,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -10330,6 +10325,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -10347,9 +10343,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10367,7 +10363,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 55,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -10380,6 +10375,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -10397,9 +10393,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10413,7 +10409,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24335,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -10426,6 +10421,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -10443,9 +10439,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10459,7 +10455,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 1010880,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -10471,6 +10466,10 @@ BtWQuestsDatabase:AddQuestsTable({
     [58095] = {
         name = "Theater of Pain: Help Wanted",
         contentTuningID = 824,
+        source = {
+            type = "npc",
+            id = 159689,
+        },
         rewards = {
             {
                 type = "money",
@@ -10509,6 +10508,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10522,7 +10522,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -10544,6 +10543,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10557,7 +10557,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -10579,6 +10578,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10592,7 +10592,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -10614,6 +10613,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10627,7 +10627,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -10649,6 +10648,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10662,7 +10662,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -10675,6 +10674,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -10692,9 +10692,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10708,7 +10708,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24805,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -10721,6 +10720,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -10738,9 +10738,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10754,7 +10754,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -10772,6 +10771,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -10789,9 +10789,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10805,7 +10805,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -10823,6 +10822,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -10840,9 +10840,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10856,7 +10856,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -10882,6 +10881,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -10899,9 +10899,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10915,7 +10915,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -10941,6 +10940,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -10958,9 +10958,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -10974,7 +10974,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24805,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -10995,6 +10994,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -11012,9 +11012,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -11028,7 +11028,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 23635,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -11216,6 +11215,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 743,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -11233,9 +11233,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -11253,7 +11253,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 53,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -11279,6 +11278,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -11296,9 +11296,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -11312,7 +11312,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 358020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -11330,6 +11329,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -11347,9 +11347,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -11363,7 +11363,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 375570,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -11389,6 +11388,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -11406,9 +11406,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -11422,7 +11422,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 375570,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -11440,6 +11439,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -11457,9 +11457,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -11473,7 +11473,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 375570,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -11491,6 +11490,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -11508,9 +11508,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -11524,7 +11524,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 375570,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -11542,6 +11541,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -11559,9 +11559,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -11575,7 +11575,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -11588,6 +11587,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -11605,9 +11605,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -11625,7 +11625,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 60,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -11693,6 +11692,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -11710,9 +11710,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -11726,7 +11726,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -12049,6 +12048,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -12066,9 +12066,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12082,7 +12082,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 365040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -12100,6 +12099,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -12117,9 +12117,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12133,7 +12133,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -12202,6 +12201,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12215,7 +12215,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -12237,6 +12236,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12250,7 +12250,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -12272,6 +12271,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12285,7 +12285,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -12307,6 +12306,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12320,7 +12320,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -12342,6 +12341,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12355,7 +12355,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -12385,6 +12384,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12398,7 +12398,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -12428,6 +12427,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12441,7 +12441,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -12468,6 +12467,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12481,7 +12481,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -12494,6 +12493,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -12511,9 +12511,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12527,7 +12527,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -12548,6 +12547,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -12565,9 +12565,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12581,7 +12581,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 250380,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -12594,6 +12593,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -12611,9 +12611,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12627,7 +12627,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 250380,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -12648,6 +12647,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -12665,9 +12665,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12681,7 +12681,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 250380,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -12694,6 +12693,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -12711,9 +12711,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12727,7 +12727,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 250380,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -12740,6 +12739,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -12757,9 +12757,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12773,7 +12773,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 125190,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -12795,6 +12794,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12808,7 +12808,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -12844,6 +12843,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12857,7 +12857,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -12870,6 +12869,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -12887,9 +12887,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -12903,7 +12903,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 250380,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -13239,6 +13238,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -13256,9 +13256,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -13272,7 +13272,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 365040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -13340,6 +13339,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -13357,9 +13357,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -13373,7 +13373,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -13394,6 +13393,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -13411,9 +13411,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -13427,7 +13427,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -13440,6 +13439,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -13457,9 +13457,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -13473,7 +13473,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 505440,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -13494,6 +13493,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -13511,9 +13511,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -13527,7 +13527,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -13565,6 +13564,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -13578,7 +13578,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -13628,6 +13627,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -13641,7 +13641,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -13677,6 +13676,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -13690,7 +13690,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -13711,6 +13710,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -13728,9 +13728,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -13744,7 +13744,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -13765,6 +13764,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -13782,9 +13782,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -13798,7 +13798,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -13819,6 +13818,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -13836,9 +13836,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -13852,7 +13852,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -13865,6 +13864,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -13882,9 +13882,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -13898,7 +13898,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 365040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -13916,6 +13915,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -13933,9 +13933,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -13949,7 +13949,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 365040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -13967,6 +13966,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -13984,9 +13984,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14000,7 +14000,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 365040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -14018,6 +14017,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -14035,9 +14035,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14051,7 +14051,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 365040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -14069,6 +14068,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -14086,9 +14086,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14102,7 +14102,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 365040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -14129,6 +14128,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14142,7 +14142,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 772200,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -14183,6 +14182,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14196,7 +14196,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14209,6 +14208,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -14226,9 +14226,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14242,7 +14242,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25270,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14278,6 +14277,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14291,7 +14291,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14321,6 +14320,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14334,7 +14334,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14356,6 +14355,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14369,7 +14369,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14391,6 +14390,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14404,7 +14404,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14426,6 +14425,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14439,7 +14439,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14469,6 +14468,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14482,7 +14482,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14504,6 +14503,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14517,7 +14517,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14539,6 +14538,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14552,7 +14552,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14574,6 +14573,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14587,7 +14587,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14609,6 +14608,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14622,7 +14622,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14635,6 +14634,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -14652,9 +14652,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14668,7 +14668,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14691,6 +14690,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -14708,9 +14708,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14724,7 +14724,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 126360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14737,6 +14736,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -14754,9 +14754,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14770,7 +14770,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25270,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14783,6 +14782,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -14800,9 +14800,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14816,7 +14816,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 126360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14829,6 +14828,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -14846,9 +14846,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14862,7 +14862,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 126360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14883,6 +14882,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -14900,9 +14900,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14916,7 +14916,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 505440,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -14947,6 +14946,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -14964,9 +14964,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -14980,7 +14980,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -15002,6 +15001,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -15015,7 +15015,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -15026,7 +15025,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [58750] = {
-        name = "Take The Bull By The Horns",
+        name = "Take the Bull by the Horns",
         contentTuningID = 745,
         source = {
             type = "npc",
@@ -15034,10 +15033,11 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
-                            7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
+                            11550, 11775, 12000, 12300, 12525, 12750, 12975, 13200, 13425, 13650, 
                         },
                         minLevel = 50,
                         maxLevel = 59,
@@ -15045,19 +15045,19 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            8200, 8350, 8500, 8650, 8800, 4900, 3250, 
+                            12300, 12525, 12750, 12975, 13200, 7350, 4875, 
                         },
                         minLevel = 53,
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
-                            234000, 236340, 238680, 241020, 243360, 245700, 248040, 250380, 252720, 255060, 257400, 
+                            351000, 354510, 358020, 361530, 365040, 368550, 372060, 375570, 379080, 382590, 386100, 
                         },
                         minLevel = 50,
                         maxLevel = 60,
@@ -15065,13 +15065,12 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            241020, 243360, 245700, 
+                            361530, 365040, 368550, 
                         },
                         minLevel = 53,
                         maxLevel = 55,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -15089,6 +15088,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -15106,9 +15106,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -15122,7 +15122,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24335,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -15135,6 +15134,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -15152,9 +15152,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -15168,7 +15168,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 238680,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -15190,6 +15189,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -15203,7 +15203,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -15230,6 +15229,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -15247,9 +15247,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -15267,7 +15267,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 55,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -15399,6 +15398,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -15416,9 +15416,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -15436,7 +15436,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 55,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -15536,6 +15535,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -15553,9 +15553,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -15569,7 +15569,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 238680,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -15590,6 +15589,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -15607,9 +15607,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -15623,7 +15623,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 119340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -15685,6 +15684,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -15702,9 +15702,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -15718,7 +15718,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -15750,6 +15749,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -15763,7 +15763,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -15806,6 +15805,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -15823,9 +15823,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -15839,7 +15839,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 238680,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -15952,6 +15951,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -15969,9 +15969,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -15985,7 +15985,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 758160,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -16007,6 +16006,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16020,7 +16020,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -16033,6 +16032,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -16050,9 +16050,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16066,7 +16066,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24335,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -16093,6 +16092,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -16106,9 +16106,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 4550,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16122,7 +16122,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 127530,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -16135,6 +16134,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -16152,9 +16152,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16168,7 +16168,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -16177,6 +16176,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 1426,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -16194,9 +16194,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16210,7 +16210,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -16223,6 +16222,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -16240,9 +16240,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16260,7 +16260,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 60,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -16336,6 +16335,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -16349,9 +16349,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 9100,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16365,7 +16365,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 255060,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -16378,6 +16377,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -16395,9 +16395,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16411,7 +16411,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 365040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -16493,6 +16492,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -16510,9 +16510,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16526,7 +16526,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 23870,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -16547,6 +16546,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -16564,9 +16564,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16580,7 +16580,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 238680,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -16601,6 +16600,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -16618,9 +16618,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16634,7 +16634,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 238680,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -16655,6 +16654,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -16672,9 +16672,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16688,7 +16688,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 238680,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -16701,6 +16700,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -16718,9 +16718,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16734,7 +16734,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 238680,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -16761,6 +16760,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -16778,9 +16778,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16798,7 +16798,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 60,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -16839,6 +16838,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16852,7 +16852,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -16865,6 +16864,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -16882,9 +16882,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16898,7 +16898,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 121680,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -16911,6 +16910,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -16928,9 +16928,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16944,7 +16944,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 491400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -16957,6 +16956,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -16970,9 +16970,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 2300,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -16986,7 +16986,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 63765,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -16995,6 +16994,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 1319,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -17012,9 +17012,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17028,7 +17028,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 238680,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17050,6 +17049,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17063,7 +17063,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 772200,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17076,6 +17075,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -17093,9 +17093,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17109,7 +17109,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17122,6 +17121,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -17139,9 +17139,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17155,7 +17155,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17168,6 +17167,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -17185,9 +17185,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17201,7 +17201,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17223,6 +17222,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17236,7 +17236,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17258,6 +17257,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17271,7 +17271,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17301,6 +17300,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17314,7 +17314,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17336,6 +17335,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17349,7 +17349,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17379,6 +17378,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17392,7 +17392,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17422,6 +17421,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17435,7 +17435,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -17453,6 +17452,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -17470,9 +17470,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17486,7 +17486,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24335,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17507,6 +17506,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -17524,9 +17524,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17540,7 +17540,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17561,6 +17560,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -17578,9 +17578,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17598,7 +17598,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 55,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17619,6 +17618,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -17636,9 +17636,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17652,7 +17652,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24335,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17670,6 +17669,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17683,7 +17683,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17713,6 +17712,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17726,7 +17726,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17747,6 +17746,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -17764,9 +17764,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17780,7 +17780,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17801,6 +17800,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -17818,9 +17818,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17834,7 +17834,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17843,15 +17842,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 837,
         source = {
             type = "npc",
-            id = 171028,
-            locations = {
-                [1543] = {
-                    {
-                        x = 0.468594,
-                        y = 0.41701,
-                    },
-                },
-            },
+            id = 174834,
         },
         rewards = {
             {
@@ -17864,6 +17855,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17877,7 +17869,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17890,6 +17881,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -17907,9 +17899,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17923,7 +17915,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 121680,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17944,6 +17935,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -17961,9 +17953,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -17977,7 +17969,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 23870,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -17998,6 +17989,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -18015,9 +18007,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18031,7 +18023,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 119340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -18044,6 +18035,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -18061,9 +18053,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18077,7 +18069,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 23870,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -18090,6 +18081,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -18107,9 +18099,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18123,7 +18115,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 119340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -18136,6 +18127,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -18153,9 +18145,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18169,7 +18161,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 119340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -18182,6 +18173,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -18199,9 +18191,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18215,7 +18207,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 245700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -18228,6 +18219,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -18245,9 +18237,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18261,7 +18253,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 368550,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -18279,6 +18270,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -18296,9 +18288,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18312,7 +18304,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24570,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -18344,6 +18335,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -18357,9 +18349,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 9100,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18373,7 +18365,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 255060,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -18394,6 +18385,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -18411,9 +18403,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18427,7 +18419,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -18436,6 +18427,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 746,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -18453,9 +18445,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18473,7 +18465,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 60,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -18494,6 +18485,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -18511,9 +18503,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18527,7 +18519,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -18548,6 +18539,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -18565,9 +18557,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18581,7 +18573,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 121680,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -18594,6 +18585,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -18611,9 +18603,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18627,7 +18619,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 126360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -18655,15 +18646,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 837,
         source = {
             type = "npc",
-            id = 171028,
-            locations = {
-                [1543] = {
-                    {
-                        x = 0.468594,
-                        y = 0.41701,
-                    },
-                },
-            },
+            id = 174834,
         },
         rewards = {
             {
@@ -18676,6 +18659,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18689,7 +18673,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 772200,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -18716,6 +18699,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18729,7 +18713,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -18742,6 +18725,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -18755,9 +18739,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 11350,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18771,7 +18755,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 510120,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -18793,6 +18776,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18806,7 +18790,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -18866,6 +18849,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18879,7 +18863,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -18934,6 +18917,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18947,7 +18931,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -18977,6 +18960,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -18990,7 +18974,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -19012,6 +18995,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19025,7 +19009,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -19047,6 +19030,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19060,7 +19044,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -19090,6 +19073,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19103,7 +19087,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -19116,6 +19099,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -19129,9 +19113,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 1150,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19145,7 +19129,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25505,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -19231,6 +19214,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -19248,9 +19232,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19264,7 +19248,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 119340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -19277,6 +19260,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -19290,9 +19274,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 13650,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19306,7 +19290,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 382590,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -19324,6 +19307,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -19341,9 +19325,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19357,7 +19341,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 365040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -19375,6 +19358,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -19392,9 +19376,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19408,7 +19392,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 23870,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -19430,6 +19413,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19443,7 +19427,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -19465,6 +19448,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19478,7 +19462,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -19508,6 +19491,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19521,7 +19505,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -19556,6 +19539,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19569,7 +19553,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -19602,6 +19585,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19615,7 +19599,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -19637,6 +19620,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19650,7 +19634,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -19668,6 +19651,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -19685,9 +19669,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19701,7 +19685,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 121680,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -19714,6 +19697,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -19731,9 +19715,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19747,7 +19731,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -19765,6 +19748,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -19782,9 +19766,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19798,7 +19782,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -19816,6 +19799,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -19833,9 +19817,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19849,7 +19833,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -19876,6 +19859,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19889,7 +19873,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -19925,6 +19908,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19938,7 +19922,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -19960,6 +19943,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -19973,7 +19957,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -19995,6 +19978,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20008,7 +19992,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -20038,6 +20021,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20051,7 +20035,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -20064,6 +20047,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -20081,9 +20065,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20097,7 +20081,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24805,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -20127,6 +20110,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20140,7 +20124,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -20197,6 +20180,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -20214,9 +20198,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20230,7 +20214,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 23870,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -20282,6 +20265,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20295,7 +20279,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -20325,6 +20308,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20338,7 +20322,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -20368,6 +20351,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20381,7 +20365,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -20499,6 +20482,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20512,7 +20496,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -20525,6 +20508,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -20542,9 +20526,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20558,7 +20542,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25270,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -20585,6 +20568,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -20602,9 +20586,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20618,7 +20602,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 189540,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -20631,6 +20614,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -20648,9 +20632,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20664,7 +20648,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 379080,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -20682,6 +20665,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -20699,9 +20683,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20715,7 +20699,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 379080,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -20733,6 +20716,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -20750,9 +20734,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20766,7 +20750,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 189540,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -20779,6 +20762,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -20796,9 +20780,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20812,7 +20796,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 189540,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -20878,6 +20861,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20891,7 +20875,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -20921,6 +20904,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20934,7 +20918,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -20955,6 +20938,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -20972,9 +20956,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -20988,7 +20972,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 379080,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -21023,6 +21006,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -21036,7 +21020,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -21057,6 +21040,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -21074,9 +21058,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -21090,7 +21074,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 758160,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -21143,6 +21126,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -21156,7 +21140,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -21178,6 +21161,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -21191,7 +21175,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -21213,6 +21196,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -21226,7 +21210,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -21248,6 +21231,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -21261,7 +21245,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -21283,6 +21266,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -21296,7 +21280,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -21318,6 +21301,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -21331,7 +21315,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -21344,6 +21327,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -21361,9 +21345,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -21377,7 +21361,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 365040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -21819,6 +21802,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -21836,9 +21820,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -21852,7 +21836,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 118170,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -21865,6 +21848,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -21882,9 +21866,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -21898,7 +21882,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 118170,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -21933,6 +21916,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -21950,9 +21934,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -21966,7 +21950,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 730080,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -21984,6 +21967,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -22001,9 +21985,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22017,7 +22001,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 365040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -22043,6 +22026,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -22060,9 +22044,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22076,7 +22060,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 372060,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -22094,6 +22077,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -22111,9 +22095,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22127,7 +22111,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24805,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -22149,6 +22132,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22162,7 +22146,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -22184,6 +22167,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22197,7 +22181,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -22219,6 +22202,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22232,7 +22216,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -22262,6 +22245,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22275,7 +22259,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -22305,6 +22288,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22318,7 +22302,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -22348,6 +22331,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22361,7 +22345,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -22391,6 +22374,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22404,7 +22388,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -22426,6 +22409,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22439,7 +22423,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -22461,6 +22444,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22474,7 +22458,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -22504,6 +22487,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22517,7 +22501,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -22544,6 +22527,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22557,7 +22541,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -22579,6 +22562,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22592,7 +22576,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -22616,6 +22599,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -22633,9 +22617,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22649,7 +22633,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 365040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -22667,6 +22650,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -22684,9 +22668,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22700,7 +22684,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 379080,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -22727,6 +22710,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22740,7 +22724,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -22803,6 +22786,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22816,7 +22800,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 772200,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -22843,6 +22826,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22856,7 +22840,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -22882,6 +22865,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -22899,9 +22883,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -22915,7 +22899,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 379080,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -22999,6 +22982,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -23016,9 +23000,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23032,7 +23016,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24570,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -23045,6 +23028,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -23062,9 +23046,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23078,7 +23062,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24335,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -23100,6 +23083,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23113,7 +23097,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 772200,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -23131,6 +23114,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -23148,9 +23132,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23164,7 +23148,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 245700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -23208,6 +23191,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23221,7 +23205,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -23303,6 +23286,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23316,7 +23300,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -23329,6 +23312,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -23346,9 +23330,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23362,7 +23346,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 365040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -23415,6 +23398,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -23432,9 +23416,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23448,7 +23432,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 236340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -23470,6 +23453,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23483,7 +23467,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -23505,6 +23488,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23518,7 +23502,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -23531,6 +23514,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -23548,9 +23532,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23564,7 +23548,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 245700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -23573,6 +23556,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 1337,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -23590,9 +23574,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23606,7 +23590,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 245700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -23619,6 +23602,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -23636,9 +23620,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23652,7 +23636,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24570,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -23673,6 +23656,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -23690,9 +23674,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23706,7 +23690,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 245700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -23719,6 +23702,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -23736,9 +23720,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23752,7 +23736,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 245700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -23765,6 +23748,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -23782,9 +23766,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23798,7 +23782,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24570,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -23811,6 +23794,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -23828,9 +23812,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23844,7 +23828,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 365040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -23884,6 +23867,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -23901,9 +23885,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23917,7 +23901,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24100,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -23930,6 +23913,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -23947,9 +23931,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -23963,7 +23947,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 241020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -23984,6 +23967,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -24001,9 +23985,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24017,7 +24001,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 241020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24030,6 +24013,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -24047,9 +24031,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24063,7 +24047,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 241020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24084,6 +24067,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -24101,9 +24085,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24117,7 +24101,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 241020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24138,6 +24121,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -24155,9 +24139,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24171,7 +24155,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 119340,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24192,6 +24175,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -24209,9 +24193,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24225,7 +24209,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 241020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24246,6 +24229,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -24263,9 +24247,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24279,7 +24263,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 241020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24301,6 +24284,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24314,7 +24298,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24336,6 +24319,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24349,7 +24333,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24371,6 +24354,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24384,7 +24368,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24406,6 +24389,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24419,7 +24403,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24441,6 +24424,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24454,7 +24438,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24476,6 +24459,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24489,7 +24473,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24511,6 +24494,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24524,7 +24508,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24554,6 +24537,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24567,7 +24551,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24580,6 +24563,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -24597,9 +24581,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24613,7 +24597,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 241020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24634,6 +24617,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -24651,9 +24635,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24667,7 +24651,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 241020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24680,6 +24663,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -24697,9 +24681,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24713,7 +24697,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 482040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24726,6 +24709,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -24743,9 +24727,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24759,7 +24743,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 482040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24772,6 +24755,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -24789,9 +24773,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24805,7 +24789,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24100,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -24818,6 +24801,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -24835,9 +24819,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24851,7 +24835,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 945360,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -24869,6 +24852,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -24886,9 +24870,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -24906,7 +24890,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 60,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -25012,6 +24995,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -25025,7 +25009,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 772200,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -25047,6 +25030,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -25060,7 +25044,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -25106,6 +25089,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -25119,7 +25103,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -25146,6 +25129,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -25159,7 +25143,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -25189,6 +25172,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -25202,7 +25186,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -25224,6 +25207,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -25237,7 +25221,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -25250,6 +25233,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -25267,9 +25251,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -25283,7 +25267,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25270,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -25296,6 +25279,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -25313,9 +25297,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -25329,7 +25313,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25270,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -25397,6 +25380,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -25410,7 +25394,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 1029600,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -25451,6 +25434,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -25464,7 +25448,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 1029600,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -25482,6 +25465,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -25499,9 +25483,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -25519,7 +25503,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 60,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -25775,6 +25758,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -25788,7 +25772,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 772200,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -25801,6 +25784,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -25818,9 +25802,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -25838,7 +25822,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 60,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -25847,6 +25830,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 746,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -25864,9 +25848,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -25884,7 +25868,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 60,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -25893,6 +25876,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 746,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -25910,9 +25894,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -25930,7 +25914,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 60,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -25939,6 +25922,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 746,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -25956,9 +25940,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -25976,7 +25960,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 60,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -25989,6 +25972,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -26006,9 +25990,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -26022,7 +26006,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -26040,6 +26023,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -26057,9 +26041,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -26073,7 +26057,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -26091,6 +26074,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -26108,9 +26092,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -26124,7 +26108,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 126360,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -26142,6 +26125,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -26159,9 +26143,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -26175,7 +26159,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 241020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -26196,6 +26179,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -26213,9 +26197,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -26229,7 +26213,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 477360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -26250,6 +26233,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -26267,9 +26251,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -26283,7 +26267,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 241020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -26319,6 +26302,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -26332,7 +26316,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -26510,6 +26493,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -26523,7 +26507,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -26544,6 +26527,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -26561,9 +26545,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -26581,7 +26565,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 53,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -26602,6 +26585,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -26619,9 +26603,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -26639,7 +26623,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 53,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -26660,6 +26643,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -26677,9 +26661,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -26697,7 +26681,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 53,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -26718,6 +26701,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -26735,9 +26719,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -26755,7 +26739,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 53,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -26776,6 +26759,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -26793,9 +26777,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -26813,7 +26797,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 53,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -26834,6 +26817,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -26851,9 +26835,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -26871,7 +26855,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 53,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -26892,6 +26875,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -26909,9 +26893,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -26929,7 +26913,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 53,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -26950,6 +26933,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -26967,9 +26951,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -26987,7 +26971,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 53,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -27008,6 +26991,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -27025,9 +27009,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -27045,7 +27029,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 53,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -27066,6 +27049,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -27083,9 +27067,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -27103,7 +27087,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 53,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -27124,6 +27107,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -27141,9 +27125,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -27161,7 +27145,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 53,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -27170,6 +27153,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 743,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -27187,9 +27171,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -27207,7 +27191,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 53,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -27300,6 +27283,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -27313,7 +27297,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 13650,
                     },
                 },
-                type = "experience",
             },
             {
                 type = "reputation",
@@ -27331,6 +27314,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -27348,7 +27332,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
                 type = "reputation",
@@ -27359,7 +27342,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60278] = {
         name = "WANTED: Duke Anton",
-        contentTuningID = 837,
+        contentTuningID = 2060,
         source = {
             type = "object",
             id = 351886,
@@ -27389,21 +27372,12 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60280] = {
         name = "WANTED: Lord Darion",
-        contentTuningID = 837,
+        contentTuningID = 2060,
         source = {
             type = "object",
             id = 351887,
         },
         rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    11600, 11800, 12050, 12250, 12500, 12700, 12950, 13200, 13400, 13650, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-                restrictions = 86994,
-            },
             {
                 type = "reputation",
                 id = 2413,
@@ -27429,6 +27403,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -27442,7 +27417,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -27471,6 +27445,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -27484,7 +27459,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -27513,6 +27487,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -27526,7 +27501,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -27605,6 +27579,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 743,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -27622,9 +27597,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -27642,7 +27617,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 53,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -27663,6 +27637,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -27680,9 +27655,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -27696,7 +27671,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 23870,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -27709,6 +27683,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -27722,9 +27697,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 1150,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -27738,7 +27713,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25505,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -27751,6 +27725,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -27768,9 +27743,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -27784,7 +27759,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 716040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -27802,6 +27776,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -27819,9 +27794,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -27835,7 +27810,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 709020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -27853,6 +27827,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -27870,9 +27845,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -27886,7 +27861,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24570,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -27907,6 +27881,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -27924,9 +27899,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -27940,7 +27915,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 491400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -27953,6 +27927,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -27970,9 +27945,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -27986,7 +27961,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 716040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -28012,6 +27986,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -28029,9 +28004,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -28045,7 +28020,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 486720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -28066,6 +28040,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -28083,9 +28058,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -28099,7 +28074,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24335,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -28120,6 +28094,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -28137,9 +28112,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -28153,7 +28128,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24335,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -28174,6 +28148,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -28191,9 +28166,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -28207,7 +28182,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24335,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -28220,6 +28194,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -28237,9 +28212,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -28253,7 +28228,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 709020,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -28271,6 +28245,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -28284,9 +28259,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 13650,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -28300,7 +28275,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 382590,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -28318,6 +28292,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -28331,9 +28306,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 13650,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -28347,7 +28322,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 382590,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -28365,6 +28339,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -28378,9 +28353,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 13650,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -28394,7 +28369,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 382590,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -28412,6 +28386,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -28425,9 +28400,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 13650,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -28441,7 +28416,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 382590,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -28479,6 +28453,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -28496,9 +28471,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -28512,7 +28487,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 379080,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -28530,6 +28504,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -28547,9 +28522,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -28563,7 +28538,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -28731,6 +28705,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -28744,9 +28719,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 4550,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -28760,7 +28735,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 127530,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -28769,18 +28743,12 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 837,
         source = {
             type = "npc",
-            id = 164277,
+            id = 174833,
             locations = {
                 [1543] = {
                     {
                         x = 0.443736,
                         y = 0.411719,
-                    },
-                },
-                [1670] = {
-                    {
-                        x = 0.390502,
-                        y = 0.669623,
                     },
                 },
             },
@@ -28796,6 +28764,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -28809,7 +28778,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -28822,6 +28790,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -28839,9 +28808,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -28855,7 +28824,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25270,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -28877,6 +28845,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -28890,7 +28859,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -28903,6 +28871,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -28920,9 +28889,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -28940,7 +28909,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 60,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -28954,6 +28922,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 746,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -28971,9 +28940,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -28991,7 +28960,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 60,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29012,6 +28980,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29029,9 +28998,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29045,7 +29014,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 496080,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29066,6 +29034,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29083,9 +29052,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29099,7 +29068,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 248040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29112,6 +29080,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29129,9 +29098,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29145,7 +29114,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24805,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29158,6 +29126,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29175,9 +29144,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29191,7 +29160,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 124020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29221,6 +29189,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29234,7 +29203,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29284,6 +29252,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29301,9 +29270,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29317,7 +29286,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 243360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29330,6 +29298,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29347,9 +29316,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29363,7 +29332,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 248040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29376,6 +29344,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29389,9 +29358,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 1150,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29405,7 +29374,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25505,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29418,6 +29386,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29435,9 +29404,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29451,7 +29420,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 248040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29464,6 +29432,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29481,9 +29450,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29497,7 +29466,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25270,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29529,6 +29497,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29546,9 +29515,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29562,7 +29531,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 248040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29583,6 +29551,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29600,9 +29569,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29616,7 +29585,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 248040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29637,6 +29605,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29654,9 +29623,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29670,7 +29639,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 252720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29694,6 +29662,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29711,9 +29680,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29727,7 +29696,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 124020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29760,6 +29728,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29777,9 +29746,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29793,7 +29762,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 124020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29817,6 +29785,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29834,9 +29803,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29850,7 +29819,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25270,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29871,6 +29839,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29888,9 +29857,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29904,7 +29873,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 124020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29925,6 +29893,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29942,9 +29911,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -29958,7 +29927,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 248040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -29979,6 +29947,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -29996,9 +29965,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30012,7 +29981,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 248040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30033,6 +30001,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -30050,9 +30019,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30066,7 +30035,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 248040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30087,6 +30055,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -30104,9 +30073,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30120,7 +30089,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 248040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30133,6 +30101,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -30150,9 +30119,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30166,7 +30135,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 496080,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30179,6 +30147,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -30196,9 +30165,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30212,7 +30181,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 248040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30225,6 +30193,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -30242,9 +30211,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30258,7 +30227,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 248040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30271,6 +30239,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -30288,9 +30257,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30304,7 +30273,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 124020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30397,6 +30365,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -30414,9 +30383,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30430,7 +30399,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 248040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30443,6 +30411,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -30460,9 +30429,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30476,7 +30445,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 248040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30519,6 +30487,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -30536,9 +30505,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30552,7 +30521,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 126360,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30565,6 +30533,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -30582,9 +30551,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30598,7 +30567,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 124020,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30625,6 +30593,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -30642,9 +30611,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30658,7 +30627,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 248040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30694,6 +30662,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30707,7 +30676,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30729,6 +30697,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30742,7 +30711,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30755,6 +30723,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -30772,9 +30741,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30788,7 +30757,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24805,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30801,6 +30769,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -30818,9 +30787,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30834,7 +30803,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 121680,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30847,6 +30815,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -30864,9 +30833,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30880,7 +30849,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 118170,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30901,6 +30869,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -30918,9 +30887,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30934,7 +30903,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 491400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -30955,6 +30923,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -30972,9 +30941,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -30988,7 +30957,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 125190,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31012,6 +30980,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -31029,9 +30998,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31045,7 +31014,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 122850,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31058,6 +31026,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -31075,9 +31044,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31091,7 +31060,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 250380,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31104,6 +31072,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -31121,9 +31090,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31137,7 +31106,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 491400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31158,6 +31126,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -31175,9 +31144,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31191,7 +31160,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 486720,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31212,6 +31180,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -31229,9 +31198,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31245,7 +31214,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 250380,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31254,6 +31222,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 1931,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -31271,9 +31240,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31287,7 +31256,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 500760,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31320,6 +31288,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -31337,9 +31306,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31353,7 +31322,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 250380,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31366,6 +31334,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -31383,9 +31352,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31399,7 +31368,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24570,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31420,6 +31388,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -31437,9 +31406,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31453,7 +31422,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 245700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31466,6 +31434,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -31483,9 +31452,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31499,7 +31468,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 125190,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31520,6 +31488,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -31537,9 +31506,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31553,7 +31522,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 121680,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31575,6 +31543,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31588,7 +31557,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31612,6 +31580,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -31629,9 +31598,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31645,7 +31614,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 365040,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -31671,6 +31639,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -31688,9 +31657,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31704,7 +31673,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25040,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31731,6 +31699,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -31748,9 +31717,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31764,7 +31733,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 125190,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31808,6 +31776,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31821,7 +31790,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31843,6 +31811,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31856,7 +31825,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31878,6 +31846,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31891,7 +31860,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -31934,6 +31902,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 1337,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -31951,9 +31920,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -31967,7 +31936,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 245700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32058,6 +32026,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -32075,9 +32044,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32091,7 +32060,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24805,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32113,6 +32081,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32126,7 +32095,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32148,6 +32116,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32161,7 +32130,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32196,6 +32164,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -32213,9 +32182,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32229,7 +32198,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 24100,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32251,6 +32219,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32264,7 +32233,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 1029600,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32286,6 +32254,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32299,7 +32268,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32320,6 +32288,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -32337,9 +32306,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32353,7 +32322,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 120510,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32383,6 +32351,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32396,7 +32365,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32440,6 +32408,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32453,7 +32422,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32475,6 +32443,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32488,7 +32457,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32518,6 +32486,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32531,7 +32500,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -32563,6 +32531,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -32580,9 +32549,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32596,7 +32565,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 122850,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32618,6 +32586,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32631,7 +32600,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32653,6 +32621,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32666,7 +32635,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32696,6 +32664,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32709,7 +32678,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32731,6 +32699,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32744,7 +32713,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32766,6 +32734,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32779,7 +32748,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32829,6 +32797,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32842,7 +32811,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32864,6 +32832,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32877,7 +32846,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32931,6 +32899,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32944,7 +32913,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -32974,6 +32942,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -32987,7 +32956,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33009,6 +32977,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33022,7 +32991,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33044,6 +33012,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33057,7 +33026,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33113,6 +33081,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33126,7 +33095,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33141,11 +33109,6 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 257400,
-            },
-            {
-                type = "currency",
-                id = 1819,
-                amount = 5,
             },
         },
     },
@@ -33181,6 +33144,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33194,7 +33158,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33224,6 +33187,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33237,7 +33201,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33273,6 +33236,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33286,7 +33250,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33316,6 +33279,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33329,7 +33293,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33359,6 +33322,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33372,7 +33336,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33402,6 +33365,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33415,7 +33379,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33445,6 +33408,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33458,7 +33422,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33480,6 +33443,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33493,7 +33457,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33515,6 +33478,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33528,7 +33492,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33550,6 +33513,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33563,7 +33527,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33585,6 +33548,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33598,7 +33562,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33620,6 +33583,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33633,7 +33597,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33663,6 +33626,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33676,7 +33640,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33739,6 +33702,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33752,7 +33716,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33774,6 +33737,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33787,7 +33751,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33817,6 +33780,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33830,7 +33794,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33902,6 +33865,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33915,7 +33879,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33937,6 +33900,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33950,7 +33914,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -33972,6 +33935,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -33985,7 +33949,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34075,6 +34038,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34088,7 +34052,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -34115,6 +34078,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34128,7 +34092,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34150,6 +34113,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34163,7 +34127,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34185,6 +34148,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34198,7 +34162,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34220,6 +34183,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34233,7 +34197,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34263,6 +34226,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34276,7 +34240,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34298,6 +34261,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34311,7 +34275,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34341,6 +34304,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34354,7 +34318,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34376,6 +34339,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34389,7 +34353,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34411,6 +34374,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34424,7 +34388,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34446,6 +34409,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34459,7 +34423,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34489,6 +34452,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34502,7 +34466,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34524,6 +34487,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34537,7 +34501,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34559,6 +34522,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34572,7 +34536,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34594,6 +34557,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34607,7 +34571,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34637,6 +34600,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34650,7 +34614,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34680,6 +34643,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34693,7 +34657,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34723,6 +34686,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34736,7 +34700,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34766,6 +34729,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34779,7 +34743,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34809,6 +34772,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34822,7 +34786,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34840,6 +34803,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34853,7 +34817,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34871,6 +34834,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34884,7 +34848,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34914,6 +34877,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34927,7 +34891,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -34949,6 +34912,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -34962,7 +34926,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 772200,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -35307,6 +35270,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -35320,7 +35284,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -35600,6 +35563,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 744,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -35617,9 +35581,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -35637,7 +35601,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -35651,6 +35614,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 746,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -35668,12 +35632,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
-            },
-            {
-                type = "currency",
-                id = 1820,
-                amount = 35,
             },
             {
                 type = "reputation",
@@ -35697,6 +35655,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 744,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -35714,9 +35673,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -35734,7 +35693,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -35748,6 +35706,7 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 744,
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -35765,9 +35724,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -35785,7 +35744,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 58,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -35912,6 +35870,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -35925,7 +35884,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -35947,6 +35905,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -35960,7 +35919,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 772200,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -35990,6 +35948,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -36003,7 +35962,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -36025,6 +35983,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -36038,7 +35997,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -36051,6 +36009,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -36068,9 +36027,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -36084,7 +36043,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 992160,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -36130,6 +36088,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -36143,7 +36102,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -36197,6 +36155,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -36210,7 +36169,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -36279,6 +36237,52 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [62605] = {
+        name = "Broker Business",
+        contentTuningID = 1331,
+        source = {
+            type = "object",
+            id = 358533,
+        },
+        rewards = {
+            {
+                type = "experience",
+                variations = {
+                    {
+                        amounts = {
+                            975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
+                        },
+                        minLevel = 50,
+                        maxLevel = 59,
+                        restrictions = 86994,
+                    },
+                    {
+                        amounts = {
+                            1050, 1050, 1100, 625, 420, 210, 
+                        },
+                        minLevel = 54,
+                        maxLevel = 59,
+                    },
+                },
+            },
+            {
+                type = "money",
+                variations = {
+                    {
+                        amounts = {
+                            23400, 23635, 23870, 24100, 24335, 24570, 24805, 25040, 25270, 25505, 25740, 
+                        },
+                        minLevel = 50,
+                        maxLevel = 60,
+                        restrictions = 86994,
+                    },
+                    {
+                        amount = 24335,
+                    },
+                },
+            },
+        },
+    },
     [62654] = {
         name = "Maw Walker",
         contentTuningID = 1337,
@@ -36288,6 +36292,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -36305,9 +36310,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 59,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -36321,7 +36326,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 245700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -36435,6 +36439,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -36448,7 +36453,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -36470,6 +36474,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -36483,7 +36488,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -36544,6 +36548,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -36561,9 +36566,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -36577,7 +36582,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 23635,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -36595,6 +36599,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                type = "experience",
                 variations = {
                     {
                         amounts = {
@@ -36612,9 +36617,9 @@ BtWQuestsDatabase:AddQuestsTable({
                         maxLevel = 57,
                     },
                 },
-                type = "experience",
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -36628,7 +36633,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 265883,
                     },
                 },
-                type = "money",
             },
             {
                 type = "reputation",
@@ -36669,6 +36673,52 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 164937,
+        },
+    },
+    [62785] = {
+        name = "I Could Be A Contender",
+        contentTuningID = 1335,
+        source = {
+            type = "npc",
+            id = 161733,
+        },
+        rewards = {
+            {
+                type = "experience",
+                variations = {
+                    {
+                        amounts = {
+                            975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
+                        },
+                        minLevel = 50,
+                        maxLevel = 59,
+                        restrictions = 86994,
+                    },
+                    {
+                        amounts = {
+                            1050, 1050, 1100, 625, 420, 210, 
+                        },
+                        minLevel = 54,
+                        maxLevel = 59,
+                    },
+                },
+            },
+            {
+                type = "money",
+                variations = {
+                    {
+                        amounts = {
+                            23400, 23635, 23870, 24100, 24335, 24570, 24805, 25040, 25270, 25505, 25740, 
+                        },
+                        minLevel = 50,
+                        maxLevel = 60,
+                        restrictions = 86994,
+                    },
+                    {
+                        amount = 24335,
+                    },
+                },
+            },
         },
     },
     [62789] = {
@@ -36883,6 +36933,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -36896,7 +36947,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 1029600,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -36923,6 +36973,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -36936,7 +36987,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -37137,6 +37187,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -37150,7 +37201,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -37211,6 +37261,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -37224,7 +37275,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -37436,6 +37486,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -37449,7 +37500,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -37479,6 +37529,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -37492,7 +37543,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -37522,6 +37572,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -37535,7 +37586,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -37557,6 +37607,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -37570,7 +37621,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -37592,6 +37642,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -37605,7 +37656,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -37635,6 +37685,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -37648,7 +37699,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -37675,6 +37725,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -37688,7 +37739,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -37710,6 +37760,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -37723,7 +37774,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -37745,6 +37795,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -37758,7 +37809,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -37780,6 +37830,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -37793,7 +37844,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 772200,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -37820,6 +37870,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -37833,7 +37884,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 1029600,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -37860,6 +37910,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -37873,7 +37924,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 1029600,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -37900,6 +37950,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -37913,7 +37964,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 1029600,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -37940,6 +37990,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -37953,7 +38004,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 1029600,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -37980,6 +38030,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -37993,7 +38044,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 1029600,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -38034,6 +38084,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -38047,7 +38098,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -38077,6 +38127,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -38090,7 +38141,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 257400,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -38112,6 +38162,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -38125,7 +38176,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -38143,6 +38193,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -38156,7 +38207,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 514800,
                     },
                 },
-                type = "money",
             },
             {
                 type = "currency",
@@ -38235,6 +38285,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -38248,7 +38299,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 128700,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -38422,6 +38472,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -38435,7 +38486,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },
@@ -38457,6 +38507,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 restrictions = 86994,
             },
             {
+                type = "money",
                 variations = {
                     {
                         amounts = {
@@ -38470,7 +38521,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         amount = 25740,
                     },
                 },
-                type = "money",
             },
         },
     },

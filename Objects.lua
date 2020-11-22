@@ -320,4 +320,15 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [358533] = {
+        name = "Forgotten Supplies",
+        locations = {
+            [1536] = {
+                {
+                    x = 0.382077,
+                    y = 0.313006,
+                },
+            },
+        },
+    },
 })
