@@ -1804,9 +1804,9 @@ Database:AddChain(Chain.Chain04, {
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     prerequisites = {
-        LEVEL_PREREQUISITE,
         {
-            name = "Unknown"
+            type = "level",
+            level = 60,
         },
     },
     active = {
@@ -2476,11 +2476,6 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.AwakenTheDreamer,
         },
-
-        {
-            type = "chain",
-            id = Chain.Chain04,
-        },
         {
             type = "chain",
             id = Chain.Chain01,
@@ -2500,6 +2495,10 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.Chain06,
+        },
+        {
+            type = "chain",
+            id = Chain.Chain04,
         },
     },
 })

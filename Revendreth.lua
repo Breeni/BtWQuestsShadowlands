@@ -2257,7 +2257,7 @@ Database:AddChain(Chain.Chain09, {
             type = "level",
             variations = {
                 { level = 50, restrictions = 86994, },
-                { level = 57, },
+                { level = 60, },
             },
         },
         {
