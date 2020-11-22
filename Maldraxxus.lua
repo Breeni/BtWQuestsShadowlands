@@ -1520,8 +1520,21 @@ Database:AddChain(Chain.Chain03, {
     },
     items = {
         {
-            type = "npc",
-            id = 166657,
+            variations = {
+                {
+                    type = "quest",
+                    id = 62605,
+                    restrictions = {
+                        type = "quest",
+                        id = 62605,
+                        status = {'active', 'completed'}
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 166657,
+                }
+            },
             x = 0,
             connections = {
                 1, 
@@ -1713,8 +1726,21 @@ Database:AddChain(Chain.EmbedChain03, {
     },
     items = {
         {
-            type = "npc",
-            id = 161559,
+            variations = {
+                {
+                    type = "quest",
+                    id = 62785,
+                    restrictions = {
+                        type = "quest",
+                        id = 62785,
+                        status = {'active', 'completed'}
+                    },
+                },
+                {
+                    type = "npc",
+                    id = 161559,
+                }
+            },
             x = 0,
             connections = {
                 1, 2, 
