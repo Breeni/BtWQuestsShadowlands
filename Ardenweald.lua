@@ -4,6 +4,7 @@
 
 local BtWQuests = BtWQuests
 local Database = BtWQuests.Database
+local L = BtWQuests.L
 local EXPANSION_ID = BtWQuests.Constant.Expansions.Shadowlands
 local CATEGORY_ID = BtWQuests.Constant.Category.Shadowlands.Ardenweald
 local Chain = BtWQuests.Constant.Chain.Shadowlands.Ardenweald
@@ -144,7 +145,7 @@ Database:AddChain(Chain.WelcomeToArdenweald, {
     },
 })
 Database:AddChain(Chain.TranquilPools, { -- [Aiding Tirna Vaal]
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
+    name = L["AIDING_TIRNA_VAAL_TRANQUIL_POOLS"],
     questline = 1008,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -259,7 +260,7 @@ Database:AddChain(Chain.TranquilPools, { -- [Aiding Tirna Vaal]
     },
 })
 Database:AddChain(Chain.SpiritGlen, { -- [Aiding Tirna Vaal]
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 2),
+    name = L["AIDING_TIRNA_VAAL_SPIRIT_GLEN"],
     questline = {1008,1011},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
