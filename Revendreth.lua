@@ -2657,10 +2657,6 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.Chain07,
         },
-        {
-            type = "chain",
-            id = Chain.Chain09,
-        },
     },
 })
 
