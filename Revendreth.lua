@@ -2436,6 +2436,7 @@ Database:AddChain(Chain.EmbedChain07, {
         {
             type = "item",
             id = 182738,
+            breadcrumb = true,
             locations = {
                 [1525] = {
                     {
