@@ -1118,15 +1118,22 @@ Database:AddChain(Chain.NewRules, {
             id = 60284,
             x = 0,
             connections = {
-                1, 
+                1, 2
             },
         },
         {
             type = "quest",
             id = 60285,
-            x = 0,
+            x = -1,
             connections = {
-                1, 
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 63022,
+            connections = {
+                1,
             },
         },
         {
@@ -1134,15 +1141,7 @@ Database:AddChain(Chain.NewRules, {
             id = 62461,
             x = 0,
             connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 63022,
-            x = 0,
-            connections = {
-                1, 
+                1,
             },
         },
         {
