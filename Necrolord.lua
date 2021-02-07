@@ -2046,7 +2046,7 @@ Database:AddChain(Chain.Chain03, {
         },
         {
             type = "covenant",
-            id = 2,
+            id = 4,
         },
         {
             type = "quest",
