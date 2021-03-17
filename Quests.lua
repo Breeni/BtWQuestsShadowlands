@@ -13546,6 +13546,40 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
         },
+        rewards = {
+            {
+                type = "experience",
+                variations = {
+                    {
+                        amounts = {
+                            9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
+                        },
+                        minLevel = 50,
+                        maxLevel = 59,
+                        restrictions = 86994,
+                    },
+                    {
+                        amount = 11200,
+                    },
+                },
+            },
+            {
+                type = "money",
+                variations = {
+                    {
+                        amounts = {
+                            468000, 472680, 477360, 482040, 486720, 491400, 496080, 500760, 505440, 510120, 514800, 
+                        },
+                        minLevel = 50,
+                        maxLevel = 60,
+                        restrictions = 86994,
+                    },
+                    {
+                        amount = 505440,
+                    },
+                },
+            },
+        },
     },
     [58599] = {
         name = "Drive A Dredge Between Them",
@@ -16923,7 +16957,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            10600, 10800, 11000, 6350, 4250, 
+                            10600, 10600, 8500, 6350, 4250, 
                         },
                         minLevel = 55,
                         maxLevel = 59,
@@ -18186,7 +18220,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            8500, 8650, 8800, 5100, 3400, 
+                            8500, 8500, 6800, 5100, 3400, 
                         },
                         minLevel = 55,
                         maxLevel = 59,
@@ -18232,7 +18266,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            12750, 12975, 13200, 7650, 5100, 
+                            12750, 12750, 10200, 7650, 5100, 
                         },
                         minLevel = 55,
                         maxLevel = 59,
@@ -18283,7 +18317,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            1050, 1100, 1100, 625, 420, 
+                            1050, 1050, 850, 625, 420, 
                         },
                         minLevel = 55,
                         maxLevel = 59,
@@ -22995,7 +23029,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            1050, 1100, 1100, 625, 420, 
+                            1050, 1050, 850, 625, 420, 
                         },
                         minLevel = 55,
                         maxLevel = 59,
@@ -23127,7 +23161,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            8500, 8650, 8800, 5100, 3400, 
+                            8500, 8500, 6800, 5100, 3400, 
                         },
                         minLevel = 55,
                         maxLevel = 59,
@@ -23527,7 +23561,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            8500, 8650, 8800, 5100, 3400, 
+                            8500, 8500, 6800, 5100, 3400, 
                         },
                         minLevel = 55,
                         maxLevel = 59,
@@ -23569,7 +23603,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            8500, 8650, 8800, 5100, 3400, 
+                            8500, 8500, 6800, 5100, 3400, 
                         },
                         minLevel = 55,
                         maxLevel = 59,
@@ -23615,7 +23649,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            1050, 1100, 1100, 625, 420, 
+                            1050, 1050, 850, 625, 420, 
                         },
                         minLevel = 55,
                         maxLevel = 59,
@@ -23669,7 +23703,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            8500, 8650, 8800, 5100, 3400, 
+                            8500, 8500, 6800, 5100, 3400, 
                         },
                         minLevel = 55,
                         maxLevel = 59,
@@ -23715,7 +23749,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            8500, 8650, 8800, 5100, 3400, 
+                            8500, 8500, 6800, 5100, 3400, 
                         },
                         minLevel = 55,
                         maxLevel = 59,
@@ -23761,7 +23795,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            1050, 1100, 1100, 625, 420, 
+                            1050, 1050, 850, 625, 420, 
                         },
                         minLevel = 55,
                         maxLevel = 59,
@@ -23880,7 +23914,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            1000, 1050, 1050, 600, 410, 200, 100, 
+                            1000, 1000, 825, 600, 410, 200, 100, 
                         },
                         minLevel = 53,
                         maxLevel = 59,
@@ -23926,7 +23960,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            8200, 8350, 8500, 4900, 3250, 1650, 825, 
+                            8200, 8200, 6550, 4900, 3250, 1650, 825, 
                         },
                         minLevel = 53,
                         maxLevel = 59,
@@ -23980,7 +24014,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            8200, 8350, 8500, 4900, 3250, 1650, 825, 
+                            8200, 8200, 6550, 4900, 3250, 1650, 825, 
                         },
                         minLevel = 53,
                         maxLevel = 59,
@@ -24026,7 +24060,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            8200, 8350, 8500, 4900, 3250, 1650, 825, 
+                            8200, 8200, 6550, 4900, 3250, 1650, 825, 
                         },
                         minLevel = 53,
                         maxLevel = 59,
@@ -24080,7 +24114,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            8200, 8350, 8500, 4900, 3250, 1650, 825, 
+                            8200, 8200, 6550, 4900, 3250, 1650, 825, 
                         },
                         minLevel = 53,
                         maxLevel = 59,
@@ -24576,7 +24610,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            8200, 8350, 8500, 4900, 3250, 1650, 825, 
+                            8200, 8200, 6550, 4900, 3250, 1650, 825, 
                         },
                         minLevel = 53,
                         maxLevel = 59,
@@ -24630,7 +24664,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            8200, 8350, 8500, 4900, 3250, 1650, 825, 
+                            8200, 8200, 6550, 4900, 3250, 1650, 825, 
                         },
                         minLevel = 53,
                         maxLevel = 59,
@@ -24676,7 +24710,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            10200, 10400, 10600, 6150, 4100, 2050, 1000, 
+                            10200, 10200, 8200, 6150, 4100, 2050, 1000, 
                         },
                         minLevel = 53,
                         maxLevel = 59,
@@ -24722,7 +24756,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            10200, 10400, 10600, 6150, 4100, 2050, 1000, 
+                            10200, 10200, 8200, 6150, 4100, 2050, 1000, 
                         },
                         minLevel = 53,
                         maxLevel = 59,
@@ -24768,7 +24802,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            1000, 1050, 1050, 600, 410, 200, 100, 
+                            1000, 1000, 825, 600, 410, 200, 100, 
                         },
                         minLevel = 53,
                         maxLevel = 59,
@@ -30882,7 +30916,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            10600, 10800, 11000, 6350, 4250, 
+                            10600, 10600, 8500, 6350, 4250, 
                         },
                         minLevel = 55,
                         maxLevel = 59,
@@ -31915,7 +31949,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            8500, 8650, 8800, 5100, 3400, 
+                            8500, 8500, 6800, 5100, 3400, 
                         },
                         minLevel = 55,
                         maxLevel = 59,
@@ -32177,7 +32211,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            1000, 1050, 1050, 600, 410, 200, 100, 
+                            1000, 1000, 825, 600, 410, 200, 100, 
                         },
                         minLevel = 53,
                         maxLevel = 59,
@@ -32301,7 +32335,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            4100, 4150, 4250, 2450, 1650, 825, 410, 
+                            4100, 4100, 3250, 2450, 1650, 825, 410, 
                         },
                         minLevel = 53,
                         maxLevel = 59,
@@ -32544,7 +32578,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            4250, 4300, 4400, 2550, 1700, 
+                            4250, 4250, 3400, 2550, 1700, 
                         },
                         minLevel = 55,
                         maxLevel = 59,
@@ -33110,6 +33144,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 257400,
+            },
+            {
+                type = "currency",
+                id = 1819,
+                amount = 5,
             },
         },
     },
@@ -35635,6 +35674,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 },
             },
             {
+                type = "currency",
+                id = 1820,
+                amount = 35,
+            },
+            {
                 type = "reputation",
                 id = 2413,
                 amount = 75,
@@ -36305,7 +36349,7 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            8500, 8650, 8800, 5100, 3400, 
+                            8500, 8500, 6800, 5100, 3400, 
                         },
                         minLevel = 55,
                         maxLevel = 59,

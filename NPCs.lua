@@ -1116,7 +1116,7 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [160091] = {
-        name = "Daru'ca",
+        name = "Ta'ruca",
         locations = {
             [1525] = {
                 {
@@ -1511,7 +1511,7 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [161261] = {
-        name = "Kael'thas Sunstrider",
+        name = "Overburdened Soul",
         locations = {
             [1525] = {
                 {
@@ -4069,7 +4069,7 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [170375] = {
-        name = "Kleia",
+        name = "Kyrian Protector",
         locations = {
             [1543] = {
                 {
@@ -4545,7 +4545,7 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [172923] = {
-        name = "Kel'thuzad",
+        name = "Kel'Thuzad",
         locations = {
             [1652] = {
                 {
