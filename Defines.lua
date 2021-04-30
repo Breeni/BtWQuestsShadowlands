@@ -34,6 +34,7 @@ BtWQuests.Constant.Category.Shadowlands = {
     Necrolord = 907,
     NightFae = 908,
     Venthyr = 909,
+    ChainsOfDomination = 910,
 }
 BtWQuests.Constant.Chain.Shadowlands = {
     IntoTheMaw = 90001,
@@ -43,6 +44,21 @@ BtWQuests.Constant.Chain.Shadowlands = {
     Torghast = 90005,
     NewRules = 90006,
     PeeringIntoDarkness = 90007,
+
+    ChainsOfDomination = {
+        BattleOfArdenweald = 91001,
+        MawWalkers = 91002,
+        TheLastSigil = 91003,
+        AnArmyOfBoneAndSteel = 91004,
+        TheUnseenGuest = 91005,
+        ThePowerOfNight = 91006,
+        ANewPath = 91007,
+        WhatLiesAhead = 91008,
+        
+        FocusingTheEye = 91009,
+        TazaveshTheVeiledMarket = 91010,
+        ArchivistsOfKorthia = 91011,
+    },
 
     Bastion = {
         EternitysCall = 90101,
