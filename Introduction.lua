@@ -1206,8 +1206,9 @@ Database:AddChain(Chain.PeeringIntoDarkness, {
     },
     active = {
         type = "quest",
-        id = 60501,
+        ids = {60501, 61730},
         status = {'active', 'completed'},
+        count = 2,
     },
     completed = {
         type = "quest",
