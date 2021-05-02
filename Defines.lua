@@ -56,8 +56,9 @@ BtWQuests.Constant.Chain.Shadowlands = {
         WhatLiesAhead = 91008,
         
         FocusingTheEye = 91009,
-        TazaveshTheVeiledMarket = 91010,
+        TheyCouldBeAnyone = 91010,
         ArchivistsOfKorthia = 91011,
+        TazaveshTheVeiledMarket = 91012,
     },
 
     Bastion = {
