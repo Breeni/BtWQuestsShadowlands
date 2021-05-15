@@ -307,3 +307,8 @@ Database:AddExpansion(BtWQuests.Constant.Expansions.Shadowlands, {
         texCoords = {0, 0.90625, 0, 0.8125}
     }
 })
+
+Database:AddMapRecursive(1670, {
+    type = "expansion",
+    id = BtWQuests.Constant.Expansions.Shadowlands,
+})

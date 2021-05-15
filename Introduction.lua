@@ -1339,3 +1339,20 @@ BtWQuestsDatabase:AddExpansionItems(EXPANSION_ID, {
         id = Chain.PeeringIntoDarkness,
     },
 })
+
+Database:AddMapRecursive(1648, {
+    type = "chain",
+    id = Chain.IntoTheMaw,
+})
+Database:AddMapRecursive(1911, {
+    type = "chain",
+    id = Chain.Torghast,
+})
+Database:AddMapRecursive(1912, {
+    type = "chain",
+    id = Chain.Torghast,
+})
+Database:AddMap(1543, {
+    type = "chain",
+    id = Chain.NewRules,
+})
