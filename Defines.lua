@@ -325,7 +325,7 @@ Database:AddExpansion(BtWQuests.Constant.Expansions.Shadowlands, {
     }
 })
 
-Database:AddMapRecursive(1670, {
+Database:AddMapRecursive(1550, {
     type = "expansion",
     id = BtWQuests.Constant.Expansions.Shadowlands,
 })

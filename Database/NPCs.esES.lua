@@ -27,6 +27,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [156634] = {
         name = "Reina del Invierno",
     },
+    [156688] = {
+        name = "Anfitrión Ta'rela",
+    },
     [156822] = {
         name = "Maestra Mihaela",
     },

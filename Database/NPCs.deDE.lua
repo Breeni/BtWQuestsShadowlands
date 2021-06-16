@@ -42,6 +42,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [156644] = {
         name = "Graf Denathrius",
     },
+    [156688] = {
+        name = "Beherberger Ta'rela",
+    },
     [156822] = {
         name = "Herrin Mihaela",
     },

@@ -45,6 +45,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [156634] = {
         name = "Reine de l'hiver",
     },
+    [156688] = {
+        name = "Hôte Ta'rela",
+    },
     [156822] = {
         name = "Gouvernante Mihaela",
     },

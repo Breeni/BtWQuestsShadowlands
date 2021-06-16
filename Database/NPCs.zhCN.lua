@@ -63,6 +63,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [156644] = {
         name = "德纳修斯大帝",
     },
+    [156688] = {
+        name = "东道主塔·雷拉",
+    },
     [156822] = {
         name = "米哈拉女士",
     },

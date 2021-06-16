@@ -203,7 +203,7 @@ Database:AddChain(Chain.MawWalkers, {
     },
     completed = {
         type = "quest",
-        id = 64007,
+        id = 64556,
     },
     rewards = {
     },
@@ -268,6 +268,22 @@ Database:AddChain(Chain.MawWalkers, {
             type = "quest",
             id = 64007,
             x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 64555,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 64556,
+            x = 0,
         },
     },
 })
@@ -282,6 +298,10 @@ Database:AddChain(Chain.TheLastSigil, {
         {
             type = "level",
             level = 60,
+        },
+        {
+            type = "renown",
+            level = 44,
         },
         {
             type = "chain",
@@ -337,6 +357,11 @@ Database:AddChain(Chain.TheLastSigil, {
         {
             type = "chain",
             id = Chain.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.FocusingTheEye,
         },
     },
     active = {
@@ -487,6 +512,10 @@ Database:AddChain(Chain.AnArmyOfBoneAndSteel, {
             level = 60,
         },
         {
+            type = "renown",
+            level = 47,
+        },
+        {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Kyrian.AmongTheKyrian or 90601,
             lowPriority = true,
@@ -540,6 +569,11 @@ Database:AddChain(Chain.AnArmyOfBoneAndSteel, {
         {
             type = "chain",
             id = Chain.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.FocusingTheEye,
             lowPriority = true,
         },
         {
@@ -656,6 +690,10 @@ Database:AddChain(Chain.TheUnseenGuest, {
             level = 60,
         },
         {
+            type = "renown",
+            level = 50,
+        },
+        {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Kyrian.AmongTheKyrian or 90601,
             lowPriority = true,
@@ -713,6 +751,11 @@ Database:AddChain(Chain.TheUnseenGuest, {
         },
         {
             type = "chain",
+            id = Chain.FocusingTheEye,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
             id = Chain.TheLastSigil,
             lowPriority = true,
         },
@@ -728,7 +771,7 @@ Database:AddChain(Chain.TheUnseenGuest, {
     },
     completed = {
         type = "quest",
-        id = 63654,
+        id = 63656,
     },
     rewards = {
     },
@@ -754,17 +797,24 @@ Database:AddChain(Chain.TheUnseenGuest, {
             id = 63644,
             x = 0,
             connections = {
-                1, 
+                1, 2
             },
         },
         {
             type = "quest",
             id = 63645,
             x = 0,
+            breadcrumb = true,
             connections = {
                 1, 
             },
             comment = "Maybe removed? This quest relates to prerequistes for the start of 9.1, which can be skipped, maybe if skipped this is offered for a recap?",
+            -- Need to figure out the exact requirements for this to show, maybe hidden achievement for sire kill?
+            -- restrictions = {
+            --     type = "quest",
+            --     id = 60501,
+            --     status = {'pending'}
+            -- }
         },
         {
             type = "quest",
@@ -833,7 +883,7 @@ Database:AddChain(Chain.TheUnseenGuest, {
             id = 63654,
             x = 0,
             connections = {
-                1, 
+                1, 2
             },
         },
         {
@@ -844,7 +894,23 @@ Database:AddChain(Chain.TheUnseenGuest, {
                 type = "covenant",
                 id = 2,
             },
-            x = 0,
+            x = -1,
+        },
+        {
+            type = "quest",
+            id = 63656,
+            variations = {
+                {
+                    x = 1,
+                    restrictions = {
+                        type = "covenant",
+                        id = 2,
+                    },
+                },
+                {
+                    x = 0,
+                },
+            }
         },
     },
 })
@@ -859,6 +925,10 @@ Database:AddChain(Chain.ThePowerOfNight, {
         {
             type = "level",
             level = 60,
+        },
+        {
+            type = "renown",
+            level = 52,
         },
         {
             type = "chain",
@@ -918,6 +988,11 @@ Database:AddChain(Chain.ThePowerOfNight, {
         },
         {
             type = "chain",
+            id = Chain.FocusingTheEye,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
             id = Chain.TheLastSigil,
             lowPriority = true,
         },
@@ -956,21 +1031,25 @@ Database:AddChain(Chain.ThePowerOfNight, {
             id = 63672,
             x = 0,
             connections = {
-                1, 2, 
+                1,
             },
         },
         {
-            type = "quest",
-            id = 63673,
-            x = -1,
-            connections = {
-                2, 
+            variations = {
+                {
+                    type = "quest",
+                    id = 63673,
+                    restrictions = {
+                        type = "covenant",
+                        id = 3,
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 63728,
+                },
             },
-            comment = "Night Fae version?",
-        },
-        {
-            type = "quest",
-            id = 63728,
+            x = 0,
             connections = {
                 1, 
             },
@@ -1089,6 +1168,14 @@ Database:AddChain(Chain.ThePowerOfNight, {
             type = "quest",
             id = 63683,
             x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 64437,
+            x = 0,
         },
     },
 })
@@ -1103,6 +1190,10 @@ Database:AddChain(Chain.ANewPath, {
         {
             type = "level",
             level = 60,
+        },
+        {
+            type = "renown",
+            level = 56,
         },
         {
             type = "chain",
@@ -1162,6 +1253,11 @@ Database:AddChain(Chain.ANewPath, {
         },
         {
             type = "chain",
+            id = Chain.FocusingTheEye,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
             id = Chain.TheLastSigil,
             lowPriority = true,
         },
@@ -1187,7 +1283,7 @@ Database:AddChain(Chain.ANewPath, {
     },
     completed = {
         type = "quest",
-        id = 63592,
+        id = 63593,
     },
     rewards = {
     },
@@ -1295,16 +1391,40 @@ Database:AddChain(Chain.ANewPath, {
             },
         },
         {
-            type = "quest",
-            id = 63592,
+            variations = {
+                {
+                    type = "quest",
+                    id = 63591,
+                    restrictions = {
+                        type = "covenant",
+                        id = 1,
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 63592,
+                }
+            },
             x = 0,
             connections = {
                 1, 
             },
         },
         {
-            type = "quest",
-            id = 63591,
+            variations = {
+                {
+                    type = "quest",
+                    id = 63592,
+                    restrictions = {
+                        type = "covenant",
+                        id = 1,
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 63593,
+                }
+            },
             x = 0,
             connections = {
                 1, 
@@ -1313,6 +1433,10 @@ Database:AddChain(Chain.ANewPath, {
         {
             type = "quest",
             id = 63593,
+            restrictions = {
+                type = "covenant",
+                id = 1,
+            },
             x = 0,
         },
     },
@@ -1320,6 +1444,158 @@ Database:AddChain(Chain.ANewPath, {
 Database:AddChain(Chain.WhatLiesAhead, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 8),
     questline = 1248,
+    category = CATEGORY_ID,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    major = true,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "renown",
+            level = 58,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Kyrian.AmongTheKyrian or 90601,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 1,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Venthyr.Sinfall or 90901,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 2,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.NightFae.ForQueenAndGrove or 90801,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 3,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Necrolord.LoyalToThePrimus or 90701,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 4,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.PeeringIntoDarkness,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.BattleOfArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.FocusingTheEye,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheLastSigil,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.AnArmyOfBoneAndSteel,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.TheUnseenGuest,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ThePowerOfNight,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.ANewPath,
+        },
+    },
+    active = {
+        type = "quest",
+        ids = {64211, 64212},
+        status = {'active', 'completed'}
+    },
+    completed = {
+        type = "quest",
+        id = 64314,
+    },
+    rewards = {
+    },
+    items = {
+        {
+            type = "quest",
+            id = 64211,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 64212,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 64213,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 64214,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 64314,
+            x = 0,
+        },
+    },
+})
+
+Database:AddChain(Chain.FocusingTheEye, {
+    name = L["FOCUSING_THE_EYE"],
+    questline = 1234,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1383,123 +1659,16 @@ Database:AddChain(Chain.WhatLiesAhead, {
         {
             type = "chain",
             id = Chain.MawWalkers,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = Chain.TheLastSigil,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = Chain.AnArmyOfBoneAndSteel,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = Chain.TheUnseenGuest,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = Chain.ThePowerOfNight,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = Chain.ANewPath,
         },
     },
     active = {
         type = "quest",
-        ids = {63211, 60491},
+        id = 63848,
         status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
-        id = 57904,
-    },
-    rewards = {
-    },
-    items = {
-    },
-})
-
-Database:AddChain(Chain.FocusingTheEye, {
-    name = L["FOCUSING_THE_EYE"],
-    questline = 1234,
-    category = CATEGORY_ID,
-    expansion = EXPANSION_ID,
-    range = LEVEL_RANGE,
-    prerequisites = {
-        {
-            type = "level",
-            level = 60,
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.Kyrian.AmongTheKyrian or 90601,
-            lowPriority = true,
-            restrictions = {
-                type = "covenant",
-                id = 1,
-            },
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.Venthyr.Sinfall or 90901,
-            lowPriority = true,
-            restrictions = {
-                type = "covenant",
-                id = 2,
-            },
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.NightFae.ForQueenAndGrove or 90801,
-            lowPriority = true,
-            restrictions = {
-                type = "covenant",
-                id = 3,
-            },
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.Necrolord.LoyalToThePrimus or 90701,
-            lowPriority = true,
-            restrictions = {
-                type = "covenant",
-                id = 4,
-            },
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.PeeringIntoDarkness,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = Chain.BattleOfArdenweald,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = Chain.MawWalkers,
-        },
-    },
-    active = {
-        type = "quest",
-        ids = {63211, 60491},
-        status = {'active', 'completed'}
-    },
-    completed = {
-        type = "quest",
-        id = 57904,
+        id = 63902,
     },
     rewards = {
     },
@@ -1704,19 +1873,89 @@ Database:AddChain(Chain.TheyCouldBeAnyone, {
             type = "chain",
             id = Chain.MawWalkers,
         },
+        --@TODO requiremets changed
     },
     active = {
         type = "quest",
-        ids = {63211, 60491},
+        id = 63755,
         status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
-        id = 57904,
+        id = 63763,
     },
     rewards = {
     },
     items = {
+        {
+            type = "npc",
+            id = 177155,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63755,
+            x = 0,
+            connections = {
+                1, 2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63756,
+            x = -2,
+            connections = {
+                3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63757,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63758,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63759,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63760,
+            x = -1,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63761,
+            aside = true,
+        },
+        {
+            type = "quest",
+            id = 63762,
+            aside = true,
+            x = -1,
+        },
+        {
+            type = "quest",
+            id = 63763,
+        },
     },
 })
 Database:AddChain(Chain.ArchivistsOfKorthia, {
@@ -1779,25 +2018,113 @@ Database:AddChain(Chain.ArchivistsOfKorthia, {
         {
             type = "chain",
             id = Chain.BattleOfArdenweald,
+            lowPriority = true,
         },
+        {
+            type = "chain",
+            id = Chain.MawWalkers,
+            upto = 64007,
+        },
+        -- Is part way through maw walkers, seems to require a drop now that I got doing [Surveying Secrets]
+        -- but others got from rares
     },
     active = {
         type = "quest",
-        ids = {63211, 60491},
+        id = 63731,
         status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
-        id = 57904,
+        id = 63738,
     },
     rewards = {
+        {
+            type = "faction",
+            id = 2472,
+        }
     },
     items = {
+        {
+            name = L["KILL_RARES"],
+            breadcrumb = true,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63731,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63732,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63733,
+            x = -1,
+            connections = {
+                2, 3, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63734,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63736,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63740,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63739,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63737,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63738,
+            x = 0,
+        },
     },
 })
 Database:AddChain(Chain.TazaveshTheVeiledMarket, {
     name = L["TAZAVESH_THE_VEILED_MARKET"],
     questline = 1235,
+    buttonImage = 4182022,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -1859,22 +2186,103 @@ Database:AddChain(Chain.TazaveshTheVeiledMarket, {
     },
     active = {
         type = "quest",
-        ids = {63211, 60491},
+        id = 63976,
         status = {'active', 'completed'}
     },
     completed = {
         type = "quest",
-        id = 57904,
+        id = 63985,
     },
     rewards = {
+        {
+            name = L["DUNGEON_TAZAVESH_THE_VEILED_MARKET"]
+        }
     },
     items = {
+        {
+            type = "npc",
+            id = 156688,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63976,
+            x = 0,
+            connections = {
+                1, 2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63977,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63979,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63980,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63982,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63983,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63984,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63985,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63986,
+            aside = true,
+            x = 0,
+        },
     },
 })
 
 Database:AddCategory(CATEGORY_ID, {
     name = BtWQuests_GetAchievementName(ACHIEVEMENT_ID),
     expansion = EXPANSION_ID,
+    buttonImage = 4182020,
     items = {
         {
             type = "chain",
@@ -1883,6 +2291,10 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.MawWalkers,
+        },
+        {
+            type = "chain",
+            id = Chain.FocusingTheEye,
         },
         {
             type = "chain",
@@ -1907,10 +2319,6 @@ Database:AddCategory(CATEGORY_ID, {
         {
             type = "chain",
             id = Chain.WhatLiesAhead,
-        },
-        {
-            type = "chain",
-            id = Chain.FocusingTheEye,
         },
         {
             type = "chain",

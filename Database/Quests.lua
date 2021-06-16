@@ -38640,4 +38640,2359 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [63576] = {
+        name = "The First Move",
+        contentTuningID = 2139,
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63578] = {
+        name = "The Battle of Ardenweald",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 177141,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 772200,
+            },
+            {
+                type = "reputation",
+                id = 2422,
+                amount = 500,
+            },
+        },
+    },
+    [63579] = {
+        name = "A Paladin's Soul",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 179356,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [63580] = {
+        name = "Wounded Memories",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177116,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+            {
+                type = "reputation",
+                id = 2407,
+                amount = 75,
+            },
+        },
+    },
+    [63581] = {
+        name = "Step Into the Light",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 154629,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2407,
+                amount = 75,
+            },
+        },
+    },
+    [63582] = {
+        name = "He Was My Student",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177116,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2407,
+                amount = 75,
+            },
+        },
+    },
+    [63583] = {
+        name = "I Intend to Live Forever",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 180733,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.401974,
+                        y = 0.203662,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2407,
+                amount = 75,
+            },
+        },
+    },
+    [63584] = {
+        name = "A Triumphant Return",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177116,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.206234,
+                        y = 0.228797,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63585] = {
+        name = "Blind Loyalty",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177116,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+            {
+                type = "reputation",
+                id = 2407,
+                amount = 75,
+            },
+        },
+    },
+    [63586] = {
+        name = "Compassion in Devotion",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 160037,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63587] = {
+        name = "Reclaimable Anima",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177123,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2407,
+                amount = 75,
+            },
+        },
+    },
+    [63588] = {
+        name = "Rebuilding Faith",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177300,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2407,
+                amount = 75,
+            },
+        },
+    },
+    [63589] = {
+        name = "Directing Dedication",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177116,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.24339,
+                        y = 0.301269,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2407,
+                amount = 75,
+            },
+        },
+    },
+    [63590] = {
+        name = "The Vesper Rings",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177116,
+            locations = {
+                [1533] = {
+                    {
+                        x = 0.206234,
+                        y = 0.228797,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2407,
+                amount = 75,
+            },
+        },
+    },
+    [63591] = {
+        name = "The Grand Reception",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 168517,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63592] = {
+        name = "The New Path",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 168517,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2407,
+                amount = 150,
+            },
+        },
+    },
+    [63593] = {
+        name = "New Sigil of the Kyrian",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 179379,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+            {
+                type = "currency",
+                id = 1822,
+                amount = 1,
+            },
+        },
+    },
+    [63612] = {
+        name = "The Chains of Command",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177194,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63613] = {
+        name = "Gates of the Damned",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177560,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2410,
+                amount = 75,
+            },
+        },
+    },
+    [63614] = {
+        name = "Weapon in Hand",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177589,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2410,
+                amount = 75,
+            },
+        },
+    },
+    [63615] = {
+        name = "Clip Their Wings",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177586,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2410,
+                amount = 75,
+            },
+        },
+    },
+    [63616] = {
+        name = "A Job Done Right",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177586,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2410,
+                amount = 75,
+            },
+        },
+    },
+    [63617] = {
+        name = "Bending Bars",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177586,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2410,
+                amount = 150,
+            },
+        },
+    },
+    [63618] = {
+        name = "What Maldraxxus Does Best",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177586,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2410,
+                amount = 75,
+            },
+        },
+    },
+    [63619] = {
+        name = "Forsworn and Forgotten",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177288,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2410,
+                amount = 75,
+            },
+        },
+    },
+    [63620] = {
+        name = "A Traitor's Due",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177586,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 514800,
+            },
+            {
+                type = "reputation",
+                id = 2410,
+                amount = 150,
+            },
+        },
+    },
+    [63622] = {
+        name = "Victory in Our Name",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 178103,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+            {
+                type = "currency",
+                id = 1822,
+                amount = 1,
+            },
+        },
+    },
+    [63638] = {
+        name = "Can't Turn Our Backs",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 177148,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63639] = {
+        name = "Report to Oribos",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 177460,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63644] = {
+        name = "Dread Tidings",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177194,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
+    },
+    [63645] = {
+        name = "The Dawnkeep Prisoner",
+        contentTuningID = 2043,
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63646] = {
+        name = "Convoy of the Covenants",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 168898,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
+    },
+    [63647] = {
+        name = "The Unseen Guests",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 165866,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
+    },
+    [63648] = {
+        name = "Nal'ragas",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177628,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [63649] = {
+        name = "Spy vs Spy",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177637,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [63650] = {
+        name = "De-Infiltration",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177644,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
+    },
+    [63651] = {
+        name = "Cryptograms",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 178260,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [63652] = {
+        name = "The \"Unwelcome\" Guests",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 158653,
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.517884,
+                        y = 0.375757,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2413,
+                amount = 75,
+            },
+        },
+    },
+    [63653] = {
+        name = "The Power of a Crown",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 158653,
+            locations = {
+                [1699] = {
+                    {
+                        x = 0.517884,
+                        y = 0.375757,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2413,
+                amount = 75,
+            },
+        },
+    },
+    [63654] = {
+        name = "The Nathrezim",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 178337,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 514800,
+            },
+            {
+                type = "reputation",
+                id = 2413,
+                amount = 150,
+            },
+        },
+    },
+    [63655] = {
+        name = "Medallion of Wrath",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 178413,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
+    },
+    [63659] = {
+        name = "Dreadlords!",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177167,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63660] = {
+        name = "Opening the Maw",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 159478,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63661] = {
+        name = "Link to the Maw",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 159478,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+            {
+                type = "reputation",
+                id = 2432,
+                amount = 50,
+            },
+        },
+    },
+    [63662] = {
+        name = "Mysteries of the Maw",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 162804,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2432,
+                amount = 250,
+            },
+        },
+    },
+    [63663] = {
+        name = "Korthia, the City of Secrets",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 177202,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+            {
+                type = "reputation",
+                id = 2432,
+                amount = 250,
+            },
+        },
+    },
+    [63665] = {
+        name = "Opening to Oribos",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 177227,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
+    },
+    [63672] = {
+        name = "A Cry From the Heart",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177919,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63673] = {
+        name = "Hunting Amid Houses",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 160262,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63674] = {
+        name = "By Your Leave",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177435,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
+    },
+    [63675] = {
+        name = "You Cannot Run",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177435,
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.529207,
+                        y = 0.686526,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2422,
+                amount = 75,
+            },
+        },
+    },
+    [63676] = {
+        name = "You Cannot Hide",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177435,
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.529207,
+                        y = 0.686526,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2422,
+                amount = 75,
+            },
+        },
+    },
+    [63677] = {
+        name = "You Can Only Die",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177435,
+            locations = {
+                [1536] = {
+                    {
+                        x = 0.529207,
+                        y = 0.686526,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2422,
+                amount = 75,
+            },
+        },
+    },
+    [63678] = {
+        name = "Akarek Avenged",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177437,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63679] = {
+        name = "Magical Mystery Tour!",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177919,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63680] = {
+        name = "Out On the Edge",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177967,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2422,
+                amount = 75,
+            },
+        },
+    },
+    [63681] = {
+        name = "Back to The Heart",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177962,
+            locations = {
+                [1525] = {
+                    {
+                        x = 0.340276,
+                        y = 0.097022,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+            {
+                type = "reputation",
+                id = 2422,
+                amount = 75,
+            },
+        },
+    },
+    [63682] = {
+        name = "The Power of Elune",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177434,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.453094,
+                        y = 0.648065,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2422,
+                amount = 75,
+            },
+        },
+    },
+    [63683] = {
+        name = "Winter's Sigil",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 178669,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "currency",
+                id = 1822,
+                amount = 1,
+            },
+            {
+                type = "reputation",
+                id = 2422,
+                amount = 150,
+            },
+        },
+    },
+    [63703] = {
+        name = "Vault of Secrets",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177927,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+            {
+                type = "reputation",
+                id = 2470,
+                amount = 75,
+            },
+        },
+    },
+    [63704] = {
+        name = "Vengeance for Korthia",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177423,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2470,
+                amount = 75,
+            },
+        },
+    },
+    [63705] = {
+        name = "The Knowledge Keepers",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177423,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2470,
+                amount = 75,
+            },
+        },
+    },
+    [63706] = {
+        name = "Let the Anima Flow",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177449,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2470,
+                amount = 75,
+            },
+        },
+    },
+    [63709] = {
+        name = "Secrets of the Vault",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177423,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2470,
+                amount = 75,
+            },
+        },
+    },
+    [63710] = {
+        name = "The Anima Trail",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177423,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2470,
+                amount = 75,
+            },
+        },
+    },
+    [63711] = {
+        name = "Bone Tools",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177452,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2470,
+                amount = 75,
+            },
+        },
+    },
+    [63712] = {
+        name = "Lost Records",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177451,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2470,
+                amount = 75,
+            },
+        },
+    },
+    [63713] = {
+        name = "Hooking Over",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177452,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2470,
+                amount = 75,
+            },
+        },
+    },
+    [63714] = {
+        name = "To the Vault",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177451,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2470,
+                amount = 75,
+            },
+        },
+    },
+    [63717] = {
+        name = "Defending the Vault",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177459,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2470,
+                amount = 75,
+            },
+        },
+    },
+    [63722] = {
+        name = "Keepers of Korthia",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 178640,
+            locations = {
+                [1961] = {
+                    {
+                        x = 0.494918,
+                        y = 0.649324,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2470,
+                amount = 75,
+            },
+        },
+    },
+    [63725] = {
+        name = "Into the Vault",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 178676,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2470,
+                amount = 75,
+            },
+        },
+    },
+    [63726] = {
+        name = "Untangling the Sigil",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177228,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2470,
+                amount = 75,
+            },
+        },
+    },
+    [63727] = {
+        name = "The Primus Returns",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177569,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 772200,
+            },
+            {
+                type = "currency",
+                id = 1822,
+                amount = 1,
+            },
+            {
+                type = "currency",
+                id = 1906,
+                amount = 100,
+            },
+            {
+                type = "reputation",
+                id = 2470,
+                amount = 75,
+            },
+        },
+    },
+    [63728] = {
+        name = "Hunting Amid Houses",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177434,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63731] = {
+        name = "Researching Korthian Relics",
+        contentTuningID = 2043,
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63732] = {
+        name = "Interrupt the Interrogations",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 178694,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
+    },
+    [63733] = {
+        name = "Carving Out a Path",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 178713,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [63734] = {
+        name = "The Sundered Staff",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 178713,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [63736] = {
+        name = "An Infusion of Anima",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177928,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [63737] = {
+        name = "Finding One's True Purpose",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 178991,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 514800,
+            },
+        },
+    },
+    [63738] = {
+        name = "Establishing the Archive",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 178992,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63739] = {
+        name = "Hope Ascending",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177928,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63740] = {
+        name = "Consulting the Experts",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177928,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 193050,
+            },
+        },
+    },
+    [63754] = {
+        name = "The Caged Bird",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177597,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 1948,
+                amount = 250,
+                restrictions = 924,
+            },
+        },
+    },
+    [63755] = {
+        name = "A Matter of Urgency",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177155,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63756] = {
+        name = "Rescued from Torment",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177610,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [63757] = {
+        name = "Looting the Looters",
+        contentTuningID = 2043,
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [63758] = {
+        name = "The Last Place You Look",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177610,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [63759] = {
+        name = "Redirect the Search",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177924,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63760] = {
+        name = "Echoes of Fate",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177610,
+            locations = {
+                [1961] = {
+                    {
+                        x = 0.568437,
+                        y = 0.222552,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [63761] = {
+        name = "Revenge Delayed",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177850,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [63762] = {
+        name = "Under the Illusion",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177610,
+            locations = {
+                [1961] = {
+                    {
+                        x = 0.56624,
+                        y = 0.17506,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [63763] = {
+        name = "They Could Be Anyone",
+        contentTuningID = 2043,
+        rewards = {
+            {
+                type = "money",
+                amount = 514800,
+            },
+        },
+    },
+    [63764] = {
+        name = "Claim the Sky",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177597,
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.67026,
+                        y = 0.560081,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 1948,
+                amount = 250,
+                restrictions = 924,
+            },
+        },
+    },
+    [63810] = {
+        name = "Birds of a Feather",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 179078,
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.643632,
+                        y = 0.505736,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 1948,
+                amount = 250,
+                restrictions = 924,
+            },
+        },
+    },
+    [63811] = {
+        name = "A Hate-Hate Relationship",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177603,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 1948,
+                amount = 250,
+                restrictions = 924,
+            },
+        },
+    },
+    [63831] = {
+        name = "Fury Given Voice",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177726,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 1948,
+                amount = 250,
+                restrictions = 924,
+            },
+        },
+    },
+    [63844] = {
+        name = "The Chosen Few",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177726,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 1948,
+                amount = 250,
+                restrictions = 924,
+            },
+        },
+    },
+    [63845] = {
+        name = "Wrath of Odyn",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177726,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 1948,
+                amount = 250,
+                restrictions = 924,
+            },
+        },
+    },
+    [63848] = {
+        name = "A Show of Gratitude",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177927,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+            {
+                type = "reputation",
+                id = 2432,
+                amount = 50,
+            },
+        },
+    },
+    [63849] = {
+        name = "Hearing Aid",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 179078,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2432,
+                amount = 250,
+            },
+        },
+    },
+    [63855] = {
+        name = "Ease of Passage",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 178470,
+        },
+        rewards = {
+            {
+                type = "reputation",
+                id = 2432,
+                amount = 250,
+            },
+        },
+    },
+    [63856] = {
+        name = "A Gathering of Covenants",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 159478,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63857] = {
+        name = "Voices of the Eternal",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 159475,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
+    },
+    [63867] = {
+        name = "Anger Management",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 162804,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2432,
+                amount = 250,
+            },
+        },
+    },
+    [63895] = {
+        name = "Grab Bag",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 162804,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2432,
+                amount = 250,
+            },
+        },
+    },
+    [63896] = {
+        name = "Tears of the Damned",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 162804,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2432,
+                amount = 250,
+            },
+        },
+    },
+    [63901] = {
+        name = "Focusing the Eye",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 179078,
+            locations = {
+                [1543] = {
+                    {
+                        x = 0.374152,
+                        y = 0.269338,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2432,
+                amount = 500,
+            },
+        },
+    },
+    [63902] = {
+        name = "Good News, Everyone!",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 178950,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [63904] = {
+        name = "The Heart of Ardenweald",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 177460,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
+    },
+    [63976] = {
+        name = "The Al'ley Cat of Oribos",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 156688,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63977] = {
+        name = "Insider Trading",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 178908,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [63979] = {
+        name = "Things Best Kept Dark",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 178908,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [63980] = {
+        name = "Seeking Smugglers",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 178908,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63982] = {
+        name = "Above My Station",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 160090,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63983] = {
+        name = "Dead Drop",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 158890,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [63984] = {
+        name = "Coins for the Ferryman",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 158890,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63985] = {
+        name = "The Veiled Market",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 178792,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63986] = {
+        name = "Tazavesh: Raiders of the Lost Artifact",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 178908,
+            locations = {
+                [1550] = {
+                    {
+                        x = 0.317847,
+                        y = 0.762745,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 1029600,
+            },
+        },
+    },
+    [63990] = {
+        name = "The Blade in the Night",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177471,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
+    },
+    [63994] = {
+        name = "Who is the Maw Walker?",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 177227,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
+    },
+    [64007] = {
+        name = "Charge of the Covenants",
+        contentTuningID = 2139,
+        source = {
+            type = "npc",
+            id = 177230,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+        },
+    },
+    [64014] = {
+        name = "Mawsplaining",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177726,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2432,
+                amount = 250,
+            },
+        },
+    },
+    [64042] = {
+        name = "Rituals of Night",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177434,
+            locations = {
+                [1565] = {
+                    {
+                        x = 0.480188,
+                        y = 0.53938,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2422,
+                amount = 75,
+            },
+        },
+    },
+    [64090] = {
+        name = "The Big Squeeze",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177968,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2422,
+                amount = 75,
+            },
+        },
+    },
+    [64091] = {
+        name = "Mal'appropriated",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 179327,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2422,
+                amount = 75,
+            },
+        },
+    },
+    [64092] = {
+        name = "Hunting Huln",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177962,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2422,
+                amount = 75,
+            },
+        },
+    },
+    [64211] = {
+    },
+    [64212] = {
+    },
+    [64213] = {
+    },
+    [64214] = {
+    },
+    [64314] = {
+    },
+    [64437] = {
+        name = "Inform the Primus",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 160262,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [64555] = {
+        name = "Surveying Secrets",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177228,
+            locations = {
+                [1961] = {
+                    {
+                        x = 0.627539,
+                        y = 0.250148,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
+    },
+    [64556] = {
+        name = "In Need of Assistance",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177228,
+            locations = {
+                [1961] = {
+                    {
+                        x = 0.627539,
+                        y = 0.250148,
+                    },
+                },
+            },
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 514800,
+            },
+            {
+                type = "reputation",
+                id = 2470,
+                amount = 1200,
+            },
+        },
+    },
 })

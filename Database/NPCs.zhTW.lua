@@ -63,6 +63,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [156644] = {
         name = "戴納瑟斯王",
     },
+    [156688] = {
+        name = "旅店之主塔瑞拉",
+    },
     [156822] = {
         name = "彌海菈女士",
     },

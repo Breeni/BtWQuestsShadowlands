@@ -36,6 +36,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [156634] = {
         name = "Regina dell'Inverno",
     },
+    [156688] = {
+        name = "Organizzatore Ta'rela",
+    },
     [156822] = {
         name = "Signora Mihaela",
     },

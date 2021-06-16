@@ -45,6 +45,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [156644] = {
         name = "Sir Denathrius",
     },
+    [156688] = {
+        name = "Anfitrião Ta'rela",
+    },
     [156822] = {
         name = "Senhora Mihaela",
     },

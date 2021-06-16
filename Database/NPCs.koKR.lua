@@ -63,6 +63,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [156644] = {
         name = "대영주 데나트리우스",
     },
+    [156688] = {
+        name = "주최자 타렐라",
+    },
     [156822] = {
         name = "장교 미하엘라",
     },
