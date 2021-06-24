@@ -11171,14 +11171,14 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [58184] = {
         name = "Antiquated Methodology",
-        contentTuningID = 743,
+        contentTuningID = 1323,
         rewards = {
             {
                 type = "experience",
                 variations = {
                     {
                         amounts = {
-                            7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
+                            11550, 11775, 12000, 12300, 12525, 12750, 12975, 13200, 13425, 13650, 
                         },
                         minLevel = 50,
                         maxLevel = 59,
@@ -11186,10 +11186,10 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
+                            12000, 12300, 12525, 7200, 4800, 2400, 1200, 
                         },
-                        minLevel = 51,
-                        maxLevel = 59,
+                        minLevel = 52,
+                        maxLevel = 58,
                     },
                 },
             },
@@ -11198,18 +11198,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            234000, 236340, 238680, 241020, 243360, 245700, 248040, 250380, 252720, 255060, 257400, 
+                            351000, 354510, 358020, 361530, 365040, 368550, 372060, 375570, 379080, 382590, 386100, 
                         },
                         minLevel = 50,
                         maxLevel = 60,
                         restrictions = 86994,
                     },
                     {
-                        amounts = {
-                            236340, 238680, 241020, 
-                        },
-                        minLevel = 51,
-                        maxLevel = 53,
+                        amount = 358020,
                     },
                 },
             },
@@ -19682,7 +19678,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [59621] = {
-        name = "Breaking A Few Eggs",
+        name = "Breaking a Few Eggs",
         contentTuningID = 1236,
         source = {
             type = "npc",
@@ -25069,7 +25065,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [60110] = {
-        name = "Never Had A Friend Like Me",
+        name = "Never Had a Friend Like Me",
         contentTuningID = 837,
         source = {
             type = "npc",
@@ -26514,7 +26510,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60217] = {
         name = "The Archon's Answer",
-        contentTuningID = 743,
+        contentTuningID = 1317,
         source = {
             type = "npc",
             id = 158862,
@@ -26533,7 +26529,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            11600, 11800, 12050, 12250, 12500, 12700, 12950, 13200, 13400, 13650, 
+                            9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                         },
                         minLevel = 50,
                         maxLevel = 59,
@@ -26541,10 +26537,10 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
+                            9850, 10050, 10200, 5900, 3950, 1950, 975, 
                         },
                         minLevel = 51,
-                        maxLevel = 59,
+                        maxLevel = 57,
                     },
                 },
             },
@@ -26553,18 +26549,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            702000, 709020, 716040, 723060, 730080, 737100, 744120, 751140, 758160, 765180, 772200, 
+                            468000, 472680, 477360, 482040, 486720, 491400, 496080, 500760, 505440, 510120, 514800, 
                         },
                         minLevel = 50,
                         maxLevel = 60,
                         restrictions = 86994,
                     },
                     {
-                        amounts = {
-                            709020, 716040, 723060, 
-                        },
-                        minLevel = 51,
-                        maxLevel = 53,
+                        amount = 472680,
                     },
                 },
             },
@@ -26572,7 +26564,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60218] = {
         name = "The Archon's Answer",
-        contentTuningID = 743,
+        contentTuningID = 1317,
         source = {
             type = "npc",
             id = 158862,
@@ -26591,7 +26583,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            11600, 11800, 12050, 12250, 12500, 12700, 12950, 13200, 13400, 13650, 
+                            9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                         },
                         minLevel = 50,
                         maxLevel = 59,
@@ -26599,10 +26591,10 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
+                            9850, 10050, 10200, 5900, 3950, 1950, 975, 
                         },
                         minLevel = 51,
-                        maxLevel = 59,
+                        maxLevel = 57,
                     },
                 },
             },
@@ -26611,18 +26603,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            702000, 709020, 716040, 723060, 730080, 737100, 744120, 751140, 758160, 765180, 772200, 
+                            468000, 472680, 477360, 482040, 486720, 491400, 496080, 500760, 505440, 510120, 514800, 
                         },
                         minLevel = 50,
                         maxLevel = 60,
                         restrictions = 86994,
                     },
                     {
-                        amounts = {
-                            709020, 716040, 723060, 
-                        },
-                        minLevel = 51,
-                        maxLevel = 53,
+                        amount = 472680,
                     },
                 },
             },
@@ -26630,7 +26618,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60219] = {
         name = "The Archon's Answer",
-        contentTuningID = 743,
+        contentTuningID = 1317,
         source = {
             type = "npc",
             id = 158862,
@@ -26649,7 +26637,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            11600, 11800, 12050, 12250, 12500, 12700, 12950, 13200, 13400, 13650, 
+                            9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                         },
                         minLevel = 50,
                         maxLevel = 59,
@@ -26657,10 +26645,10 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
+                            9850, 10050, 10200, 5900, 3950, 1950, 975, 
                         },
                         minLevel = 51,
-                        maxLevel = 59,
+                        maxLevel = 57,
                     },
                 },
             },
@@ -26669,18 +26657,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            702000, 709020, 716040, 723060, 730080, 737100, 744120, 751140, 758160, 765180, 772200, 
+                            468000, 472680, 477360, 482040, 486720, 491400, 496080, 500760, 505440, 510120, 514800, 
                         },
                         minLevel = 50,
                         maxLevel = 60,
                         restrictions = 86994,
                     },
                     {
-                        amounts = {
-                            709020, 716040, 723060, 
-                        },
-                        minLevel = 51,
-                        maxLevel = 53,
+                        amount = 472680,
                     },
                 },
             },
@@ -26688,7 +26672,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60220] = {
         name = "The Archon's Answer",
-        contentTuningID = 743,
+        contentTuningID = 1317,
         source = {
             type = "npc",
             id = 158862,
@@ -26707,7 +26691,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            11600, 11800, 12050, 12250, 12500, 12700, 12950, 13200, 13400, 13650, 
+                            9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                         },
                         minLevel = 50,
                         maxLevel = 59,
@@ -26715,10 +26699,10 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
+                            9850, 10050, 10200, 5900, 3950, 1950, 975, 
                         },
                         minLevel = 51,
-                        maxLevel = 59,
+                        maxLevel = 57,
                     },
                 },
             },
@@ -26727,18 +26711,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            702000, 709020, 716040, 723060, 730080, 737100, 744120, 751140, 758160, 765180, 772200, 
+                            468000, 472680, 477360, 482040, 486720, 491400, 496080, 500760, 505440, 510120, 514800, 
                         },
                         minLevel = 50,
                         maxLevel = 60,
                         restrictions = 86994,
                     },
                     {
-                        amounts = {
-                            709020, 716040, 723060, 
-                        },
-                        minLevel = 51,
-                        maxLevel = 53,
+                        amount = 472680,
                     },
                 },
             },
@@ -26746,7 +26726,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60221] = {
         name = "The Archon's Answer",
-        contentTuningID = 743,
+        contentTuningID = 1317,
         source = {
             type = "npc",
             id = 158862,
@@ -26765,7 +26745,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            11600, 11800, 12050, 12250, 12500, 12700, 12950, 13200, 13400, 13650, 
+                            9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                         },
                         minLevel = 50,
                         maxLevel = 59,
@@ -26773,10 +26753,10 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
+                            9850, 10050, 10200, 5900, 3950, 1950, 975, 
                         },
                         minLevel = 51,
-                        maxLevel = 59,
+                        maxLevel = 57,
                     },
                 },
             },
@@ -26785,18 +26765,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            702000, 709020, 716040, 723060, 730080, 737100, 744120, 751140, 758160, 765180, 772200, 
+                            468000, 472680, 477360, 482040, 486720, 491400, 496080, 500760, 505440, 510120, 514800, 
                         },
                         minLevel = 50,
                         maxLevel = 60,
                         restrictions = 86994,
                     },
                     {
-                        amounts = {
-                            709020, 716040, 723060, 
-                        },
-                        minLevel = 51,
-                        maxLevel = 53,
+                        amount = 472680,
                     },
                 },
             },
@@ -26804,7 +26780,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60222] = {
         name = "The Archon's Answer",
-        contentTuningID = 743,
+        contentTuningID = 1317,
         source = {
             type = "npc",
             id = 158862,
@@ -26823,7 +26799,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            11600, 11800, 12050, 12250, 12500, 12700, 12950, 13200, 13400, 13650, 
+                            9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                         },
                         minLevel = 50,
                         maxLevel = 59,
@@ -26831,10 +26807,10 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
+                            9850, 10050, 10200, 5900, 3950, 1950, 975, 
                         },
                         minLevel = 51,
-                        maxLevel = 59,
+                        maxLevel = 57,
                     },
                 },
             },
@@ -26843,18 +26819,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            702000, 709020, 716040, 723060, 730080, 737100, 744120, 751140, 758160, 765180, 772200, 
+                            468000, 472680, 477360, 482040, 486720, 491400, 496080, 500760, 505440, 510120, 514800, 
                         },
                         minLevel = 50,
                         maxLevel = 60,
                         restrictions = 86994,
                     },
                     {
-                        amounts = {
-                            709020, 716040, 723060, 
-                        },
-                        minLevel = 51,
-                        maxLevel = 53,
+                        amount = 472680,
                     },
                 },
             },
@@ -26862,7 +26834,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60223] = {
         name = "The Archon's Answer",
-        contentTuningID = 743,
+        contentTuningID = 1317,
         source = {
             type = "npc",
             id = 158862,
@@ -26881,7 +26853,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            11600, 11800, 12050, 12250, 12500, 12700, 12950, 13200, 13400, 13650, 
+                            9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                         },
                         minLevel = 50,
                         maxLevel = 59,
@@ -26889,10 +26861,10 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
+                            9850, 10050, 10200, 5900, 3950, 1950, 975, 
                         },
                         minLevel = 51,
-                        maxLevel = 59,
+                        maxLevel = 57,
                     },
                 },
             },
@@ -26901,18 +26873,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            702000, 709020, 716040, 723060, 730080, 737100, 744120, 751140, 758160, 765180, 772200, 
+                            468000, 472680, 477360, 482040, 486720, 491400, 496080, 500760, 505440, 510120, 514800, 
                         },
                         minLevel = 50,
                         maxLevel = 60,
                         restrictions = 86994,
                     },
                     {
-                        amounts = {
-                            709020, 716040, 723060, 
-                        },
-                        minLevel = 51,
-                        maxLevel = 53,
+                        amount = 472680,
                     },
                 },
             },
@@ -26920,7 +26888,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60224] = {
         name = "The Archon's Answer",
-        contentTuningID = 743,
+        contentTuningID = 1317,
         source = {
             type = "npc",
             id = 158862,
@@ -26939,7 +26907,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            11600, 11800, 12050, 12250, 12500, 12700, 12950, 13200, 13400, 13650, 
+                            9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                         },
                         minLevel = 50,
                         maxLevel = 59,
@@ -26947,10 +26915,10 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
+                            9850, 10050, 10200, 5900, 3950, 1950, 975, 
                         },
                         minLevel = 51,
-                        maxLevel = 59,
+                        maxLevel = 57,
                     },
                 },
             },
@@ -26959,18 +26927,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            702000, 709020, 716040, 723060, 730080, 737100, 744120, 751140, 758160, 765180, 772200, 
+                            468000, 472680, 477360, 482040, 486720, 491400, 496080, 500760, 505440, 510120, 514800, 
                         },
                         minLevel = 50,
                         maxLevel = 60,
                         restrictions = 86994,
                     },
                     {
-                        amounts = {
-                            709020, 716040, 723060, 
-                        },
-                        minLevel = 51,
-                        maxLevel = 53,
+                        amount = 472680,
                     },
                 },
             },
@@ -26978,7 +26942,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60225] = {
         name = "The Archon's Answer",
-        contentTuningID = 743,
+        contentTuningID = 1317,
         source = {
             type = "npc",
             id = 158862,
@@ -26997,7 +26961,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            11600, 11800, 12050, 12250, 12500, 12700, 12950, 13200, 13400, 13650, 
+                            9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                         },
                         minLevel = 50,
                         maxLevel = 59,
@@ -27005,10 +26969,10 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
+                            9850, 10050, 10200, 5900, 3950, 1950, 975, 
                         },
                         minLevel = 51,
-                        maxLevel = 59,
+                        maxLevel = 57,
                     },
                 },
             },
@@ -27017,18 +26981,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            702000, 709020, 716040, 723060, 730080, 737100, 744120, 751140, 758160, 765180, 772200, 
+                            468000, 472680, 477360, 482040, 486720, 491400, 496080, 500760, 505440, 510120, 514800, 
                         },
                         minLevel = 50,
                         maxLevel = 60,
                         restrictions = 86994,
                     },
                     {
-                        amounts = {
-                            709020, 716040, 723060, 
-                        },
-                        minLevel = 51,
-                        maxLevel = 53,
+                        amount = 472680,
                     },
                 },
             },
@@ -27036,7 +26996,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60226] = {
         name = "The Archon's Answer",
-        contentTuningID = 743,
+        contentTuningID = 1317,
         source = {
             type = "npc",
             id = 158862,
@@ -27055,7 +27015,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            11600, 11800, 12050, 12250, 12500, 12700, 12950, 13200, 13400, 13650, 
+                            9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                         },
                         minLevel = 50,
                         maxLevel = 59,
@@ -27063,10 +27023,10 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
+                            9850, 10050, 10200, 5900, 3950, 1950, 975, 
                         },
                         minLevel = 51,
-                        maxLevel = 59,
+                        maxLevel = 57,
                     },
                 },
             },
@@ -27075,18 +27035,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            702000, 709020, 716040, 723060, 730080, 737100, 744120, 751140, 758160, 765180, 772200, 
+                            468000, 472680, 477360, 482040, 486720, 491400, 496080, 500760, 505440, 510120, 514800, 
                         },
                         minLevel = 50,
                         maxLevel = 60,
                         restrictions = 86994,
                     },
                     {
-                        amounts = {
-                            709020, 716040, 723060, 
-                        },
-                        minLevel = 51,
-                        maxLevel = 53,
+                        amount = 472680,
                     },
                 },
             },
@@ -27094,7 +27050,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60229] = {
         name = "The Archon's Answer",
-        contentTuningID = 743,
+        contentTuningID = 1317,
         source = {
             type = "npc",
             id = 158862,
@@ -27113,7 +27069,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            11600, 11800, 12050, 12250, 12500, 12700, 12950, 13200, 13400, 13650, 
+                            9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
                         },
                         minLevel = 50,
                         maxLevel = 59,
@@ -27121,10 +27077,10 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            11800, 12050, 12250, 12500, 12700, 7100, 4700, 2350, 1200, 
+                            9850, 10050, 10200, 5900, 3950, 1950, 975, 
                         },
                         minLevel = 51,
-                        maxLevel = 59,
+                        maxLevel = 57,
                     },
                 },
             },
@@ -27133,18 +27089,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 variations = {
                     {
                         amounts = {
-                            702000, 709020, 716040, 723060, 730080, 737100, 744120, 751140, 758160, 765180, 772200, 
+                            468000, 472680, 477360, 482040, 486720, 491400, 496080, 500760, 505440, 510120, 514800, 
                         },
                         minLevel = 50,
                         maxLevel = 60,
                         restrictions = 86994,
                     },
                     {
-                        amounts = {
-                            709020, 716040, 723060, 
-                        },
-                        minLevel = 51,
-                        maxLevel = 53,
+                        amount = 472680,
                     },
                 },
             },
@@ -27578,7 +27530,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60292] = {
         name = "Dangerous Discourse",
-        contentTuningID = 743,
+        contentTuningID = 1318,
         rewards = {
             {
                 type = "experience",
@@ -27593,10 +27545,10 @@ BtWQuestsDatabase:AddQuestsTable({
                     },
                     {
                         amounts = {
-                            7850, 8000, 8200, 8350, 8500, 4700, 3150, 1550, 775, 
+                            7850, 8000, 8200, 4700, 3150, 1550, 775, 
                         },
                         minLevel = 51,
-                        maxLevel = 59,
+                        maxLevel = 57,
                     },
                 },
             },
@@ -27612,11 +27564,7 @@ BtWQuestsDatabase:AddQuestsTable({
                         restrictions = 86994,
                     },
                     {
-                        amounts = {
-                            236340, 238680, 241020, 
-                        },
-                        minLevel = 51,
-                        maxLevel = 53,
+                        amount = 236340,
                     },
                 },
             },
@@ -33137,11 +33085,6 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 257400,
-            },
-            {
-                type = "currency",
-                id = 1819,
-                amount = 5,
             },
         },
     },
@@ -39220,6 +39163,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 128700,
             },
+            {
+                type = "reputation",
+                id = 2413,
+                amount = 75,
+            },
         },
     },
     [63647] = {
@@ -39233,6 +39181,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 128700,
+            },
+            {
+                type = "reputation",
+                id = 2413,
+                amount = 75,
             },
         },
     },
@@ -39248,6 +39201,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 257400,
             },
+            {
+                type = "reputation",
+                id = 2413,
+                amount = 75,
+            },
         },
     },
     [63649] = {
@@ -39261,6 +39219,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2413,
+                amount = 75,
             },
         },
     },
@@ -39276,6 +39239,11 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "money",
                 amount = 128700,
             },
+            {
+                type = "reputation",
+                id = 2413,
+                amount = 75,
+            },
         },
     },
     [63651] = {
@@ -39289,6 +39257,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2413,
+                amount = 75,
             },
         },
     },
@@ -40781,7 +40754,7 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "money",
-                amount = 1029600,
+                amount = 2574000,
             },
         },
     },
