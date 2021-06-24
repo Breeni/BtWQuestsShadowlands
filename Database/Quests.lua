@@ -1306,6 +1306,48 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [57189] = {
+        name = "Breaking the Hopebreakers",
+        contentTuningID = 1427,
+        source = {
+            type = "npc",
+            id = 168217,
+        },
+        rewards = {
+            {
+                type = "experience",
+                variations = {
+                    {
+                        amounts = {
+                            9650, 9850, 10050, 10200, 10400, 10600, 10800, 11000, 11200, 11350, 
+                        },
+                        minLevel = 50,
+                        maxLevel = 59,
+                        restrictions = 86994,
+                    },
+                    {
+                        amount = 11350,
+                    },
+                },
+            },
+            {
+                type = "money",
+                variations = {
+                    {
+                        amounts = {
+                            468000, 472680, 477360, 482040, 486720, 491400, 496080, 500760, 505440, 510120, 514800, 
+                        },
+                        minLevel = 50,
+                        maxLevel = 60,
+                        restrictions = 86994,
+                    },
+                    {
+                        amount = 510120,
+                    },
+                },
+            },
+        },
+    },
     [57190] = {
         name = "They Won't Know What Hit Them",
         contentTuningID = 1427,
@@ -39349,6 +39391,25 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 128700,
+            },
+        },
+    },
+    [63656] = {
+        name = "The Meaning of Wrath",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 179978,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 128700,
+            },
+            {
+                type = "currency",
+                id = 1822,
+                amount = 1,
             },
         },
     },

@@ -114,6 +114,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57182] = {
         name = "Le sort de l’Accusatrice",
     },
+    [57189] = {
+        name = "Briser les brisespoirs",
+    },
     [57190] = {
         name = "Ils ne verront rien venir",
     },
@@ -3368,6 +3371,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [63655] = {
         name = "Le médaillon de la colère",
+    },
+    [63656] = {
+        name = "Le sens de la colère",
     },
     [63659] = {
         name = "Alerte aux seigneurs de l’effroi",

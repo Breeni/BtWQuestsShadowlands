@@ -114,6 +114,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57182] = {
         name = "El destino de la Acusadora",
     },
+    [57189] = {
+        name = "La destrucción de los rompesperanzas",
+    },
     [57190] = {
         name = "Se llevarán una sorpresa",
     },
@@ -3359,6 +3362,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [63655] = {
         name = "Medallón de ira",
+    },
+    [63656] = {
+        name = "El significado de la ira",
     },
     [63659] = {
         name = "¡Señores del terror!",

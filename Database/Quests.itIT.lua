@@ -114,6 +114,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57182] = {
         name = "Il fato dell'Accusatrice",
     },
+    [57189] = {
+        name = "Infrangere i Frangifede",
+    },
     [57190] = {
         name = "Non sapranno mai cosa li ha colpiti",
     },
@@ -3365,6 +3368,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [63655] = {
         name = "Il Medaglione dell'Ira",
+    },
+    [63656] = {
+        name = "Il significato dell'ira",
     },
     [63659] = {
         name = "Signori del Terrore!",

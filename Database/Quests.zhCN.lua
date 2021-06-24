@@ -114,6 +114,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57182] = {
         name = "指控者的命运",
     },
+    [57189] = {
+        name = "灭愿粉碎者",
+    },
     [57190] = {
         name = "无形之敌",
     },
@@ -3377,6 +3380,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [63655] = {
         name = "愤怒勋章",
+    },
+    [63656] = {
+        name = "愤怒的真意",
     },
     [63659] = {
         name = "恐惧魔王！",

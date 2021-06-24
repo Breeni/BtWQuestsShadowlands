@@ -114,6 +114,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57182] = {
         name = "控罪者的命運",
     },
+    [57189] = {
+        name = "擊破希望破除者",
+    },
     [57190] = {
         name = "他們連自己怎麼死的都不知道",
     },
@@ -3377,6 +3380,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [63655] = {
         name = "憤怒勳章",
+    },
+    [63656] = {
+        name = "憤怒的意義",
     },
     [63659] = {
         name = "驚懼領主！",

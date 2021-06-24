@@ -114,6 +114,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57182] = {
         name = "A sina da Acusadora",
     },
+    [57189] = {
+        name = "Quebrando os Quebrafés",
+    },
     [57190] = {
         name = "Devorados na porrada",
     },
@@ -3362,6 +3365,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [63655] = {
         name = "Medalhão da Ira",
+    },
+    [63656] = {
+        name = "O significado da ira",
     },
     [63659] = {
         name = "Senhores do Medo!",

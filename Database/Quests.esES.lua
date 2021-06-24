@@ -114,6 +114,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57182] = {
         name = "El destino de la acusadora",
     },
+    [57189] = {
+        name = "Romper a los rompeesperanzas",
+    },
     [57190] = {
         name = "Ni se lo verán venir",
     },
@@ -3359,6 +3362,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [63655] = {
         name = "El medallón de cólera",
+    },
+    [63656] = {
+        name = "El sentido de la cólera",
     },
     [63659] = {
         name = "¡Señores del Terror!",

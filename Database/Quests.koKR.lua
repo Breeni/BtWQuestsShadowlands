@@ -114,6 +114,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57182] = {
         name = "규탄자의 운명",
     },
+    [57189] = {
+        name = "희망파괴자 파괴하기",
+    },
     [57190] = {
         name = "의표를 찌르는 묘수",
     },
@@ -3377,6 +3380,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [63655] = {
         name = "격노의 메달",
+    },
+    [63656] = {
+        name = "분노의 의미",
     },
     [63659] = {
         name = "공포의 군주가 나타났다!",

@@ -114,6 +114,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [57182] = {
         name = "Das Schicksal der Anklägerin",
     },
+    [57189] = {
+        name = "Die Hoffnungsbrecher brechen",
+    },
     [57190] = {
         name = "Sie werden nicht wissen, wie ihnen geschieht",
     },
@@ -3356,6 +3359,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     },
     [63655] = {
         name = "Medaillon des Zorns",
+    },
+    [63656] = {
+        name = "Die Bedeutung des Zorns",
     },
     [63659] = {
         name = "Schreckenslords!",
