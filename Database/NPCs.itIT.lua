@@ -876,5 +876,20 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [176100] = {
         name = "Iona Lamaceleste",
     },
+    [177155] = {
+        name = "Scriba del Cammino Roh-Vess",
+    },
+    [177167] = {
+        name = "Baronessa Vashj",
+    },
+    [177194] = {
+        name = "Il Primus",
+    },
+    [177919] = {
+        name = "Messaggio Urgente da Selvarden",
+    },
+    [178260] = {
+        name = "La Madrepietra",
+    },
 })
 ]])()

@@ -933,5 +933,23 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [176100] = {
         name = "Iona Lame-Céleste",
     },
+    [177155] = {
+        name = "Scribe de la Voie Roh-Vess",
+    },
+    [177167] = {
+        name = "Baronne Vashj",
+    },
+    [177194] = {
+        name = "Le Primat",
+    },
+    [177919] = {
+        name = "Message urgent de Sylvarden",
+    },
+    [178260] = {
+        name = "La Créalithe",
+    },
+    [179356] = {
+        name = "Thénios",
+    },
 })
 ]])()

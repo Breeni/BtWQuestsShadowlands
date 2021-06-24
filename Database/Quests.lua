@@ -38664,7 +38664,7 @@ BtWQuestsDatabase:AddQuestsTable({
             },
             {
                 type = "reputation",
-                id = 2422,
+                id = 2465,
                 amount = 500,
             },
         },
@@ -38680,6 +38680,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2407,
+                amount = 75,
             },
         },
     },
@@ -40485,6 +40490,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "reputation",
                 id = 2432,
                 amount = 250,
+                maxRank = -1,
             },
         },
     },
@@ -40500,6 +40506,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "reputation",
                 id = 2432,
                 amount = 250,
+                maxRank = -1,
             },
         },
     },
@@ -40566,6 +40573,7 @@ BtWQuestsDatabase:AddQuestsTable({
                 type = "reputation",
                 id = 2432,
                 amount = 250,
+                maxRank = -1,
             },
         },
     },
@@ -40991,7 +40999,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2470,
-                amount = 1200,
+                amount = 750,
             },
         },
     },
