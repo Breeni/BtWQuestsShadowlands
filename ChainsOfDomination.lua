@@ -1,3 +1,6 @@
+if select(4, GetBuildInfo()) < 90100 then
+    return
+end
 local BtWQuests = BtWQuests
 local L = BtWQuests.L
 local Database = BtWQuests.Database
@@ -59,11 +62,7 @@ Database:AddChain(Chain.BattleOfArdenweald, {
         {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.PeeringIntoDarkness,
+            upto = 61099,
         },
     },
     active = {
@@ -76,6 +75,15 @@ Database:AddChain(Chain.BattleOfArdenweald, {
         id = 63639,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 1132560,
+        },
+        {
+            type = "reputation",
+            id = 2465,
+            amount = 500,
+        },
     },
     items = {
         {
@@ -184,11 +192,7 @@ Database:AddChain(Chain.MawWalkers, {
         {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.PeeringIntoDarkness,
+            upto = 61099,
             lowPriority = true,
         },
         {
@@ -206,6 +210,25 @@ Database:AddChain(Chain.MawWalkers, {
         id = 64556,
     },
     rewards = {
+        {
+            name = L["THE_TRUE_MAW_WALKER"],
+            type = "spell",
+            id = 353214,
+        },
+        {
+            type = "money",
+            amount = 1595880,
+        },
+        {
+            type = "reputation",
+            id = 2432,
+            amount = 550,
+        },
+        {
+            type = "reputation",
+            id = 2470,
+            amount = 750,
+        },
     },
     items = {
         {
@@ -338,11 +361,7 @@ Database:AddChain(Chain.FocusingTheEye, {
         {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.PeeringIntoDarkness,
+            upto = 61099,
             lowPriority = true,
         },
         {
@@ -365,6 +384,31 @@ Database:AddChain(Chain.FocusingTheEye, {
         id = 63902,
     },
     rewards = {
+        {
+            name = L["ANIMAFLOW_TELEPORTER_LINK"],
+            type = "spell",
+            id = 353465,
+        },
+        {
+            name = L["BLIND_THE_EYE"],
+            type = "spell",
+            id = 353606,
+        },
+        {
+            type = "money",
+            amount = 3629340,
+        },
+        {
+            type = "reputation",
+            id = 1948,
+            amount = 1750,
+            restrictions = 924,
+        },
+        {
+            type = "reputation",
+            id = 2432,
+            amount = 2050,
+        },
     },
     items = {
         {
@@ -555,11 +599,7 @@ Database:AddChain(Chain.TheLastSigil, {
         {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.PeeringIntoDarkness,
+            upto = 61099,
             lowPriority = true,
         },
         {
@@ -587,6 +627,25 @@ Database:AddChain(Chain.TheLastSigil, {
         id = 63727,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 4144140,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+        {
+            type = "currency",
+            id = 1906,
+            amount = 100,
+        },
+        {
+            type = "reputation",
+            id = 2470,
+            amount = 1125,
+        },
     },
     items = {
         {
@@ -767,11 +826,7 @@ Database:AddChain(Chain.AnArmyOfBoneAndSteel, {
         {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.PeeringIntoDarkness,
+            upto = 61099,
             lowPriority = true,
         },
         {
@@ -804,6 +859,20 @@ Database:AddChain(Chain.AnArmyOfBoneAndSteel, {
         id = 63622,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 2368080,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+        {
+            type = "reputation",
+            id = 2410,
+            amount = 750,
+        },
     },
     items = {
         {
@@ -887,12 +956,38 @@ Database:AddChain(Chain.AnArmyOfBoneAndSteel, {
             type = "quest",
             id = 63622,
             x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63623,
+            aside = true,
+            restrictions = {
+                type = "covenant",
+                id = 4,
+            },
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63624,
+            aside = true,
+            restrictions = {
+                type = "covenant",
+                id = 4,
+            },
+            x = 0,
         },
     },
 })
 Database:AddChain(Chain.TheUnseenGuest, {
     name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 6),
-    questline = 1220,
+    questline = {1220, 1252},
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
@@ -945,11 +1040,7 @@ Database:AddChain(Chain.TheUnseenGuest, {
         {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.PeeringIntoDarkness,
+            upto = 61099,
             lowPriority = true,
         },
         {
@@ -987,6 +1078,20 @@ Database:AddChain(Chain.TheUnseenGuest, {
         id = 63656,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 2625480,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+        {
+            type = "reputation",
+            id = 2413,
+            amount = 750,
+        },
     },
     items = {
         {
@@ -1182,11 +1287,7 @@ Database:AddChain(Chain.ThePowerOfNight, {
         {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.PeeringIntoDarkness,
+            upto = 61099,
             lowPriority = true,
         },
         {
@@ -1229,6 +1330,15 @@ Database:AddChain(Chain.ThePowerOfNight, {
         id = 63683,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 2960100,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
     },
     items = {
         {
@@ -1447,11 +1557,7 @@ Database:AddChain(Chain.ANewPath, {
         {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.PeeringIntoDarkness,
+            upto = 61099,
             lowPriority = true,
         },
         {
@@ -1499,6 +1605,20 @@ Database:AddChain(Chain.ANewPath, {
         id = 63593,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 2290860,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+        {
+            type = "reputation",
+            id = 2407,
+            amount = 750,
+        },
     },
     items = {
         {
@@ -1709,11 +1829,7 @@ Database:AddChain(Chain.WhatLiesAhead, {
         {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.PeeringIntoDarkness,
+            upto = 61099,
             lowPriority = true,
         },
         {
@@ -1856,11 +1972,7 @@ Database:AddChain(Chain.TheyCouldBeAnyone, {
         {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.PeeringIntoDarkness,
+            upto = 61099,
             lowPriority = true,
         },
         {
@@ -1884,6 +1996,10 @@ Database:AddChain(Chain.TheyCouldBeAnyone, {
         id = 63763,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 2110680,
+        },
     },
     items = {
         {
@@ -2007,11 +2123,7 @@ Database:AddChain(Chain.ArchivistsOfKorthia, {
         {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.PeeringIntoDarkness,
+            upto = 61099,
             lowPriority = true,
         },
         {
@@ -2040,7 +2152,11 @@ Database:AddChain(Chain.ArchivistsOfKorthia, {
         {
             type = "faction",
             id = 2472,
-        }
+        },
+        {
+            type = "money",
+            amount = 1685970,
+        },
     },
     items = {
         {
@@ -2132,56 +2248,6 @@ Database:AddChain(Chain.TazaveshTheVeiledMarket, {
             type = "level",
             level = 60,
         },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.Kyrian.AmongTheKyrian or 90601,
-            lowPriority = true,
-            restrictions = {
-                type = "covenant",
-                id = 1,
-            },
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.Venthyr.Sinfall or 90901,
-            lowPriority = true,
-            restrictions = {
-                type = "covenant",
-                id = 2,
-            },
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.NightFae.ForQueenAndGrove or 90801,
-            lowPriority = true,
-            restrictions = {
-                type = "covenant",
-                id = 3,
-            },
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.Necrolord.LoyalToThePrimus or 90701,
-            lowPriority = true,
-            restrictions = {
-                type = "covenant",
-                id = 4,
-            },
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = BtWQuests.Constant.Chain.Shadowlands.PeeringIntoDarkness,
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = Chain.BattleOfArdenweald,
-        },
     },
     active = {
         type = "quest",
@@ -2194,8 +2260,12 @@ Database:AddChain(Chain.TazaveshTheVeiledMarket, {
     },
     rewards = {
         {
-            name = L["DUNGEON_TAZAVESH_THE_VEILED_MARKET"]
-        }
+            name = L["DUNGEON_TAZAVESH_THE_VEILED_MARKET"],
+        },
+        {
+            type = "money",
+            amount = 3474900,
+        },
     },
     items = {
         {
@@ -2315,14 +2385,14 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.ANewPath,
         },
-        {
-            type = "chain",
-            id = Chain.WhatLiesAhead,
-        },
-        {
-            type = "chain",
-            id = Chain.TheyCouldBeAnyone,
-        },
+        -- {
+        --     type = "chain",
+        --     id = Chain.WhatLiesAhead,
+        -- },
+        -- {
+        --     type = "chain",
+        --     id = Chain.TheyCouldBeAnyone,
+        -- },
         {
             type = "chain",
             id = Chain.ArchivistsOfKorthia,
