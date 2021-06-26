@@ -5508,6 +5508,7 @@ BtWQuestsDatabase:AddNPCsTable({
         },
     },
     [178640] = {
+        name = "Protector Attendant",
     },
     [178669] = {
         name = "Winter Queen",
@@ -5648,6 +5649,17 @@ BtWQuestsDatabase:AddNPCsTable({
                 {
                     x = 0.459188,
                     y = 0.578791,
+                },
+            },
+        },
+    },
+    [179978] = {
+        name = "The Stonewright",
+        locations = {
+            [1525] = {
+                {
+                    x = 0.230914,
+                    y = 0.45964,
                 },
             },
         },

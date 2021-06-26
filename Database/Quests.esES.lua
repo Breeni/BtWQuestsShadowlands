@@ -3324,6 +3324,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [63622] = {
         name = "Victoria en nuestro nombre",
     },
+    [63623] = {
+        name = "El trono vacante",
+    },
+    [63624] = {
+        name = "Las sendas que recorremos",
+    },
     [63638] = {
         name = "No podemos darles la espalda",
     },

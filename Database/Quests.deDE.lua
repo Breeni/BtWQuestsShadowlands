@@ -3324,6 +3324,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [63622] = {
         name = "Sieg in unserem Namen",
     },
+    [63623] = {
+        name = "Einen leeren Thron ausfüllen",
+    },
+    [63624] = {
+        name = "Die Wege, die wir beschreiten",
+    },
     [63638] = {
         name = "Nicht den Rücken zuwenden",
     },

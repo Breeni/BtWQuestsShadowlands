@@ -3327,6 +3327,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [63622] = {
         name = "Vitória em nosso nome",
     },
+    [63623] = {
+        name = "Preenchendo um trono vazio",
+    },
+    [63624] = {
+        name = "Os caminhos que percorremos",
+    },
     [63638] = {
         name = "Não podemos dar as costas",
     },

@@ -3339,6 +3339,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [63622] = {
         name = "胜利在握",
     },
+    [63623] = {
+        name = "虚位以待",
+    },
+    [63624] = {
+        name = "我等践行之途",
+    },
     [63638] = {
         name = "绝不背弃",
     },

@@ -3330,6 +3330,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [63622] = {
         name = "Victoire pour notre cause",
     },
+    [63623] = {
+        name = "Sur un trône vacant",
+    },
+    [63624] = {
+        name = "Les voies que nous empruntons",
+    },
     [63638] = {
         name = "Vigilance de tous les instants",
     },

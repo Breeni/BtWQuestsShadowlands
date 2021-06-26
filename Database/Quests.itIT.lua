@@ -3330,6 +3330,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [63622] = {
         name = "Vittoria nel nostro nome",
     },
+    [63623] = {
+        name = "Riempire un trono vuoto",
+    },
+    [63624] = {
+        name = "Le strade da percorrere",
+    },
     [63638] = {
         name = "Guardarsi sempre le spalle",
     },

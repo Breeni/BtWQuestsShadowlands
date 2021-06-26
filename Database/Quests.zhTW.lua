@@ -3339,6 +3339,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [63622] = {
         name = "光榮奪勝",
     },
+    [63623] = {
+        name = "王座空缺",
+    },
+    [63624] = {
+        name = "所經之路",
+    },
     [63638] = {
         name = "不能坐視不管",
     },

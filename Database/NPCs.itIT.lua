@@ -601,7 +601,7 @@ BtWQuestsDatabase:UpdateNPCsTable({
         name = "Baronessa Vashj",
     },
     [167205] = {
-        name = "Malefik Yondare",
+        name = "Yondare Malefik",
     },
     [167269] = {
         name = "Discepolo Apolon",

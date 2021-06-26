@@ -3324,6 +3324,12 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [63622] = {
         name = "Una victoria conjunta",
     },
+    [63623] = {
+        name = "La ocupación de un trono vacío",
+    },
+    [63624] = {
+        name = "Los caminos que transitamos",
+    },
     [63638] = {
         name = "No hay vuelta a atrás",
     },

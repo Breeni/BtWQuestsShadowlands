@@ -39141,6 +39141,26 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [63623] = {
+        name = "Filling an Empty Throne",
+        contentTuningID = 2043,
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
+    [63624] = {
+        name = "The Roads We Walk",
+        contentTuningID = 2043,
+        rewards = {
+            {
+                type = "money",
+                amount = 25740,
+            },
+        },
+    },
     [63638] = {
         name = "Can't Turn Our Backs",
         contentTuningID = 2139,
@@ -40537,6 +40557,11 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                name = L["ANIMAFLOW_TELEPORTER_LINK"],
+                type = "spell",
+                id = 353465,
+            },
+            {
                 type = "reputation",
                 id = 2432,
                 amount = 250,
@@ -40646,6 +40671,11 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
         rewards = {
+            {
+                name = L["BLIND_THE_EYE"],
+                type = "spell",
+                id = 353606,
+            },
             {
                 type = "money",
                 amount = 257400,
@@ -40841,6 +40871,11 @@ BtWQuestsDatabase:AddQuestsTable({
             id = 177227,
         },
         rewards = {
+            {
+                name = L["THE_TRUE_MAW_WALKER"],
+                type = "spell",
+                id = 353214,
+            },
             {
                 type = "money",
                 amount = 128700,
