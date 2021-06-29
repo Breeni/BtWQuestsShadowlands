@@ -1,4 +1,4 @@
-## Interface: 90105
+## Interface: 90100
 ## Title: BtWQuests: Shadowlands
 ## Version: 1.18
 ## Notes: Shadowlands quest data for BtWQuests
