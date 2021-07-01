@@ -3630,6 +3630,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [64092] = {
         name = "Die Jagd auf Huln",
     },
+    [64106] = {
+        name = "Vereinte Bemühungen",
+    },
     [64437] = {
         name = "Informiert den Primus",
     },

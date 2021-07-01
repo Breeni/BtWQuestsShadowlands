@@ -40999,6 +40999,20 @@ BtWQuestsDatabase:AddQuestsTable({
             },
         },
     },
+    [64106] = {
+        name = "A Unified Effort",
+        contentTuningID = 2043,
+        source = {
+            type = "npc",
+            id = 177228,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 514800,
+            },
+        },
+    },
     [64211] = {
     },
     [64212] = {

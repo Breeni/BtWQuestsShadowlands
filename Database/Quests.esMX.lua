@@ -3633,6 +3633,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [64092] = {
         name = "Cacería de Huln",
     },
+    [64106] = {
+        name = "Todos juntos",
+    },
     [64437] = {
         name = "Informe al Primus",
     },

@@ -3642,6 +3642,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [64092] = {
         name = "À la recherche de Huln",
     },
+    [64106] = {
+        name = "Un effort commun",
+    },
     [64437] = {
         name = "Informer le Primat",
     },

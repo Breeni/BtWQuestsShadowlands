@@ -3651,6 +3651,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [64092] = {
         name = "훌른을 쫓아서",
     },
+    [64106] = {
+        name = "단결된 노력",
+    },
     [64437] = {
         name = "시초자에게 보고",
     },

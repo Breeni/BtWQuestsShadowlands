@@ -3651,6 +3651,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [64092] = {
         name = "尋找胡恩",
     },
+    [64106] = {
+        name = "眾志成城",
+    },
     [64437] = {
         name = "通知統御者",
     },

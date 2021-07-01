@@ -3651,6 +3651,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [64092] = {
         name = "追猎胡恩",
     },
+    [64106] = {
+        name = "勠力同心",
+    },
     [64437] = {
         name = "告知兵主",
     },

@@ -3639,6 +3639,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [64092] = {
         name = "A caccia di Huln",
     },
+    [64106] = {
+        name = "Uno sforzo unito",
+    },
     [64437] = {
         name = "Informare il Primus",
     },

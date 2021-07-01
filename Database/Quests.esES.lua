@@ -3633,6 +3633,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [64092] = {
         name = "En busca de Huln",
     },
+    [64106] = {
+        name = "Un esfuerzo conjunto",
+    },
     [64437] = {
         name = "Informar al Prelado",
     },

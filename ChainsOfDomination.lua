@@ -541,6 +541,15 @@ Database:AddChain(Chain.FocusingTheEye, {
             type = "quest",
             id = 63902,
             x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 64106,
+            aside = true,
+            x = 0,
         },
     },
 })
@@ -1983,8 +1992,13 @@ Database:AddChain(Chain.TheyCouldBeAnyone, {
         {
             type = "chain",
             id = Chain.MawWalkers,
+            lowPriority = true,
         },
-        --@TODO requiremets changed
+        {
+            type = "chain",
+            id = Chain.FocusingTheEye,
+            upto = 64106,
+        },
     },
     active = {
         type = "quest",
@@ -2160,8 +2174,8 @@ Database:AddChain(Chain.ArchivistsOfKorthia, {
     },
     items = {
         {
-            name = L["KILL_RARES"],
-            breadcrumb = true,
+            type = "item",
+            id = 187177,
             x = 0,
             connections = {
                 1, 
@@ -2389,13 +2403,13 @@ Database:AddCategory(CATEGORY_ID, {
         --     type = "chain",
         --     id = Chain.WhatLiesAhead,
         -- },
-        -- {
-        --     type = "chain",
-        --     id = Chain.TheyCouldBeAnyone,
-        -- },
         {
             type = "chain",
             id = Chain.ArchivistsOfKorthia,
+        },
+        {
+            type = "chain",
+            id = Chain.TheyCouldBeAnyone,
         },
         {
             type = "chain",

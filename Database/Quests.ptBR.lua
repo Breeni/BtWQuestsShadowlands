@@ -3636,6 +3636,9 @@ BtWQuestsDatabase:UpdateQuestsTable({
     [64092] = {
         name = "À caça de Huln",
     },
+    [64106] = {
+        name = "Esforço unificado",
+    },
     [64437] = {
         name = "Informe o Prócer",
     },
