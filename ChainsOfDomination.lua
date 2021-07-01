@@ -2176,6 +2176,7 @@ Database:AddChain(Chain.ArchivistsOfKorthia, {
         {
             type = "item",
             id = 187177,
+            breadcrumb = true,
             x = 0,
             connections = {
                 1, 
