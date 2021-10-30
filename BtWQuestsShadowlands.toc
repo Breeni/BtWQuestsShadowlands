@@ -1,6 +1,6 @@
-## Interface: 90100
+## Interface: 90105
 ## Title: BtWQuests: Shadowlands
-## Version: 4.1
+## Version: 4.2
 ## Notes: Shadowlands quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests
