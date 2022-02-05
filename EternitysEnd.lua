@@ -75,6 +75,15 @@ Database:AddChain(Chain.IntoTheUnknown, {
         id = 64958,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 2496780,
+        },
+        {
+            type = "reputation",
+            id = 2478,
+            amount = 550,
+        },
     },
     items = {
         {
@@ -247,6 +256,15 @@ Database:AddChain(Chain.WeBattleOnward, {
         id = 64825,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 3655080,
+        },
+        {
+            type = "reputation",
+            id = 2478,
+            amount = 1175,
+        },
     },
     items = {
         {
@@ -467,6 +485,25 @@ Database:AddChain(Chain.FormingAnUnderstanding, {
         id = 65305,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 1776060,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+        {
+            type = "currency",
+            id = 1979,
+            amount = 125,
+        },
+        {
+            type = "reputation",
+            id = 2478,
+            amount = 375,
+        },
     },
     items = {
         {
@@ -651,6 +688,20 @@ Database:AddChain(Chain.ForgingANewPath, {
         id = 64844,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 2985840,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+        {
+            type = "reputation",
+            id = 2478,
+            amount = 500,
+        },
     },
     items = {
         {
@@ -892,6 +943,15 @@ Database:AddChain(Chain.CrownOfWills, {
         id = 64816,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 3294720,
+        },
+        {
+            type = "reputation",
+            id = 2478,
+            amount = 500,
+        },
     },
     items = {
         {
@@ -1136,6 +1196,15 @@ Database:AddChain(Chain.AMeansToAnEnd, {
         id = 65328,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 2664090,
+        },
+        {
+            type = "reputation",
+            id = 2478,
+            amount = 500,
+        },
     },
     items = {
         {
@@ -1329,6 +1398,20 @@ Database:AddChain(Chain.StartingOver, {
         id = 65238,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 4465890,
+        },
+        {
+            type = "reputation",
+            id = 2407,
+            amount = 250,
+        },
+        {
+            type = "reputation",
+            id = 2478,
+            amount = 500,
+        },
     },
     items = {
         {
@@ -1685,6 +1768,10 @@ Database:AddChain(Chain.NotAlAreLost, {
         id = 64760,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 1608750,
+        },
     },
     items = {
         {
@@ -1775,6 +1862,14 @@ Database:AddChain(Chain.SmallPetProblems, {
         id = 65070,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 1544400,
+        },
+        {
+            type = "pet",
+            id = 3237,
+        },
     },
     items = {
         {
@@ -1835,6 +1930,7 @@ Database:AddChain(Chain.SmallPetProblems, {
         {
             type = "item",
             id = 189585,
+            aside = true,
             x = 0,
         },
     },
@@ -1865,6 +1961,10 @@ Database:AddChain(Chain.TheWatersOfGrace, {
         id = 65448,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 772200,
+        },
     },
     items = {
         {
@@ -1938,6 +2038,20 @@ Database:AddChain(Chain.CyphersOfTheFirstOnes, {
         id = 65433,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 334620,
+        },
+        {
+            type = "currency",
+            id = 1822,
+            amount = 1,
+        },
+        {
+            type = "currency",
+            id = 1979,
+            amount = 120,
+        },
     },
     items = {
         {
@@ -2007,6 +2121,10 @@ Database:AddChain(Chain.JiroToHero, {
         id = 65219,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 1287000,
+        },
     },
     items = {
         {
@@ -2143,6 +2261,10 @@ Database:AddChain(Chain.TheFinalSong, {
         id = 65420,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 2007720,
+        },
     },
     items = {
         {
@@ -2253,6 +2375,10 @@ Database:AddChain(Chain.ReapWhatYouSow, {
         id = 64648,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 2059200,
+        },
     },
     items = {
         {
@@ -2369,6 +2495,10 @@ Database:AddChain(Chain.ANewArchitect, {
         id = 65427,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 154440,
+        },
     },
     items = {
         {
@@ -2419,6 +2549,10 @@ Database:AddChain(Chain.Chain01, {
         id = 65419,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 25740,
+        },
     },
     items = {
         {
@@ -2460,6 +2594,10 @@ Database:AddChain(Chain.Chain02, {
         id = 65700,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 128700,
+        },
     },
     items = {
         {
@@ -2501,6 +2639,15 @@ Database:AddChain(Chain.Chain03, {
         id = 65749,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 257400,
+        },
+        {
+            type = "reputation",
+            id = 2478,
+            amount = 50,
+        },
     },
     items = {
         {
@@ -2542,6 +2689,15 @@ Database:AddChain(Chain.Chain04, {
         id = 65748,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 514800,
+        },
+        {
+            type = "reputation",
+            id = 2478,
+            amount = 75,
+        },
     },
     items = {
         {
@@ -2623,6 +2779,15 @@ Database:AddChain(Chain.Chain06, {
         id = 65735,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 514800,
+        },
+        {
+            type = "reputation",
+            id = 2478,
+            amount = 200,
+        },
     },
     items = {
         {
@@ -2665,6 +2830,15 @@ Database:AddChain(Chain.Chain07, {
         count = 3,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 77220,
+        },
+        {
+            type = "currency",
+            id = 1979,
+            amount = 15,
+        },
     },
     items = {
         {
@@ -2710,6 +2884,10 @@ Database:AddChain(Chain.Chain08, {
         id = 65674,
     },
     rewards = {
+        {
+            type = "money",
+            amount = 128700,
+        },
     },
     items = {
         {
