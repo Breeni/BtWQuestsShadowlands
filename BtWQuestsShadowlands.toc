@@ -76,6 +76,7 @@ Database/Index.zhCN.lua
 Database/Index.zhTW.lua
 
 Introduction.lua
+EternitysEnd.lua
 ChainsOfDomination.lua
 Bastion.lua
 Maldraxxus.lua
