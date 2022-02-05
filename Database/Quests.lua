@@ -1,4 +1,5 @@
 ----- AUTO GENERATED - DO NOT EDIT
+local L = BtWQuests.L;
 
 BtWQuestsDatabase:AddQuestsTable({
     [56829] = {
