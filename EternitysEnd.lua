@@ -64,6 +64,20 @@ Database:AddChain(Chain.IntoTheUnknown, {
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
             upto = 61099,
         },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.BattleOfArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.FocusingTheEye,
+        },
     },
     active = {
         type = "quest",
@@ -239,6 +253,21 @@ Database:AddChain(Chain.WeBattleOnward, {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
             upto = 61099,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.BattleOfArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.FocusingTheEye,
             lowPriority = true,
         },
         {
@@ -467,6 +496,21 @@ Database:AddChain(Chain.FormingAnUnderstanding, {
         },
         {
             type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.BattleOfArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.FocusingTheEye,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
             id = Chain.IntoTheUnknown,
             lowPriority = true,
         },
@@ -623,10 +667,6 @@ Database:AddChain(Chain.ForgingANewPath, {
             level = 60,
         },
         {
-            type = "renown",
-            level = 44,
-        },
-        {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Kyrian.AmongTheKyrian or 90601,
             lowPriority = true,
@@ -666,6 +706,21 @@ Database:AddChain(Chain.ForgingANewPath, {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
             upto = 61099,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.BattleOfArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.FocusingTheEye,
             lowPriority = true,
         },
         {
@@ -868,10 +923,6 @@ Database:AddChain(Chain.CrownOfWills, {
             level = 60,
         },
         {
-            type = "renown",
-            level = 47,
-        },
-        {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Kyrian.AmongTheKyrian or 90601,
             lowPriority = true,
@@ -911,6 +962,21 @@ Database:AddChain(Chain.CrownOfWills, {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
             upto = 61099,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.BattleOfArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.FocusingTheEye,
             lowPriority = true,
         },
         {
@@ -1121,10 +1187,6 @@ Database:AddChain(Chain.AMeansToAnEnd, {
             level = 60,
         },
         {
-            type = "renown",
-            level = 50,
-        },
-        {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Kyrian.AmongTheKyrian or 90601,
             lowPriority = true,
@@ -1164,6 +1226,21 @@ Database:AddChain(Chain.AMeansToAnEnd, {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
             upto = 61099,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.BattleOfArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.FocusingTheEye,
             lowPriority = true,
         },
         {
@@ -1318,10 +1395,6 @@ Database:AddChain(Chain.StartingOver, {
             level = 60,
         },
         {
-            type = "renown",
-            level = 52,
-        },
-        {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Kyrian.AmongTheKyrian or 90601,
             lowPriority = true,
@@ -1361,6 +1434,21 @@ Database:AddChain(Chain.StartingOver, {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
             upto = 61099,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.BattleOfArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.FocusingTheEye,
             lowPriority = true,
         },
         {
@@ -1573,10 +1661,6 @@ Database:AddChain(Chain.EpilogueJudgment, {
             level = 60,
         },
         {
-            type = "renown",
-            level = 56,
-        },
-        {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Kyrian.AmongTheKyrian or 90601,
             lowPriority = true,
@@ -1616,6 +1700,21 @@ Database:AddChain(Chain.EpilogueJudgment, {
             type = "chain",
             id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
             upto = 61099,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.BattleOfArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.FocusingTheEye,
             lowPriority = true,
         },
         {
@@ -1760,6 +1859,21 @@ Database:AddChain(Chain.NotAlAreLost, {
         },
         {
             type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.BattleOfArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.FocusingTheEye,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
             id = Chain.IntoTheUnknown,
         },
     },
@@ -1851,6 +1965,73 @@ Database:AddChain(Chain.SmallPetProblems, {
         {
             type = "level",
             level = 60,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Kyrian.AmongTheKyrian or 90601,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 1,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Venthyr.Sinfall or 90901,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 2,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.NightFae.ForQueenAndGrove or 90801,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 3,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Necrolord.LoyalToThePrimus or 90701,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 4,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
+            upto = 61099,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.BattleOfArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.FocusingTheEye,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.IntoTheUnknown,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.WeBattleOnward,
+            lowPriority = true,
         },
         {
             type = "chain",
@@ -1950,6 +2131,63 @@ Database:AddChain(Chain.TheWatersOfGrace, {
         {
             type = "level",
             level = 60,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Kyrian.AmongTheKyrian or 90601,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 1,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Venthyr.Sinfall or 90901,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 2,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.NightFae.ForQueenAndGrove or 90801,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 3,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Necrolord.LoyalToThePrimus or 90701,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 4,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
+            upto = 61099,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.BattleOfArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.FocusingTheEye,
+            lowPriority = true,
         },
         {
             type = "chain",
@@ -2108,6 +2346,73 @@ Database:AddChain(Chain.JiroToHero, {
         },
         {
             type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Kyrian.AmongTheKyrian or 90601,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 1,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Venthyr.Sinfall or 90901,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 2,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.NightFae.ForQueenAndGrove or 90801,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 3,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Necrolord.LoyalToThePrimus or 90701,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 4,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
+            upto = 61099,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.BattleOfArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.FocusingTheEye,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.IntoTheUnknown,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.WeBattleOnward,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
             id = Chain.FormingAnUnderstanding,
             upto = 64230,
         },
@@ -2248,6 +2553,73 @@ Database:AddChain(Chain.TheFinalSong, {
         },
         {
             type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Kyrian.AmongTheKyrian or 90601,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 1,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Venthyr.Sinfall or 90901,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 2,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.NightFae.ForQueenAndGrove or 90801,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 3,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Necrolord.LoyalToThePrimus or 90701,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 4,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
+            upto = 61099,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.BattleOfArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.FocusingTheEye,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.IntoTheUnknown,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.WeBattleOnward,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
             id = Chain.FormingAnUnderstanding,
             upto = 64230,
         },
@@ -2362,6 +2734,73 @@ Database:AddChain(Chain.ReapWhatYouSow, {
         },
         {
             type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Kyrian.AmongTheKyrian or 90601,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 1,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Venthyr.Sinfall or 90901,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 2,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.NightFae.ForQueenAndGrove or 90801,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 3,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Necrolord.LoyalToThePrimus or 90701,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 4,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
+            upto = 61099,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.BattleOfArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.FocusingTheEye,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.IntoTheUnknown,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.WeBattleOnward,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
             id = Chain.FormingAnUnderstanding,
             upto = 64230,
         },
@@ -2465,6 +2904,73 @@ Database:AddChain(Chain.ANewArchitect, {
         {
             type = "level",
             level = 60,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Kyrian.AmongTheKyrian or 90601,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 1,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Venthyr.Sinfall or 90901,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 2,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.NightFae.ForQueenAndGrove or 90801,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 3,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Necrolord.LoyalToThePrimus or 90701,
+            lowPriority = true,
+            restrictions = {
+                type = "covenant",
+                id = 4,
+            },
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.Torghast,
+            upto = 61099,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.BattleOfArdenweald,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.MawWalkers,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = BtWQuests.Constant.Chain.Shadowlands.ChainsOfDomination.FocusingTheEye,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.IntoTheUnknown,
+            lowPriority = true,
+        },
+        {
+            type = "chain",
+            id = Chain.WeBattleOnward,
+            lowPriority = true,
         },
         {
             type = "chain",
