@@ -364,6 +364,17 @@ BtWQuestsDatabase:AddObjectsTable({
             },
         },
     },
+    [375517] = {
+        name = "Suspicious Rubble Pile",
+        locations = {
+            [1970] = {
+                {
+                    x = 0.484363,
+                    y = 0.271782,
+                },
+            },
+        },
+    },
     [375972] = {
         name = "Wanted: Custos",
         locations = {

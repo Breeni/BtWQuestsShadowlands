@@ -5476,6 +5476,14 @@ BtWQuestsDatabase:AddNPCsTable({
     },
     [178015] = {
         name = "Elder Zoor",
+        locations = {
+            [1970] = {
+                {
+                    x = 0.348352,
+                    y = 0.649924,
+                },
+            },
+        },
     },
     [178016] = {
         name = "Elder Ara",
@@ -6000,6 +6008,17 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [181135] = {
+        name = "Servitor Interface",
+        locations = {
+            [1970] = {
+                {
+                    x = 0.702033,
+                    y = 0.285743,
+                },
+            },
+        },
+    },
     [181170] = {
         name = "Olea Manu",
         locations = {
@@ -6104,8 +6123,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1970] = {
                 {
-                    x = 0.639274,
-                    y = 0.407792,
+                    x = 0.614611,
+                    y = 0.515646,
                 },
             },
         },

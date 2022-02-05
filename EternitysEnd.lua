@@ -504,6 +504,11 @@ Database:AddChain(Chain.FormingAnUnderstanding, {
             id = 2478,
             amount = 375,
         },
+        {
+            name = L["BTWQUESTS_WORLD_QUESTS"],
+            type = "spell",
+            id = 366935,
+        },
     },
     items = {
         {

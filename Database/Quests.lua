@@ -41353,6 +41353,11 @@ BtWQuestsDatabase:AddQuestsTable({
         },
         rewards = {
             {
+                name = L["BTWQUESTS_WORLD_QUESTS"],
+                type = "spell",
+                id = 366935,
+            },
+            {
                 type = "money",
                 amount = 257400,
             },
@@ -41597,6 +41602,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 180919,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
         },
     },
     [64718] = {
@@ -41858,6 +41869,12 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 184469,
         },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
     },
     [64741] = {
         name = "Security Check",
@@ -41937,6 +41954,14 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 181273,
+            locations = {
+                [1970] = {
+                    {
+                        x = 0.639274,
+                        y = 0.407792,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -41955,7 +41980,7 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "money",
-                amount = 257400,
+                amount = 128700,
             },
         },
     },
@@ -42000,6 +42025,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 257400,
+            },
+            {
+                type = "reputation",
+                id = 2478,
+                amount = 100,
             },
         },
     },
@@ -42146,6 +42176,12 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 180984,
         },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
     },
     [64778] = {
         name = "Rift Recon",
@@ -42154,6 +42190,12 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 181170,
         },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
     },
     [64779] = {
         name = "Pound of Flesh",
@@ -42161,6 +42203,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 181174,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
         },
     },
     [64780] = {
@@ -43062,6 +43110,10 @@ BtWQuestsDatabase:AddQuestsTable({
     [64935] = {
         name = "Between A Rock & A Rock",
         contentTuningID = 2057,
+        source = {
+            type = "object",
+            id = 375517,
+        },
         rewards = {
             {
                 type = "money",
@@ -43416,6 +43468,12 @@ BtWQuestsDatabase:AddQuestsTable({
             type = "npc",
             id = 180989,
         },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
+        },
     },
     [65237] = {
         name = "Oracle, Heal Thyself",
@@ -43685,6 +43743,7 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [65380] = {
+        name = "Schematic Reassimilation: Deathrunner",
         contentTuningID = 2057,
     },
     [65419] = {
@@ -43726,6 +43785,10 @@ BtWQuestsDatabase:AddQuestsTable({
     [65426] = {
         name = "The Lost Component",
         contentTuningID = 2057,
+        source = {
+            type = "npc",
+            id = 181273,
+        },
         rewards = {
             {
                 type = "money",
@@ -43736,6 +43799,10 @@ BtWQuestsDatabase:AddQuestsTable({
     [65427] = {
         name = "A New Architect",
         contentTuningID = 2057,
+        source = {
+            type = "npc",
+            id = 181135,
+        },
         rewards = {
             {
                 type = "money",
@@ -43748,7 +43815,15 @@ BtWQuestsDatabase:AddQuestsTable({
         contentTuningID = 2057,
         source = {
             type = "npc",
-            id = 181397,
+            id = 177958,
+            locations = {
+                [1970] = {
+                    {
+                        x = 0.340379,
+                        y = 0.481212,
+                    },
+                },
+            },
         },
         rewards = {
             {
@@ -43796,6 +43871,11 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "money",
                 amount = 128700,
+            },
+            {
+                type = "reputation",
+                id = 2478,
+                amount = 100,
             },
         },
     },
@@ -43971,8 +44051,8 @@ BtWQuestsDatabase:AddQuestsTable({
             locations = {
                 [1970] = {
                     {
-                        x = 0.34224,
-                        y = 0.48646,
+                        x = 0.340379,
+                        y = 0.481212,
                     },
                 },
             },
@@ -43992,6 +44072,10 @@ BtWQuestsDatabase:AddQuestsTable({
     [65768] = {
         name = "Our Forward Scouts",
         contentTuningID = 2057,
+        source = {
+            type = "npc",
+            id = 181183,
+        },
         rewards = {
             {
                 type = "money",
@@ -44002,6 +44086,10 @@ BtWQuestsDatabase:AddQuestsTable({
     [65771] = {
         name = "Favor of the First Ones",
         contentTuningID = 2057,
+        source = {
+            type = "npc",
+            id = 178015,
+        },
         rewards = {
             {
                 type = "money",
@@ -44017,6 +44105,10 @@ BtWQuestsDatabase:AddQuestsTable({
     [65772] = {
         name = "Necessary Harvest",
         contentTuningID = 2057,
+        source = {
+            type = "npc",
+            id = 178016,
+        },
         rewards = {
             {
                 type = "money",
