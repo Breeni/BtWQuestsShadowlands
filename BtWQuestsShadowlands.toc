@@ -75,6 +75,8 @@ Database/Index.ruRU.lua
 Database/Index.zhCN.lua
 Database/Index.zhTW.lua
 
+Database/Index.EternitysEnd.lua
+
 Introduction.lua
 EternitysEnd.lua
 ChainsOfDomination.lua
