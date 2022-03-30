@@ -6448,6 +6448,28 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [183822] = {
+        name = "Uther",
+        locations = {
+            [1670] = {
+                {
+                    x = 0.522018,
+                    y = 0.407339,
+                },
+            },
+        },
+    },
+    [183830] = {
+        name = "Arbiter Pelagos",
+        locations = {
+            [1673] = {
+                {
+                    x = 0.690909,
+                    y = 0.481818,
+                },
+            },
+        },
+    },
     [184062] = {
         name = "Firim",
         locations = {

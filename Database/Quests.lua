@@ -41386,11 +41386,6 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 128700,
             },
             {
-                type = "currency",
-                id = 1822,
-                amount = 1,
-            },
-            {
                 type = "reputation",
                 id = 2470,
                 amount = 1500,
@@ -41484,7 +41479,7 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "money",
-                amount = 257400,
+                amount = 128700,
             },
         },
     },
@@ -41872,7 +41867,7 @@ BtWQuestsDatabase:AddQuestsTable({
         rewards = {
             {
                 type = "money",
-                amount = 257400,
+                amount = 64350,
             },
         },
     },
@@ -43557,12 +43552,36 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [65249] = {
+        name = "The Jailer's Defeat",
+        contentTuningID = 2057,
+        source = {
+            type = "npc",
+            id = 181183,
+        },
     },
     [65250] = {
+        name = "Prisoner of Interest",
+        contentTuningID = 2057,
+        source = {
+            type = "npc",
+            id = 181183,
+        },
     },
     [65260] = {
+        name = "A Long Walk",
+        contentTuningID = 2057,
+        source = {
+            type = "npc",
+            id = 183822,
+        },
     },
     [65263] = {
+        name = "The Fate of Sylvanas",
+        contentTuningID = 2057,
+        source = {
+            type = "npc",
+            id = 183830,
+        },
     },
     [65271] = {
         name = "Forging Connections",
@@ -43592,6 +43611,12 @@ BtWQuestsDatabase:AddQuestsTable({
         },
     },
     [65297] = {
+        name = "Penance and Renewal",
+        contentTuningID = 2057,
+        source = {
+            type = "npc",
+            id = 183830,
+        },
     },
     [65305] = {
         name = "The Way Forward",
@@ -43626,7 +43651,7 @@ BtWQuestsDatabase:AddQuestsTable({
             {
                 type = "reputation",
                 id = 2478,
-                amount = 250,
+                amount = 500,
             },
         },
     },
@@ -44002,6 +44027,12 @@ BtWQuestsDatabase:AddQuestsTable({
         source = {
             type = "npc",
             id = 180950,
+        },
+        rewards = {
+            {
+                type = "money",
+                amount = 257400,
+            },
         },
     },
     [65735] = {

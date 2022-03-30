@@ -1649,7 +1649,7 @@ Database:AddChain(Chain.StartingOver, {
     }
 })
 Database:AddChain(Chain.EpilogueJudgment, {
-    name = BtWQuests_GetAchievementCriteriaNameDelayed(ACHIEVEMENT_ID, 8),
+    name = L["EPILOGUE_JUDGMENT"],
     questline = 1284,
     category = CATEGORY_ID,
     expansion = EXPANSION_ID,
@@ -1764,6 +1764,14 @@ Database:AddChain(Chain.EpilogueJudgment, {
     rewards = {
     },
     items = {
+        {
+            type = "npc",
+            id = 181183,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
         {
             type = "quest",
             id = 65249,
@@ -3447,10 +3455,10 @@ Database:AddCategory(CATEGORY_ID, {
             type = "chain",
             id = Chain.StartingOver,
         },
-        -- {
-        --     type = "chain",
-        --     id = Chain.EpilogueJudgment,
-        -- },
+        {
+            type = "chain",
+            id = Chain.EpilogueJudgment,
+        },
         
         {
             type = "chain",
