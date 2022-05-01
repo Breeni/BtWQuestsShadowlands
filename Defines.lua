@@ -46,6 +46,9 @@ BtWQuests.Constant.Chain.Shadowlands = {
     NewRules = 90006,
     PeeringIntoDarkness = 90007,
 
+    Chain92501 = 90008,
+    Chain92502 = 90009,
+
     EternitysEnd = {
         IntoTheUnknown = 91101,
         WeBattleOnward = 91102,

@@ -80,6 +80,7 @@ Database/Index.EternitysEnd.lua
 Introduction.lua
 EternitysEnd.lua
 ChainsOfDomination.lua
+Patch_9_2_5.lua
 Bastion.lua
 Maldraxxus.lua
 Ardenweald.lua
