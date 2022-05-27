@@ -195,7 +195,10 @@ Database:AddChain(Chain.Chain92501, {
     }
 })
 Database:AddChain(Chain.Chain92502, {
-    questline = 1098,
+    name = { -- Good Fiery Boy
+        type = "quest",
+        id = 65564,
+    },
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
     crest = "dark-iron-dwarf",
