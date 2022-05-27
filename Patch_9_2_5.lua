@@ -1,3 +1,6 @@
+if select(4, GetBuildInfo()) < 90205 then
+    return
+end
 local BtWQuests = BtWQuests
 local L = BtWQuests.L
 local Database = BtWQuests.Database
