@@ -12,6 +12,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [141159] = {
         name = "울파르",
     },
+    [144154] = {
+        name = "엔빌테인 터르가덴",
+    },
     [154627] = {
         name = "잔드리아",
     },

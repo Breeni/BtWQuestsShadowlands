@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateQuestsTable({
+    [51483] = {
+        name = "Legado de los Hierro Negro",
+    },
     [56829] = {
         name = "Alimento para peces",
     },

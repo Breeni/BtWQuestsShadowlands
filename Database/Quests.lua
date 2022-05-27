@@ -2,6 +2,16 @@
 local L = BtWQuests.L;
 
 BtWQuestsDatabase:AddQuestsTable({
+    [51483] = {
+        name = "Heritage o' the Dark Iron",
+        contentTuningID = 1281,
+        rewards = {
+            {
+                type = "experience",
+                amount = 85,
+            },
+        },
+    },
     [56829] = {
         name = "Bottom Feeders",
         contentTuningID = 1425,
@@ -2967,7 +2977,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [57471] = {
         name = "It's a Dirty Job",
-        contentTuningID = 1425,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 157846,
@@ -2978,49 +2988,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         y = 0.732089,
                     },
                 },
-            },
-        },
-        rewards = {
-            {
-                type = "experience",
-                variations = {
-                    {
-                        amounts = {
-                            7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
-                        },
-                        minLevel = 50,
-                        maxLevel = 59,
-                        restrictions = 86994,
-                    },
-                    {
-                        amounts = {
-                            8950, 9100, 
-                        },
-                        minLevel = 58,
-                        maxLevel = 59,
-                    },
-                },
-            },
-            {
-                type = "money",
-                variations = {
-                    {
-                        amounts = {
-                            234000, 236340, 238680, 241020, 243360, 245700, 248040, 250380, 252720, 255060, 257400, 
-                        },
-                        minLevel = 50,
-                        maxLevel = 60,
-                        restrictions = 86994,
-                    },
-                    {
-                        amount = 252720,
-                    },
-                },
-            },
-            {
-                type = "reputation",
-                id = 2413,
-                amount = 50,
             },
         },
     },
@@ -20160,7 +20127,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [59660] = {
         name = "A New Court",
-        contentTuningID = 2060,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161979,
@@ -20171,12 +20138,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         y = 0.181354,
                     },
                 },
-            },
-        },
-        rewards = {
-            {
-                type = "money",
-                amount = 128700,
             },
         },
     },
@@ -20401,7 +20362,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [59701] = {
         name = "Common Ground",
-        contentTuningID = 2060,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 158653,
@@ -20412,12 +20373,6 @@ BtWQuestsDatabase:AddQuestsTable({
                         y = 0.375757,
                     },
                 },
-            },
-        },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
             },
         },
     },
@@ -24553,7 +24508,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60051] = {
         name = "A Master of Their Craft",
-        contentTuningID = 837,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 158653,
@@ -24562,33 +24517,6 @@ BtWQuestsDatabase:AddQuestsTable({
                     {
                         x = 0.517884,
                         y = 0.375757,
-                    },
-                },
-            },
-        },
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    975, 975, 1000, 1000, 1050, 1050, 1100, 1100, 1100, 1150, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-                restrictions = 86994,
-            },
-            {
-                type = "money",
-                variations = {
-                    {
-                        amounts = {
-                            23400, 23635, 23870, 24100, 24335, 24570, 24805, 25040, 25270, 25505, 25740, 
-                        },
-                        minLevel = 50,
-                        maxLevel = 60,
-                        restrictions = 86994,
-                    },
-                    {
-                        amount = 25740,
                     },
                 },
             },
@@ -29531,14 +29459,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60574] = {
         name = "Shaking 'Shrooms",
-        contentTuningID = 2060,
-        rewards = {
-            {
-                type = "reputation",
-                id = 2465,
-                amount = 125,
-            },
-        },
+        contentTuningID = -1,
     },
     [60575] = {
         name = "Belly Full of Fae",
@@ -31022,14 +30943,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60739] = {
         name = "Tough Crowd",
-        contentTuningID = 2060,
-        rewards = {
-            {
-                type = "reputation",
-                id = 2465,
-                amount = 125,
-            },
-        },
+        contentTuningID = -1,
     },
     [60763] = {
         name = "I Moustache You to Lend a Hand",
@@ -31321,23 +31235,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [60855] = {
         name = "Gormageddon",
-        contentTuningID = 837,
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-                restrictions = 86994,
-            },
-            {
-                type = "reputation",
-                id = 2465,
-                amount = 125,
-            },
-        },
+        contentTuningID = -1,
     },
     [60856] = {
         name = "Toppling the Brute",
@@ -33266,16 +33164,10 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [61492] = {
         name = "The Princeguard",
-        contentTuningID = 2060,
+        contentTuningID = -1,
         source = {
             type = "npc",
             id = 161977,
-        },
-        rewards = {
-            {
-                type = "money",
-                amount = 257400,
-            },
         },
     },
     [61518] = {
@@ -35510,23 +35402,7 @@ BtWQuestsDatabase:AddQuestsTable({
     },
     [61947] = {
         name = "Lurking In The Shadows",
-        contentTuningID = 837,
-        rewards = {
-            {
-                type = "experience",
-                amounts = {
-                    7700, 7850, 8000, 8200, 8350, 8500, 8650, 8800, 8950, 9100, 
-                },
-                minLevel = 50,
-                maxLevel = 59,
-                restrictions = 86994,
-            },
-            {
-                type = "reputation",
-                id = 2465,
-                amount = 125,
-            },
-        },
+        contentTuningID = -1,
     },
     [61948] = {
         name = "Airborne Defense Force",
@@ -38666,6 +38542,42 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 25740,
             },
         },
+    },
+    [63479] = {
+    },
+    [63480] = {
+    },
+    [63481] = {
+    },
+    [63482] = {
+    },
+    [63483] = {
+    },
+    [63484] = {
+    },
+    [63485] = {
+    },
+    [63486] = {
+    },
+    [63487] = {
+    },
+    [63488] = {
+    },
+    [63489] = {
+    },
+    [63490] = {
+    },
+    [63494] = {
+    },
+    [63498] = {
+    },
+    [63501] = {
+    },
+    [63502] = {
+    },
+    [63519] = {
+    },
+    [63522] = {
     },
     [63576] = {
         name = "The First Move",
@@ -43988,6 +43900,14 @@ BtWQuestsDatabase:AddQuestsTable({
                 amount = 5,
             },
         },
+    },
+    [65563] = {
+    },
+    [65564] = {
+    },
+    [65652] = {
+    },
+    [65653] = {
     },
     [65674] = {
         name = "What Is This Thing?",

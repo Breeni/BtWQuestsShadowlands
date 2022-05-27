@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [144154] = {
+        name = "Thane-enclume Thurgaden",
+    },
     [155533] = {
         name = "Grand chambellan",
     },

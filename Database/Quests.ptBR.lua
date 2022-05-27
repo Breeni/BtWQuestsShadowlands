@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateQuestsTable({
+    [51483] = {
+        name = "Herança do clã Ferro Negro",
+    },
     [56829] = {
         name = "A base da cadeia",
     },

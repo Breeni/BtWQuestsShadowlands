@@ -23,6 +23,9 @@ BtWQuestsDatabase:AddNPCsTable({
             },
         },
     },
+    [144154] = {
+        name = "Anvil-Thane Thurgaden",
+    },
     [154627] = {
         name = "Xandria",
         locations = {
@@ -4989,6 +4992,8 @@ BtWQuestsDatabase:AddNPCsTable({
                 },
             },
         },
+    },
+    [176789] = {
     },
     [177116] = {
         name = "Polemarch Adrestes",

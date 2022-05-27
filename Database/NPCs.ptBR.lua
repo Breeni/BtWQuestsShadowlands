@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [144154] = {
+        name = "Thane de Bigorna Thurgaden",
+    },
     [154627] = {
         name = "Xândria",
     },

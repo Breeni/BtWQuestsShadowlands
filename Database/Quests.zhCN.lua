@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateQuestsTable({
+    [51483] = {
+        name = "黑铁的传承",
+    },
     [56829] = {
         name = "沉底啃泥",
     },

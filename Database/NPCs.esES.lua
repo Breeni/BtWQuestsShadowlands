@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [144154] = {
+        name = "Maestro del yunque Thurgaden",
+    },
     [155533] = {
         name = "Lord chambelán",
     },

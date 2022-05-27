@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [144154] = {
+        name = "Thane della Forgia Thurgaden",
+    },
     [155533] = {
         name = "Ciambellano Supremo",
     },

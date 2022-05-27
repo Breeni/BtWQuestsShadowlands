@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateQuestsTable({
+    [51483] = {
+        name = "Il retaggio dei Ferroscuro",
+    },
     [56829] = {
         name = "Fino in fondo",
     },

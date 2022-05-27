@@ -12,6 +12,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [141159] = {
         name = "烏爾法",
     },
+    [144154] = {
+        name = "鐵砧族長索爾加登",
+    },
     [154627] = {
         name = "珊卓亞",
     },

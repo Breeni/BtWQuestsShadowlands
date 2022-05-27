@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateQuestsTable({
+    [51483] = {
+        name = "Наследие клана Черного Железа",
+    },
     [56829] = {
         name = "Глубинные хищники",
     },

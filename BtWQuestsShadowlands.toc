@@ -76,6 +76,7 @@ Database/Index.zhCN.lua
 Database/Index.zhTW.lua
 
 Database/Index.EternitysEnd.lua
+Database/Index.Patch_9_2_5.lua
 
 Introduction.lua
 EternitysEnd.lua

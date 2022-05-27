@@ -12,6 +12,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [141159] = {
         name = "奥尔法",
     },
+    [144154] = {
+        name = "铁砧守卫索加登",
+    },
     [154627] = {
         name = "山德里娅",
     },

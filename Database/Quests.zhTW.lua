@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateQuestsTable({
+    [51483] = {
+        name = "黑鐵的傳承",
+    },
     [56829] = {
         name = "底棲生物",
     },

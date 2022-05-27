@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateQuestsTable({
+    [51483] = {
+        name = "검은무쇠의 유산",
+    },
     [56829] = {
         name = "수렁의 삶",
     },

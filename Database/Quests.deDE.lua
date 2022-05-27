@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateQuestsTable({
+    [51483] = {
+        name = "Tradition der Dunkeleisenzwerge",
+    },
     [56829] = {
         name = "Gründler",
     },

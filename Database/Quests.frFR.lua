@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateQuestsTable({
+    [51483] = {
+        name = "L’héritage des Sombrefer",
+    },
     [56829] = {
         name = "Tout en bas de la chaîne alimentaire",
     },

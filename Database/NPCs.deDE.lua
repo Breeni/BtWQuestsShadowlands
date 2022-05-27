@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [144154] = {
+        name = "Ambossthan Thurgaden",
+    },
     [155533] = {
         name = "Der Oberste Kämmerer",
     },
