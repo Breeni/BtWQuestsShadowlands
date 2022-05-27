@@ -6,88 +6,77 @@ local Chain = BtWQuests.Constant.Chain.Shadowlands
 local LEVEL_RANGE = {60, 60}
 
 Database:AddChain(Chain.Chain92501, {
+    name = L["KNIGHTS_OF_BLOOD"],
     questline = 1216,
-    category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
-    major = true,
+    crest = "blood-elf",
+    restrictions = {
+        type = "race",
+        id = BtWQuests.Constant.Race.BloodElf
+    },
     prerequisites = {
         {
             type = "level",
             level = 60,
         },
         {
-            type = "covenant",
-            id = 3,
-        },
-        {
-            type = "quest",
-            ids = {57878, 62000},
+            type = "reputation",
+            id = 911,
+            standing = 8,
         },
     },
     active = {
         type = "quest",
-        ids = {
-            63214, 61475, 
-        },
+        ids = { 63479, 65652, },
         status = { "active", "completed", },
     },
     completed = {
         type = "quest",
-        id = 62899,
+        ids = { 63490, 65653, },
     },
     rewards = {
         {
-            name = L["SOULBIND_NIYA"],
+            type = "mount",
+            id = 1600,
         },
         {
-            type = "experience",
-            amounts = {
-                50100, 51100, 52050, 53200, 54200, 55200, 56200, 57200, 58100, 59150, 
+            type = "item",
+            id = 191604,
+        },
+        {
+            type = "item",
+            id = 191565,
+            restrictions = {
+                type = "class",
+                id = BtWQuests.Constant.Class.Paladin,
             },
-            minLevel = 50,
-            maxLevel = 59,
-            restrictions = 86994,
-        },
-        {
-            type = "money",
-            variations = {
-                {
-                    amounts = {
-                        2328300, 2345150, 2362000, 2378840, 2395690, 2412540, 2429390, 2446240, 2463080, 2479930, 2496780, 
-                    },
-                    minLevel = 50,
-                    maxLevel = 60,
-                    restrictions = 86994,
-                },
-                {
-                    amount = 2496780,
-                },
-            },
-        },
-        {
-            type = "currency",
-            id = 1822,
-            amount = 1,
-        },
-        {
-            type = "reputation",
-            id = 2465,
-            amount = 1500,
         },
     },
     items = {
         {
-            type = "quest",
-            id = 63479,
+            type = "npc",
+            id = 176789,
             x = 0,
             connections = {
                 1, 
             },
         },
         {
-            type = "quest",
-            id = 65652,
+            variations = {
+                {
+                    type = "quest",
+                    id = 63479,
+                    restrictions = {
+                        type = "class",
+                        id = BtWQuests.Constant.Class.Paladin,
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 65652,
+                },
+            },
             x = 0,
             connections = {
                 1, 
@@ -106,21 +95,20 @@ Database:AddChain(Chain.Chain92501, {
             id = 63481,
             x = 0,
             connections = {
-                1, 
+                1, 2, 
             },
         },
         {
             type = "quest",
             id = 63482,
-            x = 0,
+            x = -1,
             connections = {
-                1, 
+                2, 
             },
         },
         {
             type = "quest",
             id = 63483,
-            x = 0,
             connections = {
                 1, 
             },
@@ -130,37 +118,35 @@ Database:AddChain(Chain.Chain92501, {
             id = 63484,
             x = 0,
             connections = {
-                1, 
+                1, 2, 
             },
         },
         {
             type = "quest",
             id = 63485,
-            x = 0,
+            x = -1,
             connections = {
-                1, 
+                2, 
             },
         },
         {
             type = "quest",
             id = 63486,
-            x = 0,
             connections = {
-                1, 
-            },
-        },
-        {
-            type = "quest",
-            id = 63519,
-            x = 0,
-            connections = {
-                1, 
+                2, 
             },
         },
         {
             type = "quest",
             id = 63522,
-            x = 0,
+            x = -1,
+            connections = {
+                2, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63519,
             connections = {
                 1, 
             },
@@ -190,112 +176,116 @@ Database:AddChain(Chain.Chain92501, {
             },
         },
         {
-            type = "quest",
-            id = 63490,
-            x = 0,
-            connections = {
-                1, 
+            variations = {
+                {
+                    type = "quest",
+                    id = 63490,
+                    restrictions = {
+                        type = "class",
+                        id = BtWQuests.Constant.Class.Paladin,
+                    },
+                },
+                {
+                    type = "quest",
+                    id = 65653,
+                },
             },
-        },
-        {
-            type = "quest",
-            id = 65653,
             x = 0,
-            connections = {
-                1, 
-            },
         },
     }
 })
 Database:AddChain(Chain.Chain92502, {
     questline = 1098,
-    category = CATEGORY_ID,
     expansion = EXPANSION_ID,
     range = LEVEL_RANGE,
-    major = true,
+    crest = "dark-iron-dwarf",
+    restrictions = {
+        type = "race",
+        id = BtWQuests.Constant.Race.DarkIronDwarf
+    },
     prerequisites = {
         {
             type = "level",
-            level = 60,
-        },
-        {
-            type = "covenant",
-            id = 3,
+            level = 50,
         },
         {
             type = "quest",
-            ids = {57878, 62000},
-            lowPriority = true,
-        },
-        {
-            type = "chain",
-            id = Chain.ForQueenAndGrove,
-            upto = 62892,
+            id = 51483,
         },
     },
     active = {
         type = "quest",
-        id = 62893,
+        id = 63494,
         status = {'active', 'completed'},
     },
     completed = {
         type = "quest",
-        ids = { 62894, 62796, 62844, 62870 },
+        id = 65564,
     },
     rewards = {
         {
-            type = "experience",
-            variations = {
-                {
-                    amounts = {
-                        28575, 28600, 28600, 28650, 28650, 29150, 29700, 30150, 30700, 
-                    },
-                    minLevel = 51,
-                    maxLevel = 59,
-                    restrictions = 86994,
-                },
-                {
-                    amounts = {
-                        27600, 28050, 28600, 29050, 29550, 
-                    },
-                    minLevel = 55,
-                    maxLevel = 59,
-                },
-            },
+            type = "mount",
+            id = 1597,
         },
         {
-            type = "money",
-            variations = {
-                {
-                    amounts = {
-                        1057680, 1057915, 1058150, 1058380, 1058615, 1058850, 1068445, 1078040, 1087630, 1097225, 1106820, 
-                    },
-                    minLevel = 50,
-                    maxLevel = 60,
-                    restrictions = 86994,
-                },
-                {
-                    amounts = {
-                        1060020, 1069380, 1078740, 1088100, 1097460, 1106820, 
-                    },
-                    minLevel = 55,
-                    maxLevel = 60,
-                },
-            },
-        },
-        {
-            type = "currency",
-            id = 1810,
-            amount = 5,
-        },
-        {
-            type = "reputation",
-            id = 2432,
-            amount = 20,
+            type = "item",
+            id = 184922,
         },
     },
     items = {
-        
+        {
+            type = "npc",
+            id = 144154,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63494,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63498,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63501,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 63502,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65563,
+            x = 0,
+            connections = {
+                1, 
+            },
+        },
+        {
+            type = "quest",
+            id = 65564,
+            x = 0,
+        },
     }
 })
 
