@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [144119] = {
+        name = "Kasea Forgehargne",
+    },
     [144154] = {
         name = "Thane-enclume Thurgaden",
     },
@@ -936,6 +939,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [176100] = {
         name = "Iona Lame-Céleste",
     },
+    [176789] = {
+        name = "Dame Liadrin",
+    },
     [177155] = {
         name = "Scribe de la Voie Roh-Vess",
     },
@@ -992,6 +998,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [183677] = {
         name = "Uther le Porteur de Lumière",
+    },
+    [187905] = {
+        name = "Lilabrin",
     },
 })
 ]])()

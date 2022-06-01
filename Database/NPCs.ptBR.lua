@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [144119] = {
+        name = "Kasea Forja-da-ira",
+    },
     [144154] = {
         name = "Thane de Bigorna Thurgaden",
     },
@@ -989,6 +992,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [183677] = {
         name = "Uther, o Arauto da Luz",
+    },
+    [187905] = {
+        name = "Ramolilás",
     },
 })
 ]])()

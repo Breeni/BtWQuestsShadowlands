@@ -6,6 +6,9 @@ end
 
 loadstring([[
 BtWQuestsDatabase:UpdateNPCsTable({
+    [144119] = {
+        name = "Kasea Forjafuria",
+    },
     [144154] = {
         name = "Señor feudal del yunque Thurgaden",
     },
@@ -833,6 +836,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     },
     [183677] = {
         name = "Uther el Iluminado",
+    },
+    [187905] = {
+        name = "Ramalila",
     },
 })
 ]])()

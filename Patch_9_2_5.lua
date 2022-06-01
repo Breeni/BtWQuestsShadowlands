@@ -1,6 +1,3 @@
-if select(4, GetBuildInfo()) < 90205 then
-    return
-end
 local BtWQuests = BtWQuests
 local L = BtWQuests.L
 local Database = BtWQuests.Database
@@ -62,7 +59,7 @@ Database:AddChain(Chain.Chain92501, {
             id = 176789,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -82,7 +79,7 @@ Database:AddChain(Chain.Chain92501, {
             },
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -90,7 +87,7 @@ Database:AddChain(Chain.Chain92501, {
             id = 63480,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -98,7 +95,7 @@ Database:AddChain(Chain.Chain92501, {
             id = 63481,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -106,14 +103,14 @@ Database:AddChain(Chain.Chain92501, {
             id = 63482,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 63483,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -121,7 +118,7 @@ Database:AddChain(Chain.Chain92501, {
             id = 63484,
             x = 0,
             connections = {
-                1, 2, 
+                1, 2,
             },
         },
         {
@@ -129,14 +126,14 @@ Database:AddChain(Chain.Chain92501, {
             id = 63485,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 63486,
             connections = {
-                2, 
+                2,
             },
         },
         {
@@ -144,14 +141,14 @@ Database:AddChain(Chain.Chain92501, {
             id = 63522,
             x = -1,
             connections = {
-                2, 
+                2,
             },
         },
         {
             type = "quest",
             id = 63519,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -159,7 +156,7 @@ Database:AddChain(Chain.Chain92501, {
             id = 63487,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -167,7 +164,7 @@ Database:AddChain(Chain.Chain92501, {
             id = 63488,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -175,7 +172,7 @@ Database:AddChain(Chain.Chain92501, {
             id = 63489,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -244,7 +241,7 @@ Database:AddChain(Chain.Chain92502, {
             id = 144154,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -252,7 +249,7 @@ Database:AddChain(Chain.Chain92502, {
             id = 63494,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -260,7 +257,7 @@ Database:AddChain(Chain.Chain92502, {
             id = 63498,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -268,7 +265,7 @@ Database:AddChain(Chain.Chain92502, {
             id = 63501,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -276,7 +273,7 @@ Database:AddChain(Chain.Chain92502, {
             id = 63502,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -284,7 +281,7 @@ Database:AddChain(Chain.Chain92502, {
             id = 65563,
             x = 0,
             connections = {
-                1, 
+                1,
             },
         },
         {
@@ -294,8 +291,422 @@ Database:AddChain(Chain.Chain92502, {
         },
     }
 })
+Database:AddChain(Chain.Chain92503, {
+    name = { -- Silent Vigil
+        type = "quest",
+        id = 66170,
+    },
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "chain",
+            id = 91108,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 66170,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 66170,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 187436,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 66170,
+            x = 0,
+        },
+    }
+})
+Database:AddChain(Chain.Chain92504, {
+    name = L["RETURN_TO_LORDAERON"],
+    questline = 1294,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    crest = "alliance",
+    major = true,
+    restrictions = BtWQuests.Constant.Restrictions.Alliance,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 65655,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 65669,
+    },
+    rewards = {
+        {
+            name = L["OF_LORDAERON_TITLE"],
+        },
+        {
+            name = L["DARK_RANGER_ELF_CUSTOMIZATION"],
+        }
+    },
+    items = {
+        {
+            type = "npc",
+            id = 185525,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65655,
+            x = 0,
+            connections = {
+                1, 2,
+            },
+        },
+        {
+            type = "quest",
+            id = 65657,
+            x = -1,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 65658,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65659,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65660,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65661,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65662,
+            x = 0,
+            connections = {
+                1, 2,
+            },
+        },
+        {
+            type = "quest",
+            id = 65663,
+            x = -1,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 65664,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65665,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65666,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65667,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65668,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 66090,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65669,
+            x = 0,
+        },
+    }
+})
+Database:AddChain(Chain.Chain92505, {
+    name = L["RETURN_TO_LORDAERON"],
+    questline = 1295,
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    crest = "horde",
+    major = true,
+    restrictions = BtWQuests.Constant.Restrictions.Horde,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 65656,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 65788,
+    },
+    rewards = {
+        {
+            name = L["OF_LORDAERON_TITLE"],
+        },
+        {
+            name = L["DARK_RANGER_ELF_CUSTOMIZATION"],
+        }
+    },
+    items = {
+        {
+            type = "npc",
+            id = 173386,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65656,
+            x = 0,
+            connections = {
+                1, 2,
+            },
+        },
+        {
+            type = "quest",
+            id = 65657,
+            x = -1,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 65658,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65659,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65660,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65661,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65662,
+            x = 0,
+            connections = {
+                1, 2,
+            },
+        },
+        {
+            type = "quest",
+            id = 65663,
+            x = -1,
+            connections = {
+                2,
+            },
+        },
+        {
+            type = "quest",
+            id = 65664,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65665,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65666,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65667,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65668,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 66091,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 65788,
+            x = 0,
+        },
+    }
+})
+Database:AddChain(Chain.Chain92506, {
+    name = { -- A Gift of Hope
+        type = "quest",
+        id = 66243,
+    },
+    expansion = EXPANSION_ID,
+    range = LEVEL_RANGE,
+    prerequisites = {
+        {
+            type = "level",
+            level = 60,
+        },
+        {
+            type = "chain",
+            id = 91108,
+        },
+    },
+    active = {
+        type = "quest",
+        id = 66243,
+        status = {'active', 'completed'},
+    },
+    completed = {
+        type = "quest",
+        id = 66243,
+    },
+    items = {
+        {
+            type = "npc",
+            id = 187905,
+            x = 0,
+            connections = {
+                1,
+            },
+        },
+        {
+            type = "quest",
+            id = 66243,
+            x = 0,
+        },
+    }
+})
 
 Database:AddExpansionItems(EXPANSION_ID, {
+    {
+        type = "chain",
+        id = Chain.Chain92504,
+    },
+    {
+        type = "chain",
+        id = Chain.Chain92505,
+    },
+    {
+        type = "chain",
+        id = Chain.Chain92503,
+    },
+    {
+        type = "chain",
+        id = Chain.Chain92506,
+    },
     {
         type = "chain",
         id = Chain.Chain92501,
@@ -303,5 +714,5 @@ Database:AddExpansionItems(EXPANSION_ID, {
     {
         type = "chain",
         id = Chain.Chain92502,
-    }
+    },
 })
