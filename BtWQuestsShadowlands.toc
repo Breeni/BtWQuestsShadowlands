@@ -14,7 +14,7 @@
 ## X-Part-Of: BtWQuests
 ## X-Curse-Project-ID: 370493
 ## X-WoWI-ID: 25655
-## X-Wago-ID: Mj6j54NR
+## X-Wago-ID: ME6gQOG1
 
 Defines.lua
 
