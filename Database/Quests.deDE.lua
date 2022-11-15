@@ -2182,7 +2182,7 @@ BtWQuestsDatabase:UpdateQuestsTable({
         name = "GESUCHT: Lord Darion",
     },
     [60281] = {
-        name = "Regel Nr. 4: Eine Liste machen",
+        name = "Regel 4: Eine Liste machen",
     },
     [60284] = {
         name = "Regel Nr. 5: Seid wagemutig",

@@ -1017,6 +1017,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [168485] = {
         name = "Аполон",
     },
+    [168517] = {
+        name = "Калисфена",
+    },
     [168618] = {
         name = "Тессл Ябеда",
     },

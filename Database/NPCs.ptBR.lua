@@ -717,6 +717,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [168468] = {
         name = "A Acusadora",
     },
+    [168517] = {
+        name = "Calístene",
+    },
     [168618] = {
         name = "Tesle, o Caguete",
     },

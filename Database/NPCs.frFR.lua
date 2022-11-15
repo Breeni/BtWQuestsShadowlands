@@ -717,6 +717,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [168468] = {
         name = "L'Accusatrice",
     },
+    [168517] = {
+        name = "Kalisthène",
+    },
     [168618] = {
         name = "Pogne le Mouchard",
     },

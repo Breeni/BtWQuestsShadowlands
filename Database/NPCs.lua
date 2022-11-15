@@ -3333,8 +3333,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1702] = {
                 {
-                    x = 0.505958,
-                    y = 0.625654,
+                    x = 0.507692,
+                    y = 0.626923,
                 },
             },
         },
@@ -5578,8 +5578,8 @@ BtWQuestsDatabase:AddNPCsTable({
         locations = {
             [1970] = {
                 {
-                    x = 0.345918,
-                    y = 0.481536,
+                    x = 0.342083,
+                    y = 0.483694,
                 },
             },
         },

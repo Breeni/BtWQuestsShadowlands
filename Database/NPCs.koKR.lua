@@ -1017,6 +1017,9 @@ BtWQuestsDatabase:UpdateNPCsTable({
     [168485] = {
         name = "아폴론",
     },
+    [168517] = {
+        name = "칼리스테네",
+    },
     [168618] = {
         name = "밀고자 테슬",
     },
