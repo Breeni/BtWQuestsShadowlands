@@ -1,6 +1,6 @@
 # v6.7
 
-- Fixed some missing localization values for the Return to Lordaeron questlin
+- Fixed some missing localization values for the Return to Lordaeron questline
 
 # v6.6
 
