@@ -1,3 +1,11 @@
+# v6.7
+
+- Fixed some missing localization values for the Return to Lordaeron questlin
+
+# v6.6
+
+- Updated for 10.0.2
+
 # v6.5
 
 - Fixed requirements for The Last Sigil and following quest chains
