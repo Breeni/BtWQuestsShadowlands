@@ -1,3 +1,7 @@
+# v6.8
+
+- Updated to no longer auto load by default
+
 # v6.7
 
 - Fixed some missing localization values for the Return to Lordaeron questline
