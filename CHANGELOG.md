@@ -1,3 +1,7 @@
+# v6.9
+
+- Updated for 10.1
+
 # v6.8
 
 - Updated to no longer auto load by default
