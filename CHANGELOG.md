@@ -1,3 +1,7 @@
+# v6.12
+
+- Updated for 10.2.6
+
 # v6.11
 
 - Updated for 10.2.5
