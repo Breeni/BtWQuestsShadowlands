@@ -1,6 +1,6 @@
-## Interface: 100206
+## Interface: 100207
 ## Title: BtWQuests: Shadowlands
-## Version: 6.12
+## Version: 6.13
 ## Notes: Shadowlands quest data for BtWQuests
 ## Author: Breen
 ## Dependencies: BtWQuests
