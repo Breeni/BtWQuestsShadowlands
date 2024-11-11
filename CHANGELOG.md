@@ -1,3 +1,7 @@
+# v6.16
+
+- Updated to support Chromie Time
+
 # v6.15
 
 - Updated for 11.0.5
