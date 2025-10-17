@@ -1,3 +1,7 @@
+# v6.22
+
+- Fixed issue with 11.2.5 update
+
 # v6.21
 
 - Updated for 11.2.5
