@@ -1,4 +1,4 @@
-## Interface: 120005
+## Interface: 120005, 120007
 ## Title: BtWQuests: Shadowlands
 ## Version: @project-version@
 ## Notes: Shadowlands quest data for BtWQuests
